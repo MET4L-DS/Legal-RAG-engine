@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Data and indices (large files)
+data/
+*.faiss
+
+# Environment files
+.env
+
 # C extensions
 *.so
 

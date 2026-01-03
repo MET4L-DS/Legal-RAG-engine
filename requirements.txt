@@ -1,0 +1,22 @@
+# PDF Processing
+pymupdf>=1.24.0
+pdfplumber>=0.11.0
+
+# Embeddings & Vector Search
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# LLM Integration (Google Gemini)
+google-genai>=1.0.0
+
+# Hybrid Search
+rank-bm25>=0.2.2
+
+# CLI
+click>=8.1.0
+rich>=13.0.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
