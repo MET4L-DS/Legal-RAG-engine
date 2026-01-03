@@ -18,14 +18,17 @@ class LegalPDFParser:
     """Parser for Indian legal documents (BNS, BNSS, BSA)."""
     
     # Patterns for Indian legal documents
+    # Chapter pattern: handles both "CHAPTER I" and "CHAPTERI" (no space)
     CHAPTER_PATTERN = re.compile(
-        r'^CHAPTER\s+([IVXLCDM]+|[0-9]+)\s*[-–—]?\s*(.+?)$',
+        r'^CHAPTER\s*([IVXLCDM]+|[0-9]+)\s*[-–—]?\s*(.+?)$',
         re.IGNORECASE | re.MULTILINE
     )
     
+    # Section pattern: matches "103. Text..." or "103 Text..." at start of line or after newline
+    # More flexible to handle PDF text extraction quirks
     SECTION_PATTERN = re.compile(
-        r'^(\d+)\.\s*(.+?)(?:\.|$)',
-        re.MULTILINE
+        r'(?:^|\n)\s*(\d{1,3})\.\s+([A-Z\(].+?)(?=\n\s*\d{1,3}\.|\n\s*CHAPTER|\Z)',
+        re.MULTILINE | re.DOTALL
     )
     
     SUBSECTION_PATTERN = re.compile(
@@ -192,26 +195,32 @@ class LegalPDFParser:
         """Parse sections within a chapter."""
         sections = []
         
-        # Find all sections
+        # Find all sections using the pattern that captures full section text
         section_matches = list(self.SECTION_PATTERN.finditer(chapter_text))
         
-        for i, match in enumerate(section_matches):
+        for match in section_matches:
             section_no = match.group(1).strip()
-            section_title = match.group(2).strip()
+            section_text_full = match.group(2).strip()
+            
+            # Extract title from the first sentence/line
+            # Section title is typically the first line or until first period
+            title_match = re.match(r'^([^\n.]+?)(?:\.|—|\n)', section_text_full)
+            if title_match:
+                section_title = title_match.group(1).strip()
+            else:
+                section_title = section_text_full[:100].strip()
             
             # Clean up section title
             section_title = re.sub(r'\s+', ' ', section_title).strip()
             if len(section_title) > 200:
                 section_title = section_title[:200] + "..."
             
-            # Get section text
-            start_pos = match.end()
-            end_pos = section_matches[i + 1].start() if i + 1 < len(section_matches) else len(chapter_text)
-            section_text = chapter_text[start_pos:end_pos].strip()
+            # Use the captured text as section text
+            section_text = section_text_full
             
             # Find page numbers
             global_start = chapter_offset + match.start()
-            global_end = chapter_offset + end_pos
+            global_end = chapter_offset + match.end()
             page_start = self._find_page_for_position(global_start, pages_text, full_text)
             page_end = self._find_page_for_position(global_end, pages_text, full_text)
             

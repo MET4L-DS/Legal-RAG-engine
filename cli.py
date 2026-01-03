@@ -168,7 +168,8 @@ def index(parsed_dir: str, index_dir: str, model: str):
 @click.option("--top-k", "-k", default=5, help="Number of results to return")
 @click.option("--no-llm", is_flag=True, help="Skip LLM answer generation")
 @click.option("--verbose", "-v", is_flag=True, help="Show detailed retrieval results")
-def query(question: str, index_dir: str, model: str, top_k: int, no_llm: bool, verbose: bool):
+@click.option("--show-context", is_flag=True, help="Show raw context sent to LLM")
+def query(question: str, index_dir: str, model: str, top_k: int, no_llm: bool, verbose: bool, show_context: bool):
     """Query the legal document database."""
     from src.embedder import HierarchicalEmbedder
     from src.vector_store import MultiLevelVectorStore
@@ -269,6 +270,16 @@ def query(question: str, index_dir: str, model: str, top_k: int, no_llm: bool, v
         console.print("\n[bold yellow]📌 Citations:[/bold yellow]")
         for citation in result["citations"][:5]:
             console.print(f"  • {citation}")
+    
+    # Show context length in verbose mode
+    if verbose and result["context"]:
+        console.print(f"\n[dim]Context sent to LLM: {len(result['context'])} chars (~{len(result['context'])//4} tokens)[/dim]")
+    
+    # Show raw context if requested
+    if show_context and result["context"]:
+        console.print("\n[bold magenta]📝 Raw Context Sent to LLM:[/bold magenta]")
+        console.print(Panel(result["context"][:3000] + ("..." if len(result["context"]) > 3000 else ""), 
+                           title="Context (first 3000 chars)", border_style="magenta"))
     
     # Show LLM answer
     if result["answer"]:
