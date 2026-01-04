@@ -3,6 +3,7 @@
 Implements: Document → Chapter → Section → Subsection retrieval.
 """
 
+import re
 from typing import Optional
 from dataclasses import dataclass, field
 import numpy as np
@@ -10,6 +11,51 @@ import numpy as np
 from .models import SearchResult
 from .vector_store import MultiLevelVectorStore
 from .embedder import HierarchicalEmbedder
+
+
+def extract_query_hints(query: str) -> dict:
+    """Extract explicit document/section references from the query.
+    
+    Handles queries like:
+    - "What does section 103 of BNS say?"
+    - "BNS section 45"
+    - "Section 123 BNSS"
+    """
+    hints = {
+        "doc_id": None,
+        "section_no": None,
+    }
+    
+    query_upper = query.upper()
+    
+    # Detect document references
+    if "BNS" in query_upper and "BNSS" not in query_upper:
+        hints["doc_id"] = "BNS_2023"
+    elif "BNSS" in query_upper:
+        hints["doc_id"] = "BNSS_2023"
+    elif "BSA" in query_upper:
+        hints["doc_id"] = "BSA_2023"
+    elif "NYAYA" in query_upper or "SANHITA" in query_upper:
+        hints["doc_id"] = "BNS_2023"
+    elif "SURAKSHA" in query_upper or "NAGARIK" in query_upper:
+        hints["doc_id"] = "BNSS_2023"
+    elif "SAKSHYA" in query_upper or "EVIDENCE" in query_upper.split():
+        hints["doc_id"] = "BSA_2023"
+    
+    # Detect section number references
+    section_patterns = [
+        r'section\s+(\d+)',
+        r'sec\.?\s*(\d+)',
+        r'§\s*(\d+)',
+    ]
+    
+    for pattern in section_patterns:
+        match = re.search(pattern, query, re.IGNORECASE)
+        if match:
+            hints["section_no"] = match.group(1)
+            break
+    
+    return hints
 
 
 @dataclass
@@ -21,11 +67,13 @@ class RetrievalConfig:
     top_k_sections: int = 8
     top_k_subsections: int = 15
     
-    # Score thresholds for filtering (lowered for better recall)
-    min_doc_score: float = 0.25
-    min_chapter_score: float = 0.25
-    min_section_score: float = 0.25
-    min_subsection_score: float = 0.25
+    # Score thresholds for filtering
+    # Lower thresholds to avoid filtering out relevant results
+    # Document scores are typically low (0.05-0.15) for semantic similarity
+    min_doc_score: float = 0.0  # Don't filter documents - let hierarchical filtering work
+    min_chapter_score: float = 0.1
+    min_section_score: float = 0.15
+    min_subsection_score: float = 0.15
     
     # Enable/disable hybrid search
     use_hybrid_search: bool = True
@@ -129,6 +177,9 @@ class HierarchicalRetriever:
         """
         result = RetrievalResult(query=query)
         
+        # Extract explicit hints from query (e.g., "section 103 of BNS")
+        hints = extract_query_hints(query)
+        
         # Generate query embedding
         query_embedding = self.embedder.embed_text(query)
         
@@ -140,9 +191,29 @@ class HierarchicalRetriever:
         
         # Get document filter for next stages
         doc_filter = None
-        if self.config.use_hierarchical_filtering and result.documents:
+        if hints["doc_id"]:
+            # Use explicitly mentioned document
+            doc_filter = hints["doc_id"]
+        elif self.config.use_hierarchical_filtering and result.documents:
             # Use top scoring document
             doc_filter = result.documents[0].doc_id
+        
+        # If explicit section is mentioned, do direct lookup (bypass semantic search)
+        if hints["section_no"]:
+            # Direct lookup by section number
+            result.sections = self.store.lookup_section_by_number(
+                hints["section_no"], 
+                doc_filter=hints["doc_id"]  # Use hint doc_id, not filtered doc_id
+            )
+            result.subsections = self.store.lookup_subsections_by_section(
+                hints["section_no"],
+                doc_filter=hints["doc_id"]
+            )
+            
+            # If found, build context and return
+            if result.sections or result.subsections:
+                result.get_context_for_llm()
+                return result
         
         # Stage 2: Chapter Search
         result.chapters = self._stage2_chapter_search(
@@ -173,6 +244,33 @@ class HierarchicalRetriever:
         result.get_context_for_llm()
         
         return result
+    
+    def _direct_section_lookup(
+        self,
+        query_embedding: np.ndarray,
+        query_text: str,
+        doc_filter: Optional[str],
+        section_no: str
+    ) -> list[SearchResult]:
+        """Directly look up a specific section by number."""
+        # Search sections with higher k to find the specific section
+        results = self.store.search_sections(
+            query_embedding,
+            query_text,
+            k=50,  # Search more to ensure we find the right one
+            doc_filter=doc_filter,
+            chapter_filter=None,
+            use_hybrid=True
+        )
+        
+        # Filter to exact section number match
+        exact_matches = [r for r in results if r.section_no == section_no]
+        
+        if exact_matches:
+            return exact_matches
+        
+        # If no exact match, return top results
+        return results[:self.config.top_k_sections]
     
     def _stage1_document_routing(
         self, 

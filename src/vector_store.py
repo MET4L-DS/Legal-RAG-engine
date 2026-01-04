@@ -195,6 +195,66 @@ class MultiLevelVectorStore:
         
         return results[:k]
     
+    def lookup_section_by_number(
+        self,
+        section_no: str,
+        doc_filter: Optional[str] = None
+    ) -> list[SearchResult]:
+        """Direct lookup of sections by section number (no semantic search).
+        
+        Use this when user explicitly references a section number.
+        """
+        results = []
+        for meta in self.section_index.metadata:
+            if meta.section_no == section_no:
+                if doc_filter is None or meta.doc_id == doc_filter:
+                    results.append(SearchResult(
+                        doc_id=meta.doc_id,
+                        chapter_no=meta.chapter_no,
+                        section_no=meta.section_no,
+                        subsection_no=meta.subsection_no,
+                        text=meta.text,
+                        score=1.0,  # Exact match
+                        level="section",
+                        metadata={
+                            "chapter_title": meta.chapter_title,
+                            "section_title": meta.section_title,
+                            "page": meta.page,
+                            "type": meta.type
+                        }
+                    ))
+        return results
+    
+    def lookup_subsections_by_section(
+        self,
+        section_no: str,
+        doc_filter: Optional[str] = None
+    ) -> list[SearchResult]:
+        """Direct lookup of subsections by section number (no semantic search).
+        
+        Use this when user explicitly references a section number.
+        """
+        results = []
+        for meta in self.subsection_index.metadata:
+            if meta.section_no == section_no:
+                if doc_filter is None or meta.doc_id == doc_filter:
+                    results.append(SearchResult(
+                        doc_id=meta.doc_id,
+                        chapter_no=meta.chapter_no,
+                        section_no=meta.section_no,
+                        subsection_no=meta.subsection_no,
+                        text=meta.text,
+                        score=1.0,  # Exact match
+                        level="subsection",
+                        metadata={
+                            "chapter_title": meta.chapter_title,
+                            "section_title": meta.section_title,
+                            "page": meta.page,
+                            "type": meta.type
+                        }
+                    ))
+        return results
+    
     def search_sections(
         self, 
         query_embedding: np.ndarray, 
@@ -228,8 +288,11 @@ class MultiLevelVectorStore:
         use_hybrid: bool = True
     ) -> list[SearchResult]:
         """Search at subsection level with optional filters."""
+        # Search with higher k when filters are applied to ensure we get enough results
+        search_k = k * 10 if section_filter else k * 3
+        
         results = self._hybrid_search(
-            self.subsection_index, query_embedding, query_text, k * 3, "subsection", use_hybrid
+            self.subsection_index, query_embedding, query_text, search_k, "subsection", use_hybrid
         )
         
         if doc_filter:
