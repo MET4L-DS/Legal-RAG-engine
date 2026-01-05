@@ -61,9 +61,11 @@ def extract_query_hints(query: str) -> dict:
     # Detect topic keywords to enhance search
     # Map common terms to legal terminology
     topic_mappings = {
-        'sexual harassment': ['rape', 'victim', 'sexual', 'woman', 'examination'],
-        'rape': ['rape', 'victim', 'sexual', 'woman', 'examination', 'medical'],
-        'survivor': ['victim', 'rape', 'sexual', 'examination', 'medical', 'treatment'],
+        'sexual harassment': ['rape', 'victim', 'sexual', 'woman', 'examination', 'medical', 'complaint', 'fir'],
+        'rape survivor': ['rape', 'victim', 'sexual', 'woman', 'examination', 'medical', 'complaint', 'fir', 'investigation', 'accused'],
+        'rape': ['rape', 'victim', 'sexual', 'woman', 'examination', 'medical', 'complaint', 'fir'],
+        'survivor': ['victim', 'rape', 'sexual', 'examination', 'medical', 'treatment', 'complaint'],
+        'victim': ['victim', 'examination', 'medical', 'treatment', 'complaint'],
         'theft': ['theft', 'stolen', 'property', 'movable'],
         'murder': ['murder', 'death', 'homicide', 'culpable'],
         'arrest': ['arrest', 'custody', 'detention', 'bail'],
@@ -71,6 +73,8 @@ def extract_query_hints(query: str) -> dict:
         'evidence': ['evidence', 'witness', 'testimony', 'examination'],
         'fir': ['information', 'complaint', 'cognizance', 'police'],
         'complaint': ['complaint', 'cognizance', 'magistrate'],
+        'fight back': ['complaint', 'fir', 'information', 'accused', 'prosecution', 'trial'],
+        'legal action': ['complaint', 'fir', 'information', 'cognizance', 'trial', 'court'],
     }
     
     for term, keywords in topic_mappings.items():
@@ -85,23 +89,24 @@ class RetrievalConfig:
     """Configuration for the retrieval pipeline."""
     # Number of results at each stage
     top_k_documents: int = 3
-    top_k_chapters: int = 5
-    top_k_sections: int = 8
-    top_k_subsections: int = 15
+    top_k_chapters: int = 10  # Increased from 5 to capture more potentially relevant chapters
+    top_k_sections: int = 12  # Increased from 8
+    top_k_subsections: int = 20  # Increased from 15
     
     # Score thresholds for filtering
     # Lower thresholds to avoid filtering out relevant results
     # Document scores are typically low (0.05-0.15) for semantic similarity
     min_doc_score: float = 0.0  # Don't filter documents - let hierarchical filtering work
-    min_chapter_score: float = 0.1
-    min_section_score: float = 0.15
-    min_subsection_score: float = 0.15
+    min_chapter_score: float = 0.05  # Lowered from 0.1 to be less aggressive
+    min_section_score: float = 0.1  # Lowered from 0.15
+    min_subsection_score: float = 0.1  # Lowered from 0.15
     
     # Enable/disable hybrid search
     use_hybrid_search: bool = True
     
     # Enable/disable hierarchical filtering
-    use_hierarchical_filtering: bool = True
+    # When False, sections are searched across all chapters, not just top-k chapters
+    use_hierarchical_filtering: bool = False  # Disabled to avoid missing relevant sections
 
 
 @dataclass

@@ -32,9 +32,9 @@ class IndexMetadata:
 @dataclass
 class LevelIndex:
     """Vector index for a single hierarchical level."""
-    faiss_index: Optional[faiss.Index] = None
+    faiss_index: Optional[faiss.Index] = None  # type: ignore
     metadata: list[IndexMetadata] = field(default_factory=list)
-    bm25_index: Optional[BM25Okapi] = None
+    bm25_index: Optional[BM25Okapi] = None  # type: ignore
     texts: list[str] = field(default_factory=list)
 
 
@@ -145,7 +145,7 @@ class MultiLevelVectorStore:
         # Normalize embedding for cosine similarity
         embedding = embedding / np.linalg.norm(embedding, axis=1, keepdims=True)
         
-        level_index.faiss_index.add(embedding)
+        level_index.faiss_index.add(embedding)  # type: ignore
         level_index.metadata.append(metadata)
         level_index.texts.append(metadata.text)
     
@@ -316,17 +316,17 @@ class MultiLevelVectorStore:
         use_hybrid: bool = True
     ) -> list[SearchResult]:
         """Perform hybrid vector + BM25 search."""
-        if level_index.faiss_index.ntotal == 0:
+        if level_index.faiss_index.ntotal == 0:  # type: ignore
             return []
         
-        k = min(k, level_index.faiss_index.ntotal)
+        k = min(k, level_index.faiss_index.ntotal)  # type: ignore
         
         # Normalize query embedding
         query_embedding = query_embedding.reshape(1, -1).astype(np.float32)
         query_embedding = query_embedding / np.linalg.norm(query_embedding)
         
         # Vector search
-        vector_scores, vector_indices = level_index.faiss_index.search(query_embedding, k)
+        vector_scores, vector_indices = level_index.faiss_index.search(query_embedding, k)  # type: ignore
         vector_scores = vector_scores[0]
         vector_indices = vector_indices[0]
         
@@ -365,9 +365,9 @@ class MultiLevelVectorStore:
             vector_score = scores["vector_score"]
             bm25_score = scores["bm25_score"]
             
-            # Simple weighted combination
+            # Weighted combination - increased BM25 weight for better keyword matching
             if use_hybrid and bm25_score > 0:
-                combined_score = 0.7 * vector_score + 0.3 * min(bm25_score / 10, 1.0)
+                combined_score = 0.4 * vector_score + 0.6 * min(bm25_score / 10, 1.0)
             else:
                 combined_score = vector_score
             
@@ -495,9 +495,9 @@ class MultiLevelVectorStore:
     def get_stats(self) -> dict:
         """Get statistics about the indices."""
         return {
-            "documents": self.doc_index.faiss_index.ntotal,
-            "chapters": self.chapter_index.faiss_index.ntotal,
-            "sections": self.section_index.faiss_index.ntotal,
-            "subsections": self.subsection_index.faiss_index.ntotal,
+            "documents": self.doc_index.faiss_index.ntotal,  # type: ignore
+            "chapters": self.chapter_index.faiss_index.ntotal,  # type: ignore
+            "sections": self.section_index.faiss_index.ntotal,  # type: ignore
+            "subsections": self.subsection_index.faiss_index.ntotal,  # type: ignore
             "embedding_dim": self.embedding_dim
         }

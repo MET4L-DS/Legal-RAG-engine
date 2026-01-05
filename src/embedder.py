@@ -132,7 +132,7 @@ class HierarchicalEmbedder:
     def _weighted_mean_pooling(self, subsections: list[Subsection]) -> np.ndarray:
         """Compute weighted mean of subsection embeddings based on type."""
         if not subsections:
-            return np.zeros(self.embedding_dim)
+            return np.zeros(self.embedding_dim)  # type: ignore
         
         embeddings = []
         weights = []
@@ -143,7 +143,7 @@ class HierarchicalEmbedder:
                 weights.append(self.TYPE_WEIGHTS.get(sub.type, 0.1))
         
         if not embeddings:
-            return np.zeros(self.embedding_dim)
+            return np.zeros(self.embedding_dim)  # type: ignore
         
         embeddings = np.array(embeddings)
         weights = np.array(weights)

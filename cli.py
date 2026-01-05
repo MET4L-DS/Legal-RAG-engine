@@ -134,6 +134,7 @@ def index(parsed_dir: str, index_dir: str, model: str):
         embedder.embed_document(doc)
     
     # Build vector store
+    assert embedder.embedding_dim is not None, "Embedding dimension not initialized"
     store = MultiLevelVectorStore(embedding_dim=embedder.embedding_dim)
     
     for doc in documents:
@@ -191,14 +192,15 @@ def query(question: str, index_dir: str, model: str, top_k: int, no_llm: bool, v
         embedder = HierarchicalEmbedder(model_name=model)
         
         progress.update(task, description="Loading indices...")
+        assert embedder.embedding_dim is not None, "Embedding dimension not initialized"
         store = MultiLevelVectorStore(embedding_dim=embedder.embedding_dim)
         store.load(index_path)
     
     # Configure retriever
     config = RetrievalConfig(
         top_k_subsections=top_k,
-        use_hybrid_search=True,
-        use_hierarchical_filtering=True
+        use_hybrid_search=True
+        # use_hierarchical_filtering defaults to False for better recall
     )
     
     retriever = HierarchicalRetriever(store, embedder, config)
@@ -326,6 +328,7 @@ def chat(index_dir: str, model: str):
         embedder = HierarchicalEmbedder(model_name=model)
         
         progress.update(task, description="Loading indices...")
+        assert embedder.embedding_dim is not None, "Embedding dimension not initialized"
         store = MultiLevelVectorStore(embedding_dim=embedder.embedding_dim)
         store.load(index_path)
     
@@ -337,8 +340,8 @@ def chat(index_dir: str, model: str):
     # Configure retriever
     config = RetrievalConfig(
         top_k_subsections=5,
-        use_hybrid_search=True,
-        use_hierarchical_filtering=True
+        use_hybrid_search=True
+        # use_hierarchical_filtering defaults to False for better recall
     )
     
     retriever = HierarchicalRetriever(store, embedder, config)
