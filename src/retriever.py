@@ -4,7 +4,7 @@ Implements: Document → Chapter → Section → Subsection retrieval.
 """
 
 import re
-from typing import Optional
+from typing import Optional, Any
 from dataclasses import dataclass, field
 import numpy as np
 
@@ -422,7 +422,7 @@ Instructions:
     def __init__(
         self,
         retriever: HierarchicalRetriever,
-        llm_client = None,
+        llm_client: Optional[Any] = None,
         model: str = "gemini-1.5-flash"
     ):
         """Initialize the RAG system.
@@ -507,12 +507,13 @@ Answer:"""
             for attempt in range(max_retries):
                 try:
                     from google.genai import types
+                    assert self.llm_client is not None, "LLM client not initialized"
                     response = self.llm_client.models.generate_content(
                         model=model,
                         contents=full_prompt,
                         config=types.GenerateContentConfig(
-                            temperature=0.1,
-                            max_output_tokens=1000,
+                            temperature=0.1,  # type: ignore
+                            max_output_tokens=1000,  # type: ignore
                         )
                     )
                     return response.text
