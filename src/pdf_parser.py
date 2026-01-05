@@ -18,10 +18,11 @@ class LegalPDFParser:
     """Parser for Indian legal documents (BNS, BNSS, BSA)."""
     
     # Patterns for Indian legal documents
-    # Chapter pattern: handles both "CHAPTER I" and "CHAPTERI" (no space)
+    # Chapter pattern: Requires CHAPTER in uppercase, title on next line in UPPERCASE
+    # This excludes mid-sentence references like "Chapter XIV:" followed by lowercase text
     CHAPTER_PATTERN = re.compile(
-        r'^CHAPTER\s*([IVXLCDM]+|[0-9]+)\s*[-–—]?\s*(.+?)$',
-        re.IGNORECASE | re.MULTILINE
+        r'^CHAPTER\s+([IVXLCDM]+|[0-9]+)\s*[-–—]?\s*\n([A-Z][A-Z\s,]+)',
+        re.MULTILINE
     )
     
     # Section pattern: matches "103. Text..." or "103 Text..." at start of line or after newline
@@ -54,6 +55,73 @@ class LegalPDFParser:
     def __init__(self):
         self.current_doc: Optional[LegalDocument] = None
     
+    # Pattern to detect Table of Contents / Arrangement of Clauses sections
+    TOC_INDICATORS = [
+        "ARRANGEMENT OF CLAUSES",
+        "TABLE OF CONTENTS",
+        "STATEMENT OF OBJECTS AND REASONS",
+        "MEMORANDUM REGARDING DELEGATED LEGISLATION",
+        "FINANCIAL MEMORANDUM",
+        "AS INTRODUCED IN LOK SABHA",
+        "AS PASSED BY"
+    ]
+    
+    # Pattern to detect actual law content start
+    LAW_START_PATTERNS = [
+        r'BE\s+it\s+enacted\s+by\s+Parliament',  # "BE it enacted by Parliament"
+        r'An\s+Act\s+to',  # "An Act to..."
+        r'1\.\s*\(1\)\s*This\s+Act',  # "1. (1) This Act..."
+        r'Short\s+title.*extent.*commencement',  # Section 1 content
+    ]
+    
+    def _skip_toc_pages(self, pages_text: list[dict]) -> list[dict]:
+        """Skip Table of Contents and other preliminary pages.
+        
+        Indian legal PDFs often have:
+        - Arrangement of Clauses (TOC) at the beginning (just section numbers & titles)
+        - Statement of Objects and Reasons at the end
+        - Financial Memorandum
+        
+        We want to skip these and only parse the actual law text.
+        The key marker is "BE it enacted by Parliament" which starts the actual law.
+        """
+        # Compile law start patterns
+        law_patterns = [re.compile(p, re.IGNORECASE) for p in self.LAW_START_PATTERNS]
+        
+        # Find where actual law content starts
+        # Look for the "BE it enacted by Parliament" pattern which definitively marks law start
+        start_idx = 0
+        for i, page in enumerate(pages_text):
+            text = page["text"]
+            
+            # Check if this page has the definitive law start marker
+            has_law_start = any(p.search(text) for p in law_patterns)
+            
+            # Also check it has Chapter I or Section 1 to be sure it's actual content
+            has_chapter_one = bool(re.search(r'CHAPTER\s*I\b', text, re.IGNORECASE))
+            has_section_one = bool(re.search(r'\b1\.\s*\(1\)', text))
+            
+            if has_law_start and (has_chapter_one or has_section_one):
+                start_idx = i
+                break
+        
+        # Find where actual law content ends (before Statement of Objects)
+        end_idx = len(pages_text)
+        for i in range(len(pages_text) - 1, -1, -1):
+            text_normalized = ' '.join(pages_text[i]["text"].upper().split())
+            if "STATEMENT OF OBJECTS AND REASONS" in text_normalized:
+                end_idx = i
+                break
+            elif "FINANCIAL MEMORANDUM" in text_normalized:
+                end_idx = i
+                break
+            elif "MEMORANDUM REGARDING DELEGATED" in text_normalized:
+                end_idx = i
+                break
+        
+        print(f"Skipping TOC: parsing pages {start_idx + 1} to {end_idx} (of {len(pages_text)})")
+        return pages_text[start_idx:end_idx]
+    
     def parse_pdf(self, pdf_path: str | Path) -> LegalDocument:
         """Parse a legal PDF into structured format."""
         pdf_path = Path(pdf_path)
@@ -76,19 +144,22 @@ class LegalPDFParser:
         
         doc.close()
         
+        # Skip Table of Contents and other preliminary/trailing sections
+        filtered_pages = self._skip_toc_pages(pages_text)
+        
         # Create document
         legal_doc = LegalDocument(
             doc_id=doc_info["doc_id"],
             title=doc_info["title"],
             short_name=doc_info["short_name"],
-            total_pages=len(pages_text),
+            total_pages=len(pages_text),  # Keep original page count
             version=doc_info.get("version", "2023"),
             effective_date=doc_info.get("effective_date", "2023-07-01")
         )
         
-        # Parse structure
-        full_text = "\n".join([p["text"] for p in pages_text])
-        legal_doc = self._parse_structure(legal_doc, full_text, pages_text)
+        # Parse structure using filtered pages
+        full_text = "\n".join([p["text"] for p in filtered_pages])
+        legal_doc = self._parse_structure(legal_doc, full_text, filtered_pages)
         
         return legal_doc
     
@@ -177,11 +248,94 @@ class LegalPDFParser:
             
             legal_doc.chapters.append(chapter)
         
+        # Deduplicate chapters and sections
+        # Keep chapters with the most content (actual law vs TOC entries)
+        legal_doc = self._deduplicate_content(legal_doc)
+        
         # Generate document summary
         if legal_doc.chapters:
             chapter_summaries = [f"Chapter {c.chapter_no}: {c.chapter_title}" 
                                for c in legal_doc.chapters]
             legal_doc.summary = f"{legal_doc.title}. Contains {len(legal_doc.chapters)} chapters: " + "; ".join(chapter_summaries[:10])
+        
+        return legal_doc
+    
+    def _deduplicate_content(self, legal_doc: LegalDocument) -> LegalDocument:
+        """Remove duplicate chapters and sections, keeping the ones with most content.
+        
+        Some PDFs have TOC sections that create duplicate chapter/section entries
+        with just titles. We want to keep the actual law content.
+        """
+        # First, collect ALL sections across all chapters and dedupe globally
+        all_sections: dict[str, tuple[Chapter, Section]] = {}
+        
+        for chapter in legal_doc.chapters:
+            for section in chapter.sections:
+                sec_no = section.section_no
+                if sec_no not in all_sections:
+                    all_sections[sec_no] = (chapter, section)
+                else:
+                    existing_ch, existing_sec = all_sections[sec_no]
+                    # Keep the one with more content
+                    if len(section.full_text) > len(existing_sec.full_text):
+                        all_sections[sec_no] = (chapter, section)
+        
+        # Track best chapter for each chapter number
+        best_chapters: dict[str, Chapter] = {}
+        
+        for chapter in legal_doc.chapters:
+            ch_no = chapter.chapter_no
+            
+            # Skip chapters with invalid/empty titles (likely spurious matches)
+            if not chapter.chapter_title or chapter.chapter_title == ':' or len(chapter.chapter_title) < 3:
+                continue
+            
+            # Filter sections to only include ones that belong to this chapter (best version)
+            chapter.sections = [
+                sec for sec in chapter.sections 
+                if sec.section_no in all_sections and all_sections[sec.section_no][0] == chapter
+            ]
+            
+            # Skip chapters with no sections after filtering
+            if not chapter.sections:
+                continue
+            
+            # Calculate chapter content score
+            section_content_len = sum(len(s.full_text) for s in chapter.sections)
+            
+            # Keep this chapter if it's better than what we have
+            if ch_no not in best_chapters:
+                best_chapters[ch_no] = chapter
+            else:
+                existing_len = sum(len(s.full_text) for s in best_chapters[ch_no].sections)
+                if section_content_len > existing_len:
+                    best_chapters[ch_no] = chapter
+        
+        # Sort chapters by number
+        def chapter_sort_key(ch: Chapter) -> tuple:
+            # Convert roman numerals to numbers for sorting
+            roman_map = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+            ch_no = ch.chapter_no.upper()
+            if ch_no.isdigit():
+                return (int(ch_no),)
+            # Try to convert roman numeral
+            try:
+                result = 0
+                for i, c in enumerate(ch_no):
+                    if c in roman_map:
+                        if i + 1 < len(ch_no) and roman_map.get(ch_no[i + 1], 0) > roman_map[c]:
+                            result -= roman_map[c]
+                        else:
+                            result += roman_map[c]
+                return (result,)
+            except:
+                return (999, ch_no)  # Unknown format, sort last
+        
+        legal_doc.chapters = sorted(best_chapters.values(), key=chapter_sort_key)
+        
+        # Sort sections within each chapter
+        for chapter in legal_doc.chapters:
+            chapter.sections.sort(key=lambda s: int(s.section_no) if s.section_no.isdigit() else 999)
         
         return legal_doc
     

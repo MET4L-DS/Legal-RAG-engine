@@ -20,13 +20,16 @@ def extract_query_hints(query: str) -> dict:
     - "What does section 103 of BNS say?"
     - "BNS section 45"
     - "Section 123 BNSS"
+    - "procedure for rape in BNSS"
     """
     hints = {
         "doc_id": None,
         "section_no": None,
+        "topic_keywords": [],  # Additional keywords to boost search
     }
     
     query_upper = query.upper()
+    query_lower = query.lower()
     
     # Detect document references
     if "BNS" in query_upper and "BNSS" not in query_upper:
@@ -54,6 +57,25 @@ def extract_query_hints(query: str) -> dict:
         if match:
             hints["section_no"] = match.group(1)
             break
+    
+    # Detect topic keywords to enhance search
+    # Map common terms to legal terminology
+    topic_mappings = {
+        'sexual harassment': ['rape', 'victim', 'sexual', 'woman', 'examination'],
+        'rape': ['rape', 'victim', 'sexual', 'woman', 'examination', 'medical'],
+        'survivor': ['victim', 'rape', 'sexual', 'examination', 'medical', 'treatment'],
+        'theft': ['theft', 'stolen', 'property', 'movable'],
+        'murder': ['murder', 'death', 'homicide', 'culpable'],
+        'arrest': ['arrest', 'custody', 'detention', 'bail'],
+        'bail': ['bail', 'bond', 'surety', 'release'],
+        'evidence': ['evidence', 'witness', 'testimony', 'examination'],
+        'fir': ['information', 'complaint', 'cognizance', 'police'],
+        'complaint': ['complaint', 'cognizance', 'magistrate'],
+    }
+    
+    for term, keywords in topic_mappings.items():
+        if term in query_lower:
+            hints["topic_keywords"].extend(keywords)
     
     return hints
 
@@ -180,11 +202,16 @@ class HierarchicalRetriever:
         # Extract explicit hints from query (e.g., "section 103 of BNS")
         hints = extract_query_hints(query)
         
+        # Enhance query text with topic keywords for better BM25 matching
+        enhanced_query = query
+        if hints["topic_keywords"]:
+            enhanced_query = query + " " + " ".join(hints["topic_keywords"])
+        
         # Generate query embedding
         query_embedding = self.embedder.embed_text(query)
         
         # Stage 1: Document Routing
-        result.documents = self._stage1_document_routing(query_embedding, query)
+        result.documents = self._stage1_document_routing(query_embedding, enhanced_query)
         
         if not result.documents:
             return result
@@ -217,27 +244,30 @@ class HierarchicalRetriever:
         
         # Stage 2: Chapter Search
         result.chapters = self._stage2_chapter_search(
-            query_embedding, query, doc_filter
+            query_embedding, enhanced_query, doc_filter
         )
         
         # Get chapter filter for next stages
+        # Skip chapter filtering if a specific document was mentioned in the query
+        # This allows broader section search within that document
         chapter_filter = None
-        if self.config.use_hierarchical_filtering and result.chapters:
+        if self.config.use_hierarchical_filtering and result.chapters and not hints["doc_id"]:
             chapter_filter = [c.chapter_no for c in result.chapters]
         
         # Stage 3: Section Search
         result.sections = self._stage3_section_search(
-            query_embedding, query, doc_filter, chapter_filter
+            query_embedding, enhanced_query, doc_filter, chapter_filter
         )
         
         # Get section filter for final stage
+        # Skip section filtering when document is explicitly mentioned
         section_filter = None
-        if self.config.use_hierarchical_filtering and result.sections:
+        if self.config.use_hierarchical_filtering and result.sections and not hints["doc_id"]:
             section_filter = [s.section_no for s in result.sections]
         
         # Stage 4: Subsection Search (Final Answer)
         result.subsections = self._stage4_subsection_search(
-            query_embedding, query, doc_filter, chapter_filter, section_filter
+            query_embedding, enhanced_query, doc_filter, chapter_filter, section_filter
         )
         
         # Build context
