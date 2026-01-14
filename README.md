@@ -6,10 +6,11 @@ A hierarchical Retrieval-Augmented Generation (RAG) system for Indian legal docu
 
 -   ✅ **Hierarchical Document Parsing**: Extracts structure from legal PDFs (Chapters, Sections, Subsections)
 -   ✅ **Multi-Level Embeddings**: Creates embeddings at all hierarchy levels with type-based weighting
--   ✅ **Hybrid Search**: Combines vector similarity (FAISS) with keyword matching (BM25)
+-   ✅ **Hybrid Search**: Combines vector similarity (40%) with keyword matching (60% BM25)
+-   ✅ **Intelligent Query Processing**: Detects explicit section references and topic keywords
 -   ✅ **4-Stage Retrieval**: Document routing → Chapter search → Section search → Subsection search
 -   ✅ **Citation Support**: Generates proper legal citations for all results
--   ✅ **LLM Integration**: Optional OpenAI integration for natural language answers
+-   ✅ **LLM Integration**: Google Gemini integration with retry logic and model fallback
 
 ## Supported Documents
 
@@ -145,17 +146,31 @@ Options:
 
 ## Architecture
 
+### Retrieval Pipeline
+
 ```
+Query Processing
+   ↓ extract hints (section numbers, topics)
 Document Level (Acts / Laws)
-   ↓ coarse routing
+   ↓ route to relevant law (BNS/BNSS/BSA)
 Chapter Level (Topics)
-   ↓ topic narrowing
+   ↓ find relevant chapters
 Section Level (Legal rules)
-   ↓ legal targeting
+   ↓ retrieve applicable sections
 Subsection / Clause Level (Exact law text)
-   ↓ final answer grounding
-LLM Answer with Citation
+   ↓ extract precise provisions
+LLM Answer Generation (Gemini)
+   ↓ synthesize with citations
+Final Answer with Legal References
 ```
+
+### Current Index Statistics
+
+-   **Total Documents**: 3 (BNS, BNSS, BSA)
+-   **Total Chapters**: 80
+-   **Total Sections**: 1,240
+-   **Total Subsections**: 3,919
+-   **Embedding Dimension**: 384 (all-MiniLM-L6-v2)
 
 ### Embedding Strategy
 
@@ -180,6 +195,75 @@ For section-level embeddings, subsections are weighted by legal importance:
 | Illustration | 0.03   |
 | General      | 0.02   |
 
+### Hybrid Search Strategy
+
+The system uses a weighted combination of two search methods at each hierarchy level:
+
+**Vector Search (40%)**
+
+-   Uses FAISS IndexFlatIP for cosine similarity
+-   Captures semantic meaning and context
+-   Handles paraphrased or conceptual queries
+-   Best for: "What protections exist for assault victims?"
+
+**Keyword Search (60%)**
+
+-   Uses BM25Okapi algorithm for term matching
+-   Captures exact legal terminology and phrases
+-   Handles specific section references
+-   Best for: "Section 64 BNSS" or "rape victim medical examination"
+
+**Final Score**: `0.4 × vector_similarity + 0.6 × min(bm25_score/10, 1.0)`
+
+The higher BM25 weight ensures precise legal terminology matching, critical for legal search accuracy.
+
+### Query Processing Intelligence
+
+The system automatically detects and processes:
+
+1. **Explicit Section References**
+
+    - Pattern: "Section 103", "Sec 184 BNSS", "Section 64 of BNSS"
+    - Action: Direct lookup bypassing full retrieval pipeline
+    - Example: "Section 184 BNSS" → instantly returns medical examination provisions
+
+2. **Topic Keywords Expansion**
+
+    - Maps common terms to legal terminology
+    - Example: "rape survivor" expands to [rape, victim, sexual, woman, examination, medical, complaint, fir, investigation, accused]
+    - Improves recall for non-legal queries
+
+3. **Document Hints**
+    - Detects document abbreviations (BNS, BNSS, BSA)
+    - Routes query to specific law for faster search
+
+## LLM Integration (Google Gemini)
+
+The system uses Google's Gemini API for generating natural language answers:
+
+**Primary Model**: `gemini-2.5-flash-lite`
+
+-   Fast, cost-effective for legal Q&A
+-   Fallback to `gemini-2.0-flash` on failure
+
+**Features**:
+
+-   **Automatic Retry**: 3 attempts per model with exponential backoff
+-   **Rate Limit Handling**: Waits 10s, 20s, 30s between retries
+-   **Context-Aware**: Receives retrieved sections with full legal text
+-   **Citation Grounding**: Answers reference specific sections
+
+**Prompt Structure**:
+
+```
+Context: [Retrieved legal sections with titles and text]
+
+Question: [User's query]
+
+Instructions: Provide accurate answer based on context.
+Cite sections using format: "Section X of [Act]".
+```
+
 ## Example Queries
 
 ```bash
@@ -194,6 +278,14 @@ python cli.py query "What is the definition of culpable homicide?"
 # Procedural queries
 python cli.py query "What is the procedure for arrest?"
 python cli.py query "How is evidence recorded?"
+
+# Victim rights queries
+python cli.py query "What can a woman do if she is assaulted?"
+python cli.py query "How can a rape survivor fight back legally?"
+
+# Direct section lookup
+python cli.py query "Section 103 BNS"
+python cli.py query "Section 184 of BNSS"
 ```
 
 ## Project Structure
@@ -236,6 +328,59 @@ Change the model with:
 ```bash
 python cli.py index --model BAAI/bge-base-en-v1.5
 python cli.py query "your question" --model BAAI/bge-base-en-v1.5
+```
+
+## Performance & Troubleshooting
+
+### Query Best Practices
+
+**For Best Results:**
+
+-   Use specific legal terminology when known
+-   Include act abbreviation (BNS/BNSS/BSA) to narrow scope
+-   For section lookups, use format: "Section [number] [act]"
+-   For topic queries, be descriptive: "medical examination of assault victims"
+
+**Examples:**
+
+-   ✅ Good: "What is the punishment for murder under BNS?"
+-   ✅ Good: "Section 184 BNSS medical examination"
+-   ❌ Less effective: "murder" (too broad)
+
+### Common Issues
+
+**Empty Results:**
+
+-   Try broader terms or synonyms
+-   Remove act abbreviation to search all documents
+-   Use `--verbose` to see retrieval stages
+
+**Irrelevant Results:**
+
+-   Add more specific keywords
+-   Include section number if known
+-   Specify the act (BNS/BNSS/BSA)
+
+**LLM Errors:**
+
+-   Ensure `GEMINI_API_KEY` is set in `.env`
+-   Check internet connectivity
+-   Use `--no-llm` flag to skip LLM and see raw results
+-   Rate limits: System auto-retries, wait 30-60 seconds
+
+### Index Rebuilding
+
+If you modify the PDFs or update the parsing logic:
+
+```bash
+# Re-parse documents
+python cli.py parse
+
+# Rebuild indices
+python cli.py index
+
+# Verify with stats
+python cli.py stats
 ```
 
 ## License
