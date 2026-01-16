@@ -2,6 +2,7 @@
 4-Stage Hierarchical Retrieval Pipeline for Legal RAG.
 Implements: Document → Chapter → Section → Subsection retrieval.
 Now supports procedural queries with SOP integration (Tier-1).
+Now supports evidence and compensation queries (Tier-2).
 """
 
 import re
@@ -53,6 +54,97 @@ PROCEDURAL_INTENT_PATTERNS = [
     r"what are .* (rights|options)",
     r"how to (fight|take action|report)",
 ]
+
+
+# ============================================================================
+# TIER-2: EVIDENCE AND COMPENSATION INTENT DETECTION
+# ============================================================================
+
+# Evidence-related keywords (triggers Crime Scene Manual retrieval)
+EVIDENCE_INTENT_KEYWORDS = [
+    "evidence", "crime scene", "forensic", "collect", "preserve", "contaminate",
+    "scene of crime", "dna", "fingerprint", "biological", "chain of custody",
+    "first responder", "seal", "packaging", "laboratory", "fsl",
+    "did police", "police collect", "investigation proper", "correct procedure",
+    "evidence handling", "evidence collection"
+]
+
+# Evidence-related patterns
+EVIDENCE_INTENT_PATTERNS = [
+    r"(?:police|io|officer).*(?:collect|preserve|handle).*evidence",
+    r"evidence.*(?:collect|preserve|handle|proper|correct)",
+    r"crime\s+scene",
+    r"forensic",
+    r"what.*evidence.*(?:should|must|need)",
+    r"(?:did|was).*(?:evidence|crime scene).*(?:proper|correct|legal)",
+    r"chain\s+of\s+custody",
+    r"(?:contaminate|tamper).*evidence",
+]
+
+# Compensation-related keywords (triggers NALSA Scheme retrieval)
+COMPENSATION_INTENT_KEYWORDS = [
+    "compensation", "money", "financial", "relief", "rehabilitation",
+    "nalsa", "dlsa", "slsa", "legal services",
+    "victim fund", "support", "interim", "final compensation",
+    "pay", "payment", "amount", "entitled", "claim",
+    "without conviction", "even if acquit"
+]
+
+# Compensation-related patterns
+COMPENSATION_INTENT_PATTERNS = [
+    r"(?:get|receive|claim|apply).*compensation",
+    r"compensation.*(?:victim|survivor|rape|assault)",
+    r"(?:financial|money).*(?:help|support|relief)",
+    r"(?:even|without).*conviction",
+    r"(?:who|how|where).*(?:apply|claim).*(?:compensation|relief)",
+    r"rehabilitation",
+    r"(?:interim|immediate).*(?:relief|compensation|help)",
+    r"(?:dlsa|slsa|nalsa)",
+]
+
+
+def detect_tier2_intent(query: str) -> dict:
+    """Detect if query requires Tier-2 retrieval (evidence or compensation).
+    
+    Returns:
+        dict with keys:
+        - needs_evidence: bool - whether to search Evidence Manual
+        - needs_compensation: bool - whether to search Compensation Scheme
+        - evidence_keywords: list[str] - matched evidence keywords
+        - compensation_keywords: list[str] - matched compensation keywords
+    """
+    query_lower = query.lower()
+    
+    result = {
+        "needs_evidence": False,
+        "needs_compensation": False,
+        "evidence_keywords": [],
+        "compensation_keywords": []
+    }
+    
+    # Check for evidence intent
+    for kw in EVIDENCE_INTENT_KEYWORDS:
+        if kw in query_lower:
+            result["needs_evidence"] = True
+            result["evidence_keywords"].append(kw)
+    
+    for pattern in EVIDENCE_INTENT_PATTERNS:
+        if re.search(pattern, query_lower):
+            result["needs_evidence"] = True
+            break
+    
+    # Check for compensation intent
+    for kw in COMPENSATION_INTENT_KEYWORDS:
+        if kw in query_lower:
+            result["needs_compensation"] = True
+            result["compensation_keywords"].append(kw)
+    
+    for pattern in COMPENSATION_INTENT_PATTERNS:
+        if re.search(pattern, query_lower):
+            result["needs_compensation"] = True
+            break
+    
+    return result
 
 
 def detect_query_intent(query: str) -> dict:
@@ -205,6 +297,10 @@ class RetrievalConfig:
     # SOP-specific settings (Tier-1)
     top_k_sop_blocks: int = 5  # Number of SOP blocks to retrieve
     sop_priority_weight: float = 1.5  # Boost factor for SOP results in procedural queries
+    
+    # Tier-2 settings
+    top_k_evidence_blocks: int = 5  # Number of Evidence Manual blocks to retrieve
+    top_k_compensation_blocks: int = 5  # Number of Compensation blocks to retrieve
 
 
 @dataclass
@@ -221,10 +317,18 @@ class RetrievalResult:
     # SOP results (Tier-1)
     sop_blocks: list[SearchResult] = field(default_factory=list)
     
+    # Tier-2 results
+    evidence_blocks: list[SearchResult] = field(default_factory=list)
+    compensation_blocks: list[SearchResult] = field(default_factory=list)
+    
     # Query intent (Tier-1)
     is_procedural: bool = False
     case_type: Optional[str] = None
     detected_stages: list[str] = field(default_factory=list)
+    
+    # Tier-2 query intent
+    needs_evidence: bool = False
+    needs_compensation: bool = False
     
     # Final context for LLM
     context_text: str = ""
@@ -234,6 +338,7 @@ class RetrievalResult:
         """Get formatted context for LLM with citations.
         
         For procedural queries, SOP blocks come first, then law sections.
+        For Tier-2 queries, evidence/compensation blocks are added where relevant.
         """
         context_parts = []
         seen_sections = set()
@@ -257,14 +362,82 @@ class RetrievalResult:
                 text = result.text
                 
                 # Estimate tokens
-                if len("\n".join(context_parts)) / 4 > max_tokens * 0.4:
+                if len("\n".join(context_parts)) / 4 > max_tokens * 0.3:
                     break
                 
                 context_parts.append(f"[{citation}]\n{text}\n")
                 
                 if citation not in self.citations:
                     self.citations.append(citation)
-            
+        
+        # TIER-2: Add Evidence Manual blocks if relevant
+        if self.needs_evidence and self.evidence_blocks:
+            context_parts.append("\n=== EVIDENCE & INVESTIGATION STANDARDS (Crime Scene Manual) ===\n")
+            for result in self.evidence_blocks:
+                title = result.metadata.get("title", "")
+                action = result.metadata.get("investigative_action", "")
+                failure_impact = result.metadata.get("failure_impact", "")
+                
+                # Format Evidence citation
+                citation = f"🧪 Crime Scene Manual (DFS) - {title}"
+                if action:
+                    citation += f" [{action.replace('_', ' ').upper()}]"
+                
+                text = result.text
+                
+                # Add failure impact warning
+                if failure_impact and failure_impact != "none":
+                    text = f"⚠️ If not followed: {failure_impact.replace('_', ' ')}\n\n{text}"
+                
+                # Estimate tokens
+                if len("\n".join(context_parts)) / 4 > max_tokens * 0.5:
+                    break
+                
+                context_parts.append(f"[{citation}]\n{text}\n")
+                
+                if citation not in self.citations:
+                    self.citations.append(citation)
+        
+        # TIER-2: Add Compensation Scheme blocks if relevant
+        if self.needs_compensation and self.compensation_blocks:
+            context_parts.append("\n=== COMPENSATION & REHABILITATION (NALSA Scheme) ===\n")
+            for result in self.compensation_blocks:
+                title = result.metadata.get("title", "")
+                comp_type = result.metadata.get("compensation_type", "")
+                authority = result.metadata.get("authority", "")
+                amount_range = result.metadata.get("amount_range", "")
+                requires_conviction = result.metadata.get("requires_conviction", False)
+                
+                # Format Compensation citation
+                citation = f"💰 NALSA Scheme (2018) - {title}"
+                if comp_type:
+                    citation += f" [{comp_type.upper()}]"
+                
+                text = result.text
+                
+                # Add key eligibility info
+                eligibility_note = []
+                if not requires_conviction:
+                    eligibility_note.append("✔ Conviction NOT required")
+                if authority:
+                    eligibility_note.append(f"Authority: {authority.upper()}")
+                if amount_range:
+                    eligibility_note.append(f"Amount: {amount_range}")
+                
+                if eligibility_note:
+                    text = " | ".join(eligibility_note) + "\n\n" + text
+                
+                # Estimate tokens
+                if len("\n".join(context_parts)) / 4 > max_tokens * 0.6:
+                    break
+                
+                context_parts.append(f"[{citation}]\n{text}\n")
+                
+                if citation not in self.citations:
+                    self.citations.append(citation)
+        
+        # Add legal provisions section header if we have SOP/Tier-2 content
+        if self.sop_blocks or self.evidence_blocks or self.compensation_blocks:
             context_parts.append("\n=== LEGAL PROVISIONS ===\n")
         
         # Add section-level context (legal provisions)
@@ -335,6 +508,7 @@ class HierarchicalRetriever:
         """Execute the retrieval pipeline.
         
         For procedural queries (Tier-1), retrieves SOP blocks first, then law sections.
+        For Tier-2 queries, adds evidence/compensation blocks when relevant.
         For non-procedural queries, uses standard 4-stage hierarchical retrieval.
         
         Args:
@@ -350,6 +524,11 @@ class HierarchicalRetriever:
         result.is_procedural = intent["is_procedural"]
         result.case_type = intent["case_type"]
         result.detected_stages = [s.value for s in intent.get("detected_stages", [])]
+        
+        # Detect Tier-2 intent (evidence/compensation)
+        tier2_intent = detect_tier2_intent(query)
+        result.needs_evidence = tier2_intent["needs_evidence"]
+        result.needs_compensation = tier2_intent["needs_compensation"]
         
         # Extract explicit hints from query (e.g., "section 103 of BNS")
         hints = extract_query_hints(query)
@@ -377,12 +556,34 @@ class HierarchicalRetriever:
                 use_hybrid=self.config.use_hybrid_search
             )
         
+        # TIER-2: Search evidence blocks if relevant
+        if result.needs_evidence and self.store.has_evidence_data():
+            result.evidence_blocks = self.store.search_evidence_blocks(
+                query_embedding,
+                enhanced_query,
+                k=self.config.top_k_evidence_blocks,
+                evidence_type_filter=None,  # Don't filter - retrieve all relevant
+                case_type_filter=None,
+                use_hybrid=self.config.use_hybrid_search
+            )
+        
+        # TIER-2: Search compensation blocks if relevant
+        if result.needs_compensation and self.store.has_compensation_data():
+            result.compensation_blocks = self.store.search_compensation_blocks(
+                query_embedding,
+                enhanced_query,
+                k=self.config.top_k_compensation_blocks,
+                compensation_type_filter=None,
+                crime_filter=None,
+                use_hybrid=self.config.use_hybrid_search
+            )
+        
         # Stage 1: Document Routing
         result.documents = self._stage1_document_routing(query_embedding, enhanced_query)
         
         if not result.documents:
-            # If no documents found but we have SOP results, return those
-            if result.sop_blocks:
+            # If no documents found but we have SOP/Tier-2 results, return those
+            if result.sop_blocks or result.evidence_blocks or result.compensation_blocks:
                 result.get_context_for_llm()
             return result
         
@@ -623,6 +824,83 @@ OUTPUT FORMAT:
 ## ⚠️ If Police Refuse
 [Escalation steps]"""
     
+    # Evidence & Investigation prompt (Tier-2 feature)
+    EVIDENCE_PROMPT = """You are a legal assistant helping victims understand evidence collection and investigation standards in India.
+Your task is to explain what proper evidence handling looks like and what happens if police fail to follow procedures.
+
+The context contains:
+- 🧪 Crime Scene Manual: Official evidence collection and preservation procedures
+- 📘 SOP: Standard Operating Procedures for investigations
+- ⚖️ BNSS: Criminal procedure laws
+
+CRITICAL INSTRUCTIONS:
+1. Explain WHAT EVIDENCE should be collected for the specific crime
+2. Describe HOW evidence should be properly collected and preserved
+3. Highlight TIME LIMITS for evidence collection
+4. Explain CONSEQUENCES if evidence is not properly handled (contamination, inadmissibility)
+5. Cite sources: 🧪 Crime Scene Manual, 📘 SOP, ⚖️ BNSS
+6. If police failed, explain what legal recourse the victim has
+7. Use technical terms but explain them simply
+
+OUTPUT FORMAT:
+## 🔬 Required Evidence
+[What evidence should be collected for this crime]
+
+## 📋 Proper Procedure
+[How evidence should be collected - cite Manual]
+
+## ⏱️ Time Limits
+[Critical time windows for evidence collection]
+
+## ⚠️ If Procedure Not Followed
+[Consequences - contamination, inadmissibility, case weakness]
+
+## ⚖️ Legal Recourse
+[What victim can do if evidence mishandled]"""
+    
+    # Compensation & Rehabilitation prompt (Tier-2 feature)
+    COMPENSATION_PROMPT = """You are a legal assistant helping victims of crime in India understand their compensation and rehabilitation rights.
+Your task is to explain what financial relief and support is available to victims.
+
+The context contains:
+- 💰 NALSA Compensation Scheme (2018): Victim compensation guidelines
+- ⚖️ BNSS Section 396: Legal provision for victim compensation
+- Other legal provisions
+
+CRITICAL INSTRUCTIONS:
+1. FIRST state whether conviction is required (IMPORTANT: for most schemes, conviction is NOT required)
+2. List ALL types of compensation/support available (interim relief, final compensation, rehabilitation)
+3. Explain the APPLICATION PROCESS step by step
+4. State AMOUNT RANGES where mentioned
+5. List DOCUMENTS REQUIRED for application
+6. Mention AUTHORITIES to approach (DLSA, SLSA, etc.)
+7. Include TIME LIMITS for applying
+8. Cite sources: 💰 NALSA Scheme, ⚖️ BNSS
+
+KEY FACT TO EMPHASIZE: Under NALSA Scheme, victim compensation does NOT require conviction of accused. Even if accused is acquitted or case is pending, victim can get compensation.
+
+OUTPUT FORMAT:
+## ✅ Eligibility
+[Who can apply - emphasize conviction NOT required if applicable]
+
+## 💰 Types of Compensation
+[Interim relief, final compensation, rehabilitation support]
+
+## 📝 How to Apply
+[Step-by-step application process]
+
+## 📄 Documents Required
+[List of required documents]
+
+## 💵 Amount Ranges
+[Compensation amounts for different crimes]
+
+## 🏛️ Where to Apply
+[DLSA, SLSA, court - with contacts if available]
+
+## ⏱️ Time Limits
+[Deadlines for application]"""
+    
     def __init__(
         self,
         retriever: HierarchicalRetriever,
@@ -644,6 +922,7 @@ OUTPUT FORMAT:
         """Answer a legal question using RAG.
         
         For procedural queries (Tier-1), uses SOP-backed procedural prompt.
+        For Tier-2 queries, includes evidence/compensation context.
         
         Args:
             question: User's legal question
@@ -660,12 +939,18 @@ OUTPUT FORMAT:
             "is_procedural": retrieval_result.is_procedural,
             "case_type": retrieval_result.case_type,
             "detected_stages": retrieval_result.detected_stages,
+            # Tier-2 intent flags
+            "needs_evidence": retrieval_result.needs_evidence,
+            "needs_compensation": retrieval_result.needs_compensation,
             "retrieval": {
                 "documents": [self._format_result(r) for r in retrieval_result.documents],
                 "chapters": [self._format_result(r) for r in retrieval_result.chapters],
                 "sections": [self._format_result(r) for r in retrieval_result.sections],
                 "subsections": [self._format_result(r) for r in retrieval_result.subsections],
-                "sop_blocks": [self._format_result(r) for r in retrieval_result.sop_blocks]
+                "sop_blocks": [self._format_result(r) for r in retrieval_result.sop_blocks],
+                # Tier-2 results
+                "evidence_blocks": [self._format_result(r) for r in retrieval_result.evidence_blocks],
+                "compensation_blocks": [self._format_result(r) for r in retrieval_result.compensation_blocks]
             },
             "context": retrieval_result.context_text,
             "citations": retrieval_result.citations,
@@ -677,7 +962,9 @@ OUTPUT FORMAT:
             response["answer"] = self._generate_answer(
                 question, 
                 retrieval_result.context_text,
-                is_procedural=retrieval_result.is_procedural
+                is_procedural=retrieval_result.is_procedural,
+                needs_evidence=retrieval_result.needs_evidence,
+                needs_compensation=retrieval_result.needs_compensation
             )
         
         return response
@@ -693,8 +980,13 @@ OUTPUT FORMAT:
         }
         
         # Add doc_type indicator
-        if result.metadata.get("doc_type") == "sop":
+        doc_type = result.metadata.get("doc_type", "")
+        if doc_type == "sop":
             formatted["source_type"] = "📘 SOP"
+        elif doc_type == "evidence_manual":
+            formatted["source_type"] = "🧪 Evidence Manual"
+        elif doc_type == "compensation_scheme":
+            formatted["source_type"] = "💰 NALSA Scheme"
         elif "BNSS" in result.doc_id:
             formatted["source_type"] = "⚖️ BNSS"
         elif "BNS" in result.doc_id:
@@ -706,15 +998,32 @@ OUTPUT FORMAT:
         
         return formatted
     
-    def _generate_answer(self, question: str, context: str, is_procedural: bool = False) -> str:
+    def _generate_answer(
+        self, 
+        question: str, 
+        context: str, 
+        is_procedural: bool = False,
+        needs_evidence: bool = False,
+        needs_compensation: bool = False
+    ) -> str:
         """Generate answer using Google Gemini with retry logic.
         
-        Uses procedural prompt for victim-centric queries (Tier-1).
+        Uses specialized prompts based on query type:
+        - Procedural (Tier-1): SOP-backed guidance
+        - Evidence (Tier-2): Crime scene/investigation standards
+        - Compensation (Tier-2): Victim relief and rehabilitation
         """
         import time
         
         # Select appropriate prompt based on query type
-        system_prompt = self.PROCEDURAL_PROMPT if is_procedural else self.SYSTEM_PROMPT
+        if needs_evidence:
+            system_prompt = self.EVIDENCE_PROMPT
+        elif needs_compensation:
+            system_prompt = self.COMPENSATION_PROMPT
+        elif is_procedural:
+            system_prompt = self.PROCEDURAL_PROMPT
+        else:
+            system_prompt = self.SYSTEM_PROMPT
         
         full_prompt = f"""{system_prompt}
 

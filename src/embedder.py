@@ -1,7 +1,7 @@
 """
 Hierarchical Embedding Generator for Legal Documents.
 Creates embeddings at Document, Chapter, Section, and Subsection levels.
-Supports SOP documents (Tier-1).
+Supports SOP documents (Tier-1) and Evidence/Compensation documents (Tier-2).
 """
 
 import numpy as np
@@ -11,6 +11,8 @@ from tqdm import tqdm
 
 from .models import LegalDocument, Chapter, Section, Subsection, SubsectionType
 from .sop_parser import SOPDocument, ProceduralBlock
+from .evidence_parser import EvidenceManualDocument, EvidenceBlock
+from .compensation_parser import CompensationSchemeDocument, CompensationBlock
 
 
 class HierarchicalEmbedder:
@@ -287,6 +289,173 @@ class HierarchicalEmbedder:
         # Combine all parts
         if ref_text:
             return f"{context}\n{block.title}\n{ref_text}\n{block.text}"
+        else:
+            return f"{context}\n{block.title}\n{block.text}"
+    
+    # =========================================================================
+    # TIER-2: EVIDENCE MANUAL EMBEDDING
+    # =========================================================================
+    
+    def embed_evidence_document(self, evidence_doc: EvidenceManualDocument) -> EvidenceManualDocument:
+        """Generate embeddings for Evidence Manual document and all its blocks.
+        
+        Args:
+            evidence_doc: Evidence Manual document to embed
+            
+        Returns:
+            The same document with embeddings populated
+        """
+        print(f"\nGenerating embeddings for Evidence Manual: {evidence_doc.title}")
+        
+        # Embed each evidence block
+        print(f"  → Embedding {len(evidence_doc.blocks)} evidence blocks...")
+        for block in tqdm(evidence_doc.blocks, desc="Evidence Blocks"):
+            embed_text = self._create_evidence_block_embed_text(evidence_doc, block)
+            block.embedding = self.embed_text(embed_text).tolist()
+        
+        # Create document-level embedding from blocks
+        print("  → Embedding Evidence Manual document...")
+        if evidence_doc.blocks:
+            block_embeddings = [
+                np.array(b.embedding)
+                for b in evidence_doc.blocks
+                if b.embedding is not None
+            ]
+            
+            if block_embeddings:
+                # Weighted mean by priority
+                weights = np.array([b.priority for b in evidence_doc.blocks if b.embedding is not None])
+                weights = weights / weights.sum()
+                mean_embedding = np.average(block_embeddings, axis=0, weights=weights)
+                
+                # Normalize
+                norm = np.linalg.norm(mean_embedding)
+                if norm > 0:
+                    mean_embedding = mean_embedding / norm
+                evidence_doc.embedding = mean_embedding.tolist()
+            else:
+                evidence_doc.embedding = self.embed_text(evidence_doc.title).tolist()
+        else:
+            evidence_doc.embedding = self.embed_text(evidence_doc.title).tolist()
+        
+        return evidence_doc
+    
+    def _create_evidence_block_embed_text(self, evidence_doc: EvidenceManualDocument, block: EvidenceBlock) -> str:
+        """Create text to embed for an Evidence block with context.
+        
+        Includes evidence type and investigative action for better retrieval.
+        """
+        # Build context header
+        context_parts = [
+            f"Crime Scene Manual ({evidence_doc.source})",
+            f"Action: {block.investigative_action.value.replace('_', ' ').title()}",
+        ]
+        
+        if block.evidence_types:
+            evidence_str = ", ".join(e.value for e in block.evidence_types)
+            context_parts.append(f"Evidence: {evidence_str}")
+        
+        if block.failure_impact.value != "none":
+            context_parts.append(f"If failed: {block.failure_impact.value.replace('_', ' ')}")
+        
+        context = " | ".join(context_parts)
+        
+        # Add case types for better filtering
+        case_info = ""
+        if block.case_types and "all" not in block.case_types:
+            case_info = f"Applies to: {', '.join(block.case_types)}"
+        
+        # Combine all parts
+        if case_info:
+            return f"{context}\n{block.title}\n{case_info}\n{block.text}"
+        else:
+            return f"{context}\n{block.title}\n{block.text}"
+    
+    # =========================================================================
+    # TIER-2: COMPENSATION SCHEME EMBEDDING
+    # =========================================================================
+    
+    def embed_compensation_document(self, comp_doc: CompensationSchemeDocument) -> CompensationSchemeDocument:
+        """Generate embeddings for Compensation Scheme document and all its blocks.
+        
+        Args:
+            comp_doc: Compensation Scheme document to embed
+            
+        Returns:
+            The same document with embeddings populated
+        """
+        print(f"\nGenerating embeddings for Compensation Scheme: {comp_doc.title}")
+        
+        # Embed each compensation block
+        print(f"  → Embedding {len(comp_doc.blocks)} compensation blocks...")
+        for block in tqdm(comp_doc.blocks, desc="Compensation Blocks"):
+            embed_text = self._create_compensation_block_embed_text(comp_doc, block)
+            block.embedding = self.embed_text(embed_text).tolist()
+        
+        # Create document-level embedding from blocks
+        print("  → Embedding Compensation Scheme document...")
+        if comp_doc.blocks:
+            block_embeddings = [
+                np.array(b.embedding)
+                for b in comp_doc.blocks
+                if b.embedding is not None
+            ]
+            
+            if block_embeddings:
+                # Weighted mean by priority
+                weights = np.array([b.priority for b in comp_doc.blocks if b.embedding is not None])
+                weights = weights / weights.sum()
+                mean_embedding = np.average(block_embeddings, axis=0, weights=weights)
+                
+                # Normalize
+                norm = np.linalg.norm(mean_embedding)
+                if norm > 0:
+                    mean_embedding = mean_embedding / norm
+                comp_doc.embedding = mean_embedding.tolist()
+            else:
+                comp_doc.embedding = self.embed_text(comp_doc.title).tolist()
+        else:
+            comp_doc.embedding = self.embed_text(comp_doc.title).tolist()
+        
+        return comp_doc
+    
+    def _create_compensation_block_embed_text(self, comp_doc: CompensationSchemeDocument, block: CompensationBlock) -> str:
+        """Create text to embed for a Compensation block with context.
+        
+        Includes compensation type, authority, and eligibility for better retrieval.
+        """
+        # Build context header
+        context_parts = [
+            f"NALSA Scheme ({comp_doc.source})",
+            f"Type: {block.compensation_type.value.replace('_', ' ').title()}",
+        ]
+        
+        if block.authority.value != "general":
+            context_parts.append(f"Authority: {block.authority.value.upper()}")
+        
+        if block.application_stage.value != "anytime":
+            context_parts.append(f"Stage: {block.application_stage.value.replace('_', ' ').title()}")
+        
+        context = " | ".join(context_parts)
+        
+        # Add key eligibility info
+        eligibility_parts = []
+        if block.crimes_covered:
+            crimes_str = ", ".join(c.value for c in block.crimes_covered if c.value != "other")
+            if crimes_str:
+                eligibility_parts.append(f"Crimes: {crimes_str}")
+        
+        if not block.requires_conviction:
+            eligibility_parts.append("Conviction NOT required")
+        
+        if block.amount_range:
+            eligibility_parts.append(f"Amount: {block.amount_range}")
+        
+        eligibility_info = " | ".join(eligibility_parts) if eligibility_parts else ""
+        
+        # Combine all parts
+        if eligibility_info:
+            return f"{context}\n{block.title}\n{eligibility_info}\n{block.text}"
         else:
             return f"{context}\n{block.title}\n{block.text}"
 

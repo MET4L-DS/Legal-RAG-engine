@@ -40,6 +40,8 @@ def parse(documents_dir: str, output_dir: str):
     """Parse PDF documents into structured JSON format."""
     from src.pdf_parser import parse_all_documents
     from src.sop_parser import parse_sop, SOPDocument
+    from src.evidence_parser import parse_evidence_manual, EvidenceManualDocument
+    from src.compensation_parser import parse_compensation_scheme, CompensationSchemeDocument
     
     documents_path = Path(documents_dir)
     output_path = Path(output_dir)
@@ -67,7 +69,36 @@ def parse(documents_dir: str, output_dir: str):
             except Exception as e:
                 console.print(f"[yellow]Warning: Could not parse SOP {pdf_file.name}: {e}[/yellow]")
     
-    if not documents and not sop_docs:
+    # Parse Evidence Manual (Tier-2 feature)
+    evidence_docs = []
+    for pdf_file in documents_path.glob("*.pdf"):
+        name_lower = pdf_file.name.lower()
+        if "crime" in name_lower and "scene" in name_lower or "evidence" in name_lower and "manual" in name_lower:
+            console.print(f"[cyan]Parsing Evidence Manual:[/cyan] {pdf_file.name}")
+            try:
+                evidence_doc = parse_evidence_manual(pdf_file)
+                evidence_docs.append(evidence_doc)
+                console.print(f"  → Found {len(evidence_doc.blocks)} evidence blocks")
+            except Exception as e:
+                console.print(f"[yellow]Warning: Could not parse Evidence Manual {pdf_file.name}: {e}[/yellow]")
+    
+    # Parse Compensation Scheme (Tier-2 feature)
+    compensation_docs = []
+    for pdf_file in documents_path.glob("*.pdf"):
+        name_lower = pdf_file.name.lower()
+        if "nalsa" in name_lower or "compensation" in name_lower and "scheme" in name_lower:
+            # Skip if already parsed as something else
+            if any(pdf_file.name == e.source_file for e in evidence_docs if hasattr(e, 'source_file')):
+                continue
+            console.print(f"[magenta]Parsing Compensation Scheme:[/magenta] {pdf_file.name}")
+            try:
+                comp_doc = parse_compensation_scheme(pdf_file)
+                compensation_docs.append(comp_doc)
+                console.print(f"  → Found {len(comp_doc.blocks)} compensation blocks")
+            except Exception as e:
+                console.print(f"[yellow]Warning: Could not parse Compensation Scheme {pdf_file.name}: {e}[/yellow]")
+    
+    if not documents and not sop_docs and not evidence_docs and not compensation_docs:
         console.print("[red]No documents were parsed![/red]")
         return
     
@@ -84,6 +115,20 @@ def parse(documents_dir: str, output_dir: str):
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(sop.to_dict(), f, ensure_ascii=False, indent=2)
         console.print(f"[green]✓[/green] Saved: {output_file.name} (SOP)")
+    
+    # Save each Evidence Manual document
+    for evidence_doc in evidence_docs:
+        output_file = output_path / f"{evidence_doc.doc_id}.json"
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(evidence_doc.to_dict(), f, ensure_ascii=False, indent=2)
+        console.print(f"[green]✓[/green] Saved: {output_file.name} (Evidence Manual)")
+    
+    # Save each Compensation Scheme document
+    for comp_doc in compensation_docs:
+        output_file = output_path / f"{comp_doc.doc_id}.json"
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(comp_doc.to_dict(), f, ensure_ascii=False, indent=2)
+        console.print(f"[green]✓[/green] Saved: {output_file.name} (Compensation Scheme)")
     
     # Print summary for legal documents
     if documents:
@@ -113,7 +158,7 @@ def parse(documents_dir: str, output_dir: str):
     
     # Print summary for SOP documents
     if sop_docs:
-        sop_table = Table(title="SOP Documents Summary")
+        sop_table = Table(title="SOP Documents Summary (Tier-1)")
         sop_table.add_column("Document", style="green")
         sop_table.add_column("Blocks", justify="right")
         sop_table.add_column("Case Types", justify="left")
@@ -128,6 +173,53 @@ def parse(documents_dir: str, output_dir: str):
             )
         
         console.print(sop_table)
+    
+    # Print summary for Evidence Manual documents (Tier-2)
+    if evidence_docs:
+        evidence_table = Table(title="Evidence Manual Summary (Tier-2)")
+        evidence_table.add_column("Document", style="cyan")
+        evidence_table.add_column("Blocks", justify="right")
+        evidence_table.add_column("Evidence Types", justify="left")
+        evidence_table.add_column("Pages", justify="right")
+        
+        for evidence_doc in evidence_docs:
+            # Count unique evidence types
+            evidence_types = set()
+            for block in evidence_doc.blocks:
+                evidence_types.update(block.evidence_types)
+            
+            evidence_table.add_row(
+                evidence_doc.short_name,
+                str(len(evidence_doc.blocks)),
+                ", ".join(sorted(t.value for t in list(evidence_types)[:3])) + ("..." if len(evidence_types) > 3 else ""),
+                str(evidence_doc.total_pages)
+            )
+        
+        console.print(evidence_table)
+    
+    # Print summary for Compensation Scheme documents (Tier-2)
+    if compensation_docs:
+        comp_table = Table(title="Compensation Scheme Summary (Tier-2)")
+        comp_table.add_column("Document", style="magenta")
+        comp_table.add_column("Blocks", justify="right")
+        comp_table.add_column("Compensation Types", justify="left")
+        comp_table.add_column("Pages", justify="right")
+        
+        for comp_doc in compensation_docs:
+            # Count unique compensation types
+            comp_types = set()
+            for block in comp_doc.blocks:
+                if block.compensation_type:
+                    comp_types.add(block.compensation_type)
+            
+            comp_table.add_row(
+                comp_doc.short_name,
+                str(len(comp_doc.blocks)),
+                ", ".join(sorted(t.value for t in list(comp_types)[:3])) + ("..." if len(comp_types) > 3 else ""),
+                str(comp_doc.total_pages)
+            )
+        
+        console.print(comp_table)
 
 
 @cli.command()
@@ -138,6 +230,8 @@ def index(parsed_dir: str, index_dir: str, model: str):
     """Generate embeddings and build vector indices."""
     from src.models import LegalDocument
     from src.sop_parser import SOPDocument
+    from src.evidence_parser import EvidenceManualDocument
+    from src.compensation_parser import CompensationSchemeDocument
     from src.embedder import HierarchicalEmbedder
     from src.vector_store import MultiLevelVectorStore
     
@@ -161,15 +255,24 @@ def index(parsed_dir: str, index_dir: str, model: str):
     
     documents = []
     sop_docs = []
+    evidence_docs = []
+    compensation_docs = []
     
     for json_file in json_files:
         with open(json_file, "r", encoding="utf-8") as f:
             doc_dict = json.load(f)
+            doc_type = doc_dict.get("doc_type", "")
             
-            # Check if it's an SOP document
-            if doc_dict.get("doc_type") == "SOP":
+            # Check document type and load accordingly
+            if doc_type == "SOP":
                 sop_docs.append(SOPDocument.from_dict(doc_dict))
                 console.print(f"[green]Loaded SOP:[/green] {json_file.name}")
+            elif doc_type == "EVIDENCE_MANUAL":
+                evidence_docs.append(EvidenceManualDocument.from_dict(doc_dict))
+                console.print(f"[cyan]Loaded Evidence Manual:[/cyan] {json_file.name}")
+            elif doc_type == "COMPENSATION_SCHEME":
+                compensation_docs.append(CompensationSchemeDocument.from_dict(doc_dict))
+                console.print(f"[magenta]Loaded Compensation Scheme:[/magenta] {json_file.name}")
             else:
                 documents.append(LegalDocument.from_dict(doc_dict))
                 console.print(f"[blue]Loaded:[/blue] {json_file.name}")
@@ -181,10 +284,20 @@ def index(parsed_dir: str, index_dir: str, model: str):
     for doc in documents:
         embedder.embed_document(doc)
     
-    # Generate embeddings for SOP documents
+    # Generate embeddings for SOP documents (Tier-1)
     for sop in sop_docs:
         console.print(f"[green]Embedding SOP:[/green] {sop.short_name}")
         embedder.embed_sop_document(sop)
+    
+    # Generate embeddings for Evidence Manual documents (Tier-2)
+    for evidence_doc in evidence_docs:
+        console.print(f"[cyan]Embedding Evidence Manual:[/cyan] {evidence_doc.short_name}")
+        embedder.embed_evidence_document(evidence_doc)
+    
+    # Generate embeddings for Compensation Scheme documents (Tier-2)
+    for comp_doc in compensation_docs:
+        console.print(f"[magenta]Embedding Compensation Scheme:[/magenta] {comp_doc.short_name}")
+        embedder.embed_compensation_document(comp_doc)
     
     # Build vector store
     assert embedder.embedding_dim is not None, "Embedding dimension not initialized"
@@ -193,9 +306,17 @@ def index(parsed_dir: str, index_dir: str, model: str):
     for doc in documents:
         store.add_document(doc)
     
-    # Add SOP documents to store
+    # Add SOP documents to store (Tier-1)
     for sop in sop_docs:
         store.add_sop_document(sop)
+    
+    # Add Evidence Manual documents to store (Tier-2)
+    for evidence_doc in evidence_docs:
+        store.add_evidence_document(evidence_doc)
+    
+    # Add Compensation Scheme documents to store (Tier-2)
+    for comp_doc in compensation_docs:
+        store.add_compensation_document(comp_doc)
     
     # Build BM25 indices
     store.build_bm25_indices()
@@ -209,9 +330,21 @@ def index(parsed_dir: str, index_dir: str, model: str):
     table.add_column("Level", style="cyan")
     table.add_column("Count", justify="right")
     
-    for level, count in stats.items():
-        if level != "embedding_dim":
-            table.add_row(level.capitalize(), str(count))
+    # Legal documents
+    table.add_row("Documents", str(stats["documents"]))
+    table.add_row("Chapters", str(stats["chapters"]))
+    table.add_row("Sections", str(stats["sections"]))
+    table.add_row("Subsections", str(stats["subsections"]))
+    
+    # Tier-1: SOP
+    if stats.get("sop_blocks", 0) > 0:
+        table.add_row("SOP Blocks (Tier-1)", str(stats["sop_blocks"]))
+    
+    # Tier-2: Evidence and Compensation
+    if stats.get("evidence_blocks", 0) > 0:
+        table.add_row("Evidence Blocks (Tier-2)", str(stats["evidence_blocks"]))
+    if stats.get("compensation_blocks", 0) > 0:
+        table.add_row("Compensation Blocks (Tier-2)", str(stats["compensation_blocks"]))
     
     table.add_row("Embedding Dim", str(stats["embedding_dim"]))
     console.print(table)
@@ -326,6 +459,48 @@ def query(question: str, index_dir: str, model: str, top_k: int, no_llm: bool, v
         
         console.print(sop_table)
     
+    # Show Evidence blocks if present (Tier-2 feature)
+    if result["retrieval"].get("evidence_blocks"):
+        console.print("\n[bold cyan]🧪 Evidence & Investigation Standards Found:[/bold cyan]")
+        evidence_table = Table(show_header=True, header_style="bold cyan")
+        evidence_table.add_column("Topic", style="cyan", width=25)
+        evidence_table.add_column("Guidance", width=55)
+        evidence_table.add_column("If Not Followed", style="red", width=15)
+        
+        for block in result["retrieval"]["evidence_blocks"][:5]:
+            title = block["metadata"].get("title", "")[:25]
+            failure_impact = block["metadata"].get("failure_impact", "").replace("_", " ")
+            evidence_table.add_row(
+                title,
+                block["text"][:180] + "..." if len(block["text"]) > 180 else block["text"],
+                failure_impact if failure_impact else "-"
+            )
+        
+        console.print(evidence_table)
+    
+    # Show Compensation blocks if present (Tier-2 feature)
+    if result["retrieval"].get("compensation_blocks"):
+        console.print("\n[bold magenta]💰 Compensation & Rehabilitation Found:[/bold magenta]")
+        comp_table = Table(show_header=True, header_style="bold magenta")
+        comp_table.add_column("Topic", style="magenta", width=25)
+        comp_table.add_column("Details", width=50)
+        comp_table.add_column("Amount", width=12)
+        comp_table.add_column("Conviction?", width=10)
+        
+        for block in result["retrieval"]["compensation_blocks"][:5]:
+            title = block["metadata"].get("title", "")[:25]
+            amount = block["metadata"].get("amount_range", "-")
+            requires_conviction = block["metadata"].get("requires_conviction", False)
+            conviction_text = "Required" if requires_conviction else "NOT Required"
+            comp_table.add_row(
+                title,
+                block["text"][:160] + "..." if len(block["text"]) > 160 else block["text"],
+                amount if amount else "-",
+                conviction_text
+            )
+        
+        console.print(comp_table)
+    
     # Show subsection results
     console.print("\n[bold cyan]📋 Legal Provisions Found:[/bold cyan]")
     
@@ -349,6 +524,15 @@ def query(question: str, index_dir: str, model: str, top_k: int, no_llm: bool, v
     # Show query intent info for procedural queries
     if result.get("is_procedural"):
         console.print(f"\n[dim]Query Type: Procedural | Case: {result.get('case_type', 'general')} | Stages: {', '.join(result.get('detected_stages', []))}[/dim]")
+    
+    # Show Tier-2 intent info
+    tier2_info = []
+    if result.get("needs_evidence"):
+        tier2_info.append("Evidence/Investigation")
+    if result.get("needs_compensation"):
+        tier2_info.append("Compensation/Relief")
+    if tier2_info:
+        console.print(f"[dim]Tier-2 Context: {', '.join(tier2_info)}[/dim]")
     
     # Show citations
     if result["citations"]:
@@ -539,13 +723,29 @@ def stats(index_dir: str):
     # SOP statistics (Tier-1)
     sop_count = stats.get("sop_blocks", 0)
     if sop_count > 0:
-        sop_table = Table(title="SOP Documents (Procedural)")
+        sop_table = Table(title="SOP Documents (Tier-1 Procedural)")
         sop_table.add_column("Metric", style="green")
         sop_table.add_column("Value", justify="right")
         
         sop_table.add_row("📘 SOP Blocks", str(sop_count))
         
         console.print(sop_table)
+    
+    # Tier-2 statistics (Evidence and Compensation)
+    evidence_count = stats.get("evidence_blocks", 0)
+    compensation_count = stats.get("compensation_blocks", 0)
+    
+    if evidence_count > 0 or compensation_count > 0:
+        tier2_table = Table(title="Tier-2 Documents (Evidence & Compensation)")
+        tier2_table.add_column("Metric", style="cyan")
+        tier2_table.add_column("Value", justify="right")
+        
+        if evidence_count > 0:
+            tier2_table.add_row("🧪 Evidence Blocks", str(evidence_count))
+        if compensation_count > 0:
+            tier2_table.add_row("💰 Compensation Blocks", str(compensation_count))
+        
+        console.print(tier2_table)
     
     # Technical info
     tech_table = Table(title="Technical Info")
@@ -554,7 +754,9 @@ def stats(index_dir: str):
     
     tech_table.add_row("Embedding Dimension", str(stats["embedding_dim"]))
     tech_table.add_row("Index Location", str(index_path))
-    tech_table.add_row("SOP Support", "✅ Enabled" if sop_count > 0 else "❌ No SOP indexed")
+    tech_table.add_row("SOP Support (Tier-1)", "✅ Enabled" if sop_count > 0 else "❌ Not indexed")
+    tech_table.add_row("Evidence Support (Tier-2)", "✅ Enabled" if evidence_count > 0 else "❌ Not indexed")
+    tech_table.add_row("Compensation Support (Tier-2)", "✅ Enabled" if compensation_count > 0 else "❌ Not indexed")
     
     console.print(tech_table)
 

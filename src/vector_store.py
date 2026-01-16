@@ -13,6 +13,8 @@ from rank_bm25 import BM25Okapi
 
 from .models import LegalDocument, SearchResult
 from .sop_parser import SOPDocument, ProceduralBlock, ProceduralStage
+from .evidence_parser import EvidenceManualDocument, EvidenceBlock
+from .compensation_parser import CompensationSchemeDocument, CompensationBlock
 
 
 @dataclass
@@ -64,6 +66,46 @@ class SOPIndexEntry:
     priority: int
 
 
+@dataclass
+class EvidenceIndexEntry:
+    """Metadata for evidence manual blocks in the index (Tier-2)."""
+    idx: int
+    doc_id: str
+    block_id: str
+    title: str
+    text: str
+    evidence_types: list[str]
+    investigative_action: str
+    stakeholders: list[str]
+    failure_impact: str
+    linked_stage: str
+    case_types: list[str]
+    page: int
+    priority: int
+
+
+@dataclass
+class CompensationIndexEntry:
+    """Metadata for compensation scheme blocks in the index (Tier-2)."""
+    idx: int
+    doc_id: str
+    block_id: str
+    title: str
+    text: str
+    compensation_type: str
+    application_stage: str
+    authority: str
+    crimes_covered: list[str]
+    eligibility_criteria: list[str]
+    amount_range: str
+    requires_conviction: bool
+    time_limit: str
+    documents_required: list[str]
+    bnss_sections: list[str]
+    page: int
+    priority: int
+
+
 class MultiLevelVectorStore:
     """Multi-level vector store with FAISS indices and BM25."""
     
@@ -85,6 +127,14 @@ class MultiLevelVectorStore:
         self.sop_index = LevelIndex()
         self.sop_metadata: list[SOPIndexEntry] = []
         
+        # Tier-2: Evidence Manual index (conditional depth layer)
+        self.evidence_index = LevelIndex()
+        self.evidence_metadata: list[EvidenceIndexEntry] = []
+        
+        # Tier-2: Compensation Scheme index (conditional depth layer)
+        self.compensation_index = LevelIndex()
+        self.compensation_metadata: list[CompensationIndexEntry] = []
+        
         # Initialize FAISS indices
         self._init_faiss_indices()
     
@@ -96,6 +146,9 @@ class MultiLevelVectorStore:
         self.section_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
         self.subsection_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
         self.sop_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
+        # Tier-2 indices
+        self.evidence_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
+        self.compensation_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
     
     def add_document(self, doc: LegalDocument):
         """Add a document with all its hierarchy to the indices."""
@@ -325,6 +378,338 @@ class MultiLevelVectorStore:
         
         return results[:k]
     
+    # =========================================================================
+    # TIER-2: EVIDENCE MANUAL SUPPORT
+    # =========================================================================
+    
+    def add_evidence_document(self, evidence_doc: EvidenceManualDocument):
+        """Add an Evidence Manual document with all its blocks to the index (Tier-2)."""
+        
+        # Add evidence document level
+        if evidence_doc.embedding:
+            self._add_to_level(
+                self.doc_index,
+                np.array([evidence_doc.embedding], dtype=np.float32),
+                IndexMetadata(
+                    idx=len(self.doc_index.metadata),
+                    doc_id=evidence_doc.doc_id,
+                    text=evidence_doc.title,
+                    doc_type="evidence_manual"
+                )
+            )
+        
+        # Add evidence blocks
+        for block in evidence_doc.blocks:
+            if block.embedding:
+                embedding = np.array([block.embedding], dtype=np.float32)
+                embedding = embedding / np.linalg.norm(embedding, axis=1, keepdims=True)
+                
+                self.evidence_index.faiss_index.add(embedding)  # type: ignore
+                
+                # Store evidence-specific metadata
+                evidence_entry = EvidenceIndexEntry(
+                    idx=len(self.evidence_metadata),
+                    doc_id=evidence_doc.doc_id,
+                    block_id=block.block_id,
+                    title=block.title,
+                    text=block.text,
+                    evidence_types=[e.value for e in block.evidence_types],
+                    investigative_action=block.investigative_action.value,
+                    stakeholders=block.stakeholders,
+                    failure_impact=block.failure_impact.value,
+                    linked_stage=block.linked_stage,
+                    case_types=block.case_types,
+                    page=block.page,
+                    priority=block.priority
+                )
+                self.evidence_metadata.append(evidence_entry)
+                self.evidence_index.texts.append(f"{block.title}\n{block.text}")
+    
+    def search_evidence_blocks(
+        self,
+        query_embedding: np.ndarray,
+        query_text: str = "",
+        k: int = 5,
+        evidence_type_filter: Optional[list[str]] = None,
+        case_type_filter: Optional[list[str]] = None,
+        use_hybrid: bool = True
+    ) -> list[SearchResult]:
+        """Search Evidence Manual blocks (Tier-2).
+        
+        Args:
+            query_embedding: Query vector
+            query_text: Query text for BM25
+            k: Number of results
+            evidence_type_filter: Filter by evidence types (e.g., ["biological", "digital"])
+            case_type_filter: Filter by case types (e.g., ["rape", "murder"])
+            use_hybrid: Whether to use hybrid search
+        
+        Returns:
+            List of SearchResult with evidence-specific metadata
+        """
+        if self.evidence_index.faiss_index.ntotal == 0:  # type: ignore
+            return []
+        
+        search_k = min(k * 3, self.evidence_index.faiss_index.ntotal)  # type: ignore
+        
+        # Normalize query embedding
+        query_embedding = query_embedding.reshape(1, -1).astype(np.float32)
+        query_embedding = query_embedding / np.linalg.norm(query_embedding)
+        
+        # Vector search
+        vector_scores, vector_indices = self.evidence_index.faiss_index.search(query_embedding, search_k)  # type: ignore
+        vector_scores = vector_scores[0]
+        vector_indices = vector_indices[0]
+        
+        # Create results map
+        results_map = {}
+        for score, idx in zip(vector_scores, vector_indices):
+            if idx >= 0 and idx < len(self.evidence_metadata):
+                results_map[idx] = {
+                    "vector_score": float(score),
+                    "bm25_score": 0.0
+                }
+        
+        # BM25 search if enabled
+        if use_hybrid and self.evidence_index.bm25_index and query_text:
+            query_tokens = query_text.lower().split()
+            bm25_scores = self.evidence_index.bm25_index.get_scores(query_tokens)
+            
+            bm25_top_indices = np.argsort(bm25_scores)[::-1][:search_k]
+            
+            for idx in bm25_top_indices:
+                if bm25_scores[idx] > 0:
+                    if idx in results_map:
+                        results_map[idx]["bm25_score"] = float(bm25_scores[idx])
+                    else:
+                        results_map[idx] = {
+                            "vector_score": 0.0,
+                            "bm25_score": float(bm25_scores[idx])
+                        }
+        
+        # Build results with evidence metadata
+        results = []
+        for idx, scores in results_map.items():
+            meta = self.evidence_metadata[idx]
+            
+            # Apply filters
+            if evidence_type_filter and not any(e in meta.evidence_types for e in evidence_type_filter):
+                continue
+            if case_type_filter and not any(c in meta.case_types for c in case_type_filter) and "all" not in meta.case_types:
+                continue
+            
+            # Calculate combined score with priority boost
+            vector_score = scores["vector_score"]
+            bm25_score = scores["bm25_score"]
+            
+            if use_hybrid and bm25_score > 0:
+                combined_score = 0.4 * vector_score + 0.6 * min(bm25_score / 10, 1.0)
+            else:
+                combined_score = vector_score
+            
+            # Boost by priority
+            priority_boost = meta.priority / 10.0
+            combined_score = combined_score * (1 + priority_boost)
+            
+            results.append(SearchResult(
+                doc_id=meta.doc_id,
+                chapter_no="",
+                section_no=meta.block_id,
+                subsection_no="",
+                text=meta.text,
+                score=combined_score,
+                level="evidence_block",
+                metadata={
+                    "title": meta.title,
+                    "evidence_types": meta.evidence_types,
+                    "investigative_action": meta.investigative_action,
+                    "stakeholders": meta.stakeholders,
+                    "failure_impact": meta.failure_impact,
+                    "linked_stage": meta.linked_stage,
+                    "case_types": meta.case_types,
+                    "page": meta.page,
+                    "priority": meta.priority,
+                    "doc_type": "evidence_manual",
+                    "vector_score": scores["vector_score"],
+                    "bm25_score": scores["bm25_score"]
+                }
+            ))
+        
+        # Sort by score
+        results.sort(key=lambda x: x.score, reverse=True)
+        
+        return results[:k]
+    
+    # =========================================================================
+    # TIER-2: COMPENSATION SCHEME SUPPORT
+    # =========================================================================
+    
+    def add_compensation_document(self, comp_doc: CompensationSchemeDocument):
+        """Add a Compensation Scheme document with all its blocks to the index (Tier-2)."""
+        
+        # Add compensation document level
+        if comp_doc.embedding:
+            self._add_to_level(
+                self.doc_index,
+                np.array([comp_doc.embedding], dtype=np.float32),
+                IndexMetadata(
+                    idx=len(self.doc_index.metadata),
+                    doc_id=comp_doc.doc_id,
+                    text=comp_doc.title,
+                    doc_type="compensation_scheme"
+                )
+            )
+        
+        # Add compensation blocks
+        for block in comp_doc.blocks:
+            if block.embedding:
+                embedding = np.array([block.embedding], dtype=np.float32)
+                embedding = embedding / np.linalg.norm(embedding, axis=1, keepdims=True)
+                
+                self.compensation_index.faiss_index.add(embedding)  # type: ignore
+                
+                # Store compensation-specific metadata
+                comp_entry = CompensationIndexEntry(
+                    idx=len(self.compensation_metadata),
+                    doc_id=comp_doc.doc_id,
+                    block_id=block.block_id,
+                    title=block.title,
+                    text=block.text,
+                    compensation_type=block.compensation_type.value,
+                    application_stage=block.application_stage.value,
+                    authority=block.authority.value,
+                    crimes_covered=[c.value for c in block.crimes_covered],
+                    eligibility_criteria=block.eligibility_criteria,
+                    amount_range=block.amount_range or "",
+                    requires_conviction=block.requires_conviction,
+                    time_limit=block.time_limit or "",
+                    documents_required=block.documents_required,
+                    bnss_sections=block.bnss_sections,
+                    page=block.page,
+                    priority=block.priority
+                )
+                self.compensation_metadata.append(comp_entry)
+                self.compensation_index.texts.append(f"{block.title}\n{block.text}")
+    
+    def search_compensation_blocks(
+        self,
+        query_embedding: np.ndarray,
+        query_text: str = "",
+        k: int = 5,
+        crime_filter: Optional[list[str]] = None,
+        compensation_type_filter: Optional[list[str]] = None,
+        use_hybrid: bool = True
+    ) -> list[SearchResult]:
+        """Search Compensation Scheme blocks (Tier-2).
+        
+        Args:
+            query_embedding: Query vector
+            query_text: Query text for BM25
+            k: Number of results
+            crime_filter: Filter by crimes covered (e.g., ["rape", "acid_attack"])
+            compensation_type_filter: Filter by compensation type (e.g., ["interim", "final"])
+            use_hybrid: Whether to use hybrid search
+        
+        Returns:
+            List of SearchResult with compensation-specific metadata
+        """
+        if self.compensation_index.faiss_index.ntotal == 0:  # type: ignore
+            return []
+        
+        search_k = min(k * 3, self.compensation_index.faiss_index.ntotal)  # type: ignore
+        
+        # Normalize query embedding
+        query_embedding = query_embedding.reshape(1, -1).astype(np.float32)
+        query_embedding = query_embedding / np.linalg.norm(query_embedding)
+        
+        # Vector search
+        vector_scores, vector_indices = self.compensation_index.faiss_index.search(query_embedding, search_k)  # type: ignore
+        vector_scores = vector_scores[0]
+        vector_indices = vector_indices[0]
+        
+        # Create results map
+        results_map = {}
+        for score, idx in zip(vector_scores, vector_indices):
+            if idx >= 0 and idx < len(self.compensation_metadata):
+                results_map[idx] = {
+                    "vector_score": float(score),
+                    "bm25_score": 0.0
+                }
+        
+        # BM25 search if enabled
+        if use_hybrid and self.compensation_index.bm25_index and query_text:
+            query_tokens = query_text.lower().split()
+            bm25_scores = self.compensation_index.bm25_index.get_scores(query_tokens)
+            
+            bm25_top_indices = np.argsort(bm25_scores)[::-1][:search_k]
+            
+            for idx in bm25_top_indices:
+                if bm25_scores[idx] > 0:
+                    if idx in results_map:
+                        results_map[idx]["bm25_score"] = float(bm25_scores[idx])
+                    else:
+                        results_map[idx] = {
+                            "vector_score": 0.0,
+                            "bm25_score": float(bm25_scores[idx])
+                        }
+        
+        # Build results with compensation metadata
+        results = []
+        for idx, scores in results_map.items():
+            meta = self.compensation_metadata[idx]
+            
+            # Apply filters
+            if crime_filter and not any(c in meta.crimes_covered for c in crime_filter) and "other" not in meta.crimes_covered:
+                continue
+            if compensation_type_filter and meta.compensation_type not in compensation_type_filter:
+                continue
+            
+            # Calculate combined score with priority boost
+            vector_score = scores["vector_score"]
+            bm25_score = scores["bm25_score"]
+            
+            if use_hybrid and bm25_score > 0:
+                combined_score = 0.4 * vector_score + 0.6 * min(bm25_score / 10, 1.0)
+            else:
+                combined_score = vector_score
+            
+            # Boost by priority
+            priority_boost = meta.priority / 10.0
+            combined_score = combined_score * (1 + priority_boost)
+            
+            results.append(SearchResult(
+                doc_id=meta.doc_id,
+                chapter_no="",
+                section_no=meta.block_id,
+                subsection_no="",
+                text=meta.text,
+                score=combined_score,
+                level="compensation_block",
+                metadata={
+                    "title": meta.title,
+                    "compensation_type": meta.compensation_type,
+                    "application_stage": meta.application_stage,
+                    "authority": meta.authority,
+                    "crimes_covered": meta.crimes_covered,
+                    "eligibility_criteria": meta.eligibility_criteria,
+                    "amount_range": meta.amount_range,
+                    "requires_conviction": meta.requires_conviction,
+                    "time_limit": meta.time_limit,
+                    "documents_required": meta.documents_required,
+                    "bnss_sections": meta.bnss_sections,
+                    "page": meta.page,
+                    "priority": meta.priority,
+                    "doc_type": "compensation_scheme",
+                    "vector_score": scores["vector_score"],
+                    "bm25_score": scores["bm25_score"]
+                }
+            ))
+        
+        # Sort by score
+        results.sort(key=lambda x: x.score, reverse=True)
+        
+        return results[:k]
+    
     def _add_to_level(
         self, 
         level_index: LevelIndex, 
@@ -348,7 +733,9 @@ class MultiLevelVectorStore:
             ("chapters", self.chapter_index),
             ("sections", self.section_index),
             ("subsections", self.subsection_index),
-            ("sop_blocks", self.sop_index)
+            ("sop_blocks", self.sop_index),
+            ("evidence_blocks", self.evidence_index),
+            ("compensation_blocks", self.compensation_index)
         ]:
             if index.texts:
                 # Tokenize texts
@@ -596,14 +983,16 @@ class MultiLevelVectorStore:
             ("chapter", self.chapter_index),
             ("section", self.section_index),
             ("subsection", self.subsection_index),
-            ("sop", self.sop_index)
+            ("sop", self.sop_index),
+            ("evidence", self.evidence_index),
+            ("compensation", self.compensation_index)
         ]:
             # Save FAISS index
             faiss_path = directory / f"{name}_index.faiss"
             faiss.write_index(index.faiss_index, str(faiss_path))
             
-            # Save metadata (for standard indices)
-            if name != "sop":
+            # Save metadata (for standard indices only)
+            if name not in ["sop", "evidence", "compensation"]:
                 meta_path = directory / f"{name}_metadata.json"
                 meta_data = [
                     {
@@ -652,6 +1041,56 @@ class MultiLevelVectorStore:
         with open(sop_meta_path, "w", encoding="utf-8") as f:
             json.dump(sop_data, f, ensure_ascii=False, indent=2)
         
+        # Save Evidence metadata (Tier-2)
+        evidence_meta_path = directory / "evidence_metadata.json"
+        evidence_data = [
+            {
+                "idx": m.idx,
+                "doc_id": m.doc_id,
+                "block_id": m.block_id,
+                "title": m.title,
+                "text": m.text,
+                "evidence_types": m.evidence_types,
+                "investigative_action": m.investigative_action,
+                "stakeholders": m.stakeholders,
+                "failure_impact": m.failure_impact,
+                "linked_stage": m.linked_stage,
+                "case_types": m.case_types,
+                "page": m.page,
+                "priority": m.priority
+            }
+            for m in self.evidence_metadata
+        ]
+        with open(evidence_meta_path, "w", encoding="utf-8") as f:
+            json.dump(evidence_data, f, ensure_ascii=False, indent=2)
+        
+        # Save Compensation metadata (Tier-2)
+        compensation_meta_path = directory / "compensation_metadata.json"
+        compensation_data = [
+            {
+                "idx": m.idx,
+                "doc_id": m.doc_id,
+                "block_id": m.block_id,
+                "title": m.title,
+                "text": m.text,
+                "compensation_type": m.compensation_type,
+                "application_stage": m.application_stage,
+                "authority": m.authority,
+                "crimes_covered": m.crimes_covered,
+                "eligibility_criteria": m.eligibility_criteria,
+                "amount_range": m.amount_range,
+                "requires_conviction": m.requires_conviction,
+                "time_limit": m.time_limit,
+                "documents_required": m.documents_required,
+                "bnss_sections": m.bnss_sections,
+                "page": m.page,
+                "priority": m.priority
+            }
+            for m in self.compensation_metadata
+        ]
+        with open(compensation_meta_path, "w", encoding="utf-8") as f:
+            json.dump(compensation_data, f, ensure_ascii=False, indent=2)
+        
         # Save config
         config_path = directory / "config.json"
         with open(config_path, "w") as f:
@@ -674,7 +1113,9 @@ class MultiLevelVectorStore:
             ("chapter", self.chapter_index),
             ("section", self.section_index),
             ("subsection", self.subsection_index),
-            ("sop", self.sop_index)
+            ("sop", self.sop_index),
+            ("evidence", self.evidence_index),
+            ("compensation", self.compensation_index)
         ]:
             # Load FAISS index
             faiss_path = directory / f"{name}_index.faiss"
@@ -684,8 +1125,8 @@ class MultiLevelVectorStore:
                 # Initialize empty index for backwards compatibility
                 index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
             
-            # Load metadata (for standard indices)
-            if name != "sop":
+            # Load metadata (for standard indices only)
+            if name not in ["sop", "evidence", "compensation"]:
                 meta_path = directory / f"{name}_metadata.json"
                 if meta_path.exists():
                     with open(meta_path, "r", encoding="utf-8") as f:
@@ -737,6 +1178,58 @@ class MultiLevelVectorStore:
                     for m in sop_data
                 ]
         
+        # Load Evidence metadata (Tier-2)
+        evidence_meta_path = directory / "evidence_metadata.json"
+        if evidence_meta_path.exists():
+            with open(evidence_meta_path, "r", encoding="utf-8") as f:
+                evidence_data = json.load(f)
+                self.evidence_metadata = [
+                    EvidenceIndexEntry(
+                        idx=m["idx"],
+                        doc_id=m["doc_id"],
+                        block_id=m["block_id"],
+                        title=m["title"],
+                        text=m["text"],
+                        evidence_types=m.get("evidence_types", []),
+                        investigative_action=m.get("investigative_action", "general"),
+                        stakeholders=m.get("stakeholders", []),
+                        failure_impact=m.get("failure_impact", "none"),
+                        linked_stage=m.get("linked_stage", "evidence_collection"),
+                        case_types=m.get("case_types", ["all"]),
+                        page=m.get("page", 0),
+                        priority=m.get("priority", 1)
+                    )
+                    for m in evidence_data
+                ]
+        
+        # Load Compensation metadata (Tier-2)
+        compensation_meta_path = directory / "compensation_metadata.json"
+        if compensation_meta_path.exists():
+            with open(compensation_meta_path, "r", encoding="utf-8") as f:
+                compensation_data = json.load(f)
+                self.compensation_metadata = [
+                    CompensationIndexEntry(
+                        idx=m["idx"],
+                        doc_id=m["doc_id"],
+                        block_id=m["block_id"],
+                        title=m["title"],
+                        text=m["text"],
+                        compensation_type=m.get("compensation_type", "general"),
+                        application_stage=m.get("application_stage", "anytime"),
+                        authority=m.get("authority", "dlsa"),
+                        crimes_covered=m.get("crimes_covered", []),
+                        eligibility_criteria=m.get("eligibility_criteria", []),
+                        amount_range=m.get("amount_range", ""),
+                        requires_conviction=m.get("requires_conviction", False),
+                        time_limit=m.get("time_limit", ""),
+                        documents_required=m.get("documents_required", []),
+                        bnss_sections=m.get("bnss_sections", []),
+                        page=m.get("page", 0),
+                        priority=m.get("priority", 1)
+                    )
+                    for m in compensation_data
+                ]
+        
         # Rebuild BM25 indices
         self.build_bm25_indices()
         
@@ -750,9 +1243,19 @@ class MultiLevelVectorStore:
             "sections": self.section_index.faiss_index.ntotal,  # type: ignore
             "subsections": self.subsection_index.faiss_index.ntotal,  # type: ignore
             "sop_blocks": self.sop_index.faiss_index.ntotal,  # type: ignore
+            "evidence_blocks": self.evidence_index.faiss_index.ntotal,  # type: ignore
+            "compensation_blocks": self.compensation_index.faiss_index.ntotal,  # type: ignore
             "embedding_dim": self.embedding_dim
         }
     
     def has_sop_data(self) -> bool:
         """Check if SOP data is loaded."""
         return self.sop_index.faiss_index.ntotal > 0  # type: ignore
+    
+    def has_evidence_data(self) -> bool:
+        """Check if Evidence Manual data is loaded (Tier-2)."""
+        return self.evidence_index.faiss_index.ntotal > 0  # type: ignore
+    
+    def has_compensation_data(self) -> bool:
+        """Check if Compensation Scheme data is loaded (Tier-2)."""
+        return self.compensation_index.faiss_index.ntotal > 0  # type: ignore
