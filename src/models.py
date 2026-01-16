@@ -6,6 +6,12 @@ from dataclasses import dataclass, field
 from typing import Optional
 from enum import Enum
 
+# Re-export SOP models for convenience
+from .sop_parser import (
+    ProceduralStage, Stakeholder, ActionType,
+    ProceduralBlock, SOPDocument
+)
+
 
 class SubsectionType(Enum):
     PUNISHMENT = "punishment"

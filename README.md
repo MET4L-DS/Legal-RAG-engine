@@ -5,18 +5,29 @@ A hierarchical Retrieval-Augmented Generation (RAG) system for Indian legal docu
 ## Features
 
 -   ✅ **Hierarchical Document Parsing**: Extracts structure from legal PDFs (Chapters, Sections, Subsections)
+-   ✅ **SOP Document Support**: Parses procedural documents into actionable blocks with stage classification
+-   ✅ **Procedural Query Intelligence**: Detects victim-centric queries and provides step-by-step guidance
 -   ✅ **Multi-Level Embeddings**: Creates embeddings at all hierarchy levels with type-based weighting
 -   ✅ **Hybrid Search**: Combines vector similarity (40%) with keyword matching (60% BM25)
--   ✅ **Intelligent Query Processing**: Detects explicit section references and topic keywords
+-   ✅ **Intelligent Query Processing**: Detects explicit section references, procedural intent, and topic keywords
 -   ✅ **4-Stage Retrieval**: Document routing → Chapter search → Section search → Subsection search
--   ✅ **Citation Support**: Generates proper legal citations for all results
--   ✅ **LLM Integration**: Google Gemini integration with retry logic and model fallback
+-   ✅ **SOP Block Retrieval**: Stage-aware search for procedural guidance (FIR, Medical Examination, etc.)
+-   ✅ **Citation Support**: Generates proper legal citations with source labels (📘 SOP, ⚖️ BNSS, 📕 BNS)
+-   ✅ **LLM Integration**: Google Gemini with procedural prompts for victim-centric responses
 
 ## Supported Documents
+
+### Legal Acts
 
 -   Bharatiya Nyaya Sanhita (BNS) 2023
 -   Bharatiya Nagarik Suraksha Sanhita (BNSS) 2023
 -   Bharatiya Sakshya Adhiniyam (BSA) 2023
+
+### Standard Operating Procedures (SOPs)
+
+-   MHA/BPR&D SOP for Investigation and Prosecution of Rape against Women (29 procedural blocks)
+
+**Procedural Coverage**: FIR filing, medical examination, statement recording, evidence collection, investigation, victim rights, police duties, and rehabilitation
 
 ## Installation
 
@@ -150,27 +161,41 @@ Options:
 
 ```
 Query Processing
-   ↓ extract hints (section numbers, topics)
-Document Level (Acts / Laws)
-   ↓ route to relevant law (BNS/BNSS/BSA)
-Chapter Level (Topics)
-   ↓ find relevant chapters
-Section Level (Legal rules)
-   ↓ retrieve applicable sections
-Subsection / Clause Level (Exact law text)
-   ↓ extract precise provisions
-LLM Answer Generation (Gemini)
-   ↓ synthesize with citations
-Final Answer with Legal References
+   ↓ detect procedural intent + extract hints (section numbers, topics)
+   ↓
+   ├─→ Procedural Query Path (NEW - Tier 1)
+   │      ↓ detect case type (rape/assault) + stages (FIR/medical/etc.)
+   │   SOP Block Level (Procedural guidance)
+   │      ↓ retrieve stage-specific blocks with time limits
+   │   Document/Section Level (Supporting legal provisions)
+   │      ↓ retrieve relevant BNSS/BNS sections
+   │   LLM Answer Generation (Gemini - Procedural Prompt)
+   │      ↓ generate step-by-step victim-centric guidance
+   │   Final Answer: 🚨 Immediate Steps + 👮 Police Duties + ⚖️ Legal Rights
+   │
+   └─→ Traditional Legal Query Path
+        Document Level (Acts / Laws)
+           ↓ route to relevant law (BNS/BNSS/BSA)
+        Chapter Level (Topics)
+           ↓ find relevant chapters
+        Section Level (Legal rules)
+           ↓ retrieve applicable sections
+        Subsection / Clause Level (Exact law text)
+           ↓ extract precise provisions
+        LLM Answer Generation (Gemini)
+           ↓ synthesize with citations
+        Final Answer with Legal References
 ```
 
 ### Current Index Statistics
 
--   **Total Documents**: 3 (BNS, BNSS, BSA)
--   **Total Chapters**: 80
--   **Total Sections**: 1,240
--   **Total Subsections**: 3,919
+-   **Total Documents**: 5 (BNS, BNSS, BSA + 2 SOP documents)
+-   **Total Chapters**: 55
+-   **Total Sections**: 882
+-   **Total Subsections**: 3,112
+-   **Total SOP Blocks**: 29 (procedural guidance blocks)
 -   **Embedding Dimension**: 384 (all-MiniLM-L6-v2)
+-   **SOP Support**: ✅ Enabled
 
 ### Embedding Strategy
 
@@ -237,6 +262,92 @@ The system automatically detects and processes:
     - Detects document abbreviations (BNS, BNSS, BSA)
     - Routes query to specific law for faster search
 
+## SOP (Standard Operating Procedure) Support
+
+### Procedural Query Detection
+
+The system automatically detects victim-centric procedural queries and provides actionable step-by-step guidance:
+
+**Detected Patterns**:
+
+-   "What can a woman do if..."
+-   "How to file FIR..."
+-   "What are my rights as a victim..."
+-   "What should police do when..."
+-   Keywords: assault, rape, victim, survivor, FIR, medical examination
+
+**Case Type Detection**: rape, sexual_assault, POCSO
+
+**Procedural Stages** (13 stages):
+
+1. `PRE_FIR` - Actions before filing FIR
+2. `FIR` - FIR filing process (⏱️ 72 hours)
+3. `STATEMENT_RECORDING` - Statement recording procedures
+4. `MEDICAL_EXAMINATION` - Medical examination (⏱️ 24 hours)
+5. `EVIDENCE_COLLECTION` - Evidence collection procedures
+6. `INVESTIGATION` - Investigation process
+7. `ARREST` - Arrest procedures
+8. `CHARGE_SHEET` - Charge sheet filing
+9. `TRIAL` - Trial procedures
+10. `APPEAL` - Appeal procedures
+11. `COMPENSATION` - Victim compensation
+12. `VICTIM_RIGHTS` - Victim rights and entitlements
+13. `POLICE_DUTIES` - Police obligations
+
+### SOP Block Structure
+
+Each SOP block contains:
+
+-   **Title**: Brief description (e.g., "FIR", "Medical examination of victim")
+-   **Procedural Stage**: Which stage it applies to
+-   **Stakeholders**: Who it applies to (victim, police, IO, magistrate, doctor)
+-   **Action Type**: duty, right, timeline, procedure, escalation, guideline
+-   **Time Limit**: Deadlines (e.g., "24 hours", "72 hours", "immediately")
+-   **Legal References**: Cited BNSS/BNS sections
+-   **Priority**: Importance weighting for retrieval
+
+### Procedural Answer Format
+
+When a procedural query is detected, the LLM generates victim-centric guidance in this format:
+
+```
+🚨 Immediate Steps
+  1. Seek safety and medical attention
+  2. Preserve evidence
+  3. Contact police
+
+👮 Police Duties
+  • Record FIR promptly (within 72 hours)
+  • Arrange medical examination (within 24 hours)
+  • Record statement at victim's home
+  • Provide rehabilitation support
+
+⚖️ Legal Rights
+  • Right to lodge FIR at any police station
+  • Right to free copy of FIR
+  • Right to medical examination by lady doctor
+  • Right to compensation
+
+⏱️ Important Time Limits
+  • Medical examination: 24 hours
+  • FIR recording: 72 hours
+  • Statement recording: Promptly
+
+🚩 If Police Refuse
+  • Contact senior officer
+  • Approach Magistrate
+  • File complaint with Human Rights Commission
+```
+
+### Source Labels
+
+Results are labeled by source type:
+
+-   📘 **SOP** - MHA/BPR&D procedural guidance
+-   ⚖️ **BNSS** - Bharatiya Nagarik Suraksha Sanhita (procedural law)
+-   📕 **BNS** - Bharatiya Nyaya Sanhita (penal law)
+-   📖 **BSA** - Bharatiya Sakshya Adhiniyam (evidence law)
+
 ## LLM Integration (Google Gemini)
 
 The system uses Google's Gemini API for generating natural language answers:
@@ -275,13 +386,17 @@ python cli.py query "What are the penalties for theft?"
 python cli.py query "Define abetment"
 python cli.py query "What is the definition of culpable homicide?"
 
-# Procedural queries
+# Legal procedural queries
 python cli.py query "What is the procedure for arrest?"
 python cli.py query "How is evidence recorded?"
 
-# Victim rights queries
+# ✨ NEW: Victim-centric procedural queries (SOP-backed)
 python cli.py query "What can a woman do if she is assaulted?"
 python cli.py query "How can a rape survivor fight back legally?"
+python cli.py query "How to file FIR for rape case?"
+python cli.py query "What are my rights as a sexual assault victim?"
+python cli.py query "What is the medical examination process for rape victims?"
+python cli.py query "What should police do when I report assault?"
 
 # Direct section lookup
 python cli.py query "Section 103 BNS"
@@ -306,11 +421,12 @@ python cli.py query "Section 184 of BNSS"
 │   └── indices/          # FAISS vector indices
 └── src/
     ├── __init__.py
-    ├── models.py         # Data models
-    ├── pdf_parser.py     # PDF parsing logic
-    ├── embedder.py       # Hierarchical embedding generator
-    ├── vector_store.py   # Multi-level FAISS indices
-    └── retriever.py      # 4-stage retrieval pipeline
+    ├── models.py         # Data models (legal + SOP)
+    ├── pdf_parser.py     # Legal document PDF parser
+    ├── sop_parser.py     # SOP procedural block parser (NEW)
+    ├── embedder.py       # Hierarchical embedding generator (legal + SOP)
+    ├── vector_store.py   # Multi-level FAISS indices (legal + SOP blocks)
+    └── retriever.py      # Retrieval pipeline with procedural intent detection
 ```
 
 ## Embedding Models

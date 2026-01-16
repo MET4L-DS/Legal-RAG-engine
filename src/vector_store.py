@@ -12,6 +12,7 @@ from dataclasses import dataclass, field
 from rank_bm25 import BM25Okapi
 
 from .models import LegalDocument, SearchResult
+from .sop_parser import SOPDocument, ProceduralBlock, ProceduralStage
 
 
 @dataclass
@@ -27,6 +28,13 @@ class IndexMetadata:
     text: str = ""
     page: int = 0
     type: str = ""
+    # SOP-specific fields
+    doc_type: str = "law"  # "law" or "sop"
+    procedural_stage: str = ""
+    stakeholders: list[str] = field(default_factory=list)
+    action_type: str = ""
+    time_limit: str = ""
+    priority: int = 1
 
 
 @dataclass
@@ -36,6 +44,24 @@ class LevelIndex:
     metadata: list[IndexMetadata] = field(default_factory=list)
     bm25_index: Optional[BM25Okapi] = None  # type: ignore
     texts: list[str] = field(default_factory=list)
+
+
+@dataclass
+class SOPIndexEntry:
+    """Metadata for SOP procedural blocks in the index."""
+    idx: int
+    doc_id: str
+    block_id: str
+    title: str
+    text: str
+    procedural_stage: str
+    stakeholders: list[str]
+    action_type: str
+    time_limit: str
+    bnss_sections: list[str]
+    bns_sections: list[str]
+    page: int
+    priority: int
 
 
 class MultiLevelVectorStore:
@@ -55,6 +81,10 @@ class MultiLevelVectorStore:
         self.section_index = LevelIndex()
         self.subsection_index = LevelIndex()
         
+        # SOP-specific index (procedural blocks at same level as sections)
+        self.sop_index = LevelIndex()
+        self.sop_metadata: list[SOPIndexEntry] = []
+        
         # Initialize FAISS indices
         self._init_faiss_indices()
     
@@ -65,6 +95,7 @@ class MultiLevelVectorStore:
         self.chapter_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
         self.section_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
         self.subsection_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
+        self.sop_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
     
     def add_document(self, doc: LegalDocument):
         """Add a document with all its hierarchy to the indices."""
@@ -135,6 +166,165 @@ class MultiLevelVectorStore:
                             )
                         )
     
+    def add_sop_document(self, sop: SOPDocument):
+        """Add an SOP document with all its procedural blocks to the index."""
+        
+        # Add SOP document level
+        if sop.embedding:
+            self._add_to_level(
+                self.doc_index,
+                np.array([sop.embedding], dtype=np.float32),
+                IndexMetadata(
+                    idx=len(self.doc_index.metadata),
+                    doc_id=sop.doc_id,
+                    text=sop.title,
+                    doc_type="sop"
+                )
+            )
+        
+        # Add procedural blocks (treated at section level for retrieval)
+        for block in sop.blocks:
+            if block.embedding:
+                # Add to SOP index
+                embedding = np.array([block.embedding], dtype=np.float32)
+                embedding = embedding / np.linalg.norm(embedding, axis=1, keepdims=True)
+                
+                self.sop_index.faiss_index.add(embedding)  # type: ignore
+                
+                # Store SOP-specific metadata
+                sop_entry = SOPIndexEntry(
+                    idx=len(self.sop_metadata),
+                    doc_id=sop.doc_id,
+                    block_id=block.block_id,
+                    title=block.title,
+                    text=block.text,
+                    procedural_stage=block.procedural_stage.value,
+                    stakeholders=[s.value for s in block.stakeholders],
+                    action_type=block.action_type.value,
+                    time_limit=block.time_limit or "",
+                    bnss_sections=block.bnss_sections,
+                    bns_sections=block.bns_sections,
+                    page=block.page,
+                    priority=block.priority
+                )
+                self.sop_metadata.append(sop_entry)
+                self.sop_index.texts.append(f"{block.title}\n{block.text}")
+    
+    def search_sop_blocks(
+        self,
+        query_embedding: np.ndarray,
+        query_text: str = "",
+        k: int = 5,
+        stage_filter: Optional[list[str]] = None,
+        stakeholder_filter: Optional[list[str]] = None,
+        use_hybrid: bool = True
+    ) -> list[SearchResult]:
+        """Search SOP procedural blocks.
+        
+        Args:
+            query_embedding: Query vector
+            query_text: Query text for BM25
+            k: Number of results
+            stage_filter: Filter by procedural stages (e.g., ["fir", "investigation"])
+            stakeholder_filter: Filter by stakeholders (e.g., ["victim", "police"])
+            use_hybrid: Whether to use hybrid search
+        
+        Returns:
+            List of SearchResult with SOP-specific metadata
+        """
+        if self.sop_index.faiss_index.ntotal == 0:  # type: ignore
+            return []
+        
+        search_k = min(k * 3, self.sop_index.faiss_index.ntotal)  # type: ignore
+        
+        # Normalize query embedding
+        query_embedding = query_embedding.reshape(1, -1).astype(np.float32)
+        query_embedding = query_embedding / np.linalg.norm(query_embedding)
+        
+        # Vector search
+        vector_scores, vector_indices = self.sop_index.faiss_index.search(query_embedding, search_k)  # type: ignore
+        vector_scores = vector_scores[0]
+        vector_indices = vector_indices[0]
+        
+        # Create results map
+        results_map = {}
+        for score, idx in zip(vector_scores, vector_indices):
+            if idx >= 0 and idx < len(self.sop_metadata):
+                results_map[idx] = {
+                    "vector_score": float(score),
+                    "bm25_score": 0.0
+                }
+        
+        # BM25 search if enabled
+        if use_hybrid and self.sop_index.bm25_index and query_text:
+            query_tokens = query_text.lower().split()
+            bm25_scores = self.sop_index.bm25_index.get_scores(query_tokens)
+            
+            bm25_top_indices = np.argsort(bm25_scores)[::-1][:search_k]
+            
+            for idx in bm25_top_indices:
+                if bm25_scores[idx] > 0:
+                    if idx in results_map:
+                        results_map[idx]["bm25_score"] = float(bm25_scores[idx])
+                    else:
+                        results_map[idx] = {
+                            "vector_score": 0.0,
+                            "bm25_score": float(bm25_scores[idx])
+                        }
+        
+        # Build results with SOP metadata
+        results = []
+        for idx, scores in results_map.items():
+            meta = self.sop_metadata[idx]
+            
+            # Apply filters
+            if stage_filter and meta.procedural_stage not in stage_filter:
+                continue
+            if stakeholder_filter and not any(s in meta.stakeholders for s in stakeholder_filter):
+                continue
+            
+            # Calculate combined score with priority boost
+            vector_score = scores["vector_score"]
+            bm25_score = scores["bm25_score"]
+            
+            if use_hybrid and bm25_score > 0:
+                combined_score = 0.4 * vector_score + 0.6 * min(bm25_score / 10, 1.0)
+            else:
+                combined_score = vector_score
+            
+            # Boost by priority (normalized)
+            priority_boost = meta.priority / 10.0
+            combined_score = combined_score * (1 + priority_boost)
+            
+            results.append(SearchResult(
+                doc_id=meta.doc_id,
+                chapter_no="",  # SOPs don't have chapters
+                section_no=meta.block_id,  # Use block_id as section identifier
+                subsection_no="",
+                text=meta.text,
+                score=combined_score,
+                level="sop_block",
+                metadata={
+                    "title": meta.title,
+                    "procedural_stage": meta.procedural_stage,
+                    "stakeholders": meta.stakeholders,
+                    "action_type": meta.action_type,
+                    "time_limit": meta.time_limit,
+                    "bnss_sections": meta.bnss_sections,
+                    "bns_sections": meta.bns_sections,
+                    "page": meta.page,
+                    "priority": meta.priority,
+                    "doc_type": "sop",
+                    "vector_score": scores["vector_score"],
+                    "bm25_score": scores["bm25_score"]
+                }
+            ))
+        
+        # Sort by score
+        results.sort(key=lambda x: x.score, reverse=True)
+        
+        return results[:k]
+    
     def _add_to_level(
         self, 
         level_index: LevelIndex, 
@@ -157,7 +347,8 @@ class MultiLevelVectorStore:
             ("documents", self.doc_index),
             ("chapters", self.chapter_index),
             ("sections", self.section_index),
-            ("subsections", self.subsection_index)
+            ("subsections", self.subsection_index),
+            ("sop_blocks", self.sop_index)
         ]:
             if index.texts:
                 # Tokenize texts
@@ -404,36 +595,62 @@ class MultiLevelVectorStore:
             ("doc", self.doc_index),
             ("chapter", self.chapter_index),
             ("section", self.section_index),
-            ("subsection", self.subsection_index)
+            ("subsection", self.subsection_index),
+            ("sop", self.sop_index)
         ]:
             # Save FAISS index
             faiss_path = directory / f"{name}_index.faiss"
             faiss.write_index(index.faiss_index, str(faiss_path))
             
-            # Save metadata
-            meta_path = directory / f"{name}_metadata.json"
-            meta_data = [
-                {
-                    "idx": m.idx,
-                    "doc_id": m.doc_id,
-                    "chapter_no": m.chapter_no,
-                    "chapter_title": m.chapter_title,
-                    "section_no": m.section_no,
-                    "section_title": m.section_title,
-                    "subsection_no": m.subsection_no,
-                    "text": m.text,
-                    "page": m.page,
-                    "type": m.type
-                }
-                for m in index.metadata
-            ]
-            with open(meta_path, "w", encoding="utf-8") as f:
-                json.dump(meta_data, f, ensure_ascii=False, indent=2)
+            # Save metadata (for standard indices)
+            if name != "sop":
+                meta_path = directory / f"{name}_metadata.json"
+                meta_data = [
+                    {
+                        "idx": m.idx,
+                        "doc_id": m.doc_id,
+                        "chapter_no": m.chapter_no,
+                        "chapter_title": m.chapter_title,
+                        "section_no": m.section_no,
+                        "section_title": m.section_title,
+                        "subsection_no": m.subsection_no,
+                        "text": m.text,
+                        "page": m.page,
+                        "type": m.type,
+                        "doc_type": m.doc_type
+                    }
+                    for m in index.metadata
+                ]
+                with open(meta_path, "w", encoding="utf-8") as f:
+                    json.dump(meta_data, f, ensure_ascii=False, indent=2)
             
             # Save texts for BM25
             texts_path = directory / f"{name}_texts.json"
             with open(texts_path, "w", encoding="utf-8") as f:
                 json.dump(index.texts, f, ensure_ascii=False)
+        
+        # Save SOP metadata separately
+        sop_meta_path = directory / "sop_metadata.json"
+        sop_data = [
+            {
+                "idx": m.idx,
+                "doc_id": m.doc_id,
+                "block_id": m.block_id,
+                "title": m.title,
+                "text": m.text,
+                "procedural_stage": m.procedural_stage,
+                "stakeholders": m.stakeholders,
+                "action_type": m.action_type,
+                "time_limit": m.time_limit,
+                "bnss_sections": m.bnss_sections,
+                "bns_sections": m.bns_sections,
+                "page": m.page,
+                "priority": m.priority
+            }
+            for m in self.sop_metadata
+        ]
+        with open(sop_meta_path, "w", encoding="utf-8") as f:
+            json.dump(sop_data, f, ensure_ascii=False, indent=2)
         
         # Save config
         config_path = directory / "config.json"
@@ -456,36 +673,69 @@ class MultiLevelVectorStore:
             ("doc", self.doc_index),
             ("chapter", self.chapter_index),
             ("section", self.section_index),
-            ("subsection", self.subsection_index)
+            ("subsection", self.subsection_index),
+            ("sop", self.sop_index)
         ]:
             # Load FAISS index
             faiss_path = directory / f"{name}_index.faiss"
-            index.faiss_index = faiss.read_index(str(faiss_path))
+            if faiss_path.exists():
+                index.faiss_index = faiss.read_index(str(faiss_path))
+            else:
+                # Initialize empty index for backwards compatibility
+                index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
             
-            # Load metadata
-            meta_path = directory / f"{name}_metadata.json"
-            with open(meta_path, "r", encoding="utf-8") as f:
-                meta_data = json.load(f)
-                index.metadata = [
-                    IndexMetadata(
-                        idx=m["idx"],
-                        doc_id=m["doc_id"],
-                        chapter_no=m.get("chapter_no", ""),
-                        chapter_title=m.get("chapter_title", ""),
-                        section_no=m.get("section_no", ""),
-                        section_title=m.get("section_title", ""),
-                        subsection_no=m.get("subsection_no", ""),
-                        text=m.get("text", ""),
-                        page=m.get("page", 0),
-                        type=m.get("type", "")
-                    )
-                    for m in meta_data
-                ]
+            # Load metadata (for standard indices)
+            if name != "sop":
+                meta_path = directory / f"{name}_metadata.json"
+                if meta_path.exists():
+                    with open(meta_path, "r", encoding="utf-8") as f:
+                        meta_data = json.load(f)
+                        index.metadata = [
+                            IndexMetadata(
+                                idx=m["idx"],
+                                doc_id=m["doc_id"],
+                                chapter_no=m.get("chapter_no", ""),
+                                chapter_title=m.get("chapter_title", ""),
+                                section_no=m.get("section_no", ""),
+                                section_title=m.get("section_title", ""),
+                                subsection_no=m.get("subsection_no", ""),
+                                text=m.get("text", ""),
+                                page=m.get("page", 0),
+                                type=m.get("type", ""),
+                                doc_type=m.get("doc_type", "law")
+                            )
+                            for m in meta_data
+                        ]
             
             # Load texts
             texts_path = directory / f"{name}_texts.json"
-            with open(texts_path, "r", encoding="utf-8") as f:
-                index.texts = json.load(f)
+            if texts_path.exists():
+                with open(texts_path, "r", encoding="utf-8") as f:
+                    index.texts = json.load(f)
+        
+        # Load SOP metadata
+        sop_meta_path = directory / "sop_metadata.json"
+        if sop_meta_path.exists():
+            with open(sop_meta_path, "r", encoding="utf-8") as f:
+                sop_data = json.load(f)
+                self.sop_metadata = [
+                    SOPIndexEntry(
+                        idx=m["idx"],
+                        doc_id=m["doc_id"],
+                        block_id=m["block_id"],
+                        title=m["title"],
+                        text=m["text"],
+                        procedural_stage=m["procedural_stage"],
+                        stakeholders=m["stakeholders"],
+                        action_type=m["action_type"],
+                        time_limit=m.get("time_limit", ""),
+                        bnss_sections=m.get("bnss_sections", []),
+                        bns_sections=m.get("bns_sections", []),
+                        page=m.get("page", 0),
+                        priority=m.get("priority", 1)
+                    )
+                    for m in sop_data
+                ]
         
         # Rebuild BM25 indices
         self.build_bm25_indices()
@@ -499,5 +749,10 @@ class MultiLevelVectorStore:
             "chapters": self.chapter_index.faiss_index.ntotal,  # type: ignore
             "sections": self.section_index.faiss_index.ntotal,  # type: ignore
             "subsections": self.subsection_index.faiss_index.ntotal,  # type: ignore
+            "sop_blocks": self.sop_index.faiss_index.ntotal,  # type: ignore
             "embedding_dim": self.embedding_dim
         }
+    
+    def has_sop_data(self) -> bool:
+        """Check if SOP data is loaded."""
+        return self.sop_index.faiss_index.ntotal > 0  # type: ignore

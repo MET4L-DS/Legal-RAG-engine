@@ -1,6 +1,7 @@
 """
 4-Stage Hierarchical Retrieval Pipeline for Legal RAG.
 Implements: Document → Chapter → Section → Subsection retrieval.
+Now supports procedural queries with SOP integration (Tier-1).
 """
 
 import re
@@ -11,6 +12,99 @@ import numpy as np
 from .models import SearchResult
 from .vector_store import MultiLevelVectorStore
 from .embedder import HierarchicalEmbedder
+from .sop_parser import ProceduralStage
+
+
+# ============================================================================
+# PROCEDURAL STAGE DETECTION (Tier-1 Feature)
+# ============================================================================
+
+# Case types that trigger procedural retrieval
+PROCEDURAL_CASE_TYPES = {
+    "rape": ["rape", "sexual assault", "sexual violence", "molestation", "pocso"],
+    "sexual_assault": ["assault", "sexual", "molest", "touch"],
+}
+
+# Stage detection keywords
+STAGE_KEYWORDS = {
+    ProceduralStage.PRE_FIR: ["before fir", "before complaint", "initial", "first step", "what can", "what should", "how can", "how to"],
+    ProceduralStage.FIR: ["fir", "first information report", "complaint", "lodge", "register", "police station"],
+    ProceduralStage.INVESTIGATION: ["investigation", "investigate", "io", "investigating officer"],
+    ProceduralStage.MEDICAL_EXAMINATION: ["medical", "examination", "doctor", "hospital", "forensic", "rape kit"],
+    ProceduralStage.STATEMENT_RECORDING: ["statement", "164", "183", "record", "testimony"],
+    ProceduralStage.EVIDENCE_COLLECTION: ["evidence", "collect", "scene", "forensic", "dna"],
+    ProceduralStage.ARREST: ["arrest", "custody", "accused", "remand"],
+    ProceduralStage.CHARGE_SHEET: ["charge sheet", "chargesheet", "173", "193"],
+    ProceduralStage.TRIAL: ["trial", "court", "prosecution", "sessions", "judge"],
+    ProceduralStage.VICTIM_RIGHTS: ["rights", "victim", "survivor", "entitled", "compensation"],
+    ProceduralStage.POLICE_DUTIES: ["police", "duty", "shall", "must", "obligation"],
+}
+
+# Intent detection patterns
+PROCEDURAL_INTENT_PATTERNS = [
+    r"what can .* do",
+    r"what should .* do",
+    r"how can .* (file|lodge|report|complain)",
+    r"what (happens|is the procedure|are the steps)",
+    r"what if .* (refuse|fail|don't)",
+    r"step.?by.?step",
+    r"procedure for",
+    r"process for",
+    r"what are .* (rights|options)",
+    r"how to (fight|take action|report)",
+]
+
+
+def detect_query_intent(query: str) -> dict:
+    """Detect if query is procedural and what case type/stage it relates to.
+    
+    Returns:
+        dict with keys:
+        - is_procedural: bool - whether query seeks procedural guidance
+        - case_type: str - type of case (rape, theft, murder, etc.)
+        - detected_stages: list[ProceduralStage] - relevant procedure stages
+        - stakeholder_focus: str - victim, police, court, etc.
+    """
+    query_lower = query.lower()
+    
+    result = {
+        "is_procedural": False,
+        "case_type": None,
+        "detected_stages": [],
+        "stakeholder_focus": "victim"  # Default to victim-centric
+    }
+    
+    # Check for procedural intent patterns
+    for pattern in PROCEDURAL_INTENT_PATTERNS:
+        if re.search(pattern, query_lower):
+            result["is_procedural"] = True
+            break
+    
+    # Detect case type
+    for case_type, keywords in PROCEDURAL_CASE_TYPES.items():
+        if any(kw in query_lower for kw in keywords):
+            result["case_type"] = case_type
+            result["is_procedural"] = True  # Case-specific queries are procedural
+            break
+    
+    # Detect stages
+    for stage, keywords in STAGE_KEYWORDS.items():
+        if any(kw in query_lower for kw in keywords):
+            result["detected_stages"].append(stage)
+    
+    # Default to PRE_FIR if procedural but no specific stage
+    if result["is_procedural"] and not result["detected_stages"]:
+        result["detected_stages"] = [ProceduralStage.PRE_FIR, ProceduralStage.FIR, ProceduralStage.VICTIM_RIGHTS]
+    
+    # Detect stakeholder focus
+    if any(word in query_lower for word in ["woman", "victim", "survivor", "girl", "she", "her"]):
+        result["stakeholder_focus"] = "victim"
+    elif any(word in query_lower for word in ["police", "officer", "sho"]):
+        result["stakeholder_focus"] = "police"
+    elif any(word in query_lower for word in ["accused", "defendant"]):
+        result["stakeholder_focus"] = "accused"
+    
+    return result
 
 
 def extract_query_hints(query: str) -> dict:
@@ -107,6 +201,10 @@ class RetrievalConfig:
     # Enable/disable hierarchical filtering
     # When False, sections are searched across all chapters, not just top-k chapters
     use_hierarchical_filtering: bool = False  # Disabled to avoid missing relevant sections
+    
+    # SOP-specific settings (Tier-1)
+    top_k_sop_blocks: int = 5  # Number of SOP blocks to retrieve
+    sop_priority_weight: float = 1.5  # Boost factor for SOP results in procedural queries
 
 
 @dataclass
@@ -120,6 +218,14 @@ class RetrievalResult:
     sections: list[SearchResult] = field(default_factory=list)
     subsections: list[SearchResult] = field(default_factory=list)
     
+    # SOP results (Tier-1)
+    sop_blocks: list[SearchResult] = field(default_factory=list)
+    
+    # Query intent (Tier-1)
+    is_procedural: bool = False
+    case_type: Optional[str] = None
+    detected_stages: list[str] = field(default_factory=list)
+    
     # Final context for LLM
     context_text: str = ""
     citations: list[str] = field(default_factory=list)
@@ -127,23 +233,54 @@ class RetrievalResult:
     def get_context_for_llm(self, max_tokens: int = 8000) -> str:
         """Get formatted context for LLM with citations.
         
-        Includes both section-level and subsection-level content for better context.
+        For procedural queries, SOP blocks come first, then law sections.
         """
         context_parts = []
         seen_sections = set()
         
-        # First, add section-level context (more complete text)
+        # For procedural queries, add SOP blocks FIRST (they have procedural guidance)
+        if self.is_procedural and self.sop_blocks:
+            context_parts.append("=== PROCEDURAL GUIDANCE (SOP) ===\n")
+            for result in self.sop_blocks:
+                # Get SOP-specific metadata
+                title = result.metadata.get("title", "")
+                stage = result.metadata.get("procedural_stage", "")
+                time_limit = result.metadata.get("time_limit", "")
+                
+                # Format SOP citation
+                citation = f"📘 SOP (MHA/BPR&D) - {title}"
+                if stage:
+                    citation += f" [{stage.upper()}]"
+                if time_limit:
+                    citation += f" ⏱️ {time_limit}"
+                
+                text = result.text
+                
+                # Estimate tokens
+                if len("\n".join(context_parts)) / 4 > max_tokens * 0.4:
+                    break
+                
+                context_parts.append(f"[{citation}]\n{text}\n")
+                
+                if citation not in self.citations:
+                    self.citations.append(citation)
+            
+            context_parts.append("\n=== LEGAL PROVISIONS ===\n")
+        
+        # Add section-level context (legal provisions)
         for result in self.sections:
             section_key = f"{result.doc_id}-{result.section_no}"
             if section_key in seen_sections:
                 continue
             seen_sections.add(section_key)
             
-            citation = result.get_citation()
+            # Format law citation with icon
+            doc_icon = "⚖️" if "BNSS" in result.doc_id else "📕" if "BNS" in result.doc_id else "📗"
+            citation = f"{doc_icon} {result.get_citation()}"
             text = result.text
             
             # Estimate tokens (rough: 4 chars per token)
-            if len("\n".join(context_parts)) / 4 > max_tokens * 0.6:
+            if len("\n".join(context_parts)) / 4 > max_tokens * 0.7:
                 break
             
             context_parts.append(f"[{citation}]\n{text}\n")
@@ -153,7 +290,8 @@ class RetrievalResult:
         
         # Then add subsection details for more specific content
         for result in self.subsections:
-            citation = result.get_citation()
+            doc_icon = "⚖️" if "BNSS" in result.doc_id else "📕" if "BNS" in result.doc_id else "📗"
+            citation = f"{doc_icon} {result.get_citation()}"
             text = result.text
             
             # Skip if text is too short (likely a fragment)
@@ -174,7 +312,7 @@ class RetrievalResult:
 
 
 class HierarchicalRetriever:
-    """4-stage hierarchical retrieval pipeline."""
+    """4-stage hierarchical retrieval pipeline with SOP support (Tier-1)."""
     
     def __init__(
         self,
@@ -194,7 +332,10 @@ class HierarchicalRetriever:
         self.config = config or RetrievalConfig()
     
     def retrieve(self, query: str) -> RetrievalResult:
-        """Execute the 4-stage hierarchical retrieval.
+        """Execute the retrieval pipeline.
+        
+        For procedural queries (Tier-1), retrieves SOP blocks first, then law sections.
+        For non-procedural queries, uses standard 4-stage hierarchical retrieval.
         
         Args:
             query: User's legal question
@@ -203,6 +344,12 @@ class HierarchicalRetriever:
             RetrievalResult with results at all levels
         """
         result = RetrievalResult(query=query)
+        
+        # Detect query intent (Tier-1 feature)
+        intent = detect_query_intent(query)
+        result.is_procedural = intent["is_procedural"]
+        result.case_type = intent["case_type"]
+        result.detected_stages = [s.value for s in intent.get("detected_stages", [])]
         
         # Extract explicit hints from query (e.g., "section 103 of BNS")
         hints = extract_query_hints(query)
@@ -215,10 +362,28 @@ class HierarchicalRetriever:
         # Generate query embedding
         query_embedding = self.embedder.embed_text(query)
         
+        # For procedural queries, search SOP blocks FIRST (Tier-1 feature)
+        if result.is_procedural and self.store.has_sop_data():
+            stage_filter = [s.value for s in intent.get("detected_stages", [])] if intent.get("detected_stages") else None
+            # Don't filter by stakeholder - SOP blocks are useful for all stakeholders
+            # The blocks describe both victim rights AND police duties
+            
+            result.sop_blocks = self.store.search_sop_blocks(
+                query_embedding,
+                enhanced_query,
+                k=self.config.top_k_sop_blocks,
+                stage_filter=None,  # Don't filter by stage either - retrieve all relevant blocks
+                stakeholder_filter=None,
+                use_hybrid=self.config.use_hybrid_search
+            )
+        
         # Stage 1: Document Routing
         result.documents = self._stage1_document_routing(query_embedding, enhanced_query)
         
         if not result.documents:
+            # If no documents found but we have SOP results, return those
+            if result.sop_blocks:
+                result.get_context_for_llm()
             return result
         
         # Get document filter for next stages
@@ -406,8 +571,12 @@ class HierarchicalRetriever:
 
 
 class LegalRAG:
-    """Complete Legal RAG system combining retrieval with Gemini LLM generation."""
+    """Complete Legal RAG system combining retrieval with Gemini LLM generation.
     
+    Supports procedural queries (Tier-1) with SOP-backed answers.
+    """
+    
+    # Standard legal Q&A prompt
     SYSTEM_PROMPT = """You are a legal assistant specializing in Indian law (BNS, BNSS, BSA).
 Your task is to answer questions using the provided legal extracts.
 
@@ -418,6 +587,41 @@ Instructions:
 4. If the extracts contain relevant information, provide a comprehensive answer
 5. Only say you cannot find information if the extracts are truly unrelated to the question
 6. Format your answer clearly with sections for: Definition, Procedure, Key Points (as applicable)"""
+    
+    # Procedural guidance prompt (Tier-1 feature)
+    PROCEDURAL_PROMPT = """You are a legal assistant helping victims of crime in India understand their rights and the legal process.
+Your task is to provide step-by-step procedural guidance using the provided materials.
+
+The context contains:
+- 📘 SOP (Standard Operating Procedure) blocks: Official police procedures and victim rights
+- ⚖️ BNSS sections: Criminal procedure laws
+- 📕 BNS sections: Criminal offense definitions
+
+CRITICAL INSTRUCTIONS:
+1. Structure your answer as STEP-BY-STEP GUIDANCE for the victim
+2. Start with what the victim CAN DO IMMEDIATELY
+3. Then explain what POLICE MUST DO (their duties)
+4. Include TIME LIMITS where mentioned (e.g., "within 24 hours")
+5. Cite sources using: 📘 SOP, ⚖️ BNSS Section X, 📕 BNS Section X
+6. If police fail their duties, explain ESCALATION options
+7. Use simple, empowering language - the reader is likely in distress
+8. Prioritize SOP guidance over raw legal text
+
+OUTPUT FORMAT:
+## 🚨 Immediate Steps
+[What victim can do right now]
+
+## 👮 Police Duties
+[What police MUST do - cite SOP]
+
+## ⚖️ Legal Rights
+[Relevant law sections]
+
+## ⏱️ Time Limits
+[Any deadlines that apply]
+
+## ⚠️ If Police Refuse
+[Escalation steps]"""
     
     def __init__(
         self,
@@ -439,6 +643,8 @@ Instructions:
     def query(self, question: str, generate_answer: bool = True) -> dict:
         """Answer a legal question using RAG.
         
+        For procedural queries (Tier-1), uses SOP-backed procedural prompt.
+        
         Args:
             question: User's legal question
             generate_answer: Whether to generate LLM answer (requires llm_client)
@@ -451,11 +657,15 @@ Instructions:
         
         response = {
             "question": question,
+            "is_procedural": retrieval_result.is_procedural,
+            "case_type": retrieval_result.case_type,
+            "detected_stages": retrieval_result.detected_stages,
             "retrieval": {
                 "documents": [self._format_result(r) for r in retrieval_result.documents],
                 "chapters": [self._format_result(r) for r in retrieval_result.chapters],
                 "sections": [self._format_result(r) for r in retrieval_result.sections],
-                "subsections": [self._format_result(r) for r in retrieval_result.subsections]
+                "subsections": [self._format_result(r) for r in retrieval_result.subsections],
+                "sop_blocks": [self._format_result(r) for r in retrieval_result.sop_blocks]
             },
             "context": retrieval_result.context_text,
             "citations": retrieval_result.citations,
@@ -466,30 +676,51 @@ Instructions:
         if generate_answer and self.llm_client and retrieval_result.context_text:
             response["answer"] = self._generate_answer(
                 question, 
-                retrieval_result.context_text
+                retrieval_result.context_text,
+                is_procedural=retrieval_result.is_procedural
             )
         
         return response
     
     def _format_result(self, result: SearchResult) -> dict:
         """Format a search result for output."""
-        return {
+        formatted = {
             "citation": result.get_citation(),
             "text": result.text[:500] + "..." if len(result.text) > 500 else result.text,
             "score": round(result.score, 4),
             "level": result.level,
             "metadata": result.metadata
         }
+        
+        # Add doc_type indicator
+        if result.metadata.get("doc_type") == "sop":
+            formatted["source_type"] = "📘 SOP"
+        elif "BNSS" in result.doc_id:
+            formatted["source_type"] = "⚖️ BNSS"
+        elif "BNS" in result.doc_id:
+            formatted["source_type"] = "📕 BNS"
+        elif "BSA" in result.doc_id:
+            formatted["source_type"] = "📗 BSA"
+        else:
+            formatted["source_type"] = "📄 Law"
+        
+        return formatted
     
-    def _generate_answer(self, question: str, context: str) -> str:
-        """Generate answer using Google Gemini with retry logic."""
+    def _generate_answer(self, question: str, context: str, is_procedural: bool = False) -> str:
+        """Generate answer using Google Gemini with retry logic.
+        
+        Uses procedural prompt for victim-centric queries (Tier-1).
+        """
         import time
         
-        full_prompt = f"""{self.SYSTEM_PROMPT}
+        # Select appropriate prompt based on query type
+        system_prompt = self.PROCEDURAL_PROMPT if is_procedural else self.SYSTEM_PROMPT
+        
+        full_prompt = f"""{system_prompt}
 
-Based on the following legal extracts, answer the question.
+Based on the following materials, answer the question.
 
-Legal Extracts:
+Materials:
 {context}
 
 Question: {question}

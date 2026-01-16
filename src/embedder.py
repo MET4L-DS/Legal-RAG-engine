@@ -1,6 +1,7 @@
 """
 Hierarchical Embedding Generator for Legal Documents.
 Creates embeddings at Document, Chapter, Section, and Subsection levels.
+Supports SOP documents (Tier-1).
 """
 
 import numpy as np
@@ -9,6 +10,7 @@ from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 
 from .models import LegalDocument, Chapter, Section, Subsection, SubsectionType
+from .sop_parser import SOPDocument, ProceduralBlock
 
 
 class HierarchicalEmbedder:
@@ -208,6 +210,85 @@ class HierarchicalEmbedder:
                 doc.embedding = mean_embedding.tolist()
             else:
                 doc.embedding = self.embed_text(f"{doc.title}\n{doc.summary}").tolist()
+    
+    def embed_sop_document(self, sop: SOPDocument) -> SOPDocument:
+        """Generate embeddings for SOP document and all its procedural blocks.
+        
+        Args:
+            sop: SOP document to embed
+            
+        Returns:
+            The same document with embeddings populated
+        """
+        print(f"\nGenerating embeddings for SOP: {sop.title}")
+        
+        # Embed each procedural block
+        print(f"  → Embedding {len(sop.blocks)} procedural blocks...")
+        for block in tqdm(sop.blocks, desc="SOP Blocks"):
+            embed_text = self._create_sop_block_embed_text(sop, block)
+            block.embedding = self.embed_text(embed_text).tolist()
+        
+        # Create document-level embedding from blocks
+        print("  → Embedding SOP document...")
+        if sop.blocks:
+            block_embeddings = [
+                np.array(b.embedding)
+                for b in sop.blocks
+                if b.embedding is not None
+            ]
+            
+            if block_embeddings:
+                # Weighted mean by priority
+                weights = np.array([b.priority for b in sop.blocks if b.embedding is not None])
+                weights = weights / weights.sum()
+                mean_embedding = np.average(block_embeddings, axis=0, weights=weights)
+                
+                # Normalize
+                norm = np.linalg.norm(mean_embedding)
+                if norm > 0:
+                    mean_embedding = mean_embedding / norm
+                sop.embedding = mean_embedding.tolist()
+            else:
+                sop.embedding = self.embed_text(sop.title).tolist()
+        else:
+            sop.embedding = self.embed_text(sop.title).tolist()
+        
+        return sop
+    
+    def _create_sop_block_embed_text(self, sop: SOPDocument, block: ProceduralBlock) -> str:
+        """Create text to embed for an SOP block with context.
+        
+        Includes procedural stage and stakeholder info for better retrieval.
+        """
+        # Build context header
+        context_parts = [
+            f"SOP ({sop.source})",
+            f"Stage: {block.procedural_stage.value.replace('_', ' ').title()}",
+        ]
+        
+        if block.stakeholders:
+            stakeholder_str = ", ".join(s.value for s in block.stakeholders)
+            context_parts.append(f"For: {stakeholder_str}")
+        
+        if block.time_limit:
+            context_parts.append(f"Time: {block.time_limit}")
+        
+        context = " | ".join(context_parts)
+        
+        # Add referenced sections for better cross-referencing
+        refs = []
+        if block.bnss_sections:
+            refs.append(f"BNSS Sections: {', '.join(block.bnss_sections)}")
+        if block.bns_sections:
+            refs.append(f"BNS Sections: {', '.join(block.bns_sections)}")
+        
+        ref_text = " | ".join(refs) if refs else ""
+        
+        # Combine all parts
+        if ref_text:
+            return f"{context}\n{block.title}\n{ref_text}\n{block.text}"
+        else:
+            return f"{context}\n{block.title}\n{block.text}"
 
 
 def embed_all_documents(

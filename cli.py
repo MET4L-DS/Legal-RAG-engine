@@ -39,6 +39,7 @@ def cli():
 def parse(documents_dir: str, output_dir: str):
     """Parse PDF documents into structured JSON format."""
     from src.pdf_parser import parse_all_documents
+    from src.sop_parser import parse_sop, SOPDocument
     
     documents_path = Path(documents_dir)
     output_path = Path(output_dir)
@@ -51,44 +52,82 @@ def parse(documents_dir: str, output_dir: str):
         title="📄 Parsing Documents"
     ))
     
-    # Parse all documents
+    # Parse all legal documents (BNS, BNSS, BSA)
     documents = parse_all_documents(documents_path)
     
-    if not documents:
+    # Parse SOP documents separately (Tier-1 feature)
+    sop_docs = []
+    for pdf_file in documents_path.glob("*.pdf"):
+        if "SOP" in pdf_file.name.upper():
+            console.print(f"[blue]Parsing SOP:[/blue] {pdf_file.name}")
+            try:
+                sop = parse_sop(pdf_file)
+                sop_docs.append(sop)
+                console.print(f"  → Found {len(sop.blocks)} procedural blocks")
+            except Exception as e:
+                console.print(f"[yellow]Warning: Could not parse SOP {pdf_file.name}: {e}[/yellow]")
+    
+    if not documents and not sop_docs:
         console.print("[red]No documents were parsed![/red]")
         return
     
-    # Save each document
+    # Save each legal document
     for doc in documents:
         output_file = output_path / f"{doc.doc_id}.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(doc.to_dict(), f, ensure_ascii=False, indent=2)
         console.print(f"[green]✓[/green] Saved: {output_file.name}")
     
-    # Print summary
-    table = Table(title="Parsing Summary")
-    table.add_column("Document", style="cyan")
-    table.add_column("Chapters", justify="right")
-    table.add_column("Sections", justify="right")
-    table.add_column("Subsections", justify="right")
-    table.add_column("Pages", justify="right")
+    # Save each SOP document
+    for sop in sop_docs:
+        output_file = output_path / f"{sop.doc_id}.json"
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(sop.to_dict(), f, ensure_ascii=False, indent=2)
+        console.print(f"[green]✓[/green] Saved: {output_file.name} (SOP)")
     
-    for doc in documents:
-        total_sections = sum(len(c.sections) for c in doc.chapters)
-        total_subsections = sum(
-            len(s.subsections) 
-            for c in doc.chapters 
-            for s in c.sections
-        )
-        table.add_row(
-            doc.short_name,
-            str(len(doc.chapters)),
-            str(total_sections),
-            str(total_subsections),
-            str(doc.total_pages)
-        )
+    # Print summary for legal documents
+    if documents:
+        table = Table(title="Legal Documents Summary")
+        table.add_column("Document", style="cyan")
+        table.add_column("Chapters", justify="right")
+        table.add_column("Sections", justify="right")
+        table.add_column("Subsections", justify="right")
+        table.add_column("Pages", justify="right")
+        
+        for doc in documents:
+            total_sections = sum(len(c.sections) for c in doc.chapters)
+            total_subsections = sum(
+                len(s.subsections) 
+                for c in doc.chapters 
+                for s in c.sections
+            )
+            table.add_row(
+                doc.short_name,
+                str(len(doc.chapters)),
+                str(total_sections),
+                str(total_subsections),
+                str(doc.total_pages)
+            )
+        
+        console.print(table)
     
-    console.print(table)
+    # Print summary for SOP documents
+    if sop_docs:
+        sop_table = Table(title="SOP Documents Summary")
+        sop_table.add_column("Document", style="green")
+        sop_table.add_column("Blocks", justify="right")
+        sop_table.add_column("Case Types", justify="left")
+        sop_table.add_column("Pages", justify="right")
+        
+        for sop in sop_docs:
+            sop_table.add_row(
+                sop.short_name,
+                str(len(sop.blocks)),
+                ", ".join(sop.case_types),
+                str(sop.total_pages)
+            )
+        
+        console.print(sop_table)
 
 
 @cli.command()
@@ -98,6 +137,7 @@ def parse(documents_dir: str, output_dir: str):
 def index(parsed_dir: str, index_dir: str, model: str):
     """Generate embeddings and build vector indices."""
     from src.models import LegalDocument
+    from src.sop_parser import SOPDocument
     from src.embedder import HierarchicalEmbedder
     from src.vector_store import MultiLevelVectorStore
     
@@ -120,18 +160,31 @@ def index(parsed_dir: str, index_dir: str, model: str):
         return
     
     documents = []
+    sop_docs = []
+    
     for json_file in json_files:
         with open(json_file, "r", encoding="utf-8") as f:
             doc_dict = json.load(f)
-            documents.append(LegalDocument.from_dict(doc_dict))
-        console.print(f"[blue]Loaded:[/blue] {json_file.name}")
+            
+            # Check if it's an SOP document
+            if doc_dict.get("doc_type") == "SOP":
+                sop_docs.append(SOPDocument.from_dict(doc_dict))
+                console.print(f"[green]Loaded SOP:[/green] {json_file.name}")
+            else:
+                documents.append(LegalDocument.from_dict(doc_dict))
+                console.print(f"[blue]Loaded:[/blue] {json_file.name}")
     
     # Initialize embedder
     embedder = HierarchicalEmbedder(model_name=model)
     
-    # Generate embeddings for all documents
+    # Generate embeddings for all legal documents
     for doc in documents:
         embedder.embed_document(doc)
+    
+    # Generate embeddings for SOP documents
+    for sop in sop_docs:
+        console.print(f"[green]Embedding SOP:[/green] {sop.short_name}")
+        embedder.embed_sop_document(sop)
     
     # Build vector store
     assert embedder.embedding_dim is not None, "Embedding dimension not initialized"
@@ -139,6 +192,10 @@ def index(parsed_dir: str, index_dir: str, model: str):
     
     for doc in documents:
         store.add_document(doc)
+    
+    # Add SOP documents to store
+    for sop in sop_docs:
+        store.add_sop_document(sop)
     
     # Build BM25 indices
     store.build_bm25_indices()
@@ -250,22 +307,48 @@ def query(question: str, index_dir: str, model: str, top_k: int, no_llm: bool, v
             for sec in result["retrieval"]["sections"]:
                 console.print(f"  • {sec['citation']} (score: {sec['score']})")
     
+    # Show SOP blocks if present (Tier-1 feature)
+    if result["retrieval"].get("sop_blocks"):
+        console.print("\n[bold green]📘 SOP Procedural Guidance Found:[/bold green]")
+        sop_table = Table(show_header=True, header_style="bold green")
+        sop_table.add_column("Stage", style="yellow", width=20)
+        sop_table.add_column("Guidance", width=60)
+        sop_table.add_column("Time", width=12)
+        
+        for sop in result["retrieval"]["sop_blocks"][:5]:
+            stage = sop["metadata"].get("procedural_stage", "").replace("_", " ").title()
+            time_limit = sop["metadata"].get("time_limit", "-")
+            sop_table.add_row(
+                stage,
+                sop["text"][:200] + "..." if len(sop["text"]) > 200 else sop["text"],
+                time_limit
+            )
+        
+        console.print(sop_table)
+    
     # Show subsection results
-    console.print("\n[bold green]📋 Legal Extracts Found:[/bold green]")
+    console.print("\n[bold cyan]📋 Legal Provisions Found:[/bold cyan]")
     
     table = Table(show_header=True, header_style="bold")
-    table.add_column("Citation", style="cyan", width=30)
-    table.add_column("Text", width=70)
+    table.add_column("Source", style="cyan", width=35)
+    table.add_column("Text", width=60)
     table.add_column("Score", justify="right", width=8)
     
     for sub in result["retrieval"]["subsections"][:top_k]:
+        # Add source type indicator
+        source_type = sub.get("source_type", "📄")
+        citation = f"{source_type} {sub['citation']}"
         table.add_row(
-            sub["citation"],
-            sub["text"][:200] + "..." if len(sub["text"]) > 200 else sub["text"],
+            citation,
+            sub["text"][:180] + "..." if len(sub["text"]) > 180 else sub["text"],
             f"{sub['score']:.3f}"
         )
     
     console.print(table)
+    
+    # Show query intent info for procedural queries
+    if result.get("is_procedural"):
+        console.print(f"\n[dim]Query Type: Procedural | Case: {result.get('case_type', 'general')} | Stages: {', '.join(result.get('detected_stages', []))}[/dim]")
     
     # Show citations
     if result["citations"]:
@@ -441,18 +524,39 @@ def stats(index_dir: str):
         title="📊 Stats"
     ))
     
-    table = Table()
+    # Legal documents table
+    table = Table(title="Legal Documents")
     table.add_column("Metric", style="cyan")
     table.add_column("Value", justify="right")
     
-    table.add_row("Documents", str(stats["documents"]))
-    table.add_row("Chapters", str(stats["chapters"]))
-    table.add_row("Sections", str(stats["sections"]))
-    table.add_row("Subsections", str(stats["subsections"]))
-    table.add_row("Embedding Dimension", str(stats["embedding_dim"]))
-    table.add_row("Index Location", str(index_path))
+    table.add_row("📚 Documents", str(stats["documents"]))
+    table.add_row("📖 Chapters", str(stats["chapters"]))
+    table.add_row("📑 Sections", str(stats["sections"]))
+    table.add_row("📄 Subsections", str(stats["subsections"]))
     
     console.print(table)
+    
+    # SOP statistics (Tier-1)
+    sop_count = stats.get("sop_blocks", 0)
+    if sop_count > 0:
+        sop_table = Table(title="SOP Documents (Procedural)")
+        sop_table.add_column("Metric", style="green")
+        sop_table.add_column("Value", justify="right")
+        
+        sop_table.add_row("📘 SOP Blocks", str(sop_count))
+        
+        console.print(sop_table)
+    
+    # Technical info
+    tech_table = Table(title="Technical Info")
+    tech_table.add_column("Setting", style="dim")
+    tech_table.add_column("Value", justify="right")
+    
+    tech_table.add_row("Embedding Dimension", str(stats["embedding_dim"]))
+    tech_table.add_row("Index Location", str(index_path))
+    tech_table.add_row("SOP Support", "✅ Enabled" if sop_count > 0 else "❌ No SOP indexed")
+    
+    console.print(tech_table)
 
 
 if __name__ == "__main__":
