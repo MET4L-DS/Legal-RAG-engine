@@ -5,15 +5,19 @@ A hierarchical Retrieval-Augmented Generation (RAG) system for Indian legal docu
 ## Features
 
 -   ✅ **Hierarchical Document Parsing**: Extracts structure from legal PDFs (Chapters, Sections, Subsections)
--   ✅ **SOP Document Support**: Parses procedural documents into actionable blocks with stage classification
+-   ✅ **SOP Document Support** (Tier-1): Parses procedural documents into actionable blocks with stage classification
+-   ✅ **Evidence Manual Support** (Tier-2): Crime scene investigation standards with failure impact tracking
+-   ✅ **Compensation Scheme Support** (Tier-2): Victim relief and rehabilitation guidance with conviction-not-required tracking
 -   ✅ **Procedural Query Intelligence**: Detects victim-centric queries and provides step-by-step guidance
 -   ✅ **Multi-Level Embeddings**: Creates embeddings at all hierarchy levels with type-based weighting
 -   ✅ **Hybrid Search**: Combines vector similarity (40%) with keyword matching (60% BM25)
--   ✅ **Intelligent Query Processing**: Detects explicit section references, procedural intent, and topic keywords
+-   ✅ **Intelligent Query Processing**: Detects explicit section references, procedural intent, evidence/compensation intent, and topic keywords
 -   ✅ **4-Stage Retrieval**: Document routing → Chapter search → Section search → Subsection search
 -   ✅ **SOP Block Retrieval**: Stage-aware search for procedural guidance (FIR, Medical Examination, etc.)
--   ✅ **Citation Support**: Generates proper legal citations with source labels (📘 SOP, ⚖️ BNSS, 📕 BNS)
--   ✅ **LLM Integration**: Google Gemini with procedural prompts for victim-centric responses
+-   ✅ **Evidence Block Retrieval**: Standards for evidence collection/preservation with contamination warnings
+-   ✅ **Compensation Block Retrieval**: Victim compensation and rehabilitation information
+-   ✅ **Citation Support**: Generates proper legal citations with source labels (📘 SOP, 🧪 Evidence Manual, 💰 NALSA Scheme, ⚖️ BNSS, 📕 BNS)
+-   ✅ **LLM Integration**: Google Gemini with specialized prompts (procedural, evidence, compensation)
 
 ## Supported Documents
 
@@ -23,11 +27,23 @@ A hierarchical Retrieval-Augmented Generation (RAG) system for Indian legal docu
 -   Bharatiya Nagarik Suraksha Sanhita (BNSS) 2023
 -   Bharatiya Sakshya Adhiniyam (BSA) 2023
 
-### Standard Operating Procedures (SOPs)
+### Standard Operating Procedures (SOPs) - Tier-1
 
 -   MHA/BPR&D SOP for Investigation and Prosecution of Rape against Women (29 procedural blocks)
 
 **Procedural Coverage**: FIR filing, medical examination, statement recording, evidence collection, investigation, victim rights, police duties, and rehabilitation
+
+### Evidence & Investigation Standards - Tier-2
+
+-   DFS/GoI Crime Scene Investigation Manual (82 evidence blocks)
+
+**Evidence Coverage**: Biological evidence, physical evidence, digital evidence, documentary evidence, crime scene preservation, evidence packaging, contamination prevention, chain of custody
+
+### Victim Compensation & Relief - Tier-2
+
+-   NALSA Compensation Scheme for Women Victims/Survivors of Sexual Assault/Other Crimes 2018 (108 compensation blocks)
+
+**Compensation Coverage**: Interim relief, final compensation, medical expenses, rehabilitation support, legal aid, application procedures, eligibility criteria, authority contacts
 
 ## Installation
 
@@ -163,7 +179,7 @@ Options:
 Query Processing
    ↓ detect procedural intent + extract hints (section numbers, topics)
    ↓
-   ├─→ Procedural Query Path (NEW - Tier 1)
+   ├─→ Procedural Query Path (Tier-1)
    │      ↓ detect case type (rape/assault) + stages (FIR/medical/etc.)
    │   SOP Block Level (Procedural guidance)
    │      ↓ retrieve stage-specific blocks with time limits
@@ -172,6 +188,28 @@ Query Processing
    │   LLM Answer Generation (Gemini - Procedural Prompt)
    │      ↓ generate step-by-step victim-centric guidance
    │   Final Answer: 🚨 Immediate Steps + 👮 Police Duties + ⚖️ Legal Rights
+   │
+   ├─→ Evidence/Investigation Query Path (Tier-2)
+   │      ↓ detect evidence/forensic/crime scene keywords
+   │   Evidence Manual Block Level (Investigation standards)
+   │      ↓ retrieve evidence collection/preservation procedures
+   │      ↓ include failure impact warnings (contamination/inadmissibility)
+   │   SOP + Legal Provisions (Supporting guidance)
+   │      ↓ retrieve SOP evidence blocks + BNSS sections
+   │   LLM Answer Generation (Gemini - Evidence Prompt)
+   │      ↓ explain proper procedures + consequences of violations
+   │   Final Answer: 🔬 Required Evidence + 📋 Procedure + ⚠️ If Not Followed
+   │
+   ├─→ Compensation/Relief Query Path (Tier-2)
+   │      ↓ detect compensation/relief/rehabilitation keywords
+   │   Compensation Scheme Block Level (Victim relief)
+   │      ↓ retrieve NALSA scheme provisions
+   │      ↓ highlight conviction-not-required eligibility
+   │   Legal Provisions (Legal basis)
+   │      ↓ retrieve BNSS §396 + supporting sections
+   │   LLM Answer Generation (Gemini - Compensation Prompt)
+   │      ↓ explain eligibility + application process + amounts
+   │   Final Answer: ✅ Eligibility + 💰 Types + 📝 How to Apply + 🏛️ Where
    │
    └─→ Traditional Legal Query Path
         Document Level (Acts / Laws)
@@ -189,13 +227,17 @@ Query Processing
 
 ### Current Index Statistics
 
--   **Total Documents**: 5 (BNS, BNSS, BSA + 2 SOP documents)
+-   **Total Documents**: 9 (BNS, BNSS, BSA + specialized documents)
 -   **Total Chapters**: 55
 -   **Total Sections**: 882
 -   **Total Subsections**: 3,112
--   **Total SOP Blocks**: 29 (procedural guidance blocks)
+-   **Total SOP Blocks**: 29 (Tier-1 procedural guidance)
+-   **Total Evidence Blocks**: 82 (Tier-2 investigation standards)
+-   **Total Compensation Blocks**: 108 (Tier-2 victim relief)
 -   **Embedding Dimension**: 384 (all-MiniLM-L6-v2)
--   **SOP Support**: ✅ Enabled
+-   **Tier-1 SOP Support**: ✅ Enabled
+-   **Tier-2 Evidence Support**: ✅ Enabled
+-   **Tier-2 Compensation Support**: ✅ Enabled
 
 ### Embedding Strategy
 
@@ -343,10 +385,20 @@ When a procedural query is detected, the LLM generates victim-centric guidance i
 
 Results are labeled by source type:
 
+**Tier-1: Procedural**
+
 -   📘 **SOP** - MHA/BPR&D procedural guidance
+
+**Tier-2: Evidence & Compensation**
+
+-   🧪 **Evidence Manual** - DFS/GoI Crime Scene Investigation standards
+-   💰 **NALSA Scheme** - Victim compensation and rehabilitation
+
+**Legal Acts**
+
 -   ⚖️ **BNSS** - Bharatiya Nagarik Suraksha Sanhita (procedural law)
 -   📕 **BNS** - Bharatiya Nyaya Sanhita (penal law)
--   📖 **BSA** - Bharatiya Sakshya Adhiniyam (evidence law)
+-   📗 **BSA** - Bharatiya Sakshya Adhiniyam (evidence law)
 
 ## LLM Integration (Google Gemini)
 
@@ -390,13 +442,27 @@ python cli.py query "What is the definition of culpable homicide?"
 python cli.py query "What is the procedure for arrest?"
 python cli.py query "How is evidence recorded?"
 
-# ✨ NEW: Victim-centric procedural queries (SOP-backed)
+# Victim-centric procedural queries (Tier-1: SOP-backed)
 python cli.py query "What can a woman do if she is assaulted?"
 python cli.py query "How can a rape survivor fight back legally?"
 python cli.py query "How to file FIR for rape case?"
 python cli.py query "What are my rights as a sexual assault victim?"
 python cli.py query "What is the medical examination process for rape victims?"
 python cli.py query "What should police do when I report assault?"
+
+# Evidence & Investigation queries (Tier-2: Crime Scene Manual)
+python cli.py query "What evidence should police collect in a rape case?"
+python cli.py query "How should biological evidence be preserved?"
+python cli.py query "Police did not preserve the crime scene properly. What does law say?"
+python cli.py query "What happens if evidence is contaminated?"
+python cli.py query "What is the proper chain of custody for evidence?"
+
+# Compensation & Relief queries (Tier-2: NALSA Scheme)
+python cli.py query "Can a rape survivor get compensation even if accused is not convicted?"
+python cli.py query "What financial help is available for assault victims?"
+python cli.py query "How to apply for victim compensation?"
+python cli.py query "What documents are needed for compensation claim?"
+python cli.py query "Does victim compensation require conviction of accused?"
 
 # Direct section lookup
 python cli.py query "Section 103 BNS"
@@ -421,12 +487,14 @@ python cli.py query "Section 184 of BNSS"
 │   └── indices/          # FAISS vector indices
 └── src/
     ├── __init__.py
-    ├── models.py         # Data models (legal + SOP)
-    ├── pdf_parser.py     # Legal document PDF parser
-    ├── sop_parser.py     # SOP procedural block parser (NEW)
-    ├── embedder.py       # Hierarchical embedding generator (legal + SOP)
-    ├── vector_store.py   # Multi-level FAISS indices (legal + SOP blocks)
-    └── retriever.py      # Retrieval pipeline with procedural intent detection
+    ├── models.py                # Data models (legal documents)
+    ├── pdf_parser.py            # Legal document PDF parser
+    ├── sop_parser.py            # SOP procedural block parser (Tier-1)
+    ├── evidence_parser.py       # Evidence manual parser (Tier-2)
+    ├── compensation_parser.py   # Compensation scheme parser (Tier-2)
+    ├── embedder.py              # Hierarchical embedding generator (all tiers)
+    ├── vector_store.py          # Multi-level FAISS indices (all tiers)
+    └── retriever.py             # Retrieval pipeline with multi-tier intent detection
 ```
 
 ## Embedding Models
