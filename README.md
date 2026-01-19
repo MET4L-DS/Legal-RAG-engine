@@ -115,6 +115,18 @@ python cli.py query "Define abetment" --no-llm
 python cli.py chat
 ```
 
+### Step 5: Start API Server (Optional)
+
+```bash
+# Start the FastAPI server
+uvicorn src.server.main:app --host 0.0.0.0 --port 8000
+
+# Or with auto-reload for development
+uvicorn src.server.main:app --reload
+```
+
+API documentation available at: `http://localhost:8000/docs`
+
 ## CLI Commands
 
 ### `parse`
@@ -178,6 +190,99 @@ python cli.py stats [OPTIONS]
 
 Options:
   -i, --index-dir PATH  Index directory [default: ./data/indices]
+```
+
+## FastAPI Server
+
+The system includes a REST API server for integration with web applications.
+
+### Starting the Server
+
+```bash
+# Production
+uvicorn src.server.main:app --host 0.0.0.0 --port 8000
+
+# With multiple workers
+uvicorn src.server.main:app --host 0.0.0.0 --port 8000 --workers 2
+
+# Development with auto-reload
+uvicorn src.server.main:app --reload
+```
+
+### API Endpoints
+
+| Endpoint      | Method | Description                                |
+| ------------- | ------ | ------------------------------------------ |
+| `/`           | GET    | API information and available endpoints    |
+| `/rag/query`  | POST   | Execute a legal query                      |
+| `/rag/health` | GET    | Health check and status                    |
+| `/rag/stats`  | GET    | Index statistics                           |
+| `/docs`       | GET    | Interactive API documentation (Swagger UI) |
+| `/redoc`      | GET    | Alternative API documentation (ReDoc)      |
+
+### Query Endpoint
+
+**POST `/rag/query`**
+
+```json
+{
+	"query": "What is the punishment for murder?",
+	"no_llm": false,
+	"top_k": 5
+}
+```
+
+**Response:**
+
+```json
+{
+  "question": "What is the punishment for murder?",
+  "answer": "According to BNS Section 103...",
+  "tier_info": {
+    "tier": "standard",
+    "is_procedural": false,
+    "case_type": null,
+    "detected_stages": [],
+    "needs_evidence": false,
+    "needs_compensation": false,
+    "needs_general_sop": false
+  },
+  "retrieval": {
+    "subsections": [...],
+    "sop_blocks": [],
+    "evidence_blocks": [],
+    "compensation_blocks": [],
+    "general_sop_blocks": []
+  },
+  "citations": ["BNS Section 103", "BNS Section 101"],
+  "context_length": 4523
+}
+```
+
+### Tier Routing
+
+The API automatically routes queries to the appropriate tier:
+
+| Tier                 | Description               | Example Query                          |
+| -------------------- | ------------------------- | -------------------------------------- |
+| `standard`           | Traditional legal queries | "What is the punishment for murder?"   |
+| `tier1`              | Sexual offence procedures | "What can a rape victim do?"           |
+| `tier2_evidence`     | Evidence/investigation    | "What evidence should police collect?" |
+| `tier2_compensation` | Victim compensation       | "How to apply for compensation?"       |
+| `tier3`              | General crime procedures  | "What do I do in case of robbery?"     |
+
+### Configuration
+
+Set environment variables in `.env`:
+
+```bash
+# Required for LLM answers
+GEMINI_API_KEY=your_api_key
+
+# Optional server settings
+CORS_ORIGINS=["http://localhost:3000"]
+INDEX_DIR=./data/indices
+EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 ```
 
 ## Architecture
@@ -539,11 +644,18 @@ python cli.py query "Section 184 of BNSS"
     │   ├── embedder.py   # Hierarchical embedding generator (all tiers)
     │   ├── store.py      # Multi-level FAISS indices (all tiers)
     │   └── __init__.py
-    └── retrieval/        # Retrieval pipeline (9 exports)
-        ├── intent.py     # Query intent detection (tier routing)
-        ├── config.py     # Retrieval configuration and results
-        ├── retriever.py  # Hierarchical retrieval pipeline
-        ├── rag.py        # LegalRAG with LLM integration
+    ├── retrieval/        # Retrieval pipeline (9 exports)
+    │   ├── intent.py     # Query intent detection (tier routing)
+    │   ├── config.py     # Retrieval configuration and results
+    │   ├── retriever.py  # Hierarchical retrieval pipeline
+    │   ├── rag.py        # LegalRAG with LLM integration
+    │   └── __init__.py
+    └── server/           # FastAPI server (REST API)
+        ├── main.py       # FastAPI application entry point
+        ├── api.py        # API route definitions
+        ├── schemas.py    # Request/response Pydantic models
+        ├── dependencies.py  # RAG engine singleton loader
+        ├── config.py     # Server configuration
         └── __init__.py
 ```
 
