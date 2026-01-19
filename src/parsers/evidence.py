@@ -1,16 +1,25 @@
 """
 Evidence Manual Parser for Crime Scene Investigation Manual (DFS/GoI).
-Extracts operational evidence blocks for forensic/evidence handling queries.
 
 Tier-2 Document: Conditional depth layer for evidence-related questions.
+
+This parser extracts operational evidence blocks for forensic/evidence handling queries.
+It produces EvidenceBlock objects with evidence types, investigative actions, and 
+failure impact information.
 """
 
 import re
-import fitz  # PyMuPDF
-from pathlib import Path
-from typing import Optional
 from dataclasses import dataclass, field
 from enum import Enum
+from pathlib import Path
+from typing import Optional
+
+import fitz  # PyMuPDF
+
+
+# =============================================================================
+# ENUMS: EvidenceType, InvestigativeAction, FailureImpact
+# =============================================================================
 
 
 class EvidenceType(Enum):

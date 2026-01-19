@@ -1,20 +1,32 @@
 """
 Hierarchical Embedding Generator for Legal Documents.
+
 Creates embeddings at Document, Chapter, Section, and Subsection levels.
-Supports SOP documents (Tier-1), Evidence/Compensation documents (Tier-2),
-and General SOP documents (Tier-3).
+
+Supports:
+- Legal documents (BNS, BNSS, BSA)
+- Tier-1: SOP documents (rape cases)
+- Tier-2: Evidence Manual & Compensation Scheme
+- Tier-3: General SOP documents (all crimes)
 """
 
-import numpy as np
 from typing import Optional
+
+import numpy as np
 from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 
-from .models import LegalDocument, Chapter, Section, Subsection, SubsectionType
-from .sop_parser import SOPDocument, ProceduralBlock
-from .evidence_parser import EvidenceManualDocument, EvidenceBlock
-from .compensation_parser import CompensationSchemeDocument, CompensationBlock
-from .general_sop_parser import GeneralSOPDocument, GeneralSOPBlock
+from ..parsers import (
+    CompensationBlock,
+    CompensationSchemeDocument,
+    EvidenceBlock,
+    EvidenceManualDocument,
+    GeneralSOPBlock,
+    GeneralSOPDocument,
+    ProceduralBlock,
+    SOPDocument,
+)
+from ..models import Chapter, LegalDocument, Section, Subsection, SubsectionType
 
 
 class HierarchicalEmbedder:

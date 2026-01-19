@@ -1,16 +1,28 @@
 """
 PDF Parser for Legal Documents.
-Extracts structured hierarchical data from Indian legal PDFs.
+
+Extracts structured hierarchical data from Indian legal PDFs (BNS, BNSS, BSA).
+
+This parser handles:
+- Table of Contents detection and skipping
+- Chapter/Section/Subsection extraction
+- Subsection type classification (punishment, definition, explanation, etc.)
+- Statement of Objects and Reasons filtering
 """
 
 import re
-import fitz  # PyMuPDF
 from pathlib import Path
 from typing import Optional
+
+import fitz  # PyMuPDF
 from tqdm import tqdm
 
-from .models import (
-    LegalDocument, Chapter, Section, Subsection, SubsectionType
+from ..models import (
+    Chapter,
+    LegalDocument,
+    Section,
+    Subsection,
+    SubsectionType,
 )
 
 

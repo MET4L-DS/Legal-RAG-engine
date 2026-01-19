@@ -1,16 +1,25 @@
 """
 Compensation Scheme Parser for NALSA Victim Compensation Scheme (2018).
-Extracts policy-driven blocks for victim relief and rehabilitation queries.
 
 Tier-2 Document: Conditional depth layer for compensation-related questions.
+
+This parser extracts policy-driven blocks for victim relief and rehabilitation queries.
+It produces CompensationBlock objects with compensation types, eligibility criteria,
+application procedures, and amounts.
 """
 
 import re
-import fitz  # PyMuPDF
-from pathlib import Path
-from typing import Optional
 from dataclasses import dataclass, field
 from enum import Enum
+from pathlib import Path
+from typing import Optional
+
+import fitz  # PyMuPDF
+
+
+# =============================================================================
+# ENUMS: CompensationType, ApplicationStage, Authority, CrimeCovered
+# =============================================================================
 
 
 class CompensationType(Enum):

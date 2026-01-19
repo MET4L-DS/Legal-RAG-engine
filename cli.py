@@ -38,11 +38,11 @@ def cli():
 @click.option("--output-dir", "-o", default=str(PARSED_DIR), help="Output directory for parsed JSON")
 def parse(documents_dir: str, output_dir: str):
     """Parse PDF documents into structured JSON format."""
-    from src.pdf_parser import parse_all_documents
-    from src.sop_parser import parse_sop, SOPDocument
-    from src.evidence_parser import parse_evidence_manual, EvidenceManualDocument
-    from src.compensation_parser import parse_compensation_scheme, CompensationSchemeDocument
-    from src.general_sop_parser import parse_general_sop, GeneralSOPDocument
+    from src.parsers.pdf import parse_all_documents
+    from src.parsers.sop import parse_sop, SOPDocument
+    from src.parsers.evidence import parse_evidence_manual, EvidenceManualDocument
+    from src.parsers.compensation import parse_compensation_scheme, CompensationSchemeDocument
+    from src.parsers.general_sop import parse_general_sop, GeneralSOPDocument
     
     documents_path = Path(documents_dir)
     output_path = Path(output_dir)
@@ -275,12 +275,8 @@ def parse(documents_dir: str, output_dir: str):
 def index(parsed_dir: str, index_dir: str, model: str):
     """Generate embeddings and build vector indices."""
     from src.models import LegalDocument
-    from src.sop_parser import SOPDocument
-    from src.evidence_parser import EvidenceManualDocument
-    from src.compensation_parser import CompensationSchemeDocument
-    from src.general_sop_parser import GeneralSOPDocument
-    from src.embedder import HierarchicalEmbedder
-    from src.vector_store import MultiLevelVectorStore
+    from src.parsers import SOPDocument, EvidenceManualDocument, CompensationSchemeDocument, GeneralSOPDocument
+    from src.indexing import HierarchicalEmbedder, MultiLevelVectorStore
     
     parsed_path = Path(parsed_dir)
     index_path = Path(index_dir)
@@ -426,9 +422,8 @@ def index(parsed_dir: str, index_dir: str, model: str):
 @click.option("--show-context", is_flag=True, help="Show raw context sent to LLM")
 def query(question: str, index_dir: str, model: str, top_k: int, no_llm: bool, verbose: bool, show_context: bool):
     """Query the legal document database."""
-    from src.embedder import HierarchicalEmbedder
-    from src.vector_store import MultiLevelVectorStore
-    from src.retriever import HierarchicalRetriever, RetrievalConfig, LegalRAG
+    from src.indexing import HierarchicalEmbedder, MultiLevelVectorStore
+    from src.retrieval import HierarchicalRetriever, RetrievalConfig, LegalRAG
     
     index_path = Path(index_dir)
     
@@ -660,9 +655,8 @@ def query(question: str, index_dir: str, model: str, top_k: int, no_llm: bool, v
 @click.option("--model", "-m", default="sentence-transformers/all-MiniLM-L6-v2", help="Embedding model")
 def chat(index_dir: str, model: str):
     """Start an interactive chat session."""
-    from src.embedder import HierarchicalEmbedder
-    from src.vector_store import MultiLevelVectorStore
-    from src.retriever import HierarchicalRetriever, RetrievalConfig, LegalRAG
+    from src.indexing import HierarchicalEmbedder, MultiLevelVectorStore
+    from src.retrieval import HierarchicalRetriever, RetrievalConfig, LegalRAG
     
     index_path = Path(index_dir)
     
@@ -773,7 +767,7 @@ def chat(index_dir: str, model: str):
 @click.option("--index-dir", "-i", default=str(INDEX_DIR), help="Directory with vector indices")
 def stats(index_dir: str):
     """Show statistics about the indexed documents."""
-    from src.vector_store import MultiLevelVectorStore
+    from src.indexing import MultiLevelVectorStore
     
     index_path = Path(index_dir)
     

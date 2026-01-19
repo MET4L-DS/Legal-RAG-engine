@@ -1,19 +1,20 @@
 """
-Data models for the hierarchical legal document structure.
+Core legal document data models.
+
+This module defines the hierarchical structure for legal documents:
+- LegalDocument: Complete legal document (Act/Law)
+- Chapter: Chapter within a document
+- Section: Section within a chapter
+- Subsection: Subsection/clause within a section
 """
 
 from dataclasses import dataclass, field
-from typing import Optional
 from enum import Enum
-
-# Re-export SOP models for convenience
-from .sop_parser import (
-    ProceduralStage, Stakeholder, ActionType,
-    ProceduralBlock, SOPDocument
-)
+from typing import Optional
 
 
 class SubsectionType(Enum):
+    """Classification of subsection content types."""
     PUNISHMENT = "punishment"
     DEFINITION = "definition"
     EXPLANATION = "explanation"
@@ -156,27 +157,3 @@ class LegalDocument:
             status=data.get("status", "active"),
             total_pages=data.get("total_pages", 0)
         )
-
-
-@dataclass
-class SearchResult:
-    """Represents a search result with score and metadata."""
-    doc_id: str
-    chapter_no: str
-    section_no: str
-    subsection_no: str
-    text: str
-    score: float
-    level: str  # document, chapter, section, subsection
-    metadata: dict = field(default_factory=dict)
-    
-    def get_citation(self) -> str:
-        """Generate a citation string."""
-        parts = [self.doc_id]
-        if self.chapter_no:
-            parts.append(f"Chapter {self.chapter_no}")
-        if self.section_no:
-            parts.append(f"Section {self.section_no}")
-        if self.subsection_no:
-            parts.append(f"({self.subsection_no})")
-        return " - ".join(parts)

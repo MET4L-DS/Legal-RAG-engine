@@ -1,14 +1,25 @@
 """
 SOP (Standard Operating Procedure) Parser for Procedural Documents.
-Extracts structured procedural blocks instead of hierarchical chapters/sections.
+
+Tier-1 Parser: Extracts structured procedural blocks for sexual offence cases.
+Source: MHA/BPR&D SOP for Investigation and Prosecution of Rape against Women.
+
+This parser produces ProceduralBlock objects instead of hierarchical chapters/sections,
+as SOPs are organized by procedural stages rather than legal structure.
 """
 
 import re
-import fitz  # PyMuPDF
-from pathlib import Path
-from typing import Optional
 from dataclasses import dataclass, field
 from enum import Enum
+from pathlib import Path
+from typing import Optional
+
+import fitz  # PyMuPDF
+
+
+# =============================================================================
+# ENUMS: Procedural Stage, Stakeholder, ActionType
+# =============================================================================
 
 
 class ProceduralStage(Enum):

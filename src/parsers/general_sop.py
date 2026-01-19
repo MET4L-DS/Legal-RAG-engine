@@ -1,21 +1,32 @@
 """
-General SOP Parser for Tier-3 - Citizen-Centric Procedural Guidance
+General SOP Parser for Tier-3 - Citizen-Centric Procedural Guidance.
 
-Parses the General SOP.md document into atomic procedural blocks
+Tier-3 Document: General procedural guidance for all crime types.
+
+This parser processes the General SOP.md document into atomic procedural blocks
 for answering general crime-related procedural questions.
 
 Unlike Tier-1 (rape-specific SOP), Tier-3 provides:
-- General procedural guidance for all crimes
+- General procedural guidance for all crimes (robbery, theft, assault, murder, etc.)
 - Citizen-centric steps (not victim-trauma focused)
 - Police accountability information
+- Escalation paths when police don't act
+
+Source: BPR&D General Standard Operating Procedures
 """
 
 import re
-from pathlib import Path
 from dataclasses import dataclass, field
 from enum import Enum
+from pathlib import Path
 from typing import Optional
+
 import numpy as np
+
+
+# =============================================================================
+# ENUMS: SOPGroup, ProceduralStage, ActionType, Stakeholder
+# =============================================================================
 
 
 class SOPGroup(Enum):
