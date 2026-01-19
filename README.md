@@ -4,46 +4,55 @@ A hierarchical Retrieval-Augmented Generation (RAG) system for Indian legal docu
 
 ## Features
 
--   ✅ **Hierarchical Document Parsing**: Extracts structure from legal PDFs (Chapters, Sections, Subsections)
--   ✅ **SOP Document Support** (Tier-1): Parses procedural documents into actionable blocks with stage classification
--   ✅ **Evidence Manual Support** (Tier-2): Crime scene investigation standards with failure impact tracking
--   ✅ **Compensation Scheme Support** (Tier-2): Victim relief and rehabilitation guidance with conviction-not-required tracking
--   ✅ **Procedural Query Intelligence**: Detects victim-centric queries and provides step-by-step guidance
--   ✅ **Multi-Level Embeddings**: Creates embeddings at all hierarchy levels with type-based weighting
--   ✅ **Hybrid Search**: Combines vector similarity (40%) with keyword matching (60% BM25)
--   ✅ **Intelligent Query Processing**: Detects explicit section references, procedural intent, evidence/compensation intent, and topic keywords
--   ✅ **4-Stage Retrieval**: Document routing → Chapter search → Section search → Subsection search
--   ✅ **SOP Block Retrieval**: Stage-aware search for procedural guidance (FIR, Medical Examination, etc.)
--   ✅ **Evidence Block Retrieval**: Standards for evidence collection/preservation with contamination warnings
--   ✅ **Compensation Block Retrieval**: Victim compensation and rehabilitation information
--   ✅ **Citation Support**: Generates proper legal citations with source labels (📘 SOP, 🧪 Evidence Manual, 💰 NALSA Scheme, ⚖️ BNSS, 📕 BNS)
--   ✅ **LLM Integration**: Google Gemini with specialized prompts (procedural, evidence, compensation)
+- ✅ **Hierarchical Document Parsing**: Extracts structure from legal PDFs (Chapters, Sections, Subsections)
+- ✅ **SOP Document Support** (Tier-1): Parses procedural documents into actionable blocks with stage classification
+- ✅ **Evidence Manual Support** (Tier-2): Crime scene investigation standards with failure impact tracking
+- ✅ **Compensation Scheme Support** (Tier-2): Victim relief and rehabilitation guidance with conviction-not-required tracking
+- ✅ **General SOP Support** (Tier-3): Citizen-centric procedural guidance for all crime types (robbery, theft, assault, murder, cybercrime)
+- ✅ **Procedural Query Intelligence**: Detects victim-centric queries and provides step-by-step guidance
+- ✅ **Multi-Level Embeddings**: Creates embeddings at all hierarchy levels with type-based weighting
+- ✅ **Hybrid Search**: Combines vector similarity (40%) with keyword matching (60% BM25)
+- ✅ **Intelligent Query Processing**: Detects explicit section references, procedural intent, evidence/compensation intent, and topic keywords
+- ✅ **4-Stage Retrieval**: Document routing → Chapter search → Section search → Subsection search
+- ✅ **SOP Block Retrieval**: Stage-aware search for procedural guidance (FIR, Medical Examination, etc.)
+- ✅ **Evidence Block Retrieval**: Standards for evidence collection/preservation with contamination warnings
+- ✅ **Compensation Block Retrieval**: Victim compensation and rehabilitation information
+- ✅ **Citation Support**: Generates proper legal citations with source labels (📘 SOP, 🧪 Evidence Manual, 💰 NALSA Scheme, 📋 General SOP, ⚖️ BNSS, 📕 BNS)
+- ✅ **LLM Integration**: Google Gemini with specialized prompts (procedural, evidence, compensation)
 
 ## Supported Documents
 
 ### Legal Acts
 
--   Bharatiya Nyaya Sanhita (BNS) 2023
--   Bharatiya Nagarik Suraksha Sanhita (BNSS) 2023
--   Bharatiya Sakshya Adhiniyam (BSA) 2023
+- Bharatiya Nyaya Sanhita (BNS) 2023
+- Bharatiya Nagarik Suraksha Sanhita (BNSS) 2023
+- Bharatiya Sakshya Adhiniyam (BSA) 2023
 
 ### Standard Operating Procedures (SOPs) - Tier-1
 
--   MHA/BPR&D SOP for Investigation and Prosecution of Rape against Women (29 procedural blocks)
+- MHA/BPR&D SOP for Investigation and Prosecution of Rape against Women (29 procedural blocks)
 
 **Procedural Coverage**: FIR filing, medical examination, statement recording, evidence collection, investigation, victim rights, police duties, and rehabilitation
 
 ### Evidence & Investigation Standards - Tier-2
 
--   DFS/GoI Crime Scene Investigation Manual (82 evidence blocks)
+- DFS/GoI Crime Scene Investigation Manual (82 evidence blocks)
 
 **Evidence Coverage**: Biological evidence, physical evidence, digital evidence, documentary evidence, crime scene preservation, evidence packaging, contamination prevention, chain of custody
 
 ### Victim Compensation & Relief - Tier-2
 
--   NALSA Compensation Scheme for Women Victims/Survivors of Sexual Assault/Other Crimes 2018 (108 compensation blocks)
+- NALSA Compensation Scheme for Women Victims/Survivors of Sexual Assault/Other Crimes 2018 (108 compensation blocks)
 
 **Compensation Coverage**: Interim relief, final compensation, medical expenses, rehabilitation support, legal aid, application procedures, eligibility criteria, authority contacts
+
+### General Citizen Procedures - Tier-3
+
+- BPR&D General Standard Operating Procedures (105 procedural blocks)
+
+**Procedural Coverage**: FIR filing, Zero-FIR, complaints, non-cognizable cases, preliminary enquiry, witness examination, medical examination, search & seizure, digital evidence, magistrate complaints, public servant complaints, videography, arrest procedures, property attachment, sureties, proclaimed offenders
+
+**Crime Types Covered**: All crimes (robbery, theft, assault, murder, cybercrime, kidnapping, cheating, forgery, corruption, etc.)
 
 ## Installation
 
@@ -211,6 +220,17 @@ Query Processing
    │      ↓ explain eligibility + application process + amounts
    │   Final Answer: ✅ Eligibility + 💰 Types + 📝 How to Apply + 🏛️ Where
    │
+   ├─→ General Procedural Query Path (Tier-3)
+   │      ↓ detect general crime + procedural intent (NOT sexual offence)
+   │   General SOP Block Level (Citizen procedural guidance)
+   │      ↓ retrieve crime-specific SOP blocks (FIR, complaint, arrest, etc.)
+   │      ↓ include escalation paths and time limits
+   │   Legal Provisions (Supporting law)
+   │      ↓ retrieve relevant BNSS/BNS sections
+   │   LLM Answer Generation (Gemini - General SOP Prompt)
+   │      ↓ explain citizen steps + police accountability
+   │   Final Answer: 🚨 Immediate Steps + 👮 Police Duties + ⚖️ Legal Basis + 🚩 If Police Do Not Act
+   │
    └─→ Traditional Legal Query Path
         Document Level (Acts / Laws)
            ↓ route to relevant law (BNS/BNSS/BSA)
@@ -227,17 +247,19 @@ Query Processing
 
 ### Current Index Statistics
 
--   **Total Documents**: 9 (BNS, BNSS, BSA + specialized documents)
--   **Total Chapters**: 55
--   **Total Sections**: 882
--   **Total Subsections**: 3,112
--   **Total SOP Blocks**: 29 (Tier-1 procedural guidance)
--   **Total Evidence Blocks**: 82 (Tier-2 investigation standards)
--   **Total Compensation Blocks**: 108 (Tier-2 victim relief)
--   **Embedding Dimension**: 384 (all-MiniLM-L6-v2)
--   **Tier-1 SOP Support**: ✅ Enabled
--   **Tier-2 Evidence Support**: ✅ Enabled
--   **Tier-2 Compensation Support**: ✅ Enabled
+- **Total Documents**: 10 (BNS, BNSS, BSA + specialized documents)
+- **Total Chapters**: 55
+- **Total Sections**: 882
+- **Total Subsections**: 3,112
+- **Total SOP Blocks**: 29 (Tier-1 procedural guidance - rape cases)
+- **Total Evidence Blocks**: 82 (Tier-2 investigation standards)
+- **Total Compensation Blocks**: 108 (Tier-2 victim relief)
+- **Total General SOP Blocks**: 105 (Tier-3 citizen procedural guidance - all crimes)
+- **Embedding Dimension**: 384 (all-MiniLM-L6-v2)
+- **Tier-1 SOP Support**: ✅ Enabled (Sexual Offences)
+- **Tier-2 Evidence Support**: ✅ Enabled (Crime Scene Investigation)
+- **Tier-2 Compensation Support**: ✅ Enabled (Victim Relief)
+- **Tier-3 General SOP Support**: ✅ Enabled (All Crime Types)
 
 ### Embedding Strategy
 
@@ -268,17 +290,17 @@ The system uses a weighted combination of two search methods at each hierarchy l
 
 **Vector Search (40%)**
 
--   Uses FAISS IndexFlatIP for cosine similarity
--   Captures semantic meaning and context
--   Handles paraphrased or conceptual queries
--   Best for: "What protections exist for assault victims?"
+- Uses FAISS IndexFlatIP for cosine similarity
+- Captures semantic meaning and context
+- Handles paraphrased or conceptual queries
+- Best for: "What protections exist for assault victims?"
 
 **Keyword Search (60%)**
 
--   Uses BM25Okapi algorithm for term matching
--   Captures exact legal terminology and phrases
--   Handles specific section references
--   Best for: "Section 64 BNSS" or "rape victim medical examination"
+- Uses BM25Okapi algorithm for term matching
+- Captures exact legal terminology and phrases
+- Handles specific section references
+- Best for: "Section 64 BNSS" or "rape victim medical examination"
 
 **Final Score**: `0.4 × vector_similarity + 0.6 × min(bm25_score/10, 1.0)`
 
@@ -289,13 +311,11 @@ The higher BM25 weight ensures precise legal terminology matching, critical for 
 The system automatically detects and processes:
 
 1. **Explicit Section References**
-
     - Pattern: "Section 103", "Sec 184 BNSS", "Section 64 of BNSS"
     - Action: Direct lookup bypassing full retrieval pipeline
     - Example: "Section 184 BNSS" → instantly returns medical examination provisions
 
 2. **Topic Keywords Expansion**
-
     - Maps common terms to legal terminology
     - Example: "rape survivor" expands to [rape, victim, sexual, woman, examination, medical, complaint, fir, investigation, accused]
     - Improves recall for non-legal queries
@@ -312,11 +332,11 @@ The system automatically detects victim-centric procedural queries and provides 
 
 **Detected Patterns**:
 
--   "What can a woman do if..."
--   "How to file FIR..."
--   "What are my rights as a victim..."
--   "What should police do when..."
--   Keywords: assault, rape, victim, survivor, FIR, medical examination
+- "What can a woman do if..."
+- "How to file FIR..."
+- "What are my rights as a victim..."
+- "What should police do when..."
+- Keywords: assault, rape, victim, survivor, FIR, medical examination
 
 **Case Type Detection**: rape, sexual_assault, POCSO
 
@@ -340,13 +360,13 @@ The system automatically detects victim-centric procedural queries and provides 
 
 Each SOP block contains:
 
--   **Title**: Brief description (e.g., "FIR", "Medical examination of victim")
--   **Procedural Stage**: Which stage it applies to
--   **Stakeholders**: Who it applies to (victim, police, IO, magistrate, doctor)
--   **Action Type**: duty, right, timeline, procedure, escalation, guideline
--   **Time Limit**: Deadlines (e.g., "24 hours", "72 hours", "immediately")
--   **Legal References**: Cited BNSS/BNS sections
--   **Priority**: Importance weighting for retrieval
+- **Title**: Brief description (e.g., "FIR", "Medical examination of victim")
+- **Procedural Stage**: Which stage it applies to
+- **Stakeholders**: Who it applies to (victim, police, IO, magistrate, doctor)
+- **Action Type**: duty, right, timeline, procedure, escalation, guideline
+- **Time Limit**: Deadlines (e.g., "24 hours", "72 hours", "immediately")
+- **Legal References**: Cited BNSS/BNS sections
+- **Priority**: Importance weighting for retrieval
 
 ### Procedural Answer Format
 
@@ -385,20 +405,24 @@ When a procedural query is detected, the LLM generates victim-centric guidance i
 
 Results are labeled by source type:
 
-**Tier-1: Procedural**
+**Tier-1: Sexual Offence Procedures**
 
--   📘 **SOP** - MHA/BPR&D procedural guidance
+- 📘 **SOP** - MHA/BPR&D procedural guidance (rape cases)
 
 **Tier-2: Evidence & Compensation**
 
--   🧪 **Evidence Manual** - DFS/GoI Crime Scene Investigation standards
--   💰 **NALSA Scheme** - Victim compensation and rehabilitation
+- 🧪 **Evidence Manual** - DFS/GoI Crime Scene Investigation standards
+- 💰 **NALSA Scheme** - Victim compensation and rehabilitation
+
+**Tier-3: General Citizen Procedures**
+
+- 📋 **General SOP** - BPR&D procedural guidance (all crime types)
 
 **Legal Acts**
 
--   ⚖️ **BNSS** - Bharatiya Nagarik Suraksha Sanhita (procedural law)
--   📕 **BNS** - Bharatiya Nyaya Sanhita (penal law)
--   📗 **BSA** - Bharatiya Sakshya Adhiniyam (evidence law)
+- ⚖️ **BNSS** - Bharatiya Nagarik Suraksha Sanhita (procedural law)
+- 📕 **BNS** - Bharatiya Nyaya Sanhita (penal law)
+- 📗 **BSA** - Bharatiya Sakshya Adhiniyam (evidence law)
 
 ## LLM Integration (Google Gemini)
 
@@ -406,15 +430,15 @@ The system uses Google's Gemini API for generating natural language answers:
 
 **Primary Model**: `gemini-2.5-flash-lite`
 
--   Fast, cost-effective for legal Q&A
--   Fallback to `gemini-2.0-flash` on failure
+- Fast, cost-effective for legal Q&A
+- Fallback to `gemini-2.0-flash` on failure
 
 **Features**:
 
--   **Automatic Retry**: 3 attempts per model with exponential backoff
--   **Rate Limit Handling**: Waits 10s, 20s, 30s between retries
--   **Context-Aware**: Receives retrieved sections with full legal text
--   **Citation Grounding**: Answers reference specific sections
+- **Automatic Retry**: 3 attempts per model with exponential backoff
+- **Rate Limit Handling**: Waits 10s, 20s, 30s between retries
+- **Context-Aware**: Receives retrieved sections with full legal text
+- **Citation Grounding**: Answers reference specific sections
 
 **Prompt Structure**:
 
@@ -464,6 +488,15 @@ python cli.py query "How to apply for victim compensation?"
 python cli.py query "What documents are needed for compensation claim?"
 python cli.py query "Does victim compensation require conviction of accused?"
 
+# General Procedural queries (Tier-3: General SOP - All Crime Types)
+python cli.py query "What do I do in case of a robbery?"
+python cli.py query "Police refused FIR for theft. What now?"
+python cli.py query "What happens after FIR is registered?"
+python cli.py query "How to file complaint for cybercrime?"
+python cli.py query "What are my rights when arrested?"
+python cli.py query "Police asking for surety. Is this allowed?"
+python cli.py query "What is Zero-FIR and when to use it?"
+
 # Direct section lookup
 python cli.py query "Section 103 BNS"
 python cli.py query "Section 184 of BNSS"
@@ -489,9 +522,10 @@ python cli.py query "Section 184 of BNSS"
     ├── __init__.py
     ├── models.py                # Data models (legal documents)
     ├── pdf_parser.py            # Legal document PDF parser
-    ├── sop_parser.py            # SOP procedural block parser (Tier-1)
+    ├── sop_parser.py            # SOP procedural block parser (Tier-1 - rape cases)
     ├── evidence_parser.py       # Evidence manual parser (Tier-2)
     ├── compensation_parser.py   # Compensation scheme parser (Tier-2)
+    ├── general_sop_parser.py    # General SOP parser (Tier-3 - all crime types)
     ├── embedder.py              # Hierarchical embedding generator (all tiers)
     ├── vector_store.py          # Multi-level FAISS indices (all tiers)
     └── retriever.py             # Retrieval pipeline with multi-tier intent detection
@@ -520,37 +554,37 @@ python cli.py query "your question" --model BAAI/bge-base-en-v1.5
 
 **For Best Results:**
 
--   Use specific legal terminology when known
--   Include act abbreviation (BNS/BNSS/BSA) to narrow scope
--   For section lookups, use format: "Section [number] [act]"
--   For topic queries, be descriptive: "medical examination of assault victims"
+- Use specific legal terminology when known
+- Include act abbreviation (BNS/BNSS/BSA) to narrow scope
+- For section lookups, use format: "Section [number] [act]"
+- For topic queries, be descriptive: "medical examination of assault victims"
 
 **Examples:**
 
--   ✅ Good: "What is the punishment for murder under BNS?"
--   ✅ Good: "Section 184 BNSS medical examination"
--   ❌ Less effective: "murder" (too broad)
+- ✅ Good: "What is the punishment for murder under BNS?"
+- ✅ Good: "Section 184 BNSS medical examination"
+- ❌ Less effective: "murder" (too broad)
 
 ### Common Issues
 
 **Empty Results:**
 
--   Try broader terms or synonyms
--   Remove act abbreviation to search all documents
--   Use `--verbose` to see retrieval stages
+- Try broader terms or synonyms
+- Remove act abbreviation to search all documents
+- Use `--verbose` to see retrieval stages
 
 **Irrelevant Results:**
 
--   Add more specific keywords
--   Include section number if known
--   Specify the act (BNS/BNSS/BSA)
+- Add more specific keywords
+- Include section number if known
+- Specify the act (BNS/BNSS/BSA)
 
 **LLM Errors:**
 
--   Ensure `GEMINI_API_KEY` is set in `.env`
--   Check internet connectivity
--   Use `--no-llm` flag to skip LLM and see raw results
--   Rate limits: System auto-retries, wait 30-60 seconds
+- Ensure `GEMINI_API_KEY` is set in `.env`
+- Check internet connectivity
+- Use `--no-llm` flag to skip LLM and see raw results
+- Rate limits: System auto-retries, wait 30-60 seconds
 
 ### Index Rebuilding
 

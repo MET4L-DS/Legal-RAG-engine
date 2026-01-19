@@ -3,6 +3,7 @@
 Implements: Document → Chapter → Section → Subsection retrieval.
 Now supports procedural queries with SOP integration (Tier-1).
 Now supports evidence and compensation queries (Tier-2).
+Now supports general procedural queries for all crimes (Tier-3).
 """
 
 import re
@@ -101,6 +102,107 @@ COMPENSATION_INTENT_PATTERNS = [
     r"(?:interim|immediate).*(?:relief|compensation|help)",
     r"(?:dlsa|slsa|nalsa)",
 ]
+
+
+# ============================================================================
+# TIER-3: GENERAL SOP INTENT DETECTION
+# ============================================================================
+
+# Sexual offence keywords (these should trigger Tier-1 SOP, NOT Tier-3)
+SEXUAL_OFFENCE_KEYWORDS = [
+    "rape", "sexual assault", "sexual violence", "molestation", "pocso",
+    "sexual harassment", "outraging modesty", "voyeurism", "stalking",
+    "sexual", "molest", "survivor"
+]
+
+# General crime types that should trigger Tier-3 (not Tier-1)
+GENERAL_CRIME_TYPES = {
+    "robbery": ["robbery", "robbed", "loot", "looted", "snatch", "snatched"],
+    "theft": ["theft", "stolen", "thief", "steal", "stole", "burglary", "housebreaking"],
+    "assault": ["assault", "beaten", "beat", "attack", "attacked", "hurt", "injury", "injured"],
+    "murder": ["murder", "killed", "death", "homicide", "dead body", "body found"],
+    "cybercrime": ["cyber", "online fraud", "hacking", "phishing", "identity theft", "internet"],
+    "cheating": ["cheating", "fraud", "deceive", "deceived", "duped"],
+    "extortion": ["extortion", "blackmail", "threat", "threatened"],
+    "kidnapping": ["kidnapping", "kidnapped", "abducted", "missing person"],
+    "general": ["crime", "offence", "incident", "case", "complaint", "fir"]
+}
+
+# General procedural intent patterns (citizen-centric queries)
+GENERAL_PROCEDURAL_PATTERNS = [
+    r"what (?:do|should|can) (?:i|we) do",
+    r"how (?:do|can|to) (?:i|we)",
+    r"what (?:happens|is the procedure|are the steps)",
+    r"(?:file|lodge|register).*(?:fir|complaint)",
+    r"police.*(?:refuse|refused|not taking|won't)",
+    r"(?:after|once).*fir",
+    r"step.?by.?step",
+    r"procedure for",
+    r"process for",
+    r"what if.*(?:police|refuse)",
+    r"where to go",
+    r"whom to contact",
+    r"what next",
+    r"what are my (?:rights|options)",
+]
+
+
+def detect_tier3_intent(query: str, tier2_intent: dict) -> dict:
+    """Detect if query requires Tier-3 retrieval (General SOP).
+    
+    Tier-3 is triggered when:
+    - Query is procedural (citizen seeking guidance)
+    - NOT a sexual offence (those go to Tier-1)
+    - NOT evidence/compensation focused (those go to Tier-2)
+    - About a general crime OR general procedural question
+    
+    Returns:
+        dict with keys:
+        - needs_general_sop: bool - whether to search General SOP
+        - crime_type: str or None - detected crime type
+        - is_sexual_offence: bool - whether this should go to Tier-1 instead
+    """
+    query_lower = query.lower()
+    
+    result = {
+        "needs_general_sop": False,
+        "crime_type": None,
+        "is_sexual_offence": False
+    }
+    
+    # Check if this is a sexual offence query (should go to Tier-1, not Tier-3)
+    for kw in SEXUAL_OFFENCE_KEYWORDS:
+        if kw in query_lower:
+            result["is_sexual_offence"] = True
+            return result  # Don't trigger Tier-3 for sexual offences
+    
+    # If Tier-2 is strongly triggered for evidence/compensation, don't also trigger Tier-3
+    # (But we CAN have Tier-3 + Tier-2 for queries like "robbery + compensation")
+    evidence_only = tier2_intent.get("needs_evidence") and not tier2_intent.get("needs_compensation")
+    
+    # Detect crime type
+    for crime_type, keywords in GENERAL_CRIME_TYPES.items():
+        if any(kw in query_lower for kw in keywords):
+            result["crime_type"] = crime_type
+            break
+    
+    # Check for general procedural intent patterns
+    has_procedural_pattern = any(
+        re.search(pattern, query_lower) 
+        for pattern in GENERAL_PROCEDURAL_PATTERNS
+    )
+    
+    # Trigger Tier-3 if:
+    # 1. It's a general crime type AND has procedural pattern
+    # 2. OR it's a general procedural question (what to do, how to file FIR, etc.)
+    if result["crime_type"] and has_procedural_pattern:
+        result["needs_general_sop"] = True
+    elif has_procedural_pattern and not evidence_only:
+        # General procedural question without specific crime
+        result["needs_general_sop"] = True
+        result["crime_type"] = "general"
+    
+    return result
 
 
 def detect_tier2_intent(query: str) -> dict:
@@ -301,6 +403,9 @@ class RetrievalConfig:
     # Tier-2 settings
     top_k_evidence_blocks: int = 5  # Number of Evidence Manual blocks to retrieve
     top_k_compensation_blocks: int = 5  # Number of Compensation blocks to retrieve
+    
+    # Tier-3 settings (General SOP for all crimes)
+    top_k_general_sop_blocks: int = 5  # Number of General SOP blocks to retrieve
 
 
 @dataclass
@@ -321,6 +426,9 @@ class RetrievalResult:
     evidence_blocks: list[SearchResult] = field(default_factory=list)
     compensation_blocks: list[SearchResult] = field(default_factory=list)
     
+    # Tier-3 results (General SOP for all crimes)
+    general_sop_blocks: list[SearchResult] = field(default_factory=list)
+    
     # Query intent (Tier-1)
     is_procedural: bool = False
     case_type: Optional[str] = None
@@ -329,6 +437,10 @@ class RetrievalResult:
     # Tier-2 query intent
     needs_evidence: bool = False
     needs_compensation: bool = False
+    
+    # Tier-3 query intent
+    needs_general_sop: bool = False
+    general_crime_type: Optional[str] = None
     
     # Final context for LLM
     context_text: str = ""
@@ -339,6 +451,7 @@ class RetrievalResult:
         
         For procedural queries, SOP blocks come first, then law sections.
         For Tier-2 queries, evidence/compensation blocks are added where relevant.
+        For Tier-3 queries, General SOP blocks provide citizen-centric guidance.
         """
         context_parts = []
         seen_sections = set()
@@ -363,6 +476,39 @@ class RetrievalResult:
                 
                 # Estimate tokens
                 if len("\n".join(context_parts)) / 4 > max_tokens * 0.3:
+                    break
+                
+                context_parts.append(f"[{citation}]\n{text}\n")
+                
+                if citation not in self.citations:
+                    self.citations.append(citation)
+        
+        # TIER-3: Add General SOP blocks for citizen-centric procedural guidance
+        if self.needs_general_sop and self.general_sop_blocks:
+            context_parts.append("\n=== CITIZEN PROCEDURAL GUIDANCE (General SOP) ===\n")
+            for result in self.general_sop_blocks:
+                title = result.metadata.get("title", "")
+                sop_group = result.metadata.get("sop_group", "")
+                procedural_stage = result.metadata.get("procedural_stage", "")
+                time_limit = result.metadata.get("time_limit", "")
+                applies_to = result.metadata.get("applies_to", [])
+                
+                # Format General SOP citation
+                citation = f"📋 General SOP (BPR&D) - {title}"
+                if sop_group:
+                    citation += f" [{sop_group.replace('_', ' ').upper()}]"
+                if time_limit:
+                    citation += f" ⏱️ {time_limit}"
+                
+                text = result.text
+                
+                # Add applicability note if specific crimes
+                if applies_to and "all" not in applies_to:
+                    applies_note = f"Applicable to: {', '.join(applies_to)}"
+                    text = f"📍 {applies_note}\n\n{text}"
+                
+                # Estimate tokens
+                if len("\n".join(context_parts)) / 4 > max_tokens * 0.4:
                     break
                 
                 context_parts.append(f"[{citation}]\n{text}\n")
@@ -436,8 +582,8 @@ class RetrievalResult:
                 if citation not in self.citations:
                     self.citations.append(citation)
         
-        # Add legal provisions section header if we have SOP/Tier-2 content
-        if self.sop_blocks or self.evidence_blocks or self.compensation_blocks:
+        # Add legal provisions section header if we have SOP/Tier-2/Tier-3 content
+        if self.sop_blocks or self.evidence_blocks or self.compensation_blocks or self.general_sop_blocks:
             context_parts.append("\n=== LEGAL PROVISIONS ===\n")
         
         # Add section-level context (legal provisions)
@@ -530,6 +676,11 @@ class HierarchicalRetriever:
         result.needs_evidence = tier2_intent["needs_evidence"]
         result.needs_compensation = tier2_intent["needs_compensation"]
         
+        # Detect Tier-3 intent (General SOP for all crimes)
+        tier3_intent = detect_tier3_intent(query, tier2_intent)
+        result.needs_general_sop = tier3_intent["needs_general_sop"]
+        result.general_crime_type = tier3_intent["crime_type"]
+        
         # Extract explicit hints from query (e.g., "section 103 of BNS")
         hints = extract_query_hints(query)
         
@@ -541,8 +692,13 @@ class HierarchicalRetriever:
         # Generate query embedding
         query_embedding = self.embedder.embed_text(query)
         
-        # For procedural queries, search SOP blocks FIRST (Tier-1 feature)
-        if result.is_procedural and self.store.has_sop_data():
+        # For procedural queries about sexual offences, search SOP blocks FIRST (Tier-1)
+        # Note: Tier-1 is for sexual offences ONLY, not for general crimes
+        if result.is_procedural and self.store.has_sop_data() and not tier3_intent["is_sexual_offence"]:
+            # Tier-1 is only for sexual offences - if this is general crime, don't use Tier-1
+            pass
+        elif result.is_procedural and self.store.has_sop_data():
+            # Sexual offence detected - use Tier-1 SOP
             stage_filter = [s.value for s in intent.get("detected_stages", [])] if intent.get("detected_stages") else None
             # Don't filter by stakeholder - SOP blocks are useful for all stakeholders
             # The blocks describe both victim rights AND police duties
@@ -552,6 +708,24 @@ class HierarchicalRetriever:
                 enhanced_query,
                 k=self.config.top_k_sop_blocks,
                 stage_filter=None,  # Don't filter by stage either - retrieve all relevant blocks
+                stakeholder_filter=None,
+                use_hybrid=self.config.use_hybrid_search
+            )
+        
+        # TIER-3: Search General SOP blocks for general crimes (citizen-centric guidance)
+        # Routing: procedural + NOT sexual_offence + NOT pure evidence query = Tier-3
+        if result.needs_general_sop and self.store.has_general_sop_data():
+            # Detect crime type filter (if specified)
+            crime_type_filter = None
+            if result.general_crime_type and result.general_crime_type != "general":
+                crime_type_filter = [result.general_crime_type]
+            
+            result.general_sop_blocks = self.store.search_general_sop_blocks(
+                query_embedding,
+                enhanced_query,
+                k=self.config.top_k_general_sop_blocks,
+                crime_type_filter=crime_type_filter,
+                sop_group_filter=None,  # Don't filter by SOP group - retrieve all relevant
                 stakeholder_filter=None,
                 use_hybrid=self.config.use_hybrid_search
             )
@@ -582,8 +756,8 @@ class HierarchicalRetriever:
         result.documents = self._stage1_document_routing(query_embedding, enhanced_query)
         
         if not result.documents:
-            # If no documents found but we have SOP/Tier-2 results, return those
-            if result.sop_blocks or result.evidence_blocks or result.compensation_blocks:
+            # If no documents found but we have SOP/Tier-2/Tier-3 results, return those
+            if result.sop_blocks or result.evidence_blocks or result.compensation_blocks or result.general_sop_blocks:
                 result.get_context_for_llm()
             return result
         
@@ -901,6 +1075,42 @@ OUTPUT FORMAT:
 ## ⏱️ Time Limits
 [Deadlines for application]"""
     
+    # General SOP prompt (Tier-3 feature) - Citizen-centric procedural guidance for all crimes
+    GENERAL_SOP_PROMPT = """You are a legal assistant helping citizens of India understand what to do when they encounter a crime (robbery, theft, assault, murder, cybercrime, etc.).
+Your task is to provide clear, citizen-centric procedural guidance using the provided materials.
+
+The context contains:
+- 📋 General SOP (BPR&D): Official procedures for all types of crimes
+- ⚖️ BNSS sections: Criminal procedure laws
+- 📕 BNS sections: Criminal offense definitions
+
+CRITICAL INSTRUCTIONS:
+1. Start with IMMEDIATE SAFETY steps for the citizen
+2. Explain HOW TO FILE A COMPLAINT/FIR clearly
+3. List what POLICE MUST DO (their duties under law)
+4. Include TIME LIMITS where mentioned (e.g., "FIR within 24 hours")
+5. Cite sources: 📋 General SOP, ⚖️ BNSS Section X, 📕 BNS Section X
+6. If police refuse to act, explain ESCALATION options clearly
+7. Use simple, action-oriented language
+8. DO NOT include trauma-specific guidance (that's Tier-1)
+9. DO NOT include detailed evidence procedures (that's Tier-2)
+
+OUTPUT FORMAT:
+## 🚨 Immediate Steps (Citizen)
+[What the citizen should do right now for safety and initial action]
+
+## 👮 Police Duties
+[What police MUST do - their legal obligations]
+
+## ⚖️ Legal Basis
+[Relevant BNSS/BNS sections briefly]
+
+## ⏱️ Time Limits
+[Any applicable deadlines]
+
+## 🚩 If Police Do Not Act
+[Escalation: SHO → SP → Magistrate complaint]"""
+    
     def __init__(
         self,
         retriever: HierarchicalRetriever,
@@ -942,6 +1152,9 @@ OUTPUT FORMAT:
             # Tier-2 intent flags
             "needs_evidence": retrieval_result.needs_evidence,
             "needs_compensation": retrieval_result.needs_compensation,
+            # Tier-3 intent flags
+            "needs_general_sop": retrieval_result.needs_general_sop,
+            "general_crime_type": retrieval_result.general_crime_type,
             "retrieval": {
                 "documents": [self._format_result(r) for r in retrieval_result.documents],
                 "chapters": [self._format_result(r) for r in retrieval_result.chapters],
@@ -950,7 +1163,9 @@ OUTPUT FORMAT:
                 "sop_blocks": [self._format_result(r) for r in retrieval_result.sop_blocks],
                 # Tier-2 results
                 "evidence_blocks": [self._format_result(r) for r in retrieval_result.evidence_blocks],
-                "compensation_blocks": [self._format_result(r) for r in retrieval_result.compensation_blocks]
+                "compensation_blocks": [self._format_result(r) for r in retrieval_result.compensation_blocks],
+                # Tier-3 results
+                "general_sop_blocks": [self._format_result(r) for r in retrieval_result.general_sop_blocks]
             },
             "context": retrieval_result.context_text,
             "citations": retrieval_result.citations,
@@ -964,7 +1179,8 @@ OUTPUT FORMAT:
                 retrieval_result.context_text,
                 is_procedural=retrieval_result.is_procedural,
                 needs_evidence=retrieval_result.needs_evidence,
-                needs_compensation=retrieval_result.needs_compensation
+                needs_compensation=retrieval_result.needs_compensation,
+                needs_general_sop=retrieval_result.needs_general_sop
             )
         
         return response
@@ -987,6 +1203,8 @@ OUTPUT FORMAT:
             formatted["source_type"] = "🧪 Evidence Manual"
         elif doc_type == "compensation_scheme":
             formatted["source_type"] = "💰 NALSA Scheme"
+        elif doc_type == "general_sop":
+            formatted["source_type"] = "📋 General SOP"
         elif "BNSS" in result.doc_id:
             formatted["source_type"] = "⚖️ BNSS"
         elif "BNS" in result.doc_id:
@@ -1004,24 +1222,31 @@ OUTPUT FORMAT:
         context: str, 
         is_procedural: bool = False,
         needs_evidence: bool = False,
-        needs_compensation: bool = False
+        needs_compensation: bool = False,
+        needs_general_sop: bool = False
     ) -> str:
         """Generate answer using Google Gemini with retry logic.
         
         Uses specialized prompts based on query type:
-        - Procedural (Tier-1): SOP-backed guidance
+        - Procedural (Tier-1): SOP-backed guidance for sexual offences
         - Evidence (Tier-2): Crime scene/investigation standards
         - Compensation (Tier-2): Victim relief and rehabilitation
+        - General SOP (Tier-3): Citizen-centric guidance for all crimes
         """
         import time
         
         # Select appropriate prompt based on query type
+        # Priority: Tier-2 > Tier-1 > Tier-3 > Standard
         if needs_evidence:
             system_prompt = self.EVIDENCE_PROMPT
         elif needs_compensation:
             system_prompt = self.COMPENSATION_PROMPT
-        elif is_procedural:
+        elif is_procedural and not needs_general_sop:
+            # Tier-1: Sexual offence procedural
             system_prompt = self.PROCEDURAL_PROMPT
+        elif needs_general_sop:
+            # Tier-3: General crime procedural
+            system_prompt = self.GENERAL_SOP_PROMPT
         else:
             system_prompt = self.SYSTEM_PROMPT
         

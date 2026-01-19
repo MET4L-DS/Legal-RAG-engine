@@ -1,7 +1,8 @@
 """
 Hierarchical Embedding Generator for Legal Documents.
 Creates embeddings at Document, Chapter, Section, and Subsection levels.
-Supports SOP documents (Tier-1) and Evidence/Compensation documents (Tier-2).
+Supports SOP documents (Tier-1), Evidence/Compensation documents (Tier-2),
+and General SOP documents (Tier-3).
 """
 
 import numpy as np
@@ -13,6 +14,7 @@ from .models import LegalDocument, Chapter, Section, Subsection, SubsectionType
 from .sop_parser import SOPDocument, ProceduralBlock
 from .evidence_parser import EvidenceManualDocument, EvidenceBlock
 from .compensation_parser import CompensationSchemeDocument, CompensationBlock
+from .general_sop_parser import GeneralSOPDocument, GeneralSOPBlock
 
 
 class HierarchicalEmbedder:
@@ -458,6 +460,112 @@ class HierarchicalEmbedder:
             return f"{context}\n{block.title}\n{eligibility_info}\n{block.text}"
         else:
             return f"{context}\n{block.title}\n{block.text}"
+    
+    # =========================================================================
+    # TIER-3: GENERAL SOP EMBEDDINGS
+    # =========================================================================
+    
+    def embed_general_sop_document(self, general_sop_doc: GeneralSOPDocument) -> GeneralSOPDocument:
+        """Generate embeddings for a General SOP document (Tier-3).
+        
+        Tier-3 provides citizen-centric procedural guidance for all crimes
+        (robbery, theft, assault, murder, cybercrime, etc).
+        
+        Args:
+            general_sop_doc: Parsed General SOP document
+            
+        Returns:
+            General SOP document with embeddings at block and document level
+        """
+        print(f"Embedding General SOP document: {general_sop_doc.title}...")
+        
+        # Embed each procedural block
+        block_texts = []
+        for block in tqdm(general_sop_doc.blocks, desc="Embedding General SOP blocks"):
+            # Create enriched text for embedding
+            embed_text = self._create_general_sop_block_embed_text(general_sop_doc, block)
+            block_texts.append(embed_text)
+        
+        if block_texts:
+            # Batch embed all blocks
+            embeddings = self.embed_texts(block_texts)
+            
+            for i, block in enumerate(general_sop_doc.blocks):
+                block.embedding = embeddings[i].tolist()
+        
+        # Create document-level embedding
+        if general_sop_doc.blocks:
+            block_embeddings = [
+                np.array(b.embedding)
+                for b in general_sop_doc.blocks
+                if b.embedding is not None
+            ]
+            
+            if block_embeddings:
+                # Weighted mean by priority (higher priority = more weight)
+                weights = np.array([b.priority for b in general_sop_doc.blocks if b.embedding is not None])
+                weights = weights / weights.sum()
+                mean_embedding = np.average(block_embeddings, axis=0, weights=weights)
+                
+                # Normalize
+                norm = np.linalg.norm(mean_embedding)
+                if norm > 0:
+                    mean_embedding = mean_embedding / norm
+                general_sop_doc.embedding = mean_embedding.tolist()
+            else:
+                general_sop_doc.embedding = self.embed_text(general_sop_doc.title).tolist()
+        else:
+            general_sop_doc.embedding = self.embed_text(general_sop_doc.title).tolist()
+        
+        return general_sop_doc
+    
+    def _create_general_sop_block_embed_text(self, general_sop_doc: GeneralSOPDocument, block: GeneralSOPBlock) -> str:
+        """Create text to embed for a General SOP block with context.
+        
+        Includes SOP group, procedural stage, stakeholders, and applicable crimes
+        for better retrieval on general procedural queries.
+        """
+        # Build context header
+        context_parts = [
+            f"BPR&D General SOP ({general_sop_doc.source})",
+            f"Group: {block.sop_group.value.replace('_', ' ').title()}",
+        ]
+        
+        if block.procedural_stage.value != "general":
+            context_parts.append(f"Stage: {block.procedural_stage.value.replace('_', ' ').title()}")
+        
+        context = " | ".join(context_parts)
+        
+        # Add stakeholder and crime type info
+        meta_parts = []
+        if block.stakeholders:
+            stakeholders_str = ", ".join(s.value for s in block.stakeholders if s.value not in ["all", "general"])
+            if stakeholders_str:
+                meta_parts.append(f"For: {stakeholders_str}")
+        
+        if block.applies_to and "all" not in block.applies_to:
+            crimes_str = ", ".join(block.applies_to)
+            meta_parts.append(f"Applicable to: {crimes_str}")
+        
+        if block.time_limit:
+            meta_parts.append(f"Time limit: {block.time_limit}")
+        
+        meta_info = " | ".join(meta_parts) if meta_parts else ""
+        
+        # Add legal references if present
+        legal_refs = ""
+        if block.legal_references:
+            legal_refs = f"Legal basis: {', '.join(block.legal_references[:5])}"  # Limit to avoid overflow
+        
+        # Combine all parts
+        parts = [context, block.title]
+        if meta_info:
+            parts.append(meta_info)
+        if legal_refs:
+            parts.append(legal_refs)
+        parts.append(block.text)
+        
+        return "\n".join(parts)
 
 
 def embed_all_documents(

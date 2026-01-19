@@ -15,6 +15,7 @@ from .models import LegalDocument, SearchResult
 from .sop_parser import SOPDocument, ProceduralBlock, ProceduralStage
 from .evidence_parser import EvidenceManualDocument, EvidenceBlock
 from .compensation_parser import CompensationSchemeDocument, CompensationBlock
+from .general_sop_parser import GeneralSOPDocument, GeneralSOPBlock
 
 
 @dataclass
@@ -106,6 +107,29 @@ class CompensationIndexEntry:
     priority: int
 
 
+@dataclass
+class GeneralSOPIndexEntry:
+    """Metadata for General SOP blocks in the index (Tier-3).
+    
+    Tier-3 provides citizen-centric procedural guidance for all crimes
+    (robbery, theft, assault, murder, cybercrime, etc).
+    """
+    idx: int
+    doc_id: str
+    block_id: str
+    title: str
+    text: str
+    sop_group: str  # fir, zero_fir, complaint, non_cognizable, etc.
+    procedural_stage: str  # reuses existing stages: fir, investigation, etc.
+    stakeholders: list[str]  # citizen, victim, police, io, sho, etc.
+    applies_to: list[str]  # crime types: robbery, theft, assault, murder, cybercrime, all
+    action_type: str  # procedure, duty, right, timeline, escalation, guideline, technical
+    time_limit: str
+    legal_references: list[str]  # BNSS/BNS/BSA section references
+    page: int
+    priority: int
+
+
 class MultiLevelVectorStore:
     """Multi-level vector store with FAISS indices and BM25."""
     
@@ -135,6 +159,10 @@ class MultiLevelVectorStore:
         self.compensation_index = LevelIndex()
         self.compensation_metadata: list[CompensationIndexEntry] = []
         
+        # Tier-3: General SOP index (citizen-centric guidance for all crimes)
+        self.general_sop_index = LevelIndex()
+        self.general_sop_metadata: list[GeneralSOPIndexEntry] = []
+        
         # Initialize FAISS indices
         self._init_faiss_indices()
     
@@ -149,6 +177,8 @@ class MultiLevelVectorStore:
         # Tier-2 indices
         self.evidence_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
         self.compensation_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
+        # Tier-3 index
+        self.general_sop_index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
     
     def add_document(self, doc: LegalDocument):
         """Add a document with all its hierarchy to the indices."""
@@ -710,6 +740,180 @@ class MultiLevelVectorStore:
         
         return results[:k]
     
+    # =========================================================================
+    # TIER-3: GENERAL SOP SUPPORT (Citizen-Centric Procedural Guidance)
+    # =========================================================================
+    
+    def add_general_sop_document(self, general_sop_doc: GeneralSOPDocument):
+        """Add a General SOP document with all its blocks to the index (Tier-3).
+        
+        Tier-3 provides citizen-centric procedural guidance for all crimes
+        (robbery, theft, assault, murder, cybercrime, etc).
+        """
+        
+        # Add General SOP document level
+        if general_sop_doc.embedding:
+            self._add_to_level(
+                self.doc_index,
+                np.array([general_sop_doc.embedding], dtype=np.float32),
+                IndexMetadata(
+                    idx=len(self.doc_index.metadata),
+                    doc_id=general_sop_doc.doc_id,
+                    text=general_sop_doc.title,
+                    doc_type="general_sop"
+                )
+            )
+        
+        # Add General SOP blocks
+        for block in general_sop_doc.blocks:
+            if block.embedding:
+                embedding = np.array([block.embedding], dtype=np.float32)
+                embedding = embedding / np.linalg.norm(embedding, axis=1, keepdims=True)
+                
+                self.general_sop_index.faiss_index.add(embedding)  # type: ignore
+                
+                # Store General SOP-specific metadata
+                general_sop_entry = GeneralSOPIndexEntry(
+                    idx=len(self.general_sop_metadata),
+                    doc_id=general_sop_doc.doc_id,
+                    block_id=block.block_id,
+                    title=block.title,
+                    text=block.text,
+                    sop_group=block.sop_group.value,
+                    procedural_stage=block.procedural_stage.value,
+                    stakeholders=[s.value for s in block.stakeholders],
+                    applies_to=block.applies_to,
+                    action_type=block.action_type.value,
+                    time_limit=block.time_limit or "",
+                    legal_references=block.legal_references,
+                    page=block.page,
+                    priority=block.priority
+                )
+                self.general_sop_metadata.append(general_sop_entry)
+                self.general_sop_index.texts.append(f"{block.title}\n{block.text}")
+    
+    def search_general_sop_blocks(
+        self,
+        query_embedding: np.ndarray,
+        query_text: str = "",
+        k: int = 5,
+        crime_type_filter: Optional[list[str]] = None,
+        sop_group_filter: Optional[list[str]] = None,
+        stakeholder_filter: Optional[list[str]] = None,
+        use_hybrid: bool = True
+    ) -> list[SearchResult]:
+        """Search General SOP blocks (Tier-3).
+        
+        Args:
+            query_embedding: Query vector
+            query_text: Query text for BM25
+            k: Number of results
+            crime_type_filter: Filter by applicable crimes (e.g., ["robbery", "theft"])
+            sop_group_filter: Filter by SOP groups (e.g., ["fir", "zero_fir"])
+            stakeholder_filter: Filter by stakeholders (e.g., ["citizen", "victim"])
+            use_hybrid: Whether to use hybrid search
+        
+        Returns:
+            List of SearchResult with General SOP-specific metadata
+        """
+        if self.general_sop_index.faiss_index.ntotal == 0:  # type: ignore
+            return []
+        
+        search_k = min(k * 3, self.general_sop_index.faiss_index.ntotal)  # type: ignore
+        
+        # Normalize query embedding
+        query_embedding = query_embedding.reshape(1, -1).astype(np.float32)
+        query_embedding = query_embedding / np.linalg.norm(query_embedding)
+        
+        # Vector search
+        vector_scores, vector_indices = self.general_sop_index.faiss_index.search(query_embedding, search_k)  # type: ignore
+        vector_scores = vector_scores[0]
+        vector_indices = vector_indices[0]
+        
+        # Create results map
+        results_map = {}
+        for score, idx in zip(vector_scores, vector_indices):
+            if idx >= 0 and idx < len(self.general_sop_metadata):
+                results_map[idx] = {
+                    "vector_score": float(score),
+                    "bm25_score": 0.0
+                }
+        
+        # BM25 search if enabled
+        if use_hybrid and self.general_sop_index.bm25_index and query_text:
+            query_tokens = query_text.lower().split()
+            bm25_scores = self.general_sop_index.bm25_index.get_scores(query_tokens)
+            
+            bm25_top_indices = np.argsort(bm25_scores)[::-1][:search_k]
+            
+            for idx in bm25_top_indices:
+                if bm25_scores[idx] > 0:
+                    if idx in results_map:
+                        results_map[idx]["bm25_score"] = float(bm25_scores[idx])
+                    else:
+                        results_map[idx] = {
+                            "vector_score": 0.0,
+                            "bm25_score": float(bm25_scores[idx])
+                        }
+        
+        # Build results with General SOP metadata
+        results = []
+        for idx, scores in results_map.items():
+            meta = self.general_sop_metadata[idx]
+            
+            # Apply filters
+            if crime_type_filter:
+                # Check if any specified crime matches or if block applies to "all"
+                if not any(c in meta.applies_to for c in crime_type_filter) and "all" not in meta.applies_to:
+                    continue
+            if sop_group_filter and meta.sop_group not in sop_group_filter:
+                continue
+            if stakeholder_filter and not any(s in meta.stakeholders for s in stakeholder_filter):
+                continue
+            
+            # Calculate combined score with priority boost
+            vector_score = scores["vector_score"]
+            bm25_score = scores["bm25_score"]
+            
+            if use_hybrid and bm25_score > 0:
+                combined_score = 0.4 * vector_score + 0.6 * min(bm25_score / 10, 1.0)
+            else:
+                combined_score = vector_score
+            
+            # Boost by priority (normalized)
+            priority_boost = meta.priority / 10.0
+            combined_score = combined_score * (1 + priority_boost)
+            
+            results.append(SearchResult(
+                doc_id=meta.doc_id,
+                chapter_no="",
+                section_no=meta.block_id,
+                subsection_no="",
+                text=meta.text,
+                score=combined_score,
+                level="general_sop_block",
+                metadata={
+                    "title": meta.title,
+                    "sop_group": meta.sop_group,
+                    "procedural_stage": meta.procedural_stage,
+                    "stakeholders": meta.stakeholders,
+                    "applies_to": meta.applies_to,
+                    "action_type": meta.action_type,
+                    "time_limit": meta.time_limit,
+                    "legal_references": meta.legal_references,
+                    "page": meta.page,
+                    "priority": meta.priority,
+                    "doc_type": "general_sop",
+                    "vector_score": scores["vector_score"],
+                    "bm25_score": scores["bm25_score"]
+                }
+            ))
+        
+        # Sort by score
+        results.sort(key=lambda x: x.score, reverse=True)
+        
+        return results[:k]
+    
     def _add_to_level(
         self, 
         level_index: LevelIndex, 
@@ -735,7 +939,8 @@ class MultiLevelVectorStore:
             ("subsections", self.subsection_index),
             ("sop_blocks", self.sop_index),
             ("evidence_blocks", self.evidence_index),
-            ("compensation_blocks", self.compensation_index)
+            ("compensation_blocks", self.compensation_index),
+            ("general_sop_blocks", self.general_sop_index)
         ]:
             if index.texts:
                 # Tokenize texts
@@ -985,14 +1190,15 @@ class MultiLevelVectorStore:
             ("subsection", self.subsection_index),
             ("sop", self.sop_index),
             ("evidence", self.evidence_index),
-            ("compensation", self.compensation_index)
+            ("compensation", self.compensation_index),
+            ("general_sop", self.general_sop_index)
         ]:
             # Save FAISS index
             faiss_path = directory / f"{name}_index.faiss"
             faiss.write_index(index.faiss_index, str(faiss_path))
             
             # Save metadata (for standard indices only)
-            if name not in ["sop", "evidence", "compensation"]:
+            if name not in ["sop", "evidence", "compensation", "general_sop"]:
                 meta_path = directory / f"{name}_metadata.json"
                 meta_data = [
                     {
@@ -1091,6 +1297,30 @@ class MultiLevelVectorStore:
         with open(compensation_meta_path, "w", encoding="utf-8") as f:
             json.dump(compensation_data, f, ensure_ascii=False, indent=2)
         
+        # Save General SOP metadata (Tier-3)
+        general_sop_meta_path = directory / "general_sop_metadata.json"
+        general_sop_data = [
+            {
+                "idx": m.idx,
+                "doc_id": m.doc_id,
+                "block_id": m.block_id,
+                "title": m.title,
+                "text": m.text,
+                "sop_group": m.sop_group,
+                "procedural_stage": m.procedural_stage,
+                "stakeholders": m.stakeholders,
+                "applies_to": m.applies_to,
+                "action_type": m.action_type,
+                "time_limit": m.time_limit,
+                "legal_references": m.legal_references,
+                "page": m.page,
+                "priority": m.priority
+            }
+            for m in self.general_sop_metadata
+        ]
+        with open(general_sop_meta_path, "w", encoding="utf-8") as f:
+            json.dump(general_sop_data, f, ensure_ascii=False, indent=2)
+        
         # Save config
         config_path = directory / "config.json"
         with open(config_path, "w") as f:
@@ -1115,7 +1345,8 @@ class MultiLevelVectorStore:
             ("subsection", self.subsection_index),
             ("sop", self.sop_index),
             ("evidence", self.evidence_index),
-            ("compensation", self.compensation_index)
+            ("compensation", self.compensation_index),
+            ("general_sop", self.general_sop_index)
         ]:
             # Load FAISS index
             faiss_path = directory / f"{name}_index.faiss"
@@ -1126,7 +1357,7 @@ class MultiLevelVectorStore:
                 index.faiss_index = faiss.IndexFlatIP(self.embedding_dim)
             
             # Load metadata (for standard indices only)
-            if name not in ["sop", "evidence", "compensation"]:
+            if name not in ["sop", "evidence", "compensation", "general_sop"]:
                 meta_path = directory / f"{name}_metadata.json"
                 if meta_path.exists():
                     with open(meta_path, "r", encoding="utf-8") as f:
@@ -1230,6 +1461,31 @@ class MultiLevelVectorStore:
                     for m in compensation_data
                 ]
         
+        # Load General SOP metadata (Tier-3)
+        general_sop_meta_path = directory / "general_sop_metadata.json"
+        if general_sop_meta_path.exists():
+            with open(general_sop_meta_path, "r", encoding="utf-8") as f:
+                general_sop_data = json.load(f)
+                self.general_sop_metadata = [
+                    GeneralSOPIndexEntry(
+                        idx=m["idx"],
+                        doc_id=m["doc_id"],
+                        block_id=m["block_id"],
+                        title=m["title"],
+                        text=m["text"],
+                        sop_group=m.get("sop_group", "general"),
+                        procedural_stage=m.get("procedural_stage", "fir"),
+                        stakeholders=m.get("stakeholders", []),
+                        applies_to=m.get("applies_to", ["all"]),
+                        action_type=m.get("action_type", "procedure"),
+                        time_limit=m.get("time_limit", ""),
+                        legal_references=m.get("legal_references", []),
+                        page=m.get("page", 0),
+                        priority=m.get("priority", 1)
+                    )
+                    for m in general_sop_data
+                ]
+        
         # Rebuild BM25 indices
         self.build_bm25_indices()
         
@@ -1245,6 +1501,7 @@ class MultiLevelVectorStore:
             "sop_blocks": self.sop_index.faiss_index.ntotal,  # type: ignore
             "evidence_blocks": self.evidence_index.faiss_index.ntotal,  # type: ignore
             "compensation_blocks": self.compensation_index.faiss_index.ntotal,  # type: ignore
+            "general_sop_blocks": self.general_sop_index.faiss_index.ntotal,  # type: ignore
             "embedding_dim": self.embedding_dim
         }
     
@@ -1259,3 +1516,7 @@ class MultiLevelVectorStore:
     def has_compensation_data(self) -> bool:
         """Check if Compensation Scheme data is loaded (Tier-2)."""
         return self.compensation_index.faiss_index.ntotal > 0  # type: ignore
+    
+    def has_general_sop_data(self) -> bool:
+        """Check if General SOP data is loaded (Tier-3)."""
+        return self.general_sop_index.faiss_index.ntotal > 0  # type: ignore

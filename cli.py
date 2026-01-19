@@ -42,6 +42,7 @@ def parse(documents_dir: str, output_dir: str):
     from src.sop_parser import parse_sop, SOPDocument
     from src.evidence_parser import parse_evidence_manual, EvidenceManualDocument
     from src.compensation_parser import parse_compensation_scheme, CompensationSchemeDocument
+    from src.general_sop_parser import parse_general_sop, GeneralSOPDocument
     
     documents_path = Path(documents_dir)
     output_path = Path(output_dir)
@@ -98,7 +99,20 @@ def parse(documents_dir: str, output_dir: str):
             except Exception as e:
                 console.print(f"[yellow]Warning: Could not parse Compensation Scheme {pdf_file.name}: {e}[/yellow]")
     
-    if not documents and not sop_docs and not evidence_docs and not compensation_docs:
+    # Parse General SOP documents (Tier-3 feature) - Markdown files
+    general_sop_docs = []
+    for md_file in documents_path.glob("*.md"):
+        name_lower = md_file.name.lower()
+        if "general" in name_lower and "sop" in name_lower:
+            console.print(f"[yellow]Parsing General SOP:[/yellow] {md_file.name}")
+            try:
+                general_sop_doc = parse_general_sop(md_file)
+                general_sop_docs.append(general_sop_doc)
+                console.print(f"  → Found {len(general_sop_doc.blocks)} general SOP blocks")
+            except Exception as e:
+                console.print(f"[yellow]Warning: Could not parse General SOP {md_file.name}: {e}[/yellow]")
+    
+    if not documents and not sop_docs and not evidence_docs and not compensation_docs and not general_sop_docs:
         console.print("[red]No documents were parsed![/red]")
         return
     
@@ -129,6 +143,13 @@ def parse(documents_dir: str, output_dir: str):
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(comp_doc.to_dict(), f, ensure_ascii=False, indent=2)
         console.print(f"[green]✓[/green] Saved: {output_file.name} (Compensation Scheme)")
+    
+    # Save each General SOP document
+    for general_sop_doc in general_sop_docs:
+        output_file = output_path / f"{general_sop_doc.doc_id}.json"
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(general_sop_doc.to_dict(), f, ensure_ascii=False, indent=2)
+        console.print(f"[green]✓[/green] Saved: {output_file.name} (General SOP)")
     
     # Print summary for legal documents
     if documents:
@@ -220,6 +241,31 @@ def parse(documents_dir: str, output_dir: str):
             )
         
         console.print(comp_table)
+    
+    # Print summary for General SOP documents (Tier-3)
+    if general_sop_docs:
+        general_sop_table = Table(title="General SOP Summary (Tier-3)")
+        general_sop_table.add_column("Document", style="yellow")
+        general_sop_table.add_column("Blocks", justify="right")
+        general_sop_table.add_column("SOP Groups", justify="left")
+        general_sop_table.add_column("Crimes Covered", justify="left")
+        
+        for general_sop_doc in general_sop_docs:
+            # Count unique SOP groups and crime types
+            sop_groups = set()
+            crime_types = set()
+            for block in general_sop_doc.blocks:
+                sop_groups.add(block.sop_group.value)
+                crime_types.update(block.applies_to)
+            
+            general_sop_table.add_row(
+                general_sop_doc.short_name,
+                str(len(general_sop_doc.blocks)),
+                ", ".join(sorted(list(sop_groups)[:3])) + ("..." if len(sop_groups) > 3 else ""),
+                ", ".join(sorted(list(crime_types)[:3])) + ("..." if len(crime_types) > 3 else "")
+            )
+        
+        console.print(general_sop_table)
 
 
 @cli.command()
@@ -232,6 +278,7 @@ def index(parsed_dir: str, index_dir: str, model: str):
     from src.sop_parser import SOPDocument
     from src.evidence_parser import EvidenceManualDocument
     from src.compensation_parser import CompensationSchemeDocument
+    from src.general_sop_parser import GeneralSOPDocument
     from src.embedder import HierarchicalEmbedder
     from src.vector_store import MultiLevelVectorStore
     
@@ -257,6 +304,7 @@ def index(parsed_dir: str, index_dir: str, model: str):
     sop_docs = []
     evidence_docs = []
     compensation_docs = []
+    general_sop_docs = []
     
     for json_file in json_files:
         with open(json_file, "r", encoding="utf-8") as f:
@@ -273,6 +321,9 @@ def index(parsed_dir: str, index_dir: str, model: str):
             elif doc_type == "COMPENSATION_SCHEME":
                 compensation_docs.append(CompensationSchemeDocument.from_dict(doc_dict))
                 console.print(f"[magenta]Loaded Compensation Scheme:[/magenta] {json_file.name}")
+            elif doc_type == "GENERAL_SOP":
+                general_sop_docs.append(GeneralSOPDocument.from_dict(doc_dict))
+                console.print(f"[yellow]Loaded General SOP:[/yellow] {json_file.name}")
             else:
                 documents.append(LegalDocument.from_dict(doc_dict))
                 console.print(f"[blue]Loaded:[/blue] {json_file.name}")
@@ -299,6 +350,11 @@ def index(parsed_dir: str, index_dir: str, model: str):
         console.print(f"[magenta]Embedding Compensation Scheme:[/magenta] {comp_doc.short_name}")
         embedder.embed_compensation_document(comp_doc)
     
+    # Generate embeddings for General SOP documents (Tier-3)
+    for general_sop_doc in general_sop_docs:
+        console.print(f"[yellow]Embedding General SOP:[/yellow] {general_sop_doc.short_name}")
+        embedder.embed_general_sop_document(general_sop_doc)
+    
     # Build vector store
     assert embedder.embedding_dim is not None, "Embedding dimension not initialized"
     store = MultiLevelVectorStore(embedding_dim=embedder.embedding_dim)
@@ -317,6 +373,10 @@ def index(parsed_dir: str, index_dir: str, model: str):
     # Add Compensation Scheme documents to store (Tier-2)
     for comp_doc in compensation_docs:
         store.add_compensation_document(comp_doc)
+    
+    # Add General SOP documents to store (Tier-3)
+    for general_sop_doc in general_sop_docs:
+        store.add_general_sop_document(general_sop_doc)
     
     # Build BM25 indices
     store.build_bm25_indices()
@@ -345,6 +405,10 @@ def index(parsed_dir: str, index_dir: str, model: str):
         table.add_row("Evidence Blocks (Tier-2)", str(stats["evidence_blocks"]))
     if stats.get("compensation_blocks", 0) > 0:
         table.add_row("Compensation Blocks (Tier-2)", str(stats["compensation_blocks"]))
+    
+    # Tier-3: General SOP
+    if stats.get("general_sop_blocks", 0) > 0:
+        table.add_row("General SOP Blocks (Tier-3)", str(stats["general_sop_blocks"]))
     
     table.add_row("Embedding Dim", str(stats["embedding_dim"]))
     console.print(table)
@@ -501,6 +565,29 @@ def query(question: str, index_dir: str, model: str, top_k: int, no_llm: bool, v
         
         console.print(comp_table)
     
+    # Show General SOP blocks if present (Tier-3 feature)
+    if result["retrieval"].get("general_sop_blocks"):
+        console.print("\n[bold yellow]📋 Citizen Procedural Guidance Found (General SOP):[/bold yellow]")
+        general_sop_table = Table(show_header=True, header_style="bold yellow")
+        general_sop_table.add_column("SOP Group", style="yellow", width=18)
+        general_sop_table.add_column("Guidance", width=55)
+        general_sop_table.add_column("Time Limit", width=12)
+        general_sop_table.add_column("Applies To", width=15)
+        
+        for block in result["retrieval"]["general_sop_blocks"][:5]:
+            sop_group = block["metadata"].get("sop_group", "").replace("_", " ").title()
+            time_limit = block["metadata"].get("time_limit", "-")
+            applies_to = block["metadata"].get("applies_to", [])
+            applies_text = ", ".join(applies_to[:2]) + ("..." if len(applies_to) > 2 else "") if applies_to else "all"
+            general_sop_table.add_row(
+                sop_group,
+                block["text"][:180] + "..." if len(block["text"]) > 180 else block["text"],
+                time_limit if time_limit else "-",
+                applies_text
+            )
+        
+        console.print(general_sop_table)
+    
     # Show subsection results
     console.print("\n[bold cyan]📋 Legal Provisions Found:[/bold cyan]")
     
@@ -533,6 +620,11 @@ def query(question: str, index_dir: str, model: str, top_k: int, no_llm: bool, v
         tier2_info.append("Compensation/Relief")
     if tier2_info:
         console.print(f"[dim]Tier-2 Context: {', '.join(tier2_info)}[/dim]")
+    
+    # Show Tier-3 intent info
+    if result.get("needs_general_sop"):
+        crime_type = result.get("general_crime_type", "general")
+        console.print(f"[dim]Tier-3 Context: General Procedural Guidance | Crime Type: {crime_type}[/dim]")
     
     # Show citations
     if result["citations"]:
