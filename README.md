@@ -509,7 +509,10 @@ python cli.py query "Section 184 of BNSS"
 ├── cli.py                 # Main CLI entry point
 ├── requirements.txt       # Python dependencies
 ├── .env.example          # Environment variables template
-├── PLAN.md               # Architecture plan
+├── PLAN.md               # Architecture documentation
+├── PLAN_TIER_1.md        # Tier-1 implementation plan
+├── PLAN_TIER_2.md        # Tier-2 implementation plan
+├── PLAN_TIER_3.md        # Tier-3 implementation plan
 ├── README.md             # This file
 ├── documents/            # PDF legal documents
 │   ├── BNS.pdf
@@ -518,17 +521,30 @@ python cli.py query "Section 184 of BNSS"
 ├── data/                 # Generated data (gitignored)
 │   ├── parsed/           # Parsed JSON documents
 │   └── indices/          # FAISS vector indices
-└── src/
-    ├── __init__.py
-    ├── models.py                # Data models (legal documents)
-    ├── pdf_parser.py            # Legal document PDF parser
-    ├── sop_parser.py            # SOP procedural block parser (Tier-1 - rape cases)
-    ├── evidence_parser.py       # Evidence manual parser (Tier-2)
-    ├── compensation_parser.py   # Compensation scheme parser (Tier-2)
-    ├── general_sop_parser.py    # General SOP parser (Tier-3 - all crime types)
-    ├── embedder.py              # Hierarchical embedding generator (all tiers)
-    ├── vector_store.py          # Multi-level FAISS indices (all tiers)
-    └── retriever.py             # Retrieval pipeline with multi-tier intent detection
+└── src/                  # Modular source code (47 exports)
+    ├── __init__.py       # Package exports
+    ├── models/           # Data models (6 exports)
+    │   ├── legal.py      # LegalDocument, Chapter, Section, Subsection
+    │   ├── search.py     # SearchResult
+    │   └── __init__.py
+    ├── parsers/          # Document parsers (26 exports)
+    │   ├── pdf.py        # Legal document PDF parser
+    │   ├── sop.py        # SOP procedural block parser (Tier-1 - rape cases)
+    │   ├── evidence.py   # Evidence manual parser (Tier-2)
+    │   ├── compensation.py  # Compensation scheme parser (Tier-2)
+    │   ├── general_sop.py   # General SOP parser (Tier-3 - all crime types)
+    │   └── __init__.py
+    ├── indexing/         # Embedding & vector storage (8 exports)
+    │   ├── entries.py    # Index metadata and entry dataclasses
+    │   ├── embedder.py   # Hierarchical embedding generator (all tiers)
+    │   ├── store.py      # Multi-level FAISS indices (all tiers)
+    │   └── __init__.py
+    └── retrieval/        # Retrieval pipeline (9 exports)
+        ├── intent.py     # Query intent detection (tier routing)
+        ├── config.py     # Retrieval configuration and results
+        ├── retriever.py  # Hierarchical retrieval pipeline
+        ├── rag.py        # LegalRAG with LLM integration
+        └── __init__.py
 ```
 
 ## Embedding Models
