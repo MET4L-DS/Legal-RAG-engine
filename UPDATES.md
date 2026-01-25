@@ -1,40 +1,77 @@
-Perfect. Below is a **clean, execution-ready checklist** of **next steps**, separated clearly into **Backend** and **Frontend**, ordered by **priority**, and written so you (or Copilot) can pick tasks one by one without ambiguity.
+# Next Steps Checklist (Backend → Frontend)
 
-This is no longer about architecture — this is about **hardening and product-readiness**.
-
----
-
-# ✅ BACKEND — NEXT STEPS (FastAPI + RAG)
-
-## 🎯 Backend Goal (Next Phase)
-
-Make the backend:
-
-- **Frontend-safe**
-- **Contract-stable**
-- **Clarification-aware**
-- **Auditable**
-
-No new tiers. No new documents. No rewrites.
+> **Purpose**
+> This document defines the **exact implementation steps** to take next, in the **correct order**, assuming the **backend is implemented first** and the frontend follows.
+>
+> It is written to be **explicit, linear, and Copilot-friendly**. Each step is small, verifiable, and should be completed fully before moving to the next.
 
 ---
 
-## 🔴 BACKEND STEP 1 — Add a Response Adapter (HIGH PRIORITY)
+## PART A — BACKEND NEXT STEPS (FastAPI + RAG)
 
-### Problem
+### 🎯 Backend Objective (This Phase)
 
-Backend currently exposes **internal structures** (`tier_info`, `retrieval`, flags).
+- Make legal **timelines first-class, structured data**
+- Freeze a **stable API contract (v1)**
+- Remove remaining ambiguity between internal RAG logic and frontend needs
 
-Frontend should **never depend on these**.
+Do **NOT** add new tiers, documents, or agentic behavior.
+
+---
+
+## A1. Define a Timeline Data Model (REQUIRED)
 
 ### Action
 
-Add a **response adapter layer** in FastAPI that:
+Create a **formal timeline schema** in the backend.
 
-- Keeps internal RAG output unchanged
-- Exposes a **flattened, frontend-safe schema**
+### Example (Python / Pydantic)
 
-### Target response shape (final, stable)
+```python
+class TimelineItem(BaseModel):
+    stage: str                    # e.g. "fir", "medical_examination"
+    action: str                   # human-readable action
+    deadline: str | None          # e.g. "24 hours", "immediately"
+    mandatory: bool               # legal obligation or not
+    legal_basis: list[str]        # BNSS / SOP references
+```
+
+### Rules
+
+- Timeline items must come from **SOP / BNSS metadata**, not the LLM
+- No free-text inference
+- No frontend parsing required later
+
+---
+
+## A2. Extract Timelines During Retrieval (CRITICAL)
+
+### Action
+
+While assembling the RAG response:
+
+- Inspect retrieved SOP / General SOP / Evidence blocks
+- If a block contains:
+    - explicit time limits
+    - words like `within`, `immediately`, `without delay`, `hours`, `days`
+
+- Convert that information into `TimelineItem` objects
+
+### Rules
+
+- Do NOT rely on LLM-generated text
+- Prefer SOP metadata if available
+- If no timeline exists, return an empty list (not null)
+
+---
+
+## A3. Attach Timeline to `/rag/query` Response
+
+### Action
+
+Extend the **frontend-safe response adapter** to include timelines.
+
+### Final Response Shape (v1)
 
 ```json
 {
@@ -43,104 +80,71 @@ Add a **response adapter layer** in FastAPI that:
 	"case_type": "string | null",
 	"stage": "string | null",
 	"citations": ["string"],
+	"timeline": [
+		{
+			"stage": "string",
+			"action": "string",
+			"deadline": "string | null",
+			"mandatory": true,
+			"legal_basis": ["string"]
+		}
+	],
 	"clarification_needed": null,
 	"confidence": "high | medium | low"
 }
 ```
 
-### Notes
-
-- `stage` → pick the **primary detected stage**
-- Hide: `retrieval`, `flags`, internal heuristics
-- This becomes the **only contract** frontend relies on
-
-✅ This is the **single most important backend fix**.
-
----
-
-## 🔴 BACKEND STEP 2 — Add Clarification Signals (Minimal, Deterministic)
-
-### Goal
-
-Allow backend to say:
-
-> “I need clarification before proceeding.”
-
-WITHOUT agentic behavior.
-
-### Add logic for **ambiguous terms only**, e.g.:
-
-- assault
-- complaint
-- violence
-- harassment
-
-### Output format
-
-```json
-"clarification_needed": {
-  "type": "case_type",
-  "options": ["sexual_assault", "physical_assault"],
-  "reason": "The term 'assault' has different legal procedures"
-}
-```
-
 ### Rules
 
-- Only **one clarification per response**
-- No LLM-generated questions
-- Options must be **predefined enums**
-
-🚫 Do NOT reprocess previous answers
-🚫 Do NOT store conversation memory in backend
+- Timeline must be **separate from `answer` text**
+- Timeline must be **optional but structured**
+- Do NOT embed timeline inside markdown
 
 ---
 
-## 🟡 BACKEND STEP 3 — Add Confidence Scoring (Lightweight)
+## A4. Freeze the Backend Contract (IMPORTANT)
 
-### Purpose
+### Action
 
-Help frontend decide:
+Once timeline is added:
 
-- When to ask clarification
-- When to show “general guidance” disclaimer
+- Declare `/rag/query` response as **v1 stable** in README
+- Add a note:
 
-### Simple heuristic (example)
+    > "Frontend depends on this schema. Changes require version bump."
 
-- `high` → clear offence + clear tier
-- `medium` → general SOP / weak intent
-- `low` → ambiguous intent
+### Optional
 
-No ML required. Deterministic rules only.
-
----
-
-## 🟡 BACKEND STEP 4 — Add Health & Meta Endpoints (If Not Already)
-
-### `/health`
+Add:
 
 ```json
-{ "status": "ok", "rag_loaded": true }
+"api_version": "1.0"
 ```
-
-### `/rag/meta` (optional)
-
-Expose:
-
-- Tier labels
-- Supported case types
-- Supported stages
-
-Frontend can hardcode initially, but this helps later.
 
 ---
 
-## 🟢 BACKEND STEP 5 — Lock the Contract
+## A5. Add Minimal Tests for Timeline Integrity
 
-- Freeze `/rag/query` schema
-- Update README
-- Add 2–3 API tests comparing CLI vs API output
+### Action
 
-Once done:
+Add backend tests that assert:
 
-> ❗ Backend logic should be considered **frozen**.
+- Timeline is present for cases with known deadlines (rape, FIR, medical exam)
+- Timeline is empty for cases without deadlines
+- Timeline items always include `stage` and `action`
+
+No frontend involved yet.
+
+---
+
+## A6. (Optional) Add Reason Codes
+
+### Action
+
+Expose a non-UI field:
+
+```json
+"reason_codes": ["procedural_intent", "general_sop"]
+```
+
+This is for debugging and analytics only.

@@ -34,6 +34,40 @@ class ClarificationType(str, Enum):
 
 
 # ============================================================================
+# Timeline Schema (PART A of UPDATES.md)
+# ============================================================================
+
+class TimelineItem(BaseModel):
+    """
+    A single timeline item representing a procedural step with deadline.
+    
+    Timeline items are extracted from SOP/BNSS metadata, NOT from LLM output.
+    They provide structured, deterministic procedural timelines.
+    """
+    
+    stage: str = Field(
+        ..., 
+        description="Procedural stage (e.g., 'fir', 'medical_examination')"
+    )
+    action: str = Field(
+        ..., 
+        description="Human-readable action to take"
+    )
+    deadline: str | None = Field(
+        None, 
+        description="Time limit (e.g., '24 hours', 'immediately')"
+    )
+    mandatory: bool = Field(
+        default=True, 
+        description="Whether this is a legal obligation"
+    )
+    legal_basis: list[str] = Field(
+        default_factory=list, 
+        description="BNSS/SOP references for this timeline item"
+    )
+
+
+# ============================================================================
 # Clarification Schema
 # ============================================================================
 
@@ -103,6 +137,10 @@ class FrontendResponse(BaseModel):
         default_factory=list, 
         description="Legal citations used in the answer"
     )
+    timeline: list[TimelineItem] = Field(
+        default_factory=list,
+        description="Structured procedural timeline with deadlines (extracted from SOP/BNSS metadata)"
+    )
     clarification_needed: Optional[ClarificationNeeded] = Field(
         None, 
         description="If set, frontend should ask user for clarification"
@@ -110,6 +148,10 @@ class FrontendResponse(BaseModel):
     confidence: ConfidenceLevel = Field(
         ..., 
         description="Confidence level of the response"
+    )
+    api_version: str = Field(
+        default="1.0",
+        description="API contract version"
     )
 
 

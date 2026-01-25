@@ -2,7 +2,7 @@
 Response Adapter Layer.
 
 Transforms internal RAG output into frontend-safe response format.
-Handles clarification detection and confidence scoring.
+Handles clarification detection, confidence scoring, and timeline extraction.
 """
 
 import re
@@ -14,6 +14,7 @@ from .schemas import (
     ClarificationType,
     TierType,
     ConfidenceLevel,
+    TimelineItem,
 )
 
 
@@ -188,6 +189,200 @@ def calculate_confidence(
 
 
 # ============================================================================
+# TIMELINE EXTRACTION (A1-A3 from UPDATES.md)
+# ============================================================================
+
+# Stage name mapping for cleaner output
+STAGE_DISPLAY_NAMES = {
+    "fir": "FIR Filing",
+    "medical_examination": "Medical Examination",
+    "statement_recording": "Statement Recording",
+    "investigation": "Investigation",
+    "victim_rights": "Victim Rights",
+    "police_duties": "Police Duties",
+    "evidence_collection": "Evidence Collection",
+    "rehabilitation": "Rehabilitation",
+    "arrest": "Arrest",
+    "charge_sheet": "Charge Sheet",
+    "trial": "Trial",
+    "general": "General Procedure",
+}
+
+# Action templates based on stage
+STAGE_ACTIONS = {
+    "fir": "File FIR at any police station",
+    "medical_examination": "Medical examination of victim",
+    "statement_recording": "Record victim's statement",
+    "investigation": "Complete investigation",
+    "victim_rights": "Inform victim of their rights",
+    "police_duties": "Police must fulfill duties",
+    "evidence_collection": "Collect and preserve evidence",
+    "rehabilitation": "Provide rehabilitation support",
+    "arrest": "Arrest of accused",
+    "charge_sheet": "File charge sheet",
+    "trial": "Court trial proceedings",
+    "general": "Follow standard procedure",
+}
+
+
+def extract_timeline(rag_result: dict) -> list[TimelineItem]:
+    """
+    Extract timeline items from retrieved SOP/Evidence/General SOP blocks.
+    
+    This extracts structured timeline data from block METADATA, not LLM output.
+    Only blocks with explicit time_limit fields are included.
+    
+    Args:
+        rag_result: Raw output from LegalRAG.query()
+        
+    Returns:
+        List of TimelineItem objects (may be empty)
+    """
+    timeline: list[TimelineItem] = []
+    seen_stages: set[str] = set()  # Deduplicate by stage
+    
+    # Get retrieval results
+    retrieval = rag_result.get("retrieval", {})
+    
+    # Process SOP blocks (Tier-1)
+    for block in retrieval.get("sop_blocks", []):
+        timeline_item = _extract_from_block(block, "SOP")
+        if timeline_item and timeline_item.stage not in seen_stages:
+            timeline.append(timeline_item)
+            seen_stages.add(timeline_item.stage)
+    
+    # Process Evidence blocks (Tier-2)
+    for block in retrieval.get("evidence_blocks", []):
+        timeline_item = _extract_from_block(block, "Crime Scene Manual")
+        if timeline_item and timeline_item.stage not in seen_stages:
+            timeline.append(timeline_item)
+            seen_stages.add(timeline_item.stage)
+    
+    # Process General SOP blocks (Tier-3)
+    for block in retrieval.get("general_sop_blocks", []):
+        timeline_item = _extract_from_block(block, "General SOP")
+        if timeline_item and timeline_item.stage not in seen_stages:
+            timeline.append(timeline_item)
+            seen_stages.add(timeline_item.stage)
+    
+    # Sort by priority: immediately > hours > days > no deadline
+    timeline.sort(key=lambda x: _deadline_priority(x.deadline))
+    
+    return timeline
+
+
+def _extract_from_block(block: dict, source_prefix: str) -> Optional[TimelineItem]:
+    """
+    Extract a TimelineItem from a single retrieved block.
+    
+    Only returns a TimelineItem if the block has explicit timeline data.
+    """
+    metadata = block.get("metadata", {})
+    
+    # Check if block has time_limit (required for timeline)
+    time_limit = metadata.get("time_limit")
+    
+    # Also check for deadline keywords in citation/title
+    citation = block.get("citation", "")
+    
+    # Extract stage from metadata or citation
+    stage = metadata.get("procedural_stage", "general")
+    if stage == "general" and metadata.get("stage"):
+        stage = metadata.get("stage")
+    
+    # Build legal basis from BNSS/BNS references
+    legal_basis: list[str] = []
+    
+    # Add source citation
+    if citation:
+        legal_basis.append(citation)
+    
+    # Add BNSS sections if available
+    bnss_sections = metadata.get("bnss_sections", [])
+    for section in bnss_sections[:3]:  # Limit to 3 sections
+        legal_basis.append(f"BNSS Section {section}")
+    
+    # Add BNS sections if available  
+    bns_sections = metadata.get("bns_sections", [])
+    for section in bns_sections[:2]:  # Limit to 2 sections
+        legal_basis.append(f"BNS Section {section}")
+    
+    # Only create timeline item if we have a time_limit
+    if not time_limit:
+        # Check if deadline info in title/text
+        if not _has_time_keywords(block.get("text", "")):
+            return None
+        # Infer "promptly" as default if time keywords present
+        time_limit = "promptly"
+    
+    # Get action from metadata or generate from stage
+    action = metadata.get("action", STAGE_ACTIONS.get(stage, f"Complete {stage} procedure"))
+    
+    # If we have a title, use it to make action more specific
+    title = metadata.get("title", "")
+    if title and len(title) < 80:
+        action = title
+    
+    # Determine if mandatory (default true for SOP items)
+    mandatory = metadata.get("mandatory", True)
+    
+    return TimelineItem(
+        stage=stage,
+        action=action,
+        deadline=time_limit,
+        mandatory=mandatory,
+        legal_basis=legal_basis,
+    )
+
+
+def _has_time_keywords(text: str) -> bool:
+    """Check if text contains time-related keywords."""
+    time_patterns = [
+        r'\d+\s*hours?',
+        r'\d+\s*days?',
+        r'within\s+\d+',
+        r'immediately',
+        r'without\s+delay',
+        r'forthwith',
+        r'at\s+once',
+        r'promptly',
+        r'as\s+soon\s+as',
+    ]
+    text_lower = text.lower()
+    return any(re.search(pattern, text_lower) for pattern in time_patterns)
+
+
+def _deadline_priority(deadline: Optional[str]) -> int:
+    """
+    Return sort priority for deadline (lower = more urgent).
+    """
+    if not deadline:
+        return 100  # No deadline, lowest priority
+    
+    deadline_lower = deadline.lower()
+    
+    if "immediate" in deadline_lower or "forthwith" in deadline_lower:
+        return 0
+    elif "at once" in deadline_lower:
+        return 1
+    elif "hour" in deadline_lower:
+        # Extract number of hours
+        match = re.search(r'(\d+)', deadline_lower)
+        if match:
+            return 10 + int(match.group(1))
+        return 15
+    elif "day" in deadline_lower:
+        match = re.search(r'(\d+)', deadline_lower)
+        if match:
+            return 50 + int(match.group(1))
+        return 60
+    elif "prompt" in deadline_lower:
+        return 30
+    else:
+        return 80
+
+
+# ============================================================================
 # RESPONSE ADAPTER
 # ============================================================================
 
@@ -225,13 +420,16 @@ def adapt_response(
     # 4. Get citations
     citations = rag_result.get("citations", [])
     
-    # 5. Check for clarification needs
+    # 5. Extract timeline from retrieved blocks (A2 from UPDATES.md)
+    timeline = extract_timeline(rag_result)
+    
+    # 6. Check for clarification needs
     clarification = detect_clarification_needed(query, tier, case_type)
     
-    # 6. Get answer (None if clarification needed)
+    # 7. Get answer (None if clarification needed)
     answer = rag_result.get("answer") if not clarification else None
     
-    # 7. Calculate confidence
+    # 8. Calculate confidence
     confidence = calculate_confidence(
         tier=tier,
         case_type=case_type,
@@ -246,8 +444,10 @@ def adapt_response(
         case_type=case_type,
         stage=primary_stage,
         citations=citations,
+        timeline=timeline,
         clarification_needed=clarification,
         confidence=confidence,
+        api_version="1.0",
     )
 
 

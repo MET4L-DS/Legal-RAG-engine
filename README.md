@@ -19,7 +19,8 @@ A hierarchical Retrieval-Augmented Generation (RAG) system for Indian legal docu
 - ✅ **Compensation Block Retrieval**: Victim compensation and rehabilitation information
 - ✅ **Citation Support**: Generates proper legal citations with source labels (📘 SOP, 🧪 Evidence Manual, 💰 NALSA Scheme, 📋 General SOP, ⚖️ BNSS, 📕 BNS)
 - ✅ **LLM Integration**: Google Gemini with multi-model fallback and tier-specific prompts
-- ✅ **FastAPI Server**: REST API with frontend-safe response adapter
+- ✅ **FastAPI Server**: REST API with frontend-safe response adapter (v1 stable contract)
+- ✅ **Timeline Extraction**: Structured procedural timelines with deadlines from SOP/BNSS metadata
 - ✅ **Confidence Scoring**: Deterministic confidence levels (high/medium/low) for frontend decisions
 - ✅ **Clarification Signals**: Detects ambiguous queries and requests user clarification
 - ✅ **Meta Endpoint**: Exposes supported tiers, case types, stages for frontend validation
@@ -239,7 +240,9 @@ Request:
 }
 ```
 
-**Response (Frontend-Safe Contract):**
+**Response (v1 Stable Contract):**
+
+> ⚠️ **Frontend depends on this schema. Changes require version bump.**
 
 ```json
 {
@@ -248,10 +251,39 @@ Request:
 	"case_type": "rape | sexual_assault | robbery | theft | murder | null",
 	"stage": "pre_fir | fir | investigation | evidence_collection | null",
 	"citations": ["BNS Section 103", "BNSS Section 184"],
+	"timeline": [
+		{
+			"stage": "fir",
+			"action": "File FIR at any police station",
+			"deadline": "immediately",
+			"mandatory": true,
+			"legal_basis": ["SOP (MHA/BPR&D) - FIR", "BNSS Section 173"]
+		},
+		{
+			"stage": "medical_examination",
+			"action": "Medical examination of victim",
+			"deadline": "24 hours",
+			"mandatory": true,
+			"legal_basis": ["BNSS Section 184"]
+		}
+	],
 	"clarification_needed": null,
-	"confidence": "high | medium | low"
+	"confidence": "high | medium | low",
+	"api_version": "1.0"
 }
 ```
+
+**Timeline Field:**
+
+The `timeline` array contains structured procedural steps extracted from SOP/BNSS metadata (NOT from LLM output):
+
+| Field         | Type     | Description                                 |
+| ------------- | -------- | ------------------------------------------- |
+| `stage`       | string   | Procedural stage (fir, medical_examination) |
+| `action`      | string   | Human-readable action to take               |
+| `deadline`    | string?  | Time limit (24 hours, immediately, etc.)    |
+| `mandatory`   | boolean  | Whether this is a legal obligation          |
+| `legal_basis` | string[] | BNSS/SOP references                         |
 
 **Clarification Response (when ambiguous):**
 
@@ -262,12 +294,14 @@ Request:
 	"case_type": null,
 	"stage": null,
 	"citations": [],
+	"timeline": [],
 	"clarification_needed": {
 		"type": "case_type",
 		"options": ["sexual_assault", "physical_assault"],
 		"reason": "The term 'assault' has different legal procedures"
 	},
-	"confidence": "low"
+	"confidence": "low",
+	"api_version": "1.0"
 }
 ```
 

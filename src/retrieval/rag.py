@@ -332,9 +332,10 @@ Answer:"""
         # Models to try in order (from AI Studio dashboard - Jan 2026)
         # Prioritize models with available quota, avoid exhausted ones
         models_to_try = [
-            "gemini-3.0-flash",      # Newest, 0/20 RPD available
-            "gemini-2.5-flash-lite",    # Good fallback, 0/20 RPD available  
-            "gemma-3.0-12b",         # High quota: 30 RPM, 14.4K RPD
+            # "gemini-3.0-flash",      # Newest, 0/20 RPD available
+            "gemini-2.5-flash-lite",    # Good fallback, 0/20 RPD available 
+            "gemma-3-27b-it",
+            "gemma-3-12b-it",
         ]
         max_retries = 2
         
