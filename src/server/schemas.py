@@ -33,6 +33,20 @@ class ClarificationType(str, Enum):
     STAGE = "stage"
 
 
+class AudienceType(str, Enum):
+    """
+    Target audience for a timeline item.
+    
+    This classifies WHO the timeline is primarily relevant for:
+    - victim: Immediate action the victim needs to take/know
+    - police: Police/IO duties (important but not victim's direct action)
+    - court: Court/magistrate procedures (downstream)
+    """
+    VICTIM = "victim"
+    POLICE = "police"
+    COURT = "court"
+
+
 # ============================================================================
 # Timeline Schema (PART A of UPDATES.md)
 # ============================================================================
@@ -64,6 +78,10 @@ class TimelineItem(BaseModel):
     is_anchor: bool = Field(
         default=False,
         description="Whether this is a primary anchor timeline (vs secondary)"
+    )
+    audience: str = Field(
+        default="victim",
+        description="Target audience: 'victim' (immediate action), 'police' (IO duties), 'court' (downstream)"
     )
     legal_basis: list[str] = Field(
         default_factory=list, 

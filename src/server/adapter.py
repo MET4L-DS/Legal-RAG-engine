@@ -30,57 +30,58 @@ from .schemas import (
 
 # These are MANDATORY stages that MUST exist for a given case type.
 # If an anchor cannot be resolved, it's a hard failure for Tier-1 crimes.
+# audience: "victim" = direct victim action, "police" = IO duty, "court" = downstream
 TIMELINE_ANCHORS: dict[str, list[dict]] = {
     # Sexual offences (Tier-1) - STRICT anchors
     "rape": [
-        {"stage": "fir_registration", "action": "File FIR / Zero FIR", "deadline": "immediately", "source": "general_sop"},
-        {"stage": "medical_examination", "action": "Medical examination of victim", "deadline": "24 hours", "source": "sop"},
-        {"stage": "statement_recording", "action": "Record statement u/s 183 BNSS", "deadline": "without delay", "source": "general_sop"},
-        {"stage": "victim_protection", "action": "Victim protection / shelter", "deadline": "promptly", "source": "sop"},
+        {"stage": "fir_registration", "action": "File FIR / Zero FIR", "deadline": "immediately", "source": "general_sop", "audience": "victim"},
+        {"stage": "medical_examination", "action": "Medical examination of victim", "deadline": "24 hours", "source": "sop", "audience": "victim"},
+        {"stage": "statement_recording", "action": "Record statement u/s 183 BNSS", "deadline": "without delay", "source": "general_sop", "audience": "victim"},
+        {"stage": "victim_protection", "action": "Victim protection / shelter", "deadline": "promptly", "source": "sop", "audience": "victim"},
     ],
     "sexual_assault": [
-        {"stage": "fir_registration", "action": "File FIR / Zero FIR", "deadline": "immediately", "source": "general_sop"},
-        {"stage": "medical_examination", "action": "Medical examination of victim", "deadline": "24 hours", "source": "sop"},
-        {"stage": "statement_recording", "action": "Record statement u/s 183 BNSS", "deadline": "without delay", "source": "general_sop"},
-        {"stage": "victim_protection", "action": "Victim protection / shelter", "deadline": "promptly", "source": "sop"},
+        {"stage": "fir_registration", "action": "File FIR / Zero FIR", "deadline": "immediately", "source": "general_sop", "audience": "victim"},
+        {"stage": "medical_examination", "action": "Medical examination of victim", "deadline": "24 hours", "source": "sop", "audience": "victim"},
+        {"stage": "statement_recording", "action": "Record statement u/s 183 BNSS", "deadline": "without delay", "source": "general_sop", "audience": "victim"},
+        {"stage": "victim_protection", "action": "Victim protection / shelter", "deadline": "promptly", "source": "sop", "audience": "victim"},
     ],
     "pocso": [
-        {"stage": "fir_registration", "action": "File FIR / Zero FIR", "deadline": "immediately", "source": "general_sop"},
-        {"stage": "medical_examination", "action": "Medical examination of child victim", "deadline": "24 hours", "source": "sop"},
-        {"stage": "statement_recording", "action": "Record statement u/s 183 BNSS", "deadline": "without delay", "source": "general_sop"},
-        {"stage": "victim_protection", "action": "Child protection / shelter", "deadline": "immediately", "source": "sop"},
+        {"stage": "fir_registration", "action": "File FIR / Zero FIR", "deadline": "immediately", "source": "general_sop", "audience": "victim"},
+        {"stage": "medical_examination", "action": "Medical examination of child victim", "deadline": "24 hours", "source": "sop", "audience": "victim"},
+        {"stage": "statement_recording", "action": "Record statement u/s 183 BNSS", "deadline": "without delay", "source": "general_sop", "audience": "victim"},
+        {"stage": "victim_protection", "action": "Child protection / shelter", "deadline": "immediately", "source": "sop", "audience": "victim"},
     ],
     
     # General crimes (Tier-3) - Flexible anchors
     "robbery": [
-        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop"},
-        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "promptly", "source": "general_sop"},
+        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop", "audience": "victim"},
+        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "promptly", "source": "general_sop", "audience": "police"},
     ],
     "theft": [
-        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop"},
-        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "promptly", "source": "general_sop"},
+        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop", "audience": "victim"},
+        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "promptly", "source": "general_sop", "audience": "police"},
     ],
     "assault": [
-        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop"},
-        {"stage": "medical_examination", "action": "Medical examination for injuries", "deadline": "promptly", "source": "general_sop"},
+        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop", "audience": "victim"},
+        {"stage": "medical_examination", "action": "Medical examination for injuries", "deadline": "promptly", "source": "general_sop", "audience": "victim"},
     ],
     "murder": [
-        {"stage": "fir_registration", "action": "File FIR", "deadline": "immediately", "source": "general_sop"},
-        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "immediately", "source": "general_sop"},
-        {"stage": "evidence_collection", "action": "Crime scene evidence collection", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "fir_registration", "action": "File FIR", "deadline": "immediately", "source": "general_sop", "audience": "victim"},
+        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "immediately", "source": "general_sop", "audience": "police"},
+        {"stage": "evidence_collection", "action": "Crime scene evidence collection", "deadline": "immediately", "source": "general_sop", "audience": "police"},
     ],
     "cybercrime": [
-        {"stage": "fir_registration", "action": "File FIR / cyber complaint", "deadline": "immediately", "source": "general_sop"},
-        {"stage": "digital_evidence", "action": "Preserve digital evidence", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "fir_registration", "action": "File FIR / cyber complaint", "deadline": "immediately", "source": "general_sop", "audience": "victim"},
+        {"stage": "digital_evidence", "action": "Preserve digital evidence", "deadline": "immediately", "source": "general_sop", "audience": "victim"},
     ],
     "kidnapping": [
-        {"stage": "fir_registration", "action": "File FIR", "deadline": "immediately", "source": "general_sop"},
-        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "fir_registration", "action": "File FIR", "deadline": "immediately", "source": "general_sop", "audience": "victim"},
+        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "immediately", "source": "general_sop", "audience": "police"},
     ],
     
     # Default fallback
     "general": [
-        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop", "audience": "victim"},
     ],
 }
 
@@ -356,6 +357,7 @@ def extract_timeline_with_anchors(
                 deadline=anchor["deadline"],
                 mandatory=True,
                 is_anchor=True,
+                audience=anchor.get("audience", "victim"),
                 legal_basis=legal_basis if legal_basis else [f"SOP / BNSS"],
             )
             timeline.append(timeline_item)
@@ -370,6 +372,7 @@ def extract_timeline_with_anchors(
                 deadline=anchor["deadline"],
                 mandatory=True,
                 is_anchor=True,
+                audience=anchor.get("audience", "victim"),
                 legal_basis=["SOP / BNSS (standard procedure)"],
             )
             timeline.append(timeline_item)
@@ -515,14 +518,65 @@ def _extract_from_block(block: dict) -> Optional[TimelineItem]:
     # Build legal basis
     legal_basis = _extract_legal_basis(block)
     
+    # Infer audience from stakeholder metadata
+    # Secondary timelines are typically police/court procedures unless explicitly victim-related
+    audience = _infer_audience_from_block(metadata, stage)
+    
     return TimelineItem(
         stage=stage,
         action=action,
         deadline=time_limit,
         mandatory=True,
         is_anchor=False,
+        audience=audience,
         legal_basis=legal_basis,
     )
+
+
+def _infer_audience_from_block(metadata: dict, stage: str) -> str:
+    """
+    Infer the target audience from block metadata.
+    
+    Rules:
+    - If stakeholder includes 'victim' or 'complainant' → "victim"
+    - If stakeholder is 'court' or 'magistrate' → "court"
+    - If stakeholder is 'police' or 'io' → "police"
+    - Certain stages default to specific audiences
+    """
+    stakeholder = metadata.get("stakeholder", "").lower()
+    
+    # Check stakeholder field
+    if any(v in stakeholder for v in ["victim", "complainant", "woman", "survivor"]):
+        return "victim"
+    if any(c in stakeholder for c in ["court", "magistrate", "judge"]):
+        return "court"
+    if any(p in stakeholder for p in ["police", "io", "officer", "sho"]):
+        return "police"
+    
+    # Stage-based inference for common procedural stages
+    victim_stages = {
+        "fir_registration", "fir", "complaint", "medical_examination", 
+        "victim_protection", "compensation", "rehabilitation", "statement_recording"
+    }
+    police_stages = {
+        "investigation", "investigation_commencement", "evidence_collection",
+        "arrest", "search_seizure", "custody"
+    }
+    court_stages = {
+        "charge_sheet", "trial", "bail", "remand", "attachment", "forfeiture",
+        "property_attachment", "surety"
+    }
+    
+    stage_lower = stage.lower()
+    if stage_lower in victim_stages:
+        return "victim"
+    if stage_lower in police_stages:
+        return "police"
+    if stage_lower in court_stages:
+        return "court"
+    
+    # Default: non-anchor items are typically police procedures
+    return "police"
 
 
 def _has_time_keywords(text: str) -> bool:

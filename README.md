@@ -258,6 +258,7 @@ Request:
 			"deadline": "immediately",
 			"mandatory": true,
 			"is_anchor": true,
+			"audience": "victim",
 			"legal_basis": ["SOP (MHA/BPR&D) - FIR", "BNSS Section 173"]
 		},
 		{
@@ -266,6 +267,7 @@ Request:
 			"deadline": "24 hours",
 			"mandatory": true,
 			"is_anchor": true,
+			"audience": "victim",
 			"legal_basis": ["BNSS Section 184"]
 		}
 	],
@@ -287,7 +289,23 @@ The `timeline` array contains structured procedural steps extracted from SOP/BNS
 | `deadline`    | string?  | Time limit (24 hours, immediately, etc.)             |
 | `mandatory`   | boolean  | Whether this is a legal obligation                   |
 | `is_anchor`   | boolean  | Whether this is a mandatory anchor for the case type |
+| `audience`    | string   | Target audience: `victim`, `police`, or `court`      |
 | `legal_basis` | string[] | BNSS/SOP references                                  |
+
+**Audience Classification:**
+
+The `audience` field classifies WHO the timeline is primarily relevant for:
+
+| Audience | Meaning                                          | Frontend Display                 |
+| -------- | ------------------------------------------------ | -------------------------------- |
+| `victim` | Direct victim action (FIR, medical exam, etc.)   | **Critical Timelines** (primary) |
+| `police` | Police/IO duties (investigation, evidence, etc.) | Later Procedural Steps           |
+| `court`  | Court/magistrate procedures (attachment, surety) | Later Procedural Steps           |
+
+**Frontend Display Rules:**
+
+- `is_anchor && audience === "victim"` → **Critical Timelines** (show prominently)
+- `mandatory && audience !== "victim"` → **Later Procedural Steps** (visually demote)
 
 **Timeline Anchors System:**
 

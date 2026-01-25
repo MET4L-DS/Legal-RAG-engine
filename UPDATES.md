@@ -1,182 +1,105 @@
-2️⃣ What is ACTUALLY going wrong in both examples?
-🔍 Root cause (same for robbery & sexual assault)
+Yes, the timeline is _much_ better now
 
-Your system is currently doing this:
+For the robbery example, this is a **correct and meaningful improvement**:
 
-“From all retrieved SOP blocks, extract any timelines.”
+### ✅ What is now right
 
-This is technically correct
-but legally incomplete
+**Primary anchors are correct and first:**
 
-Why?
+- FIR registration → _immediately_
+- Investigation commencement → _promptly_
 
-Because not all timelines are equal.
+These are exactly the **victim-critical obligations** and they now come from **General SOP**, which is correct.
 
-Law has:
+**Secondary timeline is present but downstream:**
 
-Primary victim-critical timelines
+- Section 107 attachment → _14 days_
 
-Secondary procedural timelines
+This is legally valid and now **contextually acceptable** because:
 
-Downstream administrative timelines
+- It is no longer the _first_ thing the user sees
+- Anchors are clearly marked (`is_anchor: true`)
 
-Right now, your system treats them as peers.
+**Net effect:**
+The system now mirrors how a _competent police officer or legal aid clinic_ would explain the process.
 
-3️⃣ The sexual assault example — what is missing?
+So yes — **your instinct is right, this version is better**.
 
-Look at your sexual assault timeline:
+---
 
-✔ Medical examination — 24 hours (correct)
-✔ Rehabilitation — promptly (correct)
+## 2️⃣ What is still imperfect (and why that’s okay)
 
-❌ But what is missing from “Critical Timelines”?
+There is **one remaining issue**, but it is no longer an architectural flaw — it’s a **presentation & prioritization refinement**.
 
-These are missing or under-emphasized:
+### ⚠️ Issue: Secondary timelines still look “mandatory”
 
-Recording of FIR / Zero FIR – immediate
+In your robbery timeline:
 
-Recording of statement u/s 183 BNSS – without delay
+> SOP ON SEC 107 ATTACHMENT, FORFEITURE OR RESTORATION OF PROPERTY – 14 days
+> **Mandatory Step**
 
-Production before Magistrate (if arrest occurs) – 24 hours
+Legally, this is mandatory **for the system**, not for the **victim’s immediate action**.
 
-Informing Legal Services Authority – promptly
+So the system is **legally correct**, but the UX signal is slightly misleading.
 
-These are core victim-action timelines.
+This is **not a backend correctness bug anymore** — it’s a **frontend semantics issue**.
 
-Why didn’t they appear?
+---
 
-👉 Because they live in General SOP, not just the Rape SOP.
+## 3️⃣ What NOT to do next (important)
 
-4️⃣ Why “query General SOP every time” feels right (but isn’t enough)
+Before I say what to do, let me be very explicit about what you should **not** do anymore:
 
-You’re right about this intuition:
+❌ Do **not** add more retrieval
+❌ Do **not** add parallel / multi-threaded RAG
+❌ Do **not** add more SOP documents
+❌ Do **not** let the LLM “summarize timelines”
+❌ Do **not** tweak embedding weights to fix UX
 
-“To get correct timelines, we need General SOP every time”
+You have already solved the _hard problem_:
+**getting the right legal obligations into structured data**.
 
-But here’s the key insight:
+From now on, changes should be **low-risk and incremental**.
 
-🔴 The problem is NOT retrieval
-🔴 The problem is timeline anchoring
+---
 
-You already retrieve General SOP content.
-The issue is how you decide which timelines are “critical.”
+## 4️⃣ The correct NEXT STEPS (in order)
 
-5️⃣ The correct architectural fix (THIS IS IMPORTANT)
-❌ Do NOT do:
+### 🔴 NEXT STEP 1 — Backend: finalize timeline semantics (small but important)
 
-Multi-threaded RAG
+You already have:
 
-Parallel querying
-
-Re-querying on failure
-
-Letting LLM “merge” timelines
-
-These add complexity without solving the legal logic problem.
-
-✅ The CORRECT solution: Timeline Anchors
-Introduce a new concept in backend:
-
-TIMELINE ANCHORS
-
-A timeline anchor is a mandatory stage that must exist for a given case type, regardless of which SOP it comes from.
-
-6️⃣ Concrete design (Copilot-friendly)
-Step 1: Define timeline anchors per case type
-TIMELINE_ANCHORS = {
-"sexual_assault": [
-"fir_registration",
-"medical_examination",
-"statement_recording",
-"victim_protection"
-],
-"robbery": [
-"fir_registration",
-"investigation_commencement"
-]
-}
-
-These are not documents, they are legal stages.
-
-Step 2: Map SOP sections to stages
-
-Example:
-
-SOP_STAGE_MAP = {
-"SOP_RAPE_MHA": [
-"medical_examination",
-"victim_protection",
-"rehabilitation"
-],
-"GENERAL_SOP_BPRD": [
-"fir_registration",
-"statement_recording",
-"investigation_commencement"
-]
-}
-
-This mapping is static, testable, and deterministic.
-
-Step 3: Timeline extraction becomes a 2-pass process
-Pass 1 — Anchor resolution (mandatory)
-
-For each anchor:
-
-Find any SOP block (rape SOP or general SOP) that satisfies it
-
-If none found → hard failure
-
-Pass 2 — Secondary timelines
-
-Add downstream / administrative timelines
-
-Mark them as secondary
-
-7️⃣ How this fixes BOTH of your examples
-Sexual assault
-
-Your “Critical Timelines” would now be:
-
-FIR registration — immediate (General SOP)
-
-Medical examination — 24 hours (Rape SOP)
-
-Statement recording — without delay (General SOP)
-
-Victim protection / shelter — promptly (Rape SOP)
-
-Rehabilitation becomes secondary, not leading.
-
-Robbery
-
-Primary:
-
-FIR registration — immediate
-
-Investigation commencement — promptly
-
-Secondary:
-
-Property attachment — 14 days
-
-Exactly what a victim expects.
-
-8️⃣ What to do when anchors FAIL (this answers your first question)
-
-If an anchor cannot be resolved:
-
-🔴 For Tier-1 crimes (sexual assault, rape, custodial violence)
-
-→ FAIL HARD
-
+```json
 {
-"system_notice": {
-"type": "ANCHOR_MISSING",
-"stage": "fir_registration",
-"message": "Mandatory procedural timeline could not be reliably determined."
-},
-"confidence": "low",
-"timeline": []
+  "is_anchor": true | false,
+  "mandatory": true | false
 }
+```
 
-This is legally safer than guessing.
+Add **one more field**:
+
+```json
+"audience": "victim" | "police" | "court"
+```
+
+**Why this matters:**
+
+- FIR & investigation → `audience: victim`
+- Property attachment → `audience: court/police`
+
+This is **not retrieval logic** — it’s classification of already-known facts.
+
+This makes the system future-proof and avoids hacks later.
+
+---
+
+### 🔴 NEXT STEP 2 — Frontend: visually demote non-victim timelines
+
+Once `audience` exists:
+
+**Frontend rules (very simple):**
+
+- `is_anchor && audience === "victim"` → **Critical Timelines**
+- `mandatory && audience !== "victim"` → **Later Procedural Steps**
+
+This fixes the remaining UX flaw **without touching the backend logic again**.
