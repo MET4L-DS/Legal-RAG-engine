@@ -1,150 +1,182 @@
-# Next Steps Checklist (Backend → Frontend)
+2️⃣ What is ACTUALLY going wrong in both examples?
+🔍 Root cause (same for robbery & sexual assault)
 
-> **Purpose**
-> This document defines the **exact implementation steps** to take next, in the **correct order**, assuming the **backend is implemented first** and the frontend follows.
->
-> It is written to be **explicit, linear, and Copilot-friendly**. Each step is small, verifiable, and should be completed fully before moving to the next.
+Your system is currently doing this:
 
----
+“From all retrieved SOP blocks, extract any timelines.”
 
-## PART A — BACKEND NEXT STEPS (FastAPI + RAG)
+This is technically correct
+but legally incomplete
 
-### 🎯 Backend Objective (This Phase)
+Why?
 
-- Make legal **timelines first-class, structured data**
-- Freeze a **stable API contract (v1)**
-- Remove remaining ambiguity between internal RAG logic and frontend needs
+Because not all timelines are equal.
 
-Do **NOT** add new tiers, documents, or agentic behavior.
+Law has:
 
----
+Primary victim-critical timelines
 
-## A1. Define a Timeline Data Model (REQUIRED)
+Secondary procedural timelines
 
-### Action
+Downstream administrative timelines
 
-Create a **formal timeline schema** in the backend.
+Right now, your system treats them as peers.
 
-### Example (Python / Pydantic)
+3️⃣ The sexual assault example — what is missing?
 
-```python
-class TimelineItem(BaseModel):
-    stage: str                    # e.g. "fir", "medical_examination"
-    action: str                   # human-readable action
-    deadline: str | None          # e.g. "24 hours", "immediately"
-    mandatory: bool               # legal obligation or not
-    legal_basis: list[str]        # BNSS / SOP references
-```
+Look at your sexual assault timeline:
 
-### Rules
+✔ Medical examination — 24 hours (correct)
+✔ Rehabilitation — promptly (correct)
 
-- Timeline items must come from **SOP / BNSS metadata**, not the LLM
-- No free-text inference
-- No frontend parsing required later
+❌ But what is missing from “Critical Timelines”?
 
----
+These are missing or under-emphasized:
 
-## A2. Extract Timelines During Retrieval (CRITICAL)
+Recording of FIR / Zero FIR – immediate
 
-### Action
+Recording of statement u/s 183 BNSS – without delay
 
-While assembling the RAG response:
+Production before Magistrate (if arrest occurs) – 24 hours
 
-- Inspect retrieved SOP / General SOP / Evidence blocks
-- If a block contains:
-    - explicit time limits
-    - words like `within`, `immediately`, `without delay`, `hours`, `days`
+Informing Legal Services Authority – promptly
 
-- Convert that information into `TimelineItem` objects
+These are core victim-action timelines.
 
-### Rules
+Why didn’t they appear?
 
-- Do NOT rely on LLM-generated text
-- Prefer SOP metadata if available
-- If no timeline exists, return an empty list (not null)
+👉 Because they live in General SOP, not just the Rape SOP.
 
----
+4️⃣ Why “query General SOP every time” feels right (but isn’t enough)
 
-## A3. Attach Timeline to `/rag/query` Response
+You’re right about this intuition:
 
-### Action
+“To get correct timelines, we need General SOP every time”
 
-Extend the **frontend-safe response adapter** to include timelines.
+But here’s the key insight:
 
-### Final Response Shape (v1)
+🔴 The problem is NOT retrieval
+🔴 The problem is timeline anchoring
 
-```json
-{
-	"answer": "string",
-	"tier": "tier1 | tier2_evidence | tier2_compensation | tier3 | standard",
-	"case_type": "string | null",
-	"stage": "string | null",
-	"citations": ["string"],
-	"timeline": [
-		{
-			"stage": "string",
-			"action": "string",
-			"deadline": "string | null",
-			"mandatory": true,
-			"legal_basis": ["string"]
-		}
-	],
-	"clarification_needed": null,
-	"confidence": "high | medium | low"
+You already retrieve General SOP content.
+The issue is how you decide which timelines are “critical.”
+
+5️⃣ The correct architectural fix (THIS IS IMPORTANT)
+❌ Do NOT do:
+
+Multi-threaded RAG
+
+Parallel querying
+
+Re-querying on failure
+
+Letting LLM “merge” timelines
+
+These add complexity without solving the legal logic problem.
+
+✅ The CORRECT solution: Timeline Anchors
+Introduce a new concept in backend:
+
+TIMELINE ANCHORS
+
+A timeline anchor is a mandatory stage that must exist for a given case type, regardless of which SOP it comes from.
+
+6️⃣ Concrete design (Copilot-friendly)
+Step 1: Define timeline anchors per case type
+TIMELINE_ANCHORS = {
+"sexual_assault": [
+"fir_registration",
+"medical_examination",
+"statement_recording",
+"victim_protection"
+],
+"robbery": [
+"fir_registration",
+"investigation_commencement"
+]
 }
-```
 
-### Rules
+These are not documents, they are legal stages.
 
-- Timeline must be **separate from `answer` text**
-- Timeline must be **optional but structured**
-- Do NOT embed timeline inside markdown
+Step 2: Map SOP sections to stages
 
----
+Example:
 
-## A4. Freeze the Backend Contract (IMPORTANT)
+SOP_STAGE_MAP = {
+"SOP_RAPE_MHA": [
+"medical_examination",
+"victim_protection",
+"rehabilitation"
+],
+"GENERAL_SOP_BPRD": [
+"fir_registration",
+"statement_recording",
+"investigation_commencement"
+]
+}
 
-### Action
+This mapping is static, testable, and deterministic.
 
-Once timeline is added:
+Step 3: Timeline extraction becomes a 2-pass process
+Pass 1 — Anchor resolution (mandatory)
 
-- Declare `/rag/query` response as **v1 stable** in README
-- Add a note:
+For each anchor:
 
-    > "Frontend depends on this schema. Changes require version bump."
+Find any SOP block (rape SOP or general SOP) that satisfies it
 
-### Optional
+If none found → hard failure
 
-Add:
+Pass 2 — Secondary timelines
 
-```json
-"api_version": "1.0"
-```
+Add downstream / administrative timelines
 
----
+Mark them as secondary
 
-## A5. Add Minimal Tests for Timeline Integrity
+7️⃣ How this fixes BOTH of your examples
+Sexual assault
 
-### Action
+Your “Critical Timelines” would now be:
 
-Add backend tests that assert:
+FIR registration — immediate (General SOP)
 
-- Timeline is present for cases with known deadlines (rape, FIR, medical exam)
-- Timeline is empty for cases without deadlines
-- Timeline items always include `stage` and `action`
+Medical examination — 24 hours (Rape SOP)
 
-No frontend involved yet.
+Statement recording — without delay (General SOP)
 
----
+Victim protection / shelter — promptly (Rape SOP)
 
-## A6. (Optional) Add Reason Codes
+Rehabilitation becomes secondary, not leading.
 
-### Action
+Robbery
 
-Expose a non-UI field:
+Primary:
 
-```json
-"reason_codes": ["procedural_intent", "general_sop"]
-```
+FIR registration — immediate
 
-This is for debugging and analytics only.
+Investigation commencement — promptly
+
+Secondary:
+
+Property attachment — 14 days
+
+Exactly what a victim expects.
+
+8️⃣ What to do when anchors FAIL (this answers your first question)
+
+If an anchor cannot be resolved:
+
+🔴 For Tier-1 crimes (sexual assault, rape, custodial violence)
+
+→ FAIL HARD
+
+{
+"system_notice": {
+"type": "ANCHOR_MISSING",
+"stage": "fir_registration",
+"message": "Mandatory procedural timeline could not be reliably determined."
+},
+"confidence": "low",
+"timeline": []
+}
+
+This is legally safer than guessing.

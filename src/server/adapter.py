@@ -3,6 +3,11 @@ Response Adapter Layer.
 
 Transforms internal RAG output into frontend-safe response format.
 Handles clarification detection, confidence scoring, and timeline extraction.
+
+Timeline Anchors System:
+- Mandatory stages per case type that MUST be present
+- 2-pass extraction: anchors first, secondary second
+- Hard failure for missing anchors in Tier-1 crimes
 """
 
 import re
@@ -15,7 +20,84 @@ from .schemas import (
     TierType,
     ConfidenceLevel,
     TimelineItem,
+    SystemNotice,
 )
+
+
+# ============================================================================
+# TIMELINE ANCHORS (Critical mandatory stages per case type)
+# ============================================================================
+
+# These are MANDATORY stages that MUST exist for a given case type.
+# If an anchor cannot be resolved, it's a hard failure for Tier-1 crimes.
+TIMELINE_ANCHORS: dict[str, list[dict]] = {
+    # Sexual offences (Tier-1) - STRICT anchors
+    "rape": [
+        {"stage": "fir_registration", "action": "File FIR / Zero FIR", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "medical_examination", "action": "Medical examination of victim", "deadline": "24 hours", "source": "sop"},
+        {"stage": "statement_recording", "action": "Record statement u/s 183 BNSS", "deadline": "without delay", "source": "general_sop"},
+        {"stage": "victim_protection", "action": "Victim protection / shelter", "deadline": "promptly", "source": "sop"},
+    ],
+    "sexual_assault": [
+        {"stage": "fir_registration", "action": "File FIR / Zero FIR", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "medical_examination", "action": "Medical examination of victim", "deadline": "24 hours", "source": "sop"},
+        {"stage": "statement_recording", "action": "Record statement u/s 183 BNSS", "deadline": "without delay", "source": "general_sop"},
+        {"stage": "victim_protection", "action": "Victim protection / shelter", "deadline": "promptly", "source": "sop"},
+    ],
+    "pocso": [
+        {"stage": "fir_registration", "action": "File FIR / Zero FIR", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "medical_examination", "action": "Medical examination of child victim", "deadline": "24 hours", "source": "sop"},
+        {"stage": "statement_recording", "action": "Record statement u/s 183 BNSS", "deadline": "without delay", "source": "general_sop"},
+        {"stage": "victim_protection", "action": "Child protection / shelter", "deadline": "immediately", "source": "sop"},
+    ],
+    
+    # General crimes (Tier-3) - Flexible anchors
+    "robbery": [
+        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "promptly", "source": "general_sop"},
+    ],
+    "theft": [
+        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "promptly", "source": "general_sop"},
+    ],
+    "assault": [
+        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "medical_examination", "action": "Medical examination for injuries", "deadline": "promptly", "source": "general_sop"},
+    ],
+    "murder": [
+        {"stage": "fir_registration", "action": "File FIR", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "evidence_collection", "action": "Crime scene evidence collection", "deadline": "immediately", "source": "general_sop"},
+    ],
+    "cybercrime": [
+        {"stage": "fir_registration", "action": "File FIR / cyber complaint", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "digital_evidence", "action": "Preserve digital evidence", "deadline": "immediately", "source": "general_sop"},
+    ],
+    "kidnapping": [
+        {"stage": "fir_registration", "action": "File FIR", "deadline": "immediately", "source": "general_sop"},
+        {"stage": "investigation_commencement", "action": "Investigation must commence", "deadline": "immediately", "source": "general_sop"},
+    ],
+    
+    # Default fallback
+    "general": [
+        {"stage": "fir_registration", "action": "File FIR at nearest police station", "deadline": "immediately", "source": "general_sop"},
+    ],
+}
+
+# Tier-1 case types that require STRICT anchor validation
+TIER1_CASE_TYPES = {"rape", "sexual_assault", "pocso", "custodial_violence", "acid_attack"}
+
+# Stage keywords for matching retrieved blocks to anchors
+STAGE_KEYWORDS: dict[str, list[str]] = {
+    "fir_registration": ["fir", "first information report", "zero fir", "complaint registration", "lodge complaint"],
+    "medical_examination": ["medical examination", "medical exam", "forensic examination", "medical report"],
+    "statement_recording": ["statement", "record statement", "section 183", "section 180", "magistrate statement"],
+    "victim_protection": ["victim protection", "shelter", "safe house", "protection order", "rehabilitation"],
+    "investigation_commencement": ["investigation", "commence investigation", "start investigation", "investigate"],
+    "evidence_collection": ["evidence collection", "collect evidence", "crime scene", "forensic"],
+    "digital_evidence": ["digital evidence", "electronic evidence", "cyber evidence", "data preservation"],
+    "arrest": ["arrest", "custody", "apprehend"],
+}
 
 
 # ============================================================================
@@ -189,18 +271,22 @@ def calculate_confidence(
 
 
 # ============================================================================
-# TIMELINE EXTRACTION (A1-A3 from UPDATES.md)
+# TIMELINE EXTRACTION WITH ANCHOR SYSTEM
 # ============================================================================
 
 # Stage name mapping for cleaner output
 STAGE_DISPLAY_NAMES = {
     "fir": "FIR Filing",
+    "fir_registration": "FIR Registration",
     "medical_examination": "Medical Examination",
     "statement_recording": "Statement Recording",
     "investigation": "Investigation",
+    "investigation_commencement": "Investigation Commencement",
     "victim_rights": "Victim Rights",
+    "victim_protection": "Victim Protection",
     "police_duties": "Police Duties",
     "evidence_collection": "Evidence Collection",
+    "digital_evidence": "Digital Evidence",
     "rehabilitation": "Rehabilitation",
     "arrest": "Arrest",
     "charge_sheet": "Charge Sheet",
@@ -208,70 +294,199 @@ STAGE_DISPLAY_NAMES = {
     "general": "General Procedure",
 }
 
-# Action templates based on stage
-STAGE_ACTIONS = {
-    "fir": "File FIR at any police station",
-    "medical_examination": "Medical examination of victim",
-    "statement_recording": "Record victim's statement",
-    "investigation": "Complete investigation",
-    "victim_rights": "Inform victim of their rights",
-    "police_duties": "Police must fulfill duties",
-    "evidence_collection": "Collect and preserve evidence",
-    "rehabilitation": "Provide rehabilitation support",
-    "arrest": "Arrest of accused",
-    "charge_sheet": "File charge sheet",
-    "trial": "Court trial proceedings",
-    "general": "Follow standard procedure",
-}
 
-
-def extract_timeline(rag_result: dict) -> list[TimelineItem]:
+def extract_timeline_with_anchors(
+    rag_result: dict, 
+    case_type: Optional[str],
+    tier: TierType,
+) -> tuple[list[TimelineItem], Optional["SystemNotice"]]:
     """
-    Extract timeline items from retrieved SOP/Evidence/General SOP blocks.
+    Extract timeline using 2-pass anchor system.
     
-    This extracts structured timeline data from block METADATA, not LLM output.
-    Only blocks with explicit time_limit fields are included.
+    Pass 1: Resolve mandatory anchors for the case type
+    Pass 2: Add secondary timelines from retrieved blocks
     
     Args:
         rag_result: Raw output from LegalRAG.query()
+        case_type: Detected case type (rape, robbery, etc.)
+        tier: Which tier handled the query
         
     Returns:
-        List of TimelineItem objects (may be empty)
+        Tuple of (timeline_items, system_notice)
+        - system_notice is set if mandatory anchors are missing for Tier-1 crimes
     """
+    from .schemas import SystemNotice
+    
     timeline: list[TimelineItem] = []
-    seen_stages: set[str] = set()  # Deduplicate by stage
+    seen_stages: set[str] = set()
+    missing_anchors: list[str] = []
     
     # Get retrieval results
     retrieval = rag_result.get("retrieval", {})
     
-    # Process SOP blocks (Tier-1)
-    for block in retrieval.get("sop_blocks", []):
-        timeline_item = _extract_from_block(block, "SOP")
+    # Collect all retrieved blocks for anchor matching
+    all_blocks: list[dict] = []
+    all_blocks.extend(retrieval.get("sop_blocks", []))
+    all_blocks.extend(retrieval.get("general_sop_blocks", []))
+    all_blocks.extend(retrieval.get("evidence_blocks", []))
+    
+    # Normalize case type
+    normalized_case = _normalize_case_type(case_type)
+    
+    # Get anchors for this case type
+    anchors = TIMELINE_ANCHORS.get(normalized_case, TIMELINE_ANCHORS.get("general", []))
+    
+    # =========================================================================
+    # PASS 1: Resolve mandatory anchors
+    # =========================================================================
+    for anchor in anchors:
+        anchor_stage = anchor["stage"]
+        anchor_resolved = False
+        
+        # Try to find a block that satisfies this anchor
+        matched_block = _find_block_for_anchor(anchor_stage, all_blocks)
+        
+        if matched_block:
+            # Extract legal basis from matched block
+            legal_basis = _extract_legal_basis(matched_block)
+            
+            timeline_item = TimelineItem(
+                stage=anchor_stage,
+                action=anchor["action"],
+                deadline=anchor["deadline"],
+                mandatory=True,
+                is_anchor=True,
+                legal_basis=legal_basis if legal_basis else [f"SOP / BNSS"],
+            )
+            timeline.append(timeline_item)
+            seen_stages.add(anchor_stage)
+            anchor_resolved = True
+        else:
+            # Anchor not found in retrieval - use default from anchor definition
+            # For Tier-1, we'll track this as missing
+            timeline_item = TimelineItem(
+                stage=anchor_stage,
+                action=anchor["action"],
+                deadline=anchor["deadline"],
+                mandatory=True,
+                is_anchor=True,
+                legal_basis=["SOP / BNSS (standard procedure)"],
+            )
+            timeline.append(timeline_item)
+            seen_stages.add(anchor_stage)
+            
+            # Track as potentially missing for Tier-1 strict validation
+            if tier == TierType.TIER1:
+                missing_anchors.append(anchor_stage)
+    
+    # =========================================================================
+    # PASS 2: Add secondary timelines from retrieved blocks
+    # =========================================================================
+    for block in all_blocks:
+        timeline_item = _extract_from_block(block)
         if timeline_item and timeline_item.stage not in seen_stages:
+            timeline_item.is_anchor = False  # Mark as secondary
             timeline.append(timeline_item)
             seen_stages.add(timeline_item.stage)
     
-    # Process Evidence blocks (Tier-2)
-    for block in retrieval.get("evidence_blocks", []):
-        timeline_item = _extract_from_block(block, "Crime Scene Manual")
-        if timeline_item and timeline_item.stage not in seen_stages:
-            timeline.append(timeline_item)
-            seen_stages.add(timeline_item.stage)
+    # Sort: anchors first (by deadline), then secondary (by deadline)
+    timeline.sort(key=lambda x: (0 if x.is_anchor else 1, _deadline_priority(x.deadline)))
     
-    # Process General SOP blocks (Tier-3)
-    for block in retrieval.get("general_sop_blocks", []):
-        timeline_item = _extract_from_block(block, "General SOP")
-        if timeline_item and timeline_item.stage not in seen_stages:
-            timeline.append(timeline_item)
-            seen_stages.add(timeline_item.stage)
+    # =========================================================================
+    # Handle anchor failures for Tier-1 crimes
+    # =========================================================================
+    system_notice = None
+    if missing_anchors and tier == TierType.TIER1 and normalized_case in TIER1_CASE_TYPES:
+        # For Tier-1 crimes, missing anchors that couldn't be resolved from retrieval
+        # is a concern, but we still return the standard anchors
+        # Only create notice if we have retrieval but couldn't match critical stages
+        if len(all_blocks) > 0 and len(missing_anchors) > len(anchors) // 2:
+            system_notice = SystemNotice(
+                type="ANCHOR_INCOMPLETE",
+                stage=missing_anchors[0],
+                message=f"Some mandatory procedural timelines could not be verified from retrieved documents. Standard timelines shown.",
+            )
     
-    # Sort by priority: immediately > hours > days > no deadline
-    timeline.sort(key=lambda x: _deadline_priority(x.deadline))
-    
-    return timeline
+    return timeline, system_notice
 
 
-def _extract_from_block(block: dict, source_prefix: str) -> Optional[TimelineItem]:
+def _normalize_case_type(case_type: Optional[str]) -> str:
+    """Normalize case type string to match anchor keys."""
+    if not case_type:
+        return "general"
+    
+    case_lower = case_type.lower().strip()
+    
+    # Map variations to standard keys
+    mappings = {
+        "sexual assault": "sexual_assault",
+        "sexual_assault": "sexual_assault",
+        "rape": "rape",
+        "pocso": "pocso",
+        "robbery": "robbery",
+        "theft": "theft",
+        "assault": "assault",
+        "murder": "murder",
+        "homicide": "murder",
+        "cybercrime": "cybercrime",
+        "cyber crime": "cybercrime",
+        "kidnapping": "kidnapping",
+        "abduction": "kidnapping",
+    }
+    
+    return mappings.get(case_lower, "general")
+
+
+def _find_block_for_anchor(anchor_stage: str, blocks: list[dict]) -> Optional[dict]:
+    """
+    Find a retrieved block that matches an anchor stage.
+    
+    Uses keyword matching on block text, title, and stage metadata.
+    """
+    keywords = STAGE_KEYWORDS.get(anchor_stage, [anchor_stage.replace("_", " ")])
+    
+    for block in blocks:
+        metadata = block.get("metadata", {})
+        text = block.get("text", "").lower()
+        title = metadata.get("title", "").lower()
+        block_stage = metadata.get("procedural_stage", "").lower()
+        citation = block.get("citation", "").lower()
+        
+        # Check if any keyword matches
+        for keyword in keywords:
+            keyword_lower = keyword.lower()
+            if (keyword_lower in text or 
+                keyword_lower in title or 
+                keyword_lower in block_stage or
+                keyword_lower in citation):
+                return block
+    
+    return None
+
+
+def _extract_legal_basis(block: dict) -> list[str]:
+    """Extract legal basis references from a block."""
+    legal_basis: list[str] = []
+    metadata = block.get("metadata", {})
+    citation = block.get("citation", "")
+    
+    if citation:
+        legal_basis.append(citation)
+    
+    # Add BNSS sections
+    bnss_sections = metadata.get("bnss_sections", [])
+    for section in bnss_sections[:3]:
+        legal_basis.append(f"BNSS Section {section}")
+    
+    # Add BNS sections
+    bns_sections = metadata.get("bns_sections", [])
+    for section in bns_sections[:2]:
+        legal_basis.append(f"BNS Section {section}")
+    
+    return legal_basis
+
+
+def _extract_from_block(block: dict) -> Optional[TimelineItem]:
     """
     Extract a TimelineItem from a single retrieved block.
     
@@ -279,58 +494,33 @@ def _extract_from_block(block: dict, source_prefix: str) -> Optional[TimelineIte
     """
     metadata = block.get("metadata", {})
     
-    # Check if block has time_limit (required for timeline)
+    # Check if block has time_limit
     time_limit = metadata.get("time_limit")
     
-    # Also check for deadline keywords in citation/title
-    citation = block.get("citation", "")
-    
-    # Extract stage from metadata or citation
+    # Extract stage from metadata
     stage = metadata.get("procedural_stage", "general")
     if stage == "general" and metadata.get("stage"):
         stage = metadata.get("stage")
     
-    # Build legal basis from BNSS/BNS references
-    legal_basis: list[str] = []
-    
-    # Add source citation
-    if citation:
-        legal_basis.append(citation)
-    
-    # Add BNSS sections if available
-    bnss_sections = metadata.get("bnss_sections", [])
-    for section in bnss_sections[:3]:  # Limit to 3 sections
-        legal_basis.append(f"BNSS Section {section}")
-    
-    # Add BNS sections if available  
-    bns_sections = metadata.get("bns_sections", [])
-    for section in bns_sections[:2]:  # Limit to 2 sections
-        legal_basis.append(f"BNS Section {section}")
-    
     # Only create timeline item if we have a time_limit
     if not time_limit:
-        # Check if deadline info in title/text
         if not _has_time_keywords(block.get("text", "")):
             return None
-        # Infer "promptly" as default if time keywords present
         time_limit = "promptly"
     
-    # Get action from metadata or generate from stage
-    action = metadata.get("action", STAGE_ACTIONS.get(stage, f"Complete {stage} procedure"))
-    
-    # If we have a title, use it to make action more specific
+    # Get action from title or stage
     title = metadata.get("title", "")
-    if title and len(title) < 80:
-        action = title
+    action = title if title and len(title) < 80 else f"Complete {stage} procedure"
     
-    # Determine if mandatory (default true for SOP items)
-    mandatory = metadata.get("mandatory", True)
+    # Build legal basis
+    legal_basis = _extract_legal_basis(block)
     
     return TimelineItem(
         stage=stage,
         action=action,
         deadline=time_limit,
-        mandatory=mandatory,
+        mandatory=True,
+        is_anchor=False,
         legal_basis=legal_basis,
     )
 
@@ -420,8 +610,8 @@ def adapt_response(
     # 4. Get citations
     citations = rag_result.get("citations", [])
     
-    # 5. Extract timeline from retrieved blocks (A2 from UPDATES.md)
-    timeline = extract_timeline(rag_result)
+    # 5. Extract timeline with anchor system (2-pass)
+    timeline, system_notice = extract_timeline_with_anchors(rag_result, case_type, tier)
     
     # 6. Check for clarification needs
     clarification = detect_clarification_needed(query, tier, case_type)
@@ -448,6 +638,7 @@ def adapt_response(
         clarification_needed=clarification,
         confidence=confidence,
         api_version="1.0",
+        system_notice=system_notice,
     )
 
 

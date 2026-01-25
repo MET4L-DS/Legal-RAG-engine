@@ -59,11 +59,37 @@ class TimelineItem(BaseModel):
     )
     mandatory: bool = Field(
         default=True, 
-        description="Whether this is a legal obligation"
+        description="Whether this is a legal obligation (anchor = always true)"
+    )
+    is_anchor: bool = Field(
+        default=False,
+        description="Whether this is a primary anchor timeline (vs secondary)"
     )
     legal_basis: list[str] = Field(
         default_factory=list, 
         description="BNSS/SOP references for this timeline item"
+    )
+
+
+class SystemNotice(BaseModel):
+    """
+    System notice for critical failures (e.g., missing timeline anchors).
+    
+    Used when the system cannot reliably determine mandatory information.
+    Frontend should display this prominently.
+    """
+    
+    type: str = Field(
+        ..., 
+        description="Notice type (ANCHOR_MISSING, RETRIEVAL_FAILED, etc.)"
+    )
+    stage: str | None = Field(
+        None, 
+        description="Which stage failed (if applicable)"
+    )
+    message: str = Field(
+        ..., 
+        description="Human-readable explanation"
     )
 
 
@@ -144,6 +170,10 @@ class FrontendResponse(BaseModel):
     clarification_needed: Optional[ClarificationNeeded] = Field(
         None, 
         description="If set, frontend should ask user for clarification"
+    )
+    system_notice: Optional[SystemNotice] = Field(
+        None,
+        description="Critical system notice (e.g., missing mandatory timeline anchor)"
     )
     confidence: ConfidenceLevel = Field(
         ..., 
