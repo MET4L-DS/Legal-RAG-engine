@@ -400,13 +400,22 @@ All responses use a **flattened, frontend-safe schema** that hides internal impl
 
 #### Confidence Scoring
 
-Deterministic confidence levels help frontend decide when to show disclaimers:
+Deterministic confidence levels based on **anchor-based hardened rules**:
 
-| Confidence | Meaning                         | Frontend Action          |
-| ---------- | ------------------------------- | ------------------------ |
-| `high`     | Clear tier + case type detected | Show answer directly     |
-| `medium`   | Weak intent or general query    | Show with disclaimer     |
-| `low`      | Ambiguous term or no results    | Prompt for clarification |
+| Confidence | Rule                                                                 | Frontend Action          |
+| ---------- | -------------------------------------------------------------------- | ------------------------ |
+| `high`     | All anchors resolved + citations present + answer generated          | Show answer directly     |
+| `medium`   | Anchors resolved, but weak coverage (missing citations OR no answer) | Show with disclaimer     |
+| `low`      | Anchor missing OR clarification needed OR system notice              | Prompt for clarification |
+
+**Anchor-Based Logic:**
+
+- System prioritizes **mandatory timeline anchors** per case type
+- Missing anchors (detected via `system_notice`) automatically trigger LOW confidence
+- Clarification requests always result in LOW confidence
+- HIGH confidence requires complete anchor coverage + supporting evidence (citations)
+
+This makes frontend behavior **predictable and legally safe**.
 
 #### Clarification Signals
 

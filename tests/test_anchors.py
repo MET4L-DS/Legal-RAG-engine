@@ -17,7 +17,7 @@ from src.server.adapter import (
     extract_timeline_with_anchors,
     _normalize_case_type,
 )
-from src.server.schemas import TierType, TimelineItem
+from src.server.schemas import TierType, TimelineItem, ConfidenceLevel
 
 
 # ============================================================================
@@ -370,6 +370,130 @@ class TestNoRegressions:
         assert required.issubset(anchor_stages), (
             f"Sexual assault missing critical stages: {required - anchor_stages}"
         )
+
+
+# ============================================================================
+# CONFIDENCE SCORING TESTS (hardened rules)
+# ============================================================================
+
+class TestConfidenceScoring:
+    """Test the hardened confidence scoring rules."""
+    
+    def test_high_confidence_with_anchors_and_citations(self):
+        """HIGH confidence when anchors resolved + citations + answer."""
+        from src.server.adapter import calculate_confidence
+        
+        confidence = calculate_confidence(
+            tier=TierType.TIER1,
+            case_type="rape",
+            detected_stages=["fir_registration"],
+            has_citations=True,
+            has_answer=True,
+            anchors_resolved=True,
+            has_system_notice=False,
+            clarification_needed=False,
+            timeline_count=4,
+        )
+        
+        assert confidence == ConfidenceLevel.HIGH
+    
+    def test_low_confidence_when_clarification_needed(self):
+        """LOW confidence when clarification is needed."""
+        from src.server.adapter import calculate_confidence
+        
+        confidence = calculate_confidence(
+            tier=TierType.STANDARD,
+            case_type=None,
+            detected_stages=[],
+            has_citations=True,
+            has_answer=True,
+            anchors_resolved=True,
+            has_system_notice=False,
+            clarification_needed=True,  # Clarification needed
+            timeline_count=0,
+        )
+        
+        assert confidence == ConfidenceLevel.LOW
+    
+    def test_low_confidence_when_system_notice(self):
+        """LOW confidence when system notice (anchor failure)."""
+        from src.server.adapter import calculate_confidence
+        
+        confidence = calculate_confidence(
+            tier=TierType.TIER1,
+            case_type="rape",
+            detected_stages=["fir_registration"],
+            has_citations=True,
+            has_answer=True,
+            anchors_resolved=False,  # Anchors not resolved
+            has_system_notice=True,  # System notice present
+            clarification_needed=False,
+            timeline_count=4,
+        )
+        
+        assert confidence == ConfidenceLevel.LOW
+    
+    def test_medium_confidence_with_anchors_no_citations(self):
+        """MEDIUM confidence when anchors resolved but no citations."""
+        from src.server.adapter import calculate_confidence
+        
+        confidence = calculate_confidence(
+            tier=TierType.TIER3,
+            case_type="robbery",
+            detected_stages=["fir_registration"],
+            has_citations=False,  # No citations
+            has_answer=True,
+            anchors_resolved=True,
+            has_system_notice=False,
+            clarification_needed=False,
+            timeline_count=2,
+        )
+        
+        assert confidence == ConfidenceLevel.MEDIUM
+    
+    def test_medium_confidence_with_no_answer(self):
+        """MEDIUM confidence when anchors resolved but no answer."""
+        from src.server.adapter import calculate_confidence
+        
+        confidence = calculate_confidence(
+            tier=TierType.TIER1,
+            case_type="rape",
+            detected_stages=["fir_registration"],
+            has_citations=True,
+            has_answer=False,  # No answer
+            anchors_resolved=True,
+            has_system_notice=False,
+            clarification_needed=False,
+            timeline_count=4,
+        )
+        
+        assert confidence == ConfidenceLevel.MEDIUM
+    
+    def test_confidence_integration_with_adapt_response(self):
+        """Integration test: adapt_response should set correct confidence."""
+        from src.server.adapter import adapt_response
+        
+        # Mock RAG result with good data
+        mock_rag = {
+            "case_type": "robbery",
+            "is_procedural": True,
+            "detected_stages": ["fir_registration"],
+            "citations": ["General SOP 1.2", "BNSS Section 173"],
+            "answer": "File FIR immediately at the nearest police station.",
+            "retrieval": {
+                "sop_blocks": [],
+                "general_sop_blocks": [{
+                    "text": "FIR registration procedure",
+                    "metadata": {"stage": "fir_registration", "time_limit": "immediately"}
+                }]
+            },
+        }
+        
+        response = adapt_response(mock_rag, "What do I do in case of robbery?")
+        
+        # Should be HIGH: anchors resolved, citations present, answer present
+        assert response.confidence == ConfidenceLevel.HIGH
+        assert response.system_notice is None
 
 
 # ============================================================================

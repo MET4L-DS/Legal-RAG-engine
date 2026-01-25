@@ -210,14 +210,18 @@ def calculate_confidence(
     detected_stages: list[str],
     has_citations: bool,
     has_answer: bool,
+    anchors_resolved: bool = True,
+    has_system_notice: bool = False,
+    clarification_needed: bool = False,
+    timeline_count: int = 0,
 ) -> ConfidenceLevel:
     """
-    Calculate response confidence using deterministic heuristics.
+    Calculate response confidence using deterministic anchor-based rules.
     
-    Confidence Levels:
-    - HIGH: Clear tier routing + specific case type + citations
-    - MEDIUM: General tier or weak intent signals
-    - LOW: Ambiguous intent or no clear routing
+    Confidence Rules (hardened):
+    - HIGH: All anchors resolved + citations present + answer generated
+    - MEDIUM: Anchors resolved, but weak secondary coverage (few citations/timelines)
+    - LOW: Anchor missing OR clarification needed OR system notice
     
     Args:
         tier: Which tier handled the query
@@ -225,50 +229,27 @@ def calculate_confidence(
         detected_stages: List of detected procedural stages
         has_citations: Whether citations were found
         has_answer: Whether LLM generated an answer
+        anchors_resolved: Whether all mandatory anchors were resolved
+        has_system_notice: Whether a system notice was generated (anchor failure)
+        clarification_needed: Whether clarification was requested
+        timeline_count: Number of timeline items extracted
         
     Returns:
         ConfidenceLevel enum value
     """
-    score = 0
-    
-    # Specific tier routing is a strong signal
-    if tier == TierType.TIER1:
-        score += 3  # Sexual offence SOP - very specific
-    elif tier == TierType.TIER2_EVIDENCE:
-        score += 3  # Evidence manual - specific
-    elif tier == TierType.TIER2_COMPENSATION:
-        score += 3  # Compensation scheme - specific
-    elif tier == TierType.TIER3:
-        score += 2  # General SOP - moderately specific
-    else:
-        score += 1  # Standard tier - generic
-    
-    # Case type detection
-    if case_type and case_type not in ("general", "unknown", None):
-        score += 2
-    
-    # Stage detection (procedural queries)
-    if detected_stages:
-        score += 1
-        if len(detected_stages) == 1:
-            score += 1  # Single stage is more specific
-    
-    # Citations found
-    if has_citations:
-        score += 1
-    
-    # LLM answer generated
-    if has_answer:
-        score += 1
-    
-    # Map score to confidence level
-    # Max possible: 3 (tier) + 2 (case) + 2 (stages) + 1 (citations) + 1 (answer) = 9
-    if score >= 6:
-        return ConfidenceLevel.HIGH
-    elif score >= 3:
-        return ConfidenceLevel.MEDIUM
-    else:
+    # Rule 1: LOW if anchor missing OR clarification needed OR system notice
+    if not anchors_resolved or clarification_needed or has_system_notice:
         return ConfidenceLevel.LOW
+    
+    # Rule 2: HIGH if all anchors resolved + citations + answer
+    if anchors_resolved and has_citations and has_answer:
+        # Additional check: need some secondary coverage for HIGH
+        if timeline_count >= 2 or tier in (TierType.TIER1, TierType.TIER2_EVIDENCE, TierType.TIER2_COMPENSATION):
+            return ConfidenceLevel.HIGH
+    
+    # Rule 3: MEDIUM - anchors resolved but weak secondary coverage
+    # (missing citations, few timelines, or no answer)
+    return ConfidenceLevel.MEDIUM
 
 
 # ============================================================================
@@ -673,13 +654,17 @@ def adapt_response(
     # 7. Get answer (None if clarification needed)
     answer = rag_result.get("answer") if not clarification else None
     
-    # 8. Calculate confidence
+    # 8. Calculate confidence (anchor-based hardened rules)
     confidence = calculate_confidence(
         tier=tier,
         case_type=case_type,
         detected_stages=detected_stages,
         has_citations=len(citations) > 0,
         has_answer=answer is not None,
+        anchors_resolved=(system_notice is None),  # No notice means anchors OK
+        has_system_notice=(system_notice is not None),
+        clarification_needed=(clarification is not None),
+        timeline_count=len(timeline),
     )
     
     return FrontendResponse(
