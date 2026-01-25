@@ -329,11 +329,17 @@ Question: {question}
 
 Answer:"""
         
-        # Models to try in order (based on free tier rate limits)
-        models_to_try = ["gemini-2.5-flash-lite", "gemini-2.0-flash"]
+        # Models to try in order (from AI Studio dashboard - Jan 2026)
+        # Prioritize models with available quota, avoid exhausted ones
+        models_to_try = [
+            "gemini-3.0-flash",      # Newest, 0/20 RPD available
+            "gemini-2.5-flash-lite",    # Good fallback, 0/20 RPD available  
+            "gemma-3.0-12b",         # High quota: 30 RPM, 14.4K RPD
+        ]
         max_retries = 2
         
         for model in models_to_try:
+            print(f"DEBUG: Attempting model: {model}")  # Debug logging
             for attempt in range(max_retries):
                 try:
                     from google.genai import types
@@ -346,20 +352,25 @@ Answer:"""
                             max_output_tokens=1000,  # type: ignore
                         )
                     )
+                    print(f"DEBUG: Success with model: {model}")
                     return response.text
                 except Exception as e:
                     error_str = str(e)
+                    print(f"DEBUG: {model} failed (attempt {attempt + 1}): {error_str[:100]}")
                     if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str:
                         # Rate limited - wait and retry or try next model
                         if attempt < max_retries - 1:
-                            wait_time = (attempt + 1) * 10  # 10s, 20s, 30s
+                            wait_time = (attempt + 1) * 5  # 5s, 10s
+                            print(f"DEBUG: Waiting {wait_time}s before retry...")
                             time.sleep(wait_time)
                             continue
                         else:
                             # Try next model
+                            print(f"DEBUG: Moving to next model...")
                             break
                     else:
-                        # Non-rate-limit error
-                        return f"Error generating answer: {error_str}"
+                        # Non-rate-limit error - try next model
+                        print(f"DEBUG: Non-rate-limit error, trying next model...")
+                        break
         
         return "Error: Rate limit exceeded on all models. Please wait a minute and try again."

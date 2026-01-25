@@ -9,14 +9,19 @@ from fastapi import APIRouter, Depends, HTTPException
 
 from .config import get_settings, Settings
 from .dependencies import get_rag, get_store_stats, is_llm_available
+from .adapter import adapt_response
 from .schemas import (
     RAGQueryRequest,
     RAGQueryResponse,
+    FrontendResponse,
     RetrievalResults,
     RetrievalItem,
     TierInfo,
+    TierType,
+    ConfidenceLevel,
     HealthResponse,
     StatsResponse,
+    MetaResponse,
     ErrorResponse,
 )
 
@@ -24,6 +29,92 @@ logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
+
+def _format_retrieval_item(item: dict) -> RetrievalItem:
+    """Convert RAG result item to API response format."""
+    return RetrievalItem(
+        citation=item.get("citation", ""),
+        text=item.get("text", ""),
+        score=item.get("score", 0.0),
+        level=item.get("level", ""),
+        source_type=item.get("source_type", ""),
+        metadata=item.get("metadata", {})
+    )
+
+
+# ============================================================================
+# PRIMARY ENDPOINT (Frontend Contract)
+# ============================================================================
+
+@router.post(
+    "/query",
+    response_model=FrontendResponse,
+    responses={
+        500: {"model": ErrorResponse, "description": "Internal server error"}
+    },
+    summary="Query the Legal RAG System",
+    description="""
+Execute a legal query against the RAG system.
+
+**This is the PRIMARY API contract for frontend applications.**
+
+The system automatically detects query intent and routes to appropriate tier:
+- **Tier-1**: Sexual offence procedures (SOP-backed)
+- **Tier-2 Evidence**: Crime scene investigation standards
+- **Tier-2 Compensation**: Victim relief and rehabilitation
+- **Tier-3**: General citizen procedures for all crimes
+- **Standard**: Traditional legal query (definitions, punishments, etc.)
+
+Response includes:
+- `answer`: LLM-generated response (may be null if clarification needed)
+- `tier`: Which tier handled the query
+- `case_type`: Detected crime/case type
+- `stage`: Primary procedural stage (if applicable)
+- `citations`: Legal citations used
+- `clarification_needed`: If set, frontend should prompt user for clarification
+- `confidence`: Response confidence level (high/medium/low)
+"""
+)
+async def query_rag(
+    request: RAGQueryRequest,
+    rag=Depends(get_rag)
+) -> FrontendResponse:
+    """
+    Query the legal document database.
+    
+    Returns a frontend-safe response with clarification and confidence scoring.
+    """
+    try:
+        logger.info(f"Processing query: {request.query[:100]}...")
+        
+        # Execute RAG query
+        result = rag.query(
+            question=request.query,
+            generate_answer=not request.no_llm
+        )
+        
+        # Adapt to frontend-safe response
+        response = adapt_response(result, request.query)
+        
+        logger.info(
+            f"Query completed - Tier: {response.tier.value}, "
+            f"Confidence: {response.confidence.value}, "
+            f"Clarification: {'Yes' if response.clarification_needed else 'No'}"
+        )
+        
+        return response
+        
+    except Exception as e:
+        logger.exception(f"Error processing query: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail={"error": "query_error", "message": str(e)}
+        )
+
+
+# ============================================================================
+# DEBUG ENDPOINT (Internal/Admin Only)
+# ============================================================================
 
 def _determine_tier(result: dict) -> str:
     """Determine which tier handled the query based on result flags."""
@@ -39,49 +130,27 @@ def _determine_tier(result: dict) -> str:
         return "standard"
 
 
-def _format_retrieval_item(item: dict) -> RetrievalItem:
-    """Convert RAG result item to API response format."""
-    return RetrievalItem(
-        citation=item.get("citation", ""),
-        text=item.get("text", ""),
-        score=item.get("score", 0.0),
-        level=item.get("level", ""),
-        source_type=item.get("source_type", ""),
-        metadata=item.get("metadata", {})
-    )
-
-
 @router.post(
-    "/query",
+    "/query/debug",
     response_model=RAGQueryResponse,
     responses={
         500: {"model": ErrorResponse, "description": "Internal server error"}
     },
-    summary="Query the Legal RAG System",
-    description="""
-Execute a legal query against the RAG system.
-
-The system automatically detects query intent and routes to appropriate tier:
-- **Tier-1**: Sexual offence procedures (SOP-backed)
-- **Tier-2 Evidence**: Crime scene investigation standards
-- **Tier-2 Compensation**: Victim relief and rehabilitation
-- **Tier-3**: General citizen procedures for all crimes
-- **Standard**: Traditional legal query (definitions, punishments, etc.)
-"""
+    summary="Query with Debug Info (Internal)",
+    description="Returns full internal retrieval details. For debugging only.",
+    include_in_schema=False,  # Hide from public docs
 )
-async def query_rag(
+async def query_rag_debug(
     request: RAGQueryRequest,
     rag=Depends(get_rag)
 ) -> RAGQueryResponse:
     """
-    Query the legal document database.
+    Query with full debug information.
     
-    This endpoint mirrors the CLI `query` command behavior.
+    This endpoint exposes internal structures for debugging.
+    NOT intended for frontend use.
     """
     try:
-        logger.info(f"Processing query: {request.query[:100]}...")
-        
-        # Execute RAG query
         result = rag.query(
             question=request.query,
             generate_answer=not request.no_llm
@@ -111,8 +180,7 @@ async def query_rag(
             general_crime_type=result.get("general_crime_type"),
         )
         
-        # Build response
-        response = RAGQueryResponse(
+        return RAGQueryResponse(
             question=result["question"],
             answer=result.get("answer"),
             tier_info=tier_info,
@@ -121,16 +189,39 @@ async def query_rag(
             context_length=len(result.get("context", "") or ""),
         )
         
-        logger.info(f"Query completed - Tier: {tier_info.tier}, Answer: {'Yes' if response.answer else 'No'}")
-        
-        return response
-        
     except Exception as e:
-        logger.exception(f"Error processing query: {e}")
+        logger.exception(f"Error processing debug query: {e}")
         raise HTTPException(
             status_code=500,
             detail={"error": "query_error", "message": str(e)}
         )
+
+
+# ============================================================================
+# META & HEALTH ENDPOINTS
+# ============================================================================
+
+@router.get(
+    "/meta",
+    response_model=MetaResponse,
+    summary="API Metadata",
+    description="Get supported values for tiers, case types, and stages. Frontend can use this for validation.",
+)
+async def get_meta() -> MetaResponse:
+    """Get API metadata - supported tiers, case types, and stages."""
+    return MetaResponse(
+        tiers=[t.value for t in TierType],
+        case_types=[
+            "rape", "sexual_assault", "robbery", "theft", "assault",
+            "murder", "cybercrime", "cheating", "extortion", "kidnapping", "general"
+        ],
+        stages=[
+            "pre_fir", "fir", "investigation", "medical_examination",
+            "statement_recording", "evidence_collection", "arrest",
+            "charge_sheet", "trial", "victim_rights", "police_duties"
+        ],
+        confidence_levels=[c.value for c in ConfidenceLevel],
+    )
 
 
 @router.get(

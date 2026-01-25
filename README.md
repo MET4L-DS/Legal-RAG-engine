@@ -18,7 +18,11 @@ A hierarchical Retrieval-Augmented Generation (RAG) system for Indian legal docu
 - ✅ **Evidence Block Retrieval**: Standards for evidence collection/preservation with contamination warnings
 - ✅ **Compensation Block Retrieval**: Victim compensation and rehabilitation information
 - ✅ **Citation Support**: Generates proper legal citations with source labels (📘 SOP, 🧪 Evidence Manual, 💰 NALSA Scheme, 📋 General SOP, ⚖️ BNSS, 📕 BNS)
-- ✅ **LLM Integration**: Google Gemini with specialized prompts (procedural, evidence, compensation)
+- ✅ **LLM Integration**: Google Gemini with multi-model fallback and tier-specific prompts
+- ✅ **FastAPI Server**: REST API with frontend-safe response adapter
+- ✅ **Confidence Scoring**: Deterministic confidence levels (high/medium/low) for frontend decisions
+- ✅ **Clarification Signals**: Detects ambiguous queries and requests user clarification
+- ✅ **Meta Endpoint**: Exposes supported tiers, case types, stages for frontend validation
 
 ## Supported Documents
 
@@ -211,18 +215,21 @@ uvicorn src.server.main:app --reload
 
 ### API Endpoints
 
-| Endpoint      | Method | Description                                |
-| ------------- | ------ | ------------------------------------------ |
-| `/`           | GET    | API information and available endpoints    |
-| `/rag/query`  | POST   | Execute a legal query                      |
-| `/rag/health` | GET    | Health check and status                    |
-| `/rag/stats`  | GET    | Index statistics                           |
-| `/docs`       | GET    | Interactive API documentation (Swagger UI) |
-| `/redoc`      | GET    | Alternative API documentation (ReDoc)      |
+| Endpoint      | Method | Description                                    |
+| ------------- | ------ | ---------------------------------------------- |
+| `/`           | GET    | API information and available endpoints        |
+| `/rag/query`  | POST   | Execute a legal query                          |
+| `/rag/health` | GET    | Health check and status                        |
+| `/rag/stats`  | GET    | Index statistics                               |
+| `/rag/meta`   | GET    | Metadata (supported tiers, case types, stages) |
+| `/docs`       | GET    | Interactive API documentation (Swagger UI)     |
+| `/redoc`      | GET    | Alternative API documentation (ReDoc)          |
 
 ### Query Endpoint
 
 **POST `/rag/query`**
+
+Request:
 
 ```json
 {
@@ -232,30 +239,50 @@ uvicorn src.server.main:app --reload
 }
 ```
 
-**Response:**
+**Response (Frontend-Safe Contract):**
 
 ```json
 {
-  "question": "What is the punishment for murder?",
-  "answer": "According to BNS Section 103...",
-  "tier_info": {
-    "tier": "standard",
-    "is_procedural": false,
-    "case_type": null,
-    "detected_stages": [],
-    "needs_evidence": false,
-    "needs_compensation": false,
-    "needs_general_sop": false
-  },
-  "retrieval": {
-    "subsections": [...],
-    "sop_blocks": [],
-    "evidence_blocks": [],
-    "compensation_blocks": [],
-    "general_sop_blocks": []
-  },
-  "citations": ["BNS Section 103", "BNS Section 101"],
-  "context_length": 4523
+	"answer": "According to BNS Section 103...",
+	"tier": "standard | tier1 | tier2_evidence | tier2_compensation | tier3",
+	"case_type": "rape | sexual_assault | robbery | theft | murder | null",
+	"stage": "pre_fir | fir | investigation | evidence_collection | null",
+	"citations": ["BNS Section 103", "BNSS Section 184"],
+	"clarification_needed": null,
+	"confidence": "high | medium | low"
+}
+```
+
+**Clarification Response (when ambiguous):**
+
+```json
+{
+	"answer": null,
+	"tier": null,
+	"case_type": null,
+	"stage": null,
+	"citations": [],
+	"clarification_needed": {
+		"type": "case_type",
+		"options": ["sexual_assault", "physical_assault"],
+		"reason": "The term 'assault' has different legal procedures"
+	},
+	"confidence": "low"
+}
+```
+
+### Meta Endpoint
+
+**GET `/rag/meta`**
+
+Returns supported enums for frontend dropdowns/validation:
+
+```json
+{
+  "tiers": ["tier1", "tier2_evidence", "tier2_compensation", "tier3", "standard"],
+  "case_types": ["rape", "sexual_assault", "robbery", "theft", "assault", "murder", ...],
+  "stages": ["pre_fir", "fir", "investigation", "medical_examination", ...],
+  "confidence_levels": ["high", "medium", "low"]
 }
 ```
 
@@ -270,6 +297,43 @@ The API automatically routes queries to the appropriate tier:
 | `tier2_evidence`     | Evidence/investigation    | "What evidence should police collect?" |
 | `tier2_compensation` | Victim compensation       | "How to apply for compensation?"       |
 | `tier3`              | General crime procedures  | "What do I do in case of robbery?"     |
+
+### Frontend Integration Features
+
+The API is designed for frontend compatibility with these features:
+
+#### Response Adapter
+
+All responses use a **flattened, frontend-safe schema** that hides internal implementation details:
+
+- ✅ Exposes: `answer`, `tier`, `case_type`, `stage`, `citations`, `confidence`
+- ❌ Hides: `retrieval`, `tier_info`, internal flags, raw context
+
+#### Confidence Scoring
+
+Deterministic confidence levels help frontend decide when to show disclaimers:
+
+| Confidence | Meaning                         | Frontend Action          |
+| ---------- | ------------------------------- | ------------------------ |
+| `high`     | Clear tier + case type detected | Show answer directly     |
+| `medium`   | Weak intent or general query    | Show with disclaimer     |
+| `low`      | Ambiguous term or no results    | Prompt for clarification |
+
+#### Clarification Signals
+
+For ambiguous queries (e.g., "assault"), the API may request clarification:
+
+```json
+{
+	"clarification_needed": {
+		"type": "case_type",
+		"options": ["sexual_assault", "physical_assault"],
+		"reason": "The term 'assault' has different legal procedures"
+	}
+}
+```
+
+**Ambiguous terms detected**: assault, complaint, violence, harassment
 
 ### Configuration
 
@@ -533,28 +597,30 @@ Results are labeled by source type:
 
 The system uses Google's Gemini API for generating natural language answers:
 
-**Primary Model**: `gemini-2.5-flash-lite`
+**Model Fallback Chain** (ordered by availability):
 
-- Fast, cost-effective for legal Q&A
-- Fallback to `gemini-2.0-flash` on failure
+1. `gemini-3-flash` - Newest, highest quality
+2. `gemini-2.5-flash-lite` - Good fallback
+3. `gemma-3-12b` - High quota fallback (30 RPM, 14.4K RPD)
 
 **Features**:
 
-- **Automatic Retry**: 3 attempts per model with exponential backoff
-- **Rate Limit Handling**: Waits 10s, 20s, 30s between retries
+- **Multi-Model Fallback**: Automatically tries next model on rate limit
+- **Automatic Retry**: 2 attempts per model with backoff (5s, 10s)
+- **Rate Limit Handling**: Graceful degradation across model tiers
 - **Context-Aware**: Receives retrieved sections with full legal text
 - **Citation Grounding**: Answers reference specific sections
+- **Tier-Specific Prompts**: Different prompts for procedural, evidence, compensation queries
 
-**Prompt Structure**:
+**Prompt Types**:
 
-```
-Context: [Retrieved legal sections with titles and text]
-
-Question: [User's query]
-
-Instructions: Provide accurate answer based on context.
-Cite sections using format: "Section X of [Act]".
-```
+| Query Type    | Prompt Used           | Output Format                                        |
+| ------------- | --------------------- | ---------------------------------------------------- |
+| Standard      | `SYSTEM_PROMPT`       | Definition, Procedure, Key Points                    |
+| Tier-1 (SOP)  | `PROCEDURAL_PROMPT`   | Immediate Steps, Police Duties, Legal Rights         |
+| Tier-2 (Evid) | `EVIDENCE_PROMPT`     | Required Evidence, Procedure, If Not Followed        |
+| Tier-2 (Comp) | `COMPENSATION_PROMPT` | Eligibility, Types, How to Apply, Where              |
+| Tier-3 (Gen)  | `GENERAL_SOP_PROMPT`  | Immediate Steps, Police Duties, If Police Do Not Act |
 
 ## Example Queries
 

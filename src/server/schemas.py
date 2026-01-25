@@ -2,8 +2,47 @@
 Request and response schemas for the Legal RAG API.
 """
 
-from typing import Optional
+from enum import Enum
+from typing import Literal, Optional
 from pydantic import BaseModel, Field
+
+
+# ============================================================================
+# Enums for Frontend Contract
+# ============================================================================
+
+class TierType(str, Enum):
+    """Query tier types."""
+    TIER1 = "tier1"
+    TIER2_EVIDENCE = "tier2_evidence"
+    TIER2_COMPENSATION = "tier2_compensation"
+    TIER3 = "tier3"
+    STANDARD = "standard"
+
+
+class ConfidenceLevel(str, Enum):
+    """Response confidence levels."""
+    HIGH = "high"
+    MEDIUM = "medium"
+    LOW = "low"
+
+
+class ClarificationType(str, Enum):
+    """Types of clarification needed."""
+    CASE_TYPE = "case_type"
+    STAGE = "stage"
+
+
+# ============================================================================
+# Clarification Schema
+# ============================================================================
+
+class ClarificationNeeded(BaseModel):
+    """Schema for when clarification is needed before processing."""
+    
+    type: ClarificationType = Field(..., description="Type of clarification needed")
+    options: list[str] = Field(..., description="Predefined options to choose from")
+    reason: str = Field(..., description="Why clarification is needed")
 
 
 # ============================================================================
@@ -33,7 +72,49 @@ class RAGQueryRequest(BaseModel):
 
 
 # ============================================================================
-# Response Schemas
+# Frontend-Safe Response Schema (Primary Contract)
+# ============================================================================
+
+class FrontendResponse(BaseModel):
+    """
+    Frontend-safe response schema.
+    
+    This is the PRIMARY API contract. Frontend should ONLY depend on this shape.
+    Internal structures (retrieval, flags) are hidden from this response.
+    """
+    
+    answer: Optional[str] = Field(
+        None, 
+        description="LLM-generated answer (null if no_llm=true or clarification needed)"
+    )
+    tier: TierType = Field(
+        ..., 
+        description="Which tier handled the query"
+    )
+    case_type: Optional[str] = Field(
+        None, 
+        description="Detected case type (rape, robbery, theft, etc.)"
+    )
+    stage: Optional[str] = Field(
+        None, 
+        description="Primary detected procedural stage (if any)"
+    )
+    citations: list[str] = Field(
+        default_factory=list, 
+        description="Legal citations used in the answer"
+    )
+    clarification_needed: Optional[ClarificationNeeded] = Field(
+        None, 
+        description="If set, frontend should ask user for clarification"
+    )
+    confidence: ConfidenceLevel = Field(
+        ..., 
+        description="Confidence level of the response"
+    )
+
+
+# ============================================================================
+# Internal Response Schemas (for debugging/admin only)
 # ============================================================================
 
 class RetrievalItem(BaseModel):
@@ -74,7 +155,12 @@ class TierInfo(BaseModel):
 
 
 class RAGQueryResponse(BaseModel):
-    """Response schema for RAG query endpoint."""
+    """
+    Full response schema for RAG query endpoint (internal/debug).
+    
+    NOTE: Frontend should use FrontendResponse instead.
+    This schema exposes internal structures for debugging.
+    """
     
     question: str = Field(..., description="Original question")
     answer: Optional[str] = Field(None, description="LLM-generated answer (null if no_llm=true)")
@@ -83,6 +169,10 @@ class RAGQueryResponse(BaseModel):
     citations: list[str] = Field(default_factory=list, description="Legal citations used")
     context_length: int = Field(..., description="Length of context sent to LLM")
 
+
+# ============================================================================
+# Health & Stats Schemas
+# ============================================================================
 
 class HealthResponse(BaseModel):
     """Response schema for health check endpoint."""
@@ -109,6 +199,19 @@ class StatsResponse(BaseModel):
     tier2_evidence_enabled: bool = Field(..., description="Tier-2 evidence support enabled")
     tier2_compensation_enabled: bool = Field(..., description="Tier-2 compensation support enabled")
     tier3_enabled: bool = Field(..., description="Tier-3 general SOP support enabled")
+
+
+# ============================================================================
+# Meta Schema (for frontend configuration)
+# ============================================================================
+
+class MetaResponse(BaseModel):
+    """Response schema for meta endpoint - exposes supported values."""
+    
+    tiers: list[str] = Field(..., description="Supported tier types")
+    case_types: list[str] = Field(..., description="Supported case types")
+    stages: list[str] = Field(..., description="Supported procedural stages")
+    confidence_levels: list[str] = Field(..., description="Possible confidence levels")
 
 
 class ErrorResponse(BaseModel):
