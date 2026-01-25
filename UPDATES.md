@@ -103,3 +103,33 @@ Once `audience` exists:
 - `mandatory && audience !== "victim"` → **Later Procedural Steps**
 
 This fixes the remaining UX flaw **without touching the backend logic again**.
+
+🟡 NEXT STEP 3 — Backend: anchor completeness tests (must-have)
+
+Now that anchors are implemented, lock them down.
+
+Add tests like:
+
+Sexual assault
+
+Must include:
+
+FIR registration
+
+Medical examination
+
+Statement recording
+
+Victim protection
+
+Robbery
+
+Must include:
+
+FIR registration
+
+Investigation commencement
+
+If any are missing → system_notice + confidence: low
+
+This makes regressions impossible.
