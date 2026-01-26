@@ -124,6 +124,60 @@ class ClarificationNeeded(BaseModel):
 
 
 # ============================================================================
+# Source Type & Structured Citation Schema (for citation chip → view source)
+# ============================================================================
+
+class SourceType(str, Enum):
+    """Types of sources that can be fetched."""
+    GENERAL_SOP = "general_sop"
+    SOP = "sop"
+    BNSS = "bnss"
+    BNS = "bns"
+    BSA = "bsa"
+    EVIDENCE = "evidence"
+    COMPENSATION = "compensation"
+
+
+class StructuredCitation(BaseModel):
+    """
+    Structured citation with explicit source ID for fetching.
+    
+    This replaces the old string-only citation format.
+    Frontend can directly use source_type + source_id to fetch source content.
+    
+    Example citations:
+    - General SOP: {"source_type": "general_sop", "source_id": "GSOP_095", "display": "SOP ON PERSONS BOUND..."}
+    - BNSS: {"source_type": "bnss", "source_id": "183", "display": "Section 183 - Confessions"}
+    - SOP: {"source_type": "sop", "source_id": "SOP_RAPE_003", "display": "Medical Examination Protocol"}
+    """
+    
+    source_type: SourceType = Field(
+        ...,
+        description="Type of source: general_sop, sop, bnss, bns, bsa, evidence, compensation"
+    )
+    source_id: str = Field(
+        ...,
+        description="Direct source identifier (e.g., 'GSOP_095', '183', 'SOP_RAPE_003')"
+    )
+    display: str = Field(
+        ...,
+        description="Human-readable display text for the citation chip"
+    )
+    context_snippet: Optional[str] = Field(
+        None,
+        description="Short snippet showing which part of the source was used (for highlighting)"
+    )
+    relevance_score: Optional[float] = Field(
+        None,
+        description="Relevance score from retrieval (0.0 - 1.0)"
+    )
+
+    def to_source_request(self) -> "SourceRequest":
+        """Convert to SourceRequest for fetching."""
+        return SourceRequest(source_type=self.source_type, source_id=self.source_id)
+
+
+# ============================================================================
 # Request Schemas
 # ============================================================================
 
@@ -177,9 +231,9 @@ class FrontendResponse(BaseModel):
         None, 
         description="Primary detected procedural stage (if any)"
     )
-    citations: list[str] = Field(
+    citations: list[StructuredCitation] = Field(
         default_factory=list, 
-        description="Legal citations used in the answer"
+        description="Structured citations with source_type and source_id for direct fetching"
     )
     timeline: list[TimelineItem] = Field(
         default_factory=list,
@@ -198,8 +252,8 @@ class FrontendResponse(BaseModel):
         description="Confidence level of the response"
     )
     api_version: str = Field(
-        default="1.0",
-        description="API contract version"
+        default="2.0",
+        description="API contract version (2.0 = structured citations)"
     )
 
 
@@ -310,3 +364,38 @@ class ErrorResponse(BaseModel):
     error: str = Field(..., description="Error type")
     message: str = Field(..., description="Error message")
     detail: Optional[str] = Field(None, description="Additional error details")
+
+
+# ============================================================================
+# Source Fetch Schemas (for citation click → view source)
+# ============================================================================
+
+class SourceRequest(BaseModel):
+    """Request schema for fetching source content."""
+    
+    source_type: SourceType = Field(
+        ...,
+        description="Type of source: general_sop, sop, bnss, bns, bsa, evidence, compensation"
+    )
+    source_id: str = Field(
+        ...,
+        description="Source identifier (e.g., 'GSOP_004', 'Section 183', 'EVID_001')"
+    )
+
+
+class SourceResponse(BaseModel):
+    """Response schema for source content - verbatim text only, no LLM."""
+    
+    source_type: SourceType = Field(..., description="Type of source")
+    doc_id: str = Field(..., description="Document identifier")
+    title: str = Field(..., description="Title of the section/block")
+    section_id: str = Field(..., description="Section or block ID")
+    content: str = Field(..., description="Verbatim source text (no summarization)")
+    legal_references: list[str] = Field(
+        default_factory=list,
+        description="Related legal references cited in this source"
+    )
+    metadata: dict = Field(
+        default_factory=dict,
+        description="Additional metadata (stage, stakeholders, time_limit, etc.)"
+    )

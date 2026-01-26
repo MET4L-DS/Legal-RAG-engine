@@ -23,6 +23,9 @@ from .schemas import (
     StatsResponse,
     MetaResponse,
     ErrorResponse,
+    SourceRequest,
+    SourceResponse,
+    SourceType,
 )
 
 logger = logging.getLogger(__name__)
@@ -290,4 +293,76 @@ async def get_stats(
         raise HTTPException(
             status_code=503,
             detail={"error": "service_not_ready", "message": str(e)}
+        )
+
+
+# ============================================================================
+# SOURCE FETCH ENDPOINT (for citation → view source)
+# ============================================================================
+
+@router.post(
+    "/source",
+    response_model=SourceResponse,
+    responses={
+        404: {"model": ErrorResponse, "description": "Source not found"},
+        500: {"model": ErrorResponse, "description": "Internal server error"}
+    },
+    summary="Fetch Source Content",
+    description="""
+Fetch verbatim source content for a citation.
+
+**This endpoint returns exact source text - NO LLM summarization.**
+
+Use this when a user clicks on a citation to view the original source.
+The response includes:
+- `content`: Verbatim text from the source document
+- `title`: Section/block title
+- `legal_references`: Related legal citations
+- `metadata`: Additional context (stage, stakeholders, time_limit, etc.)
+
+**Source Types:**
+- `general_sop`: BPR&D General SOP blocks (GSOP_001, etc.)
+- `sop`: MHA Rape SOP blocks
+- `bnss`: BNSS sections (Section 183, etc.)
+- `bns`: BNS sections
+- `bsa`: BSA sections
+- `evidence`: Crime Scene Manual blocks
+- `compensation`: NALSA Compensation blocks
+"""
+)
+async def fetch_source(
+    request: SourceRequest,
+    rag=Depends(get_rag)
+) -> SourceResponse:
+    """
+    Fetch verbatim source content for a citation.
+    
+    No LLM involved - returns exact parsed content.
+    """
+    from .source_fetcher import fetch_source_content
+    
+    try:
+        result = fetch_source_content(
+            source_type=request.source_type,
+            source_id=request.source_id,
+        )
+        
+        if result is None:
+            raise HTTPException(
+                status_code=404,
+                detail={
+                    "error": "source_not_found",
+                    "message": f"Source '{request.source_id}' not found in {request.source_type.value}"
+                }
+            )
+        
+        return result
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.exception(f"Error fetching source: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail={"error": "source_fetch_error", "message": str(e)}
         )

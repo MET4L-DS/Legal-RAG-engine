@@ -220,6 +220,7 @@ uvicorn src.server.main:app --reload
 | ------------- | ------ | ---------------------------------------------- |
 | `/`           | GET    | API information and available endpoints        |
 | `/rag/query`  | POST   | Execute a legal query                          |
+| `/rag/source` | POST   | Fetch verbatim source content for citations    |
 | `/rag/health` | GET    | Health check and status                        |
 | `/rag/stats`  | GET    | Index statistics                               |
 | `/rag/meta`   | GET    | Metadata (supported tiers, case types, stages) |
@@ -244,13 +245,30 @@ Request:
 
 > ⚠️ **Frontend depends on this schema. Changes require version bump.**
 
+> 📋 **API v2.0**: Citations are now structured objects. See [docs/CITATION_API_V2.md](docs/CITATION_API_V2.md) for migration guide.
+
 ```json
 {
 	"answer": "According to BNS Section 103...",
 	"tier": "standard | tier1 | tier2_evidence | tier2_compensation | tier3",
 	"case_type": "rape | sexual_assault | robbery | theft | murder | null",
 	"stage": "pre_fir | fir | investigation | evidence_collection | null",
-	"citations": ["BNS Section 103", "BNSS Section 184"],
+	"citations": [
+		{
+			"source_type": "bns",
+			"source_id": "103",
+			"display": "BNS Section 103",
+			"context_snippet": "Whoever commits murder shall be punished...",
+			"relevance_score": 0.92
+		},
+		{
+			"source_type": "bnss",
+			"source_id": "184",
+			"display": "BNSS Section 184",
+			"context_snippet": "The investigation officer shall...",
+			"relevance_score": 0.88
+		}
+	],
 	"timeline": [
 		{
 			"stage": "fir_registration",
@@ -273,7 +291,7 @@ Request:
 	],
 	"clarification_needed": null,
 	"confidence": "high | medium | low",
-	"api_version": "1.0",
+	"api_version": "2.0",
 	"system_notice": null
 }
 ```
@@ -374,6 +392,54 @@ Returns supported enums for frontend dropdowns/validation:
   "confidence_levels": ["high", "medium", "low"]
 }
 ```
+
+### Source Endpoint (Citation Viewer)
+
+**POST `/rag/source`**
+
+Fetch verbatim source content for citations. **No LLM involved** - returns exact parsed text.
+
+Request:
+
+```json
+{
+	"source_type": "general_sop | sop | bnss | bns | bsa | evidence | compensation",
+	"source_id": "GSOP_004 | Section 183 | EVID_001"
+}
+```
+
+Response:
+
+```json
+{
+	"source_type": "general_sop",
+	"doc_id": "GENERAL_SOP_BPRD",
+	"title": "SOP ON RECEIPT OF COMPLAINT - FIR Issuance & Jurisdiction",
+	"section_id": "GSOP_004",
+	"content": "The procedure for issuing an FIR depends on where the offense occurred...",
+	"legal_references": ["BNSS Section 154"],
+	"metadata": {
+		"procedural_stage": "pre_fir",
+		"stakeholders": ["citizen", "victim"],
+		"action_type": "right",
+		"time_limit": "immediately"
+	}
+}
+```
+
+**Source Types:**
+
+| Type           | Description                      | Example IDs                  |
+| -------------- | -------------------------------- | ---------------------------- |
+| `general_sop`  | BPR&D General SOP blocks         | GSOP_001, GSOP_004           |
+| `sop`          | MHA Rape SOP blocks              | SOP_001, SOP_MEDICAL         |
+| `bnss`         | BNSS sections                    | Section 183, 183, BNSS s.183 |
+| `bns`          | BNS sections                     | Section 103, 64              |
+| `bsa`          | BSA sections                     | Section 45                   |
+| `evidence`     | Crime Scene Manual blocks        | EVID_001                     |
+| `compensation` | NALSA Compensation Scheme blocks | COMP_001                     |
+
+**Use Case:** When user clicks a citation chip in the chat, fetch the source via this endpoint and display in a modal/drawer.
 
 ### Tier Routing
 

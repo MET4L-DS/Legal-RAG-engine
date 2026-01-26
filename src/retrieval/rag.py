@@ -236,7 +236,17 @@ OUTPUT FORMAT:
                 "general_sop_blocks": [self._format_result(r) for r in retrieval_result.general_sop_blocks]
             },
             "context": retrieval_result.context_text,
-            "citations": retrieval_result.citations,
+            "citations": retrieval_result.citations,  # Legacy string citations
+            "structured_citations": [
+                {
+                    "source_type": sc.source_type,
+                    "source_id": sc.source_id,
+                    "display": sc.display,
+                    "context_snippet": sc.context_snippet,
+                    "relevance_score": sc.relevance_score,
+                }
+                for sc in retrieval_result.structured_citations
+            ],  # New structured citations
             "answer": None
         }
         

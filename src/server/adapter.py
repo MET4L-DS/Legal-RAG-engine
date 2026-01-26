@@ -10,6 +10,7 @@ Timeline Anchors System:
 - Hard failure for missing anchors in Tier-1 crimes
 """
 
+import logging
 import re
 from typing import Optional
 
@@ -21,7 +22,11 @@ from .schemas import (
     ConfidenceLevel,
     TimelineItem,
     SystemNotice,
+    StructuredCitation,
+    SourceType,
 )
+
+logger = logging.getLogger(__name__)
 
 
 # ============================================================================
@@ -642,8 +647,8 @@ def adapt_response(
     detected_stages = rag_result.get("detected_stages", [])
     primary_stage = detected_stages[0] if detected_stages else None
     
-    # 4. Get citations
-    citations = rag_result.get("citations", [])
+    # 4. Get structured citations (new format) or fallback to legacy
+    structured_citations = _convert_to_structured_citations(rag_result)
     
     # 5. Extract timeline with anchor system (2-pass)
     timeline, system_notice = extract_timeline_with_anchors(rag_result, case_type, tier)
@@ -659,7 +664,7 @@ def adapt_response(
         tier=tier,
         case_type=case_type,
         detected_stages=detected_stages,
-        has_citations=len(citations) > 0,
+        has_citations=len(structured_citations) > 0,
         has_answer=answer is not None,
         anchors_resolved=(system_notice is None),  # No notice means anchors OK
         has_system_notice=(system_notice is not None),
@@ -672,11 +677,11 @@ def adapt_response(
         tier=tier,
         case_type=case_type,
         stage=primary_stage,
-        citations=citations,
+        citations=structured_citations,
         timeline=timeline,
         clarification_needed=clarification,
         confidence=confidence,
-        api_version="1.0",
+        api_version="2.0",
         system_notice=system_notice,
     )
 
@@ -693,3 +698,152 @@ def _determine_tier(result: dict) -> TierType:
         return TierType.TIER3
     else:
         return TierType.STANDARD
+
+
+def _convert_to_structured_citations(rag_result: dict) -> list[StructuredCitation]:
+    """
+    Convert RAG result citations to structured format.
+    
+    Tries to use pre-built structured_citations from retrieval layer.
+    Falls back to parsing legacy string citations if needed.
+    """
+    # First, try to use pre-built structured citations from retrieval
+    structured_data = rag_result.get("structured_citations", [])
+    
+    if structured_data:
+        logger.debug(f"[CITATION] Using {len(structured_data)} pre-built structured citations")
+        citations = []
+        for item in structured_data:
+            try:
+                # Convert StructuredCitationData (dataclass) to StructuredCitation (Pydantic)
+                source_type_str = item.get("source_type") if isinstance(item, dict) else item.source_type
+                source_id = item.get("source_id") if isinstance(item, dict) else item.source_id
+                display = item.get("display") if isinstance(item, dict) else item.display
+                context_snippet = item.get("context_snippet") if isinstance(item, dict) else getattr(item, "context_snippet", None)
+                relevance_score = item.get("relevance_score") if isinstance(item, dict) else getattr(item, "relevance_score", None)
+                
+                # Skip if source_id is empty (can't fetch without ID)
+                if not source_id:
+                    display_preview = (display[:50] + "...") if display else "(no display)"
+                    logger.warning(f"[CITATION] Skipping citation with empty source_id: {display_preview}")
+                    continue
+                
+                # Skip if display is missing
+                if not display:
+                    logger.warning(f"[CITATION] Skipping citation with empty display: {source_type_str}/{source_id}")
+                    continue
+                
+                citations.append(StructuredCitation(
+                    source_type=SourceType(source_type_str),
+                    source_id=source_id,
+                    display=display,
+                    context_snippet=context_snippet,
+                    relevance_score=relevance_score,
+                ))
+                display_preview = (display[:50] + "...") if len(display) > 50 else display
+                logger.debug(f"[CITATION] ✓ {source_type_str}/{source_id}: {display_preview}")
+            except (ValueError, KeyError, AttributeError) as e:
+                # Skip malformed citations
+                logger.warning(f"[CITATION] Skipping malformed citation: {e}")
+                continue
+        
+        logger.info(f"[CITATION] Converted {len(citations)} structured citations")
+        return citations
+    
+    # Fallback: parse legacy string citations
+    legacy_citations = rag_result.get("citations", [])
+    logger.debug(f"[CITATION] Falling back to parsing {len(legacy_citations)} legacy citations")
+    return _parse_legacy_citations(legacy_citations)
+
+
+def _parse_legacy_citations(citations: list[str]) -> list[StructuredCitation]:
+    """
+    Parse legacy string citations into structured format.
+    
+    This is a fallback for backward compatibility.
+    Best-effort parsing - may not work for all citation formats.
+    """
+    result = []
+    
+    for cit in citations:
+        structured = _parse_single_citation(cit)
+        if structured:
+            result.append(structured)
+    
+    return result
+
+
+def _parse_single_citation(citation: str) -> StructuredCitation | None:
+    """Parse a single citation string into structured format."""
+    import re
+    
+    text_upper = citation.upper()
+    source_type: SourceType | None = None
+    source_id = ""
+    display = citation
+    
+    # Try to determine source type and extract ID
+    if "BNSS" in text_upper:
+        source_type = SourceType.BNSS
+        # Extract section number: "Section 183", "BNSS_2023 - Chapter XIII - Section 183"
+        section_match = re.search(r'Section\s+(\d+[A-Za-z]*)', citation, re.IGNORECASE)
+        if section_match:
+            source_id = section_match.group(1)
+            display = f"BNSS Section {source_id}"
+    
+    elif "BNS" in text_upper and "BNSS" not in text_upper:
+        source_type = SourceType.BNS
+        section_match = re.search(r'Section\s+(\d+[A-Za-z]*)', citation, re.IGNORECASE)
+        if section_match:
+            source_id = section_match.group(1)
+            display = f"BNS Section {source_id}"
+    
+    elif "BSA" in text_upper:
+        source_type = SourceType.BSA
+        section_match = re.search(r'Section\s+(\d+[A-Za-z]*)', citation, re.IGNORECASE)
+        if section_match:
+            source_id = section_match.group(1)
+            display = f"BSA Section {source_id}"
+    
+    elif "GSOP" in text_upper or "GENERAL SOP" in text_upper:
+        source_type = SourceType.GENERAL_SOP
+        # Try to extract GSOP_XXX pattern
+        gsop_match = re.search(r'(GSOP_\d+)', citation, re.IGNORECASE)
+        if gsop_match:
+            source_id = gsop_match.group(1).upper()
+        else:
+            # Can't reliably extract ID from title-only citation
+            # Use the title as a fallback display but mark source_id as unknown
+            source_id = ""
+        display = citation[:100] + "..." if len(citation) > 100 else citation
+    
+    elif "SOP" in text_upper:
+        source_type = SourceType.SOP
+        sop_match = re.search(r'(SOP_[A-Z]+_\d+)', citation, re.IGNORECASE)
+        if sop_match:
+            source_id = sop_match.group(1).upper()
+        display = citation[:100] + "..." if len(citation) > 100 else citation
+    
+    elif "EVIDENCE" in text_upper or "DFS" in text_upper or "CRIME SCENE" in text_upper:
+        source_type = SourceType.EVIDENCE
+        evid_match = re.search(r'(EVID_\d+)', citation, re.IGNORECASE)
+        if evid_match:
+            source_id = evid_match.group(1).upper()
+        display = citation[:100] + "..." if len(citation) > 100 else citation
+    
+    elif "COMPENSATION" in text_upper or "NALSA" in text_upper:
+        source_type = SourceType.COMPENSATION
+        comp_match = re.search(r'(COMP_\d+)', citation, re.IGNORECASE)
+        if comp_match:
+            source_id = comp_match.group(1).upper()
+        display = citation[:100] + "..." if len(citation) > 100 else citation
+    
+    if source_type and source_id:
+        return StructuredCitation(
+            source_type=source_type,
+            source_id=source_id,
+            display=display,
+        )
+    
+    # Can't parse - return None (will be filtered out)
+    return None
