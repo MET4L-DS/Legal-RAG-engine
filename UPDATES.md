@@ -1,180 +1,141 @@
-### **References & Citations — how should we show them, and how do we query source sections?**
+## 2️⃣ Sentence-level → source mapping (the right way)
 
-You’re absolutely right about this:
+> “I want the source used to correctly map with the text or sentence of the answer with internal links.
+> Will that require significant backend changes?”
 
-> “We’ll have to set up a system to allow querying the source sections from the backend.”
+### Short answer
 
-This is the **correct next problem** to solve.
+❌ **No major backend rewrite required**
+✅ **One additional data structure + light LLM constraint**
 
----
-
-## 4️⃣ First principle (very important)
-
-### ❌ Do NOT dump full legal text into the chat by default
-
-### ❌ Do NOT make the frontend re-search documents
-
-### ❌ Do NOT let the LLM paraphrase source law again
-
-### ✅ Treat citations as **primary sources**, not decorations
-
-The chat answer is an **explanation layer**.
-Citations are **authoritative evidence**.
-
-They deserve a **separate interaction model**.
+You already have **80% of what’s needed**.
 
 ---
 
-## 5️⃣ The correct UX model for citations (recommended)
+## 🔑 Core idea: make the answer _cite-aware at sentence level_
 
-### 🧠 Think in **three layers**
-
-#### Layer 1 — Inline citation chips (you already have this)
-
-Example:
+Right now your pipeline looks like this:
 
 ```
-GENERAL_SOP_BPRD – Section GSOP_004
-BNSS Section 183
+Retrieved sources → LLM → Answer text
+                     ↓
+                  Citations (list)
 ```
 
-These are identifiers, not content.
+What we want is:
+
+```
+Retrieved sources → LLM → Answer with sentence IDs
+                     ↓
+            Sentence ↔ citation mapping
+```
+
+### The missing piece
+
+You need a **Sentence Attribution Map**.
 
 ---
 
-#### Layer 2 — “View Source” expansion (MOST IMPORTANT)
+## 🧠 Backend change (minimal, additive)
 
-On click:
+### Step A — Assign sentence IDs after generation
 
-- Show the **exact source excerpt**
-- Verbatim text
-- Highlighted relevant paragraph
-- Clear source header
+After the LLM produces the final answer:
 
-Example UI:
-
-```
-📋 General SOP (BPR&D)
-Section GSOP_004 – Receipt of Complaint
-
-[Exact extracted text here]
+```text
+File FIR at nearest police station.
+The police must register the FIR immediately.
+If police refuse, approach the SP.
 ```
 
-No LLM involved here.
+You **post-process** it into:
+
+```json
+[
+	{ "sid": "S1", "text": "File FIR at nearest police station." },
+	{ "sid": "S2", "text": "The police must register the FIR immediately." },
+	{ "sid": "S3", "text": "If police refuse, approach the SP." }
+]
+```
+
+This is deterministic. No LLM needed.
 
 ---
 
-#### Layer 3 — Optional side panel (future polish)
+### Step B — Ask the LLM for citation alignment (NOT regeneration)
 
-For advanced users:
+You already pass retrieved context to the LLM.
+Now add **one extra instruction**:
 
-- Persistent “Sources” panel
-- Allows comparing multiple sections
-- Useful for lawyers / students
+> “For each sentence ID, list which sources support it.
+> Use only the provided citations.
+> Do not invent sources.”
 
-This is optional for v1.
-
----
-
-## 6️⃣ Backend: what you need to add (small but crucial)
-
-You **do not need a new RAG pipeline**.
-You already have the data.
-
-You need **one simple, explicit endpoint**.
-
----
-
-### ✅ Add a Source-Fetch Endpoint
-
-Example:
-
-```
-GET /rag/source
-```
-
-Request:
+Expected output (machine-readable):
 
 ```json
 {
-	"source_type": "general_sop | sop | bnss | bns | bsa",
-	"source_id": "GSOP_004"
+	"S1": ["GENERAL_SOP_BPRD:GSOP_004"],
+	"S2": ["BNSS:Section 154"],
+	"S3": ["GENERAL_SOP_BPRD:GSOP_057"]
 }
 ```
 
-Response:
+⚠️ This is **not free-form generation** — it’s a constrained mapping task.
+
+This keeps hallucination risk extremely low.
+
+---
+
+### Step C — Extend API response (non-breaking)
+
+Add **one optional field**:
 
 ```json
-{
-	"source_type": "general_sop",
-	"title": "SOP on Receipt of Complaint – FIR Issuance & Jurisdiction",
-	"section_id": "GSOP_004",
-	"content": "Exact extracted text from SOP...",
-	"legal_references": ["BNSS Section 154"],
-	"last_updated": "2023"
+"sentence_citations": {
+  "S1": ["general_sop:GSOP_004"],
+  "S2": ["bnss:154"],
+  "S3": ["general_sop:GSOP_057"]
 }
 ```
 
-### Key rules
+Everything else stays the same.
 
-- Content must be **verbatim**
-- No LLM summarization
-- Same parser output you already store
-- Read-only endpoint
-
-This makes your system **inspectable and defensible**.
+Your existing `/rag/source` endpoint already supports fetching + highlighting.
 
 ---
 
-## 7️⃣ Frontend: how to wire this cleanly
+## 🧩 Frontend implementation (you’re already 70% there)
 
-### Minimal v1 approach (recommended)
+### How it works in UI
 
-1. Citations render as clickable chips
-2. On click:
-    - Fetch `/rag/source`
-    - Open a modal / drawer
-    - Display source text with scroll
+1. Render answer sentences as `<span data-sid="S2">`
+2. On hover or click:
+    - show a small citation icon
 
-3. Allow “Copy source” / “Open full section”
+3. On click:
+    - open Source Side Panel
+    - call `/rag/source` using the mapped source IDs
 
-That’s it.
+4. Auto-scroll + highlight (already implemented)
 
-No re-querying, no state explosion.
+### UX pattern (recommended)
 
----
+- 🔗 **Inline citation dot** (like Wikipedia / Perplexity)
+- 🖱️ Clicking sentence opens source
+- 📌 Side panel stays persistent
+- 🔁 Cached per session (you already do this)
 
-## 8️⃣ Why this matters (and why you’re right to ask now)
-
-At this stage, users will ask:
-
-> “Where is this coming from?”
-
-You can now answer:
-
-> “Here is the exact government SOP / section.”
-
-That’s the difference between:
-
-- ❌ “AI legal advice”
-- ✅ “AI-assisted legal guidance backed by primary sources”
-
-Very few systems get this right.
+Your current accordion + cache system is **perfectly compatible** with this.
 
 ---
 
-## 9️⃣ So… what is **next**, concretely?
+## 🔍 Highlight precision (important detail)
 
-Assuming everything else is stable (it is), your roadmap should be:
+Instead of highlighting the entire SOP block:
 
-### 🔴 Immediate (v1.1)
+- Pass **the exact sentence text** as `highlight_snippet`
+- Backend already returns `start/end` offsets
+- Result: **precise yellow highlight** for _that sentence only_
 
-- Add `/rag/source` endpoint
-- Add citation click → source modal
-- Freeze backend again
-
-### 🟡 Short-term polish
-
-- Highlight referenced paragraph
-- Copy-to-clipboard
-- Source panel UX refinement
+This directly solves the “highlight is not that useful” problem.

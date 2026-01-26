@@ -104,5 +104,88 @@ class TestSourceFetcherEdgeCases:
         assert result is not None or result is None  # May or may not find depending on normalization
 
 
+class TestHighlightComputation:
+    """Test highlight offset computation."""
+    
+    def test_highlight_exact_match(self):
+        """Should compute highlight for exact snippet match."""
+        result = fetch_source_content(SourceType.GENERAL_SOP, "GSOP_004")
+        assert result is not None
+        
+        # Get a snippet from the content
+        snippet = result.content[50:150]
+        
+        # Fetch again with highlight_snippet
+        result_with_highlight = fetch_source_content(
+            SourceType.GENERAL_SOP, 
+            "GSOP_004",
+            highlight_snippet=snippet
+        )
+        
+        assert result_with_highlight is not None
+        assert len(result_with_highlight.highlights) > 0
+        
+        highlight = result_with_highlight.highlights[0]
+        assert highlight.start == 50
+        assert highlight.end == 150
+        assert highlight.reason == "Referenced in response"
+    
+    def test_highlight_with_truncated_snippet(self):
+        """Should handle truncated snippets (ending with ...)."""
+        result = fetch_source_content(SourceType.GENERAL_SOP, "GSOP_004")
+        assert result is not None
+        
+        # Get a snippet and truncate it like context_snippet does
+        snippet = result.content[100:200] + "..."
+        
+        result_with_highlight = fetch_source_content(
+            SourceType.GENERAL_SOP, 
+            "GSOP_004",
+            highlight_snippet=snippet
+        )
+        
+        assert result_with_highlight is not None
+        assert len(result_with_highlight.highlights) > 0
+        
+        highlight = result_with_highlight.highlights[0]
+        assert highlight.start == 100  # Should find at position 100
+    
+    def test_no_highlight_when_no_snippet(self):
+        """Should return empty highlights when no snippet provided."""
+        result = fetch_source_content(SourceType.GENERAL_SOP, "GSOP_004")
+        
+        assert result is not None
+        assert len(result.highlights) == 0
+    
+    def test_no_highlight_for_nonmatching_snippet(self):
+        """Should return empty highlights for non-matching snippet."""
+        result = fetch_source_content(
+            SourceType.GENERAL_SOP, 
+            "GSOP_004",
+            highlight_snippet="this text definitely does not exist in the document xyz123"
+        )
+        
+        assert result is not None
+        assert len(result.highlights) == 0
+    
+    def test_highlight_for_bnss_section(self):
+        """Should compute highlights for legal sections too."""
+        result = fetch_source_content(SourceType.BNSS, "183")
+        assert result is not None
+        
+        # Get first 100 chars as snippet
+        snippet = result.content[:100]
+        
+        result_with_highlight = fetch_source_content(
+            SourceType.BNSS, 
+            "183",
+            highlight_snippet=snippet
+        )
+        
+        assert result_with_highlight is not None
+        assert len(result_with_highlight.highlights) > 0
+        assert result_with_highlight.highlights[0].start == 0
+
+
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])

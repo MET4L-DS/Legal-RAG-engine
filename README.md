@@ -19,10 +19,12 @@ A hierarchical Retrieval-Augmented Generation (RAG) system for Indian legal docu
 - ✅ **Compensation Block Retrieval**: Victim compensation and rehabilitation information
 - ✅ **Citation Support**: Generates proper legal citations with source labels (📘 SOP, 🧪 Evidence Manual, 💰 NALSA Scheme, 📋 General SOP, ⚖️ BNSS, 📕 BNS)
 - ✅ **LLM Integration**: Google Gemini with multi-model fallback and tier-specific prompts
-- ✅ **FastAPI Server**: REST API with frontend-safe response adapter (v1 stable contract)
+- ✅ **FastAPI Server**: REST API with frontend-safe response adapter (v2 stable contract)
 - ✅ **Timeline Extraction**: Structured procedural timelines with deadlines from SOP/BNSS metadata
 - ✅ **Confidence Scoring**: Deterministic confidence levels (high/medium/low) for frontend decisions
 - ✅ **Clarification Signals**: Detects ambiguous queries and requests user clarification
+- ✅ **Source Viewer with Highlighting**: Fetch verbatim source text with auto-highlight offsets for citations
+- ✅ **Sentence-Level Citation Mapping**: Maps each answer sentence to its supporting sources for inline citation dots (Wikipedia-style)
 - ✅ **Meta Endpoint**: Exposes supported tiers, case types, stages for frontend validation
 
 ## Supported Documents
@@ -397,14 +399,15 @@ Returns supported enums for frontend dropdowns/validation:
 
 **POST `/rag/source`**
 
-Fetch verbatim source content for citations. **No LLM involved** - returns exact parsed text.
+Fetch verbatim source content for citations with optional highlighting. **No LLM involved** - returns exact parsed text.
 
 Request:
 
 ```json
 {
 	"source_type": "general_sop | sop | bnss | bns | bsa | evidence | compensation",
-	"source_id": "GSOP_004 | Section 183 | EVID_001"
+	"source_id": "GSOP_004 | Section 183 | EVID_001",
+	"highlight_snippet": "optional: pass context_snippet for auto-highlighting"
 }
 ```
 
@@ -423,8 +426,38 @@ Response:
 		"stakeholders": ["citizen", "victim"],
 		"action_type": "right",
 		"time_limit": "immediately"
-	}
+	},
+	"highlights": [
+		{
+			"start": 0,
+			"end": 245,
+			"reason": "Referenced in response"
+		}
+	]
 }
+```
+
+**Highlighting:**
+
+Pass `highlight_snippet` (typically from `citation.context_snippet`) to receive character offset ranges in the `highlights` array. This enables:
+
+- Auto-scrolling to the referenced paragraph
+- Visual highlighting of the exact text used in the response
+
+```typescript
+// Frontend example
+const fetchSource = async (citation: StructuredCitation) => {
+	const res = await fetch("/rag/source", {
+		method: "POST",
+		body: JSON.stringify({
+			source_type: citation.source_type,
+			source_id: citation.source_id,
+			highlight_snippet: citation.context_snippet, // ← enables highlighting
+		}),
+	});
+	const { content, highlights } = await res.json();
+	// Use highlights[0].start/end to render <mark> and scroll
+};
 ```
 
 **Source Types:**

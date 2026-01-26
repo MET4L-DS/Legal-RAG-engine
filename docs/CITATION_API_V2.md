@@ -163,16 +163,19 @@ Returns the main response with structured citations.
 
 ### POST /rag/source
 
-Fetch verbatim source content. **No changes to this endpoint.**
+Fetch verbatim source content with optional highlighting.
 
 **Request:**
 
 ```json
 {
 	"source_type": "general_sop",
-	"source_id": "GSOP_004"
+	"source_id": "GSOP_004",
+	"highlight_snippet": "• Every person has the right to register FIR..."
 }
 ```
+
+The `highlight_snippet` field is **optional**. Pass the citation's `context_snippet` to get highlight offsets for auto-scrolling.
 
 **Response:**
 
@@ -188,8 +191,47 @@ Fetch verbatim source content. **No changes to this endpoint.**
 		"procedural_stage": "fir",
 		"stakeholders": ["citizen", "police", "sho"],
 		"time_limit": "immediately"
-	}
+	},
+	"highlights": [
+		{
+			"start": 0,
+			"end": 245,
+			"reason": "Referenced in response"
+		}
+	]
 }
+```
+
+**Highlight Usage:**
+
+```typescript
+// Frontend: Pass context_snippet to get highlight offsets
+const fetchSourceWithHighlight = async (citation: StructuredCitation) => {
+	const response = await fetch("/rag/source", {
+		method: "POST",
+		headers: { "Content-Type": "application/json" },
+		body: JSON.stringify({
+			source_type: citation.source_type,
+			source_id: citation.source_id,
+			highlight_snippet: citation.context_snippet, // Optional: enables highlighting
+		}),
+	});
+	return response.json();
+};
+
+// Render with highlights
+const renderWithHighlights = (content: string, highlights: HighlightRange[]) => {
+	if (!highlights.length) return content;
+
+	const { start, end } = highlights[0];
+	return (
+		<>
+			{content.slice(0, start)}
+			<mark className="bg-yellow-200">{content.slice(start, end)}</mark>
+			{content.slice(end)}
+		</>
+	);
+};
 ```
 
 ---
@@ -205,6 +247,143 @@ Fetch verbatim source content. **No changes to this endpoint.**
 | `bsa`          | Section number | `147`, `24`, `132`                 |
 | `evidence`     | `EVID_XXX`     | `EVID_001`, `EVID_015`             |
 | `compensation` | `COMP_XXX`     | `COMP_001`, `COMP_005`             |
+
+---
+
+## Sentence-Level Citation Mapping (NEW)
+
+The API now supports **inline citation dots** by mapping each answer sentence to its supporting sources. This enables Wikipedia-style sentence-level references.
+
+### Response Format
+
+The `sentence_citations` field is included in the `/rag/query` response:
+
+```json
+{
+  "answer": "File FIR immediately. Police must act within 24 hours. You can approach any station.",
+  "citations": [...],
+  "sentence_citations": {
+    "sentences": [
+      {"sid": "S1", "text": "File FIR immediately."},
+      {"sid": "S2", "text": "Police must act within 24 hours."},
+      {"sid": "S3", "text": "You can approach any station."}
+    ],
+    "mapping": {
+      "S1": ["general_sop:GSOP_004", "bnss:173"],
+      "S2": ["general_sop:GSOP_004"],
+      "S3": ["bnss:154"]
+    }
+  }
+}
+```
+
+### TypeScript Types
+
+```typescript
+interface AnswerSentence {
+	sid: string; // "S1", "S2", etc.
+	text: string; // The sentence text
+}
+
+interface SentenceCitations {
+	sentences: AnswerSentence[];
+	mapping: Record<string, string[]>; // sid → ["source_type:source_id", ...]
+}
+
+interface FrontendResponse {
+	// ... existing fields
+	sentence_citations?: SentenceCitations; // Optional, may be null
+}
+```
+
+### Frontend Usage
+
+```tsx
+// Render answer with inline citation dots
+const renderAnswerWithCitations = (response: FrontendResponse) => {
+	if (!response.sentence_citations) {
+		return <p>{response.answer}</p>;
+	}
+
+	const { sentences, mapping } = response.sentence_citations;
+
+	return (
+		<div>
+			{sentences.map((sent) => (
+				<span key={sent.sid} data-sid={sent.sid}>
+					{sent.text}
+					{mapping[sent.sid]?.length > 0 && (
+						<sup className="citation-dots">
+							{mapping[sent.sid].map((key, i) => (
+								<CitationDot
+									key={key}
+									citationKey={key}
+									onClick={() => scrollToCitation(key)}
+								/>
+							))}
+						</sup>
+					)}{" "}
+				</span>
+			))}
+		</div>
+	);
+};
+
+// Parse citation key to fetch source
+const parseCitationKey = (key: string): { type: string; id: string } => {
+	const [type, id] = key.split(":");
+	return { type, id };
+};
+
+const scrollToCitation = (key: string) => {
+	const { type, id } = parseCitationKey(key);
+	// Highlight the matching citation chip or scroll to source viewer
+};
+```
+
+### CSS for Citation Dots
+
+```css
+.citation-dots {
+	vertical-align: super;
+	font-size: 0.7em;
+	margin-left: 2px;
+}
+
+.citation-dots .citation-dot {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: #3b82f6;
+	margin-right: 2px;
+	cursor: pointer;
+}
+
+.citation-dots .citation-dot:hover {
+	background-color: #1d4ed8;
+}
+```
+
+### How It Works
+
+1. **Sentence Splitting (Deterministic)**: After LLM generates the answer, it's split into sentences with IDs (S1, S2, S3...). This handles abbreviations, bullet points, and markdown formatting.
+
+2. **Citation Alignment (LLM or Heuristic)**:
+    - If LLM is available: A fast model (gemini-2.5-flash-lite) maps sentences to citations using a constrained prompt that only allows mapping to available citations.
+    - Fallback: Keyword-based heuristic matching if LLM unavailable.
+
+3. **Response Integration**: The `sentence_citations` field is added to the response without breaking existing fields.
+
+### Notes
+
+- The field is **optional** and may be `null` if:
+    - No answer was generated
+    - No citations were available
+    - Attribution computation failed
+- Mapping values use format `"source_type:source_id"` (e.g., `"bnss:183"`)
+- A sentence may map to zero, one, or multiple sources
+- General statements (like "Here are the steps") may have empty citation lists
 
 ---
 
@@ -243,13 +422,21 @@ if (parsed) {
 ### After (v2.0)
 
 ```typescript
-// ✅ Direct access - no parsing
+// ✅ Direct access - no parsing, with highlighting
 const fetchSourceForCitation = (citation: StructuredCitation) => {
-	return fetchSource(citation.source_type, citation.source_id);
+	return fetch("/rag/source", {
+		method: "POST",
+		headers: { "Content-Type": "application/json" },
+		body: JSON.stringify({
+			source_type: citation.source_type,
+			source_id: citation.source_id,
+			highlight_snippet: citation.context_snippet, // Auto-highlight!
+		}),
+	}).then((r) => r.json());
 };
 
 // Usage
-fetchSourceForCitation(citation); // Just works!
+fetchSourceForCitation(citation); // Just works with highlighting!
 ```
 
 ---
@@ -276,9 +463,16 @@ export interface StructuredCitation {
 	relevance_score?: number;
 }
 
+export interface HighlightRange {
+	start: number; // 0-indexed character offset
+	end: number; // Exclusive end offset
+	reason: string; // Why this is highlighted
+}
+
 export interface SourceRequest {
 	source_type: SourceType;
 	source_id: string;
+	highlight_snippet?: string; // Optional: pass context_snippet for auto-highlighting
 }
 
 export interface SourceResponse {
@@ -288,6 +482,7 @@ export interface SourceResponse {
 	section_id: string;
 	content: string;
 	legal_references: string[];
+	highlights: HighlightRange[]; // NEW: highlight offsets for auto-scroll
 	metadata: {
 		procedural_stage?: string;
 		stakeholders?: string[];
@@ -314,6 +509,17 @@ export interface FrontendResponse {
 	system_notice: SystemNotice | null;
 	confidence: "high" | "medium" | "low";
 	api_version: string; // "2.0"
+	sentence_citations?: SentenceCitations; // NEW: Sentence-level mapping
+}
+
+export interface AnswerSentence {
+	sid: string; // "S1", "S2", etc.
+	text: string;
+}
+
+export interface SentenceCitations {
+	sentences: AnswerSentence[];
+	mapping: Record<string, string[]>; // sid → ["source_type:source_id", ...]
 }
 ```
 
@@ -349,23 +555,32 @@ Enable debug logging to trace citation flow:
 [CITATION] ✓ bnss/183: BNSS Section 183...
 [CITATION] Converted 5 structured citations
 
-[SOURCE] Fetch request: type=general_sop, id='GSOP_004'
+[SOURCE] Fetch request: type=general_sop, id='GSOP_004', highlight=yes
 [SOURCE] Cache hit for document: GENERAL_SOP_BPRD.json
 [SOURCE] Found SOP block: GSOP_004 → 'SOP ON FIR REGISTRATION...'
 [SOURCE] ✓ Fetch success: general_sop/GSOP_004 → 1523 chars
+[HIGHLIGHT] Exact match at offset 0
+[SOURCE] Computed 1 highlight(s) for snippet
 ```
 
 ---
 
 ## Summary
 
-| Feature          | v1.0              | v2.0                        |
-| ---------------- | ----------------- | --------------------------- |
-| Citation format  | `string`          | `StructuredCitation` object |
-| Parsing required | Yes (regex)       | No                          |
-| Source ID access | Parse from string | `citation.source_id`        |
-| Context preview  | Not available     | `context_snippet` field     |
-| Relevance info   | Not available     | `relevance_score` field     |
-| API version      | `"1.0"`           | `"2.0"`                     |
+| Feature              | v1.0              | v2.0                        |
+| -------------------- | ----------------- | --------------------------- |
+| Citation format      | `string`          | `StructuredCitation` object |
+| Parsing required     | Yes (regex)       | No                          |
+| Source ID access     | Parse from string | `citation.source_id`        |
+| Context preview      | Not available     | `context_snippet` field     |
+| Relevance info       | Not available     | `relevance_score` field     |
+| **Highlighting**     | Not available     | `highlights[]` with offsets |
+| **Sentence mapping** | Not available     | `sentence_citations` field  |
+| API version          | `"1.0"`           | `"2.0"`                     |
 
 **Breaking Change:** The `citations` field is now an array of objects, not strings.
+
+**New Features:**
+
+- Pass `highlight_snippet` to `/rag/source` to get character offsets for auto-scrolling and highlighting.
+- `sentence_citations` maps each answer sentence to its supporting sources for inline citation dots.

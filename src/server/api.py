@@ -8,7 +8,7 @@ from typing import Annotated
 from fastapi import APIRouter, Depends, HTTPException
 
 from .config import get_settings, Settings
-from .dependencies import get_rag, get_store_stats, is_llm_available
+from .dependencies import get_rag, get_store_stats, is_llm_available, get_llm_client
 from .adapter import adapt_response
 from .schemas import (
     RAGQueryRequest,
@@ -96,8 +96,11 @@ async def query_rag(
             generate_answer=not request.no_llm
         )
         
-        # Adapt to frontend-safe response
-        response = adapt_response(result, request.query)
+        # Get LLM client for sentence attribution
+        llm_client = get_llm_client()
+        
+        # Adapt to frontend-safe response (includes sentence attribution)
+        response = adapt_response(result, request.query, llm_client=llm_client)
         
         logger.info(
             f"Query completed - Tier: {response.tier.value}, "
@@ -338,6 +341,9 @@ async def fetch_source(
     Fetch verbatim source content for a citation.
     
     No LLM involved - returns exact parsed content.
+    
+    Optionally pass `highlight_snippet` (from the citation's context_snippet)
+    to get highlight offsets for auto-scrolling and text highlighting.
     """
     from .source_fetcher import fetch_source_content
     
@@ -345,6 +351,7 @@ async def fetch_source(
         result = fetch_source_content(
             source_type=request.source_type,
             source_id=request.source_id,
+            highlight_snippet=request.highlight_snippet,
         )
         
         if result is None:

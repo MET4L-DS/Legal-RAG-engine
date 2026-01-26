@@ -10,6 +10,11 @@ Supports:
 - BNSS/BNS/BSA sections
 - Evidence Manual blocks
 - Compensation Scheme blocks
+
+Highlight Support:
+- Accepts optional highlight_snippet parameter
+- Computes character offsets for frontend highlighting
+- Enables auto-scroll to referenced text
 """
 
 import json
@@ -18,7 +23,7 @@ import re
 from pathlib import Path
 from typing import Optional
 
-from .schemas import SourceResponse, SourceType
+from .schemas import SourceResponse, SourceType, HighlightRange
 from .config import get_settings
 
 
@@ -79,6 +84,104 @@ def _normalize_section_id(source_id: str) -> str:
         logger.debug(f"[SOURCE] Normalized section ID: '{source_id}' → '{normalized}'")
     
     return normalized
+
+
+def _compute_highlights(content: str, snippet: str) -> list[HighlightRange]:
+    """
+    Compute highlight ranges by finding snippet in content.
+    
+    Uses fuzzy matching strategies:
+    1. Exact match (fastest)
+    2. Normalized whitespace match
+    3. Prefix match (for truncated snippets ending with "...")
+    4. Sentence-level match (for partial matches)
+    
+    Returns list of HighlightRange objects.
+    """
+    if not snippet or not content:
+        return []
+    
+    highlights = []
+    
+    # Remove trailing "..." from truncated snippets
+    clean_snippet = snippet.rstrip(".")
+    if clean_snippet.endswith(".."):
+        clean_snippet = clean_snippet[:-2].rstrip()
+    
+    # Strategy 1: Exact match
+    idx = content.find(clean_snippet)
+    if idx >= 0:
+        logger.debug(f"[HIGHLIGHT] Exact match at offset {idx}")
+        highlights.append(HighlightRange(
+            start=idx,
+            end=idx + len(clean_snippet),
+            reason="Referenced in response"
+        ))
+        return highlights
+    
+    # Strategy 2: Normalized whitespace match
+    # Collapse multiple whitespace to single space
+    normalized_content = re.sub(r'\s+', ' ', content)
+    normalized_snippet = re.sub(r'\s+', ' ', clean_snippet)
+    
+    idx = normalized_content.find(normalized_snippet)
+    if idx >= 0:
+        # Map back to original content position (approximate)
+        # Find the actual start by searching for first N chars
+        first_words = normalized_snippet[:50]
+        original_pattern = re.sub(r' ', r'\\s+', re.escape(first_words))
+        match = re.search(original_pattern, content)
+        if match:
+            logger.debug(f"[HIGHLIGHT] Whitespace-normalized match at offset {match.start()}")
+            # Estimate end position based on snippet length
+            estimated_end = min(match.start() + len(clean_snippet) + 50, len(content))
+            highlights.append(HighlightRange(
+                start=match.start(),
+                end=estimated_end,
+                reason="Referenced in response"
+            ))
+            return highlights
+    
+    # Strategy 3: Prefix match for truncated snippets
+    # Try matching just the first sentence or first N characters
+    if len(clean_snippet) > 100:
+        prefix = clean_snippet[:100]
+        idx = content.find(prefix)
+        if idx >= 0:
+            logger.debug(f"[HIGHLIGHT] Prefix match at offset {idx}")
+            # Extend to a reasonable length (original snippet length or sentence end)
+            end_idx = idx + len(clean_snippet)
+            # Find sentence boundary
+            sentence_end = content.find('. ', end_idx)
+            if sentence_end > 0 and sentence_end - idx < len(clean_snippet) * 1.5:
+                end_idx = sentence_end + 1
+            highlights.append(HighlightRange(
+                start=idx,
+                end=min(end_idx, len(content)),
+                reason="Referenced in response"
+            ))
+            return highlights
+    
+    # Strategy 4: First sentence match
+    # Extract first sentence from snippet and find it
+    first_sentence_match = re.match(r'^([^.!?]+[.!?])', clean_snippet)
+    if first_sentence_match:
+        first_sentence = first_sentence_match.group(1).strip()
+        if len(first_sentence) > 20:  # Only if substantial
+            idx = content.find(first_sentence)
+            if idx >= 0:
+                logger.debug(f"[HIGHLIGHT] First sentence match at offset {idx}")
+                highlights.append(HighlightRange(
+                    start=idx,
+                    end=idx + len(first_sentence),
+                    reason="Referenced in response"
+                ))
+                return highlights
+    
+    logger.debug(f"[HIGHLIGHT] No match found for snippet: {clean_snippet[:50]}...")
+    return highlights
+
+
 
 
 def _fetch_sop_block(doc: dict, block_id: str) -> Optional[SourceResponse]:
@@ -216,18 +319,20 @@ DOCUMENT_FILES = {
 def fetch_source_content(
     source_type: SourceType,
     source_id: str,
+    highlight_snippet: Optional[str] = None,
 ) -> Optional[SourceResponse]:
     """
-    Fetch verbatim source content.
+    Fetch verbatim source content with optional highlighting.
     
     Args:
         source_type: Type of source (general_sop, sop, bnss, bns, bsa, evidence, compensation)
         source_id: Source identifier (block_id or section number)
+        highlight_snippet: Optional snippet to highlight (from citation's context_snippet)
         
     Returns:
-        SourceResponse with verbatim content, or None if not found
+        SourceResponse with verbatim content and highlights, or None if not found
     """
-    logger.info(f"[SOURCE] Fetch request: type={source_type.value}, id='{source_id}'")
+    logger.info(f"[SOURCE] Fetch request: type={source_type.value}, id='{source_id}', highlight={'yes' if highlight_snippet else 'no'}")
     
     # Load the appropriate document
     filename = DOCUMENT_FILES.get(source_type)
@@ -259,6 +364,12 @@ def fetch_source_content(
     
     if result:
         logger.info(f"[SOURCE] ✓ Fetch success: {source_type.value}/{source_id} → {len(result.content)} chars")
+        
+        # Compute highlights if snippet provided
+        if highlight_snippet:
+            highlights = _compute_highlights(result.content, highlight_snippet)
+            result.highlights = highlights
+            logger.info(f"[SOURCE] Computed {len(highlights)} highlight(s) for snippet")
     else:
         logger.warning(f"[SOURCE] ✗ Fetch failed: {source_type.value}/{source_id} not found")
     

@@ -24,7 +24,10 @@ from .schemas import (
     SystemNotice,
     StructuredCitation,
     SourceType,
+    AnswerSentence,
+    SentenceCitations,
 )
+from .sentence_attribution import compute_sentence_attribution
 
 logger = logging.getLogger(__name__)
 
@@ -619,6 +622,7 @@ def _deadline_priority(deadline: Optional[str]) -> int:
 def adapt_response(
     rag_result: dict,
     query: str,
+    llm_client=None,
 ) -> FrontendResponse:
     """
     Adapt internal RAG result to frontend-safe response format.
@@ -628,11 +632,13 @@ def adapt_response(
     2. Selects the primary stage (if multiple detected)
     3. Checks for clarification needs
     4. Calculates confidence score
-    5. Returns a clean, frontend-safe response
+    5. Computes sentence-level citation mapping
+    6. Returns a clean, frontend-safe response
     
     Args:
         rag_result: Raw output from LegalRAG.query()
         query: Original query string
+        llm_client: Optional LLM client for sentence attribution
         
     Returns:
         FrontendResponse object
@@ -672,6 +678,37 @@ def adapt_response(
         timeline_count=len(timeline),
     )
     
+    # 9. Compute sentence-level citation mapping (new feature)
+    sentence_citations = None
+    if answer and structured_citations:
+        # Convert StructuredCitation to dict for sentence attribution
+        cit_dicts = [
+            {
+                "source_type": cit.source_type.value,
+                "source_id": cit.source_id,
+                "display": cit.display,
+                "context_snippet": cit.context_snippet,
+                "relevance_score": cit.relevance_score,
+            }
+            for cit in structured_citations
+        ]
+        
+        attribution_result = compute_sentence_attribution(
+            answer=answer,
+            structured_citations=cit_dicts,
+            llm_client=llm_client,
+        )
+        
+        if attribution_result:
+            sentence_citations = SentenceCitations(
+                sentences=[
+                    AnswerSentence(sid=s["sid"], text=s["text"])
+                    for s in attribution_result["sentences"]
+                ],
+                mapping=attribution_result["mapping"]
+            )
+            logger.info(f"[SENTENCE] Sentence citations computed: {len(sentence_citations.sentences)} sentences")
+    
     return FrontendResponse(
         answer=answer,
         tier=tier,
@@ -683,6 +720,7 @@ def adapt_response(
         confidence=confidence,
         api_version="2.0",
         system_notice=system_notice,
+        sentence_citations=sentence_citations,
     )
 
 

@@ -173,8 +173,54 @@ class StructuredCitation(BaseModel):
     )
 
     def to_source_request(self) -> "SourceRequest":
-        """Convert to SourceRequest for fetching."""
-        return SourceRequest(source_type=self.source_type, source_id=self.source_id)
+        """Convert to SourceRequest for fetching with highlight support."""
+        return SourceRequest(
+            source_type=self.source_type, 
+            source_id=self.source_id,
+            highlight_snippet=self.context_snippet  # Pass for auto-highlighting
+        )
+
+
+class AnswerSentence(BaseModel):
+    """
+    A single sentence from the answer with its ID.
+    
+    Used for sentence-level citation mapping.
+    Frontend renders each sentence as <span data-sid="S1">text</span>
+    """
+    
+    sid: str = Field(
+        ...,
+        description="Sentence ID (S1, S2, S3, etc.)"
+    )
+    text: str = Field(
+        ...,
+        description="The sentence text"
+    )
+
+
+class SentenceCitations(BaseModel):
+    """
+    Sentence-level citation mapping.
+    
+    Maps each sentence ID to the sources that support it.
+    Enables frontend to show inline citation dots and link sentences to sources.
+    
+    Example:
+    {
+        "sentences": [{"sid": "S1", "text": "File FIR immediately."}, ...],
+        "mapping": {"S1": ["general_sop:GSOP_004"], "S2": ["bnss:154"]}
+    }
+    """
+    
+    sentences: list[AnswerSentence] = Field(
+        default_factory=list,
+        description="Answer split into sentences with IDs"
+    )
+    mapping: dict[str, list[str]] = Field(
+        default_factory=dict,
+        description="Map of sentence ID → list of source keys (format: 'source_type:source_id')"
+    )
 
 
 # ============================================================================
@@ -250,6 +296,10 @@ class FrontendResponse(BaseModel):
     confidence: ConfidenceLevel = Field(
         ..., 
         description="Confidence level of the response"
+    )
+    sentence_citations: Optional[SentenceCitations] = Field(
+        None,
+        description="Sentence-level citation mapping (maps each answer sentence to its sources)"
     )
     api_version: str = Field(
         default="2.0",
@@ -370,6 +420,22 @@ class ErrorResponse(BaseModel):
 # Source Fetch Schemas (for citation click → view source)
 # ============================================================================
 
+class HighlightRange(BaseModel):
+    """
+    A highlight range within source content.
+    
+    Used to mark which portion of the source was referenced in the response.
+    Frontend can use this to auto-scroll and highlight the relevant text.
+    """
+    
+    start: int = Field(..., description="Start offset (0-indexed character position)")
+    end: int = Field(..., description="End offset (exclusive)")
+    reason: str = Field(
+        default="Referenced in response",
+        description="Why this range is highlighted"
+    )
+
+
 class SourceRequest(BaseModel):
     """Request schema for fetching source content."""
     
@@ -380,6 +446,11 @@ class SourceRequest(BaseModel):
     source_id: str = Field(
         ...,
         description="Source identifier (e.g., 'GSOP_004', 'Section 183', 'EVID_001')"
+    )
+    highlight_snippet: Optional[str] = Field(
+        None,
+        description="Optional: snippet from context_snippet to highlight in the source. "
+                    "If provided, backend computes the offset range."
     )
 
 
@@ -398,4 +469,8 @@ class SourceResponse(BaseModel):
     metadata: dict = Field(
         default_factory=dict,
         description="Additional metadata (stage, stakeholders, time_limit, etc.)"
+    )
+    highlights: list[HighlightRange] = Field(
+        default_factory=list,
+        description="Highlighted ranges within content (computed from highlight_snippet if provided)"
     )
