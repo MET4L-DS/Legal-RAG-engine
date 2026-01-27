@@ -8,6 +8,11 @@ Timeline Anchors System:
 - Mandatory stages per case type that MUST be present
 - 2-pass extraction: anchors first, secondary second
 - Hard failure for missing anchors in Tier-1 crimes
+
+Span-Based Attribution (Option B):
+- Answer units classified as verbatim/derived
+- Span resolution for verbatim quotes
+- Only verbatim units can be highlighted
 """
 
 import logging
@@ -26,8 +31,19 @@ from .schemas import (
     SourceType,
     AnswerSentence,
     SentenceCitations,
+    # Span-based attribution
+    SourceSpanSchema,
+    AnswerUnitSchema,
+    AnswerUnitsResponse,
 )
 from .sentence_attribution import compute_sentence_attribution
+from .answer_units import (
+    AnswerUnit,
+    SourceSpan,
+    ChunkWithOffsets,
+    resolve_all_spans,
+    chunks_from_retrieval_result,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -632,8 +648,9 @@ def adapt_response(
     2. Selects the primary stage (if multiple detected)
     3. Checks for clarification needs
     4. Calculates confidence score
-    5. Computes sentence-level citation mapping
-    6. Returns a clean, frontend-safe response
+    5. Processes answer units with span resolution (Option B)
+    6. Falls back to sentence-level citation mapping if no answer units
+    7. Returns a clean, frontend-safe response
     
     Args:
         rag_result: Raw output from LegalRAG.query()
@@ -678,9 +695,21 @@ def adapt_response(
         timeline_count=len(timeline),
     )
     
-    # 9. Compute sentence-level citation mapping (new feature)
+    # 9. Process answer units (Option B - span-based attribution)
+    answer_units_response = None
+    raw_answer_units = rag_result.get("answer_units")
+    
+    if raw_answer_units and not clarification:
+        answer_units_response = _process_answer_units(raw_answer_units, rag_result)
+        if answer_units_response:
+            logger.info(
+                f"[UNITS] Processed {len(answer_units_response.units)} answer units "
+                f"({answer_units_response.verbatim_count} verbatim, {answer_units_response.derived_count} derived)"
+            )
+    
+    # 10. Compute sentence-level citation mapping (fallback if no answer units)
     sentence_citations = None
-    if answer and structured_citations:
+    if answer and structured_citations and not answer_units_response:
         # Convert StructuredCitation to dict for sentence attribution
         cit_dicts = [
             {
@@ -721,7 +750,71 @@ def adapt_response(
         api_version="2.0",
         system_notice=system_notice,
         sentence_citations=sentence_citations,
+        answer_units=answer_units_response,
     )
+
+
+def _process_answer_units(
+    raw_units: list[dict],
+    rag_result: dict
+) -> Optional[AnswerUnitsResponse]:
+    """
+    Process raw answer units from RAG: resolve spans and convert to schema.
+    
+    This implements span resolution from Option B in UPDATES.md:
+    - For verbatim units, find exact quote in retrieved chunks
+    - If quote not found, downgrade to derived
+    - Convert to Pydantic schema for API response
+    """
+    if not raw_units:
+        return None
+    
+    try:
+        # Convert raw dicts to AnswerUnit objects
+        units = []
+        for u in raw_units:
+            unit = AnswerUnit(
+                id=u.get("id", f"S{len(units)+1}"),
+                text=u.get("text", ""),
+                kind=u.get("kind", "derived"),
+                quote=u.get("quote"),
+                supporting_sources=u.get("supporting_sources", [])
+            )
+            units.append(unit)
+        
+        # Convert retrieval results to chunks for span resolution
+        chunks = chunks_from_retrieval_result(rag_result)
+        
+        # Resolve spans for verbatim units
+        if chunks:
+            units = resolve_all_spans(units, chunks)
+        
+        # Convert to schema
+        schema_units = []
+        for unit in units:
+            schema_unit = AnswerUnitSchema(
+                id=unit.id,
+                text=unit.text,
+                kind=unit.kind,
+                source_spans=[
+                    SourceSpanSchema(
+                        doc_id=span.doc_id,
+                        section_id=span.section_id,
+                        start_char=span.start_char,
+                        end_char=span.end_char,
+                        quote=span.quote
+                    )
+                    for span in unit.source_spans
+                ],
+                supporting_sources=unit.supporting_sources
+            )
+            schema_units.append(schema_unit)
+        
+        return AnswerUnitsResponse(units=schema_units)
+        
+    except Exception as e:
+        logger.error(f"[UNITS] Failed to process answer units: {e}")
+        return None
 
 
 def _determine_tier(result: dict) -> TierType:
@@ -738,12 +831,21 @@ def _determine_tier(result: dict) -> TierType:
         return TierType.STANDARD
 
 
+# Minimum relevance score for citations to be included
+# Citations below this threshold are filtered out to reduce noise
+MIN_RELEVANCE_THRESHOLD = 0.35
+
+
 def _convert_to_structured_citations(rag_result: dict) -> list[StructuredCitation]:
     """
     Convert RAG result citations to structured format.
     
     Tries to use pre-built structured_citations from retrieval layer.
     Falls back to parsing legacy string citations if needed.
+    
+    Citations are:
+    1. Filtered by minimum relevance threshold
+    2. Sorted by relevance score (highest first)
     """
     # First, try to use pre-built structured citations from retrieval
     structured_data = rag_result.get("structured_citations", [])
@@ -771,6 +873,11 @@ def _convert_to_structured_citations(rag_result: dict) -> list[StructuredCitatio
                     logger.warning(f"[CITATION] Skipping citation with empty display: {source_type_str}/{source_id}")
                     continue
                 
+                # Filter by minimum relevance threshold (if score is available)
+                if relevance_score is not None and relevance_score < MIN_RELEVANCE_THRESHOLD:
+                    logger.debug(f"[CITATION] Filtering low-relevance citation ({relevance_score:.2f}): {source_id}")
+                    continue
+                
                 citations.append(StructuredCitation(
                     source_type=SourceType(source_type_str),
                     source_id=source_id,
@@ -784,6 +891,9 @@ def _convert_to_structured_citations(rag_result: dict) -> list[StructuredCitatio
                 # Skip malformed citations
                 logger.warning(f"[CITATION] Skipping malformed citation: {e}")
                 continue
+        
+        # Sort by relevance score (highest first)
+        citations.sort(key=lambda c: c.relevance_score or 0.0, reverse=True)
         
         logger.info(f"[CITATION] Converted {len(citations)} structured citations")
         return citations

@@ -224,6 +224,102 @@ class SentenceCitations(BaseModel):
 
 
 # ============================================================================
+# SPAN-BASED ATTRIBUTION (Option B from UPDATES.md)
+# ============================================================================
+
+class SourceSpanSchema(BaseModel):
+    """
+    Exact location of quoted text within a source document.
+    
+    Enables precise highlighting - frontend uses these offsets to scroll
+    to and highlight the exact text that supports an answer sentence.
+    """
+    
+    doc_id: str = Field(
+        ...,
+        description="Document ID (e.g., 'GENERAL_SOP_BPRD', 'BNSS_2023')"
+    )
+    section_id: str = Field(
+        ...,
+        description="Section/block ID (e.g., 'GSOP_057', '183')"
+    )
+    start_char: int = Field(
+        ...,
+        description="Start character offset (0-indexed, relative to full document)"
+    )
+    end_char: int = Field(
+        ...,
+        description="End character offset (exclusive)"
+    )
+    quote: str = Field(
+        ...,
+        description="Exact text slice for verification"
+    )
+
+
+class AnswerUnitSchema(BaseModel):
+    """
+    A single unit of the answer (sentence or bullet point).
+    
+    Classification:
+    - "verbatim": Directly supported by exact quote (CAN be highlighted)
+    - "derived": Guidance/summary/best-practice (CANNOT be highlighted)
+    
+    This ensures only verifiable text can be linked to sources.
+    """
+    
+    id: str = Field(
+        ...,
+        description="Unit ID (S1, S2, S3, etc.)"
+    )
+    text: str = Field(
+        ...,
+        description="The sentence/bullet text"
+    )
+    kind: Literal["verbatim", "derived"] = Field(
+        ...,
+        description="'verbatim' = directly quoted (highlightable), 'derived' = synthesized (not highlightable)"
+    )
+    source_spans: list[SourceSpanSchema] = Field(
+        default_factory=list,
+        description="Resolved source locations (only for verbatim units)"
+    )
+    supporting_sources: list[str] = Field(
+        default_factory=list,
+        description="Source IDs that generally support this (for derived units)"
+    )
+
+
+class AnswerUnitsResponse(BaseModel):
+    """
+    Span-based answer format with verbatim/derived classification.
+    
+    This replaces the plain text `answer` field when span attribution is enabled.
+    It ensures only verifiable quotes can be highlighted in the frontend.
+    """
+    
+    units: list[AnswerUnitSchema] = Field(
+        default_factory=list,
+        description="Answer broken into units with attribution"
+    )
+    
+    @property
+    def as_text(self) -> str:
+        """Get the answer as plain text (for backward compatibility)."""
+        return " ".join(unit.text for unit in self.units)
+    
+    @property
+    def verbatim_count(self) -> int:
+        """Count of verbatim (highlightable) units."""
+        return sum(1 for u in self.units if u.kind == "verbatim")
+    
+    @property
+    def derived_count(self) -> int:
+        """Count of derived (non-highlightable) units."""
+        return sum(1 for u in self.units if u.kind == "derived")
+
+
+# ============================================================================
 # Request Schemas
 # ============================================================================
 
@@ -300,6 +396,10 @@ class FrontendResponse(BaseModel):
     sentence_citations: Optional[SentenceCitations] = Field(
         None,
         description="Sentence-level citation mapping (maps each answer sentence to its sources)"
+    )
+    answer_units: Optional[AnswerUnitsResponse] = Field(
+        None,
+        description="Span-based answer with verbatim/derived classification (Option B attribution)"
     )
     api_version: str = Field(
         default="2.0",

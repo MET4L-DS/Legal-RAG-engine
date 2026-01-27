@@ -196,7 +196,7 @@ OUTPUT FORMAT:
         self.llm_client = llm_client
         self.model = model
     
-    def query(self, question: str, generate_answer: bool = True) -> dict:
+    def query(self, question: str, generate_answer: bool = True, use_answer_units: bool = True) -> dict:
         """Answer a legal question using RAG.
         
         For procedural queries (Tier-1), uses SOP-backed procedural prompt.
@@ -205,6 +205,7 @@ OUTPUT FORMAT:
         Args:
             question: User's legal question
             generate_answer: Whether to generate LLM answer (requires llm_client)
+            use_answer_units: Whether to use span-based answer units (Option B)
             
         Returns:
             Dictionary with retrieval results and optional LLM answer
@@ -247,19 +248,47 @@ OUTPUT FORMAT:
                 }
                 for sc in retrieval_result.structured_citations
             ],  # New structured citations
-            "answer": None
+            "answer": None,
+            "answer_units": None  # NEW: Span-based answer units
         }
         
         # Generate answer if LLM client is available
         if generate_answer and self.llm_client and retrieval_result.context_text:
-            response["answer"] = self._generate_answer(
-                question, 
-                retrieval_result.context_text,
-                is_procedural=retrieval_result.is_procedural,
-                needs_evidence=retrieval_result.needs_evidence,
-                needs_compensation=retrieval_result.needs_compensation,
-                needs_general_sop=retrieval_result.needs_general_sop
-            )
+            # Try answer units first (Option B - span-based attribution)
+            if use_answer_units:
+                answer_units = self._generate_answer_units(
+                    question,
+                    retrieval_result.context_text,
+                    is_procedural=retrieval_result.is_procedural,
+                    needs_evidence=retrieval_result.needs_evidence,
+                    needs_compensation=retrieval_result.needs_compensation,
+                    needs_general_sop=retrieval_result.needs_general_sop
+                )
+                
+                if answer_units:
+                    response["answer_units"] = answer_units
+                    # Also generate plain text answer for backward compatibility
+                    response["answer"] = " ".join(u.get("text", "") for u in answer_units)
+                else:
+                    # Fallback to legacy answer generation
+                    response["answer"] = self._generate_answer(
+                        question, 
+                        retrieval_result.context_text,
+                        is_procedural=retrieval_result.is_procedural,
+                        needs_evidence=retrieval_result.needs_evidence,
+                        needs_compensation=retrieval_result.needs_compensation,
+                        needs_general_sop=retrieval_result.needs_general_sop
+                    )
+            else:
+                # Legacy answer generation
+                response["answer"] = self._generate_answer(
+                    question, 
+                    retrieval_result.context_text,
+                    is_procedural=retrieval_result.is_procedural,
+                    needs_evidence=retrieval_result.needs_evidence,
+                    needs_compensation=retrieval_result.needs_compensation,
+                    needs_general_sop=retrieval_result.needs_general_sop
+                )
         
         return response
     
@@ -385,3 +414,89 @@ Answer:"""
                         break
         
         return "Error: Rate limit exceeded on all models. Please wait a minute and try again."
+    
+    def _generate_answer_units(
+        self, 
+        question: str, 
+        context: str,
+        is_procedural: bool = False,
+        needs_evidence: bool = False,
+        needs_compensation: bool = False,
+        needs_general_sop: bool = False
+    ) -> list[dict]:
+        """Generate structured answer units with verbatim/derived classification.
+        
+        This implements Option B from UPDATES.md - span-based attribution.
+        Each answer unit is classified as:
+        - "verbatim": Directly quoted from source (can be highlighted)
+        - "derived": Synthesized guidance (cannot be highlighted)
+        
+        Returns list of answer unit dicts (to be parsed by adapter layer).
+        """
+        import time
+        import json
+        import re
+        
+        # Build tier-specific context for the prompt
+        tier_context = ""
+        if needs_evidence:
+            tier_context = "Focus on evidence collection and investigation procedures."
+        elif needs_compensation:
+            tier_context = "Focus on compensation eligibility and application process."
+        elif is_procedural and not needs_general_sop:
+            tier_context = "Focus on procedural steps for sexual offence victims."
+        elif needs_general_sop:
+            tier_context = "Focus on citizen-centric procedural guidance."
+        
+        # Use the answer unit prompt
+        from ..server.answer_units import get_answer_unit_prompt, parse_answer_units_response
+        
+        full_prompt = get_answer_unit_prompt(context, question, tier_context)
+        
+        # Models to try
+        models_to_try = [
+            "gemini-2.5-flash-lite",
+            "gemma-3-27b-it",
+            "gemma-3-12b-it",
+        ]
+        max_retries = 2
+        
+        for model in models_to_try:
+            print(f"DEBUG [UNITS]: Attempting model: {model}")
+            for attempt in range(max_retries):
+                try:
+                    from google.genai import types
+                    assert self.llm_client is not None, "LLM client not initialized"
+                    
+                    response = self.llm_client.models.generate_content(
+                        model=model,
+                        contents=full_prompt,
+                        config=types.GenerateContentConfig(
+                            temperature=0.0,  # Deterministic for JSON
+                            max_output_tokens=1500,
+                        )
+                    )
+                    
+                    print(f"DEBUG [UNITS]: Success with model: {model}")
+                    
+                    # Parse the response
+                    units = parse_answer_units_response(response.text)
+                    
+                    # Convert to dicts for serialization
+                    return [u.to_dict() for u in units]
+                    
+                except Exception as e:
+                    error_str = str(e)
+                    print(f"DEBUG [UNITS]: {model} failed (attempt {attempt + 1}): {error_str[:100]}")
+                    if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str:
+                        if attempt < max_retries - 1:
+                            time.sleep((attempt + 1) * 5)
+                            continue
+                        else:
+                            break
+                    else:
+                        break
+        
+        # Fallback: return empty list (will use legacy answer generation)
+        print("DEBUG [UNITS]: All models failed, falling back to legacy answer")
+        return []

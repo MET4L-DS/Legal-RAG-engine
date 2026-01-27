@@ -1,141 +1,337 @@
-## 2️⃣ Sentence-level → source mapping (the right way)
+**Option B (span-based attribution)** is the _correct_ long-term fix, and you can implement it **incrementally** without breaking what you already have.
 
-> “I want the source used to correctly map with the text or sentence of the answer with internal links.
-> Will that require significant backend changes?”
+Below is a **Copilot-friendly, step-by-step guide**, split cleanly into **Backend** and **Frontend**, written so an agent (or future you) can follow it linearly.
 
-### Short answer
+I’ll assume:
 
-❌ **No major backend rewrite required**
-✅ **One additional data structure + light LLM constraint**
-
-You already have **80% of what’s needed**.
-
----
-
-## 🔑 Core idea: make the answer _cite-aware at sentence level_
-
-Right now your pipeline looks like this:
-
-```
-Retrieved sources → LLM → Answer text
-                     ↓
-                  Citations (list)
-```
-
-What we want is:
-
-```
-Retrieved sources → LLM → Answer with sentence IDs
-                     ↓
-            Sentence ↔ citation mapping
-```
-
-### The missing piece
-
-You need a **Sentence Attribution Map**.
+- FastAPI backend
+- Python RAG pipeline
+- React / Next.js frontend
+- Existing `/rag/query` and `/rag/source` endpoints
 
 ---
 
-## 🧠 Backend change (minimal, additive)
+# ✅ OPTION B — SPAN-BASED ATTRIBUTION
 
-### Step A — Assign sentence IDs after generation
+_(Verbatim-safe citation mapping)_
 
-After the LLM produces the final answer:
+---
 
-```text
-File FIR at nearest police station.
-The police must register the FIR immediately.
-If police refuse, approach the SP.
-```
+# 🧠 Core Principle (put this at the top of your README)
 
-You **post-process** it into:
+> **Only text that is directly grounded in source spans may be highlighted.**
+> Synthesized guidance may list supporting sources but must not highlight text.
+
+Everything below enforces this rule.
+
+---
+
+# BACKEND GUIDE (IMPLEMENT FIRST)
+
+---
+
+## 1️⃣ Change the mental model: “answers are made of units”
+
+Instead of returning:
 
 ```json
-[
-	{ "sid": "S1", "text": "File FIR at nearest police station." },
-	{ "sid": "S2", "text": "The police must register the FIR immediately." },
-	{ "sid": "S3", "text": "If police refuse, approach the SP." }
-]
+"answer": "Preserve evidence. File FIR immediately."
 ```
 
-This is deterministic. No LLM needed.
+You will return:
+
+```json
+"answer_units": [ ... ]
+```
+
+Each unit is **one sentence or bullet**.
 
 ---
 
-### Step B — Ask the LLM for citation alignment (NOT regeneration)
+## 2️⃣ Define the Answer Unit schema (NEW)
 
-You already pass retrieved context to the LLM.
-Now add **one extra instruction**:
+Create a dedicated model.
 
-> “For each sentence ID, list which sources support it.
-> Use only the provided citations.
-> Do not invent sources.”
+```python
+# models/answer_unit.py
 
-Expected output (machine-readable):
+class SourceSpan(BaseModel):
+    doc_id: str                 # e.g. GENERAL_SOP_BPRD
+    section_id: str             # e.g. GSOP_057
+    start_char: int             # absolute char offset
+    end_char: int               # absolute char offset
+    quote: str                  # exact text slice (for safety)
+
+class AnswerUnit(BaseModel):
+    id: str                     # e.g. "S1"
+    text: str                   # sentence text
+    kind: Literal["verbatim", "derived"]
+    source_spans: list[SourceSpan] = []
+```
+
+---
+
+## 3️⃣ During retrieval: preserve absolute text offsets (CRITICAL)
+
+When chunking documents:
+
+```python
+chunk = {
+    "doc_id": "GENERAL_SOP_BPRD",
+    "section_id": "GSOP_057",
+    "text": section_text,
+    "start_char": absolute_start,
+    "end_char": absolute_end
+}
+```
+
+✅ These offsets **must refer to the full document**, not the chunk.
+
+---
+
+## 4️⃣ During answer generation: force citation discipline
+
+### Prompt rule (MANDATORY)
+
+Add this to the system prompt:
+
+```
+RULES:
+- If a sentence is directly supported by a specific passage,
+  mark it as VERBATIM and quote the exact source text.
+- If a sentence is guidance, summary, or best-practice,
+  mark it as DERIVED and DO NOT quote any source.
+- Never invent quotations.
+```
+
+---
+
+## 5️⃣ LLM output format (machine-readable)
+
+Force JSON:
 
 ```json
 {
-	"S1": ["GENERAL_SOP_BPRD:GSOP_004"],
-	"S2": ["BNSS:Section 154"],
-	"S3": ["GENERAL_SOP_BPRD:GSOP_057"]
+	"answer_units": [
+		{
+			"id": "S1",
+			"text": "Electronic communication should be sent to the SHO’s official email.",
+			"kind": "verbatim",
+			"quote": "Electronic communication should preferably be to official e-mail address or official mobile number of SHO..."
+		},
+		{
+			"id": "S2",
+			"text": "Preserve evidence if it is safe to do so.",
+			"kind": "derived"
+		}
+	]
 }
 ```
 
-⚠️ This is **not free-form generation** — it’s a constrained mapping task.
-
-This keeps hallucination risk extremely low.
+⚠️ **No source IDs yet** — just quotes.
 
 ---
 
-### Step C — Extend API response (non-breaking)
+## 6️⃣ Span resolution step (deterministic, no LLM)
 
-Add **one optional field**:
+For each `verbatim` unit:
+
+```python
+def resolve_span(quote, retrieved_chunks):
+    for chunk in retrieved_chunks:
+        idx = chunk.text.find(quote)
+        if idx != -1:
+            return SourceSpan(
+                doc_id=chunk.doc_id,
+                section_id=chunk.section_id,
+                start_char=chunk.start_char + idx,
+                end_char=chunk.start_char + idx + len(quote),
+                quote=quote
+            )
+    return None
+```
+
+If resolution fails:
+
+- Downgrade unit → `derived`
+- Log warning
+
+---
+
+## 7️⃣ Final API response shape (IMPORTANT)
 
 ```json
-"sentence_citations": {
-  "S1": ["general_sop:GSOP_004"],
-  "S2": ["bnss:154"],
-  "S3": ["general_sop:GSOP_057"]
+{
+	"answer_units": [
+		{
+			"id": "S1",
+			"text": "...",
+			"kind": "verbatim",
+			"source_spans": [
+				{
+					"doc_id": "GENERAL_SOP_BPRD",
+					"section_id": "GSOP_007",
+					"start_char": 412,
+					"end_char": 615,
+					"quote": "Electronic communication should preferably..."
+				}
+			]
+		},
+		{
+			"id": "S2",
+			"text": "Preserve evidence if it is safe to do so.",
+			"kind": "derived",
+			"source_spans": []
+		}
+	]
 }
 ```
 
-Everything else stays the same.
+---
 
-Your existing `/rag/source` endpoint already supports fetching + highlighting.
+## 8️⃣ Update `/rag/source` endpoint (small change)
+
+Accept **explicit span requests**:
+
+```json
+{
+	"doc_id": "GENERAL_SOP_BPRD",
+	"section_id": "GSOP_007",
+	"start_char": 412,
+	"end_char": 615
+}
+```
+
+Backend:
+
+- Load full document
+- Slice `[start_char:end_char]`
+- Return exact text + surrounding context (±300 chars)
 
 ---
 
-## 🧩 Frontend implementation (you’re already 70% there)
+## 9️⃣ Add regression tests (DO NOT SKIP)
 
-### How it works in UI
+```python
+def test_no_highlight_for_derived_units():
+    for unit in answer_units:
+        if unit.kind == "derived":
+            assert unit.source_spans == []
+```
 
-1. Render answer sentences as `<span data-sid="S2">`
-2. On hover or click:
-    - show a small citation icon
-
-3. On click:
-    - open Source Side Panel
-    - call `/rag/source` using the mapped source IDs
-
-4. Auto-scroll + highlight (already implemented)
-
-### UX pattern (recommended)
-
-- 🔗 **Inline citation dot** (like Wikipedia / Perplexity)
-- 🖱️ Clicking sentence opens source
-- 📌 Side panel stays persistent
-- 🔁 Cached per session (you already do this)
-
-Your current accordion + cache system is **perfectly compatible** with this.
+This prevents **fake citations forever**.
 
 ---
 
-## 🔍 Highlight precision (important detail)
+# FRONTEND GUIDE
 
-Instead of highlighting the entire SOP block:
+---
 
-- Pass **the exact sentence text** as `highlight_snippet`
-- Backend already returns `start/end` offsets
-- Result: **precise yellow highlight** for _that sentence only_
+## 1️⃣ Render answer units, not raw text
 
-This directly solves the “highlight is not that useful” problem.
+```tsx
+answer_units.map((unit) => <AnswerSentence key={unit.id} unit={unit} />);
+```
+
+---
+
+## 2️⃣ Clickability rules (VERY IMPORTANT)
+
+| Unit kind | Clickable | Highlight |
+| --------- | --------- | --------- |
+| verbatim  | ✅ yes    | ✅ exact  |
+| derived   | ❌ no     | ❌ none   |
+
+---
+
+## 3️⃣ Sentence component behavior
+
+```tsx
+if (unit.kind === "verbatim") {
+	renderClickableSentence(unit);
+} else {
+	renderPlainSentence(unit);
+}
+```
+
+Add subtle UI:
+
+- 🔗 icon for verbatim
+- ℹ️ “Derived guidance” tooltip for derived
+
+---
+
+## 4️⃣ On click → fetch exact span
+
+```ts
+POST / rag / source;
+{
+	(doc_id, section_id, start_char, end_char);
+}
+```
+
+---
+
+## 5️⃣ Source side panel behavior
+
+- Accordion per document
+- Cache fetched spans in session state
+- Auto-scroll to `start_char`
+- Highlight ONLY `[start_char:end_char]`
+
+No fuzzy matching. No searching.
+
+---
+
+## 6️⃣ Highlight implementation (simple & correct)
+
+```ts
+highlightRange(startChar, endChar);
+```
+
+Do **not** search by words.
+Use absolute offsets only.
+
+---
+
+## 7️⃣ UX copy (important for trust)
+
+For derived sentences:
+
+> “This guidance is derived from verified SOPs but is not quoted verbatim.”
+
+This protects you legally and ethically.
+
+---
+
+# ❌ WHAT NOT TO DO (put this in README)
+
+- ❌ Do not highlight derived text
+- ❌ Do not search for keywords in source
+- ❌ Do not attach spans without exact quote match
+- ❌ Do not force every sentence to have a citation
+
+---
+
+# 🧪 Acceptance Checklist
+
+Before shipping, confirm:
+
+- [ ] Clicking a sentence **always highlights correct text**
+- [ ] No highlight exists without a quote match
+- [ ] “Preserve evidence” does **not** highlight unrelated SOPs
+- [ ] Regression tests pass
+- [ ] Side panel never jumps to random locations
+
+---
+
+# 🏁 Final Note
+
+This design:
+
+- Matches **academic citation standards**
+- Matches **legal research tools**
+- Eliminates misleading UX
+- Makes your system _defensible_
+
+You are now building something that **law students, lawyers, and courts could actually trust**.
