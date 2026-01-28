@@ -139,5713 +139,1023 @@
 
 # CHAPTER III POWER OF COURTS
 
-**21.** Subject to the other provisions of this Sanhita,—
-( _a_ ) any offence under the Bharatiya Nyaya Sanhita, 2023 may be tried by—
-( _i_ ) the High Court; or
-( _ii_ ) the Court of Session; or
-( _iii_ ) any other Court by which such offence is shown in the First Schedule
-to be triable:
-Provided that any offence under section 63, section 64, section 68, section 70 or
-section 71 of the Bharatiya Nyaya Sanhita, 2023 shall be tried as far as practicable by
-a Court presided over by a woman.
-( _b_ ) any offence under any other law shall, when any Court is mentioned in this
-behalf in such law, be tried by such Court and when no Court is so mentioned, may be
-tried by—
-( _i_ ) the High Court; or
-( _ii_ ) any other Court by which such offence is shown in the First Schedule
-to be triable.
+21. Subject to the other provisions of this Sanhita,—
+    - ( _a_ ) any offence under the Bharatiya Nyaya Sanhita, 2023 may be tried by—
+        - ( _i_ ) the High Court; or
+        - ( _ii_ ) the Court of Session; or
+        - ( _iii_ ) any other Court by which such offence is shown in the First Schedule to be triable:
+          _Provided that_ any offence under section 63, section 64, section 68, section 70 or section 71 of the Bharatiya Nyaya Sanhita, 2023 shall be tried as far as practicable by a Court presided over by a woman.
 
-**22.** ( _1_ ) A High Court may pass any sentence authorised by law.
-( _2_ ) A Sessions Judge or Additional Sessions Judge may pass any sentence authorised
-by law; but any sentence of death passed by any such Judge shall be subject to confirmation
-by the High Court.
-**23.** ( _1_ ) The Court of a Chief Judicial Magistrate may pass any sentence authorised by
-law except a sentence of death or of imprisonment for life or of imprisonment for a term
-exceeding seven years.
-( _2_ ) The Court of a Judicial Magistrate of the first class may pass a sentence of
-imprisonment for a term not exceeding three years, or of fine not exceeding fifty thousand
-rupees, or of both.
-( _3_ ) The Court of Judicial Magistrate of the second class may pass a sentence of
-imprisonment for a term not exceeding one year, or of fine not exceeding ten thousand
-rupees, or of both.
-**24.** ( _1_ ) The Court of a Judicial Magistrate may award such term of imprisonment in
-default of payment of fine as is authorised by law:
-Provided that the term—
-( _a_ ) is not in excess of the powers of the Judicial Magistrate under section 23;
-( _b_ ) shall not, where imprisonment has been awarded as part of the substantive
-sentence, exceed one-fourth of the term of imprisonment which the Magistrate is
-competent to inflict as punishment for the offence otherwise than as imprisonment in
-default of payment of the fine.
-( _2_ ) The imprisonment awarded under this section may be in addition to a substantive
-sentence of imprisonment for the maximum term awardable by the Magistrate under section 23.
-**25.** ( _1_ ) When a person is convicted at one trial of two or more offences, the Court may,
-subject to the provisions of section 9 of the Bharatiya Nyaya Sanhita, 2023, sentence him
-for such offences, to the several punishments prescribed therefor which such Court is
-competent to inflict and the court shall, considering the gravity of offences, order such
-punishments to run concurrently or consecutively.
-( _2_ ) In the case of consecutive sentences, it shall not be necessary for the Court by
-reason only of the aggregate punishment for the several offences being in excess of the
-punishment which it is competent to inflict on conviction of a single offence, to send the
-offender for trial before a higher Court:
-Provided that—
-( _a_ ) in no case shall such person be sentenced to imprisonment for a longer
-period than fourteen years;
-( _b_ ) the aggregate punishment shall not exceed twice the amount of punishment
-which the Court is competent to inflict for a single offence.
-( _3_ ) For the purpose of appeal by a convicted person, the aggregate of the consecutive
-sentences passed against him under this section shall be deemed to be a single sentence.
-**26.** ( _1_ ) In conferring powers under this Sanhita, the High Court or the State Government,
-as the case may be, may, by order, empower persons specially by name or in virtue of their
-offices or classes of officials generally be their official titles.
-( _2_ ) Every such order shall take effect from the date on which it is communicated to the
-person so empowered.
-**27.** Whenever any person holding an office in the service of Government who has
-been invested by the High Court or the State Government with any powers under this
-Sanhita throughout any local area is appointed to an equal or higher office of the same
-nature, within a like local area under the same State Government, he shall, unless the High
-Court or the State Government, as the case may be, otherwise directs, or has otherwise
-directed, exercise the same powers in the local area in which he is so appointed.
+    - ( _b_ ) any offence under any other law shall, when any Court is mentioned in this behalf in such law, be tried by such Court and when no Court is so mentioned, may be tried by—
+        - ( _i_ ) the High Court; or
+        - ( _ii_ ) any other Court by which such offence is shown in the First Schedule to be triable.
 
-**28.** ( _1_ ) The High Court or the State Government, as the case may be, may withdraw all
-or any of the powers conferred by it under this Sanhita on any person or by any officer
-subordinate to it.
-( _2_ ) Any powers conferred by the Chief Judicial Magistrate or by the District Magistrate
-may be withdrawn by the respective Magistrate by whom such powers were conferred.
-**29.** ( _1_ ) Subject to the other provisions of this Sanhita, the powers and duties of a
-Judge or Magistrate may be exercised or performed by his successor-in-office.
-( _2_ ) When there is any doubt as to who is the successor-in-office, the Sessions Judge
-shall determine by order in writing the Judge who shall, for the purposes of this Sanhita or
-of any proceedings or order thereunder, be deemed to be the successor-in-office.
-( _3_ ) When there is any doubt as to who is the successor-in-office of any Magistrate,
-the Chief Judicial Magistrate, or the District Magistrate, as the case may be, shall determine
-by order in writing the Magistrate who shall, for the purpose of this Sanhita or of any
-proceedings or order thereunder, be deemed to be the successor-in-office of such Magistrate.
+22. 1. A High Court may pass any sentence authorised by law.
+    2. A Sessions Judge or Additional Sessions Judge may pass any sentence authorised by law; but any sentence of death passed by any such Judge shall be subject to confirmation by the High Court.
+
+23. 1. The Court of a Chief Judicial Magistrate may pass any sentence authorised by law except a sentence of death or of imprisonment for life or of imprisonment for a term exceeding seven years.
+    2. The Court of a Judicial Magistrate of the first class may pass a sentence of imprisonment for a term not exceeding three years, or of fine not exceeding fifty thousand rupees, or of both.
+    3. The Court of Judicial Magistrate of the second class may pass a sentence of imprisonment for a term not exceeding one year, or of fine not exceeding ten thousand rupees, or of both.
+
+24. 1. The Court of a Judicial Magistrate may award such term of imprisonment in default of payment of fine as is authorised by law: _Provided that_ the term—
+        - ( _a_ ) is not in excess of the powers of the Judicial Magistrate under section 23;
+        - ( _b_ ) shall not, where imprisonment has been awarded as part of the substantive sentence, exceed one-fourth of the term of imprisonment which the Magistrate is competent to inflict as punishment for the offence otherwise than as imprisonment in default of payment of the fine.
+
+    2. The imprisonment awarded under this section may be in addition to a substantive sentence of imprisonment for the maximum term awardable by the Magistrate under section 23.
+
+25. 1. When a person is convicted at one trial of two or more offences, the Court may, subject to the provisions of section 9 of the Bharatiya Nyaya Sanhita, 2023, sentence him for such offences, to the several punishments prescribed therefor which such Court is competent to inflict and the court shall, considering the gravity of offences, order such punishments to run concurrently or consecutively.
+    2. In the case of consecutive sentences, it shall not be necessary for the Court by reason only of the aggregate punishment for the several offences being in excess of the punishment which it is competent to inflict on conviction of a single offence, to send the offender for trial before a higher Court:
+       _Provided that_—
+        - ( _a_ ) in no case shall such person be sentenced to imprisonment for a longer period than fourteen years;
+        - ( _b_ ) the aggregate punishment shall not exceed twice the amount of punishment which the Court is competent to inflict for a single offence.
+
+    3. For the purpose of appeal by a convicted person, the aggregate of the consecutive sentences passed against him under this section shall be deemed to be a single sentence.
+
+26. 1. In conferring powers under this Sanhita, the High Court or the State Government, as the case may be, may, by order, empower persons specially by name or in virtue of their offices or classes of officials generally be their official titles.
+    2. Every such order shall take effect from the date on which it is communicated to the person so empowered.
+
+27. Whenever any person holding an office in the service of Government who has been invested by the High Court or the State Government with any powers under this Sanhita throughout any local area is appointed to an equal or higher office of the same nature, within a like local area under the same State Government, he shall, unless the High Court or the State Government, as the case may be, otherwise directs, or has otherwise directed, exercise the same powers in the local area in which he is so appointed.
+
+28. 1. The High Court or the State Government, as the case may be, may withdraw all or any of the powers conferred by it under this Sanhita on any person or by any officer subordinate to it.
+    2. Any powers conferred by the Chief Judicial Magistrate or by the District Magistrate may be withdrawn by the respective Magistrate by whom such powers were conferred.
+
+29. 1. Subject to the other provisions of this Sanhita, the powers and duties of a Judge or Magistrate may be exercised or performed by his successor-in-office.
+    2. When there is any doubt as to who is the successor-in-office, the Sessions Judge shall determine by order in writing the Judge who shall, for the purposes of this Sanhita or of any proceedings or order thereunder, be deemed to be the successor-in-office.
+    3. When there is any doubt as to who is the successor-in-office of any Magistrate, the Chief Judicial Magistrate, or the District Magistrate, as the case may be, shall determine by order in writing the Magistrate who shall, for the purpose of this Sanhita or of any proceedings or order thereunder, be deemed to be the successor-in-office of such Magistrate.
 
 # CHAPTER IV POWERS OF SUPERIOR OFFICERS OF POLICE AND AID TO THE MAGISTRATES AND THE POLICE
 
-**30.** Police officers superior in rank to an officer in charge of a police station may
-exercise the same powers, throughout the local area to which they are appointed, as may be
-exercised by such officer within the limits of his station.
-**31.** Every person is bound to assist a Magistrate or police officer reasonably demanding
-his aid—
-( _a_ ) in the taking or preventing the escape of any other person whom such
-Magistrate or police officer is authorised to arrest; or
-( _b_ ) in the prevention or suppression of a breach of the peace; or
-( _c_ ) in the prevention of any injury attempted to be committed to any public
-property.
-**32.** When a warrant is directed to a person other than a police officer, any other
-person may aid in the execution of such warrant, if the person to whom the warrant is
-directed be near at hand and acting in the execution of the warrant.
-**33.** ( _1_ ) Every person, aware of the commission of, or of the intention of any other
-person to commit, any offence punishable under any of the following sections of the
-Bharatiya Nyaya Sanhita, 2023, namely:—
-( _i_ ) sections 145 to 152 and section 156;
-( _ii_ ) sections 187 and 189;
-( _iii_ ) sections 272 to 278;
-( _iv_ ) sections 101, 102 and 103;
-( _v_ ) section 138;
-( _vi_ ) section 305;
-( _vii_ ) sections 307 to 311;
-( _viii_ ) section 314;
+30. Police officers superior in rank to an officer in charge of a police station may exercise the same powers, throughout the local area to which they are appointed, as may be exercised by such officer within the limits of his station.
+
+31. Every person is bound to assist a Magistrate or police officer reasonably demanding his aid—
+    - ( _a_ ) in the taking or preventing the escape of any other person whom such Magistrate or police officer is authorised to arrest; or
+    - ( _b_ ) in the prevention or suppression of a breach of the peace; or
+    - ( _c_ ) in the prevention of any injury attempted to be committed to any public property.
+
+32. When a warrant is directed to a person other than a police officer, any other person may aid in the execution of such warrant, if the person to whom the warrant is directed be near at hand and acting in the execution of the warrant.
+33. 1. Every person, aware of the commission of, or of the intention of any other person to commit, any offence punishable under any of the following sections of the Bharatiya Nyaya Sanhita, 2023, namely:—
+        - ( _i_ ) sections 145 to 152 and section 156;
+        - ( _ii_ ) sections 187 and 189;
+        - ( _iii_ ) sections 272 to 278;
+        - ( _iv_ ) sections 101, 102 and 103;
+        - ( _v_ ) section 138;
+        - ( _vi_ ) section 305;
+        - ( _vii_ ) sections 307 to 311;
+        - ( _viii_ ) section 314;
+        - ( _ix_ ) sections 322 to 326;
+        - ( _x_ ) section 330;
+        - ( _xi_ ) section 329; and
+        - ( _xii_ ) sections 176 to 180,
+          shall, in the absence of any reasonable excuse, the burden of proving which excuse shall lie upon the person so aware, forthwith give information to the nearest Magistrate or police officer of such commission or intention.
+
+    2. For the purposes of this section, the term "offence" includes any act committed at any place out of India which would constitute an offence if committed in India.
+
+34. 1. Every officer employed in connection with the affairs of a village and every person residing in a village shall forthwith communicate to the nearest Magistrate or to the officer in charge of the nearest police station, whichever is nearer, any information which he may possess respecting—
+        - ( _a_ ) the permanent or temporary residence of any notorious receiver or vendor of stolen property in or near such village;
+        - ( _b_ ) the resort to any place within, or the passage through, such village of any person whom he knows, or reasonably suspects, to be a _thug_, robber, escaped convict or proclaimed offender;
+        - ( _c_ ) the commission of, or intention to commit, in or near such village any non-bailable offence or any offence punishable under section 187 and section 189 of Bharatiya Nyaya Sanhita, 2023;
+        - ( _d_ ) the occurrence in or near such village of any sudden or unnatural death or of any death under suspicious circumstances or the discovery in or near such village of any corpse or part of a corpse, in circumstances which lead to a reasonable suspicion that such a death has occurred or the disappearance from such village of any person in circumstances which lead to a reasonable suspicion that a non-bailable offence has been committed in respect of such person;
+        - ( _e_ ) the commission of, or intention to commit, at any place out of India near such village any act which, if committed in India, would be an offence punishable under any of the following sections of the Bharatiya Nyaya Sanhita, 2023, namely, 176, 177 and 179 (both inclusive), 101, 103, 305, 307 to 311 (both inclusive), 330, 176, 177, 178 and 179;
+        - ( _f_ ) any matter likely to affect the maintenance of order or the prevention of crime or the safety of person or property respecting which the District Magistrate, by general or special order made with the previous sanction of the State Government, has directed him to communicate information.
+
+    2. In this section,—
+        - ( _i_ ) "village" includes village-lands;
+        - ( _ii_ ) the expression "proclaimed offender" includes any person proclaimed as an offender by any Court or authority in any territory in India to which this Sanhita does not extend, in respect of any act which if committed in the territories to which this Sanhita extends, would be an offence punishable under any of the offence punishable with imprisonment for ten years or more or for imprisonment of life or with death under Bharatiya Nyaya Sanhita, 2023;
+        - ( _iii_ ) the words "officer employed in connection with the affairs of the village" means a member of the panchayat of the village and includes the headman and every officer or other person appointed to perform any function connected with the administration of the village.
+
+# CHAPTER V ARREST OF PERSONS
+
+35. 1. Any police officer may without an order from a Magistrate and without a warrant, arrest any person—
+    - ( _a_ ) who commits, in the presence of a police officer, a cognizable offence;
+    - ( _b_ ) against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists that he has committed a cognizable offence punishable with imprisonment for a term which may be less than seven years or which may extend to seven years whether with or without fine, if the following conditions are satisfied, namely:—
+        - ( _i_ ) the police officer has reason to believe on the basis of such complaint, information, or suspicion that such person has committed the said offence;
+        - ( _ii_ ) the police officer is satisfied that such arrest is necessary—
+            - ( _a_ ) to prevent such person from committing any further offence; or
+            - ( _b_ ) for proper investigation of the offence; or
+            - ( _c_ ) to prevent such person from causing the evidence of the offence to disappear or tampering with such evidence in any manner; or
+            - ( _d_ ) to prevent such person from making any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade him from disclosing such facts to the Court or to the police officer; or
+            - ( _e_ ) as unless such person is arrested, his presence in the Court whenever required cannot be ensured,
+              and the police officer shall record while making such arrest, his reasons in writing:
+              _Provided that_ a police officer shall, in all cases where the arrest of a person is not required under the provisions of this sub-section, record the reasons in writing for not making the arrest;
+        - ( _c_ ) against whom credible information has been received that he has committed a cognizable offence punishable with imprisonment for a term which may extend to more than seven years whether with or without fine or with death sentence and the police officer has reason to believe on the basis of that information that such person has committed the said offence;
+        - ( _d_ ) who has been proclaimed as an offender either under this Sanhita or by order of the State Government; or
+        - ( _e_ ) in whose possession anything is found which may reasonably be suspected to be stolen property and who may reasonably be suspected of having committed an offence with reference to such thing; or
+        - ( _f_ ) who obstructs a police officer while in the execution of his duty, or who has escaped, or attempts to escape, from lawful custody; or
+        - ( _g_ ) who is reasonably suspected of being a deserter from any of the Armed Forces of the Union; or
+        - ( _h_ ) who has been concerned in, or against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists, of his having been concerned in, any act committed at any place out of India which, if committed in India, would have been punishable as an offence, and for which he is, under any law relating to extradition, or otherwise, liable to be apprehended or detained in custody in India; or
+        - ( _i_ ) who, being a released convict, commits a breach of any rule made under sub-section ( 5 ) of section 394; or
+        - ( _j_ ) for whose arrest any requisition, whether written or oral, has been received from another police officer, provided that the requisition specifies the person to be arrested and the offence or other cause for which the arrest is to be made and it appears therefrom that the person might lawfully be arrested without a warrant by the officer who issued the requisition.
+    2. Subject to the provisions of section 39, no person concerned in a non-cognizable offence or against whom a complaint has been made or credible information has been received or reasonable suspicion exists of his having so concerned, shall be arrested except under a warrant or order of a Magistrate.
+    3. The police officer shall, in all cases where the arrest of a person is not required under sub-section ( 1 ) issue a notice directing the person against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists that he has committed a cognizable offence, to appear before him or at such other place as may be specified in the notice.
+    4. Where such a notice is issued to any person, it shall be the duty of that person to comply with the terms of the notice.
+    5. Where such person complies and continues to comply with the notice, he shall not be arrested in respect of the offence referred to in the notice unless, for reasons to be recorded, the police officer is of the opinion that he ought to be arrested.
+    6. Where such person, at any time, fails to comply with the terms of the notice or is unwilling to identify himself, the police officer may, subject to such orders as may have been passed by a competent Court in this behalf, arrest him for the offence mentioned in the notice.
+    7. No arrest shall be made without prior permission of the officer not below the rank of Deputy Superintendent of Police in case of an offence which is punishable for less than three years and such person is infirm or is above sixty years of age.
+
+36. Every police officer while making an arrest shall—
+    - ( _a_ ) bear an accurate, visible and clear identification of his name which will facilitate easy identification;
+    - ( _b_ ) prepare a memorandum of arrest which shall be—
+        - ( _i_ ) attested by at least one witness, who is a member of the family of the person arrested or a respectable member of the locality where the arrest is made;
+        - ( _ii_ ) countersigned by the person arrested; and
+    - ( _c_ ) inform the person arrested, unless the memorandum is attested by a member of his family, that he has a right to have a relative or a friend or any other person named by him to be informed of his arrest.
+
+37. The State Government shall—
+    - ( _a_ ) establish a Police control room in every district and at State level;
+    - ( _b_ ) designate a police officer in every district and in every police station, not below the rank of Assistant Sub-Inspector of Police who shall be responsible for maintaining the information about the names and addresses of the persons arrested, nature of the offence with which charged, which shall be prominently displayed in any manner including in digital mode in every police station and at the district headquarters.
+
+38. When any person is arrested and interrogated by the police, he shall be entitled to meet an advocate of his choice during interrogation, though not throughout interrogation.
+39. 1. When any person who, in the presence of a police officer, has committed or has been accused of committing a non-cognizable offence refuses on demand of such officer to give his name and residence or gives a name or residence which such officer has reason to believe to be false, he may be arrested by such officer in order that his name or residence may be ascertained.
+    2. When the true name and residence of such person have been ascertained, he shall be released on his executing a bond, with or without sureties, to appear before a Judicial Magistrate if so required:
+       _Provided that_, if such person is not resident in India, the bond shall be secured by a surety or sureties resident in India.
+    3. If the true name and residence of such person not be ascertained within twenty-four hours from the time of arrest or if he fails to execute the bond, or, if so required, to furnish sufficient sureties, he shall forthwith be forwarded to the nearest Magistrate having jurisdiction.
+
+40. 1. Any private person may arrest or cause to be arrested any person who in his presence commits a non-bailable and cognizable offence, or any proclaimed offender, and, without unnecessary delay, but within six hours from such arrest, shall make over or cause to be made over any person so arrested to a police officer, or, in the absence of a police officer, take such person or cause him to be taken in custody to the nearest police station.
+    2. If there is reason to believe that such person comes under the provisions of section 35, a police officer shall take him in custody.
+    3. If there is reason to believe that he has committed a non-cognizable offence, and he refuses on the demand of a police officer to give his name and residence, or gives a name or residence which such officer has reason to believe to be false, he shall be dealt with under the provisions of section 39; but if there is no sufficient reason to believe that he has committed any offence, he shall be at once released.
+
+41. 1. When any offence is committed in the presence of a Magistrate, whether Executive or Judicial, within his local jurisdiction, he may himself arrest or order any person to arrest the offender, and may thereupon, subject to the provisions herein contained as to bail, commit the offender to custody.
+    2. Any Magistrate, whether Executive or Judicial, may at any time arrest or direct the arrest, in his presence, within his local jurisdiction, of any person for whose arrest he is competent at the time and in the circumstances to issue a warrant.
+
+42. 1. Notwithstanding anything contained in sections 39 to 41 (both inclusive), no member of the Armed Forces of the Union shall be arrested for anything done or purported to be done by him in the discharge of his official duties except after obtaining the consent of the Central Government.
+    2. The State Government may, by notification, direct that the provisions of sub-section ( 1 ) shall apply to such class or category of the members of the Force charged with the maintenance of public order as may be specified therein, wherever they may be serving, and thereupon the provisions of that sub-section shall apply as if for the expression "Central Government" occurring therein, the expression "State Government" were substituted.
+
+43. 1. In making an arrest the police officer or other person making the same shall actually touch or confine the body of the person to be arrested, unless there be a submission to the custody by word or action: _Provided that_ where a woman is to be arrested, unless the circumstances indicate to the contrary, her submission to custody on an oral intimation of arrest shall be presumed and, unless the circumstances otherwise require or unless the police officer is a female, the police officer shall not touch the person of the woman for making her arrest, and give the information regarding such arrest and place where she is being held to any of her relatives, friends or such other persons as may be disclosed or mentioned by her for the purpose of giving such information.
+    2. If such person forcibly resists the endeavour to arrest him, or attempts to evade the arrest, such police officer or other person may use all means necessary to effect the arrest.
+    3. The police officer may, keeping in view the nature and gravity of the offence, use handcuff while effecting the arrest of a person who is a habitual, repeat offender who escaped from custody, who has committed offence of organised crime, offence of terrorist act, drug related crime, or offence of illegal possession of arms and ammunition, murder, rape, acid attack, counterfeiting of coins and currency notes, human trafficking, sexual offences against children, offences against the State, including acts endangering sovereignty, unity and integrity of India or economic offences.
+    4. Nothing in this section gives a right to cause the death of a person who is not accused of an offence punishable with death or with imprisonment for life.
+    5. Save in exceptional circumstances, no woman shall be arrested after sunset and before sunrise, and where such exceptional circumstances exist, the woman police officer shall, by making a written report, obtain the prior permission of the Judicial Magistrate of the first class within whose local jurisdiction the offence is committed or the arrest is to be made.
+
+44. 1. If any person acting under warrant of arrest, or any police officer having authority to arrest, has reason to believe that the person to be arrested has entered into, or is within, any place, any person residing in, or being in charge of, such place shall, on demand of such person acting as aforesaid or such police officer, allow him free ingress thereto, and afford all reasonable facilities for a search therein.
+    2. If ingress to such place cannot be obtained under sub-section ( 1 ), it shall be lawful in any case for a person acting under a warrant and in any case in which a warrant may issue, but cannot be obtained without affording the person to be arrested an opportunity of escape, for a police officer to enter such place and search therein, and in order to effect an entrance into such place, to break open any outer or inner door or window of any house or place, whether that of the person to be arrested or of any other person, if after notification of his authority and purpose, and demand of admittance duly made, he cannot otherwise obtain admittance: _Provided that_, if any such place is an apartment in the actual occupancy of a female (not being the persons to be arrested) who, according to custom, does not appear in public, such person or police officer shall, before entering such apartment, give notice to such female that she is at liberty to withdraw and shall afford her every reasonable facility for withdrawing, and may then break open the apartment and enter it.
+    3. Any police officer or other person authorised to make an arrest may break open any outer or inner door or window of any house or place in order to liberate himself or any other person who, having lawfully entered for the purpose of making an arrest, is detained therein.
+
+45. A police officer may, for the purpose of arresting without warrant any person whom he is authorised to arrest, pursue such person into any place in India.
+46. The person arrested shall not be subjected to more restraint than is necessary to prevent his escape.
+47. 1. Every police officer or other person arresting any person without warrant shall forthwith communicate to him full particulars of the offence for which he is arrested or other grounds for such arrest.
+    2. Where a police officer arrests without warrant any person other than a person accused of a non-bailable offence, he shall inform the person arrested that he is entitled to be released on bail and that he may arrange for sureties on his behalf.
+
+48. 1. Every police officer or other person making any arrest under this Sanhita shall forthwith give the information regarding such arrest and place where the arrested person is being held to any of his relatives, friends or such other persons as may be disclosed or mentioned by the arrested person for the purpose of giving such information and also to the designated police officer in the district.
+    2. The police officer shall inform the arrested person of his rights under sub-section ( 1 ) as soon as he is brought to the police station.
+    3. An entry of the fact as to who has been informed of the arrest of such person shall be made in a book to be kept in the police station in such form as the State Government may, by rules, provide.
+    4. It shall be the duty of the Magistrate before whom such arrested person is produced, to satisfy himself that the requirements of sub-section ( 2 ) and sub-section ( 3 ) have been complied with in respect of such arrested person.
+
+49. 1. Whenever,—
+        - ( _i_ ) a person is arrested by a police officer under a warrant which does not provide for the taking of bail, or under a warrant which provides for the taking of bail but the person arrested cannot furnish bail, and
+        - ( _ii_ ) a person is arrested without warrant, or by a private person under a warrant, and cannot legally be admitted to bail, or is unable to furnish bail, the officer making the arrest or, when the arrest is made by a private person, the police officer to whom he makes over the person arrested, may search such person, and place in safe custody all articles, other than necessary wearing-apparel, found upon him and where any article is seized from the arrested person, a receipt showing the articles taken in possession by the police officer shall be given to such person.
+    2. Whenever it is necessary to cause a female to be searched, the search shall be made by another female with strict regard to decency.
+
+50. The police officer or other person making any arrest under this Sanhita may, immediately after the arrest is made, take from the person arrested any offensive weapons which he has about his person, and shall deliver all weapons so taken to the Court or officer before which or whom the officer or person making the arrest is required by this Sanhita to produce the person arrested.
+51. 1. When a person is arrested on a charge of committing an offence of such a nature and alleged to have been committed under such circumstances that there are reasonable grounds for believing that an examination of his person will afford evidence as to the commission of an offence, it shall be lawful for a registered medical practitioner, acting at the request of any police officer, and for any person acting in good faith in his aid and under his direction, to make such an examination of the person arrested as is reasonably necessary in order to ascertain the facts which may afford such evidence, and to use such force as is reasonably necessary for that purpose.
+    2. Whenever the person of a female is to be examined under this section, the examination shall be made only by, or under the supervision of, a female registered medical practitioner.
+    3. The registered medical practitioner shall, without any delay, forward the examination report to the investigating officer. _Explanation_ .—In this section and in sections 52 and 53,—
+        - ( _a_ ) "examination" shall include the examination of blood, blood stains, semen, swabs in case of sexual offences, sputum and sweat, hair samples and finger nail clippings by the use of modern and scientific techniques including DNA profiling and such other tests which the registered medical practitioner thinks necessary in a particular case;
+        - ( _b_ ) "registered medical practitioner" means a medical practitioner who possesses any medical qualification recognised under the National Medical Commission Act, 2019 and whose name has been entered in the National Medical Register or a State Medical Register under that Act.
+
+52. 1. When a person is arrested on a charge of committing an offence of rape or an attempt to commit rape and there are reasonable grounds for believing that an examination of his person will afford evidence as to the commission of such offence, it shall be lawful for a registered medical practitioner employed in a hospital run by the Government or by a local authority and in the absence of such a practitioner within the radius of sixteen kilometers from the place where the offence has been committed, by any other registered medical practitioner, acting at the request of any police officer, and for any person acting in good faith in his aid and under his direction, to make such an examination of the arrested person and to use such force as is reasonably necessary for that purpose.
+    2. The registered medical practitioner conducting such examination shall, without delay, examine such person and prepare a report of his examination giving the following particulars, namely:—
+        - ( _i_ ) the name and address of the accused and of the person by whom he was brought;
+        - ( _ii_ ) the age of the accused;
+        - ( _iii_ ) marks of injury, if any, on the person of the accused;
+        - ( _iv_ ) the description of material taken from the person of the accused for DNA profiling; and
+        - ( _v_ ) other material particulars in reasonable detail.
+
+    3. The report shall state precisely the reasons for each conclusion arrived at.
+    4. The exact time of commencement and completion of the examination shall also be noted in the report.
+    5. The registered medical practitioner shall, without delay, forward the report to the investigating officer, who shall forward it to the Magistrate referred to in section 193 as part of the documents referred to in clause ( _a_ ) of sub-section ( _6_ ) of that section.
+
+53. 1. When any person is arrested, he shall be examined by a medical officer in the service of the Central Government or a State Government, and in case the medical officer is not available, by a registered medical practitioner soon after the arrest is made: _Provided that_ where the arrested person is a female, the examination of the body shall be made only by or under the supervision of a female medical officer, and in case the female medical officer is not available, by a female registered medical practitioner: _Provided further that_ if the registered medical practitioner is of the opinion that one more examination of such person is necessary, she may do so.
+    2. The medical officer or a registered medical practitioner so examining the arrested person shall prepare the record of such examination, mentioning therein any injuries or marks of violence upon the person arrested, and the approximate time when such injuries or marks may have been inflicted.
+    3. Where an examination is made under sub-section ( 1 ), a copy of the report of such examination shall be furnished by the medical officer or registered medical practitioner, as the case may be, to the arrested person or the person nominated by such arrested person.
+
+54. When a person is arrested on a charge of committing an offence and his identification by any other person or persons is considered necessary for the purpose of investigation of such offence, the Court, having jurisdiction may, on the request of the officer in charge of a police station, direct the person so arrested to subject himself to identification by any person or persons in such manner as the Court may deem fit: _Provided that_, if the person identifying the person arrested is mentally or physically disabled, such process of identification shall take place under the supervision of a Judicial Magistrate who shall take appropriate steps to ensure that such person identifies the person arrested using methods that person is comfortable with and the identification process shall be recorded by any audio-video electronic means.
+55. 1. When any officer in charge of a police station or any police officer making an investigation under Chapter XIII requires any officer subordinate to him to arrest without a warrant (otherwise than in his presence) any person who may lawfully be arrested without a warrant, he shall deliver to the officer required to make the arrest an order in writing, specifying the person to be arrested and the offence or other cause for which the arrest is to be made and the officer so required shall, before making the arrest, notify to the person to be arrested the substance of the order and, if so required by such person, shall show him the order.
+    2. Nothing in sub-section ( 1 ) shall affect the power of a police officer to arrest a person under section 35.
+
+56. It shall be the duty of the person having the custody of an accused to take reasonable care of the health and safety of the accused.
+57. A police officer making an arrest without warrant shall, without unnecessary delay and subject to the provisions herein contained as to bail, take or send the person arrested before a Judicial Magistrate having jurisdiction in the case, or before the officer in charge of a police station.
+58. No police officer shall detain in custody a person arrested without warrant for a longer period than under all the circumstances of the case is reasonable, and such period shall not, in the absence of a special order of a Magistrate under section 187, exceed twenty-four hours exclusive of the time necessary for the journey from the place of arrest to the Magistrate's Court, whether having jurisdiction or not.
+59. Officers in charge of police stations shall report to the District Magistrate, or, if he so directs, to the Sub-divisional Magistrate, the cases of all persons arrested without warrant, within the limits of their respective stations, whether such persons have been admitted to bail or otherwise.
+60. No person who has been arrested by a police officer shall be discharged except on his own bond, or on bail, or under the special order of a Magistrate.
+61. 1. If a person in lawful custody escapes or is rescued, the person from whose custody he escaped or was rescued may immediately pursue and arrest him in any place in India.
+    2. The provisions of section 44 shall apply to arrests under sub-section ( 1 ) although the person making any such arrest is not acting under a warrant and is not a police officer having authority to arrest.
+
+62. No arrest shall be made except in accordance with the provisions of this Sanhita or any other law for the time being in force providing for arrest.
+
+# CHAPTER VI PROCESSES TO COMPEL APPEARANCE
 
-( _ix_ ) sections 322 to 326;
-( _x_ ) section 330;
-( _xi_ ) section 329; and
-( _xii_ ) sections 176 to 180,
-shall, in the absence of any reasonable excuse, the burden of proving which excuse shall lie
-upon the person so aware, forthwith give information to the nearest Magistrate or police
-officer of such commission or intention.
-( 2 ) For the purposes of this section, the term "offence" includes any act committed at
-any place out of India which would constitute an offence if committed in India.
-
-```
-
-**34.** ( _1_ ) Every officer employed in connection with the affairs of a village and every
-person residing in a village shall forthwith communicate to the nearest Magistrate or to the
-officer in charge of the nearest police station, whichever is nearer, any information which he
-may possess respecting—
-( _a_ ) the permanent or temporary residence of any notorious receiver or vendor
-of stolen property in or near such village;
-( _b_ ) the resort to any place within, or the passage through, such village of any
-person whom he knows, or reasonably suspects, to be a _thug_ , robber, escaped convict
-or proclaimed offender;
-( _c_ ) the commission of, or intention to commit, in or near such village any
-non-bailable offence or any offence punishable under section 187 and section 189 of
-Bharatiya Nyaya Sanhita, 2023;
-( _d_ ) the occurrence in or near such village of any sudden or unnatural death or
-of any death under suspicious circumstances or the discovery in or near such village
-of any corpse or part of a corpse, in circumstances which lead to a reasonable suspicion
-that such a death has occurred or the disappearance from such village of any person
-in circumstances which lead to a reasonable suspicion that a non-bailable offence has
-been committed in respect of such person;
-( _e_ ) the commission of, or intention to commit, at any place out of India near
-such village any act which, if committed in India, would be an offence punishable
-under any of the following sections of the Bharatiya Nyaya Sanhita, 2023, namely,
-176, 177 and 179 (both inclusive), 101, 103, 305, 307 to 311 (both inclusive), 330, 176,
-177, 178 and 179;
-( _f_ ) any matter likely to affect the maintenance of order or the prevention of crime
-or the safety of person or property respecting which the District Magistrate, by
-general or special order made with the previous sanction of the State Government,
-has directed him to communicate information.
-( _2_ ) In this section,—
-( _i_ ) "village" includes village-lands;
-( _ii_ ) the expression "proclaimed offender" includes any person proclaimed as an
-offender by any Court or authority in any territory in India to which this Sanhita does
-not extend, in respect of any act which if committed in the territories to which this
-Sanhita extends, would be an offence punishable under any of the offence punishable
-with imprisonment for ten years or more or for imprisonment of life or with death
-under Bharatiya Nyaya Sanhita, 2023;
-( _iii_ ) the words "officer employed in connection with the affairs of the village"
-means a member of the panchayat of the village and includes the headman and every
-officer or other person appointed to perform any function connected with the
-administration of the village.
-
-##### CHAPTER V
-
-##### ARREST OF PERSONS
-
-**35.** ( _1_ ) Any police officer may without an order from a Magistrate and without a
-warrant, arrest any person—
-( _a_ ) who commits, in the presence of a police officer, a cognizable offence;
-( _b_ ) against whom a reasonable complaint has been made, or credible information
-has been received, or a reasonable suspicion exists that he has committed a cognizable
-offence punishable with imprisonment for a term which may be less than seven years
-or which may extend to seven years whether with or without fine, if the following
-conditions are satisfied, namely:—
-( _i_ ) the police officer has reason to believe on the basis of such complaint,
-information, or suspicion that such person has committed the said offence;
-( _ii_ ) the police officer is satisfied that such arrest is necessary—
-( _a_ ) to prevent such person from committing any further offence; or
-( _b_ ) for proper investigation of the offence; or
-( _c_ ) to prevent such person from causing the evidence of the offence
-to disappear or tampering with such evidence in any manner; or
-( _d_ ) to prevent such person from making any inducement, threat or
-promise to any person acquainted with the facts of the case so as to
-dissuade him from disclosing such facts to the Court or to the police
-officer; or
-( _e_ ) as unless such person is arrested, his presence in the Court
-whenever required cannot be ensured,
-and the police officer shall record while making such arrest, his reasons in
-writing:
-Provided that a police officer shall, in all cases where the arrest of a person is
-not required under the provisions of this sub-section, record the reasons in writing
-for not making the arrest;
-( _c_ ) against whom credible information has been received that he has committed
-a cognizable offence punishable with imprisonment for a term which may extend to
-more than seven years whether with or without fine or with death sentence and the
-police officer has reason to believe on the basis of that information that such person
-has committed the said offence;
-( _d_ ) who has been proclaimed as an offender either under this Sanhita or by
-order of the State Government; or
-( _e_ ) in whose possession anything is found which may reasonably be suspected
-to be stolen property and who may reasonably be suspected of having committed an
-offence with reference to such thing; or
-( _f_ ) who obstructs a police officer while in the execution of his duty, or who has
-escaped, or attempts to escape, from lawful custody; or
-( _g_ ) who is reasonably suspected of being a deserter from any of the Armed
-Forces of the Union; or
-( _h_ ) who has been concerned in, or against whom a reasonable complaint has
-been made, or credible information has been received, or a reasonable suspicion
-exists, of his having been concerned in, any act committed at any place out of India
-which, if committed in India, would have been punishable as an offence, and for
-which he is, under any law relating to extradition, or otherwise, liable to be apprehended
-or detained in custody in India; or
-( _i_ ) who, being a released convict, commits a breach of any rule made under
-sub-section ( _5_ ) of section 394; or
-( _j_ ) for whose arrest any requisition, whether written or oral, has been received
-from another police officer, provided that the requisition specifies the person to be
-arrested and the offence or other cause for which the arrest is to be made and it
-appears therefrom that the person might lawfully be arrested without a warrant by the
-officer who issued the requisition.
-( 2 ) Subject to the provisions of section 39, no person concerned in a non-cognizable
-offence or against whom a complaint has been made or credible information has been
-received or reasonable suspicion exists of his having so concerned, shall be arrested except
-under a warrant or order of a Magistrate.
-( 3 ) The police officer shall, in all cases where the arrest of a person is not required
-under sub-section ( 1 ) issue a notice directing the person against whom a reasonable
-complaint has been made, or credible information has been received, or a reasonable suspicion
-exists that he has committed a cognizable offence, to appear before him or at such other
-place as may be specified in the notice.
-( 4 ) Where such a notice is issued to any person, it shall be the duty of that person to
-comply with the terms of the notice.
-( 5 ) Where such person complies and continues to comply with the notice, he shall
-not be arrested in respect of the offence referred to in the notice unless, for reasons to be
-recorded, the police officer is of the opinion that he ought to be arrested.
-( 6 ) Where such person, at any time, fails to comply with the terms of the notice or is
-unwilling to identify himself, the police officer may, subject to such orders as may have
-been passed by a competent Court in this behalf, arrest him for the offence mentioned in the
-notice.
-( 7 ) No arrest shall be made without prior permission of the officer not below the rank
-of Deputy Superintendent of Police in case of an offence which is punishable for less than
-three years and such person is infirm or is above sixty years of age.
-
-```
-
-**36.** Every police officer while making an arrest shall—
-( _a_ ) bear an accurate, visible and clear identification of his name which will
-facilitate easy identification;
-( _b_ ) prepare a memorandum of arrest which shall be—
-( _i_ ) attested by at least one witness, who is a member of the family of the
-person arrested or a respectable member of the locality where the arrest is
-made;
-( _ii_ ) countersigned by the person arrested; and
-( _c_ ) inform the person arrested, unless the memorandum is attested by a member
-of his family, that he has a right to have a relative or a friend or any other person
-named by him to be informed of his arrest.
-**37.** The State Government shall—
-( _a_ ) establish a Police control room in every district and at State level;
-( _b_ ) designate a police officer in every district and in every police station, not
-below the rank of Assistant Sub-Inspector of Police who shall be responsible for
-maintaining the information about the names and addresses of the persons arrested,
-nature of the offence with which charged, which shall be prominently displayed in
-any manner including in digital mode in every police station and at the district
-headquarters.
-
-**38.** When any person is arrested and interrogated by the police, he shall be entitled
-to meet an advocate of his choice during interrogation, though not throughout interrogation.
-**39.** ( _1_ ) When any person who, in the presence of a police officer, has committed or
-has been accused of committing a non-cognizable offence refuses on demand of such
-officer to give his name and residence or gives a name or residence which such officer has
-reason to believe to be false, he may be arrested by such officer in order that his name or
-residence may be ascertained.
-
-( _2_ ) When the true name and residence of such person have been ascertained, he shall
-be released on his executing a bond, with or without sureties, to appear before a Judicial
-Magistrate if so required:
-
-Provided that, if such person is not resident in India, the bond shall be secured by a
-surety or sureties resident in India.
-
-( _3_ ) Should If the true name and residence of such person not be ascertained within
-twenty-four hours from the time of arrest or if he fails to execute the bond, or, if so required,
-to furnish sufficient sureties, he shall forthwith be forwarded to the nearest Magistrate
-having jurisdiction.
-**40.** ( _1_ ) Any private person may arrest or cause to be arrested any person who in his
-presence commits a non-bailable and cognizable offence, or any proclaimed offender, and,
-without unnecessary delay, but within six hours from such arrest, shall make over or cause
-to be made over any person so arrested to a police officer, or, in the absence of a police
-officer, take such person or cause him to be taken in custody to the nearest police station.
-
-( _2_ ) If there is reason to believe that such person comes under the provisions of
-section 35, a police officer shall take him in custody.
-
-( _3_ ) If there is reason to believe that he has committed a non-cognizable offence, and
-he refuses on the demand of a police officer to give his name and residence, or gives a name
-or residence which such officer has reason to believe to be false, he shall be dealt with
-under the provisions of section 39; but if there is no sufficient reason to believe that he has
-committed any offence, he shall be at once released.
-
-**41.** ( _1_ ) When any offence is committed in the presence of a Magistrate, whether
-Executive or Judicial, within his local jurisdiction, he may himself arrest or order any person
-to arrest the offender, and may thereupon, subject to the provisions herein contained as to
-bail, commit the offender to custody.
-
-( _2_ ) Any Magistrate, whether Executive or Judicial, may at any time arrest or direct the
-arrest, in his presence, within his local jurisdiction, of any person for whose arrest he is
-competent at the time and in the circumstances to issue a warrant.
-
-**42.** ( _1_ ) Notwithstanding anything contained in sections 39 to 41 (both inclusive), no
-member of the Armed Forces of the Union shall be arrested for anything done or purported
-to be done by him in the discharge of his official duties except after obtaining the consent
-of the Central Government.
-
-( _2_ ) The State Government may, by notification, direct that the provisions of
-sub-section ( _1_ ) shall apply to such class or category of the members of the Force charged
-with the maintenance of public order as may be specified therein, wherever they may be
-serving, and thereupon the provisions of that sub-section shall apply as if for the expression
-"Central Government" occurring therein, the expression "State Government" were
-substituted.
-
-**43.** ( _1_ ) In making an arrest the police officer or other person making the same shall
-actually touch or confine the body of the person to be arrested, unless there be a submission
-to the custody by word or action:
-
-Provided that where a woman is to be arrested, unless the circumstances indicate to
-the contrary, her submission to custody on an oral intimation of arrest shall be presumed
-and, unless the circumstances otherwise require or unless the police officer is a female, the
-police officer shall not touch the person of the woman for making her arrest, and give the
-information regarding such arrest and place where she is being held to any of her relatives,
-friends or such other persons as may be disclosed or mentioned by her for the purpose of
-giving such information.
-
-( _2_ ) If such person forcibly resists the endeavour to arrest him, or attempts to evade
-the arrest, such police officer or other person may use all means necessary to effect the
-arrest.
-
-( _3_ ) The police officer may, keeping in view the nature and gravity of the offence, use
-handcuff while effecting the arrest of a person who is a habitual, repeat offender who
-escaped from custody, who has committed offence of organised crime, offence of terrorist
-act, drug related crime, or offence of illegal possession of arms and ammunition, murder,
-rape, acid attack, counterfeiting of coins and currency notes, human trafficking, sexual
-offences against children, offences against the State, including acts endangering
-sovereignty, unity and integrity of India or economic offences.
-
-( _4_ ) Nothing in this section gives a right to cause the death of a person who is not
-accused of an offence punishable with death or with imprisonment for life.
-
-( _5_ ) Save in exceptional circumstances, no woman shall be arrested after sunset and
-before sunrise, and where such exceptional circumstances exist, the woman police officer
-shall, by making a written report, obtain the prior permission of the Judicial Magistrate of
-the first class within whose local jurisdiction the offence is committed or the arrest is to be
-made.
-
-**44.** ( _1_ ) If any person acting under warrant of arrest, or any police officer having
-authority to arrest, has reason to believe that the person to be arrested has entered into, or
-is within, any place, any person residing in, or being in charge of, such place shall, on
-demand of such person acting as aforesaid or such police officer, allow him free ingress
-thereto, and afford all reasonable facilities for a search therein.
-
-( _2_ ) If ingress to such place cannot be obtained under sub-section ( _1_ ), it shall be lawful
-in any case for a person acting under a warrant and in any case in which a warrant may
-issue, but cannot be obtained without affording the person to be arrested an opportunity of
-escape, for a police officer to enter such place and search therein, and in order to effect an
-entrance into such place, to break open any outer or inner door or window of any house or
-place, whether that of the person to be arrested or of any other person, if after notification
-of his authority and purpose, and demand of admittance duly made, he cannot otherwise
-obtain admittance:
-
-Provided that, if any such place is an apartment in the actual occupancy of a female
-(not being the persons to be arrested) who, according to custom, does not appear in public,
-such person or police officer shall, before entering such apartment, give notice to such
-female that she is at liberty to withdraw and shall afford her every reasonable facility for
-withdrawing, and may then break open the apartment and enter it.
-
-( _3_ ) Any police officer or other person authorised to make an arrest may break open
-any outer or inner door or window of any house or place in order to liberate himself or any
-other person who, having lawfully entered for the purpose of making an arrest, is detained
-therein.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-**45.** A police officer may, for the purpose of arresting without warrant any person
-whom he is authorised to arrest, pursue such person into any place in India.
-**46.** The person arrested shall not be subjected to more restraint than is necessary to
-prevent his escape.
-**47.** ( _1_ ) Every police officer or other person arresting any person without warrant shall
-forthwith communicate to him full particulars of the offence for which he is arrested or other
-grounds for such arrest.
-( _2_ ) Where a police officer arrests without warrant any person other than a person
-accused of a non-bailable offence, he shall inform the person arrested that he is entitled to
-be released on bail and that he may arrange for sureties on his behalf.
-**48.** ( _1_ ) Every police officer or other person making any arrest under this Sanhita shall
-forthwith give the information regarding such arrest and place where the arrested person is
-being held to any of his relatives, friends or such other persons as may be disclosed or
-mentioned by the arrested person for the purpose of giving such information and also to
-the designated police officer in the district.
-( _2_ ) The police officer shall inform the arrested person of his rights under
-sub-section ( _1_ ) as soon as he is brought to the police station.
-( _3_ ) An entry of the fact as to who has been informed of the arrest of such person shall
-be made in a book to be kept in the police station in such form as the State Government may,
-by rules, provide.
-( _4_ ) It shall be the duty of the Magistrate before whom such arrested person is produced,
-to satisfy himself that the requirements of sub-section ( _2_ ) and sub-section ( _3_ ) have been
-complied with in respect of such arrested person.
-**49.** ( _1_ ) Whenever,—
-
-- ( _i_ ) a person is arrested by a police officer under a warrant which does not
-  provide for the taking of bail, or under a warrant which provides for the taking of bail
-  but the person arrested cannot furnish bail, and
-- ( _ii_ ) a person is arrested without warrant, or by a private person under a warrant,
-  and cannot legally be admitted to bail, or is unable to furnish bail,
-
-the officer making the arrest or, when the arrest is made by a private person, the police
-officer to whom he makes over the person arrested, may search such person, and place in
-safe custody all articles, other than necessary wearing-apparel, found upon him and where
-any article is seized from the arrested person, a receipt showing the articles taken in
-possession by the police officer shall be given to such person.
-
-( _2_ ) Whenever it is necessary to cause a female to be searched, the search shall be
-made by another female with strict regard to decency.
-**50.** The police officer or other person making any arrest under this Sanhita may,
-immediately after the arrest is made, take from the person arrested any offensive weapons
-which he has about his person, and shall deliver all weapons so taken to the Court or officer
-before which or whom the officer or person making the arrest is required by this Sanhita to
-produce the person arrested.
-**51.** ( _1_ ) When a person is arrested on a charge of committing an offence of such a
-nature and alleged to have been committed under such circumstances that there are
-reasonable grounds for believing that an examination of his person will afford evidence as
-to the commission of an offence, it shall be lawful for a registered medical practitioner,
-acting at the request of any police officer, and for any person acting in good faith in his aid
-and under his direction, to make such an examination of the person arrested as is reasonably
-
-```
-45
-```
-
-```
-necessary in order to ascertain the facts which may afford such evidence, and to use such
-force as is reasonably necessary for that purpose.
-```
-
-```
-( 2 ) Whenever the person of a female is to be examined under this section, the
-examination shall be made only by, or under the supervision of, a female registered medical
-practitioner.
-```
-
-```
-( 3 ) The registered medical practitioner shall, without any delay, forward the examination
-report to the investigating officer.
-```
-
-```
-Explanation .—In this section and in sections 52 and 53,—
-```
-
-```
-( a ) "examination" shall include the examination of blood, blood stains, semen,
-swabs in case of sexual offences, sputum and sweat, hair samples and finger nail
-clippings by the use of modern and scientific techniques including DNA profiling and
-such other tests which the registered medical practitioner thinks necessary in a
-particular case;
-```
-
-```
-( b ) "registered medical practitioner" means a medical practitioner who possesses
-any medical qualification recognised under the National Medical Commission Act,
-2019 and whose name has been entered in the National Medical Register or a State
-Medical Register under that Act.
-```
-
-**52.** ( _1_ ) When a person is arrested on a charge of committing an offence of rape or an
-attempt to commit rape and there are reasonable grounds for believing that an examination
-of his person will afford evidence as to the commission of such offence, it shall be lawful for
-a registered medical practitioner employed in a hospital run by the Government or by a local
-authority and in the absence of such a practitioner within the radius of sixteen kilometers
-from the place where the offence has been committed, by any other registered medical
-practitioner, acting at the request of any police officer, and for any person acting in good
-faith in his aid and under his direction, to make such an examination of the arrested person
-and to use such force as is reasonably necessary for that purpose.
-( _2_ ) The registered medical practitioner conducting such examination shall, without
-delay, examine such person and prepare a report of his examination giving the following
-particulars, namely:—
-( _i_ ) the name and address of the accused and of the person by whom he was
-brought;
-( _ii_ ) the age of the accused;
-( _iii_ ) marks of injury, if any, on the person of the accused;
-( _iv_ ) the description of material taken from the person of the accused for DNA
-profiling; and
-( _v_ ) other material particulars in reasonable detail.
-( _3_ ) The report shall state precisely the reasons for each conclusion arrived at.
-( _4_ ) The exact time of commencement and completion of the examination shall also be
-noted in the report.
-( _5_ ) The registered medical practitioner shall, without delay, forward the report to the
-investigating officer, who shall forward it to the Magistrate referred to in section 193 as part
-of the documents referred to in clause ( _a_ ) of sub-section ( _6_ ) of that section.
-**53.** ( _1_ ) When any person is arrested, he shall be examined by a medical officer in the
-service of the Central Government or a State Government, and in case the medical officer is
-not available, by a registered medical practitioner soon after the arrest is made:
-
-Examination
-of person
-accused of
-rape by
-medical
-practitioner.
-
-Examination
-of arrested
-person by
-medical
-officer.
-
-```
-30 of 2019.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-Provided that where the arrested person is a female, the examination of the body shall
-be made only by or under the supervision of a female medical officer, and in case the female
-medical officer is not available, by a female registered medical practitioner:
-Provided further that if the registered medical practitioner is of the opinion that one
-more examination of such person is necessary, she may do so.
-( 2 ) The medical officer or a registered medical practitioner so examining the arrested
-person shall prepare the record of such examination, mentioning therein any injuries or
-marks of violence upon the person arrested, and the approximate time when such injuries or
-marks may have been inflicted.
-( 3 ) Where an examination is made under sub-section ( 1 ), a copy of the report of such
-examination shall be furnished by the medical officer or registered medical practitioner, as
-the case may be, to the arrested person or the person nominated by such arrested person.
-```
-
-**54.** Where a person is arrested on a charge of committing an offence and his
-identification by any other person or persons is considered necessary for the purpose of
-investigation of such offence, the Court, having jurisdiction may, on the request of the
-officer in charge of a police station, direct the person so arrested to subject himself to
-identification by any person or persons in such manner as the Court may deem fit:
-
-```
-Provided that, if the person identifying the person arrested is mentally or physically
-disabled, such process of identification shall take place under the supervision of a Judicial
-Magistrate who shall take appropriate steps to ensure that such person identifies the
-person arrested using methods that person is comfortable with and the identification process
-shall be recorded by any audio-video electronic means.
-```
-
-**55.** ( _1_ ) When any officer in charge of a police station or any police officer making an
-investigation under Chapter XIII requires any officer subordinate to him to arrest without a
-warrant (otherwise than in his presence) any person who may lawfully be arrested without
-a warrant, he shall deliver to the officer required to make the arrest an order in writing,
-specifying the person to be arrested and the offence or other cause for which the arrest is
-to be made and the officer so required shall, before making the arrest, notify to the person
-to be arrested the substance of the order and, if so required by such person, shall show him
-the order.
-( _2_ ) Nothing in sub-section ( _1_ ) shall affect the power of a police officer to arrest a
-person under section 35.
-**56.** It shall be the duty of the person having the custody of an accused to take
-reasonable care of the health and safety of the accused.
-**57.** A police officer making an arrest without warrant shall, without unnecessary
-delay and subject to the provisions herein contained as to bail, take or send the person
-arrested before a Judicial Magistrate having jurisdiction in the case, or before the officer in
-charge of a police station.
-**58.** No police officer shall detain in custody a person arrested without warrant for a
-longer period than under all the circumstances of the case is reasonable, and such period
-shall not, in the absence of a special order of a Magistrate under section 187, exceed
-twenty-four hours exclusive of the time necessary for the journey from the place of arrest to
-the Magistrate's Court, whether having jurisdiction or not.
-**59.** Officers in charge of police stations shall report to the District Magistrate, or, if
-he so directs, to the Sub-divisional Magistrate, the cases of all persons arrested without
-warrant, within the limits of their respective stations, whether such persons have been
-admitted to bail or otherwise.
-
-```
-Identification
-of person
-arrested.
-```
-
-```
-Procedure
-when police
-officer deputes
-subordinate to
-arrest without
-warrant.
-```
-
-```
-Health and
-safety of
-arrested person.
-Person
-arrested to be
-taken before
-Magistrate or
-officer in
-charge of
-police station.
-Person
-arrested not to
-be detained
-more than
-twenty-four
-hours.
-```
-
-```
-Police to
-report
-apprehensions.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-15
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-**60.** No person who has been arrested by a police officer shall be discharged except
-on his own bond, or on bail, or under the special order of a Magistrate.
-**61.** ( _1_ ) If a person in lawful custody escapes or is rescued, the person from whose
-custody he escaped or was rescued may immediately pursue and arrest him in any place in
-India.
-
-```
-( 2 ) The provisions of section 44 shall apply to arrests under sub-section ( 1 ) although
-the person making any such arrest is not acting under a warrant and is not a police officer
-having authority to arrest.
-```
-
-**62.** No arrest shall be made except in accordance with the provisions of this Sanhita
-or any other law for the time being in force providing for arrest.
-
-##### CHAPTER VI
-
-##### PROCESSES TO COMPEL APPEARANCE
-
-```
 A.—Summons
-```
 
-**63.** Every summons issued by a Court under this Sanhita shall be,—
+63. Every summons issued by a Court under this Sanhita shall be,—
+    - ( _i_ ) in writing, in duplicate, signed by the presiding officer of such Court or by such other officer as the High Court may, from time to time, by rule direct, and shall bear the seal of the Court; or
+    - ( _ii_ ) in an encrypted or any other form of electronic communication and shall bear the image of the seal of the Court.
 
-```
-( i ) in writing, in duplicate, signed by the presiding officer of such Court or by
-such other officer as the High Court may, from time to time, by rule direct, and shall
-bear the seal of the Court; or
-```
+64. 1. Every summons shall be served by a police officer, or subject to such rules as the State Government may make in this behalf, by an officer of the Court issuing it or other public servant:
 
-```
-( ii ) in an encrypted or any other form of electronic communication and shall
-bear the image of the seal of the Court.
-```
+        _Provided that_ the police station or the registrar in the Court shall maintain a register to enter the address, email address, phone number and such other details as State Government may, by rules, provide.
 
-**64.** ( _1_ ) Every summons shall be served by a police officer, or subject to such rules as
-the State Government may make in this behalf, by an officer of the Court issuing it or other
-public servant:
+    2. The summons shall, if practicable, be served personally on the person summoned, by delivering or tendering to him one of the duplicates of the summons:
 
-```
-Provided that the police station or the registrar in the Court shall maintain a register to
-enter the address, email address, phone number and such other details as State Government
-may, by rules, provide.
-```
+        _Provided that_ summons bearing the image of Court's seal may also be served by electronic communication in such form and in such manner, as the State Government may, by rules, provide.
 
-```
-( 2 ) The summons shall, if practicable, be served personally on the person summoned,
-by delivering or tendering to him one of the duplicates of the summons:
-```
+    3. Every person on whom a summons is so served personally shall, if so required by the serving officer, sign a receipt therefor on the back of the other duplicate.
 
-```
-Provided that summons bearing the image of Court's seal may also be served by
-electronic communication in such form and in such manner, as the State Government may,
-by rules, provide.
-```
+65. 1. Service of a summons on a company or corporation may be effected by serving it on the Director, Manager, Secretary or other officer of the company or corporation, or by letter sent by registered post addressed to the Director, Manager, Secretary or other officer of the company or corporation in India, in which case the service shall be deemed to have been effected when the letter would arrive in ordinary course of post.
 
-```
-( 3 ) Every person on whom a summons is so served personally shall, if so required by
-the serving officer, sign a receipt therefor on the back of the other duplicate.
-```
+        _Explanation_ .—In this section, "company" means a body corporate and "corporation" means an incorporated company or other body corporate or a society registered under the Societies Registration Act, 1860.
 
-**65.** ( _1_ ) Service of a summons on a company or corporation may be effected by serving
-it on the Director, Manager, Secretary or other officer of the company or corporation, or by
-letter sent by registered post addressed to the Director, Manager, Secretary or other officer
-of the company or corporation in India, in which case the service shall be deemed to have
-been effected when the letter would arrive in ordinary course of post.
+    2. Service of a summons on a firm or other association of individuals may be effected by serving it on any partner of such firm or association, or by letter sent by registered post addressed to such partner, in which case the service shall be deemed to have been effected when the letter would arrive in ordinary course of post.
 
-```
-Explanation .—In this section, "company" means a body corporate and "corporation"
-means an incorporated company or other body corporate or a society registered under the
-Societies Registration Act, 1860.
-```
+66. Where the person summoned cannot, by the exercise of due diligence, be found, the summons may be served by leaving one of the duplicates for him with some adult member of his family residing with him, and the person with whom the summons is so left shall, if so required by the serving officer, sign a receipt therefor on the back of the other duplicate.
 
-```
-( 2 ) Service of a summons on a firm or other association of individuals may be effected
-by serving it on any partner of such firm or association, or by letter sent by registered post
-addressed to such partner, in which case the service shall be deemed to have been effected
-when the letter would arrive in ordinary course of post.
-```
+    _Explanation_ .—A servant is not a member of the family within the meaning of this section.
 
-Discharge of
-person
-apprehended.
+67. If service cannot by the exercise of due diligence be effected as provided in section 64, section 65 or section 66, the serving officer shall affix one of the duplicates of the summons to some conspicuous part of the house or homestead in which the person summoned ordinarily resides; and thereupon the Court, after making such inquiries as it thinks fit, may either declare that the summons has been duly served or order fresh service in such manner as it considers proper.
+68. 1. Where the person summoned is in the active service of the Government, the Court issuing the summons shall ordinarily send it in duplicate to the head of the office in which such person is employed; and such head shall thereupon cause the summons to be served in the manner provided by section 64, and shall return it to the Court under his signature with the endorsement required by that section.
+    2. Such signature shall be evidence of due service.
+69. When a Court desires that a summons issued by it shall be served at any place outside its local jurisdiction, it shall ordinarily send such summons in duplicate to a Magistrate within whose local jurisdiction the person summoned resides, or is, to be there served.
+70. 1. When a summons issued by a Court is served outside its local jurisdiction, and in any case where the officer who has served a summons is not present at the hearing of the case, an affidavit, purporting to be made before a Magistrate, that such summons has been served, and a duplicate of the summons purporting to be endorsed (in the manner provided by section 64 or section 66) by the person to whom it was delivered or tendered or with whom it was left, shall be admissible in evidence, and the statements made therein shall be deemed to be correct unless and until the contrary is proved.
+    2. The affidavit mentioned in this section may be attached to the duplicate of the summons and returned to the Court.
+    3. All summons served through electronic communication under sections 64 to 71 shall be considered as duly served and a copy of such electronic summons shall be attested and kept as a proof of service of summons.
+71. 1. Notwithstanding anything contained in the preceding sections of this Chapter, a Court issuing a summons to a witness may, in addition to and simultaneously with the issue of such summons, direct a copy of the summons to be served by electronic communication or by registered post addressed to the witness at the place where he ordinarily resides or carries on business or personally works for gain:
+    2. When an acknowledgement purporting to be signed by the witness or an endorsement purporting to be made by a postal employee that the witness refused to take delivery of the summons has been received or on the proof of delivery of summons under sub-section ( 3 ) of section 70 by electronic communication to the satisfaction of the Court, the Court issuing summons may deem that the summons had been duly served.
 
-Power, on
-escape, to
-pursue and
-retake.
+---
 
-Arrest to be
-made strictly
-according to
-Sanhita.
-
-Form of
-summons.
-
-Summons how
-served.
-
-Service of
-summons on
-corporate
-bodies, firms,
-and societies.
-
-```
-21 of 1860.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-**66.** Where the person summoned cannot, by the exercise of due diligence, be found,
-the summons may be served by leaving one of the duplicates for him with some adult
-member of his family residing with him, and the person with whom the summons is so left
-shall, if so required by the serving officer, sign a receipt therefor on the back of the other
-duplicate.
-
-```
-Explanation .—A servant is not a member of the family within the meaning of this
-section.
-```
-
-**67.** If service cannot by the exercise of due diligence be effected as provided in
-section 64, section 65 or section 66, the serving officer shall affix one of the duplicates of the
-summons to some conspicuous part of the house or homestead in which the person
-summoned ordinarily resides; and thereupon the Court, after making such inquiries as it
-thinks fit, may either declare that the summons has been duly served or order fresh service
-in such manner as it considers proper.
-**68.** ( _1_ ) Where the person summoned is in the active service of the Government, the
-Court issuing the summons shall ordinarily send it in duplicate to the head of the office in
-which such person is employed; and such head shall thereupon cause the summons to be
-served in the manner provided by section 64, and shall return it to the Court under his
-signature with the endorsement required by that section.
-
-```
-( 2 ) Such signature shall be evidence of due service.
-```
-
-**69.** When a Court desires that a summons issued by it shall be served at any place
-outside its local jurisdiction, it shall ordinarily send such summons in duplicate to a
-Magistrate within whose local jurisdiction the person summoned resides, or is, to be there
-served.
-**70.** ( _1_ ) When a summons issued by a Court is served outside its local jurisdiction, and
-in any case where the officer who has served a summons is not present at the hearing of the
-case, an affidavit, purporting to be made before a Magistrate, that such summons has been
-served, and a duplicate of the summons purporting to be endorsed (in the manner provided
-by section 64 or section 66) by the person to whom it was delivered or tendered or with
-whom it was left, shall be admissible in evidence, and the statements made therein shall be
-deemed to be correct unless and until the contrary is proved.
-( _2_ ) The affidavit mentioned in this section may be attached to the duplicate of the
-summons and returned to the Court.
-( _3_ ) All summons served through electronic communication under sections 64 to 71
-shall be considered as duly served and a copy of such electronic summons shall be attested
-and kept as a proof of service of summons.
-**71.** ( _1_ ) Notwithstanding anything contained in the preceding sections of this Chapter,
-a Court issuing a summons to a witness may, in addition to and simultaneously with the
-issue of such summons, direct a copy of the summons to be served by electronic
-communication or by registered post addressed to the witness at the place where he ordinarily
-resides or carries on business or personally works for gain:
-( _2_ ) When an acknowledgement purporting to be signed by the witness or an
-endorsement purporting to be made by a postal employee that the witness refused to take
-delivery of the summons has been received or on the proof of delivery of summons under
-sub-section ( _3_ ) of section 70 by electronic communication to the satisfaction of the Court,
-the Court issuing summons may deem that the summons had been duly served.
-
-```
 B.—Warrant of arrest
-```
 
-**72.** ( _1_ ) Every warrant of arrest issued by a Court under this Sanhita shall be in writing,
-signed by the presiding officer of such Court and shall bear the seal of the Court.
+72. 1. Every warrant of arrest issued by a Court under this Sanhita shall be in writing, signed by the presiding officer of such Court and shall bear the seal of the Court.
+    2. Every such warrant shall remain in force until it is cancelled by the Court which issued it, or until it is executed.
+73. 1. Any Court issuing a warrant for the arrest of any person may in its discretion direct by endorsement on the warrant that, if such person executes a bond with sufficient sureties for his attendance before the Court at a specified time and thereafter until otherwise directed by the Court, the officer to whom the warrant is directed shall take such security and shall release such person from custody.
+    2. The endorsement shall state—
+        - ( a ) the number of sureties;
+        - ( b ) the amount in which they and the person for whose arrest the warrant is issued, are to be respectively bound;
+        - ( c ) the time at which he is to attend before the Court.
 
-```
-Service when
-persons
-summoned
-cannot be
-found.
-```
+    3. Whenever security is taken under this section, the officer to whom the warrant is directed shall forward the bond to the Court.
 
-```
-Procedure
-when service
-cannot be
-effected as
-before
-provided.
-```
+74. 1. A warrant of arrest shall ordinarily be directed to one or more police officers; but the Court issuing such a warrant may, if its immediate execution is necessary and no police officer is immediately available, direct it to any other person or persons, and such person or persons shall execute the same.
+    2. When a warrant is directed to more officers or persons than one, it may be executed by all, or by any one or more of them.
+75. 1. The Chief Judicial Magistrate or a Magistrate of the first class may direct a warrant to any person within his local jurisdiction for the arrest of any escaped convict, proclaimed offender or of any person who is accused of a non-bailable offence and is evading arrest.
+    2. Such person shall acknowledge in writing the receipt of the warrant, and shall execute it if the person for whose arrest it was issued, is in, or enters on, any land or other property under his charge.
+    3. When the person against whom such warrant is issued is arrested, he shall be made over with the warrant to the nearest police officer, who shall cause him to be taken before a Magistrate having jurisdiction in the case, unless security is taken under section 73.
+76. A warrant directed to any police officer may also be executed by any other police officer whose name is endorsed upon the warrant by the officer to whom it is directed or endorsed.
+77. The police officer or other person executing a warrant of arrest shall notify the substance thereof to the person to be arrested, and, if so required, shall show him the warrant.
+78. The police officer or other person executing a warrant of arrest shall (subject to the provisions of section 73 as to security) without unnecessary delay bring the person arrested before the Court before which he is required by law to produce such person:
 
-```
-Service on
-Government
-servant.
-```
+    _Provided that_ such delay shall not, in any case, exceed twenty-four hours exclusive of the time necessary for the journey from the place of arrest to the Magistrate's Court.
 
-```
-Service of
-summons
-outside local
-limits.
-```
+79. A warrant of arrest may be executed at any place in India.
+80. 1. When a warrant is to be executed outside the local jurisdiction of the Court issuing it, such Court may, instead of directing the warrant to a police officer within its jurisdiction, forward it by post or otherwise to any Executive Magistrate or District Superintendent of Police or Commissioner of Police within the local limits of whose jurisdiction it is to be executed; and the Executive Magistrate or District Superintendent or Commissioner shall endorse his name thereon, and if practicable, cause it to be executed in the manner hereinbefore provided.
+    2. The Court issuing a warrant under sub-section ( 1 ) shall forward, along with the warrant, the substance of the information against the person to be arrested together with such documents, if any, as may be sufficient to enable the Court acting under section 83 to decide whether bail should or should not be granted to the person.
+81. 1. When a warrant directed to a police officer is to be executed beyond the local jurisdiction of the Court issuing the same, he shall ordinarily take it for endorsement either to an Executive Magistrate or to a police officer not below the rank of an officer in charge of a police station, within the local limits of whose jurisdiction the warrant is to be executed.
+    2. Such Magistrate or police officer shall endorse his name thereon and such endorsement shall be sufficient authority to the police officer to whom the warrant is directed to execute the same, and the local police shall, if so required, assist such officer in executing such warrant.
+    3. Whenever there is reason to believe that the delay occasioned by obtaining the endorsement of the Magistrate or police officer within whose local jurisdiction the warrant is to be executed will prevent such execution, the police officer to whom it is directed may execute the same without such endorsement in any place beyond the local jurisdiction of the Court which issued it.
+82. 1. When a warrant of arrest is executed outside the district in which it was issued, the person arrested shall, unless the Court which issued the warrant is within thirty kilometers of the place of arrest or is nearer than the Executive Magistrate or District Superintendent of Police or Commissioner of Police within the local limits of whose jurisdiction the arrest was made, or unless security is taken under section 73, be taken before such Magistrate or District Superintendent or Commissioner.
+    2. On the arrest of any person referred to in sub-section ( 1 ), the police officer shall forthwith give the information regarding such arrest and the place where the arrested person is being held to the designated police officer in the district and to such officer of another district where the arrested person normally resides.
+83. 1. The Executive Magistrate or District Superintendent of Police or Commissioner of Police shall, if the person arrested appears to be the person intended by the Court which issued the warrant, direct his removal in custody to such Court:
 
-```
-Proof of
-service in such
-cases and
-when serving
-officer not
-present.
-```
+        _Provided that_, if the offence is bailable, and such person is ready and willing to give bail to the satisfaction of such Magistrate, District Superintendent or Commissioner, or a direction has been endorsed under section 73 on the warrant and such person is ready and willing to give the security required by such direction, the Magistrate, District Superintendent or Commissioner shall take such bail or security, as the case may be, and forward the bond, to the Court which issued the warrant:
 
-```
-Service of
-summons on
-witness by
-post.
-```
+        _Provided further that_ if the offence is a non-bailable one, it shall be lawful for the Chief Judicial Magistrate (subject to the provisions of section 493), or the Sessions Judge, of the district in which the arrest is made on consideration of the information and the documents referred to in sub-section ( 2 ) of section 80, to release such person on bail.
 
-```
-Form of warrant
-of arrest and
-duration.
-```
+    2. Nothing in this section shall be deemed to prevent a police officer from taking security under section 73.
 
-```
-5
-```
+---
 
-```
-10
-```
-
-15
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-( 2 ) Every such warrant shall remain in force until it is cancelled by the Court which
-issued it, or until it is executed.
-```
-
-**73.** ( _1_ ) Any Court issuing a warrant for the arrest of any person may in its discretion
-direct by endorsement on the warrant that, if such person executes a bond with sufficient
-sureties for his attendance before the Court at a specified time and thereafter until otherwise
-directed by the Court, the officer to whom the warrant is directed shall take such security
-and shall release such person from custody.
-
-```
-( 2 ) The endorsement shall state—
-```
-
-```
-( a ) the number of sureties;
-```
-
-```
-( b ) the amount in which they and the person for whose arrest the warrant is
-issued, are to be respectively bound;
-```
-
-```
-( c ) the time at which he is to attend before the Court.
-```
-
-```
-( 3 ) Whenever security is taken under this section, the officer to whom the warrant is
-directed shall forward the bond to the Court.
-```
-
-**74.** ( _1_ ) A warrant of arrest shall ordinarily be directed to one or more police officers;
-but the Court issuing such a warrant may, if its immediate execution is necessary and no
-police officer is immediately available, direct it to any other person or persons, and such
-person or persons shall execute the same.
-
-```
-( 2 ) When a warrant is directed to more officers or persons than one, it may be executed
-by all, or by any one or more of them.
-```
-
-**75.** ( _1_ ) The Chief Judicial Magistrate or a Magistrate of the first class may direct a
-warrant to any person within his local jurisdiction for the arrest of any escaped convict,
-proclaimed offender or of any person who is accused of a non-bailable offence and is
-evading arrest.
-
-```
-( 2 ) Such person shall acknowledge in writing the receipt of the warrant, and shall
-execute it if the person for whose arrest it was issued, is in, or enters on, any land or other
-property under his charge.
-```
-
-```
-( 3 ) When the person against whom such warrant is issued is arrested, he shall be
-made over with the warrant to the nearest police officer, who shall cause him to be taken
-before a Magistrate having jurisdiction in the case, unless security is taken under section 73.
-```
-
-**76.** A warrant directed to any police officer may also be executed by any other police
-officer whose name is endorsed upon the warrant by the officer to whom it is directed or
-endorsed.
-**77.** The police officer or other person executing a warrant of arrest shall notify the
-substance thereof to the person to be arrested, and, if so required, shall show him the
-warrant.
-**78.** The police officer or other person executing a warrant of arrest shall (subject to
-the provisions of section 73 as to security) without unnecessary delay bring the person
-arrested before the Court before which he is required by law to produce such person:
-
-```
-Provided that such delay shall not, in any case, exceed twenty-four hours exclusive
-of the time necessary for the journey from the place of arrest to the Magistrate's Court.
-```
-
-**79.** A warrant of arrest may be executed at any place in India.
-
-Power to
-direct security
-to be taken.
-
-Warrants to
-whom
-directed.
-
-Warrant may
-be directed to
-any person.
-
-Warrant
-directed to
-police officer.
-
-Notification
-of substance
-of warrant.
-
-Person
-arrested to be
-brought before
-Court without
-delay.
-
-Where
-warrant may
-be executed.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-**80.** ( _1_ ) When a warrant is to be executed outside the local jurisdiction of the Court
-issuing it, such Court may, instead of directing the warrant to a police officer within its
-jurisdiction, forward it by post or otherwise to any Executive Magistrate or District
-Superintendent of Police or Commissioner of Police within the local limits of whose jurisdiction
-it is to be executed; and the Executive Magistrate or District Superintendent or Commissioner
-shall endorse his name thereon, and if practicable, cause it to be executed in the manner
-hereinbefore provided.
-
-```
-( 2 ) The Court issuing a warrant under sub-section ( 1 ) shall forward, along with the
-warrant, the substance of the information against the person to be arrested together with
-such documents, if any, as may be sufficient to enable the Court acting under section 83 to
-decide whether bail should or should not be granted to the person.
-```
-
-**81.** ( _1_ ) When a warrant directed to a police officer is to be executed beyond the local
-jurisdiction of the Court issuing the same, he shall ordinarily take it for endorsement either
-to an Executive Magistrate or to a police officer not below the rank of an officer in charge of
-a police station, within the local limits of whose jurisdiction the warrant is to be executed.
-
-```
-( 2 ) Such Magistrate or police officer shall endorse his name thereon and such
-endorsement shall be sufficient authority to the police officer to whom the warrant is
-directed to execute the same, and the local police shall, if so required, assist such officer in
-executing such warrant.
-```
-
-```
-( 3 ) Whenever there is reason to believe that the delay occasioned by obtaining the
-endorsement of the Magistrate or police officer within whose local jurisdiction the warrant
-is to be executed will prevent such execution, the police officer to whom it is directed may
-execute the same without such endorsement in any place beyond the local jurisdiction of
-the Court which issued it.
-```
-
-**82.** ( _1_ ) When a warrant of arrest is executed outside the district in which it was issued,
-the person arrested shall, unless the Court which issued the warrant is within thirty kilometers
-of the place of arrest or is nearer than the Executive Magistrate or District Superintendent of
-Police or Commissioner of Police within the local limits of whose jurisdiction the arrest was
-made, or unless security is taken under section 73, be taken before such Magistrate or
-District Superintendent or Commissioner.
-
-```
-( 2 ) On the arrest of any person referred to in sub-section ( 1 ), the police officer shall
-forthwith give the information regarding such arrest and the place where the arrested person
-is being held to the designated police officer in the district and to such officer of another
-district where the arrested person normally resides.
-```
-
-**83.** ( _1_ ) The Executive Magistrate or District Superintendent of Police or Commissioner
-of Police shall, if the person arrested appears to be the person intended by the Court which
-issued the warrant, direct his removal in custody to such Court:
-
-```
-Provided that, if the offence is bailable, and such person is ready and willing to give
-bail to the satisfaction of such Magistrate, District Superintendent or Commissioner, or a
-direction has been endorsed under section 73 on the warrant and such person is ready and
-willing to give the security required by such direction, the Magistrate, District Superintendent
-or Commissioner shall take such bail or security, as the case may be, and forward the bond,
-to the Court which issued the warrant:
-```
-
-```
-Provided further that if the offence is a non-bailable one, it shall be lawful for the Chief
-Judicial Magistrate (subject to the provisions of section 493), or the Sessions Judge, of the
-district in which the arrest is made on consideration of the information and the documents
-referred to in sub-section ( 2 ) of section 80, to release such person on bail.
-```
-
-```
-( 2 ) Nothing in this section shall be deemed to prevent a police officer from taking
-security under section 73.
-```
-
-```
-Warrant
-forwarded for
-execution
-outside
-jurisdiction.
-```
-
-```
-Warrant
-directed to
-police officer
-for execution
-outside
-jurisdiction.
-```
-
-```
-Procedure on
-arrest of
-person against
-whom warrant
-issued.
-```
-
-```
-Procedure by
-Magistrate
-before whom
-such person
-arrested is
-brought.
-```
-
-```
-5
-```
-
-10
-
-15
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-35
-
-```
-40
-```
-
-```
-45
-```
-
-```
 C.—Proclamation and attachment
-```
 
-**84.** ( _1_ ) If any Court has reason to believe (whether after taking evidence or not) that
-any person against whom a warrant has been issued by it has absconded or is concealing
-himself so that such warrant cannot be executed, such Court may publish a written
-proclamation requiring him to appear at a specified place and at a specified time not less
-than thirty days from the date of publishing such proclamation.
-( _2_ ) The proclamation shall be published as follows:—
-( _i_ ) ( _a_ ) it shall be publicly read in some conspicuous place of the town or village
-in which such person ordinarily resides;
-( _b_ ) it shall be affixed to some conspicuous part of the house or homestead in
-which such person ordinarily resides or to some conspicuous place of such town or
-village;
-( _c_ ) a copy thereof shall be affixed to some conspicuous part of the
-Court-house;
-( _ii_ ) the Court may also, if it thinks fit, direct a copy of the proclamation to be
-published in a daily newspaper circulating in the place in which such person ordinarily
-resides.
-( _3_ ) A statement in writing by the Court issuing the proclamation to the effect that the
-proclamation was duly published on a specified day, in the manner specified in clause ( _i_ ) of
-sub-section ( _2_ ), shall be conclusive evidence that the requirements of this section have
-been complied with, and that the proclamation was published on such day.
-( _4_ ) Where a proclamation published under sub-section ( _1_ ) is in respect of a person
-accused of an offence which is made punishable with imprisonment of ten years or more, or
-imprisonment for life or with death under the Bharatiya Nyaya Sanhita, 2023 or under any
-other law for the time being in force, and such person fails to appear at the specified place
-and time required by the proclamation, the Court may, after making such inquiry as it thinks
-fit, pronounce him a proclaimed offender and make a declaration to that effect.
-( _5_ ) The provisions of sub-sections ( _2_ ) and ( _3_ ) shall apply to a declaration made
-by the Court under sub-section ( _4_ ) as they apply to the proclamation published under
-sub-section ( _1_ ).
-**85.** ( _1_ ) The Court issuing a proclamation under section 84 may, for reasons to be
-recorded in writing, at any time after the issue of the proclamation, order the attachment of
-any property, movable or immovable, or both, belonging to the proclaimed person:
-Provided that where at the time of the issue of the proclamation the Court is satisfied,
-by affidavit or otherwise, that the person in relation to whom the proclamation is to be
-issued,—
-( _a_ ) is about to dispose of the whole or any part of his property; or
-( _b_ ) is about to remove the whole or any part of his property from the local
-jurisdiction of the Court,
-it may order the attachment of property simultaneously with the issue of the proclamation.
-( _2_ ) Such order shall authorise the attachment of any property belonging to such
-person within the district in which it is made; and it shall authorise the attachment of any
-property belonging to such person without such district when endorsed by the District
-Magistrate within whose district such property is situate.
-( _3_ ) If the property ordered to be attached is a debt or other movable property, the
-attachment under this section shall be made—
-( _a_ ) by seizure; or
+84. 1. If any Court has reason to believe (whether after taking evidence or not) that any person against whom a warrant has been issued by it has absconded or is concealing himself so that such warrant cannot be executed, such Court may publish a written proclamation requiring him to appear at a specified place and at a specified time not less than thirty days from the date of publishing such proclamation.
+    2. The proclamation shall be published as follows:—
+        - ( _i_ ) ( _a_ ) it shall be publicly read in some conspicuous place of the town or village in which such person ordinarily resides;
+        - ( _b_ ) it shall be affixed to some conspicuous part of the house or homestead in which such person ordinarily resides or to some conspicuous place of such town or village;
+        - ( _c_ ) a copy thereof shall be affixed to some conspicuous part of the Court-house;
+        - ( _ii_ ) the Court may also, if it thinks fit, direct a copy of the proclamation to be published in a daily newspaper circulating in the place in which such person ordinarily resides.
 
-Proclamation
-for person
-absconding.
+    3. A statement in writing by the Court issuing the proclamation to the effect that the proclamation was duly published on a specified day, in the manner specified in clause ( _i_ ) of sub-section ( 2 ), shall be conclusive evidence that the requirements of this section have been complied with, and that the proclamation was published on such day.
+    4. Where a proclamation published under sub-section ( 1 ) is in respect of a person accused of an offence which is made punishable with imprisonment of ten years or more, or imprisonment for life or with death under the Bharatiya Nyaya Sanhita, 2023 or under any other law for the time being in force, and such person fails to appear at the specified place and time required by the proclamation, the Court may, after making such inquiry as it thinks fit, pronounce him a proclaimed offender and make a declaration to that effect.
+    5. The provisions of sub-sections ( 2 ) and ( 3 ) shall apply to a declaration made by the Court under sub-section ( 4 ) as they apply to the proclamation published under sub-section ( 1 ).
 
-Attachment
-of property of
-person
-absconding.
+85. 1. The Court issuing a proclamation under section 84 may, for reasons to be recorded in writing, at any time after the issue of the proclamation, order the attachment of any property, movable or immovable, or both, belonging to the proclaimed person:
 
-```
-5
-```
+        _Provided that_ where at the time of the issue of the proclamation the Court is satisfied, by affidavit or otherwise, that the person in relation to whom the proclamation is to be issued,—
+        - ( a ) is about to dispose of the whole or any part of his property; or
+        - ( b ) is about to remove the whole or any part of his property from the local jurisdiction of the Court,
+          it may order the attachment of property simultaneously with the issue of the proclamation.
 
-```
-10
-```
+    2. Such order shall authorise the attachment of any property belonging to such person within the district in which it is made; and it shall authorise the attachment of any property belonging to such person without such district when endorsed by the District Magistrate within whose district such property is situate.
+    3. If the property ordered to be attached is a debt or other movable property, the attachment under this section shall be made—
+        - ( a ) by seizure; or
+        - ( b ) by the appointment of a receiver; or
+        - ( c ) by an order in writing prohibiting the delivery of such property to the proclaimed person or to any one on his behalf; or
+        - ( d ) by all or any two of such methods, as the Court thinks fit.
 
-```
-15
-```
+    4. If the property ordered to be attached is immovable, the attachment under this section shall, in the case of land paying revenue to the State Government, be made through the Collector of the district in which the land is situate, and in all other cases—
+        - ( a ) by taking possession; or
+        - ( b ) by the appointment of a receiver; or
+        - ( c ) by an order in writing prohibiting the payment of rent on delivery of property to the proclaimed person or to any one on his behalf; or
+        - ( d ) by all or any two of such methods, as the Court thinks fit.
 
-```
-20
-```
+    5. If the property ordered to be attached consists of live-stock or is of a perishable nature, the Court may, if it thinks it expedient, order immediate sale thereof, and in such case the proceeds of the sale shall abide the order of the Court.
+    6. The powers, duties and liabilities of a receiver appointed under this section shall be the same as those of a receiver appointed under the Code of Civil Procedure, 1908.
 
-```
-25
-```
+86. The Court may, on the written request from a police officer not below the rank of the Superintendent of Police or Commissioner of Police, initiate the process of requesting assistance from a Court or an authority in the contracting State for identification, attachment and forfeiture of property belonging to a proclaimed person in accordance with the procedure provided in Chapter VIII.
+87. 1. If any claim is preferred to, or objection made to the attachment of, any property attached under section 85, within six months from the date of such attachment, by any person other than the proclaimed person, on the ground that the claimant or objector has an interest in such property, and that such interest is not liable to attachment under section 85, the claim or objection shall be inquired into, and may be allowed or disallowed in whole or in part:
 
-```
-30
-```
+        _Provided that_ any claim preferred or objection made within the period allowed by this sub-section may, in the event of the death of the claimant or objector, be continued by his legal representative.
 
-```
-35
-```
+    2. Claims or objections under sub-section ( 1 ) may be preferred or made in the Court by which the order of attachment is issued, or, if the claim or objection is in respect of property attached under an order endorsed under sub-section ( 2 ) of section 85, in the Court of the Chief Judicial Magistrate of the district in which the attachment is made.
+    3. Every such claim or objection shall be inquired into by the Court in which it is preferred or made:
 
-```
-40
-```
+        _Provided that_, if it is preferred or made in the Court of a Chief Judicial Magistrate, he may make it over for disposal to any Magistrate subordinate to him.
 
-```
-45
-```
+    4. Any person whose claim or objection has been disallowed in whole or in part by an order under sub-section ( 1 ) may, within a period of one year from the date of such order, institute a suit to establish the right which he claims in respect of the property in dispute; but subject to the result of such suit, if any, the order shall be conclusive.
 
-```
-( b ) by the appointment of a receiver; or
-( c ) by an order in writing prohibiting the delivery of such property to the
-proclaimed person or to any one on his behalf; or
-( d ) by all or any two of such methods, as the Court thinks fit.
-( 4 ) If the property ordered to be attached is immovable, the attachment under this
-section shall, in the case of land paying revenue to the State Government, be made through
-the Collector of the district in which the land is situate, and in all other cases—
-( a ) by taking possession; or
-( b ) by the appointment of a receiver; or
-( c ) by an order in writing prohibiting the payment of rent on delivery of property
-to the proclaimed person or to any one on his behalf; or
-( d ) by all or any two of such methods, as the Court thinks fit.
-( 5 ) If the property ordered to be attached consists of live-stock or is of a perishable
-nature, the Court may, if it thinks it expedient, order immediate sale thereof, and in such case
-the proceeds of the sale shall abide the order of the Court.
-( 6 ) The powers, duties and liabilities of a receiver appointed under this section shall
-be the same as those of a receiver appointed under the Code of Civil Procedure, 1908.
-```
+88. 1. If the proclaimed person appears within the time specified in the proclamation, the Court shall make an order releasing the property from the attachment.
+    2. If the proclaimed person does not appear within the time specified in the proclamation, the property under the attachment shall be at the disposal of the State Government; but it shall not be sold until the expiration of six months from the date of the attachment and until any claim preferred or objection made under section 87 has been disposed of under that section, unless it is subject to speedy and natural decay, or the Court considers that the sale would be for the benefit of the owner; in either of which cases the Court may cause it to be sold whenever it thinks fit.
+    3. If, within two years from the date of the attachment, any person whose property is or has been at the disposal of the State Government, under sub-section ( 2 ), appears voluntarily or is apprehended and brought before the Court by whose order the property was attached, or the Court to which such Court is subordinate, and proves to the satisfaction of such Court that he did not abscond or conceal himself for the purpose of avoiding execution of the warrant, and that he had not such notice of the proclamation as to enable him to attend within the time specified therein, such property, or, if the same has been sold, the net proceeds of the sale, or, if part only thereof has been sold, the net proceeds of the sale and the residue of the property, shall, after satisfying therefrom all costs incurred in consequence of the attachment, be delivered to him.
+89. Any person referred to in sub-section ( 3 ) of section 88, who is aggrieved by any refusal to deliver property or the proceeds of the sale thereof may appeal to the Court to which appeals ordinarily lie from the sentences of the first-mentioned Court.
 
-**86.** The Court may, on the written request from a police officer not below the rank of
-the Superintendent of Police or Commissioner of Police, initiate the process of requesting
-assistance from a Court or an authority in the contracting State for identification, attachment
-and forfeiture of property belonging to a proclaimed person in accordance with the procedure
-provided in Chapter VIII.
-**87.** ( _1_ ) If any claim is preferred to, or objection made to the attachment of, any
-property attached under section 85, within six months from the date of such attachment, by
-any person other than the proclaimed person, on the ground that the claimant or objector
-has an interest in such property, and that such interest is not liable to attachment under
-section 85, the claim or objection shall be inquired into, and may be allowed or disallowed in
-whole or in part:
-Provided that any claim preferred or objection made within the period allowed by this
-sub-section may, in the event of the death of the claimant or objector, be continued by his
-legal representative.
-( _2_ ) Claims or objections under sub-section ( _1_ ) may be preferred or made in the Court
-by which the order of attachment is issued, or, if the claim or objection is in respect of
-property attached under an order endorsed under sub-section ( _2_ ) of section 85, in the Court
-of the Chief Judicial Magistrate of the district in which the attachment is made.
-( _3_ ) Every such claim or objection shall be inquired into by the Court in which it is
-preferred or made:
-Provided that, if it is preferred or made in the Court of a Chief Judicial Magistrate, he
-may make it over for disposal to any Magistrate subordinate to him.
-( _4_ ) Any person whose claim or objection has been disallowed in whole or in part by an
-order under sub-section ( _1_ ) may, within a period of one year from the date of such order,
-institute a suit to establish the right which he claims in respect of the property in dispute;
-but subject to the result of such suit, if any, the order shall be conclusive.
-**88.** ( _1_ ) If the proclaimed person appears within the time specified in the proclamation,
-the Court shall make an order releasing the property from the attachment.
-( _2_ ) If the proclaimed person does not appear within the time specified in the
-proclamation, the property under the attachment shall be at the disposal of the State
+---
 
-```
-Identification
-and
-attachment of
-property of
-proclaimed
-person.
-```
-
-```
-Claims and
-objections to
-attachment.
-```
-
-```
-Release, sale
-and
-restoration of
-attached
-property.
-```
-
-5 of 1908.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-Government; but it shall not be sold until the expiration of six months from the date of the
-attachment and until any claim preferred or objection made under section 87 has been
-disposed of under that section, unless it is subject to speedy and natural decay, or the
-Court considers that the sale would be for the benefit of the owner; in either of which cases
-the Court may cause it to be sold whenever it thinks fit.
-( 3 ) If, within two years from the date of the attachment, any person whose property is
-or has been at the disposal of the State Government, under sub-section ( 2 ), appears voluntarily
-or is apprehended and brought before the Court by whose order the property was attached,
-or the Court to which such Court is subordinate, and proves to the satisfaction of such
-Court that he did not abscond or conceal himself for the purpose of avoiding execution of
-the warrant, and that he had not such notice of the proclamation as to enable him to attend
-within the time specified therein, such property, or, if the same has been sold, the net
-proceeds of the sale, or, if part only thereof has been sold, the net proceeds of the sale and
-the residue of the property, shall, after satisfying therefrom all costs incurred in consequence
-of the attachment, be delivered to him.
-```
-
-**89.** Any person referred to in sub-section ( _3_ ) of section 88, who is aggrieved by any
-refusal to deliver property or the proceeds of the sale thereof may appeal to the Court to
-which appeals ordinarily lie from the sentences of the first-mentioned Court.
-
-```
 D.—Other rules regarding processes
-```
 
-**90.** A Court may, in any case in which it is empowered by this Sanhita to issue a
-summons for the appearance of any person, issue, after recording its reasons in writing, a
-warrant for his arrest—
-( _a_ ) if, either before the issue of such summons, or after the issue of the same but
-before the time fixed for his appearance, the Court sees reason to believe that he has
-absconded or will not obey the summons; or
-( _b_ ) if at such time he fails to appear and the summons is proved to have been
-duly served in time to admit of his appearing in accordance therewith and no reasonable
-excuse is offered for such failure.
-**91.** When any person for whose appearance or arrest the officer presiding in any
-Court is empowered to issue a summons or warrant, is present in such Court, such officer
-may require such person to execute a bond, with or without sureties, for his appearance in
-such Court, or any other Court to which the case may be transferred for trial.
-**92.** When any person who is bound by any bond taken under this Sanhita to appear
-before a Court, does not appear, the officer presiding in such Court may issue a warrant
-directing that such person be arrested and produced before him.
-**93.** The provisions contained in this Chapter relating to summons and warrant, and
-their issue, service and execution, shall, so far as may be, apply to every summons and
-every warrant of arrest issued under this Sanhita.
+90. A Court may, in any case in which it is empowered by this Sanhita to issue a summons for the appearance of any person, issue, after recording its reasons in writing, a warrant for his arrest—
+    - ( a ) if, either before the issue of such summons, or after the issue of the same but before the time fixed for his appearance, the Court sees reason to believe that he has absconded or will not obey the summons; or
+    - ( b ) if at such time he fails to appear and the summons is proved to have been duly served in time to admit of his appearing in accordance therewith and no reasonable excuse is offered for such failure.
 
-##### CHAPTER VII
+91. When any person for whose appearance or arrest the officer presiding in any Court is empowered to issue a summons or warrant, is present in such Court, such officer may require such person to execute a bond, with or without sureties, for his appearance in such Court, or any other Court to which the case may be transferred for trial.
+92. When any person who is bound by any bond taken under this Sanhita to appear before a Court, does not appear, the officer presiding in such Court may issue a warrant directing that such person be arrested and produced before him.
+93. The provisions contained in this Chapter relating to summons and warrant, and their issue, service and execution, shall, so far as may be, apply to every summons and every warrant of arrest issued under this Sanhita.
 
-##### PROCESSES TO COMPEL THE PRODUCTION OF THINGS
+# CHAPTER VII PROCESSES TO COMPEL THE PRODUCTION OF THINGS
 
-```
 A.—Summons to produce
-```
-
-**94.** ( _1_ ) Whenever any Court or any officer in charge of a police station considers that
-the production of any document, electronic communication, including communication
-devices which is likely to contain digital evidence or other thing is necessary or desirable
-for the purposes of any investigation, inquiry, trial or other proceeding under this Sanhita
-
-Appeal from
-order rejecting
-application
-for restoration
-of attached
-property.
-
-Issue of
-warrant in lieu
-of, or in
-addition to,
-summons.
-
-Power to take
-bond for
-appearance.
-
-Arrest on
-breach of bond
-for
-appearance.
-
-Provisions of
-this Chapter
-generally
-applicable to
-summoneses
-and warrants
-of arrest.
-
-Summons to
-produce
-document or
-other thing.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-by or before such Court or officer, such Court or officer may, by a written order, either in
-physical form or in electronic form, require the person in whose possession or power such
-document or thing is believed to be, to attend and produce it, or to produce it, at the time
-and place stated in the summons or order.
-( 2 ) Any person required under this section merely to produce a document, or other
-thing shall be deemed to have complied with the requisition if he causes such document or
-thing to be produced instead of attending personally to produce the same.
-( 3 ) Nothing in this section shall be deemed—
-( a ) to affect sections 129 and 130 of the Bharatiya Sakshya Adhiniyam, 2023 or
-the Bankers' Books Evidence Act, 1891; or
-( b ) to apply to a letter, postcard, or other document or any parcel or thing in the
-custody of the postal authority.
-```
-
-**95.** ( _1_ ) If any document, parcel or thing in the custody of a postal authority is, in the
-opinion of the District Magistrate, Chief Judicial Magistrate, Court of Session or High Court
-wanted for the purpose of any investigation, inquiry, trial or other proceeding under this
-Sanhita, such Magistrate or Court may require the postal authority to deliver the document,
-parcel or thing to such person as the Magistrate or Court directs.
-( _2_ ) If any such document, parcel or thing is, in the opinion of any other Magistrate,
-whether Executive or Judicial, or of any Commissioner of Police or District Superintendent
-of Police, wanted for any such purpose, he may require the postal authority to cause search
-to be made for and to detain such document, parcel or thing pending the order of a District
-Magistrate, Chief Judicial Magistrate or Court under sub-section ( _1_ ).
-_B.—Search-warrants_
-**96.** ( _1_ ) ( _a_ ) Where any Court has reason to believe that a person to whom a summons
-order under section 94 or a requisition under sub-section ( _1_ ) of section 95 has been, or
-might be, addressed, will not or would not produce the document or thing as required by
-such summons or requisition; or
-( _b_ ) where such document or thing is not known to the Court to be in the possession
-of any person; or
-( _c_ ) where the Court considers that the purposes of any inquiry, trial or other proceeding
-under this Sanhita will be served by a general search or inspection, it may issue a
-search-warrant; and the person to whom such warrant is directed, may search or inspect in
-accordance therewith and the provisions hereinafter contained.
-( _2_ ) The Court may, if it thinks fit, specify in the warrant the particular place or part
-thereof to which only the search or inspection shall extend; and the person charged with
-the execution of such warrant shall then search or inspect only the place or part so specified.
-( _3_ ) Nothing contained in this section shall authorise any Magistrate other than a
-District Magistrate or Chief Judicial Magistrate to grant a warrant to search for a document,
-parcel or other thing in the custody of the postal or telegraph authority.
-**97.** ( _1_ ) If a District Magistrate, Sub-divisional Magistrate or Magistrate of the first
-class, upon information and after such inquiry as he thinks necessary, has reason to believe
-that any place is used for the deposit or sale of stolen property, or for the deposit, sale or
-production of any objectionable article to which this section applies, or that any such
-objectionable article is deposited in any place, he may by warrant authorise any police
-officer above the rank of a constable—
-( _a_ ) to enter, with such assistance as may be required, such place;
-( _b_ ) to search the same in the manner specified in the warrant;
-
-```
-Procedure as
-to letters and
-telegrams.
-```
-
-13 of 1891.
-
-```
-When search-
-warrant may
-be issued.
-```
-
-```
-Search of
-place
-suspected to
-contain stolen
-property,
-forged
-documents,
-etc.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-( c ) to take possession of any property or article therein found which he
-reasonably suspects to be stolen property or objectionable article to which this
-section applies;
-( d ) to convey such property or article before a Magistrate, or to guard the same
-on the spot until the offender is taken before a Magistrate, or otherwise to dispose of
-it in some place of safety;
-( e ) to take into custody and carry before a Magistrate every person found in
-such place who appears to have been privy to the deposit, sale or production of any
-such property or article knowing or having reasonable cause to suspect it to be
-stolen property or, as the case may be, objectionable article to which this section
-applies.
-( 2 ) The objectionable articles to which this section applies are—
-( a ) counterfeit coin;
-( b ) pieces of metal made in contravention of the Coinage Act, 2011, or brought
-into India in contravention of any notification for the time being in force issued under
-section 11 of the Customs Act, 1962;
-( c ) counterfeit currency note; counterfeit stamps;
-( d ) forged documents;
-( e ) false seals;
-( f ) obscene objects referred to in section 292 of the Bharatiya Nyaya
-Sanhita, 2023;
-( g ) instruments or materials used for the production of any of the articles
-mentioned in clauses ( a ) to ( f ).
-```
-
-**98.** ( _1_ ) Where—
-( _a_ ) any newspaper, or book; or
-( _b_ ) any document,
-wherever printed, appears to the State Government to contain any matter the publication
-of which is punishable under section 150 or section 194 or section 195 or section 292 or
-section 293 or section 297 of the Bharatiya Nyaya Sanhita, 2023, the State Government may,
-by notification, stating the grounds of its opinion, declare every copy of the issue of the
-newspaper containing such matter, and every copy of such book or other document to be
-forfeited to Government, and thereupon any police officer may seize the same wherever
-found in India and any Magistrate may by warrant authorise any police officer not below
-the rank of sub-inspector to enter upon and search for the same in any premises where any
-copy of such issue, or any such book or other document may be or may be reasonably
-suspected to be.
-( _2_ ) In this section and in section 99,—
-( _a_ ) "newspaper" and "book" have the same meaning as in the Press and
-Registration of Books Act, 1867;
-( _b_ ) "document" includes any painting, drawing or photograph, or other visible
-representation.
-( _3_ ) No order passed or action taken under this section shall be called in question in
-any Court otherwise than in accordance with the provisions of section 99.
-**99.** ( _1_ ) Any person having any interest in any newspaper, book or other document, in
-respect of which a declaration of forfeiture has been made under section 98, may, within two
-months from the date of publication in the Official Gazette of such declaration, apply to the
-High Court to set aside such declaration on the ground that the issue of the newspaper, or
-
-Power to
-declare certain
-publications
-forfeited and
-to issue
-search-
-warrants for
-same.
-
-```
-11 of 2011.
-52 of 1962.
-```
-
-```
-25 of 1867.
-```
-
-Application to
-High Court to
-set aside
-declaration of
-forfeiture.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-the book or other document, in respect of which the declaration was made, did not contain
-any such matter as is referred to in sub-section ( 1 ) of section 98.
-( 2 ) Every such application shall, where the High Court consists of three or more
-Judges, be heard and determined by a Special Bench of the High Court composed of three
-Judges and where the High Court consists of less than three Judges, such Special Bench
-shall be composed of all the Judges of that High Court.
-( 3 ) On the hearing of any such application with reference to any newspaper, any copy
-of such newspaper may be given in evidence in aid of the proof of the nature or tendency
-of the words, signs or visible representations contained in such newspaper, in respect of
-which the declaration of forfeiture was made.
-( 4 ) The High Court shall, if it is not satisfied that the issue of the newspaper, or the
-book or other document, in respect of which the application has been made, contained any
-such matter as is referred to in sub-section ( 1 ) of section 98, set aside the declaration of
-forfeiture.
-( 5 ) Where there is a difference of opinion among the Judges forming the Special
-Bench, the decision shall be in accordance with the opinion of the majority of those Judges.
-```
-
-**100.** If any District Magistrate, Sub-divisional Magistrate or Magistrate of the first
-class has reason to believe that any person is confined under such circumstances that the
-confinement amounts to an offence, he may issue a search-warrant, and the person to
-whom such warrant is directed may search for the person so confined; and such search
-shall be made in accordance therewith, and the person, if found, shall be immediately taken
-before a Magistrate, who shall make such order as in the circumstances of the case seems
-proper.
-**101.** Upon complaint made on oath of the abduction or unlawful detention of a
-woman, or a female child under the age of eighteen years for any unlawful purpose, a
-District Magistrate, Sub-divisional Magistrate or Magistrate of the first class may make an
-order for the immediate restoration of such woman to her liberty, or of such female child to
-her husband, parent, guardian or other person having the lawful charge of such child, and
-may compel compliance with such order, using such force as may be necessary.
-**102.** The provisions of sections 32, 72, 74, 76, 79, 80 and 81 shall, so far as may be,
-apply to all search-warrants issued under section 96, section 97, section 98 or section 100.
-**103.** ( _1_ ) Whenever any place liable to search or inspection under this Chapter is
-closed, any person residing in, or being in charge of, such place, shall, on demand of the
-officer or other person executing the warrant, and on production of the warrant, allow him
-free ingress thereto, and afford all reasonable facilities for a search therein.
-( _2_ ) If ingress into such place cannot be so obtained, the officer or other person
-executing the warrant may proceed in the manner provided by sub-section ( _2_ ) of section 44.
-( _3_ ) Where any person in or about such place is reasonably suspected of concealing
-about his person any article for which search should be made, such person may be searched
-and if such person is a woman, the search shall be made by another woman with strict
-regard to decency.
-( _4_ ) Before making a search under this Chapter, the officer or other person about to
-make it shall call upon two or more independent and respectable inhabitants of the locality
-in which the place to be searched is situate or of any other locality if no such inhabitant of
-the said locality is available or is willing to be a witness to the search, to attend and witness
-the search and may issue an order in writing to them or any of them so to do.
-( _5_ ) The search shall be made in their presence, and a list of all things seized in the
-course of such search and of the places in which they are respectively found shall be
-
-```
-Search for
-persons
-wrongfully
-confined.
-```
-
-```
-Power to
-compel
-restoration of
-abducted
-females.
-```
-
-```
-Direction,
-etc., of
-search-
-warrants.
-Persons in
-charge of
-closed place to
-allow search.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-```
-prepared by such officer or other person and signed by such witnesses; but no person
-witnessing a search under this section shall be required to attend the Court as a witness of
-the search unless specially summoned by it.
-( 6 ) The occupant of the place searched, or some person in his behalf, shall, in every
-instance, be permitted to attend during the search, and a copy of the list prepared under this
-section, signed by the said witnesses, shall be delivered to such occupant or person.
-( 7 ) When any person is searched under sub-section ( 3 ), a list of all things taken
-possession of shall be prepared, and a copy thereof shall be delivered to such person.
-( 8 ) Any person who, without reasonable cause, refuses or neglects to attend and
-witness a search under this section, when called upon to do so by an order in writing
-delivered or tendered to him, shall be deemed to have committed an offence under
-section 220 of the Bharatiya Nyaya Sanhita, 2023.
-```
-
-**104.** When, in the execution of a search-warrant at any place beyond the local
-jurisdiction of the Court which issued the same, any of the things for which search is made,
-are found, such things, together with the list of the same prepared under the provisions
-hereinafter contained, shall be immediately taken before the Court issuing the warrant,
-unless such place is nearer to the Magistrate having jurisdiction therein than to such Court,
-in which case the list and things shall be immediately taken before such Magistrate; and,
-unless there be good cause to the contrary, such Magistrate shall make an order authorising
-them to be taken to such Court.
-C _.—Miscellaneous_
-**105.** The process of conducting search of a place or taking possession of any property,
-article or thing under this Chapter or under section 185, including preparation of the list of
-all things seized in the course of such search and seizure and signing of such list by
-witnesses, shall be recorded through any audio-video electronic means preferably cell
-phone and the police officer shall without delay forward such recording to the District
-Magistrate, Sub-divisional Magistrate or Judicial Magistrate of the first class.
-**106.** ( _1_ ) Any police officer may seize any property which may be alleged or suspected
-to have been stolen, or which may be found under circumstances which create suspicion of
-the commission of any offence.
-( _2_ ) Such police officer, if subordinate to the officer in charge of a police station, shall
-forthwith report the seizure to that officer.
-( _3_ ) Every police officer acting under sub-section ( _1_ ) shall forthwith report the seizure
-to the Magistrate having jurisdiction and where the property seized is such that it cannot be
-conveniently transported to the Court, or where there is difficulty in securing proper
-accommodation for the custody of such property, or where the continued retention of the
-property in police custody may not be considered necessary for the purpose of investigation,
-he may give custody thereof to any person on his executing a bond undertaking to produce
-the property before the Court as and when required and to give effect to the further orders
-of the Court as to the disposal of the same:
-Provided that where the property seized under sub-section ( _1_ ) is subject to speedy
-and natural decay and if the person entitled to the possession of such property is unknown
-or absent and the value of such property is less than five hundred rupees, it may forthwith
-be sold by auction under the orders of the Superintendent of Police and the provisions of
-sections 505 and 506 shall, as nearly as may be practicable, apply to the net proceeds of
-such sale.
-**107.** ( _1_ ) Where a police officer making an investigation has reason to believe that any
-property is derived or obtained, directly or indirectly, as a result of a criminal activity or from
-the commission of any offence, he may, with the approval of the Superintendent of Police or
-Commissioner of Police, make an application to the Court or the Judicial Magistrate exercising
-
-Disposal of
-things found
-in search
-beyond
-jurisdiction.
-
-Recording of
-search and
-seizure
-through audio-
-video
-electronic
-means.
-
-Power of
-police officer
-to seize
-certain
-property.
-
-Attachment,
-forfeiture or
-restoration of
-property.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-50
-```
-
-```
-jurisdiction to take cognizance of the offence or commit for trial or try the case, for the
-attachment of such property.
-( 2 ) If the Court or the Judicial Magistrate has reasons to believe, whether before or
-after taking evidence, that all or any of such properties are proceeds of crime, the Court or
-the Magistrate may issue a notice upon such person calling upon him to show cause within
-a period of fourteen days as to why an order of attachment shall not be made.
-( 3 ) Where the notice issued to any person under sub-section ( 2 ) specifies any property
-as being held by any other person on behalf of such person, a copy of the notice shall also
-be served upon such other person.
-( 4 ) The Court or the Judicial Magistrate may, after considering the explanation, if any,
-to the show-cause notice issued under sub-section ( 2 ) and the material fact available before
-such Court or Magistrate and after giving a reasonable opportunity of being heard to such
-person or persons, may pass an order of attachment, in respect of those properties which
-are found to be the proceeds of crime:
-Provided that if such person does not appear before the Court or the Magistrate or
-represent his case before the Court or Judicial Magistrate within a period of fourteen days
-specified in the show-cause notice, the Court or the Judicial Magistrate may proceed to
-pass the ex-parte order.
-( 5 ) Notwithstanding anything contained in sub-section ( 2 ), if the Court or the Judicial
-Magistrate is of the opinion that issuance of notice under the said sub-section would
-defeat the object of attachment or seizure, the Court or Judicial Magistrate may by an
-interim order passed ex-parte direct attachment or seizure of such property, and such order
-shall remain in force till an order under sub-section ( 6 ) is passed.
-( 6 ) If the Court or the Judicial Magistrate finds the attached or seized properties to be
-the proceeds of crime, the Court or the Judicial Magistrate shall by order direct the District
-Magistrate to rateably distribute such proceeds of crime to the persons who are affected by
-such crime.
-( 7 ) On receipt of an order passed under sub-section ( 6 ), the District Magistrate shall,
-within a period of sixty days distribute the proceeds of crime either by himself or authorise
-any officer subordinate to him to effect such distribution.
-( 8 ) If there are no claimants to receive such proceeds or no claimant is ascertainable
-or there is any surplus after satisfying the claimants, such proceeds of crime shall stand
-forfeited to the Government.
-Explanation .—For the purposes of this section, the word ‘‘property’’ and the
-expression ‘‘proceeds of crime’’ shall have the meaning assigned to them in clause ( d ) of
-section 111.
-```
-
-**108.** Any Magistrate may direct a search to be made in his presence of any place for
-the search of which he is competent to issue a search-warrant.
-**109.** Any Court may, if it thinks fit, impound any document or thing produced before
-it under this Sanhita.
-**110.** ( _1_ ) Where a Court in the territories to which this Sanhita extends (hereafter in this
-section referred to as the said territories) desires that—
-( _a_ ) a summons to an accused person; or
-( _b_ ) a warrant for the arrest of an accused person; or
-( _c_ ) a summons to any person requiring him to attend and produce a document
-or other thing, or to produce it; or
-
-```
-Magistrate
-may direct
-search in his
-presence.
-Power to
-impound
-document,
-etc., produced.
-```
-
-```
-Reciprocal
-arrangements
-regarding
-processes.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-```
-( d ) a search-warrant,
-issued by it shall be served or executed at any place,—
-( i ) within the local jurisdiction of a Court in any State or area in India outside the
-said territories, it may send such summons or warrant in duplicate by post or otherwise,
-to the presiding officer of that Court to be served or executed; and where any summons
-referred to in clause ( a ) or clause ( c ) has been so served, the provisions of section 70
-shall apply in relation to such summons as if the presiding officer of the Court to
-whom it is sent were a Magistrate in the said territories;
-( ii ) in any country or place outside India in respect of which arrangements have
-been made by the Central Government with the Government of such country or place
-for service or execution of summons or warrant in relation to criminal matters (hereafter
-in this section referred to as the contracting State), it may send such summons or
-warrant in duplicate in such form, directed to such Court, Judge or Magistrate, and
-send to such authority for transmission, as the Central Government may, by
-notification, specify in this behalf.
-( 2 ) Where a Court in the said territories has received for service or execution—
-( a ) a summons to an accused person; or
-( b ) a warrant for the arrest of an accused person; or
-( c ) a summons to any person requiring him to attend and produce a document
-or other thing, or to produce it; or
-( d ) a search-warrant,
-issued by—
-( I ) a Court in any State or area in India outside the said territories;
-( II ) a Court, Judge or Magistrate in a contracting State,
-it shall cause the same to be served or executed as if it were a summons or warrant received
-by it from another Court in the said territories for service or execution within its local
-jurisdiction; and where—
-( i ) a warrant of arrest has been executed, the person arrested shall, so far as
-possible, be dealt with in accordance with the procedure specified by sections 82 and 83;
-( ii ) a search-warrant has been executed, the things found in the search shall, so
-far as possible, be dealt with in accordance with the procedure specified by
-section 104:
-Provided that in a case where a summons or search-warrant received from a contracting
-State has been executed, the documents or things produced or things found in the search
-shall be forwarded to the Court issuing the summons or search-warrant through such
-authority as the Central Government may, by notification, specify in this behalf.
-CHAPTER VIII
-RECIPROCAL ARRANGEMENTS FOR ASSISTANCE IN CERTAIN MATTERS AND PROCEDURE FOR
-ATTACHMENT AND FORFEITURE OF PROPERTY
-```
-
-**111.** In this Chapter, unless the context otherwise requires,—
-( _a_ ) "contracting State" means any country or place outside India in respect of
-which arrangements have been made by the Central Government with the Government
-of such country through a treaty or otherwise;
-( _b_ ) "identifying" includes establishment of a proof that the property was derived
-from, or used in, the commission of an offence;
-
-Definitions.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-( c ) "proceeds of crime" means any property derived or obtained directly or
-indirectly, by any person as a result of criminal activity (including crime involving
-currency transfers) or the value of any such property;
-( d ) "property" means property and assets of every description whether corporeal
-or incorporeal, movable or immovable, tangible or intangible and deeds and instruments
-evidencing title to, or interest in, such property or assets derived or used in the
-commission of an offence and includes property obtained through proceeds of crime;
-( e ) "tracing" means determining the nature, source, disposition, movement,
-title or ownership of property.
-```
-
-**112.** ( _1_ ) If, in the course of an investigation into an offence, an application is made by
-the investigating officer or any officer superior in rank to the investigating officer that
-evidence may be available in a country or place outside India, any Criminal Court may issue
-a letter of request to a Court or an authority in that country or place competent to deal with
-such request to examine orally any person supposed to be acquainted with the facts and
-circumstances of the case and to record his statement made in the course of such examination
-and also to require such person or any other person to produce any document or thing
-which may be in his possession pertaining to the case and to forward all the evidence so
-taken or collected or the authenticated copies thereof or the thing so collected to the Court
-issuing such letter.
-( _2_ ) The letter of request shall be transmitted in such manner as the Central Government
-may specify in this behalf.
-( _3_ ) Every statement recorded or document or thing received under sub-section ( _1_ )
-shall be deemed to be the evidence collected during the course of investigation under this
-Chapter.
-**113.** ( _1_ ) Upon receipt of a letter of request from a Court or an authority in a country or
-place outside India competent to issue such letter in that country or place for the examination
-of any person or production of any document or thing in relation to an offence under
-investigation in that country or place, the Central Government may, if it thinks fit—
-( _i_ ) forward the same to the Chief Judicial Magistrate or Judicial Magistrate as he
-may appoint in this behalf, who shall thereupon summon the person before him and
-record his statement or cause the document or thing to be produced; or
-( _ii_ ) send the letter to any police officer for investigation, who shall thereupon
-investigate into the offence in the same manner,
-as if the offence had been committed within India.
-( _2_ ) All the evidence taken or collected under sub-section ( _1_ ), or authenticated copies
-thereof or the thing so collected, shall be forwarded by the Magistrate or police officer, as
-the case may be, to the Central Government for transmission to the Court or the authority
-issuing the letter of request, in such manner as the Central Government may deem fit.
-**114.** ( _1_ ) Where a Court in India, in relation to a criminal matter, desires that a warrant
-for arrest of any person to attend or produce a document or other thing issued by it shall be
-executed in any place in a contracting State, it shall send such warrant in duplicate in such
-form to such Court, Judge or Magistrate through such authority, as the Central Government
-may, by notification, specify in this behalf and that Court, Judge or Magistrate, as the case
-may be, shall cause the same to be executed.
-( _2_ ) If , in the course of an investigation or any inquiry into an offence, an application
-is made by the investigating officer or any officer superior in rank to the investigating
-officer that the attendance of a person who is in any place in a contracting State is required
-in connection with such investigation or inquiry and the Court is satisfied that such
-attendance is so required, it shall issue a summons or warrant, in duplicate, against the said
-
-```
-Letter of
-request to
-competent
-authority for
-investigation
-in a country
-or place
-outside India.
-```
-
-```
-Letter of
-request from a
-country or
-place outside
-India to a
-Court or an
-authority for
-investigation
-in India.
-```
-
-```
-Assistance in
-securing
-transfer of
-persons.
-```
-
-```
-5
-```
-
-10
-
-15
-
-20
-
-25
-
-30
-
-```
-35
-```
-
-40
-
-45
-
-```
-person to such Court, Judge or Magistrate, in such form as the Central Government may, by
-notification, specify in this behalf, to cause the same to be served or executed.
-( 3 ) Where a Court in India, in relation to a criminal matter, has received a warrant for
-arrest of any person requiring him to attend or attend and produce a document or other
-thing in that Court or before any other investigating agency, issued by a Court, Judge or
-Magistrate in a contracting State, the same shall be executed as if it is the warrant received
-by it from another Court in India for execution within its local limits.
-( 4 ) Where a person transferred to a contracting State pursuant to sub-section ( 3 ) is a
-prisoner in India, the Court in India or the Central Government may impose such conditions
-as that Court or Government deems fit.
-( 5 ) Where the person transferred to India pursuant to sub-section ( 1 ) or
-sub-section ( 2 ) is a prisoner in a contracting State, the Court in India shall ensure that the
-conditions subject to which the prisoner is transferred to India are complied with and such
-prisoner shall be kept in such custody subject to such conditions as the Central Government
-may direct in writing.
-```
-
-**115.** ( _1_ ) Where a Court in India has reasonable grounds to believe that any property
-obtained by any person is derived or obtained, directly or indirectly, by such person from
-the commission of an offence, it may make an order of attachment or forfeiture of such
-property, as it may deem fit under the provisions of sections 116 to 122 (both inclusive).
-( _2_ ) Where the Court has made an order for attachment or forfeiture of any property
-under sub-section ( _1_ ), and such property is suspected to be in a contracting State, the
-Court may issue a letter of request to a Court or an authority in the contracting State for
-execution of such order.
-( _3_ ) Where a letter of request is received by the Central Government from a Court or an
-authority in a contracting State requesting attachment or forfeiture of the property in India,
-derived or obtained, directly or indirectly, by any person from the commission of an offence
-committed in that contracting State, the Central Government may forward such letter of
-request to the Court, as it thinks fit, for execution in accordance with the provisions of
-sections 116 to 122 (both inclusive) or, as the case may be, any other law for the time being
-in force.
-**116.** ( _1_ ) The Court shall, under sub-section ( _1_ ), or on receipt of a letter of request
-under sub-section ( _3_ ) of section 115, direct any police officer not below the rank of
-Sub-Inspector of Police to take all steps necessary for tracing and identifying such property.
-( _2_ ) The steps referred to in sub-section ( _1_ ) may include any inquiry, investigation or
-survey in respect of any person, place, property, assets, documents, books of account in
-any bank or public financial institutions or any other relevant matters.
-( _3_ ) Any inquiry, investigation or survey referred to in sub-section ( _2_ ) shall be carried
-out by an officer mentioned in sub-section ( _1_ ) in accordance with such directions issued by
-the said Court in this behalf.
-**117.** ( _1_ ) Where any officer conducting an inquiry or investigation under section 116
-has a reason to believe that any property in relation to which such inquiry or investigation
-is being conducted is likely to be concealed transferred or dealt with in any manner which
-will result in disposal of such property, he may make an order for seizing such property and
-where it is not practicable to seize such property, he may make an order of attachment
-directing that such property shall not be transferred or otherwise dealt with, except with the
-prior permission of the officer making such order, and a copy of such order shall be served
-on the person concerned.
-( _2_ ) Any order made under sub-section ( _1_ ) shall have no effect unless the said order is
-confirmed by an order of the said Court, within a period of thirty days of its being made.
-
-Assistance in
-relation to
-orders of
-attachment or
-forfeiture of
-property.
-
-Identifying
-unlawfully
-acquired
-property.
-
-Seizure or
-attachment of
-property.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-**118.** ( _1_ ) The Court may appoint the District Magistrate of the area where the property
-is situated, or any other officer that may be nominated by the District Magistrate, to perform
-the functions of an Administrator of such property.
-( _2_ ) The Administrator appointed under sub-section ( _1_ ) shall receive and manage the
-property in relation to which the order has been made under sub-section ( _1_ ) of section 117
-or under section 120 in such manner and subject to such conditions as may be specified by
-the Central Government.
-( _3_ ) The Administrator shall also take such measures, as the Central Government may
-direct, to dispose of the property which is forfeited to the Central Government.
-**119.** ( _1_ ) If as a result of the inquiry, investigation or survey under section 116, the
-Court has reason to believe that all or any of such properties are proceeds of crime, it may
-serve a notice upon such person (hereinafter referred to as the person affected) calling
-upon him within a period of thirty days specified in the notice to indicate the source of
-income, earnings or assets, out of which or by means of which he has acquired such
-property, the evidence on which he relies and other relevant information and particulars,
-and to show cause why all or any of such properties, as the case may be, should not be
-declared to be proceeds of crime and forfeited to the Central Government.
-( _2_ ) Where a notice under sub-section ( _1_ ) to any person specifies any property as
-being held on behalf of such person by any other person, a copy of the notice shall also be
-served upon such other person.
-**120.** ( _1_ ) The Court may, after considering the explanation, if any, to the show-cause
-notice issued under section 119 and the material available before it and after giving to the
-person affected (and in a case where the person affected holds any property specified in the
-notice through any other person, to such other person also) a reasonable opportunity of
-being heard, by order, record a finding whether all or any of the properties in question are
-proceeds of crime:
-Provided that if the person affected (and in a case where the person affected holds
-any property specified in the notice through any other person such other person also) does
-not appear before the Court or represent his case before it within a period of thirty days
-specified in the show-cause notice, the Court may proceed to record a finding under this
-sub-section _ex parte_ on the basis of evidence available before it.
-( _2_ ) Where the Court is satisfied that some of the properties referred to in the
-show-cause notice are proceeds of crime but it is not possible to identify specifically such
-properties, then, it shall be lawful for the Court to specify the properties which, to the
-best of its judegment, are proceeds of crime and record a finding accordingly under
-sub-section ( _1_ ).
-( _3_ ) Where the Court records a finding under this section to the effect that any property
-is proceeds of crime, such property shall stand forfeited to the Central Government free
-from all encumbrances.
-( _4_ ) Where any shares in a company stand forfeited to the Central Government under
-this section, then, the company shall, notwithstanding anything contained in the Companies
-Act, 2013 or forthwith register the Central Government as the transferee of such shares.
-**121.** ( _1_ ) Where the Court makes a declaration that any property stands forfeited to
-the Central Government under section 120 and it is a case where the source of only a part of
-such property has not been proved to the satisfaction of the Court, it shall make an order
-giving an option to the person affected to pay, _in lieu_ of forfeiture, a fine equal to the market
-value of such part.
-( _2_ ) Before making an order imposing a fine under sub-section ( _1_ ), the person affected
-shall be given a reasonable opportunity of being heard.
-
-```
-Management
-of properties
-seized or
-forfeited under
-this Chapter.
-```
-
-```
-Notice of
-forfeiture of
-property.
-```
-
-```
-Forfeiture of
-property in
-certain cases.
-```
-
-```
-Fine in lieu of
-forfeiture.
-```
-
-18 of 2013.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-( 3 ) Where the person affected pays the fine due under sub-section ( 1 ), within such
-time as may be allowed in that behalf, the Court may, by order, revoke the declaration of
-forfeiture under section 120 and thereupon such property shall stand released.
-```
-
-**122.** Where after the making of an order under sub-section ( _1_ ) of section 117 or the
-issue of a notice under section 119, any property referred to in the said order or notice is
-transferred by any mode whatsoever such transfers shall, for the purposes of the
-proceedings under this Chapter, be ignored and if such property is subsequently forfeited
-to the Central Government under section 120, then, the transfer of such property shall be
-deemed to be null and void.
-**123.** Every letter of request, summons or warrant, received by the Central Government
-from, and every letter of request, summons or warrant, to be transmitted to a contracting
-State under this Chapter shall be transmitted to a contracting State or, as the case may be,
-sent to the concerned Court in India in such form and in such manner as the Central
-Government may, by notification, specify in this behalf.
-**124.** The Central Government may, by notification in the Official Gazette, direct that
-the application of this Chapter in relation to a contracting State with which reciprocal
-arrangements have been made, shall be subject to such conditions, exceptions or
-qualifications as are specified in the said notification.
-CHAPTER IX
-SECURITY FOR KEEPING THE PEACE AND FOR GOOD BEHAVIOUR
-**125.** ( _1_ ) When a Court of Session or Court of a Magistrate of the first class convicts
-a person of any of the offences specified in sub-section ( _2_ ) or of abetting any such offence
-and is of opinion that it is necessary to take security from such person for keeping the
-peace, the Court may, at the time of passing sentence on such person, order him to execute
-a bond, with or without sureties, for keeping the peace for such period, not exceeding three
-years, as it thinks fit.
-( _2_ ) The offences referred to in sub-section ( _1_ ) are—
-( _a_ ) any offence punishable under Chapter VIII of the Bharatiya Nyaya
-Sanhita, 2023, other than an offence punishable under section 191 or section 194 or
-section 195 thereof;
-( _b_ ) any offence which consists of, or includes, assault or using criminal force or
-committing mischief;
-( _c_ ) any offence of criminal intimidation;
-( _d_ ) any other offence which caused, or was intended or known to be likely to
-cause, a breach of the peace.
-( _3_ ) If the conviction is set aside on appeal or otherwise, the bond so executed shall
-become void.
-( _4_ ) An order under this section may also be made by an Appellate Court or by a Court
-when exercising its powers of revision.
-**126.** ( _1_ ) When an Executive Magistrate receives information that any person is likely
-to commit a breach of the peace or disturb the public tranquility or to do any wrongful act
-that may probably occasion a breach of the peace or disturb the public tranquility and is of
-opinion that there is sufficient ground for proceeding, he may, in the manner hereinafter
-provided, require such person to show cause why he should not be ordered to execute a
-bond with or without sureties, for keeping the peace for such period, not exceeding one
-year, as the Magistrate thinks fit.
-( _2_ ) Proceedings under this section may be taken before any Executive Magistrate
-when either the place where the breach of the peace or disturbance is apprehended is within
-
-Certain
-transfers to be
-null and void.
-
-Procedure in
-respect of
-letter of
-request.
-
-Application of
-this Chapter.
-
-Security for
-keeping peace
-on conviction.
-
-Security for
-keeping peace
-in other cases.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-his local jurisdiction or there is within such jurisdiction a person who is likely to commit a
-breach of the peace or disturb the public tranquility or to do any wrongful act as aforesaid
-beyond such jurisdiction.
-```
-
-**127.** ( _1_ ) When an Executive Magistrate receives information that there is within his
-local jurisdiction any person who, within or without such jurisdiction,—
-( _i_ ) either orally or in writing or in any other manner, intentionally disseminates
-or attempts to disseminate or abets the dissemination of,—
-( _a_ ) any matter the publication of which is punishable under section 150 or
-section 194 or section 195 or section 297 of the Bhartiya Nyaya Sanhita, 2023, or
-( _b_ ) any matter concerning a Judge acting or purporting to act in the
-discharge of his official duties which amounts to criminal intimidation or
-defamation under the Bhartiya Nyaya Sanhita, 2023,
-( _ii_ ) makes, produces, publishes or keeps for sale, imports, exports, conveys,
-sells, lets to hire, distributes, publicly exhibits or in any other manner puts into
-circulation any obscene matter such as is referred to in section 292 of the Bhartiya
-Nyaya Sanhita, 2023,
-and the Magistrate is of opinion that there is sufficient ground for proceeding, the Magistrate
-may, in the manner hereinafter provided, require such person to show cause why he should
-not be ordered to execute a bond, with or without sureties, for his good behaviour for such
-period, not exceeding one year, as the Magistrate thinks fit.
-( _2_ ) No proceedings shall be taken under this section against the editor, proprietor,
-printer or publisher of any publication registered under, and edited, printed and published
-in conformity with, the rules laid down in the Press and Registration of Periodicals Act, 2023
-with reference to any matter contained in such publication except by the order or under the
-authority of the State Government or some officer empowered by the State Government in
-this behalf.
-**128.** When an Executive Magistrate receives information that there is within his local
-jurisdiction a person taking precautions to conceal his presence and that there is reason to
-believe that he is doing so with a view to committing a cognizable offence, the Magistrate
-may, in the manner hereinafter provided, require such person to show cause why he should
-not be ordered to execute a bond, with or without sureties, for his good behaviour for such
-period, not exceeding one year, as the Magistrate thinks fit.
-**129.** When an Executive Magistrate receives information that there is within his local
-jurisdiction a person who—
-
-```
-( a ) is by habit a robber, house-breaker, thief, or forger, or
-```
-
-```
-( b ) is by habit a receiver of stolen property knowing the same to have been
-stolen, or
-```
-
-```
-( c ) habitually protects or harbours thieves, or aids in the concealment or disposal
-of stolen property, or
-```
-
-```
-( d ) habitually commits, or attempts to commit, or abets the commission of, the
-offence of kidnapping, abduction, extortion, cheating or mischief, or any offence
-punishable under Chapter XII of the Bhartiya Nyaya Sanhita, 2023, or under
-section 176, section 177, section 178 or section 179 of that Sanhita, or
-```
-
-```
-( e ) habitually commits, or attempts to commit, or abets the commission of,
-offences, involving a breach of the peace, or
-```
-
-```
-( f ) habitually commits, or attempts to commit, or abets the commission of—
-```
-
-```
-Security for
-good
-behaviour
-from persons
-disseminating
-seditious
-matters.
-```
-
-```
-Security for
-good
-behaviour
-from
-suspected
-persons.
-```
-
-```
-Security for
-good
-behaviour
-from habitual
-offenders.
-```
-
-```
-5
-```
-
-10
-
-15
-
-20
-
-25
-
-30
-
-```
-35
-```
-
-40
-
-45
-
-```
-( i ) any offence under one or more of the following Acts, namely:—
-( a ) the Drugs and Cosmetics Act, 1940;
-( b ) the Foreigners Act, 1946;
-( c ) the Employees' Provident Fund and Miscellaneous Provisions
-Act, 1952;
-( d ) the Essential Commodities Act, 1955;
-( e ) the Protection of Civil Rights Act, 1955;
-( f ) the Customs Act, 1962;
-( g ) the Food Safety and Standards Act, 2006; or
-( ii ) any offence punishable under any other law providing for the
-prevention of hoarding or profiteering or of adulteration of food or drugs or of
-corruption, or
-( g ) is so desperate and dangerous to render his being at large without security
-hazardous to the community,
-such Magistrate may, in the manner hereinafter provided, require such person to show
-cause why he should not be ordered to execute a bond, with sureties, for his good behaviour
-for such period, not exceeding three years, as the Magistrate thinks fit.
-```
-
-**130.** When a Magistrate acting under section 126, section 127, section 128 or
-section 129, deems it necessary to require any person to show cause under such section, he
-shall make an order in writing, setting forth the substance of the information received, the
-amount of the bond to be executed, the term for which it is to be in force and the number of
-sureties, after considering the fitness for payment of sureties.
-**131.** If the person in respect of whom such order is made is present in Court, it shall
-be read over to him, or, if he so desires, the substance thereof shall be explained to him.
-**132.** If such person is not present in Court, the Magistrate shall issue a summons
-requiring him to appear, or, when such person is in custody, a warrant directing the officer
-in whose custody he is to bring him before the Court:
-Provided that whenever it appears to such Magistrate, upon the report of a police
-officer or upon other information (the substance of which report or information shall be
-recorded by the Magistrate), that there is reason to fear the commission of a breach of the
-peace, and that such breach of the peace cannot be prevented otherwise than by the
-immediate arrest of such person, the Magistrate may at any time issue a warrant for his
-arrest.
-**133.** Every summons or warrant issued under section 132 shall be accompanied by a
-copy of the order made under section 130, and such copy shall be delivered by the officer
-serving or executing such summons or warrant to the person served with, or arrested under,
-the same.
-**134.** The Magistrate may, if he sees sufficient cause, dispense with the personal
-attendance of any person called upon to show cause why he should not be ordered to
-execute a bond for keeping the peace or for good behaviour and may permit him to appear
-by a pleader.
-**135.** ( _1_ ) When an order under section 130 has been read or explained under
-section 131 to a person present in Court, or when any person appears or is brought before
-a Magistrate in compliance with, or in execution of, a summons or warrant, issued under
-section 132, the Magistrate shall proceed to inquire into the truth of the information upon
-which action has been taken, and to take such further evidence as may appear necessary.
-
-```
-23 of 1940.
-```
-
-```
-34 of 2006.
-```
-
-```
-19 of 1952.
-```
-
-```
-10 of 1955.
-22 of 1955.
-52 of 1962.
-```
-
-```
-31 of 1946.
-```
-
-Order to be
-made.
-
-Procedure in
-respect of
-person present
-in Court.
-
-Summons or
-warrant in
-case of person
-not so
-present.
-
-Copy of order
-to accompany
-summons or
-warrant.
-
-Power to
-dispense with
-personal
-attendance.
-
-Inquiry as to
-truth of
-information.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-( 2 ) Such inquiry shall be made, as nearly as may be practicable, in the manner
-hereinafter prescribed for conducting trial and recording evidence in summons-cases.
-( 3 ) After the commencement, and before the completion, of the inquiry under
-sub-section ( 1 ), the Magistrate, if he considers that immediate measures are necessary for
-the prevention of a breach of the peace or disturbance of the public tranquility or the
-commission of any offence or for the public safety, may, for reasons to be recorded in
-writing, direct the person in respect of whom the order under section 130 has been made to
-execute a bond, with or without sureties, for keeping the peace or maintaining good behaviour
-until the conclusion of the inquiry, and may detain him in custody until such bond is
-executed or, in default of execution, until the inquiry is concluded:
-Provided that—
-( a ) no person against whom proceedings are not being taken under section 127,
-section 128, or section 129 shall be directed to execute a bond for maintaining good
-behaviour;
-( b ) the conditions of such bond, whether as to the amount thereof or as to the
-provision of sureties or the number thereof or the pecuniary extent of their liability,
-shall not be more onerous than those specified in the order under section 130.
-( 4 ) For the purposes of this section the fact that a person is an habitual offender or is
-so desperate and dangerous as to render his being at large without security hazardous to
-the community may be proved by evidence of general repute or otherwise.
-( 5 ) Where two or more persons have been associated together in the matter under
-inquiry, they may be dealt within the same or separate inquiries as the Magistrate shall think
-just.
-( 6 ) The inquiry under this section shall be completed within a period of six months
-from the date of its commencement, and if such inquiry is not so completed, the proceedings
-under this Chapter shall, on the expiry of the said period, stand terminated unless, for
-special reasons to be recorded in writing, the Magistrate otherwise directs:
-Provided that where any person has been kept in detention pending such inquiry, the
-proceeding against that person, unless terminated earlier, shall stand terminated on the
-expiry of a period of six months of such detention.
-( 7 ) Where any direction is made under sub-section ( 6 ) permitting the continuance of
-proceedings the Sessions Judge may, on an application made to him by the aggrieved party,
-vacate such direction if he is satisfied that it was not based on any special reason or was
-perverse.
-```
-
-**136.** If, upon such inquiry, it is proved that it is necessary for keeping the peace or
-maintaining good behaviour, as the case may be, that the person in respect of whom the
-inquiry is made should execute a bond, with or without sureties, the Magistrate shall make
-an order accordingly:
-Provided that—
-( _a_ ) no person shall be ordered to give security of a nature different from, or of
-an amount larger than, or for a period longer than, that specified in the order made
-under section 130;
-( _b_ ) the amount of every bond shall be fixed with due regard to the circumstances
-of the case and shall not be excessive;
-( _c_ ) when the person in respect of whom the inquiry is made is a minor, the bond
-shall be executed only by his sureties.
-**137.** If, on an inquiry under section 135, it is not proved that it is necessary for
-keeping the peace or maintaining good behaviour, as the case may be, that the person in
-respect of whom the inquiry is made, should execute a bond, the Magistrate shall make an
-
-```
-Order to give
-security.
-```
-
-```
-Discharge of
-person
-informed
-against.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-```
-entry on the record to that effect, and if such person is in custody only for the purposes of
-the inquiry, shall release him, or, if such person is not in custody, shall discharge him.
-```
-
-**138.** ( _1_ ) If any person, in respect of whom an order requiring security is made under
-section 125 or section 136, is at the time such order is made, sentenced to, or undergoing a
-sentence of, imprisonment, the period for which such security is required shall commence
-on the expiration of such sentence.
-( _2_ ) In other cases such period shall commence on the date of such order unless the
-Magistrate, for sufficient reason, fixes a later date.
-**139.** The bond to be executed by any such person shall bind him to keep the peace or
-to be of good behaviour, as the case may be, and in the latter case the commission or
-attempt to commit, or the abetment of, any offence punishable with imprisonment, wherever
-it may be committed, is a breach of the bond.
-**140.** ( _1_ ) A Magistrate may refuse to accept any surety offered, or may reject any
-surety previously accepted by him or his predecessor under this Chapter on the ground
-that such surety is an unfit person for the purposes of the bond:
-Provided that before so refusing to accept or rejecting any such surety, he shall either
-himself hold an inquiry on oath into the fitness of the surety, or cause such inquiry to be
-held and a report to be made thereon by a Magistrate subordinate to him.
-( _2_ ) Such Magistrate shall, before holding the inquiry, give reasonable notice to the
-surety and to the person by whom the surety was offered and shall, in making the inquiry,
-record the substance of the evidence adduced before him.
-( _3_ ) If the Magistrate is satisfied, after considering the evidence so adduced either
-before him or before a Magistrate deputed under sub-section ( _1_ ), and the report of such
-Magistrate (if any), that the surety is an unfit person for the purposes of the bond, he shall
-make an order refusing to accept or rejecting, as the case may be, such surety and recording
-his reasons for so doing:
-Provided that before making an order rejecting any surety who has previously been
-accepted, the Magistrate shall issue his summons or warrant, as he thinks fit, and cause the
-person for whom the surety is bound to appear or to be brought before him.
-**141.** ( _1_ ) ( _a_ ) If any person ordered to give security under section 127 or section 136
-does not give such security on or before the date on which the period for which such
-security is to be given commences, he shall, except in the case next hereinafter mentioned,
-be committed to prison, or, if he is already in prison, be detained in prison until such period
-expires or until within such period he gives the security to the Court or Magistrate who
-made the order requiring it.
-( _b_ ) If any person after having executed a bond, with or without sureties without
-sureties for keeping the peace in pursuance of an order of a Magistrate under section 136,
-is proved, to the satisfaction of such Magistrate or his successor-in-office, to have committed
-breach of the bond, such Magistrate or successor-in-office may, after recording the grounds
-of such proof, order that the person be arrested and detained in prison until the expiry of the
-period of the bond and such order shall be without prejudice to any other punishment or
-forfeiture to which the said person may be liable in accordance with law.
-( _2_ ) When such person has been ordered by a Magistrate to give security for a period
-exceeding one year, such Magistrate shall, if such person does not give such security as
-aforesaid, issue a warrant directing him to be detained in prison pending the orders of the
-Sessions Judge and the proceedings shall be laid, as soon as conveniently may be, before
-such Court.
-( _3_ ) Such Court, after examining such proceedings and requiring from the Magistrate
-any further information or evidence which it thinks necessary, and after giving the concerned
-
-Commencement
-of period for
-which security
-is required.
-
-Contents of
-bond.
-
-Power to
-reject sureties.
-
-Imprisonment
-in default of
-security.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-person a reasonable opportunity of being heard, may pass such order on the case as it
-thinks fit:
-Provided that the period (if any) for which any person is imprisoned for failure to give
-security shall not exceed three years.
-( 4 ) If security has been required in the course of the same proceeding from two or
-more persons in respect of any one of whom the proceedings are referred to the Sessions
-Judge under sub-section ( 2 ) such reference shall also include the case of any other of such
-persons who has been ordered to give security, and the provisions of sub-sections ( 2 ) and
-( 3 ) shall, in that event, apply to the case of such other person also, except that the period (if
-any) for which he may be imprisoned, shall not exceed the period for which he was ordered
-to give security.
-( 5 ) A Sessions Judge may in his discretion transfer any proceedings laid before him
-under sub-section ( 2 ) or sub-section ( 4 ) to an Additional Sessions Judge and upon such
-transfer, such Additional Sessions Judge may exercise the powers of a Sessions Judge
-under this section in respect of such proceedings.
-( 6 ) If the security is tendered to the officer in charge of the jail, he shall forthwith refer
-the matter to the Court or Magistrate who made the order, and shall await the orders of such
-Court or Magistrate.
-( 7 ) Imprisonment for failure to give security for keeping the peace shall be simple.
-( 8 ) Imprisonment for failure to give security for good behaviour shall, where the
-proceedings have been taken under section 127, be simple, and, where the proceedings
-have been taken under section 128 or section 129, be rigorous or simple as the Court or
-Magistrate in each case directs.
-```
-
-**142.** ( _1_ ) Whenever the District Magistrate in the case of an order passed by an
-Executive Magistrate under section 136, or the Chief Judicial Magistrate in any other case
-is of opinion that any person imprisoned for failing to give security under this Chapter may
-be released without hazard to the community or to any other person, he may order such
-person to be discharged.
-( _2_ ) Whenever any person has been imprisoned for failing to give security under this
-Chapter, the High Court or Court of Session, or, where the order was made by any other
-Court, District Magistrate, in the case of an order passed by an Executive Magistrate under
-section 136, or the Chief Judicial Magistrate in any other case, may make an order reducing
-the amount of the security or the number of sureties or the time for which security has been
-required.
-( _3_ ) An order under sub-section ( _1_ ) may direct the discharge of such person either
-without conditions or upon any conditions which such person accepts:
-Provided that any condition imposed shall cease to be operative when the period for
-which such person was ordered to give security has expired.
-( _4_ ) The State Government may prescribe the conditions upon which a conditional
-discharge may be made.
-( _5_ ) If any condition upon which any person has been discharged is, in the opinion of
-District Magistrate, in the case of an order passed by an Executive Magistrate under
-section 136, or the Chief Judicial Magistrate in any other case by whom the order of discharge
-was made or of his successor, not fulfilled, he may cancel the same.
-( _6_ ) When a conditional order of discharge has been cancelled under sub-section ( _5_ ),
-such person may be arrested by any police officer without warrant, and shall thereupon be
-produced before the District Magistrate, in the case of an order passed by an Executive
-Magistrate under section 136, or the Chief Judicial Magistrate in any other case.
-
-```
-Power to
-release
-persons
-imprisoned for
-failing to give
-security.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-```
-( 7 ) Unless such person gives security in accordance with the terms of the original
-order for the unexpired portion of the term for which he was in the first instance committed
-or ordered to be detained (such portion being deemed to be a period equal to the period
-between the date of the breach of the conditions of discharge and the date on which, except
-for such conditional discharge, he would have been entitled to release), District Magistrate,
-in the case of an order passed by an Executive Magistrate under section 136, or the Chief
-Judicial Magistrate in any other case may remand such person to prison to undergo such
-unexpired portion.
-( 8 ) A person remanded to prison under sub-section ( 7 ) shall, subject to the provisions
-of section 141, be released at any time on giving security in accordance with the terms of the
-original order for the unexpired portion aforesaid to the Court or Magistrate by whom such
-order was made, or to its or his successor.
-( 9 ) The High Court or Court of Session may at any time, for sufficient reasons to be
-recorded in writing, cancel any bond for keeping the peace or for good behaviour executed
-under this Chapter by any order made by it, and District Magistrate, in the case of an order
-passed by an Executive Magistrate under section 136, or the Chief Judicial Magistrate in
-any other case may make such cancellation where such bond was executed under his order
-or under the order of any other Court in his district.
-( 10 ) Any surety for the peaceable conduct or good behaviour of another person
-ordered to execute a bond under this Chapter may at any time apply to the Court making
-such order to cancel the bond and on such application being made, the Court shall issue a
-summons or warrant, as it thinks fit, requiring the person for whom such surety is bound to
-appear or to be brought before it.
-```
-
-**143.** ( _1_ ) When a person for whose appearance a summons or warrant has been issued
-under the proviso to sub-section ( _3_ ) of section 140 or under sub-section ( _10_ ) of section 142,
-appears or is brought before the Magistrate or Court, the Magistrate or Court shall cancel
-the bond executed by such person and shall order such person to give, for the unexpired
-portion of the term of such bond, fresh security of the same description as the original
-security.
-( _2_ ) Every such order shall, for the purposes of sections 139 to 142 (both inclusive) be
-deemed to be an order made under section 125 or section 136, as the case may be.
-CHAPTER X
-ORDER FOR MAINTENANCE OF WIVES, CHILDREN AND PARENTS
-**144.** ( _1_ ) If any person having sufficient means neglects or refuses to maintain—
-( _a_ ) his wife, unable to maintain herself, or
-( _b_ ) his legitimate or illegitimate minor child, whether married or not, unable to
-maintain itself, or
-( _c_ ) his legitimate or illegitimate child (not being a married daughter) who has
-attained majority, where such child is, by reason of any physical or mental abnormality
-or injury unable to maintain itself, or
-( _d_ ) his father or mother, unable to maintain himself or herself, a Judicial Magistrate
-of the first class may, upon proof of such neglect or refusal, order such person to
-make a monthly allowance for the maintenance of his wife or such child, father or
-mother, at such monthly rate as such Magistrate thinks fit and to pay the same to
-such person as the Magistrate may from time to time direct:
-Provided that the Judicial Magistrate may order the father of a minor female child
-referred to in clause ( _b_ ) to make such allowance, until she attains her majority, if the Judicial
-Magistrate is satisfied that the husband of such minor female child, if married, is not
-possessed of sufficient means:
-
-Security for
-unexpired
-period of
-bond.
-
-Order for
-maintenance
-of wives,
-children and
-parents.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-Provided further that the Judicial Magistrate may, during the pendency of the
-proceeding regarding monthly allowance for the maintenance under this sub-section, order
-such person to make a monthly allowance for the interim maintenance of his wife or such
-child, father or mother, and the expenses of such proceeding which the Judicial Magistrate
-considers reasonable, and to pay the same to such person as the Magistrate may from time
-to time direct:
-Provided also that an application for the monthly allowance for the interim maintenance
-and expenses of proceeding under the second proviso shall, as far as possible, be disposed
-of within sixty days from the date of the service of notice of the application to such person.
-Explanation .—For the purposes of this Chapter,—
-( a ) "minor" means a person who, under the provisions of the Indian Majority
-Act, 1875 is deemed not to have attained his majority;
-( b ) "wife" includes a woman who has been divorced by, or has obtained a
-divorce from, her husband and has not remarried.
-( 2 ) Any such allowance for the maintenance or interim maintenance and expenses of
-proceeding shall be payable from the date of the order, or, if so ordered, from the date of the
-application for maintenance or interim maintenance and expenses of proceeding, as the
-case may be.
-( 3 ) If any person so ordered fails without sufficient cause to comply with the order,
-any such Magistrate may, for every breach of the order, issue a warrant for levying the
-amount due in the manner provided for levying fines, and may sentence such person, for
-the whole or any part of each month's allowance for the maintenance or the interim
-maintenance and expenses of proceeding, as the case may be, remaining unpaid after the
-execution of the warrant, to imprisonment for a term which may extend to one month or until
-payment if sooner made:
-Provided that no warrant shall be issued for the recovery of any amount due under
-this section unless application be made to the Court to levy such amount within a period of
-one year from the date on which it became due:
-Provided further that if such person offers to maintain his wife on condition of her
-living with him, and she refuses to live with him, such Magistrate may consider any grounds
-of refusal stated by her, and may make an order under this section notwithstanding such
-offer, if he is satisfied that there is just ground for so doing.
-Explanation .—If a husband has contracted marriage with another woman or keeps a
-mistress, it shall be considered to be just ground for his wife's refusal to live with him.
-( 4 ) No wife shall be entitled to receive an allowance for the maintenance or the interim
-maintenance and expenses of proceeding, from her husband under this section if she is
-living in adultery, or if, without any sufficient reason, she refuses to live with her husband,
-or if they are living separately by mutual consent.
-( 5 ) On proof that any wife in whose favour an order has been made under this section
-is living in adultery, or that without sufficient reason she refuses to live with her husband,
-or that they are living separately by mutual consent, the Judicial Magistrate shall cancel the
-order.
-```
-
-**145.** ( _1_ ) Proceedings under section 144 may be taken against any person in any
-district—
-( _a_ ) where he is, or
-( _b_ ) where he or his wife resides, or
-( _c_ ) where he last resided with his wife, or as the case may be, with the mother of
-the illegitimate child.
-
-```
-Procedure.
-```
-
-9 of 1875.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-( 2 ) All evidence in such proceedings shall be taken in the presence of the person
-against whom an order for payment of maintenance is proposed to be made, or, when his
-personal attendance is dispensed with, in the presence of his pleader, and shall be recorded
-in the manner prescribed for summons-cases:
-Provided that if the Judicial Magistrate is satisfied that the person against whom an
-order for payment of maintenance is proposed to be made is wilfully avoiding service, or
-wilfully neglecting to attend the Court, the Magistrate may proceed to hear and determine
-the case ex parte and any order so made may be set aside for good cause shown on an
-application made within three months from the date thereof subject to such terms including
-terms as to payment of costs to the opposite party as the Magistrate may think just and
-proper.
-( 3 ) The Court in dealing with applications under section 144 shall have power to make
-such order as to costs as may be just.
-```
-
-**146.** ( _1_ ) On proof of a change in the circumstances of any person, receiving, under
-section 144 a monthly allowance for the maintenance or interim maintenance, or ordered
-under the same section to pay a monthly allowance for the maintenance, or interim
-maintenance, to his wife, child, father or mother, as the case may be, the Magistrate may
-make such alteration, as he thinks fit, in the allowance for the maintenance or the interim
-maintenance, as the case may be.
-( _2_ ) Where it appears to the Judicial Magistrate that in consequence of any decision of
-a competent Civil Court, any order made under section 144 should be cancelled or varied, he
-shall cancel the order or, as the case may be, vary the same accordingly.
-( _3_ ) Where any order has been made under section 144 in favour of a woman who has
-been divorced by, or has obtained a divorce from, her husband, the Judicial Magistrate
-shall, if he is satisfied that—
-( _a_ ) the woman has, after the date of such divorce, remarried, cancel such order
-as from the date of her remarriage;
-( _b_ ) the woman has been divorced by her husband and that she has received,
-whether before or after the date of the said order, the whole of the sum which, under
-any customary or personal law applicable to the parties, was payable on such divorce,
-cancel such order,—
-( _i_ ) in the case where such sum was paid before such order, from the date
-on which such order was made;
-( _ii_ ) in any other case, from the date of expiry of the period, if any, for
-which maintenance has been actually paid by the husband to the woman;
-( _c_ ) the woman has obtained a divorce from her husband and that she had
-voluntarily surrendered her rights to maintenance or interim maintenance, as the case
-may be, after her divorce, cancel the order from the date thereof.
-( _4_ ) At the time of making any decree for the recovery of any maintenance or dowry by
-any person, to whom a monthly allowance for the maintenance and interim maintenance or
-any of them has been ordered to be paid under section 144, the Civil Court shall take into
-account the sum which has been paid to, or recovered by, such person as monthly allowance
-for the maintenance and interim maintenance or any of them, as the case may be, in pursuance
-of the said order.
-**147.** A copy of the order of maintenance or interim maintenance and expenses of
-proceedings, as the case may be, shall be given without payment to the person in whose
-favour it is made, or to his guardian, if any, or to the person to whom the allowance for the
-maintenance or the allowance for the interim maintenance and expenses of proceeding, as
-the case may be, is to be paid; and such order may be enforced by any Judicial Magistrate
-
-Alteration in
-allowance.
-
-Enforcement
-of order of
-maintenance.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-in any place where the person against whom it is made may be, on such Magistrate being
-satisfied as to the identity of the parties and the non-payment of the allowance, or as the
-case may be, expenses, due.
-CHAPTER XI
-MAINTENANCE OF PUBLIC ORDER AND TRANQUILLITY
-A.—Unlawful assemblies
-```
-
-**148.** ( _1_ ) Any Executive Magistrate or officer in charge of a police station or, in the
-absence of such officer in charge, any police officer, not below the rank of a sub-inspector,
-may command any unlawful assembly, or any assembly of five or more persons likely to
-cause a disturbance of the public peace, to disperse; and it shall thereupon be the duty of
-the members of such assembly to disperse accordingly.
-( _2_ ) If, upon being so commanded, any such assembly does not disperse, or if, without
-being so commanded, it conducts itself in such a manner as to show a determination not to
-disperse, any Executive Magistrate or police officer referred to in sub-section ( _1_ ), may
-proceed to disperse such assembly by force, and may require the assistance of any person,
-not being an officer or member of the armed forces and acting as such, for the purpose of
-dispersing such assembly, and, if necessary, arresting and confining the persons who form
-part of it, in order to disperse such assembly or that they may be punished according to law.
-**149.** ( _1_ ) If any assembly referred to in sub-section ( _1_ ) of section 148 cannot otherwise
-be dispersed, and it is necessary for the public security that it should be dispersed, the
-District Magistrate or any other Executive Magistrate authorised by him, who is present,
-may cause it to be dispersed by the armed forces.
-( _2_ ) Such Magistrate may require any officer in command of any group of persons
-belonging to the armed forces to disperse the assembly with the help of the armed forces
-under his command, and to arrest and confine such persons forming part of it as the
-Executive Magistrate may direct, or as it may be necessary to arrest and confine in order to
-disperse the assembly or to have them punished according to law.
-( _3_ ) Every such officer of the armed forces shall obey such requisition in such manner
-as he thinks fit, but in so doing he shall use as little force, and do as little injury to person
-and property, as may be consistent with dispersing the assembly and arresting and detaining
-such persons.
-**150.** When the public security is manifestly endangered by any such assembly and
-no Executive Magistrate can be communicated with, any commissioned or gazetted officer
-of the armed forces may disperse such assembly with the help of the armed forces under his
-command, and may arrest and confine any persons forming part of it, in order to disperse
-such assembly or that they may be punished according to law; but if, while he is acting
-under this section, it becomes practicable for him to communicate with an Executive
-Magistrate, he shall do so, and shall thenceforward obey the instructions of the Magistrate,
-as to whether he shall or shall not continue such action.
-**151.** ( _1_ ) No prosecution against any person for any act purporting to be done under
-section 148, section 149 or section 150 shall be instituted in any Criminal Court except—
-( _a_ ) with the sanction of the Central Government where such person is an officer
-or member of the armed forces;
-( _b_ ) with the sanction of the State Government in any other case.
-( _2_ ) ( _a_ ) No Executive Magistrate or police officer acting under any of the said sections
-in good faith;
-( _b_ ) no person doing any act in good faith in compliance with a requisition under
-section 148 or section 149;
-
-```
-Dispersal of
-assembly by
-use of civil
-force.
-```
-
-```
-Use of armed
-forces to
-disperse
-assembly.
-```
-
-```
-Power of
-certain armed
-force officers
-to disperse
-assembly.
-```
-
-```
-Protection
-against
-prosecution
-for acts done
-under sections
-148, 149 and
-150.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-```
-( c ) no officer of the armed forces acting under section 150 in good faith;
-( d ) no member of the armed forces doing any act in obedience to any order
-which he was bound to obey,
-shall be deemed to have thereby committed an offence:
-Provided that no case shall be registered under sub-section ( 1 ) of section 174 against
-any officer or member of the armed forces for any act done by him in obedience of any order
-which he was bound to obey in the discharge of his official duties, without making a
-preliminary enquiry into the matter:
-Provided further that no officer or member of the armed forces of the Union or any
-police officer of a State shall be arrested for anything done or purported to be done by him
-in obedience of any order which he was bound to obey in the discharge of his official
-duties, except after obtaining the consent of the Central Government or the State Government.
-( 3 ) In this section and in the preceding sections of this Chapter,—
-( a ) the expression "armed forces" means the military, naval and air forces,
-operating as land forces and includes any other armed forces of the Union so operating;
-( b ) "officer", in relation to the armed forces, means a person commissioned,
-gazetted or in pay as an officer of the armed forces and includes a junior commissioned
-officer, a warrant officer, a petty officer, a non-commissioned officer and a non-gazetted
-officer;
-( c ) "member", in relation to the armed forces, means a person in the armed
-forces other than an officer.
-B.—Public nuisances
-```
-
-**152.** ( _1_ ) Whenever a District Magistrate or a Sub-divisional Magistrate or any other
-Executive Magistrate specially empowered in this behalf by the State Government, on
-receiving the report of a police officer or other information and on taking such evidence (if
-any) as he thinks fit, considers—
-
-```
-( a ) that any unlawful obstruction or nuisance should be removed from any
-public place or from any way, river or channel which is or may be lawfully used by the
-public; or
-```
-
-```
-( b ) that the conduct of any trade or occupation, or the keeping of any goods or
-merchandise, is injurious to the health or physical comfort of the community, and that
-in consequence such trade or occupation should be prohibited or regulated or such
-goods or merchandise should be removed or the keeping thereof regulated; or
-```
-
-```
-( c ) that the construction of any building, or, the disposal of any substance, as
-is likely to occasion configuration or explosion, should be prevented or stopped; or
-```
-
-```
-( d ) that any building, tent or structure, or any tree is in such a condition that it
-is likely to fall and thereby cause injury to persons living or carrying on business in
-the neighbourhood or passing by, and that in consequence the removal, repair or
-support of such building, tent or structure, or the removal or support of such tree, is
-necessary; or
-```
-
-```
-( e ) that any tank, well or excavation adjacent to any such way or public place
-should be fenced in such manner as to prevent danger arising to the public; or
-```
-
-```
-( f ) that any dangerous animal should be destroyed, confined or otherwise
-disposed of, such Magistrate may make a conditional order requiring the person
-causing such obstruction or nuisance, or carrying on such trade or occupation, or
-keeping any such goods or merchandise, or owning, possessing or controlling such
-```
-
-Conditional
-order for
-removal of
-nuisance.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-building, tent, structure, substance, tank, well or excavation, or owning or possessing
-such animal or tree, within a time to be fixed in the order—
-( i ) to remove such obstruction or nuisance; or
-( ii ) to desist from carrying on, or to remove or regulate in such manner as
-may be directed, such trade or occupation, or to remove such goods or
-merchandise, or to regulate the keeping thereof in such manner as may be
-directed; or
-( iii ) to prevent or stop the construction of such building, or to alter the
-disposal of such substance; or
-( iv ) to remove, repair or support such building, tent or structure, or to
-remove or support such trees; or
-( v ) to fence such tank, well or excavation; or
-( vi ) to destroy, confine or dispose of such dangerous animal in the manner
-provided in the said order,
-or, if he objects so to do, to appear before himself or some other Executive Magistrate
-subordinate to him at a time and place to be fixed by the order, and show cause, in the
-manner hereinafter provided, why the order should not be made absolute.
-( 2 ) No order duly made by a Magistrate under this section shall be called in question
-in any Civil Court.
-Explanation .—A "public place" includes also property belonging to the State,
-camping grounds and grounds left unoccupied for sanitary or recreative purposes.
-```
-
-**153.** ( _1_ ) The order shall, if practicable, be served on the person against whom it is
-made, in the manner herein provided for service of summons.
-( _2_ ) If such order cannot be so served, it shall be notified by proclamation or by
-electronic communication in such manner as the State Government may, by rules, direct,
-and a copy thereof shall be stuck up at such place or places as may be fittest for conveying
-the information to such person.
-**154.** The person against whom such order is made shall—
-( _a_ ) perform, within the time and in the manner specified in the order, the act
-directed thereby; or
-( _b_ ) appear in accordance with such order and show cause against the same;
-and such appearance or hearing may be permitted through audio video conferencing.
-**155.** If the person against whom an order is made under section 154 does not perform
-such act or appear and show cause, he shall be liable to the penalty specified in that behalf
-in section 221 of the Bharatiya Nyaya Sanhita, 2023, and the order shall be made absolute.
-**156.** ( _1_ ) Where an order is made under section 152 for the purpose of preventing
-obstruction, nuisance or danger to the public in the use of any way, river, channel or place,
-the Magistrate shall, on the appearance before him of the person against whom the order
-was made, question him as to whether he denies the existence of any public right in respect
-of the way, river, channel or place, and if he does so, the Magistrate shall, before proceeding
-under section 157, inquire into the matter.
-( _2_ ) If in such inquiry the Magistrate finds that there is any reliable evidence in support
-of such denial, he shall stay the proceedings until the matter of the existence of such right
-has been decided by a competent Court; and, if he finds that there is no such evidence, he
-shall proceed as laid down in section 157.
-( _3_ ) A person who has, on being questioned by the Magistrate under sub-section ( _1_ ),
-
-```
-Service or
-notification of
-order.
-```
-
-```
-Person to
-whom order is
-addressed to
-obey or show
-cause.
-```
-
-```
-Penalty for
-failure to
-comply with
-section 154.
-Procedure
-where
-existence of
-public right is
-denied.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-```
-fail to deny the existence of a public right of the nature therein referred to, or who, having
-made such denial, has failed to adduce reliable evidence in support thereof, shall not in the
-subsequent proceedings be permitted to make any such denial.
-```
-
-**157.** ( _1_ ) If the person against whom an order under section 152 is made appears and
-shows cause against the order, the Magistrate shall take evidence in the matter as in a
-summons-case.
-( _2_ ) If the Magistrate is satisfied that the order, either as originally made or subject to
-such modification as he considers necessary, is reasonable and proper, the order shall be
-made absolute without modification or, as the case may be, with such modification.
-( _3_ ) If the Magistrate is not so satisfied, no further proceedings shall be taken in the
-case:
-Provided that the proceedings under this section shall be completed, as soon as
-possible, within a period of ninety days, which may be extended for the reasons to be
-recorded in writing, to one hundred and twenty days.
-**158.** The Magistrate may, for the purposes of an inquiry under section 156 or
-section 157—
-( _a_ ) direct a local investigation to be made by such person as he thinks fit; or
-( _b_ ) summon and examine an expert.
-**159.** ( _1_ ) Where the Magistrate directs a local investigation by any person under
-section 158, the Magistrate may—
-( _a_ ) furnish such person with such written instructions as may seem necessary
-for his guidance;
-( _b_ ) declare by whom the whole or any part of the necessary expenses of the
-local investigation shall be paid.
-( _2_ ) The report of such person may be read as evidence in the case.
-( _3_ ) Where the Magistrate summons and examines an expert under section 158, the
-Magistrate may direct by whom the costs of such summoning and examination shall be
-paid.
-**160.** ( _1_ ) When an order has been made absolute under section 155 or section 157, the
-Magistrate shall give notice of the same to the person against whom the order was made,
-and shall further require him to perform the act directed by the order within the time to be
-fixed in the notice, and inform him that, in case of disobedience, he shall be liable to the
-penalty provided by section 221 of the Bharatiya Nyaya Sanhita, 2023.
-( _2_ ) If such act is not performed within the time fixed, the Magistrate may cause it to be
-performed, and may recover the cost of performing it, either by the sale of any building,
-goods or other property removed by his order, or by the distress and sale of any other
-movable property of such person within or without such Magistrate's local jurisdiction, and
-if such other property is without such jurisdiction, the order shall authorise its attachment
-and sale when endorsed by the Magistrate within whose local jurisdiction the property to
-be attached is found.
-( _3_ ) No suit shall lie in respect of anything done in good faith under this section.
-**161.** ( _1_ ) If a Magistrate making an order under section 152 considers that immediate
-measures should be taken to prevent imminent danger or injury of a serious kind to the
-public, he may issue such an injunction to the person against whom the order was made, as
-is required to obviate or prevent such danger or injury pending the determination of the
-matter.
-
-Procedure
-where the
-person against
-whom order is
-made under
-section 152
-appears to
-show cause.
-
-Power of
-Magistrate to
-direct local
-investigation
-and
-examination
-of an expert.
-
-Power of
-Magistrate to
-furnish written
-instructions,
-etc.
-
-Procedure on
-order being
-made absolute
-and
-consequences
-of
-disobedience.
-
-Injunction
-pending
-inquiry.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-( 2 ) In default of such person forthwith obeying such injunction, the Magistrate may
-himself use, or cause to be used, such means as he thinks fit to obviate such danger or to
-prevent such injury.
-( 3 ) No suit shall lie in respect of anything done in good faith by a Magistrate under
-this section.
-```
-
-**162.** A District Magistrate or Sub-divisional Magistrate, or any other Executive
-Magistrate or Deputy Commissioner of Police empowered by the State Government or the
-District Magistrate in this behalf, may order any person not to repeat or continue a public
-nuisance, as defined in the Bhartiya Nyaya Sanhita, 2023, or any special or local law.
-_C_ .— _Urgent cases of nuisance or apprehended danger_
-**163.** ( _1_ ) In cases where, in the opinion of a District Magistrate, a Sub-divisional
-Magistrate or any other Executive Magistrate specially empowered by the State Government
-in this behalf, there is sufficient ground for proceeding under this section and immediate
-prevention or speedy remedy is desirable, such Magistrate may, by a written order stating
-the material facts of the case and served in the manner provided by section 153, direct any
-person to abstain from a certain act or to take certain order with respect to certain property
-in his possession or under his management, if such Magistrate considers that such direction
-is likely to prevent, or tends to prevent, obstruction, annoyance or injury to any person
-lawfully employed, or danger to human life, health or safety or a disturbance of the public
-tranquility, or a riot, or an affray.
-( _2_ ) An order under this section may, in cases of emergency or in cases where the
-circumstances do not admit of the serving in due time of a notice upon the person against
-whom the order is directed, be passed _ex parte_.
-( _3_ ) An order under this section may be directed to a particular individual, or to persons
-residing in a particular place or area, or to the public generally when frequenting or visiting
-a particular place or area.
-( _4_ ) No order under this section shall remain in force for more than two months from
-the making thereof:
-Provided that if the State Government considers it necessary so to do for preventing
-danger to human life, health or safety or for preventing a riot or any affray, it may, by
-notification, direct that an order made by a Magistrate under this section shall remain in
-force for such further period not exceeding six months from the date on which the order
-made by the Magistrate would have, but for such order, expired, as it may specify in the said
-notification.
-( _5_ ) Any Magistrate may, either on his own motion or on the application of any person
-aggrieved, rescind or alter any order made under this section by himself or any Magistrate
-subordinate to him or by his predecessor-in-office.
-( _6_ ) The State Government may, either on its own motion or on the application of any
-person aggrieved, rescind or alter any order made by it under the proviso to sub-section ( _4_ ).
-( _7_ ) Where an application under sub-section ( _5_ ) or sub-section ( _6_ ) is received, the
-Magistrate, or the State Government, as the case may be, shall afford to the applicant an
-early opportunity of appearing before him or it, either in person or by pleader and showing
-cause against the order; and if the Magistrate or the State Government, as the case may be,
-rejects the application wholly or in part, he or it shall record in writing the reasons for so
-doing.
-_D._ — _Disputes as to immovable property_
-**164.** ( _1_ ) Whenever an Executive Magistrate is satisfied from a report of a police
-officer or upon other information that a dispute likely to cause a breach of the peace exists
-concerning any land or water or the boundaries thereof, within his local jurisdiction, he
-shall make an order in writing, stating the grounds of his being so satisfied, and requiring
-the parties concerned in such dispute to attend his Court in person or by pleader, on a
-
-```
-Magistrate
-may prohibit
-repetition or
-continuance
-of public
-nuisance.
-```
-
-```
-Power to issue
-order in urgent
-cases of
-nuisance or
-apprehended
-danger.
-```
-
-```
-Procedure
-where dispute
-concerning
-land or water
-is likely to
-cause breach
-of peace.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-50
-
-```
-specified date and time, and to put in written statements of their respective claims as
-respects the fact of actual possession of the subject of dispute.
-( 2 ) For the purposes of this section, the expression "land or water" includes buildings,
-markets, fisheries, crops or other produce of land, and the rents or profits of any such
-property.
-```
-
-```
-( 3 ) A copy of the order shall be served in the manner provided by this Sanhita for the
-service of summons upon such person or persons as the Magistrate may direct, and at least
-one copy shall be published by being affixed to some conspicuous place at or near the
-subject of dispute.
-```
-
-```
-( 4 ) The Magistrate shall, without reference to the merits or the claims of any of the
-parties to a right to possess the subject of dispute, peruse the statements so put in, hear the
-parties, receive all such evidence as may be produced by them, take such further evidence,
-if any, as he thinks necessary, and, if possible, decide whether any and which of the parties
-was, at the date of the order made by him under sub-section ( 1 ), in possession of the
-subject of dispute:
-```
-
-Provided that if it appears to the Magistrate that any party has been forcibly and
-wrongfully dispossessed within two months next before the date on which the report of a
-police officer or other information was received by the Magistrate, or after that date and
-before the date of his order under sub-section ( _1_ ), he may treat the party so dispossessed
-as if that party had been in possession on the date of his order under sub-section ( _1_ ).
-
-```
-( 5 ) Nothing in this section shall preclude any party so required to attend, or any other
-person interested, from showing that no such dispute as aforesaid exists or has existed; and
-in such case the Magistrate shall cancel his said order, and all further proceedings thereon
-shall be stayed, but, subject to such cancellation, the order of the Magistrate under
-sub-section ( 1 ) shall be final.
-```
-
-( _6_ ) ( _a_ ) If the Magistrate decides that one of the parties was, or should under the
-proviso to sub-section ( _4_ ) be treated as being, in such possession of the said subject of
-dispute, he shall issue an order declaring such party to be entitled to possession thereof
-until evicted therefrom in due course of law, and forbidding all disturbance of such possession
-until such eviction; and when he proceeds under the proviso to sub-section ( _4_ ), may
-restore to possession the party forcibly and wrongfully dispossessed.
-
-( _b_ ) The order made under this sub-section shall be served and published in the
-manner laid down in sub-section ( _3_ ).
-
-( _7_ ) When any party to any such proceeding dies, the Magistrate may cause the legal
-representative of the deceased party to be made a party to the proceeding and shall thereupon
-continue the inquiry, and if any question arises as to who the legal representative of a
-deceased party for the purposes of such proceeding is, all persons claiming to be
-representatives of the deceased party shall be made parties thereto.
-
-( _8_ ) If the Magistrate is of opinion that any crop or other produce of the property, the
-subject of dispute in a proceeding under this section pending before him, is subject to
-speedy and natural decay, he may make an order for the proper custody or sale of such
-property, and, upon the completion of the inquiry, shall make such order for the disposal of
-such property, or the sale-proceeds thereof, as he thinks fit.
-
-( _9_ ) The Magistrate may, if he thinks fit, at any stage of the proceedings under this
-section, on the application of either party, issue a summons to any witness directing him to
-attend or to produce any document or thing.
-
-( _10_ ) Nothing in this section shall be deemed to be in derogation of powers of the
-Magistrate to proceed under section 126.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-**165.** ( _1_ ) If the Magistrate at any time after making the order under sub-section ( _1_ ) of
-section 164 considers the case to be one of emergency, or if he decides that none of the
-parties was then in such possession as is referred to in section 164, or if he is unable to
-satisfy himself as to which of them was then in such possession of the subject of dispute,
-he may attach the subject of dispute until a competent Court has determined the rights of
-the parties thereto with regard to the person entitled to the possession thereof:
-Provided that such Magistrate may withdraw the attachment at any time if he is
-satisfied that there is no longer any likelihood of breach of the peace with regard to the
-subject of dispute.
-( _2_ ) When the Magistrate attaches the subject of dispute, he may, if no receiver in
-relation to such subject of dispute has been appointed by any Civil Court, make such
-arrangements as he considers proper for looking after the property or if he thinks fit,
-appoint a receiver thereof, who shall have, subject to the control of the Magistrate, all the
-powers of a receiver appointed under the Code of Civil Procedure, 1908:
-Provided that in the event of a receiver being subsequently appointed in relation to
-the subject of dispute by any Civil Court, the Magistrate—
-( _a_ ) shall order the receiver appointed by him to hand over the possession of the
-subject of dispute to the receiver appointed by the Civil Court and shall thereafter
-discharge the receiver appointed by him;
-( _b_ ) may make such other incidental or consequential orders as may be just.
-**166.** ( _1_ ) Whenever an Executive Magistrate is satisfied from the report of a police
-officer or upon other information, that a dispute likely to cause a breach of the peace exists
-regarding any alleged right of user of any land or water within his local jurisdiction, whether
-such right be claimed as an easement or otherwise, he shall make an order in writing, stating
-the grounds of his being so satisfied and requiring the parties concerned in such dispute to
-attend his Court in person or by pleader on a specified date and time and to put in written
-statements of their respective claims.
-_Explanation_ .—For the purposes of this sub-section, the expression "land or water"
-has the meaning given to it in sub-section ( _2_ ) of section 164.
-( _2_ ) The Magistrate shall peruse the statements so put in, under sub-section ( _1_ ), hear
-the parties, receive all such evidence as may be produced by them respectively, consider
-the effect of such evidence, take such further evidence, if any, as he thinks necessary and,
-if possible, decide whether such right exists; and the provisions of section 164 shall, so far
-as may be, apply in the case of such inquiry.
-( _3_ ) If it appears to such Magistrate that such rights exist, he may make an order
-prohibiting any interference with the exercise of such right, including, in a proper case, an
-order for the removal of any obstruction in the exercise of any such right:
-Provided that no such order shall be made where the right is exercisable at all times of
-the year, unless such right has been exercised within three months next before the receipt
-under sub-section ( _1_ ) of the report of a police officer or other information leading to the
-institution of the inquiry, or where the right is exercisable only at particular season or on
-particular occasion, unless the right has been exercised during the last of such seasons or
-on the last of such occasions before such receipt.
-( _4_ ) When in any proceedings commenced under sub-section ( _1_ ) of section 164 the
-Magistrate finds that the dispute is as regards an alleged right of user of land or water, he
-may, after recording his reasons, continue with the proceedings as if they had been
-commenced under sub-section ( _1_ ), and when in any proceedings commenced under
-sub-section ( _1_ ) the Magistrate finds that the dispute should be dealt with under section
-164, he may, after recording his reasons, continue with the proceedings as if they had been
-commenced under sub-section ( _1_ ) of section 164.
-
-```
-Power to
-attach subject
-of dispute and
-to appoint
-receiver.
-```
-
-```
-Dispute
-concerning
-right of use of
-land or water.
-```
-
-5 of 1908.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-50
-```
-
-**167.** ( _1_ ) Whenever a local inquiry is necessary for the purposes of section 164,
-section 165 or section 166, a District Magistrate or Sub-divisional Magistrate may depute
-any Magistrate subordinate to him to make the inquiry, and may furnish him with such
-written instructions as may seem necessary for his guidance, and may declare by whom the
-whole or any part of the necessary expenses of the inquiry shall be paid.
-( _2_ ) The report of the person so deputed may be read as evidence in the case.
-( _3_ ) When any costs have been incurred by any party to a proceeding under
-section 164, section 165 or section 166, the Magistrate passing a decision may direct by
-whom such costs shall be paid, whether by such party or by any other party to the proceeding,
-and whether in whole or in part or proportion and such costs may include any expenses
-incurred in respect of witnesses and of pleaders' fees, which the Court may consider reasonable.
-CHAPTER XII
-
-```
-PREVENTIVE ACTION OF THE POLICE
-```
-
-**168.** Every police officer may interpose for the purpose of preventing, and shall, to
-the best of his ability, prevent, the commission of any cognizable offence.
-**169.** Every police officer receiving information of a design to commit any cognizable
-offence shall communicate such information to the police officer to whom he is subordinate,
-and to any other officer whose duty it is to prevent or take cognizance of the commission of
-any such offence.
-**170.** ( _1_ ) A police officer knowing of a design to commit any cognizable offence may
-arrest, without orders from a Judicial Magistrate and without a warrant, the person so
-designing, if it appears to such officer that the commission of the offence cannot be otherwise
-prevented.
-( _2_ ) No person arrested under sub-section ( _1_ ) shall be detained in custody for a period
-exceeding twenty-four hours from the time of his arrest unless his further detention is
-required or authorised under any other provisions of this Sanhita or of any other law for the
-time being in force.
-**171.** A police officer may of his own authority interpose to prevent any injury attempted
-to be committed in his view to any public property, movable or immovable, or the removal or
-injury of any public landmark, buoy or other mark used for navigation.
-**172.** ( _1_ ) All persons shall be bound to conform to the lawful directions of a police
-officer given in fulfilment of any of his duty under this Chapter.
-( _2_ ) A police officer may detain or remove any person resisting, refusing, ignoring or
-disregarding to conform to any direction given by him under sub-section ( _1_ ) and may either
-take such person before a Judicial Magistrate or, in petty cases, release him when the
-occasion is past.
-CHAPTER XIII
-
-```
-INFORMATION TO THE POLICE AND THEIR POWERS TO INVESTIGATE
-```
-
-**173.** ( _1_ ) Every information relating to the commission of a cognizable offence,
-irrespective of the area where the offence is committed may be given orally or by electronic
-communication and if given to an officer in charge of a police station,—
-( _i_ ) orally, it shall be reduced to writing by him or under his direction, and be read
-over to the informant; and every such information, whether given in writing or reduced
-to writing as aforesaid, shall be signed by the person giving it;
-( _ii_ ) by electronic communication, it shall be taken on record by him on being
-signed within three days by the person giving it,
-
-Local inquiry.
-
-Police to
-prevent
-cognizable
-offences.
-
-Information
-of design to
-commit
-cognizable
-offences.
-
-Arrest to
-prevent
-commission of
-cognizable
-offences.
-
-Prevention of
-injury to
-public
-property.
-
-Persons bound
-to conform to
-lawful
-directions of
-police.
-
-Information
-in cognizable
-cases.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-and the substance thereof shall be entered in a book to be kept by such officer in such form
-as the State Government may prescribe in this behalf:
-Provided that if the information is given by the woman against whom an offence
-under section 64, section 66, section 67, section 68, section 70, section 73, section 74,
-section 75, section 76, section 77, section 78 or section 122 of the Bharatiya Nyaya
-Sanhita, 2023 is alleged to have been committed or attempted, then such information shall
-be recorded, by a woman police officer or any woman officer:
-Provided further that—
-( a ) in the event that the person against whom an offence under section 354,
-section 67, section 68, sub-section ( 2 ) of section 69, sub-section ( 1 ) of section 70,
-section 71, section 74, section 75, section 76, section 77 or section 79 of the Bharatiya
-Nyaya Sanhita, 2023 is alleged to have been committed or attempted, is temporarily or
-permanently mentally or physically disabled, then such information shall be recorded
-by a police officer, at the residence of the person seeking to report such offence or at
-a convenient place of such person's choice, in the presence of an interpreter or a
-special educator, as the case may be;
-( b ) the recording of such information shall be videographed;
-( c ) the police officer shall get the statement of the person recorded by a Judicial
-Magistrate under clause ( a ) of sub-section ( 6 ) of section 183 as soon as possible.
-( 2 ) A copy of the information as recorded under sub-section ( 1 ) shall be given forthwith,
-free of cost, to the informant or the victim.
-( 3 ) Without prejudice to the provisions contained in section 175, on receipt of
-information relating to the commission of any cognizable offence, which is made punishable
-for three years or more but less than seven years, the officer in-charge of the police station
-may with the prior permission from an officer not below the rank of Deputy Superintendent
-of Police, considering the nature and gravity of the offence,—
-( i ) proceed to conduct preliminary enquiry to ascertain whether there exists a
-prima facie case for proceeding in the matter within a period of fourteen days; or
-( ii ) proceed with investigation when there exists a prima facie case.
-( 4 ) Any person aggrieved by a refusal on the part of an officer in charge of a police
-station to record the information referred to in sub-section ( 1 ), may send the substance of
-such information, in writing and by post, to the Superintendent of Police concerned who, if
-satisfied that such information discloses the commission of a cognizable offence, shall
-either investigate the case himself or direct an investigation to be made by any police officer
-subordinate to him, in the manner provided by this Sanhita, and such officer shall have all
-the powers of an officer in charge of the police station in relation to that offence failing
-which he may make an application under sub-section ( 3 ) of section 175 to the Magistrate.
-```
-
-**174.** ( _1_ ) When information is given to an officer in charge of a police station of the
-commission within the limits of such station of a non-cognizable offence, he shall enter or
-cause to be entered the substance of the information in a book to be kept by such officer in
-such form as the State Government may prescribe in this behalf, and,—
-( _i_ ) refer the informant to the Magistrate;
-( _ii_ ) forward the daily diary report of all such cases fortnightly to the Magistrate.
-( _2_ ) No police officer shall investigate a non-cognizable case without the order of a
-Magistrate having power to try such case or commit the case for trial.
-( _3_ ) Any police officer receiving such order may exercise the same powers in respect of
-the investigation (except the power to arrest without warrant) as an officer in charge of a
-police station may exercise in a cognizable case.
-
-```
-Information
-as to non-
-cognizable
-cases and
-investigation
-of such cases.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-```
-( 4 ) Where a case relates to two or more offences of which at least one is cognizable,
-the case shall be deemed to be a cognizable case, notwithstanding that the other offences
-are non-cognizable.
-```
-
-**175.** ( _1_ ) Any officer in charge of a police station may, without the order of a Magistrate,
-investigate any cognizable case which a Court having jurisdiction over the local area within
-the limits of such station would have power to inquire into or try under the provisions of
-Chapter XIV:
-Provided that considering the nature and gravity of the offence, the Superintendent
-of Police may either himself investigate or require the Deputy Superintendent of Police to
-investigate the offence.
-( _2_ ) No proceeding of a police officer in any such case shall at any stage be called in
-question on the ground that the case was one which such officer was not empowered under
-this section to investigate.
-( _3_ ) Any Judicial Magistrate empowered under section 210 may, after considering the
-application made under clause ( _b_ ) of sub-section ( _4_ ) of section 173 and submission made in
-this regard by the police officer, order such an investigation as above-mentioned.
-( _4_ ) Any Judicial Magistrate empowered under section 210, may upon receiving a
-complaint against a public servant arising in course of the discharge of his official duties,
-take cognizance, subject to—
-( _a_ ) receiving a report containing facts and circumstances of the incident from
-the officer superior to him; and
-( _b_ ) after consideration of the assertions made by the public servant as to the
-situation that led to the incident so alleged.
-**176.** ( _1_ ) If, from information received or otherwise, an officer in charge of a police
-station has reason to suspect the commission of an offence which he is empowered under
-section 175 to investigate, he shall forthwith send a report of the same to a Magistrate
-empowered to take cognizance of such offence upon a police report and shall proceed in
-person, or shall depute one of his subordinate officers not being below such rank as the
-State Government may, by general or special order, prescribe in this behalf, to proceed, to
-the spot, to investigate the facts and circumstances of the case, and, if necessary, to take
-measures for the discovery and arrest of the offender:
-Provided that—
-( _a_ ) when information as to the commission of any such offence is given against
-any person by name and the case is not of a serious nature, the officer in charge of a
-police station need not proceed in person or depute a subordinate officer to make an
-investigation on the spot;
-( _b_ ) if it appears to the officer in charge of a police station that there is no
-sufficient ground for entering on an investigation, he shall not investigate the case:
-Provided further that in relation to an offence of rape, the recording of statement of
-the victim shall be conducted at the residence of the victim or in the place of her choice and
-as far as practicable by a woman police officer in the presence of her parents or guardian or
-near relatives or social worker of the locality:
-Provided also that statement made under this sub-section may also be recorded
-through any audio-video electronic means preferably cell phone.
-( _2_ ) In each of the cases mentioned in clauses ( _a_ ) and ( _b_ ) of the first proviso to
-sub-section ( _1_ ), the officer in charge of the police station shall state in his report the
-reasons for not fully complying with the requirements of that sub-section by him, and,
-forward the daily diary report fortnightly to the Magistrate and in the case mentioned in
-
-Police
-officer's power
-to investigate
-cognizable
-case.
-
-Procedure for
-investigation.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-clause ( b ) of the said proviso, the officer shall also forthwith notify to the informant, if any,
-in such manner as may be prescribed.
-( 3 ) On receipt of every information relating to the commission of an offence which is
-made punishable for seven years or more, the officer in charge of a police station shall, from
-such date, as may be notified within a period of five years by the State Government in this
-regard, cause the forensics expert to visit the crimes scene to collect forensic evidence in
-the offence and also cause videography of the process on mobile phone or any other
-electronic device:
-Provided that where forensics facility is not available in respect of any such offence,
-the State Government shall, until the facility in respect of that matter is developed or made
-in the State, notify the utilisation of such facility of any other State.
-```
-
-**177.** ( _1_ ) Every report sent to a Magistrate under section 176 shall, if the State
-Government so directs, be submitted through such superior officer of police as the State
-Government, by general or special order, appoints in that behalf.
-( _2_ ) Such superior officer may give such instructions to the officer in charge of the
-police station as he thinks fit, and shall, after recording such instructions on such report,
-transmit the same without delay to the Magistrate.
-**178.** The Magistrate, on receiving report under section 176, may direct an investigation,
-or, if he thinks fit, at once proceed, or depute any Magistrate subordinate to him to proceed,
-to hold a preliminary inquiry into, or otherwise to dispose of, the case in the manner
-provided in this Sanhita.
-**179.** ( _1_ ) Any police officer making an investigation under this Chapter may, by order
-in writing, require the attendance before himself of any person being within the limits of his
-own or any adjoining station who, from the information given or otherwise, appears to be
-acquainted with the facts and circumstances of the case; and such person shall attend as so
-required:
-Provided that no male person under the age of fifteen years or above the age of
-sixty years or a woman or a mentally or physically disabled person or a person with acute illness
-shall be required to attend at any place other than the place in which such person resides:
-Provided further that if such person is willing to attend the police station or at any
-other place within the limits of such police station, such person may be permitted so to do.
-( _2_ ) The State Government may, by rules made in this behalf, provide for the payment
-by the police officer of the reasonable expenses of every person, attending under
-sub-section ( _1_ ) at any place other than his residence.
-**180.** ( _1_ ) Any police officer making an investigation under this Chapter, or any police
-officer not below such rank as the State Government may, by general or special order,
-prescribe in this behalf, acting on the requisition of such officer, may examine orally any
-person supposed to be acquainted with the facts and circumstances of the case.
-( _2_ ) Such person shall be bound to answer truly all questions relating to such case put
-to him by such officer, other than questions the answers to which would have a tendency
-to expose him to a criminal charge or to a penalty or forfeiture.
-( _3_ ) The police officer may reduce into writing any statement made to him in the course
-of an examination under this section; and if he does so, he shall make a separate and true
-record of the statement of each such person whose statement he records:
-Provided that statement made under this sub-section may also be recorded by
-audio-video electronic means:
-Provided further that the statement of a woman against whom an offence under
-section 64, section 66, section 67, section 68, section 70, section 71, section 73, section 74,
-
-```
-Report how
-submitted.
-```
-
-```
-Power to hold
-investigation
-or preliminary
-inquiry.
-```
-
-```
-Police
-officer's power
-to require
-attendance of
-witnesses.
-```
-
-```
-Examination
-of witnesses
-by police.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-```
-section 75, section 76, section 77 or section 78 of the Bharatiya Nyaya Sanhita, 2023 is
-alleged to have been committed or attempted, shall be recorded, by a woman police officer
-or any woman officer.
-```
-
-**181.** ( _1_ ) No statement made by any person to a police officer in the course of an
-investigation under this Chapter, shall, if reduced to writing, be signed by the person
-making it; nor shall any such statement or any record thereof, whether in a police diary or
-otherwise, or any part of such statement or record, be used for any purpose, save as
-hereinafter provided, at any inquiry or trial in respect of any offence under investigation at
-the time when such statement was made:
-
-```
-Provided that when any witness is called for the prosecution in such inquiry or trial
-whose statement has been reduced into writing as aforesaid, any part of his statement, if
-duly proved, may be used by the accused, and with the permission of the Court, by the
-prosecution, to contradict such witness in the manner provided by section 148 of the
-Bhartiya Sakshya Adhiniyam, 2023; and when any part of such statement is so used, any
-part thereof may also be used in the re-examination of such witness, but for the purpose
-only of explaining any matter referred to in his cross-examination.
-```
-
-```
-( 2 ) Nothing in this section shall be deemed to apply to any statement falling within
-the provisions of clause ( 1 ) of section 26 of the Bharatiya Sakshya Adhiniyam, 2023; or to
-affect the provisions of section 23 of that Adhiniyam.
-```
-
-```
-Explanation .— An omission to state a fact or circumstance in the statement referred
-to in sub-section ( 1 ) may amount to contradiction if the same appears to be significant and
-otherwise relevant having regard to the context in which such omission occurs and whether
-any omission amounts to a contradiction in the particular context shall be a question of fact.
-```
-
-**182.** ( _1_ ) No police officer or other person in authority shall offer or make, or cause to
-be offered or made, any such inducement, threat or promise as is mentioned in section 22 of
-the Bharatiya Sakshya Adhiniyam, 2023.
-
-```
-( 2 ) But no police officer or other person shall prevent, by any caution or otherwise,
-any person from making in the course of any investigation under this Chapter any statement
-which he may be disposed to make of his own free will:
-```
-
-```
-Provided that nothing in this sub-section shall affect the provisions of sub-section ( 4 )
-of section 184.
-```
-
-**183.** ( _1_ ) Any Judicial Magistrate of the District in which the information about
-commission of any offence has been registered, may, whether or not he has jurisdiction in
-the case, record any confession or statement made to him in the course of an investigation
-under this Chapter or under any other law for the time being in force, or at any time afterwards
-but before the commencement of the inquiry or trial:
-
-```
-Provided that any confession or statement made under this sub-section may also be
-recorded in the presence of the advocate of the person accused of an offence:
-```
-
-```
-Provided further that no confession shall be recorded by a police officer on whom any
-power of a Magistrate has been conferred under any law for the time being in force.
-```
-
-```
-( 2 ) The Magistrate shall, before recording any such confession, explain to the person
-making it that he is not bound to make a confession and that, if he does so, it may be used
-as evidence against him; and the Magistrate shall not record any such confession unless,
-upon questioning the person making it, he has reason to believe that it is being made
-voluntarily.
-```
-
-```
-( 3 ) If at any time before the confession is recorded, the person appearing before the
-Magistrate states that he is not willing to make the confession, the Magistrate shall not
-authorise the detention of such person in police custody.
-```
-
-Statements to
-police and use
-thereof.
-
-No inducement
-to be offered.
-
-Recording of
-confessions
-and
-statements.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-( 4 ) Any such confession shall be recorded in the manner provided in section 316 for
-recording the examination of an accused person and shall be signed by the person making
-the confession; and the Magistrate shall make a memorandum at the foot of such record to
-the following effect:—
-"I have explained to (name) that he is not bound to make a confession and that,
-if he does so, any confession he may make may be used as evidence against him and
-I believe that this confession was voluntarily made. It was taken in my presence and
-hearing, and was read over to the person making it and admitted by him to be correct,
-and it contains a full and true account of the statement made by him.
-(Signed) A. B.
-Magistrate."
-( 5 ) Any statement (other than a confession) made under sub-section ( 1 ) shall be
-recorded in such manner hereinafter provided for the recording of evidence as is, in the
-opinion of the Judicial Magistrate, best fitted to the circumstances of the case; and the
-Judicial Magistrate shall have power to administer oath to the person whose statement is so
-recorded.
-( 6 ) ( a ) In cases punishable under section 66, section 67, section 68, section 70,
-section 71, section 73, section 74, section 75, section 76, section 77, sub-section ( 1 ) or
-sub-section ( 2 ) of section 74, or section 78 of the Bhartiya Nyaya Sanhita, 2023, the Judicial
-Magistrate shall record the statement of the person against whom such offence has been
-committed in the manner specified in sub-section ( 5 ), as soon as the commission of the
-offence is brought to the notice of the police:
-Provided that such statement shall, as far as practicable, be recorded by a woman
-Judicial Magistrate and in her absence by a male Judicial Magistrate in the presence of a
-woman:
-Provided further that in cases relating to the offences punishable with imprisonment
-for ten years or more or imprisonment for life or with death, the Judicial Magistrate shall
-record the statement of the witness brought before him by the police officer:
-Provided also that if the person making the statement is temporarily or permanently
-mentally or physically disabled, the Magistrate shall take the assistance of an interpreter or
-a special educator in recording the statement:
-Provided also that if the person making the statement is temporarily or permanently
-mentally or physically disabled, the statement made by the person, with the assistance of
-an interpreter or a special educator, shall be recorded through audio-video electronic means
-preferably cell phone.
-( b ) A statement recorded under clause ( a ) of a person, who is temporarily or
-permanently mentally or physically disabled, shall be considered a statement in lieu of
-examination-in-chief, as specified in section 142 of the Bhartiya Sakshya Adhiniyam, 2023
-such that the maker of the statement can be cross-examined on such statement, without the
-need for recording the same at the time of trial.
-( 7 ) The Magistrate recording a confession or statement under this section shall
-forward it to the Magistrate by whom the case is to be inquired into or tried.
-```
-
-**184.** ( _1_ ) Where, during the stage when an offence of committing rape or attempt to
-commit rape is under investigation, it is proposed to get the person of the woman with
-whom rape is alleged or attempted to have been committed or attempted, examined by a
-medical expert, such examination shall be conducted by a registered medical practitioner
-employed in a hospital run by the Government or a local authority and in the absence of
-such a practitioner, by any other registered medical practitioner, with the consent of such
-woman or of a person competent to give such consent on her behalf and such woman shall
-
-```
-Medical
-examination
-of the victim
-of rape.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-```
-be sent to such registered medical practitioner within twenty-four hours from the time of
-receiving the information relating to the commission of such offence.
-( 2 ) The registered medical practitioner, to whom such woman is sent, shall, without
-delay, examine her person and prepare a report of his examination giving the following
-particulars, namely:—
-( i ) the name and address of the woman and of the person by whom she was
-brought;
-( ii ) the age of the woman;
-( iii ) the description of material taken from the person of the woman for
-DNA profiling;
-( iv ) marks of injury, if any, on the person of the woman;
-( v ) general mental condition of the woman; and
-( vi ) other material particulars in reasonable detail.
-( 3 ) The report shall state precisely the reasons for each conclusion arrived at.
-( 4 ) The report shall specifically record that the consent of the woman or of the person
-competent to give such consent on her behalf to such examination had been obtained.
-( 5 ) The exact time of commencement and completion of the examination shall also be
-noted in the report.
-( 6 ) The registered medical practitioner shall, within a period of seven days forward
-the report to the investigating officer who shall forward it to the Magistrate referred to in
-section 193 as part of the documents referred to in clause ( a ) of sub-section ( 6 ) of that
-section.
-( 7 ) Nothing in this section shall be construed as rendering lawful any examination
-without the consent of the woman or of any person competent to give such consent on her
-behalf.
-Explanation .—For the purposes of this section, "examination" and "registered
-medical practitioner" shall have the same meanings as respectively assigned to them in
-section 51.
-```
-
-**185.** ( _1_ ) Whenever an officer in charge of a police station or a police officer making an
-investigation has reasonable grounds for believing that anything necessary for the purposes
-of an investigation into any offence which he is authorised to investigate may be found in
-any place within the limits of the police station of which he is in charge, or to which he is
-attached, and that such thing cannot in his opinion be otherwise obtained without undue
-delay, such officer may, after recording in writing the grounds of his belief in the case-diary
-and specifying in such writing, so far as possible, the thing for which search is to be made,
-search, or cause search to be made, for such thing in any place within the limits of such
-station.
-( _2_ ) A police officer proceeding under sub-section ( _1_ ), shall, if practicable, conduct the
-search in person.
-Provided that the search conducted under this section shall be recorded through
-audio-video electronic means preferably by mobile phone.
-( _3_ ) If he is unable to conduct the search in person, and there is no other person
-competent to make the search present at the time, he may, after recording in writing his
-reasons for so doing, require any officer subordinate to him to make the search, and he shall
-deliver to such subordinate officer an order in writing, specifying the place to be searched,
-and so far as possible, the thing for which search is to be made; and such subordinate
-officer may thereupon search for such thing in such place.
-
-Search by
-police officer.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-( 4 ) The provisions of this Sanhita as to search-warrants and the general provisions as
-to searches contained in section 103 shall, so far as may be, apply to a search made under
-this section.
-( 5 ) Copies of any record made under sub-section ( 1 ) or sub-section ( 3 ) shall forthwith,
-but not later than forty-eight hours, be sent to the nearest Magistrate empowered to take
-cognizance of the offence, and the owner or occupier of the place searched shall, on
-application, be furnished, free of cost, with a copy of the same by the Magistrate.
-```
-
-**186.** ( _1_ ) An officer in charge of a police station or a police officer not being below the
-rank of sub-inspector making an investigation may require an officer in charge of another
-police station, whether in the same or a different district, to cause a search to be made in any
-place, in any case in which the former officer might cause such search to be made, within the
-limits of his own station.
-( _2_ ) Such officer, on being so required, shall proceed according to the provisions of
-section 185, and shall forward the thing found, if any, to the officer at whose request the
-search was made.
-( _3_ ) Whenever there is reason to believe that the delay occasioned by requiring an
-officer in charge of another police station to cause a search to be made under
-sub-section ( _1_ ) might result in evidence of the commission of an offence being concealed or
-destroyed, it shall be lawful for an officer in charge of a police station or a police officer
-making any investigation under this Chapter to search, or cause to be searched, any place
-in the limits of another police station in accordance with the provisions of section 185, as if
-such place were within the limits of his own police station.
-( _4_ ) Any officer conducting a search under sub-section ( _3_ ) shall forthwith send notice
-of the search to the officer in charge of the police station within the limits of which such
-place is situate, and shall also send with such notice a copy of the list (if any) prepared
-under section 103, and shall also send to the nearest Magistrate empowered to take
-cognizance of the offence, copies of the records referred to in sub-sections ( _1_ ) and ( _3_ ) of
-section 185.
-( _5_ ) The owner or occupier of the place searched shall, on application, be furnished
-free of cost with a copy of any record sent to the Magistrate under sub-section ( _4_ ).
-**187.** ( _1_ ) Whenever any person is arrested and detained in custody, and it appears
-that the investigation cannot be completed within the period of twenty-four hours fixed by
-section 58, and there are grounds for believing that the accusation or information is
-well-founded, the officer in charge of the police station or the police officer making the
-investigation, if he is not below the rank of sub-inspector, shall forthwith transmit to the
-nearest Judicial Magistrate a copy of the entries in the diary hereinafter specified relating to
-the case, and shall at the same time forward the accused to such Magistrate.
-( _2_ ) The Judicial Magistrate to whom an accused person is forwarded under this
-section may, irrespective of whether he has or has no jurisdiction to try the case, after taking
-into consideration the status of the accused person as to whether he is not released on bail
-or his bail has not been cancelled, authorise, from time to time, the detention of the accused
-in such custody as such Magistrate thinks fit, for a term not exceeding fifteen days in the
-whole, or in parts, at any time during the initial forty days or sixty days out of detention
-period of sixty days or ninety days, as the case may be, as provided in sub-section ( _3_ ), and
-if he has no jurisdiction to try the case or commit it for trial, and considers further detention
-unnecessary, he may order the accused to be forwarded to a Judicial Magistrate having
-such jurisdiction.
-( _3_ ) The Magistrate may authorise the detention of the accused person, beyond the
-period of fifteen days, if he is satisfied that adequate grounds exist for doing so, but no
-Magistrate shall authorise the detention of the accused person in custody under this
-sub-section for a total period exceeding—
-
-```
-When officer
-in charge of
-police station
-may require
-another to
-issue search-
-warrant.
-```
-
-```
-Procedure
-when
-investigation
-cannot be
-completed in
-twenty-four
-hours.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-50
-
-```
-( i ) ninety days, where the investigation relates to an offence punishable with
-death, imprisonment for life or imprisonment for a term of not less than ten years;
-```
-
-```
-( ii ) sixty days, where the investigation relates to any other offence,
-```
-
-and, on the expiry of the said period of ninety days, or sixty days, as the case may be, the
-accused person shall be released on bail if he is prepared to and does furnish bail, and every
-person released on bail under this sub-section shall be deemed to be so released under the
-provisions of Chapter XXXIV for the purposes of that Chapter.
-
-( _4_ ) No Magistrate shall authorise detention of the accused in custody of the police
-under this section unless the accused is produced before him in person for the first time and
-subsequently every time till the accused remains in the custody of the police, but the
-Magistrate may extend further detention in judicial custody on production of the accused
-either in person or through the medium of electronic video linkage.
-
-( _5_ ) No Magistrate of the second class, not specially empowered in this behalf by the
-High Court, shall authorise detention in the custody of the police.
-
-_Explanation_ I.—For the avoidance of doubts, it is hereby declared that,
-notwithstanding the expiry of the period specified in sub-section ( _3_ ), the accused shall be
-detained in custody so long as he does not furnish bail.
-
-_Explanation_ II.—If any question arises whether an accused person was produced
-before the Magistrate as required under sub-section ( _4_ ), the production of the accused
-person may be proved by his signature on the order authorising detention or by the order
-certified by the Magistrate as to production of the accused person through the medium of
-electronic video linkage, as the case may be:
-
-Provided that in case of a woman under eighteen years of age, the detention shall be
-authorised to be in the custody of a remand home or recognised social institution:
-
-Provided further that no person shall be detained otherwise than in police station
-under policy custody or in prison under Judicial custody or place declared as prison by the
-Central Government or the State Government.
-
-( _6_ ) Notwithstanding anything contained in sub-section ( _1_ ) to sub-section ( _5_ ), the
-officer in charge of the police station or the police officer making the investigation, if he is
-not below the rank of a sub-inspector, may, where a Judicial Magistrate is not available,
-transmit to the nearest Executive Magistrate, on whom the powers of a Judicial Magistrate
-have been conferred, a copy of the entry in the diary hereinafter specified relating to the
-case, and shall, at the same time, forward the accused to such Executive Magistrate, and
-thereupon such Executive Magistrate, may, for reasons to be recorded in writing, authorise
-the detention of the accused person in such custody as he may think fit for a term not
-exceeding seven days in the aggregate; and, on the expiry of the period of detention so
-authorised, the accused person shall be released on bail except where an order for further
-detention of the accused person has been made by a Magistrate competent to make such
-order; and, where an order for such further detention is made, the period during which the
-accused person was detained in custody under the orders made by an Executive Magistrate
-under this sub-section, shall be taken into account in computing the period specified in
-sub-section ( _3_ ):
-
-Provided that before the expiry of the period aforesaid, the Executive Magistrate shall
-transmit to the nearest Judicial Magistrate the records of the case together with a copy of
-the entries in the diary relating to the case which was transmitted to him by the officer in
-charge of the police station or the police officer making the investigation, as the case may
-be.
-
-( _7_ ) A Magistrate authorising under this section detention in the custody of the police
-shall record his reasons for so doing.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-( 8 ) Any Magistrate other than the Chief Judicial Magistrate making such order shall
-forward a copy of his order, with his reasons for making it, to the Chief Judicial Magistrate.
-```
-
-```
-( 9 ) If in any case triable by a Magistrate as a summons-case, the investigation is not
-concluded within a period of six months from the date on which the accused was arrested,
-the Magistrate shall make an order stopping further investigation into the offence unless
-the officer making the investigation satisfies the Magistrate that for special reasons and in
-the interests of justice the continuation of the investigation beyond the period of six
-months is necessary.
-```
-
-```
-( 10 ) Where any order stopping further investigation into an offence has been made
-under sub-section ( 9 ), the Sessions Judge may, if he is satisfied, on an application made to
-him or otherwise, that further investigation into the offence ought to be made, vacate the
-order made under sub-section ( 9 ) and direct further investigation to be made into the
-offence subject to such directions with regard to bail and other matters as he may specify.
-```
-
-**188.** When any subordinate police officer has made any investigation under this
-Chapter, he shall report the result of such investigation to the officer in charge of the police
-station.
-**189.** If, upon an investigation under this Chapter, it appears to the officer in charge of
-the police station that there is not sufficient evidence or reasonable ground of suspicion to
-justify the forwarding of the accused to a Magistrate, such officer shall, if such person is in
-custody, release him on his executing a bond, with or without sureties, as such officer may
-direct, to appear, if and when so required, before a Magistrate empowered to take cognizance
-of the offence on a police report, and to try the accused or commit him for trial.
-**190.** ( _1_ ) If, upon an investigation under this Chapter, it appears to the officer in charge
-of the police station that there is sufficient evidence or reasonable ground as aforesaid,
-such officer shall forward the accused under custody to a Judicial Magistrate empowered
-to take cognizance of the offence upon a police report to try the accused or commit him for
-trial, or, if the offence is bailable and the accused is able to give security, shall take security
-from him for his appearance before such Magistrate on a day fixed and for his attendance
-from day to day before such Magistrate until otherwise directed:
-
-```
-Provided that if the accused is not in custody, the police officer shall take security
-from such person for his appearance before the Judicial Magistrate and the Judicial
-Magistrate to whom such report is forwarded shall not refuse to accept the same on the
-ground that the accused is not taken in custody.
-```
-
-```
-( 2 ) When the officer in charge of a police station forwards an accused person to a
-Judicial Magistrate or takes security for his appearance before such Magistrate under this
-section, he shall send to such Magistrate any weapon or other article which it may be
-necessary to produce before him, and shall require the complainant (if any) and so many of
-the persons who appear to such officer to be acquainted with the facts and circumstances
-of the case as he may think necessary, to execute a bond to appear before the Judicial
-Magistrate as thereby directed and prosecute or give evidence (as the case may be) in the
-matter of the charge against the accused.
-```
-
-```
-( 3 ) If the Court of the Chief Judicial Magistrate is mentioned in the bond, such Court
-shall be held to include any Court to which such Magistrate may refer the case for inquiry
-or trial, provided reasonable notice of such reference is given to such complainant or
-persons.
-```
-
-```
-( 4 ) The officer in whose presence the bond is executed shall deliver a copy thereof to
-one of the persons who executed it, and shall then send to the Magistrate the original with
-his report.
-```
-
-```
-Report of
-investigation
-by subordinate
-police officer.
-```
-
-```
-Release of
-accused when
-evidence
-deficient.
-```
-
-```
-Cases to be
-sent to
-Magistrate,
-when evidence
-is sufficient.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-**191.** No complainant or witness on his way to any Court shall be required to accompany
-a police officer, or shall be subjected to unnecessary restraint or inconvenience, or required
-to give any security for his appearance other than his own bond:
-
-```
-Provided that if any complainant or witness refuses to attend or to execute a bond as
-directed in section 190, the officer in charge of the police station may forward him in
-custody to the Magistrate, who may detain him in custody until he executes such bond, or
-until the hearing of the case is completed.
-```
-
-**192.** ( _1_ ) Every police officer making an investigation under this Chapter shall day by
-day enter his proceedings in the investigation in a diary, setting forth the time at which the
-information reached him, the time at which he began and closed his investigation, the place
-or places visited by him, and a statement of the circumstances ascertained through his
-investigation.
-( _2_ ) The statements of witnesses recorded during the course of investigation under
-section 180 shall be inserted in the case diary.
-( _3_ ) The diary referred to in sub-section ( _1_ ) shall be a volume and duly paginated.
-
-```
-( 4 ) Any Criminal Court may send for the police diaries of a case under inquiry or trial
-in such Court, and may use such diaries, not as evidence in the case, but to aid it in such
-inquiry or trial.
-( 5 ) Neither the accused nor his agents shall be entitled to call for such diaries, nor
-shall he or they be entitled to see them merely because they are referred to by the Court; but,
-if they are used by the police officer who made them to refresh his memory, or if the Court
-uses them for the purpose of contradicting such police officer, the provisions of section 148
-or section 164, as the case may be, of the Bharatiya Sakshya Adhiniyam, 2023, shall apply.
-```
-
-**193.** ( _1_ ) Every investigation under this Chapter shall be completed without
-unnecessary delay.
-
-```
-( 2 ) The investigation in relation to an offence under sections 64, 66, 67, 68, 70, 71 of
-the Bharatiya Nyaya Sanhita, 2023 or under sections 4, 6, 8 or section 10 of the Protection of
-Children from Sexual Offences Act, 2012 shall be completed within two months from the
-date on which the information was recorded by the officer in charge of the police station.
-```
-
-```
-( 3 ) ( i ) As soon as the investigation is completed, the officer in charge of the police
-station shall forward to a Magistrate empowered to take cognizance of the offence on a
-police report, a report in the form as the State Government may, by rules provide, stating—
-( a ) the names of the parties;
-```
-
-```
-( b ) the nature of the information;
-( c ) the names of the persons who appear to be acquainted with the circumstances
-of the case;
-( d ) whether any offence appears to have been committed and, if so, by whom;
-```
-
-```
-( e ) whether the accused has been arrested;
-( f ) whether the accused has been released on his bond and, if so, whether with
-or without sureties;
-( g ) whether the accused has been forwarded in custody under section 190;
-```
-
-```
-( h ) whether the report of medical examination of the woman has been attached
-where investigation relates to an offence under sections 64, 66, 67, 68 or section 70 of
-the Bharatiya Nyaya Sanhita, 2023.
-```
-
-Complainant
-and witnesses
-not to be
-required to
-accompany
-police officer
-and not to be
-subjected to
-restraint.
-
-Diary of
-proceedings in
-investigation.
-
-Report of
-police officer
-on completion
-of
-investigation.
-
-```
-32 of 2012.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-( ii ) The police officer shall, within a period of ninety days, inform the progress of the
-investigation by any means including electronic communication to the informant or the
-victim.
-( iii ) The officer shall also communicate, in such manner as the State Government may,
-by rules, provide, the action taken by him, to the person, if any, by whom the information
-relating to the commission of the offence was first given.
-( 4 ) Where a superior officer of police has been appointed under section 177, the
-report shall, in any case in which the State Government by general or special order so
-directs, be submitted through that officer, and he may, pending the orders of the Magistrate,
-direct the officer in charge of the police station to make further investigation.
-( 5 ) Whenever it appears from a report forwarded under this section that the accused
-has been released on his bond, the Magistrate shall make such order for the discharge of
-such bond or otherwise as he thinks fit.
-( 6 ) When such report is in respect of a case to which section 190 applies, the police
-officer shall forward to the Magistrate along with the report—
-( a ) all documents or relevant extracts thereof on which the prosecution proposes
-to rely other than those already sent to the Magistrate during investigation;
-( b ) the statements recorded under section 180 of all the persons whom the
-prosecution proposes to examine as its witnesses.
-( 7 ) If the police officer is of opinion that any part of any such statement is not relevant
-to the subject-matter of the proceedings or that its disclosure to the accused is not essential
-in the interests of justice and is inexpedient in the public interest, he shall indicate that part
-of the statement and append a note requesting the Magistrate to exclude that part from the
-copies to be granted to the accused and stating his reasons for making such request.
-( 8 ) Subject to the provisions contained in sub-section ( 7 ), the police officer
-investigating the case shall also submit such number of copies of the police report along
-with other documents duly indexed to the Judicial Magistrate for supply to the accused as
-required under section 230:
-Provided that supply of report and other documents by electronic communication
-shall be considered as duly served.
-( 9 ) Nothing in this section shall be deemed to preclude further investigation in respect
-of an offence after a report under sub-section ( 3 ) has been forwarded to the Magistrate and,
-where upon such investigation, the officer in charge of the police station obtains further
-evidence, oral or documentary, he shall forward to the Magistrate a further report or reports
-regarding such evidence in the form as the State Government may, by rules, provide; and
-the provisions of sub-sections ( 3 ) to ( 7 ) shall, as far as may be, apply in relation to such
-report or reports as they apply in relation to a report forwarded under sub-section ( 3 ):
-Provided that further investigation during the trial may be permitted with the
-permission of the Court trying the case and the same shall be completed within a period of
-ninety days which may extend with the permission of the Court.
-```
-
-**194.** ( _1_ ) When the officer in charge of a police station or some other police officer
-specially empowered by the State Government in that behalf receives information that a
-person has committed suicide, or has been killed by another or by an animal or by machinery
-or by an accident, or has died under circumstances raising a reasonable suspicion that
-some other person has committed an offence, he shall immediately give intimation thereof
-to the nearest Executive Magistrate empowered to hold inquests, and, unless otherwise
-directed by any rule made by the State Government, or by any general or special order of the
-District or Sub-divisional Magistrate, shall proceed to the place where the body of such
-deceased person is, and there, in the presence of two or more respectable inhabitants of the
-
-```
-Police to
-enquire and
-report on
-suicide, etc.
-```
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-20
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-45
-
-```
-neighbourhood, shall make an investigation, and draw up a report of the apparent cause of
-death, describing such wounds, fractures, bruises, and other marks of injury as may be
-found on the body, and stating in what manner, or by what weapon or instrument
-(if any); such marks appear to have been inflicted.
-( 2 ) The report shall be signed by such police officer and other persons, or by so many
-of them as concur therein, and shall be forwarded to the District Magistrate or the
-Sub-divisional Magistrate within twenty-four hours.
-( 3 ) When—
-( i ) the case involves suicide by a woman within seven years of her marriage; or
-( ii ) the case relates to the death of a woman within seven years of her marriage
-in any circumstances raising a reasonable suspicion that some other person committed
-an offence in relation to such woman; or
-( iii ) the case relates to the death of a woman within seven years of her marriage
-and any relative of the woman has made a request in this behalf; or
-( iv ) there is any doubt regarding the cause of death; or
-( v ) the police officer for any other reason considers it expedient so to do,
-he shall, subject to such rules as the State Government may prescribe in this behalf, forward
-the body, with a view to its being examined, to the nearest Civil Surgeon, or other qualified
-medical person appointed in this behalf by the State Government, if the state of the weather
-and the distance admit of its being so forwarded without risk of such putrefaction on the
-road as would render such examination useless.
-( 4 ) The following Magistrates are empowered to hold inquests, namely, any District
-Magistrate or Sub-divisional Magistrate and any other Executive Magistrate specially
-empowered in this behalf by the State Government or the District Magistrate.
-```
-
-**195.** ( _1_ ) A police officer proceeding under section 194 may, by order in writing, summon
-two or more persons as aforesaid for the purpose of the said investigation, and any other
-person who appears to be acquainted with the facts of the case and every person so
-summoned shall be bound to attend and to answer truly all questions other than questions
-the answers to which would have a tendency to expose him to a criminal charge or to a
-penalty or forfeiture:
-Provided that no male person under the age of fifteen years or above the age of sixty
-years or a woman or a mentally or physically disabled person or a person with acute illness
-shall be required to attend at any place other than the place where such person resides,
-unless such person is willing to attend and answer at the police station or at any other place
-within the limits of such police station.
-( _2_ ) If the facts do not disclose a cognizable offence to which section 190 applies, such
-persons shall not be required by the police officer to attend a Magistrate's Court.
-**196.** ( _1_ ) When the case is of the nature referred to in clause ( _i_ ) or clause ( _ii_ ) of
-sub-section ( _3_ ) of section 194, the nearest Judicial Magistrate empowered to hold inquests
-shall, and in any other case mentioned in sub-section ( _1_ ) of section 194, any Magistrate so
-empowered may hold an inquiry into the cause of death either instead of, or in addition to,
-the investigation held by the police officer; and if he does so, he shall have all the powers
-in conducting it which he would have in holding an inquiry into an offence.
-( _2_ ) Where,—
-( _a_ ) any person dies or disappears, or
-( _b_ ) rape is alleged to have been committed on any woman,
-while such person or woman is in the custody of the police or in any other custody authorised
-
-Power to
-summon
-persons.
-
-Inquiry by
-Magistrate
-into cause of
-death.
-
-```
-5
-```
-
-```
-10
-```
-
-```
-15
-```
-
-```
-20
-```
-
-```
-25
-```
-
-```
-30
-```
-
-```
-35
-```
-
-```
-40
-```
-
-```
-45
-```
-
-```
-by the Magistrate or the Court, under this Sanhita in addition to the inquiry or investigation
-held by the police, an inquiry shall be held by the Judicial Magistrate within whose local
-jurisdiction the offence has been committed.
-( 3 ) The Magistrate holding such an inquiry shall record the evidence taken by him in
-connection therewith in any manner hereinafter specified according to the circumstances of
-the case.
-( 4 ) Whenever such Magistrate considers it expedient to make an examination of the
-dead body of any person who has been already interred, in order to discover the cause of
-his death, the Magistrate may cause the body to be disinterred and examined.
-( 5 ) Where an inquiry is to be held under this section, the Magistrate shall, wherever
-practicable, inform the relatives of the deceased whose names and addresses are known,
-and shall allow them to remain present at the inquiry.
-( 6 ) The Judicial Magistrate or the Executive Magistrate or the police officer holding
-an inquiry or investigation under sub-section ( 2 ) shall, within twenty-four hours of the
-death of a person, forward the body with a view to its being examined to the nearest Civil
-Surgeon or other qualified medical person appointed in this behalf by the State Government,
-unless it is not possible to do so for reasons to be recorded in writing.
-Explanation .—In this section, the expression "relative" means parents, children,
-brothers, sisters and spouse.
-CHAPTER XIV
-JURISDICTION OF THE CRIMINAL COURTS IN INQUIRIES AND TRIALS
+
+94. 1. Whenever any Court or any officer in charge of a police station considers that the production of any document, electronic communication, including communication devices which is likely to contain digital evidence or other thing is necessary or desirable for the purposes of any investigation, inquiry, trial or other proceeding under this Sanhita by or before such Court or officer, such Court or officer may, by a written order, either in physical form or in electronic form, require the person in whose possession or power such document or thing is believed to be, to attend and produce it, or to produce it, at the time and place stated in the summons or order.
+    2. Any person required under this section merely to produce a document, or other thing shall be deemed to have complied with the requisition if he causes such document or thing to be produced instead of attending personally to produce the same.
+    3. Nothing in this section shall be deemed—
+        - ( a ) to affect sections 129 and 130 of the Bharatiya Sakshya Adhiniyam, 2023 or the Bankers' Books Evidence Act, 1891; or
+        - ( b ) to apply to a letter, postcard, or other document or any parcel or thing in the custody of the postal authority.
+
+95. 1. If any document, parcel or thing in the custody of a postal authority is, in the opinion of the District Magistrate, Chief Judicial Magistrate, Court of Session or High Court wanted for the purpose of any investigation, inquiry, trial or other proceeding under this Sanhita, such Magistrate or Court may require the postal authority to deliver the document, parcel or thing to such person as the Magistrate or Court directs.
+    2. If any such document, parcel or thing is, in the opinion of any other Magistrate, whether Executive or Judicial, or of any Commissioner of Police or District Superintendent of Police, wanted for any such purpose, he may require the postal authority to cause search to be made for and to detain such document, parcel or thing pending the order of a District Magistrate, Chief Judicial Magistrate or Court under sub-section ( 1 ).
+
+B.—Search-warrants
+
+96. 1.  - ( a ) Where any Court has reason to believe that a person to whom a summons order under section 94 or a requisition under sub-section ( 1 ) of section 95 has been, or might be, addressed, will not or would not produce the document or thing as required by such summons or requisition; or
+        - ( b ) where such document or thing is not known to the Court to be in the possession of any person; or
+        - ( c ) where the Court considers that the purposes of any inquiry, trial or other proceeding under this Sanhita will be served by a general search or inspection, it may issue a search-warrant; and the person to whom such warrant is directed, may search or inspect in accordance therewith and the provisions hereinafter contained.
+    2.  The Court may, if it thinks fit, specify in the warrant the particular place or part thereof to which only the search or inspection shall extend; and the person charged with the execution of such warrant shall then search or inspect only the place or part so specified.
+    3.  Nothing contained in this section shall authorise any Magistrate other than a District Magistrate or Chief Judicial Magistrate to grant a warrant to search for a document, parcel or other thing in the custody of the postal or telegraph authority.
+
+97. 1. If a District Magistrate, Sub-divisional Magistrate or Magistrate of the first class, upon information and after such inquiry as he thinks necessary, has reason to believe that any place is used for the deposit or sale of stolen property, or for the deposit, sale or production of any objectionable article to which this section applies, or that any such objectionable article is deposited in any place, he may by warrant authorise any police officer above the rank of a constable—
+        - ( a ) to enter, with such assistance as may be required, such place;
+        - ( b ) to search the same in the manner specified in the warrant;
+        - ( c ) to take possession of any property or article therein found which he reasonably suspects to be stolen property or objectionable article to which this section applies;
+        - ( d ) to convey such property or article before a Magistrate, or to guard the same on the spot until the offender is taken before a Magistrate, or otherwise to dispose of it in some place of safety;
+        - ( e ) to take into custody and carry before a Magistrate every person found in such place who appears to have been privy to the deposit, sale or production of any such property or article knowing or having reasonable cause to suspect it to be stolen property or, as the case may be, objectionable article to which this section applies.
+    2. The objectionable articles to which this section applies are—
+        - ( a ) counterfeit coin;
+        - ( b ) pieces of metal made in contravention of the Coinage Act, 2011, or brought into India in contravention of any notification for the time being in force issued under section 11 of the Customs Act, 1962;
+        - ( c ) counterfeit currency note; counterfeit stamps;
+        - ( d ) forged documents;
+        - ( e ) false seals;
+        - ( f ) obscene objects referred to in section 292 of the Bharatiya Nyaya Sanhita, 2023;
+        - ( g ) instruments or materials used for the production of any of the articles mentioned in clauses ( a ) to ( f ).
+
+98. 1. Where— - ( a ) any newspaper, or book; or - ( b ) any document,
+       wherever printed, appears to the State Government to contain any matter the publication of which is punishable under section 150 or section 194 or section 195 or section 292 or section 293 or section 297 of the Bharatiya Nyaya Sanhita, 2023, the State Government may, by notification, stating the grounds of its opinion, declare every copy of the issue of the newspaper containing such matter, and every copy of such book or other document to be forfeited to Government, and thereupon any police officer may seize the same wherever found in India and any Magistrate may by warrant authorise any police officer not below the rank of sub-inspector to enter upon and search for the same in any premises where any copy of such issue, or any such book or other document may be or may be reasonably suspected to be.
+    2. In this section and in section 99,—
+        - ( a ) "newspaper" and "book" have the same meaning as in the Press and Registration of Books Act, 1867;
+        - ( b ) "document" includes any painting, drawing or photograph, or other visible representation.
+    3. No order passed or action taken under this section shall be called in question in any Court otherwise than in accordance with the provisions of section 99.
+
+99. 1. Any person having any interest in any newspaper, book or other document, in respect of which a declaration of forfeiture has been made under section 98, may, within two months from the date of publication in the Official Gazette of such declaration, apply to the High Court to set aside such declaration on the ground that the issue of the newspaper, or the book or other document, in respect of which the declaration was made, did not contain any such matter as is referred to in sub-section ( 1 ) of section 98.
+    2. Every such application shall, where the High Court consists of three or more Judges, be heard and determined by a Special Bench of the High Court composed of three Judges and where the High Court consists of less than three Judges, such Special Bench shall be composed of all the Judges of that High Court.
+    3. On the hearing of any such application with reference to any newspaper, any copy of such newspaper may be given in evidence in aid of the proof of the nature or tendency of the words, signs or visible representations contained in such newspaper, in respect of which the declaration of forfeiture was made.
+    4. The High Court shall, if it is not satisfied that the issue of the newspaper, or the book or other document, in respect of which the application has been made, contained any such matter as is referred to in sub-section ( 1 ) of section 98, set aside the declaration of forfeiture.
+    5. Where there is a difference of opinion among the Judges forming the Special Bench, the decision shall be in accordance with the opinion of the majority of those Judges.
+
+100.    If any District Magistrate, Sub-divisional Magistrate or Magistrate of the first class has reason to believe that any person is confined under such circumstances that the confinement amounts to an offence, he may issue a search-warrant, and the person to whom such warrant is directed may search for the person so confined; and such search shall be made in accordance therewith, and the person, if found, shall be immediately taken before a Magistrate, who shall make such order as in the circumstances of the case seems proper.
+101.    Upon complaint made on oath of the abduction or unlawful detention of a woman, or a female child under the age of eighteen years for any unlawful purpose, a District Magistrate, Sub-divisional Magistrate or Magistrate of the first class may make an order for the immediate restoration of such woman to her liberty, or of such female child to her husband, parent, guardian or other person having the lawful charge of such child, and may compel compliance with such order, using such force as may be necessary.
+102.    The provisions of sections 32, 72, 74, 76, 79, 80 and 81 shall, so far as may be, apply to all search-warrants issued under section 96, section 97, section 98 or section 100.
+103.    1. Whenever any place liable to search or inspection under this Chapter is closed, any person residing in, or being in charge of, such place, shall, on demand of the officer or other person executing the warrant, and on production of the warrant, allow him free ingress thereto, and afford all reasonable facilities for a search therein.
+        2. If ingress into such place cannot be so obtained, the officer or other person executing the warrant may proceed in the manner provided by sub-section ( 2 ) of section 44.
+        3. Where any person in or about such place is reasonably suspected of concealing about his person any article for which search should be made, such person may be searched and if such person is a woman, the search shall be made by another woman with strict regard to decency.
+        4. Before making a search under this Chapter, the officer or other person about to make it shall call upon two or more independent and respectable inhabitants of the locality in which the place to be searched is situate or of any other locality if no such inhabitant of the said locality is available or is willing to be a witness to the search, to attend and witness the search and may issue an order in writing to them or any of them so to do.
+        5. The search shall be made in their presence, and a list of all things seized in the course of such search and of the places in which they are respectively found shall be prepared by such officer or other person and signed by such witnesses; but no person witnessing a search under this section shall be required to attend the Court as a witness of the search unless specially summoned by it.
+        6. The occupant of the place searched, or some person in his behalf, shall, in every instance, be permitted to attend during the search, and a copy of the list prepared under this section, signed by the said witnesses, shall be delivered to such occupant or person.
+        7. When any person is searched under sub-section ( 3 ), a list of all things taken possession of shall be prepared, and a copy thereof shall be delivered to such person.
+        8. Any person who, without reasonable cause, refuses or neglects to attend and witness a search under this section, when called upon to do so by an order in writing delivered or tendered to him, shall be deemed to have committed an offence under section 220 of the Bharatiya Nyaya Sanhita, 2023.
+
+104.    When, in the execution of a search-warrant at any place beyond the local jurisdiction of the Court which issued the same, any of the things for which search is made, are found, such things, together with the list of the same prepared under the provisions hereinafter contained, shall be immediately taken before the Court issuing the warrant, unless such place is nearer to the Magistrate having jurisdiction therein than to such Court, in which case the list and things shall be immediately taken before such Magistrate; and, unless there be good cause to the contrary, such Magistrate shall make an order authorising them to be taken to such Court.
+
+C.—Miscellaneous
+
+105.    The process of conducting search of a place or taking possession of any property, article or thing under this Chapter or under section 185, including preparation of the list of all things seized in the course of such search and seizure and signing of such list by witnesses, shall be recorded through any audio-video electronic means preferably cell phone and the police officer shall without delay forward such recording to the District Magistrate, Sub-divisional Magistrate or Judicial Magistrate of the first class.
+106.    1. Any police officer may seize any property which may be alleged or suspected to have been stolen, or which may be found under circumstances which create suspicion of the commission of any offence.
+        2. Such police officer, if subordinate to the officer in charge of a police station, shall forthwith report the seizure to that officer.
+        3. Every police officer acting under sub-section ( 1 ) shall forthwith report the seizure to the Magistrate having jurisdiction and where the property seized is such that it cannot be conveniently transported to the Court, or where there is difficulty in securing proper accommodation for the custody of such property, or where the continued retention of the property in police custody may not be considered necessary for the purpose of investigation, he may give custody thereof to any person on his executing a bond undertaking to produce the property before the Court as and when required and to give effect to the further orders of the Court as to the disposal of the same: _Provided that_ where the property seized under sub-section ( 1 ) is subject to speedy and natural decay and if the person entitled to the possession of such property is unknown or absent and the value of such property is less than five hundred rupees, it may forthwith be sold by auction under the orders of the Superintendent of Police and the provisions of sections 505 and 506 shall, as nearly as may be practicable, apply to the net proceeds of such sale.
+
+107.    1. Where a police officer making an investigation has reason to believe that any property is derived or obtained, directly or indirectly, as a result of a criminal activity or from the commission of any offence, he may, with the approval of the Superintendent of Police or Commissioner of Police, make an application to the Court or the Judicial Magistrate exercising jurisdiction to take cognizance of the offence or commit for trial or try the case, for the attachment of such property.
+        2. If the Court or the Judicial Magistrate has reasons to believe, whether before or after taking evidence, that all or any of such properties are proceeds of crime, the Court or the Magistrate may issue a notice upon such person calling upon him to show cause within a period of fourteen days as to why an order of attachment shall not be made.
+        3. Where the notice issued to any person under sub-section ( 2 ) specifies any property as being held by any other person on behalf of such person, a copy of the notice shall also be served upon such other person.
+        4. The Court or the Judicial Magistrate may, after considering the explanation, if any, to the show-cause notice issued under sub-section ( 2 ) and the material fact available before such Court or Magistrate and after giving a reasonable opportunity of being heard to such person or persons, may pass an order of attachment, in respect of those properties which are found to be the proceeds of crime:
+           _Provided that_ if such person does not appear before the Court or the Magistrate or represent his case before the Court or Judicial Magistrate within a period of fourteen days specified in the show-cause notice, the Court or the Judicial Magistrate may proceed to pass the ex-parte order.
+        5. Notwithstanding anything contained in sub-section ( 2 ), if the Court or the Judicial Magistrate is of the opinion that issuance of notice under the said sub-section would defeat the object of attachment or seizure, the Court or Judicial Magistrate may by an interim order passed ex-parte direct attachment or seizure of such property, and such order shall remain in force till an order under sub-section ( 6 ) is passed.
+        6. If the Court or the Judicial Magistrate finds the attached or seized properties to be the proceeds of crime, the Court or the Judicial Magistrate shall by order direct the District Magistrate to rateably distribute such proceeds of crime to the persons who are affected by such crime.
+        7. On receipt of an order passed under sub-section ( 6 ), the District Magistrate shall, within a period of sixty days distribute the proceeds of crime either by himself or authorise any officer subordinate to him to effect such distribution.
+        8. If there are no claimants to receive such proceeds or no claimant is ascertainable or there is any surplus after satisfying the claimants, such proceeds of crime shall stand forfeited to the Government.
+           _Explanation_ .—For the purposes of this section, the word ‘‘property’’ and the expression ‘‘proceeds of crime’’ shall have the meaning assigned to them in clause ( d ) of section 111.
+
+108.    Any Magistrate may direct a search to be made in his presence of any place for the search of which he is competent to issue a search-warrant.
+109.    Any Court may, if it thinks fit, impound any document or thing produced before it under this Sanhita.
+
+110.    1. Where a Court in the territories to which this Sanhita extends (hereafter in this section referred to as the said territories) desires that—
+            - ( a ) a summons to an accused person; or
+            - ( b ) a warrant for the arrest of an accused person; or
+            - ( c ) a summons to any person requiring him to attend and produce a document or other thing, or to produce it; or
+            - ( d ) a search-warrant,
+              issued by it shall be served or executed at any place,— - ( i ) within the local jurisdiction of a Court in any State or area in India outside the said territories, it may send such summons or warrant in duplicate by post or otherwise, to the presiding officer of that Court to be served or executed; and where any summons referred to in clause ( a ) or clause ( c ) has been so served, the provisions of section 70 shall apply in relation to such summons as if the presiding officer of the Court to whom it is sent were a Magistrate in the said territories; - ( ii ) in any country or place outside India in respect of which arrangements have been made by the Central Government with the Government of such country or place for service or execution of summons or warrant in relation to criminal matters (hereafter in this section referred to as the contracting State), it may send such summons or warrant in duplicate in such form, directed to such Court, Judge or Magistrate, and send to such authority for transmission, as the Central Government may, by notification, specify in this behalf.
+        2. Where a Court in the said territories has received for service or execution—
+            - ( a ) a summons to an accused person; or
+            - ( b ) a warrant for the arrest of an accused person; or
+            - ( c ) a summons to any person requiring him to attend and produce a document or other thing, or to produce it; or
+            - ( d ) a search-warrant,
+              issued by—
+                - ( I ) a Court in any State or area in India outside the said territories;
+                - ( II ) a Court, Judge or Magistrate in a contracting State,
+                  it shall cause the same to be served or executed as if it were a summons or warrant received by it from another Court in the said territories for service or execution within its local jurisdiction; and where— - ( i ) a warrant of arrest has been executed, the person arrested shall, so far as possible, be dealt with in accordance with the procedure specified by sections 82 and 83; - ( ii ) a search-warrant has been executed, the things found in the search shall, so far as possible, be dealt with in accordance with the procedure specified by section 104:
+                  _Provided that_ in a case where a summons or search-warrant received from a contracting State has been executed, the documents or things produced or things found in the search shall be forwarded to the Court issuing the summons or search-warrant through such authority as the Central Government may, by notification, specify in this behalf.
+
+# CHAPTER VIII RECIPROCAL ARRANGEMENTS FOR ASSISTANCE IN CERTAIN MATTERS AND PROCEDURE FOR ATTACHMENT AND FORFEITURE OF PROPERTY
+
+111. In this Chapter, unless the context otherwise requires,—
+
+- ( _a_ ) "contracting State" means any country or place outside India in respect of which arrangements have been made by the Central Government with the Government of such country through a treaty or otherwise;
+- ( _b_ ) "identifying" includes establishment of a proof that the property was derived from, or used in, the commission of an offence;
+- ( _c_ ) "proceeds of crime" means any property derived or obtained directly or indirectly, by any person as a result of criminal activity (including crime involving currency transfers) or the value of any such property;
+- ( _d_ ) "property" means property and assets of every description whether corporeal or incorporeal, movable or immovable, tangible or intangible and deeds and instruments evidencing title to, or interest in, such property or assets derived or used in the commission of an offence and includes property obtained through proceeds of crime;
+- ( _e_ ) "tracing" means determining the nature, source, disposition, movement, title or ownership of property.
+
+112.    1. If, in the course of an investigation into an offence, an application is made by the investigating officer or any officer superior in rank to the investigating officer that evidence may be available in a country or place outside India, any Criminal Court may issue a letter of request to a Court or an authority in that country or place competent to deal with such request to examine orally any person supposed to be acquainted with the facts and circumstances of the case and to record his statement made in the course of such examination and also to require such person or any other person to produce any document or thing which may be in his possession pertaining to the case and to forward all the evidence so taken or collected or the authenticated copies thereof or the thing so collected to the Court issuing such letter.
+        2. The letter of request shall be transmitted in such manner as the Central Government may specify in this behalf.
+        3. Every statement recorded or document or thing received under sub-section ( 1 ) shall be deemed to be the evidence collected during the course of investigation under this Chapter.
+
+113.    1. Upon receipt of a letter of request from a Court or an authority in a country or place outside India competent to issue such letter in that country or place for the examination of any person or production of any document or thing in relation to an offence under investigation in that country or place, the Central Government may, if it thinks fit—
+            - ( _i_ ) forward the same to the Chief Judicial Magistrate or Judicial Magistrate as he may appoint in this behalf, who shall thereupon summon the person before him and record his statement or cause the document or thing to be produced; or
+            - ( _ii_ ) send the letter to any police officer for investigation, who shall thereupon investigate into the offence in the same manner, as if the offence had been committed within India.
+        2. All the evidence taken or collected under sub-section ( 1 ), or authenticated copies thereof or the thing so collected, shall be forwarded by the Magistrate or police officer, as the case may be, to the Central Government for transmission to the Court or the authority issuing the letter of request, in such manner as the Central Government may deem fit.
+
+114.    1.  Where a Court in India, in relation to a criminal matter, desires that a warrant for arrest of any person to attend or produce a document or other thing issued by it shall be executed in any place in a contracting State, it shall send such warrant in duplicate in such form to such Court, Judge or Magistrate through such authority, as the Central Government may, by notification, specify in this behalf and that Court, Judge or Magistrate, as the case may be, shall cause the same to be executed.
+        2.  If , in the course of an investigation or any inquiry into an offence, an application is made by the investigating officer or any officer superior in rank to the investigating officer that the attendance of a person who is in any place in a contracting State is required in connection with such investigation or inquiry and the Court is satisfied that such attendance is so required, it shall issue a summons or warrant, in duplicate, against the said person to such Court, Judge or Magistrate, in such form as the Central Government may, by notification, specify in this behalf, to cause the same to be served or executed.
+        3.  Where a Court in India, in relation to a criminal matter, has received a warrant for arrest of any person requiring him to attend or attend and produce a document or other thing in that Court or before any other investigating agency, issued by a Court, Judge or Magistrate in a contracting State, the same shall be executed as if it is the warrant received by it from another Court in India for execution within its local limits.
+        4.  Where a person transferred to a contracting State pursuant to sub-section ( 3 ) is a prisoner in India, the Court in India or the Central Government may impose such conditions as that Court or Government deems fit.
+        5.  Where the person transferred to India pursuant to sub-section ( 1 ) or sub-section ( 2 ) is a prisoner in a contracting State, the Court in India shall ensure that the conditions subject to which the prisoner is transferred to India are complied with and such prisoner shall be kept in such custody subject to such conditions as the Central Government may direct in writing.
+
+115.    1. Where a Court in India has reasonable grounds to believe that any property obtained by any person is derived or obtained, directly or indirectly, by such person from the commission of an offence, it may make an order of attachment or forfeiture of such property, as it may deem fit under the provisions of sections 116 to 122 (both inclusive).
+        2. Where the Court has made an order for attachment or forfeiture of any property under sub-section ( 1 ), and such property is suspected to be in a contracting State, the Court may issue a letter of request to a Court or an authority in the contracting State for execution of such order.
+        3. Where a letter of request is received by the Central Government from a Court or an authority in a contracting State requesting attachment or forfeiture of the property in India, derived or obtained, directly or indirectly, by any person from the commission of an offence committed in that contracting State, the Central Government may forward such letter of request to the Court, as it thinks fit, for execution in accordance with the provisions of sections 116 to 122 (both inclusive) or, as the case may be, any other law for the time being in force.
+
+116.    1. The Court shall, under sub-section ( 1 ), or on receipt of a letter of request under sub-section ( 3 ) of section 115, direct any police officer not below the rank of Sub-Inspector of Police to take all steps necessary for tracing and identifying such property.
+        2. The steps referred to in sub-section ( 1 ) may include any inquiry, investigation or survey in respect of any person, place, property, assets, documents, books of account in any bank or public financial institutions or any other relevant matters.
+        3. Any inquiry, investigation or survey referred to in sub-section ( 2 ) shall be carried out by an officer mentioned in sub-section ( 1 ) in accordance with such directions issued by the said Court in this behalf.
+
+117.    1.  Where any officer conducting an inquiry or investigation under section 116 has a reason to believe that any property in relation to which such inquiry or investigation is being conducted is likely to be concealed transferred or dealt with in any manner which will result in disposal of such property, he may make an order for seizing such property and where it is not practicable to seize such property, he may make an order of attachment directing that such property shall not be transferred or otherwise dealt with, except with the prior permission of the officer making such order, and a copy of such order shall be served on the person concerned.
+        2.  Any order made under sub-section ( 1 ) shall have no effect unless the said order is confirmed by an order of the said Court, within a period of thirty days of its being made.
+
+118.    1.  The Court may appoint the District Magistrate of the area where the property is situated, or any other officer that may be nominated by the District Magistrate, to perform the functions of an Administrator of such property.
+        2.  The Administrator appointed under sub-section ( 1 ) shall receive and manage the property in relation to which the order has been made under sub-section ( 1 ) of section 117 or under section 120 in such manner and subject to such conditions as may be specified by the Central Government.
+        3.  The Administrator shall also take such measures, as the Central Government may direct, to dispose of the property which is forfeited to the Central Government.
+
+119.    1.  If as a result of the inquiry, investigation or survey under section 116, the Court has reason to believe that all or any of such properties are proceeds of crime, it may serve a notice upon such person (hereinafter referred to as the person affected) calling upon him within a period of thirty days specified in the notice to indicate the source of income, earnings or assets, out of which or by means of which he has acquired such property, the evidence on which he relies and other relevant information and particulars, and to show cause why all or any of such properties, as the case may be, should not be declared to be proceeds of crime and forfeited to the Central Government.
+        2.  Where a notice under sub-section ( 1 ) to any person specifies any property as being held on behalf of such person by any other person, a copy of the notice shall also be served upon such other person.
+
+120.    1.  The Court may, after considering the explanation, if any, to the show-cause notice issued under section 119 and the material available before it and after giving to the person affected (and in a case where the person affected holds any property specified in the notice through any other person, to such other person also) a reasonable opportunity of being heard, by order, record a finding whether all or any of the properties in question are proceeds of crime:
+            _Provided that_ if the person affected (and in a case where the person affected holds any property specified in the notice through any other person such other person also) does not appear before the Court or represent his case before it within a period of thirty days specified in the show-cause notice, the Court may proceed to record a finding under this sub-section _ex parte_ on the basis of evidence available before it.
+        2.  Where the Court is satisfied that some of the properties referred to in the show-cause notice are proceeds of crime but it is not possible to identify specifically such properties, then, it shall be lawful for the Court to specify the properties which, to the best of its judgement, are proceeds of crime and record a finding accordingly under sub-section ( 1 ).
+        3.  Where the Court records a finding under this section to the effect that any property is proceeds of crime, such property shall stand forfeited to the Central Government free from all encumbrances.
+        4.  Where any shares in a company stand forfeited to the Central Government under this section, then, the company shall, notwithstanding anything contained in the Companies Act, 2013 or forthwith register the Central Government as the transferee of such shares.
+
+121.    1.  Where the Court makes a declaration that any property stands forfeited to the Central Government under section 120 and it is a case where the source of only a part of such property has not been proved to the satisfaction of the Court, it shall make an order giving an option to the person affected to pay, _in lieu_ of forfeiture, a fine equal to the market value of such part.
+        2.  Before making an order imposing a fine under sub-section ( 1 ), the person affected shall be given a reasonable opportunity of being heard.
+        3.  Where the person affected pays the fine due under sub-section ( 1 ), within such time as may be allowed in that behalf, the Court may, by order, revoke the declaration of forfeiture under section 120 and thereupon such property shall stand released.
+
+        4.  Where after the making of an order under sub-section ( 1 ) of section 117 or the issue of a notice under section 119, any property referred to in the said order or notice is transferred by any mode whatsoever such transfers shall, for the purposes of the proceedings under this Chapter, be ignored and if such property is subsequently forfeited to the Central Government under section 120, then, the transfer of such property shall be deemed to be null and void.
+        5.  Every letter of request, summons or warrant, received by the Central Government from, and every letter of request, summons or warrant, to be transmitted to a contracting State under this Chapter shall be transmitted to a contracting State or, as the case may be, sent to the concerned Court in India in such form and in such manner as the Central Government may, by notification, specify in this behalf.
+        6.  The Central Government may, by notification in the Official Gazette, direct that the application of this Chapter in relation to a contracting State with which reciprocal arrangements have been made, shall be subject to such conditions, exceptions or qualifications as are specified in the said notification.
+
+# CHAPTER IX
+
+# SECURITY FOR KEEPING THE PEACE AND FOR GOOD BEHAVIOUR
+
+125.    1. When a Court of Session or Court of a Magistrate of the first class convicts a person of any of the offences specified in sub-section ( 2 ) or of abetting any such offence and is of opinion that it is necessary to take security from such person for keeping the peace, the Court may, at the time of passing sentence on such person, order him to execute a bond, with or without sureties, for keeping the peace for such period, not exceeding three years, as it thinks fit.
+        2. The offences referred to in sub-section ( 1 ) are—
+            - ( _a_ ) any offence punishable under Chapter VIII of the Bharatiya Nyaya Sanhita, 2023, other than an offence punishable under section 191 or section 194 or section 195 thereof;
+            - ( _b_ ) any offence which consists of, or includes, assault or using criminal force or committing mischief;
+            - ( _c_ ) any offence of criminal intimidation;
+            - ( _d_ ) any other offence which caused, or was intended or known to be likely to cause, a breach of the peace.
+
+        3. If the conviction is set aside on appeal or otherwise, the bond so executed shall become void.
+        4. An order under this section may also be made by an Appellate Court or by a Court when exercising its powers of revision.
+
+126.    1. When an Executive Magistrate receives information that any person is likely to commit a breach of the peace or disturb the public tranquility or to do any wrongful act that may probably occasion a breach of the peace or disturb the public tranquility and is of opinion that there is sufficient ground for proceeding, he may, in the manner hereinafter provided, require such person to show cause why he should not be ordered to execute a bond with or without sureties, for keeping the peace for such period, not exceeding one year, as the Magistrate thinks fit.
+        2. Proceedings under this section may be taken before any Executive Magistrate when either the place where the breach of the peace or disturbance is apprehended is within his local jurisdiction or there is within such jurisdiction a person who is likely to commit a breach of the peace or disturb the public tranquility or to do any wrongful act as aforesaid beyond such jurisdiction.
+
+127.    1. When an Executive Magistrate receives information that there is within his local jurisdiction any person who, within or without such jurisdiction,—
+            - ( _i_ ) either orally or in writing or in any other manner, intentionally disseminates or attempts to disseminate or abets the dissemination of,—
+                - ( _a_ ) any matter the publication of which is punishable under section 150 or section 194 or section 195 or section 297 of the Bhartiya Nyaya Sanhita, 2023, or
+                - ( _b_ ) any matter concerning a Judge acting or purporting to act in the discharge of his official duties which amounts to criminal intimidation or defamation under the Bhartiya Nyaya Sanhita, 2023,
+            - ( _ii_ ) makes, produces, publishes or keeps for sale, imports, exports, conveys, sells, lets to hire, distributes, publicly exhibits or in any other manner puts into circulation any obscene matter such as is referred to in section 292 of the Bhartiya Nyaya Sanhita, 2023, and the Magistrate is of opinion that there is sufficient ground for proceeding, the Magistrate may, in the manner hereinafter provided, require such person to show cause why he should not be ordered to execute a bond, with or without sureties, for his good behaviour for such period, not exceeding one year, as the Magistrate thinks fit.
+
+        2. No proceedings shall be taken under this section against the editor, proprietor, printer or publisher of any publication registered under, and edited, printed and published in conformity with, the rules laid down in the Press and Registration of Periodicals Act, 2023 with reference to any matter contained in such publication except by the order or under the authority of the State Government or some officer empowered by the State Government in this behalf.
+
+128.    When an Executive Magistrate receives information that there is within his local jurisdiction a person taking precautions to conceal his presence and that there is reason to believe that he is doing so with a view to committing a cognizable offence, the Magistrate may, in the manner hereinafter provided, require such person to show cause why he should not be ordered to execute a bond, with or without sureties, for his good behaviour for such period, not exceeding one year, as the Magistrate thinks fit.
+129.    When an Executive Magistrate receives information that there is within his local jurisdiction a person who—
+        - ( a ) is by habit a robber, house-breaker, thief, or forger, or
+        - ( b ) is by habit a receiver of stolen property knowing the same to have been stolen, or
+        - ( c ) habitually protects or harbours thieves, or aids in the concealment or disposal of stolen property, or
+        - ( d ) habitually commits, or attempts to commit, or abets the commission of, the offence of kidnapping, abduction, extortion, cheating or mischief, or any offence punishable under Chapter XII of the Bhartiya Nyaya Sanhita, 2023, or under section 176, section 177, section 178 or section 179 of that Sanhita, or
+        - ( e ) habitually commits, or attempts to commit, or abets the commission of, offences, involving a breach of the peace, or
+        - ( f ) habitually commits, or attempts to commit, or abets the commission of—
+            - ( _i_ ) any offence under one or more of the following Acts, namely:—
+                - ( a ) the Drugs and Cosmetics Act, 1940;
+                - ( b ) the Foreigners Act, 1946;
+                - ( c ) the Employees' Provident Fund and Miscellaneous Provisions Act, 1952;
+                - ( d ) the Essential Commodities Act, 1955;
+                - ( e ) the Protection of Civil Rights Act, 1955;
+                - ( f ) the Customs Act, 1962;
+                - ( g ) the Food Safety and Standards Act, 2006; or
+            - ( _ii_ ) any offence punishable under any other law providing for the prevention of hoarding or profiteering or of adulteration of food or drugs or of corruption, or
+        - ( g ) is so desperate and dangerous to render his being at large without security hazardous to the community, such Magistrate may, in the manner hereinafter provided, require such person to show cause why he should not be ordered to execute a bond, with sureties, for his good behaviour for such period, not exceeding three years, as the Magistrate thinks fit.
+
+130.    When a Magistrate acting under section 126, section 127, section 128 or section 129, deems it necessary to require any person to show cause under such section, he shall make an order in writing, setting forth the substance of the information received, the amount of the bond to be executed, the term for which it is to be in force and the number of sureties, after considering the fitness for payment of sureties.
+131.    If the person in respect of whom such order is made is present in Court, it shall be read over to him, or, if he so desires, the substance thereof shall be explained to him.
+132.    If such person is not present in Court, the Magistrate shall issue a summons requiring him to appear, or, when such person is in custody, a warrant directing the officer in whose custody he is to bring him before the Court: _Provided that_ whenever it appears to such Magistrate, upon the report of a police officer or upon other information (the substance of which report or information shall be recorded by the Magistrate), that there is reason to fear the commission of a breach of the peace, and that such breach of the peace cannot be prevented otherwise than by the immediate arrest of such person, the Magistrate may at any time issue a warrant for his arrest.
+
+133.    Every summons or warrant issued under section 132 shall be accompanied by a copy of the order made under section 130, and such copy shall be delivered by the officer serving or executing such summons or warrant to the person served with, or arrested under, the same.
+134.    The Magistrate may, if he sees sufficient cause, dispense with the personal attendance of any person called upon to show cause why he should not be ordered to execute a bond for keeping the peace or for good behaviour and may permit him to appear by a pleader.
+
+135.    1.  When an order under section 130 has been read or explained under section 131 to a person present in Court, or when any person appears or is brought before a Magistrate in compliance with, or in execution of, a summons or warrant, issued under section 132, the Magistrate shall proceed to inquire into the truth of the information upon which action has been taken, and to take such further evidence as may appear necessary.
+        2.  Such inquiry shall be made, as nearly as may be practicable, in the manner hereinafter prescribed for conducting trial and recording evidence in summons-cases.
+        3.  After the commencement, and before the completion, of the inquiry under sub-section ( 1 ), the Magistrate, if he considers that immediate measures are necessary for the prevention of a breach of the peace or disturbance of the public tranquility or the commission of any offence or for the public safety, may, for reasons to be recorded in writing, direct the person in respect of whom the order under section 130 has been made to execute a bond, with or without sureties, for keeping the peace or maintaining good behaviour until the conclusion of the inquiry, and may detain him in custody until such bond is executed or, in default of execution, until the inquiry is concluded: _Provided that_—
+            - ( a ) no person against whom proceedings are not being taken under section 127, section 128, or section 129 shall be directed to execute a bond for maintaining good behaviour;
+            - ( b ) the conditions of such bond, whether as to the amount thereof or as to the provision of sureties or the number thereof or the pecuniary extent of their liability, shall not be more onerous than those specified in the order under section 130.
+        4.  For the purposes of this section the fact that a person is an habitual offender or is so desperate and dangerous as to render his being at large without security hazardous to the community may be proved by evidence of general repute or otherwise.
+        5.  Where two or more persons have been associated together in the matter under inquiry, they may be dealt within the same or separate inquiries as the Magistrate shall think just.
+        6.  The inquiry under this section shall be completed within a period of six months from the date of its commencement, and if such inquiry is not so completed, the proceedings under this Chapter shall, on the expiry of the said period, stand terminated unless, for special reasons to be recorded in writing, the Magistrate otherwise directs: _Provided that_ where any person has been kept in detention pending such inquiry, the proceeding against that person, unless terminated earlier, shall stand terminated on the expiry of a period of six months of such detention.
+        7.  Where any direction is made under sub-section ( 6 ) permitting the continuance of proceedings the Sessions Judge may, on an application made to him by the aggrieved party, vacate such direction if he is satisfied that it was not based on any special reason or was perverse.
+
+136.    If, upon such inquiry, it is proved that it is necessary for keeping the peace or maintaining good behaviour, as the case may be, that the person in respect of whom the inquiry is made should execute a bond, with or without sureties, the Magistrate shall make an order accordingly: _Provided that_—
+        - ( _a_ ) no person shall be ordered to give security of a nature different from, or of an amount larger than, or for a period longer than, that specified in the order made under section 130;
+        - ( _b_ ) the amount of every bond shall be fixed with due regard to the circumstances of the case and shall not be excessive;
+        - ( _c_ ) when the person in respect of whom the inquiry is made is a minor, the bond shall be executed only by his sureties.
+
+137.    If, on an inquiry under section 135, it is not proved that it is necessary for keeping the peace or maintaining good behaviour, as the case may be, that the person in respect of whom the inquiry is made, should execute a bond, the Magistrate shall make an entry on the record to that effect, and if such person is in custody only for the purposes of the inquiry, shall release him, or, if such person is not in custody, shall discharge him.
+
+138.    1.  If any person, in respect of whom an order requiring security is made under section 125 or section 136, is at the time such order is made, sentenced to, or undergoing a sentence of, imprisonment, the period for which such security is required shall commence on the expiration of such sentence.
+        2.  In other cases such period shall commence on the date of such order unless the Magistrate, for sufficient reason, fixes a later date.
+
+139.    The bond to be executed by any such person shall bind him to keep the peace or to be of good behaviour, as the case may be, and in the latter case the commission or attempt to commit, or the abetment of, any offence punishable with imprisonment, wherever it may be committed, is a breach of the bond.
+
+140.    1.  A Magistrate may refuse to accept any surety offered, or may reject any surety previously accepted by him or his predecessor under this Chapter on the ground that such surety is an unfit person for the purposes of the bond: _Provided that_ before so refusing to accept or rejecting any such surety, he shall either himself hold an inquiry on oath into the fitness of the surety, or cause such inquiry to be held and a report to be made thereon by a Magistrate subordinate to him.
+        2.  Such Magistrate shall, before holding the inquiry, give reasonable notice to the surety and to the person by whom the surety was offered and shall, in making the inquiry, record the substance of the evidence adduced before him.
+        3.  If the Magistrate is satisfied, after considering the evidence so adduced either before him or before a Magistrate deputed under sub-section ( 1 ), and the report of such Magistrate (if any), that the surety is an unfit person for the purposes of the bond, he shall make an order refusing to accept or rejecting, as the case may be, such surety and recording his reasons for so doing: _Provided that_ before making an order rejecting any surety who has previously been accepted, the Magistrate shall issue his summons or warrant, as he thinks fit, and cause the person for whom the surety is bound to appear or to be brought before him.
+
+141.    1.  - ( _a_ ) If any person ordered to give security under section 127 or section 136 does not give such security on or before the date on which the period for which such security is to be given commences, he shall, except in the case next hereinafter mentioned, be committed to prison, or, if he is already in prison, be detained in prison until such period expires or until within such period he gives the security to the Court or Magistrate who made the order requiring it.
+            - ( _b_ ) If any person after having executed a bond, with or without sureties for keeping the peace in pursuance of an order of a Magistrate under section 136, is proved, to the satisfaction of such Magistrate or his successor-in-office, to have committed breach of the bond, such Magistrate or successor-in-office may, after recording the grounds of such proof, order that the person be arrested and detained in prison until the expiry of the period of the bond and such order shall be without prejudice to any other punishment or forfeiture to which the said person may be liable in accordance with law.
+        2.  When such person has been ordered by a Magistrate to give security for a period exceeding one year, such Magistrate shall, if such person does not give such security as aforesaid, issue a warrant directing him to be detained in prison pending the orders of the Sessions Judge and the proceedings shall be laid, as soon as conveniently may be, before such Court.
+        3.  Such Court, after examining such proceedings and requiring from the Magistrate any further information or evidence which it thinks necessary, and after giving the concerned person a reasonable opportunity of being heard, may pass such order on the case as it thinks fit:
+            _Provided that_ the period (if any) for which any person is imprisoned for failure to give security shall not exceed three years.
+        4.  If security has been required in the course of the same proceeding from two or more persons in respect of any one of whom the proceedings are referred to the Sessions Judge under sub-section ( 2 ) such reference shall also include the case of any other of such persons who has been ordered to give security, and the provisions of sub-sections ( 2 ) and ( 3 ) shall, in that event, apply to the case of such other person also, except that the period (if any) for which he may be imprisoned, shall not exceed the period for which he was ordered to give security.
+        5.  A Sessions Judge may in his discretion transfer any proceedings laid before him under sub-section ( 2 ) or sub-section ( 4 ) to an Additional Sessions Judge and upon such transfer, such Additional Sessions Judge may exercise the powers of a Sessions Judge under this section in respect of such proceedings.
+        6.  If the security is tendered to the officer in charge of the jail, he shall forthwith refer the matter to the Court or Magistrate who made the order, and shall await the orders of such Court or Magistrate.
+        7.  Imprisonment for failure to give security for keeping the peace shall be simple.
+        8.  Imprisonment for failure to give security for good behaviour shall, where the proceedings have been taken under section 127, be simple, and, where the proceedings have been taken under section 128 or section 129, be rigorous or simple as the Court or Magistrate in each case directs.
+
+142.    1.  Whenever the District Magistrate in the case of an order passed by an Executive Magistrate under section 136, or the Chief Judicial Magistrate in any other case is of opinion that any person imprisoned for failing to give security under this Chapter may be released without hazard to the community or to any other person, he may order such person to be discharged.
+        2.  Whenever any person has been imprisoned for failing to give security under this Chapter, the High Court or Court of Session, or, where the order was made by any other Court, District Magistrate, in the case of an order passed by an Executive Magistrate under section 136, or the Chief Judicial Magistrate in any other case, may make an order reducing the amount of the security or the number of sureties or the time for which security has been required.
+        3.  An order under sub-section ( 1 ) may direct the discharge of such person either without conditions or upon any conditions which such person accepts:
+            _Provided that_ any condition imposed shall cease to be operative when the period for which such person was ordered to give security has expired.
+        4.  The State Government may prescribe the conditions upon which a conditional discharge may be made.
+        5.  If any condition upon which any person has been discharged is, in the opinion of District Magistrate, in the case of an order passed by an Executive Magistrate under section 136, or the Chief Judicial Magistrate in any other case by whom the order of discharge was made or of his successor, not fulfilled, he may cancel the same.
+        6.  When a conditional order of discharge has been cancelled under sub-section ( 5 ), such person may be arrested by any police officer without warrant, and shall thereupon be produced before the District Magistrate, in the case of an order passed by an Executive Magistrate under section 136, or the Chief Judicial Magistrate in any other case.
+        7.  Unless such person gives security in accordance with the terms of the original order for the unexpired portion of the term for which he was in the first instance committed or ordered to be detained (such portion being deemed to be a period equal to the period between the date of the breach of the conditions of discharge and the date on which, except for such conditional discharge, he would have been entitled to release), District Magistrate, in the case of an order passed by an Executive Magistrate under section 136, or the Chief Judicial Magistrate in any other case may remand such person to prison to undergo such unexpired portion.
+        8.  A person remanded to prison under sub-section ( 7 ) shall, subject to the provisions of section 141, be released at any time on giving security in accordance with the terms of the original order for the unexpired portion aforesaid to the Court or Magistrate by whom such order was made, or to its or his successor.
+        9.  The High Court or Court of Session may at any time, for sufficient reasons to be recorded in writing, cancel any bond for keeping the peace or for good behaviour executed under this Chapter by any order made by it, and District Magistrate, in the case of an order passed by an Executive Magistrate under section 136, or the Chief Judicial Magistrate in any other case may make such cancellation where such bond was executed under his order or under the order of any other Court in his district.
+        10. Any surety for the peaceable conduct or good behaviour of another person ordered to execute a bond under this Chapter may at any time apply to the Court making such order to cancel the bond and on such application being made, the Court shall issue a summons or warrant, as it thinks fit, requiring the person for whom such surety is bound to appear or to be brought before it.
+
+143.    1.  When a person for whose appearance a summons or warrant has been issued under the proviso to sub-section ( 3 ) of section 140 or under sub-section ( 10 ) of section 142, appears or is brought before the Magistrate or Court, the Magistrate or Court shall cancel the bond executed by such person and shall order such person to give, for the unexpired portion of the term of such bond, fresh security of the same description as the original security.
+        2.  Every such order shall, for the purposes of sections 139 to 142 (both inclusive) be deemed to be an order made under section 125 or section 136, as the case may be.
+
+Following the formatting standards you established—specifically the use of plain text for numbering, specific indentation for sub-sections, italicized parenthetical markers, and the use of bullets for clauses—here is the cleaned-up version of Chapter X.
+
+# CHAPTER X ORDER FOR MAINTENANCE OF WIVES, CHILDREN AND PARENTS
+
+144.    1. If any person having sufficient means neglects or refuses to maintain—
+            - ( _a_ ) his wife, unable to maintain herself, or
+            - ( _b_ ) his legitimate or illegitimate minor child, whether married or not, unable to maintain itself, or
+            - ( _c_ ) his legitimate or illegitimate child (not being a married daughter) who has attained majority, where such child is, by reason of any physical or mental abnormality or injury unable to maintain itself, or
+            - ( _d_ ) his father or mother, unable to maintain himself or herself,
+              a Judicial Magistrate of the first class may, upon proof of such neglect or refusal, order such person to make a monthly allowance for the maintenance of his wife or such child, father or mother, at such monthly rate as such Magistrate thinks fit and to pay the same to such person as the Magistrate may from time to time direct:
+              _Provided_ that the Judicial Magistrate may order the father of a minor female child referred to in clause ( _b_ ) to make such allowance, until she attains her majority, if the Judicial Magistrate is satisfied that the husband of such minor female child, if married, is not possessed of sufficient means:
+              _Provided_ further that the Judicial Magistrate may, during the pendency of the proceeding regarding monthly allowance for the maintenance under this sub-section, order such person to make a monthly allowance for the interim maintenance of his wife or such child, father or mother, and the expenses of such proceeding which the Judicial Magistrate considers reasonable, and to pay the same to such person as the Magistrate may from time to time direct:
+              _Provided_ also that an application for the monthly allowance for the interim maintenance and expenses of proceeding under the second proviso shall, as far as possible, be disposed of within sixty days from the date of the service of notice of the application to such person.
+              _Explanation_ — For the purposes of this Chapter,—
+                - ( _a_ ) "minor" means a person who, under the provisions of the Indian Majority Act, 1875 is deemed not to have attained his majority;
+                - ( _b_ ) "wife" includes a woman who has been divorced by, or has obtained a divorce from, her husband and has not remarried.
+        2. Any such allowance for the maintenance or interim maintenance and expenses of proceeding shall be payable from the date of the order, or, if so ordered, from the date of the application for maintenance or interim maintenance and expenses of proceeding, as the case may be.
+        3. If any person so ordered fails without sufficient cause to comply with the order, any such Magistrate may, for every breach of the order, issue a warrant for levying the amount due in the manner provided for levying fines, and may sentence such person, for the whole or any part of each month's allowance for the maintenance or the interim maintenance and expenses of proceeding, as the case may be, remaining unpaid after the execution of the warrant, to imprisonment for a term which may extend to one month or until payment if sooner made:
+           _Provided_ that no warrant shall be issued for the recovery of any amount due under this section unless application be made to the Court to levy such amount within a period of one year from the date on which it became due:
+           _Provided_ further that if such person offers to maintain his wife on condition of her living with him, and she refuses to live with him, such Magistrate may consider any grounds of refusal stated by her, and may make an order under this section notwithstanding such offer, if he is satisfied that there is just ground for so doing.
+           _Explanation_ — If a husband has contracted marriage with another woman or keeps a mistress, it shall be considered to be just ground for his wife's refusal to live with him.
+        4. No wife shall be entitled to receive an allowance for the maintenance or the interim maintenance and expenses of proceeding, from her husband under this section if she is living in adultery, or if, without any sufficient reason, she refuses to live with her husband, or if they are living separately by mutual consent.
+        5. On proof that any wife in whose favour an order has been made under this section is living in adultery, or that without sufficient reason she refuses to live with her husband, or that they are living separately by mutual consent, the Judicial Magistrate shall cancel the order.
+
+145.    1. Proceedings under section 144 may be taken against any person in any district—
+            - ( _a_ ) where he is, or
+            - ( _b_ ) where he or his wife resides, or
+            - ( _c_ ) where he last resided with his wife, or as the case may be, with the mother of the illegitimate child.
+        2. All evidence in such proceedings shall be taken in the presence of the person against whom an order for payment of maintenance is proposed to be made, or, when his personal attendance is dispensed with, in the presence of his pleader, and shall be recorded in the manner prescribed for summons-cases:
+           _Provided_ that if the Judicial Magistrate is satisfied that the person against whom an order for payment of maintenance is proposed to be made is wilfully avoiding service, or wilfully neglecting to attend the Court, the Magistrate may proceed to hear and determine the case ex parte and any order so made may be set aside for good cause shown on an application made within three months from the date thereof subject to such terms including terms as to payment of costs to the opposite party as the Magistrate may think just and proper.
+        3. The Court in dealing with applications under section 144 shall have power to make such order as to costs as may be just.
+
+146.    1. On proof of a change in the circumstances of any person, receiving, under section 144 a monthly allowance for the maintenance or interim maintenance, or ordered under the same section to pay a monthly allowance for the maintenance, or interim maintenance, to his wife, child, father or mother, as the case may be, the Magistrate may make such alteration, as he thinks fit, in the allowance for the maintenance or the interim maintenance, as the case may be.
+        2. Where it appears to the Judicial Magistrate that in consequence of any decision of a competent Civil Court, any order made under section 144 should be cancelled or varied, he shall cancel the order or, as the case may be, vary the same accordingly.
+        3. Where any order has been made under section 144 in favour of a woman who has been divorced by, or has obtained a divorce from, her husband, the Judicial Magistrate shall, if he is satisfied that—
+            - ( _a_ ) the woman has, after the date of such divorce, remarried, cancel such order as from the date of her remarriage;
+            - ( _b_ ) the woman has been divorced by her husband and that she has received, whether before or after the date of the said order, the whole of the sum which, under any customary or personal law applicable to the parties, was payable on such divorce, cancel such order,—
+                1. ( _i_ ) in the case where such sum was paid before such order, from the date on which such order was made;
+                2. ( _ii_ ) in any other case, from the date of expiry of the period, if any, for which maintenance has been actually paid by the husband to the woman;
+            - ( _c_ ) the woman has obtained a divorce from her husband and that she had voluntarily surrendered her rights to maintenance or interim maintenance, as the case may be, after her divorce, cancel the order from the date thereof.
+        4. At the time of making any decree for the recovery of any maintenance or dowry by any person, to whom a monthly allowance for the maintenance and interim maintenance or any of them has been ordered to be paid under section 144, the Civil Court shall take into account the sum which has been paid to, or recovered by, such person as monthly allowance for the maintenance and interim maintenance or any of them, as the case may be, in pursuance of the said order.
+        5. A copy of the order of maintenance or interim maintenance and expenses of proceedings, as the case may be, shall be given without payment to the person in whose favour it is made, or to his guardian, if any, or to the person to whom the allowance for the maintenance or the allowance for the interim maintenance and expenses of proceeding, as the case may be, is to be paid; and such order may be enforced by any Judicial Magistrate in any place where the person against whom it is made may be, on such Magistrate being satisfied as to the identity of the parties and the non-payment of the allowance, or as the case may be, expenses, due.
+
+# CHAPTER XI MAINTENANCE OF PUBLIC ORDER AND TRANQUILLITY
+
+### A.—Unlawful assemblies
+
+148.    1. ( _1_ ) Any Executive Magistrate or officer in charge of a police station or, in the absence of such officer in charge, any police officer, not below the rank of a sub-inspector, may command any unlawful assembly, or any assembly of five or more persons likely to cause a disturbance of the public peace, to disperse; and it shall thereupon be the duty of the members of such assembly to disperse accordingly.
+        2. ( _2_ ) If, upon being so commanded, any such assembly does not disperse, or if, without being so commanded, it conducts itself in such a manner as to show a determination not to disperse, any Executive Magistrate or police officer referred to in sub-section ( _1_ ), may proceed to disperse such assembly by force, and may require the assistance of any person, not being an officer or member of the armed forces and acting as such, for the purpose of dispersing such assembly, and, if necessary, arresting and confining the persons who form part of it, in order to disperse such assembly or that they may be punished according to law.
+
+149.    1. ( _1_ ) If any assembly referred to in sub-section ( _1_ ) of section 148 cannot otherwise be dispersed, and it is necessary for the public security that it should be dispersed, the District Magistrate or any other Executive Magistrate authorised by him, who is present, may cause it to be dispersed by the armed forces.
+        2. ( _2_ ) Such Magistrate may require any officer in command of any group of persons belonging to the armed forces to disperse the assembly with the help of the armed forces under his command, and to arrest and confine such persons forming part of it as the Executive Magistrate may direct, or as it may be necessary to arrest and confine in order to disperse the assembly or to have them punished according to law.
+        3. ( _3_ ) Every such officer of the armed forces shall obey such requisition in such manner as he thinks fit, but in so doing he shall use as little force, and do as little injury to person and property, as may be consistent with dispersing the assembly and arresting and detaining such persons.
+
+        4. When the public security is manifestly endangered by any such assembly and no Executive Magistrate can be communicated with, any commissioned or gazetted officer of the armed forces may disperse such assembly with the help of the armed forces under his command, and may arrest and confine any persons forming part of it, in order to disperse such assembly or that they may be punished according to law; but if, while he is acting under this section, it becomes practicable for him to communicate with an Executive Magistrate, he shall do so, and shall thenceforward obey the instructions of the Magistrate, as to whether he shall or shall not continue such action.
+
+150.    1. ( _1_ ) No prosecution against any person for any act purporting to be done under section 148, section 149 or section 150 shall be instituted in any Criminal Court except—
+        - ( _a_ ) with the sanction of the Central Government where such person is an officer or member of the armed forces;
+        - ( _b_ ) with the sanction of the State Government in any other case.
+        2. ( _2_ ) No Executive Magistrate or police officer acting under any of the said sections in good faith;
+        - ( _a_ ) no person doing any act in good faith in compliance with a requisition under section 148 or section 149;
+        - ( _b_ ) no officer of the armed forces acting under section 150 in good faith;
+        - ( _c_ ) no member of the armed forces doing any act in obedience to any order which he was bound to obey,
+          shall be deemed to have thereby committed an offence:
+          _Provided_ that no case shall be registered under sub-section ( _1_ ) of section 174 against any officer or member of the armed forces for any act done by him in obedience of any order which he was bound to obey in the discharge of his official duties, without making a preliminary enquiry into the matter:
+          _Provided_ further that no officer or member of the armed forces of the Union or any police officer of a State shall be arrested for anything done or purported to be done by him in obedience of any order which he was bound to obey in the discharge of his official duties, except after obtaining the consent of the Central Government or the State Government.
+        3. ( _3_ ) In this section and in the preceding sections of this Chapter,—
+        - ( _a_ ) the expression "armed forces" means the military, naval and air forces, operating as land forces and includes any other armed forces of the Union so operating;
+        - ( _b_ ) "officer", in relation to the armed forces, means a person commissioned, gazetted or in pay as an officer of the armed forces and includes a junior commissioned officer, a warrant officer, a petty officer, a non-commissioned officer and a non-gazetted officer;
+        - ( _c_ ) "member", in relation to the armed forces, means a person in the armed forces other than an officer.
+
+### B.—Public nuisances
+
+152.    1. ( _1_ ) Whenever a District Magistrate or a Sub-divisional Magistrate or any other Executive Magistrate specially empowered in this behalf by the State Government, on receiving the report of a police officer or other information and on taking such evidence (if any) as he thinks fit, considers—
+        - ( _a_ ) that any unlawful obstruction or nuisance should be removed from any public place or from any way, river or channel which is or may be lawfully used by the public; or
+        - ( _b_ ) that the conduct of any trade or occupation, or the keeping of any goods or merchandise, is injurious to the health or physical comfort of the community, and that in consequence such trade or occupation should be prohibited or regulated or such goods or merchandise should be removed or the keeping thereof regulated; or
+        - ( _c_ ) that the construction of any building, or, the disposal of any substance, as is likely to occasion configuration or explosion, should be prevented or stopped; or
+        - ( _d_ ) that any building, tent or structure, or any tree is in such a condition that it is likely to fall and thereby cause injury to persons living or carrying on business in the neighbourhood or passing by, and that in consequence the removal, repair or support of such building, tent or structure, or the removal or support of such tree, is necessary; or
+        - ( _e_ ) that any tank, well or excavation adjacent to any such way or public place should be fenced in such manner as to prevent danger arising to the public; or
+        - ( _f_ ) that any dangerous animal should be destroyed, confined or otherwise disposed of,
+          such Magistrate may make a conditional order requiring the person causing such obstruction or nuisance, or carrying on such trade or occupation, or keeping any such goods or merchandise, or owning, possessing or controlling such building, tent, structure, substance, tank, well or excavation, or owning or possessing such animal or tree, within a time to be fixed in the order— 1. ( _i_ ) to remove such obstruction or nuisance; or 2. ( _ii_ ) to desist from carrying on, or to remove or regulate in such manner as may be directed, such trade or occupation, or to remove such goods or merchandise, or to regulate the keeping thereof in such manner as may be directed; or 3. ( _iii_ ) to prevent or stop the construction of such building, or to alter the disposal of such substance; or 4. ( _iv_ ) to remove, repair or support such building, tent or structure, or to remove or support such trees; or 5. ( _v_ ) to fence such tank, well or excavation; or 6. ( _vi_ ) to destroy, confine or dispose of such dangerous animal in the manner provided in the said order,
+          or, if he objects so to do, to appear before himself or some other Executive Magistrate subordinate to him at a time and place to be fixed by the order, and show cause, in the manner hereinafter provided, why the order should not be made absolute.
+        2. ( _2_ ) No order duly made by a Magistrate under this section shall be called in question in any Civil Court.
+           _Explanation_ — A "public place" includes also property belonging to the State, camping grounds and grounds left unoccupied for sanitary or recreative purposes.
+
+153.    1. ( _1_ ) The order shall, if practicable, be served on the person against whom it is made, in the manner herein provided for service of summons.
+        2. ( _2_ ) If such order cannot be so served, it shall be notified by proclamation or by electronic communication in such manner as the State Government may, by rules, direct, and a copy thereof shall be stuck up at such place or places as may be fittest for conveying the information to such person.
+
+154.    The person against whom such order is made shall—
+        - ( _a_ ) perform, within the time and in the manner specified in the order, the act directed thereby; or
+        - ( _b_ ) appear in accordance with such order and show cause against the same; and such appearance or hearing may be permitted through audio video conferencing.
+
+155.    If the person against whom an order is made under section 154 does not perform such act or appear and show cause, he shall be liable to the penalty specified in that behalf in section 221 of the Bharatiya Nyaya Sanhita, 2023, and the order shall be made absolute.
+
+156.    1.  ( _1_ ) Where an order is made under section 152 for the purpose of preventing obstruction, nuisance or danger to the public in the use of any way, river, channel or place, the Magistrate shall, on the appearance before him of the person against whom the order was made, question him as to whether he denies the existence of any public right in respect of the way, river, channel or place, and if he does so, the Magistrate shall, before proceeding under section 157, inquire into the matter.
+        2.  ( _2_ ) If in such inquiry the Magistrate finds that there is any reliable evidence in support of such denial, he shall stay the proceedings until the matter of the existence of such right has been decided by a competent Court; and, if he finds that there is no such evidence, he shall proceed as laid down in section 157.
+        3.  ( _3_ ) A person who has, on being questioned by the Magistrate under sub-section ( _1_ ), fail to deny the existence of a public right of the nature therein referred to, or who, having made such denial, has failed to adduce reliable evidence in support thereof, shall not in the subsequent proceedings be permitted to make any such denial.
+
+157.    1.  ( _1_ ) If the person against whom an order under section 152 is made appears and shows cause against the order, the Magistrate shall take evidence in the matter as in a summons-case.
+        2.  ( _2_ ) If the Magistrate is satisfied that the order, either as originally made or subject to such modification as he considers necessary, is reasonable and proper, the order shall be made absolute without modification or, as the case may be, with such modification.
+        3.  ( _3_ ) If the Magistrate is not so satisfied, no further proceedings shall be taken in the case:
+            _Provided_ that the proceedings under this section shall be completed, as soon as possible, within a period of ninety days, which may be extended for the reasons to be recorded in writing, to one hundred and twenty days.
+
+158.    The Magistrate may, for the purposes of an inquiry under section 156 or section 157—
+        - ( _a_ ) direct a local investigation to be made by such person as he thinks fit; or
+        - ( _b_ ) summon and examine an expert.
+
+159.    1. ( _1_ ) Where the Magistrate directs a local investigation by any person under section 158, the Magistrate may—
+            - ( _a_ ) furnish such person with such written instructions as may seem necessary for his guidance;
+            - ( _b_ ) declare by whom the whole or any part of the necessary expenses of the local investigation shall be paid.
+        2. ( _2_ ) The report of such person may be read as evidence in the case.
+        3. ( _3_ ) Where the Magistrate summons and examines an expert under section 158, the Magistrate may direct by whom the costs of such summoning and examination shall be paid.
+
+160.    1. ( _1_ ) When an order has been made absolute under section 155 or section 157, the Magistrate shall give notice of the same to the person against whom the order was made, and shall further require him to perform the act directed by the order within the time to be fixed in the notice, and inform him that, in case of disobedience, he shall be liable to the penalty provided by section 221 of the Bharatiya Nyaya Sanhita, 2023.
+        2. ( _2_ ) If such act is not performed within the time fixed, the Magistrate may cause it to be performed, and may recover the cost of performing it, either by the sale of any building, goods or other property removed by his order, or by the distress and sale of any other movable property of such person within or without such Magistrate's local jurisdiction, and if such other property is without such jurisdiction, the order shall authorise its attachment and sale when endorsed by the Magistrate within whose local jurisdiction the property to be attached is found.
+        3. ( _3_ ) No suit shall lie in respect of anything done in good faith under this section.
+
+161.    1. ( _1_ ) If a Magistrate making an order under section 152 considers that immediate measures should be taken to prevent imminent danger or injury of a serious kind to the public, he may issue such an injunction to the person against whom the order was made, as is required to obviate or prevent such danger or injury pending the determination of the matter.
+        2. ( _2_ ) In default of such person forthwith obeying such injunction, the Magistrate may himself use, or cause to be used, such means as he thinks fit to obviate such danger or to prevent such injury.
+        3. ( _3_ ) No suit shall lie in respect of anything done in good faith by a Magistrate under this section.
+
+162.    A District Magistrate or Sub-divisional Magistrate, or any other Executive Magistrate or Deputy Commissioner of Police empowered by the State Government or the District Magistrate in this behalf, may order any person not to repeat or continue a public nuisance, as defined in the Bhartiya Nyaya Sanhita, 2023, or any special or local law.
+
+### C.—Urgent cases of nuisance or apprehended danger
+
+163.    1. ( _1_ ) In cases where, in the opinion of a District Magistrate, a Sub-divisional Magistrate or any other Executive Magistrate specially empowered by the State Government in this behalf, there is sufficient ground for proceeding under this section and immediate prevention or speedy remedy is desirable, such Magistrate may, by a written order stating the material facts of the case and served in the manner provided by section 153, direct any person to abstain from a certain act or to take certain order with respect to certain property in his possession or under his management, if such Magistrate considers that such direction is likely to prevent, or tends to prevent, obstruction, annoyance or injury to any person lawfully employed, or danger to human life, health or safety or a disturbance of the public tranquility, or a riot, or an affray.
+        2. ( _2_ ) An order under this section may, in cases of emergency or in cases where the circumstances do not admit of the serving in due time of a notice upon the person against whom the order is directed, be passed _ex parte_.
+        3. ( _3_ ) An order under this section may be directed to a particular individual, or to persons residing in a particular place or area, or to the public generally when frequenting or visiting a particular place or area.
+        4. ( _4_ ) No order under this section shall remain in force for more than two months from the making thereof:
+           _Provided_ that if the State Government considers it necessary so to do for preventing danger to human life, health or safety or for preventing a riot or any affray, it may, by notification, direct that an order made by a Magistrate under this section shall remain in force for such further period not exceeding six months from the date on which the order made by the Magistrate would have, but for such order, expired, as it may specify in the said notification.
+        5. ( _5_ ) Any Magistrate may, either on his own motion or on the application of any person aggrieved, rescind or alter any order made under this section by himself or any Magistrate subordinate to him or by his predecessor-in-office.
+        6. ( _6_ ) The State Government may, either on its own motion or on the application of any person aggrieved, rescind or alter any order made by it under the proviso to sub-section ( _4_ ).
+        7. ( _7_ ) Where an application under sub-section ( _5_ ) or sub-section ( _6_ ) is received, the Magistrate, or the State Government, as the case may be, shall afford to the applicant an early opportunity of appearing before him or it, either in person or by pleader and showing cause against the order; and if the Magistrate or the State Government, as the case may be, rejects the application wholly or in part, he or it shall record in writing the reasons for so doing.
+
+### D.—Disputes as to immovable property
+
+164.    1. ( _1_ ) Whenever an Executive Magistrate is satisfied from a report of a police officer or upon other information that a dispute likely to cause a breach of the peace exists concerning any land or water or the boundaries thereof, within his local jurisdiction, he shall make an order in writing, stating the grounds of his being so satisfied, and requiring the parties concerned in such dispute to attend his Court in person or by pleader, on a specified date and time, and to put in written statements of their respective claims as respects the fact of actual possession of the subject of dispute.
+        2. ( _2_ ) For the purposes of this section, the expression "land or water" includes buildings, markets, fisheries, crops or other produce of land, and the rents or profits of any such property.
+        3. ( _3_ ) A copy of the order shall be served in the manner provided by this Sanhita for the service of summons upon such person or persons as the Magistrate may direct, and at least one copy shall be published by being affixed to some conspicuous place at or near the subject of dispute.
+        4. ( _4_ ) The Magistrate shall, without reference to the merits or the claims of any of the parties to a right to possess the subject of dispute, peruse the statements so put in, hear the parties, receive all such evidence as may be produced by them, take such further evidence, if any, as he thinks necessary, and, if possible, decide whether any and which of the parties was, at the date of the order made by him under sub-section ( _1_ ), in possession of the subject of dispute:
+           _Provided_ that if it appears to the Magistrate that any party has been forcibly and wrongfully dispossessed within two months next before the date on which the report of a police officer or other information was received by the Magistrate, or after that date and before the date of his order under sub-section ( _1_ ), he may treat the party so dispossessed as if that party had been in possession on the date of his order under sub-section ( _1_ ).
+        5. ( _5_ ) Nothing in this section shall preclude any party so required to attend, or any other person interested, from showing that no such dispute as aforesaid exists or has existed; and in such case the Magistrate shall cancel his said order, and all further proceedings thereon shall be stayed, but, subject to such cancellation, the order of the Magistrate under sub-section ( _1_ ) shall be final.
+        6. ( _6_ )
+            - ( _a_ ) If the Magistrate decides that one of the parties was, or should under the proviso to sub-section ( _4_ ) be treated as being, in such possession of the said subject of dispute, he shall issue an order declaring such party to be entitled to possession thereof until evicted therefrom in due course of law, and forbidding all disturbance of such possession until such eviction; and when he proceeds under the proviso to sub-section ( _4_ ), may restore to possession the party forcibly and wrongfully dispossessed.
+            - ( _b_ ) The order made under this sub-section shall be served and published in the manner laid down in sub-section ( _3_ ).
+        7. ( _7_ ) When any party to any such proceeding dies, the Magistrate may cause the legal representative of the deceased party to be made a party to the proceeding and shall thereupon continue the inquiry, and if any question arises as to who the legal representative of a deceased party for the purposes of such proceeding is, all persons claiming to be representatives of the deceased party shall be made parties thereto.
+        8. ( _8_ ) If the Magistrate is of opinion that any crop or other produce of the property, the subject of dispute in a proceeding under this section pending before him, is subject to speedy and natural decay, he may make an order for the proper custody or sale of such property, and, upon the completion of the inquiry, shall make such order for the disposal of such property, or the sale-proceeds thereof, as he thinks fit.
+        9. ( _9_ ) The Magistrate may, if he thinks fit, at any stage of the proceedings under this section, on the application of either party, issue a summons to any witness directing him to attend or to produce any document or thing.
+        10. ( _10_ ) Nothing in this section shall be deemed to be in derogation of powers of the Magistrate to proceed under section 126.
+
+165.    1. ( _1_ ) If the Magistrate at any time after making the order under sub-section ( _1_ ) of section 164 considers the case to be one of emergency, or if he decides that none of the parties was then in such possession as is referred to in section 164, or if he is unable to satisfy himself as to which of them was then in such possession of the subject of dispute, he may attach the subject of dispute until a competent Court has determined the rights of the parties thereto with regard to the person entitled to the possession thereof:
+           _Provided_ that such Magistrate may withdraw the attachment at any time if he is satisfied that there is no longer any likelihood of breach of the peace with regard to the subject of dispute.
+        2. ( _2_ ) When the Magistrate attaches the subject of dispute, he may, if no receiver in relation to such subject of dispute has been appointed by any Civil Court, make such arrangements as he considers proper for looking after the property or if he thinks fit, appoint a receiver thereof, who shall have, subject to the control of the Magistrate, all the powers of a receiver appointed under the Code of Civil Procedure, 1908:
+           _Provided_ that in the event of a receiver being subsequently appointed in relation to the subject of dispute by any Civil Court, the Magistrate—
+            - ( _a_ ) shall order the receiver appointed by him to hand over the possession of the subject of dispute to the receiver appointed by the Civil Court and shall thereafter discharge the receiver appointed by him;
+            - ( _b_ ) may make such other incidental or consequential orders as may be just.
+
+166.    1. ( _1_ ) Whenever an Executive Magistrate is satisfied from the report of a police officer or upon other information, that a dispute likely to cause a breach of the peace exists regarding any alleged right of user of any land or water within his local jurisdiction, whether such right be claimed as an easement or otherwise, he shall make an order in writing, stating the grounds of his being so satisfied and requiring the parties concerned in such dispute to attend his Court in person or by pleader on a specified date and time and to put in written statements of their respective claims.
+           _Explanation_ — For the purposes of this sub-section, the expression "land or water" has the meaning given to it in sub-section ( _2_ ) of section 164.
+        2. ( _2_ ) The Magistrate shall peruse the statements so put in, under sub-section ( _1_ ), hear the parties, receive all such evidence as may be produced by them respectively, consider the effect of such evidence, take such further evidence, if any, as he thinks necessary and, if possible, decide whether such right exists; and the provisions of section 164 shall, so far as may be, apply in the case of such inquiry.
+        3. ( _3_ ) If it appears to such Magistrate that such rights exist, he may make an order prohibiting any interference with the exercise of such right, including, in a proper case, an order for the removal of any obstruction in the exercise of any such right:
+           _Provided_ that no such order shall be made where the right is exercisable at all times of the year, unless such right has been exercised within three months next before the receipt under sub-section ( _1_ ) of the report of a police officer or other information leading to the institution of the inquiry, or where the right is exercisable only at particular season or on particular occasion, unless the right has been exercised during the last of such seasons or on the last of such occasions before such receipt.
+        4. ( _4_ ) When in any proceedings commenced under sub-section ( _1_ ) of section 164 the Magistrate finds that the dispute is as regards an alleged right of user of land or water, he may, after recording his reasons, continue with the proceedings as if they had been commenced under sub-section ( _1_ ), and when in any proceedings commenced under sub-section ( _1_ ) the Magistrate finds that the dispute should be dealt with under section 164, he may, after recording his reasons, continue with the proceedings as if they had been commenced under sub-section ( _1_ ) of section 164.
+
+167.    1. ( _1_ ) Whenever a local inquiry is necessary for the purposes of section 164, section 165 or section 166, a District Magistrate or Sub-divisional Magistrate may depute any Magistrate subordinate to him to make the inquiry, and may furnish him with such written instructions as may seem necessary for his guidance, and may declare by whom the whole or any part of the necessary expenses of the inquiry shall be paid.
+        2. ( _2_ ) The report of the person so deputed may be read as evidence in the case.
+        3. ( _3_ ) When any costs have been incurred by any party to a proceeding under section 164, section 165 or section 166, the Magistrate passing a decision may direct by whom such costs shall be paid, whether by such party or by any other party to the proceeding, and whether in whole or in part or proportion and such costs may include any expenses incurred in respect of witnesses and of pleaders' fees, which the Court may consider reasonable.
+
+# CHAPTER XII PREVENTIVE ACTION OF THE POLICE
+
+168. Every police officer may interpose for the purpose of preventing, and shall, to the best of his ability, prevent, the commission of any cognizable offence.
+169. Every police officer receiving information of a design to commit any cognizable offence shall communicate such information to the police officer to whom he is subordinate, and to any other officer whose duty it is to prevent or take cognizance of the commission of any such offence.
+
+170. 1. ( _1_ ) A police officer knowing of a design to commit any cognizable offence may arrest, without orders from a Judicial Magistrate and without a warrant, the person so designing, if it appears to such officer that the commission of the offence cannot be otherwise prevented.
+     2. ( _2_ ) No person arrested under sub-section ( _1_ ) shall be detained in custody for a period exceeding twenty-four hours from the time of his arrest unless his further detention is required or authorised under any other provisions of this Sanhita or of any other law for the time being in force.
+
+171. A police officer may of his own authority interpose to prevent any injury attempted to be committed in his view to any public property, movable or immovable, or the removal or injury of any public landmark, buoy or other mark used for navigation.
+
+172. 1. ( _1_ ) All persons shall be bound to conform to the lawful directions of a police officer given in fulfilment of any of his duty under this Chapter. 2. ( _2_ ) A police officer may detain or remove any person resisting, refusing, ignoring or disregarding to conform to any direction given by him under sub-section ( _1_ ) and may either take such person before a Judicial Magistrate or, in petty cases, release him when the occasion is past.
+        Following the established formatting rules for section numbering, indentation, and list styles, here is the cleaned-up version of Chapter XIII.
+
+---
+
+# CHAPTER XIII INFORMATION TO THE POLICE AND THEIR POWERS TO INVESTIGATE
+
+173.    1. ( _1_ ) Every information relating to the commission of a cognizable offence, irrespective of the area where the offence is committed may be given orally or by electronic communication and if given to an officer in charge of a police station,—
+            - ( _i_ ) orally, it shall be reduced to writing by him or under his direction, and be read over to the informant; and every such information, whether given in writing or reduced to writing as aforesaid, shall be signed by the person giving it;
+            - ( _ii_ ) by electronic communication, it shall be taken on record by him on being signed within three days by the person giving it,
+              and the substance thereof shall be entered in a book to be kept by such officer in such form as the State Government may prescribe in this behalf:
+              _Provided_ that if the information is given by the woman against whom an offence under section 64, section 66, section 67, section 68, section 70, section 73, section 74, section 75, section 76, section 77, section 78 or section 122 of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed or attempted, then such information shall be recorded, by a woman police officer or any woman officer:
+              _Provided_ further that—
+            - ( _a_ ) in the event that the person against whom an offence under section 354, section 67, section 68, sub-section ( _2_ ) of section 69, sub-section ( _1_ ) of section 70, section 71, section 74, section 75, section 76, section 77 or section 79 of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed or attempted, is temporarily or permanently mentally or physically disabled, then such information shall be recorded by a police officer, at the residence of the person seeking to report such offence or at a convenient place of such person's choice, in the presence of an interpreter or a special educator, as the case may be;
+            - ( _b_ ) the recording of such information shall be videographed;
+            - ( _c_ ) the police officer shall get the statement of the person recorded by a Judicial Magistrate under clause ( _a_ ) of sub-section ( _6_ ) of section 183 as soon as possible.
+
+        2. ( _2_ ) A copy of the information as recorded under sub-section ( _1_ ) shall be given forthwith, free of cost, to the informant or the victim.
+        3. ( _3_ ) Without prejudice to the provisions contained in section 175, on receipt of information relating to the commission of any cognizable offence, which is made punishable for three years or more but less than seven years, the officer in-charge of the police station may with the prior permission from an officer not below the rank of Deputy Superintendent of Police, considering the nature and gravity of the offence,—
+        - ( _i_ ) proceed to conduct preliminary enquiry to ascertain whether there exists a prima facie case for proceeding in the matter within a period of fourteen days; or
+        - ( _ii_ ) proceed with investigation when there exists a prima facie case.
+        4. ( _4_ ) Any person aggrieved by a refusal on the part of an officer in charge of a police station to record the information referred to in sub-section ( _1_ ), may send the substance of such information, in writing and by post, to the Superintendent of Police concerned who, if satisfied that such information discloses the commission of a cognizable offence, shall either investigate the case himself or direct an investigation to be made by any police officer subordinate to him, in the manner provided by this Sanhita, and such officer shall have all the powers of an officer in charge of the police station in relation to that offence failing which he may make an application under sub-section ( _3_ ) of section 175 to the Magistrate.
+
+174.    1. ( _1_ ) When information is given to an officer in charge of a police station of the commission within the limits of such station of a non-cognizable offence, he shall enter or cause to be entered the substance of the information in a book to be kept by such officer in such form as the State Government may prescribe in this behalf, and,—
+            - ( _i_ ) refer the informant to the Magistrate;
+            - ( _ii_ ) forward the daily diary report of all such cases fortnightly to the Magistrate.
+        2. ( _2_ ) No police officer shall investigate a non-cognizable case without the order of a Magistrate having power to try such case or commit the case for trial.
+        3. ( _3_ ) Any police officer receiving such order may exercise the same powers in respect of the investigation (except the power to arrest without warrant) as an officer in charge of a police station may exercise in a cognizable case.
+        4. ( _4_ ) Where a case relates to two or more offences of which at least one is cognizable, the case shall be deemed to be a cognizable case, notwithstanding that the other offences are non-cognizable.
+
+175.    1. ( _1_ ) Any officer in charge of a police station may, without the order of a Magistrate, investigate any cognizable case which a Court having jurisdiction over the local area within the limits of such station would have power to inquire into or try under the provisions of Chapter XIV:
+           _Provided_ that considering the nature and gravity of the offence, the Superintendent of Police may either himself investigate or require the Deputy Superintendent of Police to investigate the offence.
+        2. ( _2_ ) No proceeding of a police officer in any such case shall at any stage be called in question on the ground that the case was one which such officer was not empowered under this section to investigate.
+        3. ( _3_ ) Any Judicial Magistrate empowered under section 210 may, after considering the application made under clause ( _b_ ) of sub-section ( _4_ ) of section 173 and submission made in this regard by the police officer, order such an investigation as above-mentioned.
+        4. ( _4_ ) Any Judicial Magistrate empowered under section 210, may upon receiving a complaint against a public servant arising in course of the discharge of his official duties, take cognizance, subject to—
+            - ( _a_ ) receiving a report containing facts and circumstances of the incident from the officer superior to him; and
+            - ( _b_ ) after consideration of the assertions made by the public servant as to the situation that led to the incident so alleged.
+
+                176. 
+
+176.    1.  ( _1_ ) If, from information received or otherwise, an officer in charge of a police station has reason to suspect the commission of an offence which he is empowered under section 175 to investigate, he shall forthwith send a report of the same to a Magistrate empowered to take cognizance of such offence upon a police report and shall proceed in person, or shall depute one of his subordinate officers not being below such rank as the State Government may, by general or special order, prescribe in this behalf, to proceed, to the spot, to investigate the facts and circumstances of the case, and, if necessary, to take measures for the discovery and arrest of the offender:
+            _Provided_ that—
+            - ( _a_ ) when information as to the commission of any such offence is given against any person by name and the case is not of a serious nature, the officer in charge of a police station need not proceed in person or depute a subordinate officer to make an investigation on the spot;
+            - ( _b_ ) if it appears to the officer in charge of a police station that there is no sufficient ground for entering on an investigation, he shall not investigate the case:
+              _Provided_ further that in relation to an offence of rape, the recording of statement of the victim shall be conducted at the residence of the victim or in the place of her choice and as far as practicable by a woman police officer in the presence of her parents or guardian or near relatives or social worker of the locality:
+              _Provided_ also that statement made under this sub-section may also be recorded through any audio-video electronic means preferably cell phone.
+        2.  ( _2_ ) In each of the cases mentioned in clauses ( _a_ ) and ( _b_ ) of the first proviso to sub-section ( _1_ ), the officer in charge of the police station shall state in his report the reasons for not fully complying with the requirements of that sub-section by him, and, forward the daily diary report fortnightly to the Magistrate and in the case mentioned in clause ( _b_ ) of the said proviso, the officer shall also forthwith notify to the informant, if any, in such manner as may be prescribed.
+        3.  ( _3_ ) On receipt of every information relating to the commission of an offence which is made punishable for seven years or more, the officer in charge of a police station shall, from such date, as may be notified within a period of five years by the State Government in this regard, cause the forensics expert to visit the crimes scene to collect forensic evidence in the offence and also cause videography of the process on mobile phone or any other electronic device:
+            _Provided_ that where forensics facility is not available in respect of any such offence, the State Government shall, until the facility in respect of that matter is developed or made in the State, notify the utilisation of such facility of any other State.
+
+177.    1. ( _1_ ) Every report sent to a Magistrate under section 176 shall, if the State Government so directs, be submitted through such superior officer of police as the State Government, by general or special order, appoints in that behalf.
+        2. ( _2_ ) Such superior officer may give such instructions to the officer in charge of the police station as he thinks fit, and shall, after recording such instructions on such report, transmit the same without delay to the Magistrate.
+           The Magistrate, on receiving report under section 176, may direct an investigation, or, if he thinks fit, at once proceed, or depute any Magistrate subordinate to him to proceed, to hold a preliminary inquiry into, or otherwise to dispose of, the case in the manner provided in this Sanhita.
+
+178.    1. ( _1_ ) Any police officer making an investigation under this Chapter may, by order in writing, require the attendance before himself of any person being within the limits of his own or any adjoining station who, from the information given or otherwise, appears to be acquainted with the facts and circumstances of the case; and such person shall attend as so required:
+           _Provided_ that no male person under the age of fifteen years or above the age of sixty years or a woman or a mentally or physically disabled person or a person with acute illness shall be required to attend at any place other than the place in which such person resides:
+           _Provided_ further that if such person is willing to attend the police station or at any other place within the limits of such police station, such person may be permitted so to do.
+        2. ( _2_ ) The State Government may, by rules made in this behalf, provide for the payment by the police officer of the reasonable expenses of every person, attending under sub-section ( _1_ ) at any place other than his residence.
+
+179.    1. ( _1_ ) Any police officer making an investigation under this Chapter, or any police officer not below such rank as the State Government may, by general or special order, prescribe in this behalf, acting on the requisition of such officer, may examine orally any person supposed to be acquainted with the facts and circumstances of the case.
+        2. ( _2_ ) Such person shall be bound to answer truly all questions relating to such case put to him by such officer, other than questions the answers to which would have a tendency to expose him to a criminal charge or to a penalty or forfeiture.
+        3. ( _3_ ) The police officer may reduce into writing any statement made to him in the course of an examination under this section; and if he does so, he shall make a separate and true record of the statement of each such person whose statement he records:
+           _Provided_ that statement made under this sub-section may also be recorded by audio-video electronic means:
+           _Provided_ further that the statement of a woman against whom an offence under section 64, section 66, section 67, section 68, section 70, section 71, section 73, section 74, section 75, section 76, section 77 or section 78 of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed or attempted, shall be recorded, by a woman police officer or any woman officer.
+
+        181. 
+
+180.    ( _1_ ) No statement made by any person to a police officer in the course of an investigation under this Chapter, shall, if reduced to writing, be signed by the person making it; nor shall any such statement or any record thereof, whether in a police diary or otherwise, or any part of such statement or record, be used for any purpose, save as hereinafter provided, at any inquiry or trial in respect of any offence under investigation at the time when such statement was made:
+        _Provided_ that when any witness is called for the prosecution in such inquiry or trial whose statement has been reduced into writing as aforesaid, any part of his statement, if duly proved, may be used by the accused, and with the permission of the Court, by the prosecution, to contradict such witness in the manner provided by section 148 of the Bhartiya Sakshya Adhiniyam, 2023; and when any part of such statement is so used, any part thereof may also be used in the re-examination of such witness, but for the purpose only of explaining any matter referred to in his cross-examination.
+181.    ( _2_ ) Nothing in this section shall be deemed to apply to any statement falling within the provisions of clause ( _1_ ) of section 26 of the Bharatiya Sakshya Adhiniyam, 2023; or to affect the provisions of section 23 of that Adhiniyam.
+        _Explanation_ — An omission to state a fact or circumstance in the statement referred to in sub-section ( _1_ ) may amount to contradiction if the same appears to be significant and otherwise relevant having regard to the context in which such omission occurs and whether any omission amounts to a contradiction in the particular context shall be a question of fact.
+
+        182. 
+
+182.    ( _1_ ) No police officer or other person in authority shall offer or make, or cause to be offered or made, any such inducement, threat or promise as is mentioned in section 22 of the Bharatiya Sakshya Adhiniyam, 2023.
+183.    ( _2_ ) But no police officer or other person shall prevent, by any caution or otherwise, any person from making in the course of any investigation under this Chapter any statement which he may be disposed to make of his own free will:
+        _Provided_ that nothing in this sub-section shall affect the provisions of sub-section ( _4_ ) of section 184.
+
+        183. 
+
+184.    ( _1_ ) Any Judicial Magistrate of the District in which the information about commission of any offence has been registered, may, whether or not he has jurisdiction in the case, record any confession or statement made to him in the course of an investigation under this Chapter or under any other law for the time being in force, or at any time afterwards but before the commencement of the inquiry or trial:
+        _Provided_ that any confession or statement made under this sub-section may also be recorded in the presence of the advocate of the person accused of an offence:
+        _Provided_ further that no confession shall be recorded by a police officer on whom any power of a Magistrate has been conferred under any law for the time being in force.
+185.    ( _2_ ) The Magistrate shall, before recording any such confession, explain to the person making it that he is not bound to make a confession and that, if he does so, it may be used as evidence against him; and the Magistrate shall not record any such confession unless, upon questioning the person making it, he has reason to believe that it is being made voluntarily.
+186.    ( _3_ ) If at any time before the confession is recorded, the person appearing before the Magistrate states that he is not willing to make the confession, the Magistrate shall not authorise the detention of such person in police custody.
+187.    ( _4_ ) Any such confession shall be recorded in the manner provided in section 316 for recording the examination of an accused person and shall be signed by the person making the confession; and the Magistrate shall make a memorandum at the foot of such record to the following effect:—
+        "I have explained to (name) that he is not bound to make a confession and that, if he does so, any confession he may make may be used as evidence against him and I believe that this confession was voluntarily made. It was taken in my presence and hearing, and was read over to the person making it and admitted by him to be correct, and it contains a full and true account of the statement made by him.
+        (Signed) A. B.
+        Magistrate."
+188.    ( _5_ ) Any statement (other than a confession) made under sub-section ( _1_ ) shall be recorded in such manner hereinafter provided for the recording of evidence as is, in the opinion of the Judicial Magistrate, best fitted to the circumstances of the case; and the Judicial Magistrate shall have power to administer oath to the person whose statement is so recorded.
+189.    ( _6_ ) ( _a_ ) In cases punishable under section 66, section 67, section 68, section 70, section 71, section 73, section 74, section 75, section 76, section 77, sub-section ( _1_ ) or sub-section ( _2_ ) of section 74, or section 78 of the Bhartiya Nyaya Sanhita, 2023, the Judicial Magistrate shall record the statement of the person against whom such offence has been committed in the manner specified in sub-section ( _5_ ), as soon as the commission of the offence is brought to the notice of the police:
+        _Provided_ that such statement shall, as far as practicable, be recorded by a woman Judicial Magistrate and in her absence by a male Judicial Magistrate in the presence of a woman:
+        _Provided_ further that in cases relating to the offences punishable with imprisonment for ten years or more or imprisonment for life or with death, the Judicial Magistrate shall record the statement of the witness brought before him by the police officer:
+        _Provided_ also that if the person making the statement is temporarily or permanently mentally or physically disabled, the Magistrate shall take the assistance of an interpreter or a special educator in recording the statement:
+        _Provided_ also that if the person making the statement is temporarily or permanently mentally or physically disabled, the statement made by the person, with the assistance of an interpreter or a special educator, shall be recorded through audio-video electronic means preferably cell phone.
+190.    ( _b_ ) A statement recorded under clause ( _a_ ) of a person, who is temporarily or permanently mentally or physically disabled, shall be considered a statement in lieu of examination-in-chief, as specified in section 142 of the Bhartiya Sakshya Adhiniyam, 2023 such that the maker of the statement can be cross-examined on such statement, without the need for recording the same at the time of trial.
+191.    ( _7_ ) The Magistrate recording a confession or statement under this section shall forward it to the Magistrate by whom the case is to be inquired into or tried.
+
+        184. 
+
+192.    ( _1_ ) Where, during the stage when an offence of committing rape or attempt to commit rape is under investigation, it is proposed to get the person of the woman with whom rape is alleged or attempted to have been committed or attempted, examined by a medical expert, such examination shall be conducted by a registered medical practitioner employed in a hospital run by the Government or a local authority and in the absence of such a practitioner, by any other registered medical practitioner, with the consent of such woman or of a person competent to give such consent on her behalf and such woman shall be sent to such registered medical practitioner within twenty-four hours from the time of receiving the information relating to the commission of such offence.
+193.    ( _2_ ) The registered medical practitioner, to whom such woman is sent, shall, without delay, examine her person and prepare a report of his examination giving the following particulars, namely:—
+
+- ( _i_ ) the name and address of the woman and of the person by whom she was brought;
+- ( _ii_ ) the age of the woman;
+- ( _iii_ ) the description of material taken from the person of the woman for DNA profiling;
+- ( _iv_ ) marks of injury, if any, on the person of the woman;
+- ( _v_ ) general mental condition of the woman; and
+- ( _vi_ ) other material particulars in reasonable detail.
+
+3. ( _3_ ) The report shall state precisely the reasons for each conclusion arrived at.
+4. ( _4_ ) The report shall specifically record that the consent of the woman or of the person competent to give such consent on her behalf to such examination had been obtained.
+5. ( _5_ ) The exact time of commencement and completion of the examination shall also be noted in the report.
+6. ( _6_ ) The registered medical practitioner shall, within a period of seven days forward the report to the investigating officer who shall forward it to the Magistrate referred to in section 193 as part of the documents referred to in clause ( _a_ ) of sub-section ( _6_ ) of that section.
+7. ( _7_ ) Nothing in this section shall be construed as rendering lawful any examination without the consent of the woman or of any person competent to give such consent on her behalf.
+   _Explanation_ — For the purposes of this section, "examination" and "registered medical practitioner" shall have the same meanings as respectively assigned to them in section 51.
+
+    185. 
+
+8. ( _1_ ) Whenever an officer in charge of a police station or a police officer making an investigation has reasonable grounds for believing that anything necessary for the purposes of an investigation into any offence which he is authorised to investigate may be found in any place within the limits of the police station of which he is in charge, or to which he is attached, and that such thing cannot in his opinion be otherwise obtained without undue delay, such officer may, after recording in writing the grounds of his belief in the case-diary and specifying in such writing, so far as possible, the thing for which search is to be made, search, or cause search to be made, for such thing in any place within the limits of such station.
+9. ( _2_ ) A police officer proceeding under sub-section ( _1_ ), shall, if practicable, conduct the search in person:
+   _Provided_ that the search conducted under this section shall be recorded through audio-video electronic means preferably by mobile phone.
+10. ( _3_ ) If he is unable to conduct the search in person, and there is no other person competent to make the search present at the time, he may, after recording in writing his reasons for so doing, require any officer subordinate to him to make the search, and he shall deliver to such subordinate officer an order in writing, specifying the place to be searched, and so far as possible, the thing for which search is to be made; and such subordinate officer may thereupon search for such thing in such place.
+11. ( _4_ ) The provisions of this Sanhita as to search-warrants and the general provisions as to searches contained in section 103 shall, so far as may be, apply to a search made under this section.
+12. ( _5_ ) Copies of any record made under sub-section ( _1_ ) or sub-section ( _3_ ) shall forthwith, but not later than forty-eight hours, be sent to the nearest Magistrate empowered to take cognizance of the offence, and the owner or occupier of the place searched shall, on application, be furnished, free of cost, with a copy of the same by the Magistrate.
+
+    186. 
+
+13. ( _1_ ) An officer in charge of a police station or a police officer not being below the rank of sub-inspector making an investigation may require an officer in charge of another police station, whether in the same or a different district, to cause a search to be made in any place, in any case in which the former officer might cause such search to be made, within the limits of his own station.
+14. ( _2_ ) Such officer, on being so required, shall proceed according to the provisions of section 185, and shall forward the thing found, if any, to the officer at whose request the search was made.
+15. ( _3_ ) Whenever there is reason to believe that the delay occasioned by requiring an officer in charge of another police station to cause a search to be made under sub-section ( _1_ ) might result in evidence of the commission of an offence being concealed or destroyed, it shall be lawful for an officer in charge of a police station or a police officer making any investigation under this Chapter to search, or cause to be searched, any place in the limits of another police station in accordance with the provisions of section 185, as if such place were within the limits of his own police station.
+16. ( _4_ ) Any officer conducting a search under sub-section ( _3_ ) shall forthwith send notice of the search to the officer in charge of the police station within the limits of which such place is situate, and shall also send with such notice a copy of the list (if any) prepared under section 103, and shall also send to the nearest Magistrate empowered to take cognizance of the offence, copies of the records referred to in sub-sections ( _1_ ) and ( _3_ ) of section 185.
+17. ( _5_ ) The owner or occupier of the place searched shall, on application, be furnished free of cost with a copy of any record sent to the Magistrate under sub-section ( _4_ ).
+
+    187. 
+
+18. ( _1_ ) Whenever any person is arrested and detained in custody, and it appears that the investigation cannot be completed within the period of twenty-four hours fixed by section 58, and there are grounds for believing that the accusation or information is well-founded, the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of sub-inspector, shall forthwith transmit to the nearest Judicial Magistrate a copy of the entries in the diary hereinafter specified relating to the case, and shall at the same time forward the accused to such Magistrate.
+19. ( _2_ ) The Judicial Magistrate to whom an accused person is forwarded under this section may, irrespective of whether he has or has no jurisdiction to try the case, after taking into consideration the status of the accused person as to whether he is not released on bail or his bail has not been cancelled, authorise, from time to time, the detention of the accused in such custody as such Magistrate thinks fit, for a term not exceeding fifteen days in the whole, or in parts, at any time during the initial forty days or sixty days out of detention period of sixty days or ninety days, as the case may be, as provided in sub-section ( _3_ ), and if he has no jurisdiction to try the case or commit it for trial, and considers further detention unnecessary, he may order the accused to be forwarded to a Judicial Magistrate having such jurisdiction.
+20. ( _3_ ) The Magistrate may authorise the detention of the accused person, beyond the period of fifteen days, if he is satisfied that adequate grounds exist for doing so, but no Magistrate shall authorise the detention of the accused person in custody under this sub-section for a total period exceeding—
+
+- ( _i_ ) ninety days, where the investigation relates to an offence punishable with death, imprisonment for life or imprisonment for a term of not less than ten years;
+- ( _ii_ ) sixty days, where the investigation relates to any other offence,
+  and, on the expiry of the said period of ninety days, or sixty days, as the case may be, the accused person shall be released on bail if he is prepared to and does furnish bail, and every person released on bail under this sub-section shall be deemed to be so released under the provisions of Chapter XXXIV for the purposes of that Chapter.
+
+4. ( _4_ ) No Magistrate shall authorise detention of the accused in custody of the police under this section unless the accused is produced before him in person for the first time and subsequently every time till the accused remains in the custody of the police, but the Magistrate may extend further detention in judicial custody on production of the accused either in person or through the medium of electronic video linkage.
+5. ( _5_ ) No Magistrate of the second class, not specially empowered in this behalf by the High Court, shall authorise detention in the custody of the police.
+   _Explanation_ I — For the avoidance of doubts, it is hereby declared that, notwithstanding the expiry of the period specified in sub-section ( _3_ ), the accused shall be detained in custody so long as he does not furnish bail.
+   _Explanation_ II — If any question arises whether an accused person was produced before the Magistrate as required under sub-section ( _4_ ), the production of the accused person may be proved by his signature on the order authorising detention or by the order certified by the Magistrate as to production of the accused person through the medium of electronic video linkage, as the case may be:
+   _Provided_ that in case of a woman under eighteen years of age, the detention shall be authorised to be in the custody of a remand home or recognised social institution:
+   _Provided_ further that no person shall be detained otherwise than in police station under policy custody or in prison under Judicial custody or place declared as prison by the Central Government or the State Government.
+6. ( _6_ ) Notwithstanding anything contained in sub-section ( _1_ ) to sub-section ( _5_ ), the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of a sub-inspector, may, where a Judicial Magistrate is not available, transmit to the nearest Executive Magistrate, on whom the powers of a Judicial Magistrate have been conferred, a copy of the entry in the diary hereinafter specified relating to the case, and shall, at the same time, forward the accused to such Executive Magistrate, and thereupon such Executive Magistrate, may, for reasons to be recorded in writing, authorise the detention of the accused person in such custody as he may think fit for a term not exceeding seven days in the aggregate; and, on the expiry of the period of detention so authorised, the accused person shall be released on bail except where an order for further detention of the accused person has been made by a Magistrate competent to make such order; and, where an order for such further detention is made, the period during which the accused person was detained in custody under the orders made by an Executive Magistrate under this sub-section, shall be taken into account in computing the period specified in sub-section ( _3_ ):
+   _Provided_ that before the expiry of the period aforesaid, the Executive Magistrate shall transmit to the nearest Judicial Magistrate the records of the case together with a copy of the entries in the diary relating to the case which was transmitted to him by the officer in charge of the police station or the police officer making the investigation, as the case may be.
+7. ( _7_ ) A Magistrate authorising under this section detention in the custody of the police shall record his reasons for so doing.
+8. ( _8_ ) Any Magistrate other than the Chief Judicial Magistrate making such order shall forward a copy of his order, with his reasons for making it, to the Chief Judicial Magistrate.
+9. ( _9_ ) If in any case triable by a Magistrate as a summons-case, the investigation is not concluded within a period of six months from the date on which the accused was arrested, the Magistrate shall make an order stopping further investigation into the offence unless the officer making the investigation satisfies the Magistrate that for special reasons and in the interests of justice the continuation of the investigation beyond the period of six months is necessary.
+10. ( _10_ ) Where any order stopping further investigation into an offence has been made under sub-section ( _9_ ), the Sessions Judge may, if he is satisfied, on an application made to him or otherwise, that further investigation into the offence ought to be made, vacate the order made under sub-section ( _9_ ) and direct further investigation to be made into the offence subject to such directions with regard to bail and other matters as he may specify.
+
+11. When any subordinate police officer has made any investigation under this Chapter, he shall report the result of such investigation to the officer in charge of the police station.
+12. If, upon an investigation under this Chapter, it appears to the officer in charge of the police station that there is not sufficient evidence or reasonable ground of suspicion to justify the forwarding of the accused to a Magistrate, such officer shall, if such person is in custody, release him on his executing a bond, with or without sureties, as such officer may direct, to appear, if and when so required, before a Magistrate empowered to take cognizance of the offence on a police report, and to try the accused or commit him for trial.
+
+    190. 
+
+13. ( _1_ ) If, upon an investigation under this Chapter, it appears to the officer in charge of the police station that there is sufficient evidence or reasonable ground as aforesaid, such officer shall forward the accused under custody to a Judicial Magistrate empowered to take cognizance of the offence upon a police report to try the accused or commit him for trial, or, if the offence is bailable and the accused is able to give security, shall take security from him for his appearance before such Magistrate on a day fixed and for his attendance from day to day before such Magistrate until otherwise directed:
+    _Provided_ that if the accused is not in custody, the police officer shall take security from such person for his appearance before the Judicial Magistrate and the Judicial Magistrate to whom such report is forwarded shall not refuse to accept the same on the ground that the accused is not taken in custody.
+14. ( _2_ ) When the officer in charge of a police station forwards an accused person to a Judicial Magistrate or takes security for his appearance before such Magistrate under this section, he shall send to such Magistrate any weapon or other article which it may be necessary to produce before him, and shall require the complainant (if any) and so many of the persons who appear to such officer to be acquainted with the facts and circumstances of the case as he may think necessary, to execute a bond to appear before the Judicial Magistrate as thereby directed and prosecute or give evidence (as the case may be) in the matter of the charge against the accused.
+15. ( _3_ ) If the Court of the Chief Judicial Magistrate is mentioned in the bond, such Court shall be held to include any Court to which such Magistrate may refer the case for inquiry or trial, provided reasonable notice of such reference is given to such complainant or persons.
+16. ( _4_ ) The officer in whose presence the bond is executed shall deliver a copy thereof to one of the persons who executed it, and shall then send to the Magistrate the original with his report.
+
+17. No complainant or witness on his way to any Court shall be required to accompany a police officer, or shall be subjected to unnecessary restraint or inconvenience, or required to give any security for his appearance other than his own bond:
+    _Provided_ that if any complainant or witness refuses to attend or to execute a bond as directed in section 190, the officer in charge of the police station may forward him in custody to the Magistrate, who may detain him in custody until he executes such bond, or until the hearing of the case is completed.
+
+    192. 
+
+18. ( _1_ ) Every police officer making an investigation under this Chapter shall day by day enter his proceedings in the investigation in a diary, setting forth the time at which the information reached him, the time at which he began and closed his investigation, the place or places visited by him, and a statement of the circumstances ascertained through his investigation.
+19. ( _2_ ) The statements of witnesses recorded during the course of investigation under section 180 shall be inserted in the case diary.
+20. ( _3_ ) The diary referred to in sub-section ( _1_ ) shall be a volume and duly paginated.
+21. ( _4_ ) Any Criminal Court may send for the police diaries of a case under inquiry or trial in such Court, and may use such diaries, not as evidence in the case, but to aid it in such inquiry or trial.
+22. ( _5_ ) Neither the accused nor his agents shall be entitled to call for such diaries, nor shall he or they be entitled to see them merely because they are referred to by the Court; but, if they are used by the police officer who made them to refresh his memory, or if the Court uses them for the purpose of contradicting such police officer, the provisions of section 148 or section 164, as the case may be, of the Bharatiya Sakshya Adhiniyam, 2023, shall apply.
+
+23. 1. ( _1_ ) Every investigation under this Chapter shall be completed without unnecessary delay.
+    2. ( _2_ ) The investigation in relation to an offence under sections 64, 66, 67, 68, 70, 71 of the Bharatiya Nyaya Sanhita, 2023 or under sections 4, 6, 8 or section 10 of the Protection of Children from Sexual Offences Act, 2012 shall be completed within two months from the date on which the information was recorded by the officer in charge of the police station.
+    3. ( _3_ )
+        1. ( _i_ ) As soon as the investigation is completed, the officer in charge of the police station shall forward to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form as the State Government may, by rules provide, stating—
+        - ( _a_ ) the names of the parties;
+        - ( _b_ ) the nature of the information;
+        - ( _c_ ) the names of the persons who appear to be acquainted with the circumstances of the case;
+        - ( _d_ ) whether any offence appears to have been committed and, if so, by whom;
+        - ( _e_ ) whether the accused has been arrested;
+        - ( _f_ ) whether the accused has been released on his bond and, if so, whether with or without sureties;
+        - ( _g_ ) whether the accused has been forwarded in custody under section 190;
+        - ( _h_ ) whether the report of medical examination of the woman has been attached where investigation relates to an offence under sections 64, 66, 67, 68 or section 70 of the Bharatiya Nyaya Sanhita, 2023.
+        2. ( _ii_ ) The police officer shall, within a period of ninety days, inform the progress of the investigation by any means including electronic communication to the informant or the victim.
+        3. ( _iii_ ) The officer shall also communicate, in such manner as the State Government may, by rules, provide, the action taken by him, to the person, if any, by whom the information relating to the commission of the offence was first given.
+    4. ( _4_ ) Where a superior officer of police has been appointed under section 177, the report shall, in any case in which the State Government by general or special order so directs, be submitted through that officer, and he may, pending the orders of the Magistrate, direct the officer in charge of the police station to make further investigation.
+    5. ( _5_ ) Whenever it appears from a report forwarded under this section that the accused has been released on his bond, the Magistrate shall make such order for the discharge of such bond or otherwise as he thinks fit.
+    6. ( _6_ ) When such report is in respect of a case to which section 190 applies, the police officer shall forward to the Magistrate along with the report—
+        - ( _a_ ) all documents or relevant extracts thereof on which the prosecution proposes to rely other than those already sent to the Magistrate during investigation;
+        - ( _b_ ) the statements recorded under section 180 of all the persons whom the prosecution proposes to examine as its witnesses.
+    7. ( _7_ ) If the police officer is of opinion that any part of any such statement is not relevant to the subject-matter of the proceedings or that its disclosure to the accused is not essential in the interests of justice and is inexpedient in the public interest, he shall indicate that part of the statement and append a note requesting the Magistrate to exclude that part from the copies to be granted to the accused and stating his reasons for making such request.
+    8. ( _8_ ) Subject to the provisions contained in sub-section ( _7_ ), the police officer investigating the case shall also submit such number of copies of the police report along with other documents duly indexed to the Judicial Magistrate for supply to the accused as required under section 230:
+       _Provided_ that supply of report and other documents by electronic communication shall be considered as duly served.
+    9. ( _9_ ) Nothing in this section shall be deemed to preclude further investigation in respect of an offence after a report under sub-section ( _3_ ) has been forwarded to the Magistrate and, where upon such investigation, the officer in charge of the police station obtains further evidence, oral or documentary, he shall forward to the Magistrate a further report or reports regarding such evidence in the form as the State Government may, by rules, provide; and the provisions of sub-sections ( _3_ ) to ( _7_ ) shall, as far as may be, apply in relation to such report or reports as they apply in relation to a report forwarded under sub-section ( _3_ ):
+       _Provided_ that further investigation during the trial may be permitted with the permission of the Court trying the case and the same shall be completed within a period of ninety days which may extend with the permission of the Court.
+
+24. 1. ( _1_ ) When the officer in charge of a police station or some other police officer specially empowered by the State Government in that behalf receives information that a person has committed suicide, or has been killed by another or by an animal or by machinery or by an accident, or has died under circumstances raising a reasonable suspicion that some other person has committed an offence, he shall immediately give intimation thereof to the nearest Executive Magistrate empowered to hold inquests, and, unless otherwise directed by any rule made by the State Government, or by any general or special order of the District or Sub-divisional Magistrate, shall proceed to the place where the body of such deceased person is, and there, in the presence of two or more respectable inhabitants of the neighbourhood, shall make an investigation, and draw up a report of the apparent cause of death, describing such wounds, fractures, bruises, and other marks of injury as may be found on the body, and stating in what manner, or by what weapon or instrument (if any); such marks appear to have been inflicted.
+    2. ( _2_ ) The report shall be signed by such police officer and other persons, or by so many of them as concur therein, and shall be forwarded to the District Magistrate or the Sub-divisional Magistrate within twenty-four hours.
+    3. ( _3_ ) When—
+        - ( _i_ ) the case involves suicide by a woman within seven years of her marriage; or
+        - ( _ii_ ) the case relates to the death of a woman within seven years of her marriage in any circumstances raising a reasonable suspicion that some other person committed an offence in relation to such woman; or
+        - ( _iii_ ) the case relates to the death of a woman within seven years of her marriage and any relative of the woman has made a request in this behalf; or
+        - ( _iv_ ) there is any doubt regarding the cause of death; or
+        - ( _v_ ) the police officer for any other reason considers it expedient so to do,
+          he shall, subject to such rules as the State Government may prescribe in this behalf, forward the body, with a view to its being examined, to the nearest Civil Surgeon, or other qualified medical person appointed in this behalf by the State Government, if the state of the weather and the distance admit of its being so forwarded without risk of such putrefaction on the road as would render such examination useless.
+    4. ( _4_ ) The following Magistrates are empowered to hold inquests, namely, any District Magistrate or Sub-divisional Magistrate and any other Executive Magistrate specially empowered in this behalf by the State Government or the District Magistrate.
+
+25. 1. ( _1_ ) A police officer proceeding under section 194 may, by order in writing, summon two or more persons as aforesaid for the purpose of the said investigation, and any other person who appears to be acquainted with the facts of the case and every person so summoned shall be bound to attend and to answer truly all questions other than questions the answers to which would have a tendency to expose him to a criminal charge or to a penalty or forfeiture:
+       _Provided_ that no male person under the age of fifteen years or above the age of sixty years or a woman or a mentally or physically disabled person or a person with acute illness shall be required to attend at any place other than the place where such person resides, unless such person is willing to attend and answer at the police station or at any other place within the limits of such police station.
+    2. ( _2_ ) If the facts do not disclose a cognizable offence to which section 190 applies, such persons shall not be required by the police officer to attend a Magistrate's Court.
+
+26. 1. ( _1_ ) When the case is of the nature referred to in clause ( _i_ ) or clause ( _ii_ ) of sub-section ( _3_ ) of section 194, the nearest Judicial Magistrate empowered to hold inquests shall, and in any other case mentioned in sub-section ( _1_ ) of section 194, any Magistrate so empowered may hold an inquiry into the cause of death either instead of, or in addition to, the investigation held by the police officer; and if he does so, he shall have all the powers in conducting it which he would have in holding an inquiry into an offence.
+    2. ( _2_ ) Where,—
+        - ( _a_ ) any person dies or disappears, or
+        - ( _b_ ) rape is alleged to have been committed on any woman,
+          while such person or woman is in the custody of the police or in any other custody authorised by the Magistrate or the Court, under this Sanhita in addition to the inquiry or investigation held by the police, an inquiry shall be held by the Judicial Magistrate within whose local jurisdiction the offence has been committed.
+    3. ( _3_ ) The Magistrate holding such an inquiry shall record the evidence taken by him in connection therewith in any manner hereinafter specified according to the circumstances of the case.
+    4. ( _4_ ) Whenever such Magistrate considers it expedient to make an examination of the dead body of any person who has been already interred, in order to discover the cause of his death, the Magistrate may cause the body to be disinterred and examined.
+    5. ( _5_ ) Where an inquiry is to be held under this section, the Magistrate shall, wherever practicable, inform the relatives of the deceased whose names and addresses are known, and shall allow them to remain present at the inquiry.
+    6. ( _6_ ) The Judicial Magistrate or the Executive Magistrate or the police officer holding an inquiry or investigation under sub-section ( _2_ ) shall, within twenty-four hours of the death of a person, forward the body with a view to its being examined to the nearest Civil Surgeon or other qualified medical person appointed in this behalf by the State Government, unless it is not possible to do so for reasons to be recorded in writing.
+       _Explanation_ — In this section, the expression "relative" means parents, children, brothers, sisters and spouse.
+
 ```
 
 **197.** Every offence shall ordinarily be inquired into and tried by a Court within whose
@@ -5874,15 +1184,18 @@ conveyed or concealed or detained.
 within whose local jurisdiction the offence was committed or the stolen property which is
 
 ```
+
 Ordinary place
 of inquiry and
 trial.
 Place of
 inquiry or
 trial.
+
 ```
 
 ```
+
 Offence
 triable where
 act is done or
@@ -5898,32 +1211,45 @@ Place of trial
 in case of
 certain
 offences.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 20
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 40
@@ -5931,6 +1257,7 @@ offences.
 45
 
 ```
+
 the subject of the offence was possessed by any person committing it or by any person
 who received or retained such property knowing or having reason to believe it to be stolen
 property.
@@ -5942,6 +1269,7 @@ was required to be returned or accounted for, by the accused person.
 into or tried by a Court within whose local jurisdiction the offence was committed or the
 stolen property was possessed by any person who received or retained it knowing or
 having reason to believe it to be stolen property.
+
 ```
 
 **202.** ( _1_ ) Any offence which includes cheating may, if the deception is practised by
@@ -6015,39 +1343,57 @@ shall take
 place.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **207.** ( _1_ ) When a Magistrate of the first class sees reason to believe that any person
@@ -6086,7 +1432,9 @@ exhibits relate.
 CHAPTER XV
 
 ```
+
 CONDITIONS REQUISITE FOR INITIATION OF PROCEEDINGS
+
 ```
 
 **210.** ( _1_ ) Subject to the provisions of this Chapter, any Magistrate of the first class,
@@ -6094,21 +1442,26 @@ and any Judicial Magistrate of the second class specially empowered in this beha
 sub-section ( _2_ ), may take cognizance of any offence—
 
 ```
+
 ( a ) upon receiving a complaint of facts, including any complaint filed by a
 person authorised under any special law, which constitutes such offence;
 ( b ) upon a police report (recorded in any mode including digital mode) of such
 facts;
 ( c ) upon information received from any person other than a police officer, or
 upon his own knowledge, that such offence has been committed.
+
 ```
 
 ```
+
 ( 2 ) The Chief Judicial Magistrate may empower any Magistrate of the second class to
 take cognizance under sub-section ( 1 ) of such offences as are within his competence to
 inquire into or try.
+
 ```
 
 ```
+
 Power to issue
 summons or
 warrant for
@@ -6116,53 +1469,72 @@ offence
 committed
 beyond local
 jurisdiction.
+
 ```
 
 ```
+
 Offence
 committed
 outside India.
+
 ```
 
 ```
+
 Receipt of
 evidence
 relating to
 offences
 committed
 outside India.
+
 ```
 
 ```
+
 Cognizance of
 offences by
 Magistrates.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 20
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 40
@@ -6170,6 +1542,7 @@ Magistrates.
 45
 
 ```
+
 ( 3 ) Any Magistrate empowered under this section, shall upon receiving a complaint
 against a public servant arising in course of the discharge of his official duties, take
 cognizance, subject to—
@@ -6177,6 +1550,7 @@ cognizance, subject to—
 the officer superior to such public servant; and
 ( b ) after consideration of the assertions made by the public servant as to the
 situation that led to the incident so alleged.
+
 ```
 
 **211.** When a Magistrate takes cognizance of an offence under clause ( _c_ ) of
@@ -6255,42 +1629,61 @@ given in
 evidence.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( 2 ) Where a complaint has been made by a public servant or by some other public
 servant who has been authorised to do so by him under clause ( a ) of sub-section ( 1 ), any
 authority to which he is administratively subordinate or who has authorised such public
@@ -6314,6 +1707,7 @@ jurisdiction shall be the Court to which such Court shall be deemed to be subord
 deemed to be subordinate to the Civil or Revenue Court according to the nature of the
 case or proceeding in connection with which the offence is alleged to have been
 committed.
+
 ```
 
 **216.** A witness or any other person may file a complaint in relation to an offence
@@ -6321,50 +1715,69 @@ under section 230 of the Bharatiya Nyaya Sanhita, 2023.
 **217.** ( _1_ ) No Court shall take cognizance of—
 
 ```
+
 ( a ) any offence punishable under Chapter VI or under section 194, section 297
 or sub-section ( 1 ) of section 351 of the Bharatiya Nyaya Sanhita, 2023; or
+
 ```
 
 ```
+
 ( b ) a criminal conspiracy to commit such offence; or
+
 ```
 
 ```
+
 ( c ) any such abetment, as is described in section 47 of the Bharatiya Nyaya
 Sanhita, 2023,
+
 ```
 
 ```
+
 except with the previous sanction of the Central Government or of the State Government.
+
 ```
 
 ```
+
 ( 2 ) No Court shall take cognizance of—
+
 ```
 
 ```
+
 ( a ) any offence punishable under section 195 or sub-section ( 2 ) or
 sub-section ( 3 ) of section 351 of the Bharatiya Nyaya Sanhita, 2023; or
+
 ```
 
 ```
+
 ( b ) a criminal conspiracy to commit such offence,
+
 ```
 
 ```
+
 except with the previous sanction of the Central Government or of the State
 Government or of the District Magistrate.
+
 ```
 
 ```
+
 ( 3 ) No Court shall take cognizance of the offence of any criminal conspiracy punishable
 under section 61 of the Bharatiya Nyaya Sanhita, 2023, other than a criminal conspiracy to
 commit an offence punishable with death, imprisonment for life or rigorous imprisonment
 for a term of two years or upwards, unless the State Government or the District Magistrate
 has consented in writing to the initiation of the proceedings:
+
 ```
 
 ```
+
 Procedure for
 witnesses in
 case of
@@ -6378,37 +1791,51 @@ criminal
 conspiracy to
 commit such
 offence.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 20
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 40
 
 ```
+
 Provided that where the criminal conspiracy is one to which the provisions of
 section 215 apply, no such consent shall be necessary.
 ( 4 ) The Central Government or the State Government may, before according sanction
@@ -6417,6 +1844,7 @@ sanction under sub-section ( 2 ) and the State Government or the District Magist
 before giving consent under sub-section ( 3 ), order a preliminary investigation by a police
 officer not being below the rank of Inspector, in which case such police officer shall have
 the powers referred to in sub-section ( 3 ) of section 174.
+
 ```
 
 **218.** ( _1_ ) When any person who is or was a Judge or Magistrate or a public servant not
@@ -6467,43 +1895,63 @@ public
 servants.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 1 of 2014.
+
 ```
 
 **219.** ( _1_ ) No Court shall take cognizance of an offence punishable under Chapter V of
@@ -6511,6 +1959,7 @@ the Bharatiya Nyaya Sanhita, 2023 except upon a complaint made by some person ag
 by the offence:
 
 ```
+
 Provided that—
 ( a ) where such person is under the age of eighteen years, or is having intellectual
 disability requiring higher support needs or a person with mental illness, or is from
@@ -6530,15 +1979,19 @@ blood, marriage or adoption.
 ( 2 ) For the purposes of sub-section ( 1 ), no person other than the husband of the
 woman shall be deemed to be aggrieved by any offence punishable under section 83 of the
 Bharatiya Nyaya Sanhita, 2023:
+
 ```
 
 ```
+
 Provided that in the absence of the husband, some person who had care of the
 woman on his behalf at the time when such offence was committed may, with the leave of
 the Court, make a complaint on his behalf.
+
 ```
 
 ```
+
 ( 3 ) When in any case falling under clause ( a ) of the proviso to sub-section ( 1 ), the
 complaint is sought to be made on behalf of a person under the age of eighteen years or of
 a person with mental illness by a person who has not been appointed or declared by a
@@ -6546,9 +1999,11 @@ competent authority to be the guardian of the person of the minor or a person wi
 illness, and the Court is satisfied that there is a guardian so appointed or declared, the Court
 shall, before granting the application for leave, cause notice to be given to such guardian
 and give him a reasonable opportunity of being heard.
+
 ```
 
 ```
+
 ( 4 ) The authorisation referred to in clause ( b ) of the proviso to sub-section ( 1 ), shall
 be in writing, shall be signed or otherwise attested by the husband, shall contain a statement
 to the effect that he has been informed of the allegations upon which the complaint is to be
@@ -6559,46 +2014,63 @@ making a complaint in person cannot for the time being be granted to the husband
 provisions of sub-section ( 4 ), and any document purporting to be a certificate required by
 that sub-section shall, unless the contrary is proved, be presumed to be genuine and shall
 be received in evidence.
+
 ```
 
 ```
+
 ( 6 ) No Court shall take cognizance of an offence under section 64 of the Bharatiya
 Nyaya Sanhita, 2023, where such offence consists of sexual intercourse by a man with his
 own wife, the wife being under eighteen years of age, if more than one year has elapsed from
 the date of the commission of the offence.
+
 ```
 
 ```
+
 Prosecution
 for offences
 against
 marriage.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 20
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 40
@@ -6606,8 +2078,10 @@ marriage.
 45
 
 ```
+
 ( 7 ) The provisions of this section apply to the abetment of, or attempt to commit, an
 offence as they apply to the offence.
+
 ```
 
 **220.** No Court shall take cognizance of an offence punishable under section 84 of the
@@ -6629,6 +2103,7 @@ local customs and manners, ought not to be compelled to appear in public, some o
 person may, with the leave of the Court, make a complaint on his or her behalf.
 
 ```
+
 ( 2 ) Notwithstanding anything contained in this Sanhita, when any offence falling
 under Chapter XIX of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed
 against a person who, at the time of such commission, is the President of India, the
@@ -6638,41 +2113,54 @@ employed in connection with the affairs of the Union or of a State in respect of
 in the discharge of his public functions, a Court of Session may take cognizance of such
 offence, without the case being committed to it, upon a complaint in writing made by the
 Public Prosecutor.
+
 ```
 
 ```
+
 ( 3 ) Every complaint referred to in sub-section ( 2 ) shall set forth the facts which
 constitute the offence alleged, the nature of such offence and such other particulars as are
 reasonably sufficient to give notice to the accused of the offence alleged to have been
 committed by him.
+
 ```
 
 ```
+
 ( 4 ) No complaint under sub-section ( 2 ) shall be made by the Public Prosecutor except
 with the previous sanction—
+
 ```
 
 ```
+
 ( a ) of the State Government,—
+
 ```
 
 ```
+
 ( i ) in the case of a person who is or has been the Governor of that State or
 a Minister of that Government;
 ( ii ) in the case of any other public servant employed in connection with
 the affairs of the State;
+
 ```
 
 ```
+
 ( b ) of the Central Government, in any other case.
 ( 5 ) No Court of Session shall take cognizance of an offence under sub-section ( 2 )
 unless the complaint is made within six months from the date on which the offence is alleged
 to have been committed.
+
 ```
 
 ```
+
 ( 6 ) Nothing in this section shall affect the right of the person against whom the
 offence is alleged to have been committed, to make a complaint in respect of that offence
+
 ```
 
 Prosecution of
@@ -6690,46 +2178,66 @@ for
 defamation.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 before a Magistrate having jurisdiction or the power of such Magistrate to take cognizance
 of the offence upon such complaint.
 CHAPTER XVI
 COMPLAINTS TO MAGISTRATES
+
 ```
 
 **223.** A Magistrate having jurisdiction while taking cognizance of an offence on
@@ -6776,49 +2284,67 @@ officer, he shall have for that investigation all the powers conferred by this S
 officer in-charge of a police station except the power to arrest without warrant.
 
 ```
+
 Examination
 of complainant.
+
 ```
 
 ```
+
 Procedure by
 Magistrate not
 competent to
 take
 cognizance of
 case.
+
 ```
 
 ```
+
 Postponement
 of issue of
 process.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 20
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 40
@@ -6894,43 +2420,63 @@ cases of petty
 offence.
 
 ```
+
 59 of 1988.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **230.** In any case where the proceeding has been instituted on a police report, the
@@ -6983,15 +2529,18 @@ to custody during, and until the conclusion of, the trial;
 any, which are to be produced in evidence;
 
 ```
+
 Supply to
 accused of
 copy of police
 report and
 other
 documents.
+
 ```
 
 ```
+
 Supply of
 copies of
 statements
@@ -7001,9 +2550,11 @@ other cases
 triable by
 Court of
 Session.
+
 ```
 
 ```
+
 Commitment
 of case to Court
 of Session when
@@ -7011,32 +2562,45 @@ offence is
 triable
 exclusively by
 it.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 20
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 40
@@ -7044,6 +2608,7 @@ it.
 45
 
 ```
+
 ( d ) notify the Public Prosecutor of the commitment of the case to the Court of
 Session:
 Provided that the proceedings under this section shall be completed within a period
@@ -7053,6 +2618,7 @@ recorded in writing:
 Provided further that any application filed before the Magistrate by the accused or
 the victim or any person authorised by such person in a case triable by Court of Session,
 shall be forwarded to the Court of Session with the committal of the case.
+
 ```
 
 **233.** ( _1_ ) When in a case instituted otherwise than on a police report (hereinafter
@@ -7111,42 +2677,61 @@ Contents of
 charge.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 2023; that it did not fall within any of the general exceptions of the said Sanhita; and that it
 did not fall within any of the five exceptions to section 99, or that, if it did fall within
 Exception 1, one or other of the three provisos to that exception applied to it.
@@ -7163,6 +2748,7 @@ instance be referred to in the charge.
 ( d ) A is charged under section 220 of the Bharatiya Nyaya Sanhita, 2023, with
 intentionally obstructing a sale of property offered for sale by the lawful authority of a
 public servant. The charge should be in those words.
+
 ```
 
 **235.** ( _1_ ) The charge shall contain such particulars as to the time and place of the
@@ -7201,50 +2787,68 @@ been used in the sense attached to them respectively by the law under which such
 is punishable.
 
 ```
+
 Particulars as
 to time, place
 and person.
+
 ```
 
 ```
+
 When manner
 of committing
 offence must
 be stated.
+
 ```
 
 ```
+
 Words in charge
 taken in sense of
 law under which
 offence is
 punishable.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 20
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 40
@@ -7316,47 +2920,69 @@ when charge
 altered.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 50
+
 ```
 
 ```
+
 ( b ) also to call any further witness whom the Court may think to be material.
+
 ```
 
 **241.** ( _1_ ) For every distinct offence of which any person is accused there shall be a
@@ -7410,51 +3036,69 @@ the house so entered, adultery with B's wife. A may be separately charged with, 
 of, offences under section 330 of the Bharatiya Nyaya Sanhita, 2023.
 
 ```
+
 Separate
 charges for
 distinct
 offences.
+
 ```
 
 ```
+
 Offences of
 same kind
 within year
 may be
 charged
 together.
+
 ```
 
 ```
+
 Trial for more
 than one
 offence.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 20
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 40
@@ -7464,6 +3108,7 @@ offence.
 50
 
 ```
+
 ( c ) A entices B, the wife of C, away from C, with intent to commit adultery with B, and
 then commits adultery with her. A may be separately charged with, and convicted of, offences
 under section 83 of the Bharatiya Nyaya Sanhita, 2023.
@@ -7508,6 +3153,7 @@ Illustration to sub-section ( 4 )
 ( m ) A commits robbery on B, and in doing so voluntarily causes hurt to him. A may be
 separately charged with, and convicted of, offences under sections 323, 392 and 394 of the
 Bharatiya Nyaya Sanhita, 2023.
+
 ```
 
 **244.** ( _1_ ) If a single act or series of acts is of such a nature that it is doubtful which of
@@ -7523,42 +3169,61 @@ been
 committed.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( 2 ) If in such a case the accused is charged with one offence, and it appears in
 evidence that he committed a different offence for which he might have been charged under
 the provisions of sub-section ( 1 ), he may be convicted of the offence which he is shown to
@@ -7576,6 +3241,7 @@ not charged with such offence.
 Sessions Court A states on oath that B never hit C. A may be charged in the alternative and
 convicted of intentionally giving false evidence, although it cannot be proved which of
 these contradictory statements was false.
+
 ```
 
 **245.** ( _1_ ) When a person is charged with an offence consisting of several particulars,
@@ -7613,44 +3279,60 @@ criminal misappropriation, and persons accused of receiving or retaining, or ass
 in the disposal or concealment of, property possession of which is alleged to have
 
 ```
+
 When offence
 proved
 included in
 offence
 charged.
+
 ```
 
 ```
+
 What persons
 may be
 charged
 jointly.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 20
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 40
@@ -7660,6 +3342,7 @@ jointly.
 50
 
 ```
+
 been transferred by any such offence committed by the first-named persons, or of
 abetment of or attempting to commit any such last-named offence;
 ( f ) persons accused of offences under section 315 of the Bharatiya Nyaya
@@ -7675,6 +3358,7 @@ such persons do not fall within any of the categories specified in this section,
 or Court of Session may, if such persons by an application in writing, so desire, and if he or
 it is satisfied that such persons would not be prejudicially affected thereby, and it is expedient
 so to do, try all such persons together.
+
 ```
 
 **247.** When a charge containing more heads than one is framed against the same
@@ -7732,46 +3416,66 @@ Framing of
 charge.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( 2 ) Where the Judge frames any charge under clause ( b ) of sub-section ( 1 ), the
 charge shall be read and explained to the accused present either physically or through
 electronic means and the accused shall be asked whether he pleads guilty of the offence
 charged or claims to be tried.
+
 ```
 
 **252.** If the accused pleads guilty, the Judge shall record the plea and may, in his
@@ -7784,19 +3488,25 @@ of any witness or the production of any document or other thing.
 be produced in support of the prosecution:
 
 ```
+
 Provided that evidence of a witness under this sub-section may be recorded by
 audio-video electronic means.
+
 ```
 
 ```
+
 ( 2 ) The deposition of evidence of any police officer or public servant may be taken
 through audio-video electronic means.
+
 ```
 
 ```
+
 ( 3 ) The Judge may, in his discretion, permit the cross-examination of any witness to
 be deferred until any other witness or witnesses have been examined or recall any witness
 for further cross-examination.
+
 ```
 
 **255.** If, after taking the evidence for the prosecution, examining the accused and
@@ -7806,24 +3516,30 @@ evidence that the accused committed the offence, the Judge shall record an order
 upon to enter on his defence and adduce any evidence he may have in support thereof.
 
 ```
+
 ( 2 ) If the accused puts in any written statement, the Judge shall file it with the record.
+
 ```
 
 ```
+
 ( 3 ) If the accused applies for the issue of any process for compelling the attendance
 of any witness or the production of any document or thing, the Judge shall issue such
 process unless he considers, for reasons to be recorded, that such application should be
 refused on the ground that it is made for the purpose of vexation or delay or for defeating
 the ends of justice.
+
 ```
 
 **257.** When the examination of the witnesses (if any) for the defence is complete, the
 prosecutor shall sum up his case and the accused or his pleader shall be entitled to reply:
 
 ```
+
 Provided that where any point of law is raised by the accused or his pleader, the
 prosecution may, with the permission of the Judge, make his submissions with regard to
 such point of law.
+
 ```
 
 **258.** ( _1_ ) After hearing arguments and points of law (if any), the Judge shall give a
@@ -7831,9 +3547,11 @@ judgment in the case, as soon as possible, within a period of thirty days from t
 completion of arguments, which may for specific reasons extend to a period of sixty days.
 
 ```
+
 ( 2 ) If the accused is convicted, the Judge shall, unless he proceeds in accordance
 with the provisions of section 401, hear the accused on the questions of sentence, and then
 pass sentence on him according to law.
+
 ```
 
 **259.** In a case where a previous conviction is charged under the provisions of
@@ -7843,69 +3561,97 @@ under section 252 or section 258, take evidence in respect of the alleged previo
 and shall record a finding thereon:
 
 ```
+
 Conviction on
 plea of guilty.
+
 ```
 
 ```
+
 Date for
 prosecution
 evidence.
+
 ```
 
 ```
+
 Evidence for
 prosecution.
+
 ```
 
 ```
+
 Acquittal.
+
 ```
 
 ```
+
 Entering upon
 defence.
+
 ```
 
 ```
+
 Arguments.
+
 ```
 
 ```
+
 Judgment of
 acquittal or
 conviction.
+
 ```
 
 ```
+
 Previous
 conviction.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 20
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 40
@@ -7913,10 +3659,12 @@ conviction.
 45
 
 ```
+
 Provided that no such charge shall be read out by the Judge nor shall the accused be
 asked to plead thereto nor shall the previous conviction be referred to by the prosecution
 or in any evidence adduced by it, unless and until the accused has been convicted under
 section 252 or section 258.
+
 ```
 
 **260.** ( _1_ ) A Court of Session taking cognizance of an offence under sub-section ( _1_ ) of
@@ -7972,39 +3720,57 @@ shall be
 discharged.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 Procedure in
@@ -8015,9 +3781,11 @@ section ( _1_ ) of
 Section 223.
 
 ```
+
 necessary and after giving the prosecution and the accused an opportunity of being heard,
 the Magistrate considers the charge against the accused to be groundless, he shall discharge
 the accused, and record his reasons for so doing.
+
 ```
 
 **263.** ( _1_ ) If, upon such consideration, examination, if any, and hearing, the Magistrate
@@ -8067,32 +3835,44 @@ prosecution and take all such evidence as may be produced in support of the pros
 any of its witnesses directing him to attend or to produce any document or other thing.
 
 ```
+
 Framing of
 charge.
+
 ```
 
 ```
+
 Conviction on
 plea of guilty.
+
 ```
 
 ```
+
 Evidence for
 prosecution.
+
 ```
 
 ```
+
 Evidence for
 defence.
+
 ```
 
 ```
+
 Evidence for
 prosecution.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -8176,39 +3956,57 @@ Acquittal or
 conviction.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **272.** When the proceedings have been instituted upon complaint, and on any day
@@ -8263,26 +4061,34 @@ he shall be asked whether he pleads guilty or has any defence to make, but it sh
 necessary to frame a formal charge:
 
 ```
+
 Absence of
 complainant.
+
 ```
 
 ```
+
 Compensation
 for accusation
 without
 reasonable
 cause.
+
 ```
 
 ```
+
 Substance of
 accusation to
 be stated.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -8304,9 +4110,11 @@ be stated.
 50
 
 ```
+
 Provided that if the Magistrate considers the accusation as groundless, he shall, after
 recording reasons in writing, release the accused and such release shall have the effect of
 discharge.
+
 ```
 
 **275.** If the accused pleads guilty, the Magistrate shall record the plea as nearly as
@@ -8357,27 +4165,35 @@ Chapter, satisfies the Magistrate that there are sufficient grounds for permitti
 withdraw his complaint against the accused, or if there be more than one accused, against
 
 ```
+
 Conviction on
 plea of guilty.
+
 ```
 
 ```
+
 Conviction on
 plea of guilty
 in absence of
 accused in
 petty cases.
+
 ```
 
 ```
+
 Procedure
 when not
 convicted.
+
 ```
 
 ```
+
 Acquittal or
 conviction.
+
 ```
 
 Non-appearance
@@ -8388,44 +4204,64 @@ Withdrawal of
 complaint.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 all or any of them, the Magistrate may permit him to withdraw the same, and shall thereupon
 acquit the accused against whom the complaint is so withdrawn.
+
 ```
 
 **281.** In any summons-case instituted otherwise than upon complaint, a Magistrate of
@@ -8475,61 +4311,85 @@ witnesses who may have been examined and proceed to re-hear the case in the mann
 provided by this Sanhita.
 
 ```
+
 Power to stop
 proceedings in
 certain cases.
+
 ```
 
 ```
+
 Power of
 Court to
 convert
 summons-
 cases into
 warrant-cases.
+
 ```
 
 ```
+
 Power to try
 summarily.
+
 ```
 
 1 of 1871.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **284.** The High Court may confer on any Magistrate invested with the powers of a
@@ -8545,32 +4405,44 @@ State Government may direct, the following particulars, namely:—
 ( _a_ ) the serial number of the case;
 
 ```
+
 ( b ) the date of the commission of the offence;
+
 ```
 
 ```
+
 ( c ) the date of the report or complaint;
 ( d ) the name of the complainant (if any);
+
 ```
 
 ```
+
 ( e ) the name, parentage and residence of the accused;
+
 ```
 
 ```
+
 ( f ) the offence complained of and the offence (if any) proved, and in cases
 coming under clause ( ii ), clause ( iii ) or clause ( iv ) of sub-section ( 1 ) of section 283,
 the value of the property in respect of which the offence has been committed;
 ( g ) the plea of the accused and his examination (if any);
+
 ```
 
 ```
+
 ( h ) the finding;
 ( i ) the sentence or other final order;
+
 ```
 
 ```
+
 ( j ) the date on which proceedings terminated.
+
 ```
 
 **287.** In every case tried summarily in which the accused does not plead guilty, the
@@ -8579,15 +4451,19 @@ statement of the reasons for the finding.
 **288.** ( _1_ ) Every such record and judgment shall be written in the language of the Court.
 
 ```
+
 ( 2 ) The High Court may authorise any Magistrate empowered to try offences summarily
 to prepare the aforesaid record or judgment or both by means of an officer appointed in this
 behalf by the Chief Judicial Magistrate, and the record or judgment so prepared shall be
 signed by such Magistrate.
 CHAPTER XXIV
+
 ```
 
 ```
+
 PLEA BARGAINING
+
 ```
 
 **289.** ( _1_ ) This Chapter shall apply in respect of an accused against whom—
@@ -8598,18 +4474,22 @@ life or of imprisonment for a term exceeding seven years has been provided under
 law for the time being in force; or
 
 ```
+
 ( b ) a Magistrate has taken cognizance of an offence on complaint, other than an
 offence for which the punishment of death or of imprisonment for life or of imprisonment
 for a term exceeding seven years, has been provided under the law for the time being
 in force, and after examining complainant and witnesses under section 223, issued the
 process under section 227,
+
 ```
 
 ```
+
 Summary trial
 by Magistrate
 of second
 class.
+
 ```
 
 Procedure for
@@ -8617,66 +4497,92 @@ summary
 trials.
 
 ```
+
 Record in
 summary
 trials.
+
 ```
 
 ```
+
 Judgement in
 cases tried
 summarily.
+
 ```
 
 ```
+
 Language of
 record and
 judgment.
+
 ```
 
 ```
+
 Application of
 Chapter.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 but does not apply where such offence affects the socio-economic condition of the country
 or has been committed against a woman, or a child below the age of fourteen years.
 ( 2 ) For the purposes of sub-section ( 1 ), the Central Government shall, by notification,
 determine the offences under the law for the time being in force which shall be the offences
 affecting the socio-economic condition of the country.
+
 ```
 
 **290.** ( _1_ ) A person accused of an offence may file an application for plea bargaining
@@ -8725,20 +4631,26 @@ process of working out a satisfactory disposition of the case, that it is comple
 voluntarily by the parties participating in the meeting:
 
 ```
+
 Application
 for plea
 bargaining.
+
 ```
 
 ```
+
 Guidelines for
 mutually
 satisfactory
 disposition.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -8758,8 +4670,10 @@ disposition.
 45
 
 ```
+
 Provided further that if the victim of the case or the accused so desires, he may
 participate in such meeting with his pleader engaged in the case.
+
 ```
 
 **292.** Where in a meeting under section 291, a satisfactory disposition of the case has
@@ -8810,22 +4724,28 @@ such other provisions shall be construed to constrain the meaning of any provisi
 Chapter.
 
 ```
+
 Report of
 mutually
 satisfactory
 disposition to
 be submitted
 before Court.
+
 ```
 
 ```
+
 Disposal of
 case.
+
 ```
 
 ```
+
 Judgment of
 Court.
+
 ```
 
 Finality of
@@ -8836,6 +4756,7 @@ Court in plea
 bargaining.
 
 ```
+
 Period of
 detention
 undergone by
@@ -8843,58 +4764,83 @@ accused to be
 set off against
 sentence of
 imprisonment.
+
 ```
 
 Savings.
 
 ```
+
 20 of 1958.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 20 of 1958.
+
 ```
 
 ```
+
 Explanation .—For the purposes of this Chapter, the expression "Public Prosecutor"
 has the meaning assigned to it under clause ( t ) of section 2 and includes an Assistant Public
 Prosecutor appointed under section 19.
+
 ```
 
 **299.** Notwithstanding anything contained in any law for the time being in force, the
@@ -8915,33 +4861,43 @@ or special order, to be a subsidiary jail;
 it appears to a Criminal Court,—
 
 ```
+
 ( a ) that a person confined or detained in a prison should be brought before the
 Court for answering to a charge of an offence, or for the purpose of any proceedings
 against him; or
+
 ```
 
 ```
+
 ( b ) that it is necessary for the ends of justice to examine such person as a
 witness,
+
 ```
 
 ```
+
 the Court may make an order requiring the officer in charge of the prison to produce
 such person before the Court answering to the charge or for the purpose of such
 proceeding or for giving evidence.
+
 ```
 
 ```
+
 ( 2 ) Where an order under sub-section ( 1 ) is made by a Magistrate of the second class,
 it shall not be forwarded to, or acted upon by, the officer in charge of the prison unless it is
 countersigned by the Chief Judicial Magistrate, to whom such Magistrate is subordinate.
+
 ```
 
 ```
+
 ( 3 ) Every order submitted for countersigning under sub-section ( 2 ) shall be
 accompanied by a statement of the facts which, in the opinion of the Magistrate, render the
 order necessary, and the Chief Judicial Magistrate to whom it is submitted may, after
 considering such statement, decline to countersign the order.
+
 ```
 
 **303.** ( _1_ ) The State Government or the Central Government, as the case may be, may, at
@@ -8952,40 +4908,53 @@ in force, no order made under section 302, whether before or after the order of 
 Government, shall have effect in respect of such person or class of persons.
 
 ```
+
 ( 2 ) Before making an order under sub-section ( 1 ), the State Government or the Central
 Government in the cases instituted by its central agency, as the case may be, shall have
 regard to the following matters, namely:—
+
 ```
 
 ```
+
 ( a ) the nature of the offence for which, or the grounds on which, the person or
 class of persons has been ordered to be confined or detained in prison;
+
 ```
 
 ```
+
 Statements of
 accused not to
 be used.
+
 ```
 
 ```
+
 Non-
 application of
 Chapter.
+
 ```
 
 ```
+
 Definitions.
+
 ```
 
 ```
+
 Power to
 require
 attendance of
 prisoners.
+
 ```
 
 ```
+
 Power of State
 Government
 or Central
@@ -8995,50 +4964,71 @@ certain
 persons from
 operation of
 section 302.
+
 ```
 
 2 of 2016.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( b ) the likelihood of the disturbance of public order if the person or class of
 persons is allowed to be removed from the prison;
 ( c ) the public interest, generally.
+
 ```
 
 **304.** Where the person in respect of whom an order is made under section 302—
@@ -9087,6 +5077,7 @@ course of a trial, the Magistrate shall, as the examination of each witness proc
 memorandum of the substance of the evidence in the language of the Court:
 
 ```
+
 Officer in
 charge of
 prison to
@@ -9095,34 +5086,43 @@ carrying out
 order in
 certain
 contingencies.
+
 ```
 
 ```
+
 Prisoner to be
 brought to
 Court in
 custody.
+
 ```
 
 ```
+
 Power to issue
 commission
 for
 examination
 of witness in
 prison.
+
 ```
 
 ```
+
 Language of
 Courts.
+
 ```
 
 ```
+
 Evidence to be
 taken in
 presence of
 accused.
+
 ```
 
 Record in
@@ -9131,47 +5131,67 @@ cases and
 inquiries.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 Provided that if the Magistrate is unable to make such memorandum himself, he shall,
 after recording the reason of his inability, cause such memorandum to be made in writing or
 from his dictation in open Court.
 ( 2 ) Such memorandum shall be signed by the Magistrate and shall form part of the
 record.
+
 ```
 
 **310.** ( _1_ ) In all warrant-cases tried before a Magistrate, the evidence of each witness
@@ -9219,31 +5239,41 @@ completed, it shall be read over to him in the presence of the accused, if in at
 his pleader, if he appears by pleader, and shall, if necessary, be corrected.
 
 ```
+
 Record in
 warrant-cases.
+
 ```
 
 ```
+
 Record in trial
 before Court
 of Session.
+
 ```
 
 ```
+
 Language of
 record of
 evidence.
+
 ```
 
 ```
+
 Procedure in
 regard to such
 evidence when
 completed.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -9263,6 +5293,7 @@ completed.
 45
 
 ```
+
 ( 2 ) If the witness denies the correctness of any part of the evidence when the same is
 read over to him, the Magistrate or presiding Judge may, instead of correcting the evidence,
 make a memorandum thereon of the objection made to it by the witness and shall add such
@@ -9270,6 +5301,7 @@ remarks as he thinks necessary.
 ( 3 ) If the record of the evidence is in a language different from that in which it has
 been given and the witness does not understand that language, the record shall be interpreted
 to him in the language in which it was given, or in a language which he understands.
+
 ```
 
 **314.** ( _1_ ) Whenever any evidence is given in a language not understood by the accused,
@@ -9343,57 +5375,81 @@ and commission
 issued.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 would be unreasonable, the Court or Magistrate may dispense with such attendance and
 may issue a commission for the examination of the witness in accordance with the provisions
 of this Chapter:
+
 ```
 
 ```
+
 Provided that where the examination of the President or the Vice-President of India or
 the Governor of a State or the Administrator of a Union territory as a witness is necessary
 for the ends of Justice, a commission shall be issued for the examination of such a witness.
+
 ```
 
 ```
+
 ( 2 ) The Court may, when issuing a commission for the examination of a witness for the
 prosecution, direct that such amount as the Court considers reasonable to meet the expenses
 of the accused, including the pleader's fees, be paid by the prosecution.
+
 ```
 
 **320.** ( _1_ ) If the witness is within the territories to which this Sanhita extends, the
@@ -9401,17 +5457,21 @@ commission shall be directed to the Chief Judicial Magistrate within whose local
 the witness is to be found.
 
 ```
+
 ( 2 ) If the witness is in India, but in a State or an area to which this Sanhita does not
 extend, the commission shall be directed to such Court or officer as the Central Government
 may, by notification, specify in this behalf.
+
 ```
 
 ```
+
 ( 3 ) If the witness is in a country or place outside India and arrangements have been
 made by the Central Government with the Government of such country or place for taking
 the evidence of witnesses in relation to criminal matters, the commission shall be issued in
 such form, directed to such Court or officer, and sent to such authority for transmission as
 the Central Government may, by notification, prescribed in this behalf.
+
 ```
 
 **321.** Upon receipt of the commission, the Chief Judicial Magistrate or Judicial Magistrate
@@ -9425,9 +5485,11 @@ Magistrate, Court or officer to whom the commission, is directed, or to whom the
 executing it is delegated, to examine the witness upon such interrogatories.
 
 ```
+
 ( 2 ) Any such party may appear before such magistrate, Court or Officer by pleader, or
 if not in custody, in person, and may examine, cross-examine and re-examine the said
 witness.
+
 ```
 
 **323.** ( _1_ ) After any commission issued under section 310 has been duly executed, it
@@ -9438,9 +5500,11 @@ subject to all just exceptions, be read in evidence in the case by either party,
 part of the record.
 
 ```
+
 ( 2 ) Any deposition so taken, if it satisfies the conditions specified by section 27 of
 the Bharatiya Sakshya Adhiniyam, 2023, may also be received in evidence at any subsequent
 stage of the case before another Court.
+
 ```
 
 **324.** In every case in which a commission is issued under section 319, the inquiry, trial
@@ -9452,40 +5516,54 @@ issued by any of the Courts, Judges or Magistrates hereinafter mentioned as they
 commissions issued under section 319.
 
 ```
+
 Commission
 to whom to be
 issued.
+
 ```
 
 ```
+
 Execution of
 commissions.
+
 ```
 
 ```
+
 Parties may
 examine
 witnesses.
+
 ```
 
 ```
+
 Return of
 commission.
+
 ```
 
 ```
+
 Adjournment
 of proceeding.
+
 ```
 
 ```
+
 Execution of
 foreign
 commissions.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -9505,20 +5583,26 @@ commissions.
 45
 
 ```
+
 ( 2 ) The Courts, Judges and Magistrates referred to in sub-section ( 1 ) are—
+
 ```
 
 ```
+
 ( a ) any such Court, Judge or Magistrate exercising jurisdiction within an area in
 India to which this Sanhita does not extend, as the Central Government may, by
 notification, specify in this behalf;
+
 ```
 
 ```
+
 ( b ) any Court, Judge or Magistrate exercising jurisdiction in any such country
 or place outside India, as the Central Government may, by notification, specify in this
 behalf, and having authority, under the law in force in that country or place, to issue
 commissions for the examination of witnesses in relation to criminal matters.
+
 ```
 
 **326.** ( _1_ ) The deposition of civil surgeon or other medical witness, taken and attested
@@ -9527,9 +5611,11 @@ may be given in evidence in any inquiry, trial or other proceeding under this Sa
 although the deponent is not called as a witness.
 
 ```
+
 ( 2 ) The Court may, if it thinks fit, and shall, on the application of the prosecution or
 the accused, summon and examine any such deponent as to the subject-matter of his
 deposition.
+
 ```
 
 **327.** ( _1_ ) Any document purporting to be a report of identification under the hand of
@@ -9538,16 +5624,20 @@ inquiry, trial or other proceeding under this Sanhita, although such Magistrate 
 as a witness:
 
 ```
+
 Provided that where such report contains a statement of any suspect or witness to
 which the provisions of section 19, section 26, section 27, section 158 or section 160 of the
 Bharatiya Sakshya Adhiniyam, 2023, apply, such statement shall not be used under this
 sub-section except in accordance with the provisions of those sections.
+
 ```
 
 ```
+
 ( 2 ) The Court may, if it thinks fit, and shall, on the application of the prosecution or of
 the accused, summon and examine such Magistrate as to the subject-matter of the said
 report.
+
 ```
 
 **328.** ( _1_ ) Any document purporting to be a report under the hand of any such officer
@@ -9561,16 +5651,21 @@ evidence in any inquiry, trial or other proceeding under this Sanhita, although 
 is not called as a witness.
 
 ```
+
 ( 2 ) The Court may, if it thinks fit, summon and examine any such officer as to the
 subject-matter of his report:
+
 ```
 
 ```
+
 Provided that no such officer shall be summoned to produce any records on which
 the report is based.
+
 ```
 
 ```
+
 ( 3 ) Without prejudice to the provisions of sections 129 and 130 of the Bharatiya
 Sakshya Adhiniyam, 2023, no such officer shall, except with the permission of the General
 Manager or any officer in charge of any Mint or of any Note Printing Press or of any
@@ -9578,11 +5673,14 @@ Security Printing Press or of any Forensic Department or any officer in charge o
 Science Laboratory or of the Government Examiner of Questioned Documents Organisation
 or of the State Examiner of Questioned Documents Organisation, as the case may be, be
 permitted—
+
 ```
 
 ```
+
 ( a ) to give any evidence derived from any unpublished official records on
 which the report is based; or
+
 ```
 
 Deposition of
@@ -9590,56 +5688,80 @@ medical
 witness.
 
 ```
+
 Identification
 report of
 Magistrate.
+
 ```
 
 ```
+
 Evidence of
 officers of the
 Mint.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( b ) to disclose the nature or particulars of any test applied by him in the course
 of the examination of the matter or thing.
+
 ```
 
 **329.** ( _1_ ) Any document purporting to be a report under the hand of a Government
@@ -9688,37 +5810,47 @@ trial or other proceeding under this Sanhita.
 the accused, summon and examine any such person as to the facts contained in his affidavit.
 
 ```
+
 Reports of
 certain
 Government
 scientific
 experts.
+
 ```
 
 ```
+
 No formal
 proof of
 certain
 documents.
+
 ```
 
 ```
+
 Evidence of
 formal
 character on
 affidavit.
+
 ```
 
 ```
+
 Affidavit in
 proof of
 conduct of
 public
 servants.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -9788,26 +5920,32 @@ officer who is holding that post at the time of such deposition to give depositi
 document or report.
 
 ```
+
 Authorities
 before whom
 affidavits may
 be sworn.
+
 ```
 
 ```
+
 Previous
 conviction or
 acquittal how
 proved.
+
 ```
 
 ```
+
 Evidence of
 public
 servants,
 experts, police
 officers in
 certain cases.
+
 ```
 
 Record of
@@ -9816,43 +5954,63 @@ absence of
 accused.
 
 ```
+
 53 of 1952.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ##### CHAPTER XXVII
@@ -9907,64 +6065,88 @@ appear and plead without any written authority before any Court in which that ca
 inquiry, trial or appeal.
 
 ```
+
 Person once
 convicted or
 acquitted not
 to be tried for
 same offence.
+
 ```
 
 10 of 1897.
 
 ```
+
 Appearance
 by Public
 Prosecutors.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( 2 ) If in any such case any private person instructs his advocate to prosecute any
 person in any Court, the Public Prosecutor or Assistant Public Prosecutor in charge of the
 case shall conduct the prosecution, and the advocate so instructed shall act therein under
 the directions of the Public Prosecutor or Assistant Public Prosecutor, and may, with the
 permission of the Court, submit written arguments after the evidence is closed
 in the case.
+
 ```
 
 **339.** ( _1_ ) Any Magistrate inquiring into or trying a case may permit the prosecution to
@@ -10032,42 +6214,61 @@ society is an
 accused.
 
 ```
+
 21 of 1860.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 ( 5 ) Where a statement in writing purporting to be signed by the managing director of
 the corporation or by any person duly authorised by him (by whatever name called) having,
 or being one of the persons having the management of the affairs of the corporation to the
@@ -10077,6 +6278,7 @@ is proved, presume that such person has been so appointed.
 ( 6 ) If a question arises as to whether any person, appearing as the representative of
 a corporation in an inquiry or trial before a Court is or is not such representative, the
 question shall be determined by the Court.
+
 ```
 
 **343.** ( _1_ ) With a view to obtaining the evidence of any person supposed to have been
@@ -10119,19 +6321,25 @@ any person supposed to have been directly or indirectly concerned in, or privy t
 offence, tender a pardon on the same condition to such person.
 
 ```
+
 Tender of
 pardon to
 accomplice.
+
 ```
 
 ```
+
 Power to
 direct tender
 of pardon.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -10212,42 +6420,61 @@ adjourn
 proceedings.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 Provided also that—
 ( a ) no adjournment shall be granted at the request of a party, except where the
 circumstances are beyond the control of that party;
@@ -10266,6 +6493,7 @@ the accused may have committed an offence, and it appears likely that further ev
 be obtained by a remand, this is a reasonable cause for a remand.
 Explanation 2.—The terms on which an adjournment or postponement may be granted
 include, in appropriate cases, the payment of costs by the prosecution or the accused.
+
 ```
 
 **347.** ( _1_ ) Any Judge or Magistrate may, at any stage of any inquiry, trial or other
@@ -10298,11 +6526,14 @@ complainant or witness attending for the purposes of any inquiry, trial or other
 before such Court under this Sanhita.
 
 ```
+
 Local
 inspection.
+
 ```
 
 ```
+
 Power to
 summon
 material
@@ -10310,9 +6541,11 @@ witness, or
 examine
 person
 present.
+
 ```
 
 ```
+
 Power of
 Magistrate to
 order person
@@ -10320,16 +6553,21 @@ to give
 specimen
 signatures or
 handwriting.
+
 ```
 
 ```
+
 Expenses of
 complainants
 and witnesses.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -10411,39 +6649,57 @@ competent
 witness.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **354.** Except as provided in sections 343 and 344, no influence, by means of any
@@ -10458,15 +6714,19 @@ absence, and may, at any subsequent stage of the proceedings, direct the persona
 of such accused.
 
 ```
+
 ( 2 ) If the accused in any such case is not represented by an advocate, or if the Judge
 or Magistrate considers his personal attendance necessary, he may, if he thinks fit and for
 reasons to be recorded by him, either adjourn such inquiry or trial, or order that the case of
 such accused be taken up or tried separately.
+
 ```
 
 ```
+
 Explanation. —For the purpose of this section, personal attendance of the accused
 includes attendance through audio video electronic means.
+
 ```
 
 **356.** ( _1_ ) Notwithstanding anything contained in this Sanhita or in any other law for
@@ -10478,57 +6738,76 @@ justice, proceed with the trial in the like manner and with like effect as if he
 under this Sanhita and pronounce the judgment:
 
 ```
+
 Provided that the Court shall not commence the trial unless a period of ninety days
 has lapsed from the date of framing of the charge.
+
 ```
 
 ```
+
 ( 2 ) The Court shall ensure that the following procedure has been complied with
 before proceeding under sub-section ( 1 ) namely:—
+
 ```
 
 ```
+
 ( i ) issuance of execution of two consecutive warrants of arrest within the interval
 of atleast thirty days;
+
 ```
 
 ```
+
 ( ii ) publish in a national or local daily newspaper circulating in the place of his
 last known address of residence, requiring the proclaimed offender to appear before
 the Court for trial and informing him that in case he fails to appear within thirty days
 from the date of such publication, the trial shall commence in his absence;
+
 ```
 
 ```
+
 ( iii ) inform his relative or friend, if any, about the commencement of the trial;
 and
+
 ```
 
 ```
+
 ( iv ) affix information about the commencement of the trial on some conspicuous
 part of the house or homestead in which such person ordinarily resides and display in
 the police station of the district of his last known address of residence.
+
 ```
 
 ```
+
 ( 3 ) Where the proclaimed offender is not represented by any advocate, he shall be
 provided with an advocate for his defence at the expense of the State.
+
 ```
 
 ```
+
 ( 4 ) Where the Court, competent to try the case or commit for trial, has examined any
 witnesses for prosecution and recorded their depositions, such depositions shall be given
 in evidence against such proclaimed offender on the inquiry into, or in trial for, the offence
 with which he is charged:
+
 ```
 
 ```
+
 Provided that if the proclaimed offender is arrested and produced or appears before
 the Court during such trial, the Court may, in the interest of justice, allow him to examine any
 evidence which may have been taken in his absence.
+
 ```
 
 ```
+
 No influence
 to be used to
 induce
@@ -10539,18 +6818,23 @@ trial being held
 in the absence
 of accused in
 certain cases.
+
 ```
 
 ```
+
 Inquiry trial or
 judgment in
 absentia of
 proclaimed
 offender.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -10570,6 +6854,7 @@ offender.
 45
 
 ```
+
 ( 5 ) Where a trial is related to a person under this section, the deposition and
 examination of the witness, may, as far as practicable, be recorded by audio-video electronic
 means preferably mobile phone and such recording shall be kept in such manner as the
@@ -10584,6 +6869,7 @@ Provided that no appeal against conviction shall lie after the expiry of three y
 from the date of the judgment.
 ( 8 ) The State may, by notification, extend the provisions of this section to any
 absconder mentioned in sub-section ( 1 ) of section 84 of this Sanhita.
+
 ```
 
 **357.** If the accused, though not a person with mental illness, cannot be made to
@@ -10612,18 +6898,22 @@ the persons mentioned in the third column of that Table:—
 TABLE
 
 ```
+
 Offence Section of the Bharatiya Person by whom offence
 Nyaya Sanhita, 2023 applicable may be compounded
 1 2 3
+
 ```
 
 ```
+
 Uttering words, etc., with 300 The person whose religious
 deliberate intent to wound feelings are intended to
 the religious feelings of be wounded.
 any person.
 Voluntarily causing hurt. 113( 2 ) The person to whom the hurt
 is caused.
+
 ```
 
 Procedure
@@ -10644,61 +6934,86 @@ Compounding
 of offences.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 Voluntarily causing hurt 120( 1 ) Ditto.
 on provocation.
+
 ```
 
 ```
+
 Voluntarily causing grievous hurt 120( 2 ) The person to whom the hurt
 on grave and sudden provocation. is caused.
 Wrongfully restraining or 124( 2 ) The person restrained or
 confining any person. confined.
 Wrongfully confining a person 125( 3 ) The person confined.
 for three days or more.
+
 ```
 
 ```
+
 Wrongfully confining a person 125( 4 ) Ditto.
 for ten days or more.
+
 ```
 
 ```
+
 Wrongfully confining a person 125( 6 ) The person confined.
 in secret.
 Assault or use of criminal force. 129, 131 The person assaulted or to
@@ -10706,16 +7021,20 @@ whom criminal force is used.
 House-trespassing or house- 329( 6 ) Person in possession of
 breaking after sunset or property trespassed upon.
 before sunrise.
+
 ```
 
 ```
+
 Theft. 301( 2 ) The owner of the property
 stolen.
 Dishonest misappropriation 312 The owner of the property
 of property. misappropriated.
+
 ```
 
 ```
+
 Criminal breach of trust by a 314( 3 ) The owner of the property in
 carrier, wharfinger, etc. respect of which the breach of
 trust has been committed.
@@ -10725,9 +7044,11 @@ Assisting in the concealment or 315( 5 ) Ditto.
 disposal of stolen property,
 knowing it to be stolen.
 Cheating. 316( 2 ) The person cheated.
+
 ```
 
 ```
+
 Cheating by personation. 317( 2 ) Ditto.
 Fraudulent removal or concealment 318 The creditors who are affected
 of property, etc., to prevent thereby.
@@ -10736,20 +7057,25 @@ Fraudulently preventing from 319 Ditto.
 being made available for his
 creditors a debt or demand
 due to the offender.
+
 ```
 
 ```
+
 Fraudulent execution of deed of 320 The person affected thereby.
 transfer containing false statement
 of consideration.
 Fraudulent removal or concealment 321 Ditto.
 of property.
+
 ```
 
 ##### 1 2 3
 
 ```
+
 5
+
 ```
 
 10
@@ -10767,13 +7093,17 @@ of property.
 40
 
 ```
+
 Mischief, when the only loss or 322( 2 ), The person to whom the loss
 damage caused is loss or damage 322( 4 ) or damage is caused.
 to a private person.
+
 ```
 
 ```
+
 Mischief by killing or maiming animal. 323 The owner of the animal.
+
 ```
 
 Mischief by injury to works of 324( _a_ ) The person to whom the loss
@@ -10783,203 +7113,279 @@ damage caused is loss or damage
 to private person.
 
 ```
+
 Criminal trespass. 327( 3 ) The person in possession of
 the property trespassed upon.
+
 ```
 
 ```
+
 House-trespass. 327( 4 ) Ditto.
+
 ```
 
 ```
+
 House-trespass to commit an 330( c ) The person in possession of
+
 ```
 
 offence (other than theft) the house trespassed upon.
 punishable with imprisonment.
 
 ```
+
 Using a false trade or property mark. 343( 3 ) The person to whom loss or
 injury is caused by such use.
+
 ```
 
 ```
+
 Counterfeiting a property mark 345( 1 ) Ditto.
 used by another.
+
 ```
 
 ```
+
 Selling goods marked with a 347 Ditto.
 counterfeit property mark.
+
 ```
 
 ```
+
 Breach of contract to attend on and 355 The person with whom the
 supply wants of helpless person. offender has contracted.
+
 ```
 
 ```
+
 Enticing or taking away or detaining 83 The husband of the woman
 with criminal intent a married woman. and the woman.
+
 ```
 
 ```
+
 Defamation. 354( 2 ) The person defamed.
+
 ```
 
 ```
+
 Printing or engraving matter, 354( 3 ) Ditto.
 knowing it to be defamatory.
+
 ```
 
 ```
+
 Sale of printed or engraved 354( 4 ) Ditto.
 substance containing defamatory
 matter, knowing it to contain
 such matter.
+
 ```
 
 ```
+
 Insult intended to provoke a 350 The person insulted.
 breach of the peace.
+
 ```
 
 ```
+
 Criminal intimidation. 349( 2 ) The person intimidated.
+
 ```
 
 ```
+
 Inducing person to believe himself 352 The person induced.
 an object of divine displeasure.
+
 ```
 
 ```
+
 ( 2 ) The offences punishable under the sections of the Bharatiya Nyaya Sanhita
 specified in the first two columns of the Table next following may, with the permission of the
 Court before which any prosecution for such offence is pending, be compounded by the
 persons mentioned in the third column of that Table:—
+
 ```
 
 ##### 1 2 3
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 Table
+
 ```
 
 ```
+
 Offence Section of the Bharatiya Person by whom offence
 Nyaya Sanhita applicable may be compounded
 1 2 3
+
 ```
 
 ```
+
 Causing miscarriage. 86 The woman to whom
 miscarriage is caused.
 Voluntarily causing 115( 2 ) The person to whom hurt is
 grievous hurt. caused.
+
 ```
 
 ```
+
 Causing hurt by doing an 123( a ) Ditto.
 act so rashly and negligently
 as to endanger human life
 or the personal safety of others.
+
 ```
 
 ```
+
 Causing grievous hurt by 123( b ) Ditto.
 doing an act so rashly and
 negligently as to endanger
 human life or the personal
 safety of others.
+
 ```
 
 ```
+
 Assault or criminal force in 133 The person assaulted or to
 attempting wrongfully to whom the force was used.
 confine a person.
+
 ```
 
 ```
+
 Theft, by clerk or servant of 304 The owner of the property
 property in possession of master. stolen.
+
 ```
 
 ```
+
 Criminal breach of trust. 314( 2 ) The owner of the property in
 respect of which breach of
 trust has been committed.
+
 ```
 
 ```
+
 Criminal breach of trust by 314( 4 ) The owner of the property in
 a clerk or servant. respect of which the breach of
 trust has been committed.
+
 ```
 
 ```
+
 Cheating a person whose 316( 3 ) The person cheated.
 interest the offender was
 bound, either by law or by
 legal contract, to protect.
+
 ```
 
 ```
+
 Cheating and dishonestly 316( 4 ) The person cheated.
 inducing delivery of property
 or the making, alteration or
 destruction of a valuable security.
+
 ```
 
 ```
+
 Marrying again during the 81( 2 ) The husband or wife of the
 life-time of a husband or wife. person so marrying.
+
 ```
 
 ```
+
 Defamation. 354( 2 ) The person defamed.
+
 ```
 
 ```
+
 Word, gesture or act intended 78 The woman whom it was
 to insult the modesty of intended to insult or whose
 a woman. privacy was intruded upon.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -10997,6 +7403,7 @@ a woman. privacy was intruded upon.
 40
 
 ```
+
 ( 3 ) When an offence is compoundable under this section, the abetment of such
 offence or an attempt to commit such offence (when such attempt is itself an offence) or
 where the accused is liable under sub-section ( 5 ) of section 3 or section 188 of the Bharatiya
@@ -11021,6 +7428,7 @@ such offence.
 ( 8 ) The composition of an offence under this section shall have the effect of an
 acquittal of the accused with whom the offence has been compounded.
 ( 9 ) No offence shall be compounded except as provided by this section.
+
 ```
 
 **360.** The Public Prosecutor or Assistant Public Prosecutor in charge of a case may,
@@ -11048,7 +7456,9 @@ Provided further that no Court shall allow such withdrawal without giving an
 opportunity of being heard to the victim in the case.
 
 ```
+
 5 of 1908.
+
 ```
 
 Withdrawal
@@ -11056,39 +7466,57 @@ from
 prosecution.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **361.** ( _1_ ) If, in the course of any inquiry into an offence or a trial before a Magistrate in
@@ -11141,14 +7569,17 @@ jurisdiction, the Judge or Magistrate so succeeding may act on the evidence so r
 his predecessor, or partly recorded by his predecessor and partly recorded by himself:
 
 ```
+
 Procedure in
 cases which
 Magistrate
 cannot dispose
 of.
+
 ```
 
 ```
+
 Procedure
 when after
 commencement
@@ -11167,9 +7598,11 @@ against
 coinage,
 stamp-law or
 property.
+
 ```
 
 ```
+
 Procedure
 when
 Magistrate
@@ -11177,9 +7610,11 @@ cannot pass
 sentence
 sufficiently
 severe.
+
 ```
 
 ```
+
 Conviction or
 commitment
 on evidence
@@ -11188,10 +7623,13 @@ by one
 Magistrate and
 partly by
 another.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -11211,24 +7649,30 @@ another.
 45
 
 ```
+
 Provided that if the succeeding Judge or Magistrate is of the opinion that further
 examination of any of the witnesses whose evidence has already been recorded is necessary
 in the interests of justice, he may re-summon any such witness, and after such further
 examination, cross-examination and re-examination, if any, as he may permit, the witness
 shall be discharged.
+
 ```
 
 ```
+
 ( 2 ) When a case is transferred under the provisions of this Sanhita from one Judge to
 another Judge or from one Magistrate to another Magistrate, the former shall be deemed to
 cease to exercise jurisdiction therein, and to be succeeded by the latter, within the meaning
 of sub-section ( 1 ).
+
 ```
 
 ```
+
 ( 3 ) Nothing in this section applies to summary trials or to cases in which proceedings
 have been stayed under section 361 or in which proceedings have been submitted to a
 superior Magistrate under section 364.
+
 ```
 
 **366.** ( _1_ ) The place in which any Criminal Court is held for the purpose of inquiring into
@@ -11236,48 +7680,64 @@ or trying any offence shall be deemed to be an open Court, to which the public g
 may have access, so far as the same can conveniently contain them:
 
 ```
+
 Provided that the presiding Judge or Magistrate may, if he thinks fit, order at any
 stage of any inquiry into, or trial of, any particular case, that the public generally, or any
 particular person, shall not have access to, or be or remain in, the room or building used by
 the Court.
+
 ```
 
 ```
+
 ( 2 ) Notwithstanding anything contained in sub-section ( 1 ), the inquiry into and trial
 of rape or an offence under section 64, section 66, section 67, section 68, section 70 or
 section 71 of the Bharatiya Nyaya Sanhita, 2023 or under sections 4, 6, 8 or section 10 of the
 Protection of Children from Sexual Offences Act, 2012 shall be conducted in camera :
+
 ```
 
 ```
+
 Provided that the presiding Judge may, if he thinks fit, or on an application made by
 either of the parties, allow any particular person to have access to, or be or remain in, the
 room or building used by the Court:
+
 ```
 
 ```
+
 Provided further that in camera trial shall be conducted as far as practicable by a
 woman Judge or Magistrate.
+
 ```
 
 ```
+
 ( 3 ) Where any proceedings are held under sub-section ( 2 ), it shall not be lawful for
 any person to print or publish any matter in relation to any such proceedings except with
 the previous permission of the Court:
+
 ```
 
 ```
+
 Provided that the ban on printing or publication of trial proceedings in relation to an
 offence of rape may be lifted, subject to maintaining confidentiality of name and address of
 the parties.
+
 ```
 
 ```
+
 CHAPTER XXVIII
+
 ```
 
 ```
+
 PROVISONS AS TO ACCUSED PERSONS WITH MENTAL ILLNESS
+
 ```
 
 **367.** ( _1_ ) When a Magistrate holding an inquiry has reason to believe that the person
@@ -11289,11 +7749,13 @@ such surgeon or other medical person as a witness, and shall reduce the examinat
 writing.
 
 ```
+
 ( 2 ) If the civil surgeon finds the accused to be a person with mental illness, he shall
 refer such person to a psychiatrist or clinical psychologist of Government hospital or
 Government medical college for care, treatment and prognosis of the condition and the
 psychiatrist or clinical psychologist, as the case may be, shall inform the Magistrate whether
 the accused is suffering from mental illness:
+
 ```
 
 Court to be
@@ -11306,46 +7768,67 @@ person with
 mental illness.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 32 of 2012.
+
 ```
 
 ```
+
 Provided that if the accused is aggrieved by the information given by the psychiatric
 or clinical psychologist, as the case may be, to the Magistrate, he may prefer an appeal
 before the Medical Board which shall consist of—
@@ -11371,6 +7854,7 @@ person with mental illness, the Magistrate shall further determine whether the m
 renders the accused incapable of entering defence, and if the accused is found so incapable,
 the Magistrate shall order closure of the inquiry and deal with the accused in the manner
 provided under section 369.
+
 ```
 
 **368.** ( _1_ ) If at the trial of any person before a Magistrate or Court of Session, it appears
@@ -11400,15 +7884,19 @@ _prima facie_ case is made out against the accused, he or it shall, instead of p
 trial, discharge the accused and deal with him in the manner provided under section 369:
 
 ```
+
 Procedure in
 case of person
 with mental
 illness tried
 before Court.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -11430,6 +7918,7 @@ before Court.
 50
 
 ```
+
 Provided that if the Magistrate or Court finds that a prima facie case is made out
 against the accused in respect of whom a finding of mental illness is arrived at, he shall
 postpone the trial for such period, as in the opinion of the psychiatrist or clinical
@@ -11437,6 +7926,7 @@ psychologist, is required for the treatment of the accused.
 ( 4 ) If the Magistrate or Court finds that a prima facie case is made out against the
 accused and he is incapable of entering defence by reason of mental illness, he or it shall
 not hold the trial and order the accused to be dealt with in accordance with section 369.
+
 ```
 
 **369.** ( _1_ ) Whenever a person if found under section 367 or section 368 to be incapable
@@ -11486,12 +7976,14 @@ illness and consequently incapable of making his defence, shall deal with such a
 accordance with the provisions of section 369.
 
 ```
+
 Release of
 person with
 mental illness
 pending
 investigation
 or trial.
+
 ```
 
 Resumption of
@@ -11506,47 +7998,69 @@ Magistrate or
 Court.
 
 ```
+
 10 of 2017.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 50
+
 ```
 
 **372.** When the accused appears to be of sound mind at the time of inquiry or trial, and
@@ -11601,20 +8115,25 @@ him to be transferred to public mental health establishment, may appoint a Commi
 consisting of a Judicial and two medical officers.
 
 ```
+
 When accused
 appears to
 have been of
 sound mind.
+
 ```
 
 ```
+
 Judgment of
 acquittal on
 ground of
 mental illness.
+
 ```
 
 ```
+
 Person
 acquitted on
 ground of
@@ -11622,9 +8141,11 @@ mental illness
 to be detained
 in safe
 custody.
+
 ```
 
 ```
+
 Power of State
 Government
 to empower
@@ -11639,9 +8160,11 @@ reported
 capable of
 making his
 defence.
+
 ```
 
 ```
+
 Procedure
 where person
 with mental
@@ -11649,54 +8172,77 @@ illness
 detained is
 declared fit to
 be released.
+
 ```
 
 10 of 2017.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 50
+
 ```
 
 ```
+
 ( 2 ) Such Commission shall make a formal inquiry into the state of mind of such
 person, take such evidence as is necessary, and shall report to the State Government, which
 may order his release or detention as it thinks fit.
+
 ```
 
 **378.** ( _1_ ) Whenever any relative or friend of any person detained under the provisions
@@ -11746,12 +8292,14 @@ the Court as the Court may authorise in writing in this behalf.
 ( _4_ ) In this section, "Court" has the same meaning as in section 215.
 
 ```
+
 Delivery of
 person with
 mental illness
 to care of
 relative or
 friend.
+
 ```
 
 Procedure in
@@ -11760,39 +8308,57 @@ mentioned in
 section 215.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **380.** ( _1_ ) Any person on whose application any Court other than a High Court has
@@ -11805,8 +8371,10 @@ such former Court might have made under section 379, and, if it makes such compl
 provisions of that section shall apply accordingly.
 
 ```
+
 ( 2 ) An order under this section, and subject to any such order, an order under
 section 379, shall be final, and shall not be subject to revision.
+
 ```
 
 **381.** Any Court dealing with an application made to it for filing a complaint under
@@ -11817,10 +8385,12 @@ shall, notwithstanding anything contained in Chapter XVI, proceed, as far as may
 deal with the case as if it were instituted on a police report.
 
 ```
+
 ( 2 ) Where it is brought to the notice of such Magistrate, or of any other Magistrate to
 whom the case may have been transferred, that an appeal is pending against the decision
 arrived at in the judicial proceeding out of which the matter has arisen, he may, if he thinks
 fit, at any stage, adjourn the hearing of the case until such appeal is decided.
+
 ```
 
 **383.** ( _1_ ) If, at the time of delivery of any judgment or final order disposing of any
@@ -11836,16 +8406,21 @@ which may extend to three months, or to fine which may extend to one thousand ru
 with both.
 
 ```
+
 ( 2 ) In every such case the Court shall follow, as nearly as may be practicable, the
 procedure prescribed for summary trials.
+
 ```
 
 ```
+
 ( 3 ) Nothing in this section shall affect the power of the Court to make a complaint
 under section 379 for the offence, where it does not choose to proceed under this section.
+
 ```
 
 ```
+
 ( 4 ) Where, after any action is initiated under sub-section ( 1 ), it is made to appear to
 the Court of Session or Magistrate of the first class that an appeal or an application for
 revision has been preferred or filed against the judgment or order in which the opinion
@@ -11853,6 +8428,7 @@ referred to in that sub-section has been expressed, it or he shall stay further 
 the trial until the disposal of the appeal or the application for revision, as the case may be,
 and thereupon the further proceedings of the trial shall abide by the results of the appeal or
 application for revision.
+
 ```
 
 **384.** ( _1_ ) When any such offence as is described in section 209, section 211,
@@ -11866,36 +8442,48 @@ to simple imprisonment for a term which may extend to one month, unless such fin
 sooner paid.
 
 ```
+
 Appeal.
+
 ```
 
 ```
+
 Power to
 order costs.
+
 ```
 
 ```
+
 Procedure of
 Magistrate
 taking
 cognizance.
+
 ```
 
 ```
+
 Summary
 procedure for
 trial for giving
 false evidence.
+
 ```
 
 ```
+
 Procedure in
 certain cases
 of contempt.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -11917,11 +8505,13 @@ of contempt.
 50
 
 ```
+
 ( 2 ) In every such case the Court shall record the fact constituting the offence, with
 the statement (if any) made by the offender, as well as the finding and sentence.
 ( 3 ) If the offence is under section 265 of the Bharatiya Nyaya Sanhita, 2023, the record
 shall show the nature and stage of the judicial proceeding in which the Court interrupted or
 insulted was sitting, and the nature of the interruption or insult.
+
 ```
 
 **385.** ( _1_ ) If the Court in any case considers that a person accused of any of the
@@ -12012,46 +8602,67 @@ under sections
 and 389.
 
 ```
+
 16 of 1908.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( 2 ) The provisions of Chapter XXXI shall, so far as they are applicable, apply to
 appeals under this section, and the Appellate Court may alter or reverse the finding, or
 reduce or reverse the sentence appealed against.
@@ -12061,6 +8672,7 @@ of Session for the sessions division within which such Court is situate.
 Civil Court by virtue of a direction issued under section 386 shall lie to the Court of Session
 for the sessions division within which the office of such Registrar or Sub-Registrar is
 situate.
+
 ```
 
 **391.** Except as provided in sections 383, 384, 388 and 389, no Judge of a Criminal Court
@@ -12075,6 +8687,7 @@ given to the parties or their advocates,—
 ( _a_ ) by delivering the whole of the judgment; or
 
 ```
+
 ( b ) by reading out the whole of the judgment; or
 ( c ) by reading out the operative part of the judgment and explaining the substance
 of the judgment in a language which is understood by the accused or his advocate.
@@ -12089,19 +8702,25 @@ judgment shall be signed by him.
 ( 4 ) Where the judgment is pronounced in the manner specified in clause ( c ) of
 sub-section ( 1 ), the whole judgment or a copy thereof shall be immediately made available
 for the perusal of the parties or their advocates free of cost:
+
 ```
 
 ```
+
 Provided that the Court shall, as far as practicable, upload the copy of the judgment
 on its portal within a period of seven days from the date of judgment.
+
 ```
 
 ```
+
 ( 5 ) If the accused is in custody, he shall be brought up to hear the judgment pronounced
 either in person or through audio-video electronic means.
+
 ```
 
 ```
+
 ( 6 ) If the accused is not in custody, he shall be required by the Court to attend to hear
 the judgment pronounced, except where his personal attendance during the trial has been
 dispensed with and the sentence is one of fine only or he is acquitted:
@@ -12109,9 +8728,11 @@ Provided that where there are more accused persons than one, and one or more of
 them do not attend the Court on the date on which the judgment is to be pronounced, the
 presiding officer may, in order to avoid undue delay in the disposal of the case, pronounce
 the judgment notwithstanding their absence.
+
 ```
 
 ```
+
 Certain Judges
 and
 Magistrates
@@ -12121,14 +8742,19 @@ offences when
 committed
 before
 themselves.
+
 ```
 
 ```
+
 Judgment.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -12146,38 +8772,49 @@ Judgment.
 40
 
 ```
+
 ( 7 ) No judgment delivered by any Criminal Court shall be deemed to be invalid by
 reason only of the absence of any party or his advocate on the day or from the place
 notified for the delivery thereof, or of any omission to serve, or defect in serving, on the
 parties or their advocates, or any of them, the notice of such day and place.
+
 ```
 
 ```
+
 ( 8 ) Nothing in this section shall be construed to limit in any way the extent of the
 provisions of section 513.
+
 ```
 
 **393.** ( _1_ ) Except as otherwise expressly provided by this Sanhita, every judgment
 referred to in section 392,—
 
 ```
+
 ( a ) shall be written in the language of the Court;
 ( b ) shall contain the point or points for determination, the decision thereon and
 the reasons for the decision;
+
 ```
 
 ```
+
 ( c ) shall specify the offence (if any) of which, and the section of the Bharatiya
 Nyaya Sanhita, 2023 or other law under which, the accused is convicted, and the
 punishment to which he is sentenced;
+
 ```
 
 ```
+
 ( d ) if it be a judgment of acquittal, shall state the offence of which the accused
 is acquitted and direct that he be set at liberty.
+
 ```
 
 ```
+
 ( 2 ) When the conviction is under the Bharatiya Nyaya Sanhita, 2023 and it is doubtful
 under which of two sections, or under which of two parts of the same section, of that
 Sanhita the offence falls, the Court shall distinctly express the same, and pass judgment in
@@ -12191,17 +8828,22 @@ one year or more, but the Court imposes a sentence of imprisonment for a term of
 three months, it shall record its reasons for awarding such sentence, unless the sentence is
 one of imprisonment till the rising of the Court or unless the case was tried summarily under
 the provisions of this Sanhita.
+
 ```
 
 ```
+
 ( 5 ) When any person is sentenced to death, the sentence shall direct that he be
 hanged by the neck till he is dead.
+
 ```
 
 ```
+
 ( 6 ) Every order under section 136 or sub-section ( 2 ) of section 157 and every final
 order made under section 144, section 164 or section 166 shall contain the point or points for
 determination, the decision thereon and the reasons for the decision.
+
 ```
 
 **394.** ( _1_ ) When any person, having been convicted by a Court in India of an offence
@@ -12230,42 +8872,61 @@ convicted
 offender.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( 4 ) An order under this section may also be made by an Appellate Court or by the
 High Court or Court of Session when exercising its powers of revision.
 ( 5 ) The State Government may, by notification, make rules to carry out the provisions
@@ -12274,6 +8935,7 @@ residence by released convicts.
 ( 6 ) Such rules may provide for punishment for the breach thereof and any person
 charged with a breach of any such rule may be tried by a Magistrate of competent jurisdiction
 in the district in which the place last notified by him as his place of residence is situated.
+
 ```
 
 **395.** ( _1_ ) When a Court imposes a sentence of fine or a sentence (including a sentence
@@ -12318,55 +8980,78 @@ sub-section ( _1_ ).
 awarded under section 395 is not adequate for such rehabilitation, or where the cases end
 
 ```
+
 Order to pay
 compensation.
+
 ```
 
 13 of 1855.
 
 ```
+
 Victim
 compensation
 scheme.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 in acquittal or discharge and the victim has to be rehabilitated, it may make recommendation
 for compensation.
 ( 4 ) Where the offender is not traced or identified, but the victim is identified, and
@@ -12383,6 +9068,7 @@ interim relief as the appropriate authority deems fit.
 ( 7 ) The compensation payable by the State Government under this section shall be in
 addition to the payment of fine to the victim under section 67( 4 ), section 68, section 70( 1 )
 and section 70( 2 ) of Bharatiya Nyaya Sanhita, 2023.
+
 ```
 
 **397.** All hospitals, public or private, whether run by the Central Government, the State
@@ -12443,46 +9129,67 @@ after
 admonition.
 
 ```
+
 32 of 2012.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 not punishable with death or imprisonment for life, and no previous conviction is proved
 against the offender, if it appears to the Court before which he is convicted, regard being
 had to the age, character or antecedents of the offender, and to the circumstances in which
@@ -12535,49 +9242,70 @@ for sentence and such Court may, after hearing the case, pass sentence.
 ( 10 ) Nothing in this section shall affect the provisions of the Probation of Offenders
 Act, 1958, or the Juvenile Justice (Care and Protection of Children) Act, 2015 or any other
 law for the time being in force for the treatment, training or rehabilitation of youthful offenders.
+
 ```
 
 20 of 1958.
 2 of 2016.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 50
+
 ```
 
 **402.** Where in any case the Court could have dealt with,—
@@ -12627,11 +9355,15 @@ such Magistrate, as the case may be, shall forward a copy of its or his finding 
 (if any) to the District Magistrate within whose local jurisdiction the trial was held.
 
 ```
+
 20 of 1958.
+
 ```
 
 ```
+
 2 of 2016.
+
 ```
 
 Special
@@ -12662,39 +9394,57 @@ District
 Magistrate.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ##### CHAPTER XXX
@@ -12743,15 +9493,18 @@ inadequate compensation, and such appeal shall lie to the Court to which an appe
 lies against the order of conviction of such Court.
 
 ```
+
 Sentence of
 death to be
 submitted by
 Court of
 Session for
 confirmation.
+
 ```
 
 ```
+
 Power to
 direct further
 inquiry to be
@@ -12759,26 +9512,32 @@ made or
 additional
 evidence to be
 taken.
+
 ```
 
 ```
+
 Power of High
 Court to
 confirm
 sentence or
 annul
 conviction.
+
 ```
 
 ```
+
 Confirmation
 or new
 sentence to be
 signed by two
 Judges.
+
 ```
 
 ```
+
 Procedure in
 case of
 difference of
@@ -12788,17 +9547,22 @@ cases
 submitted to
 High Court for
 confirmation.
+
 ```
 
 ```
+
 No appeal to
 lie unless
 otherwise
 provided.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -12885,47 +9649,67 @@ No appeal in
 petty cases.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( i ) that the person convicted is ordered to furnish security to keep the peace; or
 ( ii ) that a direction for imprisonment in default of payment of fine is included in the
 sentence; or
 ( iii ) that more than one sentence of fine is passed in the case, if the total amount of
 fine imposed does not exceed the amount hereinbefore specified in respect of the case.
+
 ```
 
 **418.** ( _1_ ) Save as otherwise provided in sub-section ( _2_ ), the State Government may, in
@@ -12972,20 +9756,26 @@ entertained except with the leave of the High Court.
 the High Court, on an application made to it by the complainant in this behalf, grants special
 
 ```
+
 Appeal by the
 State
 Government
 against
 sentence.
+
 ```
 
 ```
+
 Appeal in case
 of acquittal.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -13005,6 +9795,7 @@ of acquittal.
 45
 
 ```
+
 leave to appeal from the order of acquittal, the complainant may present such an appeal to
 the High Court.
 ( 5 ) No application under sub-section ( 4 ) for the grant of special leave to appeal from
@@ -13014,6 +9805,7 @@ from the date of that order of acquittal.
 ( 6 ) If, in any case, the application under sub-section ( 4 ) for the grant of special leave
 to appeal from an order of acquittal is refused, no appeal from that order of acquittal shall lie
 under sub-section ( 1 ) or under sub-section ( 2 ).
+
 ```
 
 **420.** Where the High Court has, on appeal, reversed an order of acquittal of an
@@ -13081,42 +9873,61 @@ dismissal of
 appeal.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( 3 ) Where the Appellate Court dismissing an appeal under this section is a Court of
 Session or of the Chief Judicial Magistrate, it shall record its reasons for doing so.
 ( 4 ) Where an appeal presented under section 424 has been dismissed summarily
@@ -13124,6 +9935,7 @@ under this section and the Appellate Court finds that another petition of appeal
 under section 423 on behalf of the same appellant has not been considered by it, that Court
 may, notwithstanding anything contained in section 434, if satisfied that it is necessary in
 the interests of justice so to do, hear and dispose of such appeal in accordance with law.
+
 ```
 
 **426.** ( _1_ ) If the Appellate Court does not dismiss the appeal summarily, it shall cause
@@ -13167,21 +9979,27 @@ the nature and extent, of the sentence, so as to enhance or reduce the same;
 just or proper:
 
 ```
+
 Procedure for
 hearing
 appeals not
 dismissed
 summarily.
+
 ```
 
 ```
+
 Powers of the
 Appellate
 Court.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -13201,11 +10019,13 @@ Court.
 45
 
 ```
+
 Provided that the sentence shall not be enhanced unless the accused has had an
 opportunity of showing cause against such enhancement:
 Provided further that the Appellate Court shall not inflict greater punishment for the
 offence which in its opinion the accused has committed, than might have been inflicted for
 that offence by the Court passing the order or sentence under appeal.
+
 ```
 
 **428.** The rules contained in Chapter XXVIII as to the judgment of a Criminal Court of
@@ -13277,39 +10097,57 @@ appeal from
 acquittal.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **432.** ( _1_ ) In dealing with any appeal under this Chapter, the Appellate Court, if it thinks
@@ -13351,8 +10189,10 @@ _Explanation_ .—In this section, "near relative" means a parent, spouse, linea
 descendant, brother or sister.
 
 ```
+
 CHAPTER XXXII
 REFERENCE AND REVISION
+
 ```
 
 **436.** ( _1_ ) Where any Court is satisfied that a case pending before it involves a question
@@ -13364,42 +10204,54 @@ Subordinate or by the Supreme Court, the Court shall state a case setting out it
 and the reasons therefor, and refer the same for the decision of the High Court.
 
 ```
+
 Appellate
 Court may
 take further
 evidence or
 direct it to be
 taken.
+
 ```
 
 ```
+
 Procedure
 where Judges
 of Court of
 Appeal are
 equally
 divided.
+
 ```
 
 ```
+
 Finality of
 judgments and
 orders on
 appeal.
+
 ```
 
 ```
+
 Abatement of
 appeals.
+
 ```
 
 ```
+
 Reference to
 High Court.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -13419,6 +10271,7 @@ High Court.
 45
 
 ```
+
 Explanation .—In this section, "Regulation" means any Regulation as defined in the
 General Clauses Act, 1897, or in the General Clauses Act of a State.
 ( 2 ) A Court of Session may, if it or he thinks fit in any case pending before it or him to
@@ -13427,6 +10280,7 @@ Court any question of law arising in the hearing of such case.
 ( 3 ) Any Court making a reference to the High Court under sub-section ( 1 ) or
 sub-section ( 2 ) may, pending the decision of the High Court thereon, either commit the
 accused to jail or release him on bail to appear when called upon.
+
 ```
 
 **437.** ( _1_ ) When a question has been so referred, the High Court shall pass such order
@@ -13495,47 +10349,69 @@ Additional
 Sessions Judge.
 
 ```
+
 10 of 1897.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 50
+
 ```
 
 **442.** ( _1_ ) In the case of any proceeding the record of which has been called for by itself
@@ -13591,26 +10467,33 @@ conformable to the decision so certified, and, if necessary, the record shall be
 accordance therewith.
 
 ```
+
 High Court's
 powers of
 revision.
+
 ```
 
 ```
+
 Power of High
 Court to
 withdraw or
 transfer
 revision cases.
+
 ```
 
 ```
+
 Option of
 Court to hear
 parties.
+
 ```
 
 ```
+
 Statement by
 Magistrate of
 grounds of his
@@ -13621,10 +10504,13 @@ High Court's
 order to be
 certified to
 lower Court.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -13707,42 +10593,61 @@ transfer cases
 and appeals.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( 6 ) Where the application is for the transfer of a case or appeal from any Subordinate
 Court, the High Court may, if it is satisfied that it is necessary so to do in the interest of
 justice, order that, pending the disposal of the application the proceedings in the Subordinate
@@ -13758,6 +10663,7 @@ any Court for trial before itself, it shall observe in such trial the same proce
 Court would have observed if the case had not been so transferred.
 ( 9 ) Nothing in this section shall be deemed to affect any order of Government under
 section 218.
+
 ```
 
 **449.** ( _1_ ) Whenever it is made to appear to a Sessions Judge that an order under this
@@ -13795,37 +10701,47 @@ Magistrate subordinate to him, and dispose of such proceeding himself or refer i
 disposal to any other Magistrate.
 
 ```
+
 Power of
 Sessions Judge
 to transfer
 cases and
 appeals.
+
 ```
 
 ```
+
 Withdrawal of
 cases and
 appeals by
 Session Judge.
+
 ```
 
 ```
+
 Withdrawal of
 cases by
 Judicial
 Magistrate.
+
 ```
 
 ```
+
 Making over
 or withdrawal
 of cases by
 Executive
 Magistrates.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -13876,7 +10792,9 @@ considers sufficient to enable him to present such petition.
 commute the sentence to imprisonment for life.
 
 ```
+
 B.—Imprisonment
+
 ```
 
 **458.** ( _1_ ) Except when otherwise provided by any law for the time being in force, the
@@ -13926,43 +10844,63 @@ of
 imprisonment.
 
 ```
+
 5 of 1908.
+
 ```
 
 ```
+
 5 of 1908.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 **459.** ( _1_ ) Where the accused is sentenced to imprisonment for life or to imprisonment
@@ -14016,31 +10954,40 @@ authorising him to realise the amount as if it were an arrear of land revenue, s
 shall be deemed to be a warrant issued under clause ( _b_ ) of sub-section ( _1_ ) of section 462 by
 
 ```
+
 Execution of
 sentence of
 imprisonment.
+
 ```
 
 ```
+
 Direction of
 warrant for
 execution.
 Warrant with
 whom to be
 lodged.
+
 ```
 
 ```
+
 Warrant for
 levy of fine.
+
 ```
 
 ```
+
 Effect of such
 warrant.
+
 ```
 
 ```
+
 Warrant for
 levy of fine
 issued by a
@@ -14049,10 +10996,13 @@ territory to
 which this
 Sanhita does
 not extend.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -14072,8 +11022,10 @@ not extend.
 45
 
 ```
+
 a Court in the territories to which this Sanhita extends, and the provisions of sub-section ( 3 )
 of the said section as to the execution of such warrant shall apply accordingly.
+
 ```
 
 **465.** ( _1_ ) When an offender has been sentenced to fine only and to imprisonment in
@@ -14145,39 +11097,57 @@ another
 offence.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **469.** Where an accused person has, on conviction, been sentenced to imprisonment
@@ -14231,6 +11201,7 @@ consideration along with the said mercy petition.
 of the State Government and consider the petition along with the records of the case and
 
 ```
+
 Period of
 detention
 undergone by
@@ -14239,13 +11210,17 @@ set off against
 sentence
 of
 imprisonment.
+
 ```
 
 ```
+
 Saving.
+
 ```
 
 ```
+
 Return of
 warrant on
 execution of
@@ -14255,17 +11230,22 @@ ordered to be
 paid
 recoverable as
 a fine.
+
 ```
 
 ```
+
 Mercy
 Petition in
 death sentence
 cases.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -14285,6 +11265,7 @@ cases.
 45
 
 ```
+
 make recommendations to the President in this behalf, as expeditiously as possible, within
 a period of sixty days from the date of receipt of comments of the State Government and
 records from Superintendent of the Jail.
@@ -14297,6 +11278,7 @@ of the State Governnment and the Superintendent of the Jail or officer in charge
 ( 7 ) No appeal shall lie in any Court against the order of the President made under
 article 72 of the Constitution and it shall be final, and any question as to the arriving of the
 decision by the President shall not be enquired into in any Court.
+
 ```
 
 **474.** ( _1_ ) When any person has been sentenced to punishment for an offence, the
@@ -14343,44 +11325,64 @@ remit
 sentences.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( b ) in other cases, the Government of the State within which the offender is
 sentenced or the said order is passed.
+
 ```
 
 **475.** The appropriate Government may, without the consent of the person sentenced,
@@ -14425,21 +11427,26 @@ law upon certain conditions imposed by an officer or court including execution b
 such person of a bond or a bail bond.
 
 ```
+
 Power to
 commute
 sentence.
+
 ```
 
 ```
+
 Restriction on
 powers of
 remission or
 commutation
 in certain
 cases.
+
 ```
 
 ```
+
 Concurrent
 power of
 Central
@@ -14455,14 +11462,19 @@ with Central
 Government
 in certain
 cases.
+
 ```
 
 ```
+
 Bail and bond.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -14480,9 +11492,11 @@ Bail and bond.
 40
 
 ```
+
 ( b ) "bond" means a personal bond or an undertaking for release without payment
 of any surety;
 ( c ) "bail bond" means an undertaking for release with payment of surety.
+
 ```
 
 **480.** ( _1_ ) When any person other than a person accused of a non-bailable offence is
@@ -14544,39 +11558,57 @@ prisoner can
 be detained.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **482.** ( _1_ ) When any person accused of, or suspected of, the commission of any
@@ -14630,12 +11662,14 @@ necessary.
 sub-section ( _2_ ), shall record in writing his or its reasons or special reasons for so doing.
 
 ```
+
 When bail
 may be taken
 in case of
 non-bailable
 offence.
 5
+
 ```
 
 10
@@ -14655,6 +11689,7 @@ offence.
 45
 
 ```
+
 ( 5 ) Any Court which has released a person on bail under sub-section ( 1 ) or
 sub-section ( 2 ), may, if it considers it necessary so to do, direct that such person be
 arrested and commit him to custody.
@@ -14668,6 +11703,7 @@ non-bailable offence and before judgment is delivered, the Court is of opinion t
 reasonable grounds for believing that the accused is not guilty of any such offence, it shall
 release the accused, if he is in custody, on the execution by him of a bond without sureties
 for his appearance to hear judgment delivered.
+
 ```
 
 **483.** ( _1_ ) Before conclusion of the trial and before disposal of the appeal, the Court
@@ -14727,82 +11763,114 @@ Session
 regarding bail.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 50
+
 ```
 
 ```
+
 ( b ) that any condition imposed by a Magistrate when releasing any person on
 bail be set aside or modified:
+
 ```
 
 ```
+
 Provided that the High Court or the Court of Session shall, before granting bail to a
 person who is accused of an offence which is triable exclusively by the Court of Session or
 which, though not so triable, is punishable with imprisonment for life, give notice of the
 application for bail to the Public Prosecutor unless it is, for reasons to be recorded in
 writing, of opinion that it is not practicable to give such notice:
+
 ```
 
 ```
+
 Provided further that the High Court or the Court of Session shall, before granting
 bail to a person who is accused of an offence triable under section 64 or section 70 of the
 Bharatiya Nyaya Sanhita, 2023, give notice of the application for bail to the Public Prosecutor
 within a period of fifteen days from the date of receipt of the notice of such application.
+
 ```
 
 ```
+
 ( 1A ) The presence of the informant or any person authorised by him shall be obligatory
 at the time of hearing of the application for bail to the person under section 64 or section 66
 or section 70 of the Bhartiya Nyaya Sanhita, 2023.
+
 ```
 
 ```
+
 ( 2 ) A High Court or Court of Session may direct that any person who has been
 released on bail under this Chapter be arrested and commit him to custody.
+
 ```
 
 **486.** ( _1_ ) The amount of every bond executed under this Chapter shall be fixed with
 due regard to the circumstances of the case and shall not be excessive.
 
 ```
+
 ( 2 ) The High Court or the Court of Session may direct that the bail required by a police
 officer or Magistrate be reduced.
+
 ```
 
 **487.** ( _1_ ) Before any person is released on bail or released on his own bond, a bond for
@@ -14813,22 +11881,28 @@ bond, and shall continue so to attend until otherwise directed by the police off
 as the case may be.
 
 ```
+
 ( 2 ) Where any condition is imposed for the release of any person on bail, the bond
 shall also contain that condition.
+
 ```
 
 ```
+
 ( 3 ) If the case so requires, the bond shall also bind the person released on bail to
 appear when called upon at the High Court, Court of Session or other Court to answer the
 charge.
+
 ```
 
 ```
+
 ( 4 ) For the purpose of determining whether the sureties are fit or sufficient, the Court
 may accept affidavits in proof of the facts contained therein relating to the sufficiency or
 fitness of the sureties, or, if it considers necessary, may either hold an enquiry itself or cause
 an inquiry to be made by a Magistrate subordinate to the Court, as to such sufficiency or
 fitness.
+
 ```
 
 **488.** Every person standing surety to an accused person for his release on bail, shall
@@ -14840,36 +11914,48 @@ shall issue an order of release to the officer in charge of the jail, and such o
 of the orders shall release him.
 
 ```
+
 ( 2 ) Nothing in this section, section 480 or section 482, shall be deemed to require the
 release of any person liable to be detained for some matter other than that in respect of
 which the bond was executed.
+
 ```
 
 ```
+
 Amount of
 bond and
 reduction
 thereof.
+
 ```
 
 ```
+
 Bond of
 accused and
 sureties.
+
 ```
 
 ```
+
 Declaration by
 sureties.
+
 ```
 
 ```
+
 Discharge
 from custody.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -14897,15 +11983,19 @@ bail may at any time apply to a Magistrate to discharge the bond, either wholly 
 relates to the applicants.
 
 ```
+
 ( 2 ) On such application being made, the Magistrate shall issue his warrant of arrest
 directing that the person so released be brought before him.
+
 ```
 
 ```
+
 ( 3 ) On the appearance of such person pursuant to the warrant, or on his voluntary
 surrender, the Magistrate shall direct the bond to be discharged either wholly or so far as
 relates to the applicants, and shall call upon such person to find other sufficient sureties,
 and, if he fails to do so, may commit him to jail.
+
 ```
 
 **492.** When any person is required by any Court or officer to execute a bond with or
@@ -14917,47 +12007,62 @@ property, before a Court and it is proved to the satisfaction of that Court, or 
 which the case has subsequently been transferred, that the bond has been forfeited,
 
 ```
+
 or where, in respect of any other bond under this Sanhita, it is proved to the satisfaction of
 the Court by which the bond was taken, or of any Court to which the case has subsequently
 been transferred, or of the Court of any Magistrate of the first class, that the bond has been
 forfeited,
+
 ```
 
 ```
+
 the Court shall record the grounds of such proof, and may call upon any person bound by
 such bond to pay the penalty thereof or to show cause why it should not be paid.
+
 ```
 
 ```
+
 Explanation .—A condition in a bond for appearance, or for production of property,
 before a Court shall be construed as including a condition for appearance, or as the case
 may be, for production of property, before any Court to which the case may subsequently
 be transferred.
+
 ```
 
 ```
+
 ( 2 ) If sufficient cause is not shown and the penalty is not paid, the Court may proceed
 to recover the same as if such penalty were a fine imposed by it under this Sanhita:
+
 ```
 
 ```
+
 Provided that where such penalty is not paid and cannot be recovered in the manner
 aforesaid, the person so bound as surety shall be liable, by order of the Court ordering the
 recovery of the penalty, to imprisonment in civil jail for a term which may extend to six
 months.
+
 ```
 
 ```
+
 ( 3 ) The Court may, after recording its reasons for doing so, remit any portion of the
 penalty mentioned and enforce payment in part only.
+
 ```
 
 ```
+
 ( 4 ) Where a surety to a bond dies before the bond is forfeited, his estate shall be
 discharged from all liability in respect of the bond.
+
 ```
 
 ```
+
 ( 5 ) Where any person who has furnished security under section 125 or section 136 or
 section 401 is convicted of an offence the commission of which constitutes a breach of the
 conditions of his bond, or of a bond executed in lieu of his bond under section 496, a
@@ -14965,6 +12070,7 @@ certified copy of the judgment of the Court by which he was convicted of such of
 be used as evidence in proceedings under this section against his surety or sureties, and,
 if such certified copy is so used, the Court shall presume that such offence was committed
 by him unless the contrary is proved.
+
 ```
 
 Power to
@@ -14986,39 +12092,57 @@ when bond has
 been forfeited.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **494.** Without prejudice to the provisions of section 493, where a bond under this
@@ -15071,12 +12195,15 @@ videograph on mobile phone or any electronic media, of the property referred to 
 sub-section ( _1_ ).
 
 ```
+
 Cancellation
 of bond and
 bail bond.
+
 ```
 
 ```
+
 Procedure in
 case of
 insolvency or
@@ -15084,28 +12211,36 @@ death of
 surety or when
 a bond is
 forfeited.
+
 ```
 
 ```
+
 Bond required
 from minor.
+
 ```
 
 ```
+
 Appeal from
 orders under
 section 446.
+
 ```
 
 ```
+
 Power to
 direct levy of
 amount due on
 certain
 recognizances.
+
 ```
 
 ```
+
 Order for
 custody and
 disposal of
@@ -15113,10 +12248,13 @@ property
 pending trial
 in certain
 cases.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -15136,6 +12274,7 @@ cases.
 45
 
 ```
+
 ( 4 ) The statement prepared under sub-section ( 2 ) and the photograph or the
 videography taken under sub-section ( 3 ) shall be used as evidence in any inquiry, trial or
 other proceeding under the Sanhita.
@@ -15143,6 +12282,7 @@ other proceeding under the Sanhita.
 has been prepared under sub-section ( 2 ) and the photograph or the videography has been
 taken under sub-section ( 3 ), order the disposal, destruction, confiscation or delivery of the
 property in the manner specified hereinafter.
+
 ```
 
 **500.** ( _1_ ) When an investigation, inquiry or trial in any Criminal Court is concluded, the
@@ -15212,49 +12352,71 @@ libellous and
 other matter.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 50
+
 ```
 
 ```
+
 ( 2 ) The Court may, in like manner, on a conviction under section 272, section 273,
 section 274 or section 275 of the Bharatiya Nyaya Sanhita, 2023, order the food, drink, drug
 or medical preparation in respect of which the conviction was had, to be destroyed.
+
 ```
 
 **504.** ( _1_ ) When a person is convicted of an offence by use of criminal force or show of
@@ -15306,43 +12468,55 @@ namely:—
 ( _b_ ) to order, under section 174, the police to investigate an offence;
 
 ```
+
 Power to
 restore
 possession of
 immovable
 property.
+
 ```
 
 ```
+
 Procedure by
 police upon
 seizure of
 property.
+
 ```
 
 ```
+
 Procedure
 where no
 claimant
 appears within
 six months.
+
 ```
 
 ```
+
 Power to sell
 perishable
 property.
+
 ```
 
 ```
+
 Irregularities
 which do not
 vitiate
 proceedings.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -15364,27 +12538,35 @@ proceedings.
 50
 
 ```
+
 ( c ) to hold an inquest under section 196;
+
 ```
 
 ```
+
 ( d ) to issue process under section 207, for the apprehension of a person within
 his local jurisdiction who has committed an offence outside the limits of such
 jurisdiction;
 ( e ) to take cognizance of an offence under clause ( a ) or clause ( b ) of
 sub-section ( 1 ) of section 210;
 ( f ) to make over a case under sub-section ( 2 ) of section 212;
+
 ```
 
 ```
+
 ( g ) to tender a pardon under section 343;
 ( h ) to recall a case and try it himself under section 451; or
+
 ```
 
 ```
+
 ( i ) to sell property under section 506 or section 507,
 erroneously in good faith does that thing, his proceedings shall not be set aside merely on
 the ground of his not being so empowered.
+
 ```
 
 **509.** If any Magistrate, not being empowered by law in this behalf, does any of the
@@ -15392,51 +12574,69 @@ following things, namely:—
 ( _a_ ) attaches and sells property under section 85;
 
 ```
+
 ( b ) issues a search-warrant for a document, parcel or other things in the custody
 of a postal or telegraph authority;
+
 ```
 
 ```
+
 ( c ) demands security to keep the peace;
 ( d ) demands security for good behaviour;
+
 ```
 
 ```
+
 ( e ) discharges a person lawfully bound to be of good behaviour;
 ( f ) cancels a bond to keep the peace;
+
 ```
 
 ```
+
 ( g ) makes an order for maintenance;
 ( h ) makes an order under section 152 as to a local nuisance;
+
 ```
 
 ```
+
 ( i ) prohibits, under section 162, the repetition or continuance of a public
 nuisance;
+
 ```
 
 ```
+
 ( j ) makes an order under Part C or Part D of Chapter XI;
 ( k ) takes cognizance of an offence under clause ( c ) of sub-section ( 1 ) of
 section 210;
 ( l ) tries an offender;
+
 ```
 
 ```
+
 ( m ) tries an offender summarily;
 ( n ) passes a sentence, under section 364, on proceedings recorded by another
 Magistrate;
 ( o ) decides an appeal;
+
 ```
 
 ```
+
 ( p ) calls, under section 438, for proceedings; or
 ( q ) revises an order passed under section 493,
+
 ```
 
 ```
+
 his proceedings shall be void.
+
 ```
 
 **510.** No finding, sentence or order of any Criminal Court shall be set aside merely on
@@ -15452,35 +12652,51 @@ Proceedings in
 wrong place.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 **511.** ( _1_ ) If any Court before which a confession or other statement of an accused
@@ -15537,23 +12753,28 @@ limitation.
 exceeding one year;
 
 ```
+
 Non-
 compliance
 with provisions
 of section 183
 or section 316.
+
 ```
 
 ```
+
 Effect of
 omission to
 frame, or
 absence of, or
 error in,
 charge.
+
 ```
 
 ```
+
 Finding or
 sentence when
 reversible by
@@ -15561,30 +12782,39 @@ reason of
 error,
 omission or
 irregularity.
+
 ```
 
 ```
+
 Defect or
 error not to
 make
 attachment
 unlawful.
+
 ```
 
 ```
+
 Definitions.
+
 ```
 
 ```
+
 Bar to taking
 cognizance
 after lapse of
 period of
 limitation.
+
 ```
 
 ```
+
 5
+
 ```
 
 10
@@ -15604,6 +12834,7 @@ limitation.
 45
 
 ```
+
 ( c ) three years, if the offence is punishable with imprisonment for a term
 exceeding one year but not exceeding three years.
 ( 3 ) For the purposes of this section, the period of limitation, in relation to offences
@@ -15613,6 +12844,7 @@ punishment.
 Explanation. —For the purpose of computing the period of limitation, the relevant
 date shall be the date of filing complaint under section 223 or the date of recording of
 information under section 173.
+
 ```
 
 **517.** ( _1_ ) The period of limitation, in relation to an offender, shall commence,—
@@ -15667,39 +12899,57 @@ date on which
 Court is closed.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 **520.** In the case of a continuing offence, a fresh period of limitation shall begin to run
@@ -15754,39 +13004,51 @@ penalties imposed;
 by the State Government.
 
 ```
+
 Continuing
 offence.
+
 ```
 
 ```
+
 Extension of
 period of
 limitation in
 certain cases.
+
 ```
 
 ```
+
 Trials before
 High Courts.
+
 ```
 
 ```
+
 Delivery to
 commanding
 officers of
 persons liable
 to be tried by
 Court-martial.
+
 ```
 
 ```
+
 Forms.
+
 ```
 
 ```
+
 Power of High
 Court to make
 rules.
+
 ```
 
 46 of 1950.
@@ -15794,47 +13056,69 @@ rules.
 45 of 1950.
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 50
+
 ```
 
 ```
+
 ( 2 ) All rules made under this section shall be published in the Official Gazette.
+
 ```
 
 **526.** If the Legislative Assembly of a State by a resolution so permits, the State
@@ -15923,46 +13207,67 @@ Repeal and
 savings.
 
 ```
+
 2 of 1974.
+
 ```
 
 ```
+
 5
+
 ```
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ```
+
 30
+
 ```
 
 ```
+
 35
+
 ```
 
 ```
+
 40
+
 ```
 
 ```
+
 45
+
 ```
 
 ```
+
 ( a ) if, immediately before the date on which this Sanhita comes into force, there
 is any appeal, application, trial, inquiry or investigation pending, then, such appeal,
 application, trial, inquiry or investigation shall be disposed of, continued, held or
@@ -15989,24 +13294,33 @@ Code had expired on or before the commencement of this Sanhita, nothing in this 
 shall be construed as enabling any such application to be made or proceeding to be
 commenced under this Sanhita by reason only of the fact that a longer period therefor is
 specified by this Sanhita or provisions are made in this Sanhita for the extension of time.
+
 ```
 
 2 of 1974.^5
 
 ```
+
 10
+
 ```
 
 ```
+
 15
+
 ```
 
 ```
+
 20
+
 ```
 
 ```
+
 25
+
 ```
 
 ##### 158
@@ -16016,65 +13330,84 @@ specified by this Sanhita or provisions are made in this Sanhita for the extensi
 ##### CLASSIFICATION OF OFFENCES
 
 ```
+
 EXPLANATORY NOTES: ( 1 ) In regard to offences under the Bharatiya Nyaya Sanhita, the entries
 in the second and third columns against a section the number of which
 is given in the first column are not intended as the definition of, and the
 punishment prescribed for, the offence in the Bharatiya Nyaya Sanhita,
 but merely as indication of the substance of the section.
+
 ```
 
 ```
+
 ( 2 ) In this Schedule, ( i ) the expression “Magistrate of the first class” and
 “Any Magistrate” but not including Executive Magistrates; ( ii ) the word
 “cognizable” stands for “a police officer may arrest without warrant”;
 and ( iii ) the word “non-cognizable” stands for “a police officer shall not
 arrest without warrant”.
+
 ```
 
 I. –OFFENCES UNDER THE BHARATIYA NYAYA SANHITA
 
 ```
+
 Section Offence Punishment Cognizable or non-
 cognizable
+
 ```
 
 ```
+
 Bailable or Non-
 bailable
+
 ```
 
 ```
+
 By what
 Court triable
 1 2 3 4 5 6
+
 ```
 
 ```
+
 49 Punishment of abetment if the act abetted is
 committed in consequence and where no express
 provision is made for its punishment.
+
 ```
 
 ```
+
 Same as for
 offence abetted.
+
 ```
 
 ```
+
 According as
 offence abetted is
 cognizable or non-
 cognizable.
+
 ```
 
 ```
+
 According as
 offence abetted
 is bailable or
 non- bailable.
+
 ```
 
 ```
+
 Court by
 which
 offence
@@ -16082,10 +13415,13 @@ abetted is
 triable.
 50 Punishment of abetment if person abetted does
 act with different intention from that of abettor.
+
 ```
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 (^51) Liability of abettor when one act abetted and
@@ -16143,32 +13479,41 @@ Ditto Ditto Ditto.
 ##### 159
 
 ```
+
 (1) (2) (3) (4) (5) (6)
 57 Abetting commission of offence by the public
 or by more than ten persons.
+
 ```
 
 ```
+
 imprisonment of either
 description for a term which
 may extend to seven years
 and with fine
+
 ```
 
 ```
+
 According as offence
 abetted is cognizable
 or non-cognizable.
+
 ```
 
 ```
+
 According as
 offence abetted is
 bailable or non-
 bailable.
+
 ```
 
 ```
+
 Court by
 which offence
 abetted is
@@ -16176,93 +13521,124 @@ triable.
 58 Concealing design to commit offence
 punishable with death or imprisonment for
 life.
+
 ```
 
 ```
+
 (i) if that offence be
 committed, be punished
 with imprisonment of either
 description for a term which
 may extend to seven years;
 or
+
 ```
 
 ```
+
 Ditto non- bailable. Ditto
+
 ```
 
 ```
+
 (ii) if the offence be not
 committed, with
 imprisonment of either
 description, for a term
 which may extend to three
 years,
+
 ```
 
 ```
+
 Ditto bailable Ditto
+
 ```
 
 ```
+
 59 A public servant concealing a design to
 commit an offence which it is his duty to
 prevent, if the offence be committed.
+
 ```
 
 ```
+
 Imprisonment extending to
 half of the longest term
 provided for the offence, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto According as
 offence abetted is
 bailable or non-
 bailable.
+
 ```
 
 ```
+
 Ditto.
+
 ```
 
 ```
+
 If the offence be punishable with death or
 imprisonment for life.
+
 ```
 
 ```
+
 Imprisonment for 10 years. Ditto Non-bailable. Ditto.
+
 ```
 
 ```
+
 If the offence be not committed. Imprisonment extending to
 a quarter part of the longest
 term provided for the
 offence, or fine, or both.
+
 ```
 
 ```
+
 Ditto Bailable. Ditto.
+
 ```
 
 ```
+
 60 Concealing a design to commit an offence
 punishable with imprisonment, if offence be
 committed.
+
 ```
 
 ```
+
 Ditto Ditto According as
 offence abetted is
 bailable or non-
 bailable.
+
 ```
 
 ```
+
 Ditto.
+
 ```
 
 If the offence be not committed. Imprisonment extending to
@@ -16272,32 +13648,41 @@ the offence, or fine, or
 both.
 
 ```
+
 Ditto Bailable. Ditto.
+
 ```
 
 ```
+
 61 Criminal conspiracy to commit
 an offence punishable with
 death, imprisonment for life or
 rigorous imprisonment for a
 term of 2 years or upwards.
+
 ```
 
 ```
+
 Same as for abetment of the offence
 which is the object of the conspiracy.
+
 ```
 
 ```
+
 According as the
 offence which is
 the object of
 conspiracy is
 cognizable or
 non- cognizable.
+
 ```
 
 ```
+
 According
 as offence
 which is
@@ -16306,21 +13691,25 @@ conspiracy
 is bailable
 or non-
 bailable.
+
 ```
 
 ```
+
 Court by which
 abetment of the
 offence which
 is the object of
 conspiracy is
 triable.
+
 ```
 
 Any other criminal conspiracy. Imprisonment for 6 months, or fine, or
 both.
 
 ```
+
 Non-cognizable. Bailable. Magistrate of
 the first
 class.
@@ -16329,31 +13718,39 @@ punishable with imprisonment for
 life, or imprisonment, and in such
 attempt doing any act towards the
 commission of the offence.
+
 ```
 
 ```
+
 Imprisonment for life, or imprisonment
 not exceeding half.of the longest term,
 provided for the offence, or fine, or both
+
 ```
 
 ```
+
 According as the
 offence is
 cognizable or non-
 cognizable.
+
 ```
 
 ```
+
 According as
 the offence
 attempted by
 the offender
 is bailable or
 not.
+
 ```
 
 ```
+
 The court by
 which the
 offence
@@ -16362,21 +13759,27 @@ triable.
 64 (1) Rape. Rigorous imprisonment of not less than
 10 years but which may extend to
 imprisonment for life and with fine.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 ##### 160
 
 ```
+
 (1) (2) (3) (4) (5) (6)
 64 (2) Rape by a police officer or a public
 servant or member of armed forces
@@ -16391,33 +13794,43 @@ person in a position of trust or
 authority towards the person
 raped or by a near relative of the
 person raped.
+
 ```
 
 ```
+
 Rigorous imprisonment of not less
 than 10 years but which may extend
 to imprisonment for life which shall
 mean the remainder of that person’s
 natural life and with fine.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 ```
+
 65(1) Persons committing offence of
 rape on a woman under sixteen
 years of age.
+
 ```
 
 ```
+
 Rigorous imprisonment for a term
 which shall not be less than 20 years
 but which may extend to imprisonment
@@ -16425,22 +13838,28 @@ for life, which shall mean
 imprisonment for the remainder of that
 person’s natural life and
 with fine.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 65(2) Punishment for rape in certain
 cases.
 
 ```
+
 Rigorous imprisonment for a term
 which shall not be less than twenty
 years, but which may extend to
@@ -16448,25 +13867,32 @@ imprisonment for life, which shall
 mean imprisonment for the remainder
 of that person's natural life, and shall
 also be liable to fine.
+
 ```
 
 ```
+
 Rigorous imprisonment of not less
 than 20 years but which may extend
 to imprisonment for life which shall
 mean imprisonment for that person’s
 natural life and with fine or with
 death.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 (^66) Person committing an offence of
@@ -16542,12 +13968,16 @@ Session.
 ##### 161
 
 ```
+
 72 (1) Disclosure of identity of the
 victim of certain offences, etc.
+
 ```
 
 ```
+
 Imprisonment for two years and fine. Cognizable Ditto Any Magistrate.
+
 ```
 
 72 (3) Printing or publication of a
@@ -16555,98 +13985,134 @@ proceeding without prior
 permission of court.
 
 ```
+
 Ditto Ditto Ditto Ditto
+
 ```
 
 ```
+
 73 Assault or use of criminal force to
 woman with intent to outrage her
 modesty.
+
 ```
 
 ```
+
 Imprisonment of 1 year which may extend
 to 5 years, and with fine.
+
 ```
 
 ```
+
 Cognizable Non-bailable Any
 Magistrate
+
 ```
 
 ```
+
 74 Sexual harassment and
 punishment for sexual harassment.
 Offence specified in clause (iv) of
 sub-section (1).
+
 ```
 
 ```
+
 Rigorous imprisonment with three years,
 or with fine, or with both.
 One year, or with fine, or with both.
+
 ```
 
 ```
+
 Cognizable Bailable Any
 Magistrate
+
 ```
 
 ```
+
 75 Assault or use of criminal force to
 woman with intent to disrobe.
+
 ```
 
 ```
+
 Imprisonment of not less than 3 years but
 which may extend to 7 years and with fine.
+
 ```
 
 ```
+
 Cognizable Non-bailable Any
 Magistrate.
+
 ```
 
 ```
+
 76 Voyeurism. Imprisonment of not less than 1 year but
 which may extend to 3 years and with fine
 for first conviction.
+
 ```
 
 ```
+
 Cognizable Bailable Any
 Magistrate.
+
 ```
 
 ```
+
 Imprisonment of not less than 3 years but
 which may extend 7 years and with fine
 for second or subsequent conviction.
+
 ```
 
 ```
+
 Cognizable Non-bailable Any
 Magistrate
+
 ```
 
 ```
+
 77 Stalking. Imprisonment up to 3 years and with
 fine for first conviction.
+
 ```
 
 ```
+
 Cognizable Bailable Any
 Magistrate.
+
 ```
 
 ```
+
 Imprisonment up to 5 years and with fine
 for second or subsequent conviction.
+
 ```
 
 ```
+
 Cognizable Non-bailable Any
 Magistrate.
+
 ```
 
 (^78) Uttering any word or making any
@@ -16698,6 +14164,7 @@ Magistrate.
 married woman to cruelty.
 
 ```
+
 Imprisonment for three years and fine. Cognizable if
 information relating
 to the commission of
@@ -16718,12 +14185,15 @@ may be notified by
 the State
 Government
 in this behalf.
+
 ```
 
 ```
+
 Non-bailable Magistrate
 of the first
 class.]
+
 ```
 
 85 Kidnapping, abducting or
@@ -16731,61 +14201,81 @@ inducing woman to compel her
 marriage, etc.
 
 ```
+
 Imprisonment for 10 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Court of
 Session.
+
 ```
 
 86 Causing miscarriage. Imprisonment for 3 years, or
 fine, or both.
 
 ```
+
 Non-
 cognizable
+
 ```
 
 ```
+
 Bailable Magistrate
 of the first
 class.
 If the woman be quick with child. Imprisonment for 7 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 87 Causing miscarriage without
 women's consent
 
 ```
+
 Imprisonment for life, or imprisonment
 for 10 years and fine.
+
 ```
 
 ```
+
 Cognizable Non-bailable Court of Session.
+
 ```
 
 88 Death caused by an act done
 with intent to cause miscarriage.
 
 ```
+
 Imprisonment for 10 years and fine. Ditto Ditto Ditto.
+
 ```
 
 ```
+
 If act done without women’s
 consent.
+
 ```
 
 ```
+
 Imprisonment for life, or as above. Ditto Ditto Ditto.
+
 ```
 
 89 Act done with intent to prevent a
@@ -16793,12 +14283,16 @@ child being born alive, or to cause
 it to die after its birth.
 
 ```
+
 Imprisonment for 10 years, or fine, or
 both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 90 Causing death of a quick unborn
@@ -16806,7 +14300,9 @@ child by an act amounting to
 culpable homicide.
 
 ```
+
 Imprisonment for 10 years and fine. Ditto Ditto Ditto.
+
 ```
 
 91 Exposure of a child under 12
@@ -16815,58 +14311,74 @@ having care of it with intention
 of wholly abandoning it.
 
 ```
+
 Imprisonment for 7 years, or fine, or
 both.
+
 ```
 
 ```
+
 Ditto Bailable Magistrate of the first
 class.
+
 ```
 
 92 Concealment of birth by secret
 disposal of dead body.
 
 ```
+
 Imprisonment for 2 years, or fine, or
 both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 93 Hiring, employing or engaging a
 child to commit an offence.
 
 ```
+
 imprisonment of either description or
 fine provided for that offence as if the
 offence has been committed by such
 person himself
+
 ```
 
 ```
+
 According as
 offence
 committed is
 cognizable or
 non-
 cognizable.
+
 ```
 
 ```
+
 According as
 offence
 committed is
 bailable or
 non- bailable.
+
 ```
 
 ```
+
 Court by which
 offence committed
 is triable.
+
 ```
 
 94 Procuration of child. Ditto Ditto Ditto Ditto.
@@ -16875,8 +14387,10 @@ under ten years with intent to steal
 from its person.
 
 ```
+
 Imprisonment for 7 years and fine Ditto Ditto Magistrate of the
 first class.
+
 ```
 
 (^96) Selling child for purposes of
@@ -16893,7 +14407,9 @@ Ditto Ditto Ditto.
 ##### 163
 
 ```
+
 (1) (2) (3) (4) (5) (6)
+
 ```
 
 (^101) Murder (1) Death, or imprisonment for life, and
@@ -17059,7 +14575,9 @@ Ditto Ditto Ditto
 ##### 165
 
 ```
+
 (1) (2) (3) (4) (5) (6)
+
 ```
 
 (^110) Petty Organised crime or
@@ -17142,7 +14660,9 @@ Magistrate.
 ##### 166
 
 ```
+
 (1) (2) (3) (4) (5) (6)
+
 ```
 
 (^116) (1) Voluntarily causing hurt
@@ -17260,14 +14780,18 @@ Magistrate.
 or both.
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 125(2) Wrongfully confining any person. Imprisonment for 1 year, or
 fine of 5,000 rupees, or both.
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 125(3) Wrongfully confining for three or
@@ -17276,19 +14800,25 @@ Imprisonment for 3 years, or
 Fine of 10000 rupees, or both.
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 125(4) Wrongfully confining for 10 or more
 days.
 
 ```
+
 Imprisonment for 5 years and
 fine of 10000 rupees.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 125(5) Keeping any person in wrongful
@@ -17296,6 +14826,7 @@ confinement, knowing that a writ
 has been issued for his liberation.
 
 ```
+
 Imprisonment of either
 description for a term which
 may extend to two years in
@@ -17304,11 +14835,14 @@ imprisonment to which he may
 be liable under any other section
 of this Chapter and shall also be
 liable to fine.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of
 the first class.
+
 ```
 
 125(6) Wrongful confinement in secret. Three years in addition to any
@@ -17318,7 +14852,9 @@ confinement and shall also be
 liable to fine.
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 125(7) Wrongful confinement for the
@@ -17326,15 +14862,19 @@ purpose of extorting property, or
 constraining to an illegal act, etc.
 
 ```
+
 Imprisonment of either
 description for a term which
 may extend to three years, and
 shall also be liable to fine.
+
 ```
 
 ```
+
 Ditto Ditto Any
 Magistrate.
+
 ```
 
 125(8) Wrongful confinement for the
@@ -17343,25 +14883,33 @@ information, or of compelling
 restoration of property, etc.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 129 Assault or criminal force otherwise
 than on grave provocation.
 
 ```
+
 Three months, or with fine
 which may extend to one
 thousand rupees, or with both.
+
 ```
 
 ```
+
 Non-
 cognizable
+
 ```
 
 ```
+
 Ditto Ditto.
+
 ```
 
 130 Assault or criminal force to deter
@@ -17369,14 +14917,18 @@ public servant from discharge of his
 duty.
 
 ```
+
 imprisonment of either
 description for a term which
 may extend to two years, or with
 fine, or with both
+
 ```
 
 ```
+
 Ditto Ditto Ditto
+
 ```
 
 131 Assault or criminal force with intent
@@ -17384,19 +14936,25 @@ to dishonor a person, otherwise than
 on grave and sudden provocation.
 
 ```
+
 imprisonment of either
 description for a term which
 may extend to two years, or with
 fine, or with both
+
 ```
 
 ```
+
 Non-
 cognizable
+
 ```
 
 ```
+
 Bailable Ditto.
+
 ```
 
 132 Assault or criminal force in attempt
@@ -17404,14 +14962,18 @@ to commit theft of property worn or
 carried by a person.
 
 ```
+
 imprisonment of either
 description for a term which
 may extend to two years, or with
 fine, or with both.
+
 ```
 
 ```
+
 Cognizable Ditto Ditto.
+
 ```
 
 133 Assault or use of criminal force
@@ -17419,30 +14981,40 @@ in attempt wrongfully to confine a
 person.
 
 ```
+
 Imprisonment for 1 year, or
 fine of 5,000 rupees, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 134 Assault or use of criminal force on
 grave and sudden provocation.
 
 ```
+
 Simple imprisonment for one
 month, or fine of 1000 rupees,
 or both.
+
 ```
 
 ```
+
 Non-
 cognizable
+
 ```
 
 ```
+
 Ditto Ditto.
+
 ```
 
 135 Kidnapping Imprisonment for 7 years and
@@ -17457,36 +15029,46 @@ imprisonment for life, and shall
 also be liable to fine.
 
 ```
+
 Cognizable Non-bailable Magistrate of the
 first class.
+
 ```
 
 137(2) Maiming a child for purposes of
 begging.
 
 ```
+
 Imprisonment which shall not be
 less than 20 years which may
 extend to remainder of life, and
 with fine.
+
 ```
 
 ```
+
 Ditto Ditto Court of
 Session.
+
 ```
 
 138(1) Kidnapping or abducting in order to
 murder.
 
 ```
+
 Imprisonment for life, or
 rigorous imprisonment for
 10 years and fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ##### 168
@@ -17495,7 +15077,9 @@ Ditto Ditto Ditto.
 life and fine.
 
 ```
+
 Ditto Ditto Ditto.]
+
 ```
 
 138(3) Kidnapping or abducting with
@@ -17503,13 +15087,17 @@ intent secretly and wrongfully to
 confine a person.
 
 ```
+
 Imprisonment
 and fine.
+
 ```
 
 ```
+
 for 7 years Ditto Ditto Court of
 Session.
+
 ```
 
 138(4) Kidnapping or abducting in order to
@@ -17517,20 +15105,26 @@ subject a person to grievous hurt,
 slavery, etc.
 
 ```
+
 Imprisonment
 and fine.
+
 ```
 
 ```
+
 for 10 years Ditto Ditto Court of
 Session.
+
 ```
 
 139 Importation of a girl or boy from
 foreign country.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 140 Wrongfully concealing or keeping in
@@ -17538,16 +15132,20 @@ confinement, kidnapped or abducted
 person**.**
 
 ```
+
 Punishment for kidnapping or
 abduction.
+
 ```
 
 ```
+
 Ditto Ditto Court by
 which the
 kidnapping
 or abduction
 is triable.
+
 ```
 
 141 Trafficking of person. Imprisonment of not less than 7 years
@@ -17555,13 +15153,17 @@ but which may extend to 10 years and
 with fine.
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 Trafficking of more than one person. Imprisonment of not less than
@@ -17569,13 +15171,17 @@ Trafficking of more than one person. Imprisonment of not less than
 imprisonment for life and with fine.
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 Trafficking of a child. Imprisonment of not less than
@@ -17583,13 +15189,17 @@ Trafficking of a child. Imprisonment of not less than
 imprisonment for life and with fine.
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 Trafficking of more than one child. Imprisonment of not less than
@@ -17597,13 +15207,17 @@ Trafficking of more than one child. Imprisonment of not less than
 imprisonment for life and with fine.
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 Person convicted of offence of
@@ -17611,38 +15225,50 @@ trafficking of child on more than one
 occasion.
 
 ```
+
 Imprisonment for life which shall
 mean the remainder of that person’s
 natural life and with fine.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 Public servant or a police officer
 involved in trafficking of child.
 
 ```
+
 Imprisonment for life which shall
 mean the remainder of that person’s
 natural life and with fine.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 142 Exploitation of a trafficked child. Imprisonment of not less than
@@ -17650,13 +15276,17 @@ Session.
 to 10 years and with fine.
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 Exploitation of a trafficked person. Imprisonment of not less than
@@ -17664,13 +15294,17 @@ Exploitation of a trafficked person. Imprisonment of not less than
 to 7 years and with fine.
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.]
+
 ```
 
 143 Habitual dealing in slaves. Imprisonment for life, or
@@ -17678,21 +15312,27 @@ imprisonment for 10
 years and fine.
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 144 Unlawful compulsory labour. Imprisonment for 1 year, or
 fine, or both.
 
 ```
+
 Ditto Bailable Any
 Magistrate.
+
 ```
 
 145 Waging or attempting to wage war, or
@@ -17700,31 +15340,41 @@ abetting the waging of war, against the
 Government of India.
 
 ```
+
 Death, or imprisonment for
 life and fine.
+
 ```
 
 ```
+
 Cognizable. Non-
 bailable.
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 146 Conspiring to commit certain offences
 against the State.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 10 years
 and fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 147 Collecting arms, etc., with the
@@ -17732,13 +15382,17 @@ intention of waging war against the
 Government of India.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 10 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ##### 169
@@ -17747,12 +15401,16 @@ Ditto Ditto Ditto.
 design to wage war.
 
 ```
+
 Imprisonment for 10 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 149 Assaulting President, Governor, etc.,
@@ -17760,31 +15418,41 @@ with intent to compel or restrain the
 exercise of any lawful power.
 
 ```
+
 Imprisonment for 7 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 150 Acts endangering sovereignty unity
 and integrity of India.
 
 ```
+
 Imprisonment for life and fine,
 or imprisonment for 7 years
 and fine, or fine.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 151 Waging war against Government of
@@ -17792,13 +15460,17 @@ any foreign State at peace with the
 Government of India.
 
 ```
+
 Imprisonment for life and fine,
 or imprisonment for 7 years
 and fine, or fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 152 Committing depredation on the
@@ -17807,13 +15479,17 @@ at peace with the Government of
 India.
 
 ```
+
 Imprisonment for 7 years and
 fine, and forfeiture of certain
 property.
+
 ```
 
 ```
+
 Ditto Ditto. Ditto.
+
 ```
 
 153 Receiving property taken by war or
@@ -17821,52 +15497,68 @@ depredation mentioned in sections 153
 and 154.
 
 ```
+
 Ditto. Ditto Ditto Ditto.
+
 ```
 
 154 Public servant voluntarily allowing
 prisoner of state or war to escape.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 10 years
 and fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 155 Public servant negligently suffering
 such prisoner to escape.
 
 ```
+
 Simple imprisonment for
 3 years and fine.
+
 ```
 
 ```
+
 Ditto Bailable Magistrate of the
 first class.
+
 ```
 
 156 Aiding escape of, rescuing or
 harbouring such prisoner.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 10 years and
 fine.
+
 ```
 
 ```
+
 Ditto Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 157 Abetting mutiny, or attempting to
@@ -17874,32 +15566,42 @@ seduce a soldier, sailor or airman from
 his duty.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 10 years
 and fine.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 158 Abetment of mutiny, if mutiny is
 committed in consequence thereof.
 
 ```
+
 Death, or imprisonment for
 life, or imprisonment for
 10 years and fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 159 Abetment of assault by soldier, sailor
@@ -17907,25 +15609,33 @@ or airman on his superior officer,
 when in execution of his office.
 
 ```
+
 Imprisonment for 3 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of the
 first class.
+
 ```
 
 160 Abetment of such assault, if the
 assault committed.
 
 ```
+
 Imprisonment for 7 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto
+
 ```
 
 (^161) Abetment of desertion of soldier,
@@ -17972,64 +15682,86 @@ Ditto.
 ##### 170
 
 ```
+
 173 False statement in connection with an
 election.
+
 ```
 
 ```
+
 Fine Non-
 cognizable
+
 ```
 
 ```
+
 Ditto Ditto.
+
 ```
 
 ```
+
 174 Illegal payments in connection with
 elections.
+
 ```
 
 ```
+
 Fine of 10,000 rupees. Ditto. Ditto. Ditto.
+
 ```
 
 ```
+
 175 Failure to keep election accounts. Fine of 5,000 rupees. Ditto Ditto Ditto.
+
 ```
 
 ```
+
 176
 Counterfeiting, or performing any part
 of the process of counterfeiting, coin.
+
 ```
 
 ```
+
 imprisonment for life, or with
 imprisonment of either
 description for a term which
 may extend to ten years and
 fine.
+
 ```
 
 ```
+
 Cognizable
 Non-bailable
 Court of
 Session.
+
 ```
 
 176 Counterfeiting currency-
 notes or bank-notes.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 10 years and
 fine.
+
 ```
 
 ```
+
 Cognizable Non-bailable Court of Session.
+
 ```
 
 177 Using as genuine forged
@@ -18038,26 +15770,34 @@ counterfeit currency-notes or bank-
 notes.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 ```
+
 177 Using as genuine, forged or
 counterfeit coin, Government stamp,
 currency-notes or bank notes.
+
 ```
 
 ```
+
 imprisonment for life, or with
 imprisonment of either
 description for a term which
 may extend to ten years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Court of
 Session.
+
 ```
 
 (^177) Using as genuine, forged or
@@ -18150,33 +15890,43 @@ used for it, with intent to cause a loss
 to Government.
 
 ```
+
 Imprisonment for 3 years, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto
+
 ```
 
 182 Using a Government stamp known to
 have been before used.
 
 ```
+
 Imprisonment for 2 years, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Any
 Magistrate.
+
 ```
 
 183 Erasure of mark denoting that stamps
 have been used.
 
 ```
+
 Imprisonment for 3 years, or
 fine, or both.
+
 ```
 
 Ditto Ditto Magistrate of
@@ -18188,8 +15938,10 @@ fictitious stamp may be seized
 and forfeited.
 
 ```
+
 Ditto Ditto Any
 Magistrate.
+
 ```
 
 185 Person employed in a Mint causing
@@ -18197,29 +15949,37 @@ coin to be of a different weight or
 composition from that fixed by law.
 
 ```
+
 imprisonment of either
 description for a term which
 may extend to seven years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 186 Unlawfully taking from a Mint any
 coining instrument.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 187(2) Being member of an unlawful
 assembly.
 
 ```
+
 Imprisonment for
 6 months, or fine, or both.
+
 ```
 
 Cognizable Bailable Any
@@ -18229,19 +15989,25 @@ assembly, knowing that it has been
 commanded to disperse.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 187(4) Joining an unlawful assembly armed
 with any deadly weapon.
 
 ```
+
 Imprisonment for 2 years, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Bailable Ditto
+
 ```
 
 187(5) Knowingly joining or continuing in
@@ -18250,13 +16016,17 @@ persons after it has been commanded
 to disperse.
 
 ```
+
 Imprisonment for 6
 months, or fine or both.
+
 ```
 
 ```
+
 Ditto Bailable Any
 Magistrate.
+
 ```
 
 187(6) Hiring, engaging or employing
@@ -18264,14 +16034,18 @@ persons to take part in an unlawful
 assembly.
 
 ```
+
 The same as for a member of such
 assembly, and for any offence
 committed by any member of such
 assembly.
+
 ```
 
 ```
+
 Cognizable Ditto Ditto.
+
 ```
 
 187(7)
@@ -18279,28 +16053,36 @@ Harbouring persons hired for an
 unlawful assembly.
 
 ```
+
 Imprisonment for 6 months, or
 fine, or both.
+
 ```
 
 ```
+
 Cognizable
 Ditto
 Ditto
+
 ```
 
 187(8) Being hired to take part in an
 unlawful assembly or riot.
 
 ```
+
 Ditto Ditto Ditto Ditto
+
 ```
 
 Or to go armed. Imprisonment for 2 years, or
 fine, or both.
 
 ```
+
 Ditto Ditto Ditto
+
 ```
 
 188 Every member of unlawful
@@ -18309,22 +16091,28 @@ committed in prosecution of
 common object.
 
 ```
+
 The same as for the offence. According as
 offence is
 cognizable or non-
 cognizable
+
 ```
 
 ```
+
 According as
 offence is bailable
 or non-bailable
+
 ```
 
 ```
+
 The Court by
 which the
 offence is triable.
+
 ```
 
 189(2) Rioting. Ditto Ditto Ditto Ditto.
@@ -18332,8 +16120,10 @@ offence is triable.
 weapon.
 
 ```
+
 Imprisonment for 5 years, or fine,
 or both.
+
 ```
 
 Ditto Ditto Magistrate of
@@ -18343,12 +16133,16 @@ intent to cause riot, if rioting be
 committed.
 
 ```
+
 Imprisonment for 1 year, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Any Magistrate.
+
 ```
 
 If not committed. Imprisonment for 6 months, or
@@ -18366,7 +16160,9 @@ whose behalf a riot takes place not
 using all lawful means to prevent it.
 
 ```
+
 Fine Ditto Ditto Ditto.
+
 ```
 
 ##### 172
@@ -18376,27 +16172,35 @@ whose benefit a riot is committed not
 using all lawful means to prevent it.
 
 ```
+
 Ditto Ditto Ditto Ditto
+
 ```
 
 192(2) Committing affray Imprisonment for one month, or
 fine of 1000 rupees or both.
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 193 Assaulting or obstructing public
 servant when suppressing riot, etc.
 
 ```
+
 Imprisonment for 3 years, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of
 the first class.
+
 ```
 
 194 Promoting enmity between different
@@ -18406,44 +16210,58 @@ etc., and doing acts prejudicial to
 maintenance of harmony.
 
 ```
+
 Imprisonment for 3 years, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Non-bailable Ditto
+
 ```
 
 Promoting enmity between classes
 in place of worship, etc.
 
 ```
+
 Imprisonment for 5 years,
 and fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto
+
 ```
 
 195 Imputations, assertions prejudicial
 to national integration.
 
 ```
+
 Imprisonment for 3 years, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of
 the first- class
+
 ```
 
 If committed in a place of public
 worship, etc.
 
 ```
+
 Imprisonment for 5 years and fine. Ditto Ditto Ditto
+
 ```
 
 196 Public servant disobeying a
@@ -18451,34 +16269,44 @@ direction of the law with intent to
 cause injury to any person.
 
 ```
+
 Simple imprisonment for 1 year,
 or fine, or both.
+
 ```
 
 ```
+
 Non-cognizable Bailable Ditto.
+
 ```
 
 197 Public servant disobeying direction
 under law
 
 ```
+
 Imprisonment for minimum 6
 months which may extend to 2
 years and fine.
+
 ```
 
 ```
+
 Cognizable Bailable Magistrate of
 the first- class
+
 ```
 
 198 Non-treatment of victim by hospital Imprisonment for 1 year or fine or
 both.
 
 ```
+
 Non-cognizable Bailable Magistrate of
 the first- class
+
 ```
 
 199 Public servant framing an incorrect
@@ -18486,37 +16314,49 @@ document with intent to cause
 injury.
 
 ```
+
 Imprisonment for 3 years, or fine,
 or both.
+
 ```
 
 ```
+
 Cognizable Ditto. Ditto.
+
 ```
 
 200 Public servant unlawfully engaging
 in trade.
 
 ```
+
 Simple imprisonment for 1 year,
 or fine, or both.
+
 ```
 
 ```
+
 Non-cognizable Ditto Ditto.
+
 ```
 
 201 Public servant unlawfully buying or
 bidding for property.
 
 ```
+
 Simple imprisonment for 2 years,
 or fine, or both and confiscation of
 property, if purchased.
+
 ```
 
 ```
+
 Ditto. Ditto. Ditto.
+
 ```
 
 202 Personating a public servant. imprisonment of either description
@@ -18525,8 +16365,10 @@ than six months but may extend to
 three years and with fine
 
 ```
+
 Cognizable Non-bailable Any
 Magistrate.
+
 ```
 
 203 Wearing garb or carrying token used
@@ -18534,27 +16376,35 @@ by public servant with fraudulent
 intent.
 
 ```
+
 Imprisonment for
 3 months, or fine of 5000 rupees,
 or both.
+
 ```
 
 ```
+
 Ditto Bailable Ditto.
+
 ```
 
 204 Absconding to avoid service of
 summons or other proceeding.
 
 ```
+
 Simple imprisonment for
 1 month, or fine of 5000 rupees,
 or both.
+
 ```
 
 ```
+
 Non-cognizable Bailable Any
 Magistrate.
+
 ```
 
 If summons or notice require
@@ -18562,13 +16412,17 @@ attendance in person, etc., in a Court
 of Justice.
 
 ```
+
 Simple imprisonment for 6
 months, or fine of 10,000 rupees,
 or both
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 205 Preventing service of summons or
@@ -18576,59 +16430,81 @@ other proceeding, or preventing
 publication thereof.
 
 ```
+
 Simple imprisonment for
 1 month, or fine of 5000 rupees,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ```
+
 If summons, etc., require attendance
 in person, etc., in a Court of Justice.
+
 ```
 
 ```
+
 Simple imprisonment for 6
 months, or fine of 10,000 rupees,
 or both
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ```
+
 206 Non-attendance in obedience to an
 order from public servant.
+
 ```
 
 ```
+
 Simple imprisonment for
 1 month, or fine of 5000 rupees,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ```
+
 If the order requires personal
 attendance, etc., in a Court of
 Justice.
+
 ```
 
 ```
+
 Simple imprisonment for 6
 months, or fine of 10,000 rupees,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ##### 173
@@ -18638,13 +16514,17 @@ proclamation under section 82 of
 Act \_\_ of 2023
 
 ```
+
 Imprisonment for 3 years, or with
 fine, or with both
+
 ```
 
 ```
+
 Cognizable Non-bailable Magistrate of
 the first- class
+
 ```
 
 In a case where declaration has been
@@ -18653,7 +16533,9 @@ section 82 of this Code pronouncing
 a person as proclaimed offender
 
 ```
+
 Imprisonment for 7 years and fine Ditto Ditto Ditto
+
 ```
 
 208 Omission to produce document to
@@ -18661,14 +16543,18 @@ public servant by person legally
 bound to produce it.
 
 ```
+
 Simple imprisonment for
 1 month, or fine of 5000 rupees,
 or both.
+
 ```
 
 ```
+
 2[Non-
 cognizable]
+
 ```
 
 2[Bailable] The Court in
@@ -18687,13 +16573,17 @@ produced in or delivered to a Court
 of Justice.
 
 ```
+
 Simple imprisonment for 6
 months, or fine of 10,000 rupees,
 or both.
+
 ```
 
 ```
+
 Ditto. Ditto. Ditto.
+
 ```
 
 209 Omission to give notice or
@@ -18701,14 +16591,18 @@ information to public servant by
 person legally bound to give it..
 
 ```
+
 Simple imprisonment for
 1 month, or fine of 5000 rupees,
 or both.
+
 ```
 
 ```
+
 Ditto. Ditto. Any
 Magistrate.
+
 ```
 
 If the notice or information required
@@ -18716,13 +16610,17 @@ respects the commission of an
 offence, etc.
 
 ```
+
 Simple imprisonment for 6
 months, or fine of 10,000 rupees,
 or both.
+
 ```
 
 ```
+
 Ditto. Ditto. Ditto.
+
 ```
 
 If the notice or information is
@@ -18731,13 +16629,17 @@ sub-section (1) of section 356 of this
 Code.
 
 ```
+
 Imprisonment for
 6 months, or fine of 1,000 rupees,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 210 (a) Furnishing false information. simple imprisonment for a term
@@ -18746,7 +16648,9 @@ or with fine which may extend to
 five thousand rupees, or with both
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 (b) If the information required
@@ -18754,21 +16658,27 @@ respects the commission of an
 offence, etc.
 
 ```
+
 Imprisonment for 2 years, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 211 Refusing oath when duly required to
 take oath by a public servant.
 
 ```
+
 Simple imprisonment for
 6 months, or fine of 5,000 rupees,
 or both.
+
 ```
 
 Non-cognizable Bailable The Court in
@@ -18787,7 +16697,9 @@ Magistrate.
 authorised to question
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 213 Refusing to sign a statement made to
@@ -18795,15 +16707,19 @@ a public servant when legally
 required to do so.
 
 ```
+
 imprisonment for a term which
 may extend to three months, or
 with fine which may extend to
 three thousand rupees, or with
 both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 214 Knowingly stating to a public
@@ -18811,8 +16727,10 @@ servant on oath as true that which is
 false.
 
 ```
+
 Imprisonment for 3 years and fine. Ditto Ditto Magistrate of
 the first class.
+
 ```
 
 215 Giving false information to a public
@@ -18821,16 +16739,20 @@ his lawful power to the injury or
 annoyance of any person.
 
 ```
+
 imprisonment of either description
 for a term which may extend to
 one year, or with fine which may
 extend to ten thousand rupees, or
 with both
+
 ```
 
 ```
+
 Ditto Ditto Any
 Magistrate.
+
 ```
 
 ##### 174
@@ -18840,15 +16762,19 @@ by the lawful authority of a public
 servant.
 
 ```
+
 imprisonment of either description
 for a term which may extend to six
 months, or with fine which may
 extend to ten thousand rupees, or
 with both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 217 Obstructing sale of property offered
@@ -18856,12 +16782,16 @@ for sale by authority of a public
 servant.
 
 ```
+
 Imprisonment for 1 month, or fine
 of 5000 rupees, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 218 Illegal purchase or bid for property
@@ -18869,24 +16799,32 @@ offered for sale by authority of
 public servant.
 
 ```
+
 Imprisonment for 1 month, or fine
 of 200 rupees, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 219 Obstructing public servant in
 discharge of his public functions.
 
 ```
+
 Imprisonment for 3 months, or
 fine of 2000 rupees, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 220 (a) Omission to assist public servant
@@ -18894,12 +16832,16 @@ when bound by law to give such
 assistance.
 
 ```
+
 Simple imprisonment for 1 month,
 or fine of 2500 rupees, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 (b) Wilfully neglecting to aid a
@@ -18908,13 +16850,17 @@ the execution of process, the
 prevention of offences, etc.
 
 ```
+
 Simple imprisonment for 6
 months, or fine of 5000 rupees, or
 both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 221 (a) Disobedience to an order
@@ -18924,12 +16870,16 @@ obstruction, annoyance or injury to
 persons lawfully employed.
 
 ```
+
 Simple imprisonment for 6 month,
 or fine of 2000 rupees, or both.
+
 ```
 
 ```
+
 Cognizable Ditto Ditto.
+
 ```
 
 (b) If such disobedience causes
@@ -18938,19 +16888,25 @@ safety, or causes or tends to cause a
 riot or affray.
 
 ```
+
 Imprisonment for 1 Year, or fine
 of 5,000 rupees, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 222 Threat of injury to public servant. Imprisonment for 2 years, or fine,
 or both.
 
 ```
+
 Non- cognizable Ditto Ditto.
+
 ```
 
 223 Threat of injury to induce person to
@@ -18958,12 +16914,16 @@ refrain from applying for protection
 to public servant.
 
 ```
+
 Imprisonment for 1 year, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 224 Attempt to commit suicide to
@@ -18971,22 +16931,28 @@ compel or restraint exercise of
 lawful power.
 
 ```
+
 imprisonment for a term which
 may extend to one year or with
 fine or with both or with
 community service.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 227 (1) Giving or fabricating false
 evidence in a judicial proceeding.
 
 ```
+
 Imprisonment for 7 years and
 10000 rupees.
+
 ```
 
 Non-cognizable Bailable Magistrate of
@@ -18995,8 +16961,10 @@ the first class.
 evidence in any other case.
 
 ```
+
 Imprisonment for 3 years and
 5000 rupees.
+
 ```
 
 Ditto Ditto Any
@@ -19007,21 +16975,27 @@ person to be convicted of capital
 offence.
 
 ```
+
 Imprisonment for life, or rigorous
 imprisonment for 10 years and
 50000 rupees.
+
 ```
 
 ```
+
 Ditto Non- bailable Court of
 session.
+
 ```
 
 (2) If innocent person be thereby
 convicted and executed.
 
 ```
+
 Death, or as above. Ditto Ditto Ditto.
+
 ```
 
 229 Giving or fabricating false evidence
@@ -19032,24 +17006,30 @@ imprisonment for 7 years, or
 upwards.
 
 ```
+
 The same as for the offence. Ditto Ditto Ditto.
+
 ```
 
 230 (1) Threatening any person to give
 false evidence.
 
 ```
+
 Imprisonment for 7 years, or fine,
 or both.
+
 ```
 
 ```
+
 Cognizable Ditto Court by
 which
 offence of
 giving false
 evidence is
 triable.
+
 ```
 
 ##### 175
@@ -19061,7 +17041,9 @@ imprisonment for more than seven
 years.
 
 ```
+
 The same as for the offence. Ditto Ditto Ditto.
+
 ```
 
 231 Using in a judicial proceeding
@@ -19069,11 +17051,14 @@ evidence known to be false or
 fabricated.
 
 ```
+
 The same as for giving or
 fabricating false evidence.
+
 ```
 
 ```
+
 2[Non-cognizable] According as
 offence of
 giving such
@@ -19081,15 +17066,18 @@ evidence is
 bailable or
 non-
 bailable.
+
 ```
 
 ```
+
 Court by
 which offence
 of giving or
 fabricating
 false evidence
 is triable.
+
 ```
 
 232 Knowingly issuing or signing a false
@@ -19106,7 +17094,9 @@ triable.
 to be false in a material point.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 234 False statement made in any
@@ -19114,14 +17104,18 @@ declaration which is by law
 receivable as evidence.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 235 Using as true any such declaration
 known to be false.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 236 Causing disappearance of evidence
@@ -19131,6 +17125,7 @@ screen the offender, if a capital
 offence.
 
 ```
+
 Imprisonment for 7 years and fine. According as the
 offence in relation
 to which
@@ -19138,34 +17133,43 @@ disappearance of
 evidence is caused
 is cognizable or
 non- cognizable.
+
 ```
 
 ```
+
 Ditto Court of
 Session.
+
 ```
 
 If punishable with imprisonment for
 life or imprisonment for 10 years.
 
 ```
+
 Imprisonment for 3 years and fine. Non-cognizable Ditto Magistrate of
 the first class.
+
 ```
 
 If punishable with less than 10
 years’ imprisonment.
 
 ```
+
 Imprisonment for a quarter of the
 longest term provided for the
 offence, or fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Court by which
 the offence is
 triable.
+
 ```
 
 237 Intentional omission to give
@@ -19173,28 +17177,36 @@ information of an offence by a
 person legally bound to inform.
 
 ```
+
 imprisonment of either description
 for a term which may extend to six
 months, or with fine which may
 extend to five thousand rupees, or
 with both.
+
 ```
 
 ```
+
 Ditto Ditto Any
 Magistrate.
+
 ```
 
 238 Giving false information respecting
 an offence committed.
 
 ```
+
 Imprisonment for 2 years, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 239 Secreting or destroying any
@@ -19202,13 +17214,17 @@ document to prevent its production
 as evidence.
 
 ```
+
 Imprisonment for 3 years, or fine
 of 5000 rupees, or both.
+
 ```
 
 ```
+
 Non-cognizable Bailable Magistrate of
 the first class.
+
 ```
 
 240 False personation for the purpose
@@ -19217,12 +17233,16 @@ criminal prosecution, or for
 becoming bail or security.
 
 ```
+
 Imprisonment for 3 years, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 241 Fraudulent removal or concealment,
@@ -19232,12 +17252,16 @@ satisfaction of a fine under sentence,
 or in execution of a decree.
 
 ```
+
 Imprisonment for 3 years, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Any Magistrate.
+
 ```
 
 242 Claiming property without right, or
@@ -19248,12 +17272,16 @@ fine under sentence, or in execution
 of a decree.
 
 ```
+
 Imprisonment for 2 years, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ##### 176
@@ -19264,15 +17292,19 @@ decree to be executed after it has
 been satisfied.
 
 ```
+
 imprisonment of either description
 for a term which may extend to
 two years, or with fine, or with
 both.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of
 the first class.
+
 ```
 
 244 False claim in a Court of Justice. Imprisonment for 2 years and fine. Ditto Ditto Ditto.
@@ -19282,27 +17314,35 @@ be executed after it has been
 satisfied.
 
 ```
+
 Imprisonment for 2 years, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 246 False charge of offence made with
 intent to injure,—
 
 ```
+
 imprisonment of either description
 for a term which may extend to
 five years, or with fine which may
 extend to two lakh rupees, or with
 both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 criminal proceeding instituted on a
@@ -19313,22 +17353,28 @@ imprisonment for ten years or
 upwards.
 
 ```
+
 imprisonment of either description
 for a term which may extend to
 ten years, and shall also be liable
 to fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 247 Harbouring an offender, if the
 offence be capital.
 
 ```
+
 Imprisonment for 5 years and fine. Cognizable Ditto Magistrate of
 the first class.
+
 ```
 
 If punishable with imprisonment for
@@ -19336,21 +17382,27 @@ life or with imprisonment for
 10 years.
 
 ```
+
 Imprisonment for 3 years and fine. Ditto Ditto Ditto.
+
 ```
 
 If punishable with imprisonment for
 1 year and not for 10 years.
 
 ```
+
 Imprisonment for a quarter of the
 longest term, and of the
 descriptions, provided for the
 offence, or fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 248 Taking gift, etc., to screen an
@@ -19358,7 +17410,9 @@ offender from punishment if the
 offence be capital.
 
 ```
+
 Imprisonment for 7 years and fine. Ditto Ditto Ditto.
+
 ```
 
 If punishable with imprisonment for
@@ -19366,20 +17420,26 @@ life or with imprisonment for
 10 years.
 
 ```
+
 Imprisonment for 3 years and fine. Ditto Ditto Ditto.
+
 ```
 
 If punishable with imprisonment for
 less than 10 years.
 
 ```
+
 Imprisonment for a quarter of the
 longest term provided for the
 offence, or fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 249 Offering gift or restoration of
@@ -19388,7 +17448,9 @@ screening offender if the offence be
 capital.
 
 ```
+
 Imprisonment for 7 years and fine. Non-cognizable Ditto Ditto.
+
 ```
 
 If punishable with imprisonment for
@@ -19396,20 +17458,26 @@ life or with imprisonment for
 10 years.
 
 ```
+
 Imprisonment for 3 years and fine. Ditto Ditto Ditto.
+
 ```
 
 If punishable with imprisonment for
 less than 10 years.
 
 ```
+
 Imprisonment for a quarter of the
 longest term, provided for the
 offence, or fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 250 Taking gift to help to recover
@@ -19419,12 +17487,16 @@ without causing apprehension of
 offender.
 
 ```
+
 Imprisonment for 2 years, or fine,
 or both.
+
 ```
 
 ```
+
 Cognizable Ditto Ditto.
+
 ```
 
 251 Harbouring an offender who has
@@ -19433,8 +17505,10 @@ apprehension has been ordered, if
 the offence be capital.
 
 ```
+
 Imprisonment for 7 years and fine. Cognizable Bailable Magistrate of
 the first class.
+
 ```
 
 If punishable with imprisonment for
@@ -19442,12 +17516,16 @@ life or with imprisonment for
 10 years.
 
 ```
+
 Imprisonment for 3 years, with or
 without fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ##### 177
@@ -19456,20 +17534,26 @@ If punishable with imprisonment for
 1 year and not for 10 years.
 
 ```
+
 Imprisonment for a quarter of the
 longest term provided for the
 offence, or fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 252 Harbouring robbers or dacoits. Rigorous imprisonment for
 7 years and fine.
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 253 Public servant disobeying a
@@ -19478,12 +17562,16 @@ person from punishment, or property
 from forfeiture.
 
 ```
+
 Imprisonment for 2 years, or fine,
 or both.
+
 ```
 
 ```
+
 Non-cognizable Ditto Any Magistrate.
+
 ```
 
 254 Public servant framing an incorrect
@@ -19492,13 +17580,17 @@ person from punishment, or property
 from forfeiture.
 
 ```
+
 Imprisonment for 3 years, or fine,
 or both.
+
 ```
 
 ```
+
 Cognizable Ditto Magistrate of
 the first class.
+
 ```
 
 255 Public servant in a judicial
@@ -19508,12 +17600,16 @@ verdict, or decision which he knows
 to be contrary to law.
 
 ```
+
 Imprisonment for 7 years, or fine,
 or both.
+
 ```
 
 ```
+
 Non- cognizable Ditto Ditto.
+
 ```
 
 256 Commitment for trial or
@@ -19522,7 +17618,9 @@ authority, who knows that he is
 acting contrary to law.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 257 Intentional omission to apprehend
@@ -19531,45 +17629,59 @@ by law to apprehend an offender, if
 the offence be capital.
 
 ```
+
 Imprisonment for 7 years, with or
 without fine.
+
 ```
 
 ```
+
 According as the
 offence in relation
 to which such
 omission has been
 made is cognizable
 or non- cognizable.
+
 ```
 
 ```
+
 Ditto Ditto.
+
 ```
 
 If punishable with imprisonment for
 life or imprisonment for 10 years.
 
 ```
+
 Imprisonment for 3 years, with or
 without fine.
+
 ```
 
 ```
+
 Cognizable Ditto Ditto.
+
 ```
 
 If punishable with imprisonment for
 less than 10 years.
 
 ```
+
 Imprisonment for 2 years, with or
 without fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 258 Intentional omission to apprehend
@@ -19579,14 +17691,18 @@ sentence of a Court of Justice if
 under sentence of death.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 14 years, with or
 without fine.
+
 ```
 
 ```
+
 Ditto Non- bailable Court of
 Session.
+
 ```
 
 If under sentence of imprisonment
@@ -19594,13 +17710,17 @@ for life or imprisonment for
 10 years, or upwards.
 
 ```
+
 Imprisonment for 7 years, with or
 without fine.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of
 the first class.
+
 ```
 
 If under sentence of imprisonment
@@ -19608,12 +17728,16 @@ for less than 10 years or lawfully
 committed to custody.
 
 ```
+
 Imprisonment for 3 years, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Bailable Ditto.
+
 ```
 
 259 Escape from confinement
@@ -19621,24 +17745,32 @@ negligently suffered by a public
 servant.
 
 ```
+
 Simple imprisonment for 2 years,
 or fine, or both.
+
 ```
 
 ```
+
 Non-cognizable Ditto Any Magistrate.
+
 ```
 
 260 Resistance or obstruction by a
 person to his lawful apprehension.
 
 ```
+
 Imprisonment for 2 years, or fine,
 or both.
+
 ```
 
 ```
+
 Cognizable Ditto Ditto.
+
 ```
 
 261 Resistance or obstruction to the
@@ -19647,7 +17779,9 @@ or rescuing him from lawful
 custody.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 If charged with an offence
@@ -19655,8 +17789,10 @@ punishable with imprisonment for
 life or imprisonment for 10 years.
 
 ```
+
 Imprisonment for 3 years and fine. Ditto Non- bailable Magistrate of
 the first class.
+
 ```
 
 If charged with a capital offence. Imprisonment for 7 years and fine. Ditto Ditto Ditto.
@@ -19666,18 +17802,24 @@ imprisonment for 10 years, or
 upwards.
 
 ```
+
 Imprisonment for 7 years
 and fine.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Magistrate of
 the first class.
+
 ```
 
 If under sentence of death Imprisonment for life, or
@@ -19685,8 +17827,10 @@ imprisonment for 10 years
 and fine.
 
 ```
+
 Ditto Ditto Court of
 Session.
+
 ```
 
 ##### 178
@@ -19701,21 +17845,27 @@ or sufferance;
 sufferance.
 
 ```
+
 Imprisonment for 3 years,
 or fine, or both.
+
 ```
 
 ```
+
 Non-cognizable Bailable Magistrate of
 the first class.
+
 ```
 
 Simple imprisonment for 2
 years, or fine, or both.
 
 ```
+
 Ditto Ditto Any
 Magistrate.
+
 ```
 
 (^263) Resistance or obstruction to lawful
@@ -19819,28 +17969,36 @@ Ditto Bailable Ditto
 preparation.
 
 ```
+
 imprisonment of either
 description for a term which
 may extend to six months, or
 with fine which may extend to
 five thousand rupees, or with
 both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto
+
 ```
 
 277 Fouling water of public spring or
 reservoir.
 
 ```
+
 Imprisonment for 6 months, or
 fine of 5000 rupees, or both.
+
 ```
 
 ```
+
 Cognizable Bailable Any Magistrate.
+
 ```
 
 (^278) Making atmosphere noxious to health. Fine of 1000 rupees Non-cognizable (^) Ditto Ditto
@@ -19925,98 +18083,135 @@ Ditto Ditto Ditto
 ##### 180
 
 ```
+
 294 Obscene acts and songs imprisonment of either
 description for a term which
 may extend to three months, or
 with fine which may extend to
 one thousand rupees, or with
 both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ```
+
 295 (1) Keeping a lottery office Imprisonment for 6 months, or
 fine or both.
+
 ```
 
 ```
+
 Non-cognizable Ditto Ditto.
+
 ```
 
 ```
+
 (2) Publishing proposals relating to
 lotteries.
+
 ```
 
 ```
+
 fine which may extend to five
 thousand rupees.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ```
+
 296 Injuring or defiling place of worship,
 with intent to insult the religion of any
 class.
+
 ```
 
 ```
+
 Imprisonment for 2 years, or
 fine or both.
+
 ```
 
 ```
+
 Cognizable Non-
 Bailable
+
 ```
 
 ```
+
 Any Magistrate.
+
 ```
 
 ```
+
 297 Deliberate and malicious acts, intended
 to outrage religious feelings of any
 class by insulting its religion or
 religious beliefs
+
 ```
 
 ```
+
 Imprisonment for 3 years, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of the
 first class.
+
 ```
 
 ```
+
 298 Disturbing religious assembly. Imprisonment for 1 year, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Bailable Any Magistrate.
+
 ```
 
 ```
+
 299 Trespassing on burial places, etc. Ditto Ditto Ditto Ditto.
 300 Uttering words, etc., with deliberate
 intent to wound religious feelings.
+
 ```
 
 ```
+
 Ditto Non-cognizable Ditto Ditto.
+
 ```
 
 ```
+
 301 Theft Rigorous imprisonment for a
 term which shall not be less
 than one year but which may
@@ -20031,26 +18226,35 @@ value of property or restoration
 of the stolen property, shall be
 punished with community
 service.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Any Magistrate.
+
 ```
 
 ```
+
 302 Snatching. imprisonment of either
 description for a term which
 may extend to three years, and
 shall also be liable to fine
+
 ```
 
 ```
+
 Non-cognizable Bailable Ditto.
+
 ```
 
 (^303) Theft in a dwelling house, or means of
@@ -20101,40 +18305,55 @@ for 10 years in order to commit
 extortion.
 
 ```
+
 Imprisonment for 10 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ```
+
 306(7) Extortion by threat of accusation of an
 offence punishable with death,
 imprisonment for life, or imprisonment
 for 10 years.
+
 ```
 
 ```
+
 Imprisonment for 10 years and
 fine.
+
 ```
 
 ```
+
 Ditto Bailable Ditto.
+
 ```
 
 ```
+
 If the offence threatened be an
 unnatural offence.
+
 ```
 
 ```
+
 Imprisonment for life Ditto Ditto Ditto.
+
 ```
 
 ```
+
 If the offence be an unnatural offence. Imprisonment for life. Ditto Ditto Ditto.
 307 Robbery (2) Rigorous imprisonment for
 10 years and fine.
@@ -20145,139 +18364,191 @@ seven years, and fine.
 with rigorous imprisonment for
 a term which may extend to ten
 years, and fine.
+
 ```
 
 ```
+
 Ditto Non-
 bailable
+
 ```
 
 ```
+
 Ditto.
+
 ```
 
 ```
+
 308(2) Dacoity imprisonment for a term which
 may extend to ten years, and
 shall also be liable to fine.
+
 ```
 
 ```
+
 Ditto Ditto Court of
 Session.
+
 ```
 
 ```
+
 308(3) Murder in dacoity Death, imprisonment for life, or
 rigorous imprisonment for 10
 years and fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ```
+
 308(4) Making preparation to commit dacoity. Rigorous imprisonment for 10
 years and fine.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
 308(5) Being one of five or more persons
 assembled for the purpose of
 committing dacoity.
+
 ```
 
 ```
+
 Ditto Ditto Ditto Court of
 Session.
+
 ```
 
 ```
+
 308(6) Belonging to a gang of persons
 associated for the purpose of habitually
 committing dacoity.
+
 ```
 
 ```
+
 Imprisonment for life, or
 rigorous imprisonment for 10
 years and fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ```
+
 309 Robbery or dacoity, with attempt to
 cause death or grievous hurt.
+
 ```
 
 ```
+
 Rigorous imprisonment for not
 less than 7 years.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 ```
+
 310 Attempt to commit robbery or dacoity
 when armed with deadly weapon.
+
 ```
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 ```
+
 311 Belonging to a wandering gang of
 persons associated for the purpose of
 habitually committing thefts.
+
 ```
 
 ```
+
 Rigorous imprisonment for 7
 years and fine.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of the
 first class.
+
 ```
 
 ```
+
 312 Dishonest misappropriation of movable
 property, or converting it to one’s own
 use.
+
 ```
 
 ```
+
 Not be less than six months but
 which may extend to two years
 and with fine.
+
 ```
 
 ```
+
 Non-cognizable Bailable Any Magistrate.
+
 ```
 
 ```
+
 313 Dishonest misappropriation of property
 possessed by deceased person at the
 time of his death.
+
 ```
 
 ```
+
 Imprisonment of either
 description for a term which
 may extend to three years, and
@@ -20287,11 +18558,14 @@ such person's decease was
 employed by him as a clerk or
 servant, the imprisonment may
 extend to seven years.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of the
 first class.
+
 ```
 
 ##### 182
@@ -20300,12 +18574,16 @@ first class.
 fine, or both.
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Ditto.
+
 ```
 
 314(3) (^) Criminal breach of trust by a carrier,
@@ -20411,7 +18689,9 @@ may extend to two years, or
 with fine, or with both.
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 (5) imprisonment of either
@@ -20420,7 +18700,9 @@ may extend to five years, or
 with fine, or with both.
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 (6) imprisonment of either
@@ -20429,21 +18711,27 @@ may extend to five years, and
 shall also be liable to fine.
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 323 Mischief by killing or maiming
 animal
 
 ```
+
 imprisonment of either
 description for a term which
 may extend to five years, or
 with fine, or with both
+
 ```
 
 ```
+
 Cognizable Ditto Ditto.
+
 ```
 
 324(a) Mischief by causing diminution of
@@ -20451,7 +18739,9 @@ supply of water for agricultural
 purposes, etc.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 324(b) Mischief by injury to public road,
@@ -20461,7 +18751,9 @@ or less safe for travelling or conveying
 property.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 324(c) Mischief by causing inundation or
@@ -20469,7 +18761,9 @@ obstruction to public drainage
 attended with damage.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 324(d) Mischief by destroying or moving or
@@ -20477,12 +18771,16 @@ rendering less useful a lighthouse or
 seamark, or by exhibiting false lights.
 
 ```
+
 Imprisonment for 7 years, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 324(e) Mischief by destroying or moving,
@@ -20490,12 +18788,16 @@ etc., a landmark fixed by public
 authority.
 
 ```
+
 Imprisonment for 1 year, or
 fine, or both.
+
 ```
 
 ```
+
 Non-cognizable Ditto Any Magistrate.
+
 ```
 
 324(f) Mischief by fire or explosive
@@ -20505,13 +18807,17 @@ upwards, or, in case of agricultural
 produce, 10 rupees or upwards.
 
 ```
+
 Imprisonment for 7 years and
 fine.
+
 ```
 
 ```
+
 Cognizable Ditto Magistrate of the
 first class.
+
 ```
 
 324(g) (^) Mischief by fire or explosive
@@ -20560,13 +18866,17 @@ Ditto Ditto Ditto.
 breaking by night.
 
 ```
+
 Imprisonment for 3 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Any
 Magistrate.
+
 ```
 
 329(3) Lurking house-trespass or house-
@@ -20575,23 +18885,31 @@ of an offence punishable with
 imprisonment.
 
 ```
+
 Imprisonment for 3 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 If the offence be theft Imprisonment for 10 years
 
 ```
+
 and fine.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of
 the first class.
+
 ```
 
 329(4) Lurking house-trespass or house-
@@ -20600,23 +18918,31 @@ commission of an offence punishable
 with imprisonment.
 
 ```
+
 Imprisonment for 5 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of the
 first class.
+
 ```
 
 If the offence is theft Imprisonment for 14 years
 
 ```
+
 and fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 329(5) Lurking house-trespass or house-
@@ -20624,7 +18950,9 @@ breaking after preparation made for
 causing hurt, assault, etc.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 329(6) Lurking house-trespass or house-
@@ -20632,7 +18960,9 @@ breaking by night, after preparation
 made for causing hurt, etc.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 329(7) Grievous hurt caused whilst
@@ -20640,14 +18970,18 @@ committing lurking house-trespass or
 house-breaking.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 10 years
 and fine.
+
 ```
 
 ```
+
 Ditto Ditto Court of
 Session.
+
 ```
 
 329(8) Death or grievous hurt caused by one
@@ -20655,7 +18989,9 @@ of several persons jointly concerned in
 house-breaking by night, etc.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 330(a) House-trespass in order to the
@@ -20663,19 +18999,25 @@ commission of an offence punishable
 with death.
 
 ```
+
 Imprisonment for life, or
 rigorous imprisonment for
 10 years and fine.
+
 ```
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Court of
 Session.
+
 ```
 
 330(b) House-trespass in order to the
@@ -20683,12 +19025,16 @@ commission of an offence punishable
 with imprisonment for life.
 
 ```
+
 Imprisonment for 10 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 330(c) House-trespass in order to the
@@ -20696,28 +19042,38 @@ commission of an offence punishable
 with imprisonment.
 
 ```
+
 Imprisonment for 2 years
 and fine.
+
 ```
 
 ```
+
 Ditto Bailable Any
 Magistrate.
+
 ```
 
 If the offence is theft Imprisonment for 7 years
 
 ```
+
 and fine.
+
 ```
 
 ```
+
 Ditto Non-
 bailable
+
 ```
 
 ```
+
 Ditto.
+
 ```
 
 331 House-trespass, having made
@@ -20725,7 +19081,9 @@ preparation for causing hurt, assault,
 etc.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 332(1) Dishonestly breaking open or
@@ -20734,12 +19092,16 @@ containing or supposed to contain
 property.
 
 ```
+
 Imprisonment for 2 years or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Any Magistrate.
+
 ```
 
 332(2) Being entrusted with any closed
@@ -20748,20 +19110,26 @@ contain any property, and fraudulently
 opening the same.
 
 ```
+
 Imprisonment for 3 years or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Bailable Ditto
+
 ```
 
 334(2) Forgery Imprisonment for 2 years, or
 fine, or both.
 
 ```
+
 Non-cognizable Bailable Magistrate of
 the first class.
+
 ```
 
 ##### 185
@@ -20770,13 +19138,17 @@ the first class.
 fine.
 
 ```
+
 Cognizable Non-
 bailable
+
 ```
 
 ```
+
 Magistrate of the
 first class.
+
 ```
 
 334(4) Forgery for the purpose of harming
@@ -20785,12 +19157,16 @@ knowing that it is likely to be used for
 that purpose.
 
 ```
+
 Imprisonment for 3 years and
 fine.
+
 ```
 
 ```
+
 Ditto Bailable Ditto.
+
 ```
 
 335 Forgery of a record of a Court of
@@ -20798,17 +19174,23 @@ Justice or of a Registrar of Births, etc.,
 kept by a public servant.
 
 ```
+
 Imprisonment for 7 years and
 fine
+
 ```
 
 ```
+
 Ditto Non-
 bailable
+
 ```
 
 ```
+
 Ditto.
+
 ```
 
 336 Forgery of a valuable security, will, or
@@ -20817,13 +19199,17 @@ valuable security, or to receive any
 money, etc.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 10 years and
 fine
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 When the valuable security is a
@@ -20831,8 +19217,10 @@ promissory note of the central
 government
 
 ```
+
 Ditto
 Cognizable Ditto Ditto.
+
 ```
 
 337 Having possession of a document,
@@ -20843,7 +19231,9 @@ section 335 of the Bhartiya Nyaya
 Sanhita.
 
 ```
+
 Ditto. Ditto. Ditto. Ditto.
+
 ```
 
 If the document is one of the
@@ -20851,25 +19241,33 @@ description mentioned in section 336
 of the Bhartiya Nyaya Sanhita.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 7 years and
 fine.
+
 ```
 
 ```
+
 Non-cognizable Ditto Ditto.
+
 ```
 
 338(2) Using as genuine a forged document
 which is known to be forged.
 
 ```
+
 Punishment for forgery of such
 document.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 When the forged document is a
@@ -20877,7 +19275,9 @@ promissory note of the Central
 Government.
 
 ```
+
 Ditto Ditto Ditto Ditto.
+
 ```
 
 339(1) Making or counterfeiting a seal, plate,
@@ -20889,13 +19289,17 @@ etc., knowing the same to be
 counterfeit.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 7 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 339(2) Making or counterfeiting a seal, plate,
@@ -20907,12 +19311,16 @@ any such seal, plate, etc., knowing the
 same to be counterfeit.
 
 ```
+
 Imprisonment for 7 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 340(1) Counterfeiting a device or mark used
@@ -20922,7 +19330,9 @@ Bhartiya Nyaya Sanhita, or possessing
 counterfeit marked material.
 
 ```
+
 Ditto. Ditto. Ditto. Ditto.
+
 ```
 
 340(2) Counterfeiting a device or mark used
@@ -20933,17 +19343,23 @@ possessing counterfeit marked
 material.
 
 ```
+
 Imprisonment for 7 years and
 fine.
+
 ```
 
 ```
+
 Ditto Non-
 bailable
+
 ```
 
 ```
+
 Ditto.
+
 ```
 
 341 Fraudulently destroying or defacing,
@@ -20951,20 +19367,26 @@ or attempting to destroy or deface, or
 secreting, a will, etc.
 
 ```
+
 Imprisonment for life, or
 imprisonment for 7 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto. Ditto.
+
 ```
 
 342 Falsification of accounts. Imprisonment for 7 years or
 fine, or both.
 
 ```
+
 Ditto Bailable Ditto.
+
 ```
 
 ##### 186
@@ -20973,12 +19395,16 @@ Ditto Bailable Ditto.
 to deceive or injure any person.
 
 ```
+
 Imprisonment for 1 year, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Any Magistrate.
+
 ```
 
 344 Removing, destroying or defacing
@@ -20986,12 +19412,16 @@ property mark with intent to cause
 injury.
 
 ```
+
 Imprisonment for 1 year, or fine,
 or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 345(1) Counterfeiting a property mark used by
@@ -20999,12 +19429,16 @@ another, with intent to cause damage or
 injury.
 
 ```
+
 Imprisonment for 2 years, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 345(2) Counterfeiting a property mark used by
@@ -21013,13 +19447,17 @@ him to denote the manufacture, quality,
 etc., of any property.
 
 ```
+
 Imprisonment for 3 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of the
 first class.
+
 ```
 
 346 Fraudulently making or having
@@ -21028,24 +19466,32 @@ instrument for counterfeiting any
 public or private property mark.
 
 ```
+
 Imprisonment for 3 years, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto. Ditto. Ditto.
+
 ```
 
 347 Knowingly selling goods marked with
 a counterfeit property mark.
 
 ```
+
 Imprisonment for 1 year, or
 fine, or both.
+
 ```
 
 ```
+
 Non-cognizable Bailable Any Magistrate.
+
 ```
 
 348(1) Fraudulently making a false mark upon
@@ -21055,12 +19501,16 @@ believed that it contains
 goods, which it does not contain, etc.
 
 ```
+
 Imprisonment for 3 years or,
 fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 348(2) Making use of any such false mark. Ditto Ditto Ditto Ditto.
@@ -21068,20 +19518,26 @@ Ditto Ditto Ditto.
 fine, or both.
 
 ```
+
 Non-cognizable Bailable Ditto.
+
 ```
 
 349(3) If threat be to cause death or grievous
 hurt, etc.
 
 ```
+
 Imprisonment for 7 years, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Magistrate of the
 first class.
+
 ```
 
 349(4) Criminal intimidation by anonymous
@@ -21090,25 +19546,33 @@ precaution to conceal whence the threat
 comes.
 
 ```
+
 Imprisonment for 2 years, in
 addition to the punishment
 under above section.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 350 Insult intended to provoke breach of
 the peace.
 
 ```
+
 Imprisonment for 2 years, or
 fine, or both.
+
 ```
 
 ```
+
 Non-cognizable Bailable Any Magistrate.
+
 ```
 
 351 False statement, rumour, etc.,
@@ -21116,17 +19580,23 @@ circulated with intent to cause mutiny
 or offence against the public peace.
 
 ```
+
 Imprisonment for 3 years, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Non-
 bailable
+
 ```
 
 ```
+
 Ditto.
+
 ```
 
 False statement, rumour, etc., with
@@ -21134,7 +19604,9 @@ intent to create enmity, hatred or ill-
 will between different classes.
 
 ```
+
 Ditto Cognizable Ditto Ditto.
+
 ```
 
 False statement, rumour, etc., made in
@@ -21142,12 +19614,16 @@ place of worship, etc., with intent to
 create enmity, hatred or ill-will.
 
 ```
+
 Imprisonment for 5 years and
 fine.
+
 ```
 
 ```
+
 Ditto Ditto Ditto.
+
 ```
 
 352 Act caused by inducing a person to
@@ -21155,12 +19631,16 @@ believe that he will be rendered an
 object of Divine displeasure.
 
 ```
+
 Imprisonment for 1 year, or
 fine, or both.
+
 ```
 
 ```
+
 Ditto Ditto Any Magistrate.
+
 ```
 
 353 Appearing in a public place, etc., in a
@@ -21168,14 +19648,18 @@ state of intoxication, and causing
 annoyance to any person.
 
 ```
+
 Simple imprisonment for 24
 hours, or fine of 1000 rupees, or
 both or with community
 service.
+
 ```
 
 ```
+
 Non-cognizable Ditto Ditto.
+
 ```
 
 354(2) Defamation against the President or the
@@ -21188,24 +19672,31 @@ complaint made by the Public
 Prosecutor.
 
 ```
+
 Simple imprisonment for 2
 years, or community service or
 fine, or both
+
 ```
 
 ```
+
 Non-cognizable Bailable Court of
 Session.
+
 ```
 
 ```
+
 Defamation in any other case Ditto Ditto Ditto Magistrate of the
 first class.
+
 ```
 
 ##### 187
 
 ```
+
 354(3) Printing or engraving matter knowing
 it to be defamatory against the
 President or the Vice-President or the
@@ -21215,24 +19706,32 @@ respect of his conduct in the discharge
 of his public functions when instituted
 upon a complaint made by the Public
 Prosecutor.
+
 ```
 
 ```
+
 Simple imprisonment for 2
 years, or fine, or both
+
 ```
 
 ```
+
 Ditto Ditto Court of
 Session.
+
 ```
 
 ```
+
 Printing or engraving matter knowing
 it to be defamatory, in any other case.
+
 ```
 
 ```
+
 Ditto Ditto Ditto Magistrate of
 the first class.
 354(4) Sale of printed or engraved substance
@@ -21245,60 +19744,81 @@ Minister in respect of his conduct in
 the discharge of his public functions
 when instituted upon a complaint
 made by the Public Prosecutor.
+
 ```
 
 ```
+
 Ditto Ditto Ditto Court of
 Session.
+
 ```
 
 ```
+
 Sale of printed or engraved substance
 containing defamatory matter,
 knowing it to contain such matter in
 any other case.
+
 ```
 
 ```
+
 Ditto Ditto Ditto Magistrate of the
 first class.
+
 ```
 
 ```
+
 355 Being bound to attend on or supply
 the wants of a person who is helpless
 from youth, unsoundness of mind or
 disease, and voluntarily omitting to do
 so.
+
 ```
 
 ```
+
 Imprisonment for 3 months, or
 fine of 5000 rupees, or both.
+
 ```
 
 ```
+
 Non-cognizable Bailable Any Magistrate.
+
 ```
 
 ```
+
 I. —CLASSIFICATION OF OFFENCES AGAINST OTHER LAWS
+
 ```
 
 ```
+
 Offence Cognizable
 or non-
 cognizable
+
 ```
 
 ```
+
 Bailable or
 non- bailable
+
 ```
 
 ```
+
 By what court
 triable
+
 ```
 
 If punishable with death, imprisonment for life, or imprisonment for more than 7 years Cognizable Non-bailable Court of Session.
@@ -21308,26 +19828,36 @@ If punishable with imprisonment for less than 3 years or with fine only. Non-
 cognizable
 
 ```
+
 Bailable Any Magistrate.
+
 ```
 
 ```
+
 188
+
 ```
 
 ##### THE SECOND SCHEDULE
 
 ```
+
 ( See section 524)
+
 ```
 
 ```
+
 FORM No. 1
 SUMMONS TO AN ACCUSED PERSON
+
 ```
 
 ```
+
 ( See section 63)
+
 ```
 
 To ( _name of accused_ ) of ( _address_ )
@@ -21337,13 +19867,17 @@ shortly the offence charged_ ), you are hereby required to appear in person ( _o
 be_ ) before the ( _Magistrate_ ) of , on the day. Herein fail not.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 189
+
 ```
 
 #### FORM No. 2
@@ -21351,7 +19885,9 @@ Dated, this day of , 20.
 ##### WARRANT OF ARREST
 
 ```
+
 ( See section 72)
+
 ```
 
 #### To (name and designation of the person or persons who is or are to execute the warrant).
@@ -21367,37 +19903,51 @@ Dated, this day of , 20.
 #### ( Seal of the Court ) ( Signature )
 
 ```
+
 ( See section 73)
+
 ```
 
 #### This warrant may be endorsed as follows:—
 
 ```
+
 If the said shall give bail himself in the sum
 of rupees with one surety in the sum of rupees (or two
 sureties each in the sum of rupees ) to attend before me on the day of and
 to continue so to attend until otherwise directed by me, he may be released.
+
 ```
 
 ```
+
 Dated, this
+
 ```
 
 ```
+
 ( Seal of the Court )
+
 ```
 
 ```
+
 day of
 , 20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 ```
+
 190
+
 ```
 
 #### FORM No. 3
@@ -21405,7 +19955,9 @@ day of
 ##### BOND AND BAIL-BOND AFTER ARREST UNDER A WARRANT
 
 ```
+
 ( See section 83)
+
 ```
 
 I, ( _name_ ), of , being brought before
@@ -21416,11 +19968,15 @@ said charge, and to continue so to attend until otherwise directed by the Court;
 default herein, I bind myself to forfeit, to Government, the sum of rupees
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 I do hereby declare myself surety for the above-named of that
@@ -21434,7 +19990,9 @@ Court; and, in case of his making default therein, I bind myself to forfeit, to 
 #### ( Signature )
 
 ```
+
 191
+
 ```
 
 #### FORM No. 4
@@ -21455,13 +20013,17 @@ appear at ( _place_ ) before this Court ( _or_ before me) to answer the said
 complaint on the day of
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 192
+
 ```
 
 #### FORM No. 5
@@ -21484,13 +20046,17 @@ of next at o’clock to be examined touching the
 offence complained of.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 193
+
 ```
 
 #### FORM No. 6
@@ -21498,7 +20064,9 @@ Dated, this day of , 20.
 ##### ORDER OF ATTACHMENT TO COMPEL THE ATTENDANCE OF A WITNESS
 
 ```
+
 ( See section 85)
+
 ```
 
 To the officer in charge of the police station at
@@ -21517,13 +20085,17 @@ under attachment pending the further order of this Court, and to return this war
 certifying the manner of its execution.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 194
+
 ```
 
 #### FORM No. 7
@@ -21531,13 +20103,17 @@ Dated, this day of , 20.
 ##### ORDER OF ATTACHMENT TO COMPEL THE APPEARANCE OF A PERSON ACCUSED
 
 ```
+
 ( See section 85)
+
 ```
 
 To
 
 ```
+
 ( name and designation of the person or persons who is or are to execute the warrant ).
+
 ```
 
 WHEREAS complaint has been made before me that ( _name, description
@@ -21558,7 +20134,9 @@ or both\*, of sub-section ( _2_ ) of section 85, and to hold the same under atta
 this Court, and to return this warrant with an endorsement certifying the manner of its execution.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 #### ( Seal of the Court ) ( Signature )
@@ -21566,7 +20144,9 @@ Dated, this day of , 20.
 - Strike out the one which is not applicable, depending on the nature of the property to be attached.
 
 ```
+
 195
+
 ```
 
 #### FORM No. 8
@@ -21574,7 +20154,9 @@ Dated, this day of , 20.
 ##### ORDER AUTHORISING AN ATTACHMENT BY THE DISTRICT MAGISTRATE OR COLLECTOR
 
 ```
+
 ( See section 85)
+
 ```
 
 To the District Magistrate/Collector of the District of
@@ -21595,7 +20177,9 @@ pending the further order of this Court, and to certify without delay what you m
 of this order.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
@@ -21605,7 +20189,9 @@ Dated, this day of , 20.
 ##### ————
 
 ```
+
 196
+
 ```
 
 #### FORM No. 9
@@ -21613,7 +20199,9 @@ Dated, this day of , 20.
 ##### WARRANT IN THE FIRST INSTANCE TO BRING UP A WITNESS
 
 ```
+
 ( See section 90)
+
 ```
 
 To
@@ -21631,13 +20219,17 @@ and on the day of to bring him before this Court , to be
 examined touching the offence complained of.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 197
+
 ```
 
 #### FORM No. 10
@@ -21645,7 +20237,9 @@ Dated, this day of , 20.
 ##### WARRANT TO SEARCH AFTER INFORMATION OF A PARTICULAR OFFENCE
 
 ```
+
 ( See section 96)
+
 ```
 
 To
@@ -21664,13 +20258,17 @@ be confined_ ), and, if found, to produce the same forthwith before this Court, 
 an endorsement certifying what you have done under it, immediately upon its execution.
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 198
+
 ```
 
 #### FORM No. 11
@@ -21678,7 +20276,9 @@ Dated, this day of ,20.
 ##### WARRANT TO SEARCH SUSPECTED PLACE OF DEPOSIT
 
 ```
+
 ( See section 97)
+
 ```
 
 #### To
@@ -21701,7 +20301,9 @@ Court such of the said things as may be taken possession of, returning this warr
 certifying what you have done under it, immediately upon its execution.
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
@@ -21721,15 +20323,21 @@ inquiry and, in case of my making default therein, I hereby bind myself to forfe
 of rupees
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 ```
+
 199
+
 ```
 
 #### FORM No. 13
@@ -21737,7 +20345,9 @@ Dated, this day of ,20.
 ##### BOND FOR GOOD BEHAVIOUR
 
 ```
+
 ( See sections 127, 128 and 129)
+
 ```
 
 WHEREAS I, ( _name_ ), inhabitant of ( _place_ ),
@@ -21749,19 +20359,27 @@ the said inquiry; and, in case of my making default therein, I hereby bind mysel
 the sum of rupees
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 ```
+
 ( Where a bond with sureties is to be executed, add )
+
 ```
 
 ```
+
 We do hereby declare ourselves sureties for the above-named
+
 ```
 
 that he will be of good behaviour to Government and all the citizens of India during the said term or until
@@ -21769,27 +20387,39 @@ the completion of the said inquiry; and, in case of his making default therein, 
 severally, to forfeit to Government the sum of rupees
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 ```
+
 200
+
 ```
 
 ```
+
 FORM No. 14
+
 ```
 
 ```
+
 SUMMONS ON INFORMATION OF A PROBABLE BREACH OF THE PEACE
+
 ```
 
 ```
+
 ( See section 132)
+
 ```
 
 To of
@@ -21804,25 +20434,35 @@ _as the case may be_ ) surety ( _or sureties_ ) in the sum of rupees (each _if m
 will keep the peace for the term of
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 #### ( Seal of the Court ) ( Signature )
 
 ```
+
 201
+
 ```
 
 ```
+
 FORM No. 15
+
 ```
 
 ```
+
 WARRANT OF COMMITMENT ON FAILURE TO FIND SECURITY TO KEEP THE PEACE
+
 ```
 
 ```
+
 ( See section 141)
+
 ```
 
 To the Officer in charge of the Jail at
@@ -21842,38 +20482,52 @@ together with this warrant, and him safely to keep in the said Jail for the said
 ordered to be released, and to return this warrant with an endorsement certifying the manner of its execution.
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 202
+
 ```
 
 ```
+
 FORM No. 16
+
 ```
 
 ```
+
 WARRANT OF COMMITMENT ON FAILURE TO FIND SECURITY FOR GOOD BEHAVIOUR
+
 ```
 
 ```
+
 ( See section 141)
+
 ```
 
 To the Officer in charge of the Jail at
 
 ```
+
 WHEREAS it has been made to appear to me that ( name and description )
+
 ```
 
 has been concealing his presence within the district of and that there is
 reason to believe that he is doing so with a view to committing a cognizable offence;
 
 ```
+
 or
+
 ```
 
 WHEREAS evidence of the general character of ( _name and description_ )
@@ -21893,25 +20547,35 @@ therein, for the said period of ( _term of imprisonment_ ) unless he shall in th
 be released, and to return this warrant with an endorsement certifying the manner of its execution.
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 203
+
 ```
 
 ```
+
 FORM No. 17
+
 ```
 
 ```
+
 WARRANT TO DISCHARGE A PERSON IMPRISONED ON FAILURE TO GIVE SECURITY
+
 ```
 
 ```
+
 ( See sections 141 and 142)
+
 ```
 
 To the Officer in charge of the Jail at ( _or other officer in whose custody the person is)._
@@ -21921,7 +20585,9 @@ custody under warrant of the Court, dated the day of 20; and has since
 duly given security under section of the Bharatiya Nagarik Suraksha Sanhita, 2023.
 
 ```
+
 or
+
 ```
 
 WHEREAS ( _name and description of prisoner_ ) was committed to your custody
@@ -21933,25 +20599,35 @@ This is to authorise and require you forthwith to discharge the said ( _name_ ) 
 your custody unless he is liable to be detained for some other cause.
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 204
+
 ```
 
 ```
+
 FORM No. 18
+
 ```
 
 ```
+
 WARRANT OF IMPRISONMENT ON FAILURE TO PAY MAINTENANCE
+
 ```
 
 ```
+
 ( See section 145)
+
 ```
 
 To the Officer in charge of the Jail at
@@ -21975,7 +20651,9 @@ the said Jail, together with this warrant, and there carry the said order into e
 returning this warrant with an endorsement certifying the manner of its execution.
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
@@ -21983,25 +20661,35 @@ Dated, this day of ,20.
 ##### 205
 
 ```
+
 FORM No. 19
+
 ```
 
 ```
+
 WARRANT TO ENFORCE THE PAYMENT OF MAINTENANCE BY ATTACHMENT AND SALE
+
 ```
 
 ```
+
 ( See section 144)
+
 ```
 
 To
 
 ```
+
 ( name and designation of the police officer or other person to execute the warrant ).
+
 ```
 
 ```
+
 WHEREAS an order has been duly made requiring ( name ) to
+
 ```
 
 allow to his said wife ( _or_ child _or_ father _or_ mother) for maintenance the monthly sum of rupees
@@ -22017,21 +20705,29 @@ much thereof as shall be sufficient to satisfy the said sum, returning this warr
 certifying what you have done under it, immediately upon its execution.
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 FORM No. 20
+
 ```
 
 ```
+
 ORDER FOR THE REMOVAL OF NUISANCES
+
 ```
 
 ```
+
 ( See section 152)
+
 ```
 
 To ( _name, description and address_ ).
@@ -22049,7 +20745,9 @@ place where it is carried on_ ), and that the same is injurious to the public he
 suppressed or removed to different place;
 
 ```
+
 or
+
 ```
 
 ##### 206
@@ -22060,11 +20758,15 @@ thoroughfare_ ), and that the safety of the public is endangered by reason of th
 _or_ excavation) being without a fence _or_ insecurely fenced);
 
 ```
+
 or
+
 ```
 
 ```
+
 WHEREAS, etc., etc., ( as the case may be );
+
 ```
 
 I do hereby direct and require you within ( _state the time allowed_ ) ( _state
@@ -22073,7 +20775,9 @@ at in the Court of on the day of next,
 and to show cause why this order should not be enforced;
 
 ```
+
 or
+
 ```
 
 I do hereby direct and require you within ( _state the time allowed_ ) to cease
@@ -22081,36 +20785,50 @@ carrying on the said trade or occupation at the said place, and not again to car
 the said trade from the place where it is now carried on, or to appear, etc.;
 
 ```
+
 or
+
 ```
 
 I do hereby direct and require you within ( _state the time allowed_ ) to
 put up a sufficient fence ( _state the kind of fence and the part to be fenced_ ); or to appear, etc.;
 
 ```
+
 or
+
 ```
 
 ```
+
 I do hereby direct and require you, etc., etc. ( as the case may be ).
+
 ```
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 FORM No. 21
+
 ```
 
 ```
+
 MAGISTRATE’S NOTICE AND PEREMPTORY ORDER
+
 ```
 
 ```
+
 ( See section 160)
+
 ```
 
 To ( _name, description and address_ ).
@@ -22122,7 +20840,9 @@ proper. Such order has been made absolute, and I hereby direct and require you t
 disobedience thereto.
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
@@ -22134,72 +20854,100 @@ Dated, this day of ,20.
 ##### INJUNCTION TO PROVIDE AGAINST IMMINENT DANGER PENDING INQUIRY
 
 ```
+
 ( See section 161)
+
 ```
 
 ```
+
 To ( name, description and address ).
+
 ```
 
 ```
+
 WHEREAS the inquiry into the conditional order issued by me on the day of ,20 , is pending,
 and it has been made to appear to me that the nuisance mentioned in the said order is attended with such
 imminent danger or injury of a serious kind to the public as to render necessary immediate measures to
 prevent such danger or injury, I do hereby, under the provisions of section 161 of the Bharatiya Nagarik
 Suraksha Sanhita, 2023, direct and enjoin you forthwith to ( state plainly what is required to be done as a
 temporary safeguard ), pending the result of the inquiry.
+
 ```
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ```
+
 ( Seal of the Court ) ( Signature )
+
 ```
 
 ##### 208
 
 ```
+
 FORM No. 23
+
 ```
 
 ```
+
 MAGISTRATE’S ORDER PROHIBITING THE REPETITION, ETC., OF A NUISANCE
+
 ```
 
 ```
+
 ( See section 162)
+
 ```
 
 To ( _name, description and address_ ).
 
 ```
+
 WHEREAS it has been made to appear to me that, etc. ( state the proper recital, guided by Form No. 20
+
 ```
 
 _or_ Form No. 24, _as the case may be_ );
 
 ```
+
 I do hereby strictly order and enjoin you not to repeat or continue, the said nuisance.
+
 ```
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 FORM No. 24
+
 ```
 
 ```
+
 MAGISTRATE’S ORDER TO PREVENT OBSTRUCTION, RIOT, ETC.
+
 ```
 
 ```
+
 ( See section 163)
+
 ```
 
 To ( _name, description and address_ ).
@@ -22210,7 +20958,9 @@ a portion of the earth and stones dug-up upon the adjoining public road, so as t
 to persons using the road;
 
 ```
+
 or
+
 ```
 
 WHEREAS it has been made to appear to me that you and a number of other persons ( _mention the
@@ -22218,11 +20968,15 @@ class of persons_ ) are about to meet and proceed in a procession along the publ
 may be_ ) and that such procession is likely to lead to a riot or an affray;
 
 ```
+
 or
+
 ```
 
 ```
+
 WHEREAS, etc., etc., ( as the case may be );
+
 ```
 
 I do hereby order you not to place or permit to be placed any of the earth or stones dug from land on any
@@ -22231,32 +20985,44 @@ part of the said road;
 ##### 209
 
 ```
+
 or
+
 ```
 
 I do hereby prohibit the procession passing along the said street, and strictly warn and enjoin you not
 to take any part in such procession ( _or as the case recited may require_ ).
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 ——————
+
 ```
 
 ```
+
 FORM No. 25
+
 ```
 
 ```
+
 MAGISTRATE’S ORDER DECLARING PARTY ENTITLED TO RETAIN POSSESSION OF LAND, ETC., IN DISPUTE
+
 ```
 
 ```
+
 ( See section 164)
+
 ```
 
 It appears to me, on the grounds duly recorded, that a dispute, likely to induce a breach of the peace,
@@ -22272,7 +21038,9 @@ entitled to retain such possession until ousted by due course of law, and do str
 of his ( _or_ their) possession in the meantime.
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
@@ -22280,15 +21048,21 @@ Dated, this day of ,20.
 ##### 210
 
 ```
+
 FORM No. 26
+
 ```
 
 ```
+
 WARRANT OF ATTACHMENT IN THE CASE OF A DISPUTE AS TO THE POSSESSION OF LAND, ETC.
+
 ```
 
 ```
+
 ( See section 165)
+
 ```
 
 To the officer in charge of the police station at
@@ -22310,7 +21084,9 @@ a competent Court determining the rights of the parties, or the claim to possess
 and to return this warrant with an endorsement certifying the manner of its execution.
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
@@ -22318,15 +21094,21 @@ Dated, this day of ,20.
 ##### 211
 
 ```
+
 FORM No. 27
+
 ```
 
 ```
+
 MAGISTRATE’S ORDER PROHIBITING THE DOING OF ANYTHING ON LAND OR WATER
+
 ```
 
 ```
+
 ( See section 166)
+
 ```
 
 A dispute having arisen concerning the right of use of ( _state concisely the
@@ -22344,28 +21126,38 @@ enjoyment of the right of use aforesaid, until he ( _or_ they) shall obtain the 
 Court adjudging him ( _or_ them) to be entitled to exclusive possession;
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 FORM No. 28
+
 ```
 
 ```
+
 BOND AND BAIL-BOND ON A PRELIMINARY INQUIRY BEFORE A POLICE OFFICER
+
 ```
 
 ```
+
 ( See section 189)
+
 ```
 
 I, ( _name_ ), _of_ , being charged with the offence of , and
 after inquiry required to appear before the Magistrate of
 
 ```
+
 or
+
 ```
 
 and after inquiry called upon to enter into my own recognizance to appear when required, do hereby bind
@@ -22374,11 +21166,15 @@ on such day as I may hereafter be required to attend) to answer further to the s
 making default herein. I bind myself to forfeit to Government, the sum of rupees;
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 I hereby declare myself ( _or_ we jointly and severally declare ourselves and each of us) surety ( _or
@@ -22391,11 +21187,15 @@ answer to the charge pending against him, and, in case of his making default the
 ( _or_ we hereby bind ourselves) to forfeit to Government the sum of rupees;
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 ##### ——————
@@ -22403,15 +21203,21 @@ Dated, this day of , 20.
 ##### 213
 
 ```
+
 FORM No. 29
+
 ```
 
 ```
+
 BOND TO PROSECUTE OR GIVE EVIDENCE
+
 ```
 
 ```
+
 ( See section 190)
+
 ```
 
 I, ( _name_ ) of ( _place_ ), do hereby bind myself to attend
@@ -22421,33 +21227,47 @@ evidence) in the matter of a charge of against one A.B., and, in case of making 
 herein, I bind myself to forfeit to Government the sum of rupees........
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 To,
 
 ```
+
 FORM No. 30
+
 ```
 
 ```
+
 SPECIAL SUMMONS TO A PERSON ACCUSED OF A PETTY OFFENCE
+
 ```
 
 ```
+
 ( See section 229)
+
 ```
 
 ```
+
 ( Name of the accused )
+
 ```
 
 ```
+
 of ( address )
+
 ```
 
 WHEREAS your attendance is necessary to answer a charge of a petty offence ( _state shortly the offence
@@ -22459,7 +21279,9 @@ guilty through such pleader, to authorise such pleader in writing to make such a
 and to pay the fine through such pleader. Herein fail not.
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
@@ -22469,15 +21291,21 @@ Dated, this day of ,20.
 ##### 214
 
 ```
+
 FORM No. 31
+
 ```
 
 ```
+
 NOTICE OF COMMITMENT BY MAGISTRATE TO PUBLIC PROSECUTOR
+
 ```
 
 ```
+
 ( See section 232)
+
 ```
 
 The Magistrate of hereby gives notice that he has committed one for
@@ -22488,7 +21316,9 @@ The charge against the accused is that, etc. ( _state the offence as in the
 charge_ )
 
 ```
+
 Dated, this day of ,20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
@@ -22496,23 +21326,31 @@ Dated, this day of ,20.
 ##### ——————
 
 ```
+
 215
+
 ```
 
 ```
+
 FORM No. 32
 CHARGES
+
 ```
 
 ```
+
 ( See sections 234, 235 and 236)
+
 ```
 
 ##### I. CHARGES WITH ONE-HEAD
 
 ```
+
 (1) ( a ) I, ( name and office of Magistrate, etc. ),
 hereby charge you ( name of accused person ) as follows:—
+
 ```
 
 ( _b_ ) On section 147.—That you, on or about the day of , at , waged
@@ -22520,18 +21358,25 @@ war against the Government of India and thereby committed an offence punishable 
 Bhartiya Nyaya Sanhita, and within the cognizance of this Court.
 
 ```
+
 ( c ) And I hereby direct that you be tried by this Court on the said charge.
+
 ```
 
 ```
+
 ( Signature and seal of the Magistrate )
+
 ```
 
 ```
-[ To be substituted for ( b )]:—
+
+[ To be substituted for ( b )]: —
+
 ```
 
 ```
+
 (2) On section 151.—That you, on or about the day of , at , with the
 intention of inducing the President of India [ or, as the case may be , the Governor of ( name of State )]
 to refrain from exercising a lawful power as such President ( or, as the case may be , the Government)
@@ -22560,23 +21405,30 @@ of the Bharatiya Nyaya Sanhita, 2023, and within the cognizance of this Court.
 (8) On section 310( 2 ).—That you, on or about the day of , at ,
 robbed ( state the name ), and thereby committed an offence punishable under section 310( 2 )
 of the Bharatiya Nyaya Sanhita, 2023, and within the cognizance of this Court.
+
 ```
 
 ```
+
 216
+
 ```
 
 ```
+
 (9) On section 311( 2 ).—That you, on or about the day of , at ,
 committed dacoity, an offence punishable under section 311( 2 ) of the Bharatiya Nyaya Sanhita, 2023 and
 within the cognizance of this Court.
+
 ```
 
 ##### II. CHARGES WITH TWO OR MORE HEADS
 
 ```
+
 (1) ( a ) I, ( name and office of Magistrate, etc. ), hereby
 charge you ( name of accused person ) as follows:—
+
 ```
 
 ( _b_ ) On section 179.— _First_ —That you, on or about the day of , at ,
@@ -22585,67 +21437,89 @@ thereby committed an offence punishable under section 179 of the Bharatiya Nyaya
 the cognizance of the Court of Session.
 
 ```
+
 Secondly —That you, on or about the day of , at , knowing a
 coin to be counterfeit attempted to induce another person, by name, A.B., to receive it as genuine, and
 thereby committed an offence punishable under section 179 of the Bharatiya Nyaya Sanhita, 2023 and
 within the cognizance of the Court of Session.
+
 ```
 
 ```
+
 ( c ) And I hereby direct that you be tried by the said Court on the said charge.
+
 ```
 
 ```
+
 ( Signature and seal of the Magistrate )
+
 ```
 
 ```
-[ To be substituted for ( b )]:—
+
+[ To be substituted for ( b )]: —
+
 ```
 
 ```
+
 (2) On sections 103 and 105.— First —That you, on or about the day of , at ,
 committed murder by causing the death of , and thereby committed an offence
 punishable under section 103 of the Bharatiya Nyaya Sanhita, 2023 and within the cognizance of the Court
 of Session.
+
 ```
 
 ```
+
 Secondly —That you, on or about the day of , at , by causing
 the death of , committed culpable homicide not amounting to murder, and thereby
 committed an offence punishable under section 105 of the Bharatiya Nyaya Sanhita, 2023 and within the
 cognizance of the Court of Session.
+
 ```
 
 ```
+
 (3) On sections 304( 2 ) and 308.— First —That you, on or about the day of , at ,
 committed theft, and thereby committed an offence punishable under section 304( 2 ) of the Bharatiya Nyaya
 Sanhita, 2023 and within the cognizance of the Court of Session.
+
 ```
 
 ```
+
 Secondly —That you, on or about the day of , at , committed
 theft, having made preparation for causing death to a person in order to the committing of such theft, and
 thereby committed an offence punishable under section 308 of the Bharatiya Nyaya Sanhita, 2023 and
 within the cognizance of the Court of Session.
+
 ```
 
 ```
+
 Thirdly —That you, on or about the day of , at , committed theft, having
 made preparation for causing restraint to a person in order to the effecting of your escape after the
 committing of such theft, and thereby committed an offence punishable under section 308 of the Bharatiya
 Nyaya Sanhita, 2023 and within the cognizance of the Court of Session.
+
 ```
 
 ```
+
 Fourthly —That you, on or about the day of , at , committed
 theft, having made preparation for causing fear of hurt to a person in order to the restraining of property
 taken by such theft and thereby committed an offence punishable under section 308 of the Bharatiya Nyaya
 Sanhita, 2023 and within the cognizance of the Court of Session.
+
 ```
 
 ```
+
 217
+
 ```
 
 (4) Alternative charge on section 230.—That you, on or about the day of , at ,
@@ -22660,13 +21534,17 @@ cognizance of the Court of Session.
 of Session”.)
 
 ```
+
 218
+
 ```
 
 ##### III. CHARGES FOR THEFT AFTER PREVIOUS CONVICTION
 
 ```
+
 I, ( name and office of Magistrate, etc. )
+
 ```
 
 hereby charge you ( _name of accused person_ ) as follows: —
@@ -22683,16 +21561,22 @@ under which the accused was convicted_ ), which conviction is still in full forc
 thereby liable to enhanced punishment under section 16 of the Bharatiya Nyaya Sanhita, 2023.
 
 ```
+
 And I hereby direct that you be tried, etc.
+
 ```
 
 ```
+
 FORM No. 33
 SUMMONS TO WITNESS
+
 ```
 
 ```
+
 ( See sections 63 and 267)
+
 ```
 
 To of
@@ -22709,25 +21593,35 @@ that, if you shall without just excuse neglect or refuse to appear on the said d
 compel your attendance.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 219
+
 ```
 
 ```
+
 FORM No. 34
+
 ```
 
 ```
+
 WARRANT OF COMMITMENT ON A SENTENCE OF IMPRISONMENT OR FINE IF PASSED BY A COURT
+
 ```
 
 ```
+
 ( See sections 258, 271 and 278)
+
 ```
 
 To the Officer in charge of Jail at
@@ -22745,25 +21639,35 @@ into your custody in the said Jail, together with this warrant, and thereby carr
 execution according to law.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 220
+
 ```
 
 ```
+
 FORM No. 35
+
 ```
 
 ```
+
 WARRANT OF IMPRISONMENT ON FAILURE TO PAY COMPENSATION
+
 ```
 
 ```
+
 ( See section 273)
+
 ```
 
 To the Officer in charge of Jail at
@@ -22785,26 +21689,36 @@ unless the said sum be sooner paid, and on the receipt thereof, forthwith to set
 warrant with an endorsement certifying the manner of its execution.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 221
+
 ```
 
 ```
+
 FORM No. 36
+
 ```
 
 ```
+
 ORDER REQUIRING PRODUCTION IN COURT OF PERSON IN PRISON FOR ANSWERING TO CHARGE OF
 OFFENCE
+
 ```
 
 ```
+
 ( See section 302)
+
 ```
 
 To the Officer in charge of Jail at
@@ -22823,7 +21737,9 @@ And you are further required to inform the said of the contents of this order an
 deliver to him the attached copy thereof.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ )
@@ -22835,23 +21751,33 @@ Countersigned.
 ( _Signature_ )
 
 ```
+
 222
+
 ```
 
 ```
+
 FORM No. 37
+
 ```
 
 ```
+
 ORDER REQUIRING PRODUCTION IN COURT OF PERSON IN PRISON FOR GIVING EVIDENCE
+
 ```
 
 ```
+
 ( See section 302)
+
 ```
 
 ```
+
 To the Officer in charge of the Jail at
+
 ```
 
 WHEREAS complaint has been made before this Court that ( _name of the
@@ -22868,7 +21794,9 @@ And you are further required to inform the said of the contents of this order
 and deliver to him the attached copy thereof.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ )
@@ -22877,27 +21805,39 @@ Dated, this day of , 20.
 ( _Seal_ )
 
 ```
+
 Countersigned.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 ```
+
 223
+
 ```
 
 ```
+
 FORM No. 38
+
 ```
 
 ```
+
 WARRANT OF COMMITMENT IN CERTAIN CASES OF CONTEMPT WHEN A FINE IS IMPOSED
+
 ```
 
 ```
+
 ( See section 384)
+
 ```
 
 To the Officer in charge of the Jail at
@@ -22916,26 +21856,36 @@ receipt thereof, forthwith to set him at liberty, returning this warrant with an
 manner of its execution.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 224
+
 ```
 
 ```
+
 FORM No. 39
+
 ```
 
 ```
+
 MAGISTRATE’S OR JUDGE’S WARRANT OF COMMITMENT OF WITNESS REFUSING TO ANSWER OR TO
 PRODUCE DOCUMENT
+
 ```
 
 ```
+
 ( See section 388)
+
 ```
 
 To
@@ -22943,7 +21893,9 @@ To
 ( _name and designation of officer of Court_ )
 
 ```
+
 WHEREAS ( name and description ),
+
 ```
 
 being summoned ( _or_ brought before this Court) as a witness and this day required to give evidence on an
@@ -22961,25 +21913,35 @@ to be dealt with according to law, returning this warrant with an endorsement ce
 execution.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 225
+
 ```
 
 ```
+
 FORM No. 40
+
 ```
 
 ```
+
 WARRANT OF COMMITMENT UNDER SENTENCE OF DEATH
+
 ```
 
 ```
+
 ( See section 407)
+
 ```
 
 To the Officer in charge of the Jail at
@@ -22995,25 +21957,35 @@ into your custody in the said Jail, together with this warrant, and him there sa
 receive the further warrant or order of this Court, carrying into effect the order of the said Court.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 226
+
 ```
 
 ```
+
 FORM No. 41
+
 ```
 
 ```
+
 WARRANT AFTER A COMMUTATION OF A SENTENCE
+
 ```
 
 ```
+
 ( See sections 427, 454 and 457)
+
 ```
 
 To the Officer in charge of the Jail at
@@ -23032,32 +22004,44 @@ authority and custody for the purpose of his undergoing the punishment of impris
 said order,
 
 ```
+
 or
+
 ```
 
 _if the mitigated sentence is one of imprisonment, say, after the words_ “custody in the said Jail”, “and there
 to carry into execution the punishment of imprisonment under the said order according to law”.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 227
+
 ```
 
 ```
+
 FORM No. 42
+
 ```
 
 ```
+
 WARRANT OF EXECUTION OF A SENTENCE OF DEATH
+
 ```
 
 ```
+
 ( See sections 454 and 455)
+
 ```
 
 To the Officer in charge of the Jail at
@@ -23074,29 +22058,41 @@ execution_ ), and to return this warrant to the Court with an endorsement certif
 executed.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 228
+
 ```
 
 ```
+
 FORM No. 43
+
 ```
 
 ```
+
 WARRANT TO LEVY A FINE BY ATTACHMENT AND SALE
+
 ```
 
 ```
+
 ( See section 462)
+
 ```
 
 ```
+
 To
+
 ```
 
 ( _name and designation of the police officer or other person or persons who is or are to execute the
@@ -23114,29 +22110,41 @@ the movable property attached, or so much thereof as shall be sufficient to sati
 this warrant, with an endorsement certifying what you have done under it, immediately upon its execution.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 229
+
 ```
 
 ```
+
 FORM No. 44
+
 ```
 
 ```
+
 WARRANT FOR RECOVERY OF FINE
+
 ```
 
 ```
+
 ( See section 462)
+
 ```
 
 ```
+
 To the Collector of the district of
+
 ```
 
 WHEREAS ( _name, address and description of the offender_ ) was
@@ -23151,25 +22159,35 @@ from the movable or immovable property, or both, of the said ( _name_ )
 and to certify without delay what you have done in pursuance of this order.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 230
+
 ```
 
 ```
+
 [FORM No. 44A
+
 ```
 
 ```
+
 BOND FOR APPEARANCE OF OFFENDER RELEASED PENDING REALISATION OF FINE
+
 ```
 
 ```
+
 [ See section 465 ( 1 ) ( b )]
+
 ```
 
 WHEREAS I, ( _name_ ) inhabitant of ( _place_ ), have
@@ -23184,11 +22202,15 @@ following date ( _or_ dates), namely:—
 and, in case of making default herein, I bind myself to forfeit to Government the sum of rupees.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 ##### WHERE A BOND WITH SURETIES IS TO BE EXECUTED, ADD—
@@ -23200,27 +22222,39 @@ And, in case of his making default therein, we bind ourselves jointly and severa
 Government the sum of rupees.
 
 ```
+
 ( Signature ).]
+
 ```
 
 ```
+
 231
+
 ```
 
 ```
+
 FORM No. 45
+
 ```
 
 ```
+
 BOND AND BAIL-BOND FOR ATTENDANCE BEFORE OFFICER IN CHARGE OF POLICE STATION OR COURT
+
 ```
 
 ```
+
 ( See sections 480, 481, 482, 483, 484 and 487)
+
 ```
 
 ```
+
 I, ( name ), of ( place ), having been arrested or detained
+
 ```
 
 without warrant by the Officer in charge of police station ( _or_ having been brought
@@ -23230,11 +22264,15 @@ or Court on every day on which any investigation or trial is held with regard to
 of my making default herein, I bind myself to forfeit to Government the sum of rupees.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 I hereby declare myself ( _or_ we jointly and severally declare ourselves and each of us) surety
@@ -23246,27 +22284,39 @@ him (as the case may be), and, in case of his making default herein, I hereby bi
 bind ourselves) to forfeit to Government the sum of rupees.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 ```
+
 232
+
 ```
 
 ```
+
 FORM No. 46
+
 ```
 
 ```
+
 WARRANT TO DISCHARGE A PERSON IMPRISONED ON FAILURE TO GIVE SECURITY
+
 ```
 
 ```
+
 ( See section 489)
+
 ```
 
 To the Officer in charge of the Jail at
@@ -23281,26 +22331,36 @@ This is to authorise and require you forthwith to discharge the said ( _name_ ) 
 custody, unless he is liable to be detained for some other matter.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 233
+
 ```
 
 ```
+
 [FORM No. 47
+
 ```
 
 ```
+
 WARRANT OF ATTACHMENT TO ENFORCE A BOND
+
 ```
 
 ```
+
 ( See section 493)
 To the Police Officer in charge of the police station at
+
 ```
 
 WHEREAS ( _name, description and address of person_ ) has failed
@@ -23316,29 +22376,41 @@ be sufficient to realise the amount aforesaid, and to make return of what you ha
 immediately upon its execution.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ ).]
 
 ```
+
 234
+
 ```
 
 ```
+
 FORM No. 48
+
 ```
 
 ```
+
 NOTICE TO SURETY ON BREACH OF A BOND
+
 ```
 
 ```
+
 ( See section 493)
+
 ```
 
 ```
+
 To of
+
 ```
 
 WHEREAS on the day of , 20 , you became
@@ -23352,25 +22424,35 @@ You are hereby required to pay the said penalty or show cause, within days from 
 date, why payment of the said sum should not be enforced against you.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 235
+
 ```
 
 ```
+
 FORM No. 49
+
 ```
 
 ```
+
 NOTICE TO SURETY OF FORFEITURE OF BOND FOR GOOD BEHAVIOUR
+
 ```
 
 ```
+
 ( See section 493)
+
 ```
 
 To of
@@ -23387,29 +22469,41 @@ You are hereby required to pay the said penalty of rupees or to show cause
 within days why it should not be paid.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 236
+
 ```
 
 ```
+
 FORM No. 50
+
 ```
 
 ```
+
 WARRANT OF ATTACHMENT AGAINST A SURETY
+
 ```
 
 ```
+
 ( See section 493)
+
 ```
 
 ```
+
 To of
+
 ```
 
 WHEREAS ( _name, description and address_ ) has bound himself
@@ -23424,29 +22518,41 @@ as may be sufficient to realise the amount aforesaid, and make return of what yo
 warrant immediately upon its execution.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 237
+
 ```
 
 ```
+
 FORM No. 51
+
 ```
 
 ```
+
 WARRANT OF COMMITMENT OF THE SURETY OF AN ACCUSED PERSON ADMITTED TO BAIL
+
 ```
 
 ```
+
 ( See section 493)
+
 ```
 
 ```
+
 To the Superintendent (or Keeper) of the Civil Jail at
+
 ```
 
 WHEREAS ( _name and description of surety_ ) has bound
@@ -23463,25 +22569,35 @@ in the said Jail for the said ( _term of imprisonment_ ), and to return this war
 endorsement certifying the manner of its execution.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 238
+
 ```
 
 ```
+
 FORM No. 52
+
 ```
 
 ```
+
 NOTICE TO THE PRINCIPAL OF FORFEITURE OF BOND TO KEEP THE PEACE
+
 ```
 
 ```
+
 ( See section 493)
+
 ```
 
 To ( _name, description and address_ )
@@ -23494,35 +22610,49 @@ You are hereby called upon to pay the said penalty of rupees or to show cause be
 me within days why payment of the same should not be enforced against you.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 239
+
 ```
 
 ```
+
 FORM No. 53
+
 ```
 
 ```
+
 WARRANT TO ATTACH THE PROPERTY OF THE PRINCIPAL ON BREACH OF A BOND TO KEEP THE PEACE
+
 ```
 
 ```
+
 ( See section 493)
+
 ```
 
 To
 
 ```
+
 ( name and designation of police officer ), at the police station of
+
 ```
 
 ```
+
 WHEREAS ( name and description ) did, on
+
 ```
 
 the day of , 20 , enter into a bond for the sum of rupees binding
@@ -23538,35 +22668,49 @@ so attached, or so much of it as may be sufficient to realize the same; and to m
 done under this warrant immediately upon its execution.
 
 ```
+
 Dated, this
+
 ```
 
 ( _Seal of the Court_ )
 
 ```
+
 day of
 , 20.
+
 ```
 
 ```
+
 ( Signature )
+
 ```
 
 ```
+
 240
+
 ```
 
 ```
+
 FORM No. 54
+
 ```
 
 ```
+
 WARRANT OF IMPRISONMENT ON BREACH OF A BOND TO KEEP THE PEACE
+
 ```
 
 ```
+
 ( See section 493)
 To the Superintendent (or Keeper) of the Civil Jail at
+
 ```
 
 WHEREAS proof has been given before me and duly recorded that ( _name and
@@ -23583,29 +22727,41 @@ warrant, and to keep his safely in the said Jail for the said period of ( _term 
 imprisonment_ ), and to return this warrant with an endorsement certifying the manner of its execution.
 
 ```
+
 Dated, this day of , 20.
+
 ```
 
 ( _Seal of the Court_ ) ( _Signature_ )
 
 ```
+
 241
+
 ```
 
 ```
+
 FORM No. 55
+
 ```
 
 ```
+
 WARRANT OF ATTACHMENT AND SALE ON FORFEITURE OF BOND FOR GOOD BEHAVIOUR
+
 ```
 
 ```
+
 ( See section 493)
+
 ```
 
 ```
+
 To the Police Officer in charge of the police station at
+
 ```
 
 (^) WHEREAS ( _name, description and address_ ) did, on the day
@@ -23668,11 +22824,13 @@ Dated, this day of , 20.
 ##### STATEMENT OF OBJECTS AND REASONS
 
 ```
+
 The Code of Criminal Procedure, 1973 regulates the procedure for arrest,
 investigation, inquiry and trial of offences under the Indian Penal Code and under any
 other law governing criminal offences. The Code provides for a mechanism for conducting
 trials in a criminal case. It gives the procedure for registering a complaint, conducting a
 trial and passing an order, and filing an appeal against any order.
+
 ```
 
 2. Fast and efficient justice system is an essential component of good governance.
@@ -23712,8 +22870,10 @@ _The_ 9th _August_ , 2023. AMIT SHAH.
 ##### NOTES ON CLAUSES
 
 ```
+
 Clause 1 of the Bill seeks to provide for short title, extent and commencement.
 Clause 2 of the Bill seeks to provide to Definitions.
+
 ```
 
 This Clause relates to definition of certain expressions used in the proposed legislation.
@@ -23762,11 +22922,15 @@ This Clause provides, subject to the control of the High Court, the Chief Judici
 Magistrate may, from time to time, define the local limits of the areas.
 
 ```
+
 Clause 13 of the Bill relates to Subordination of Judicial Magistrates.
+
 ```
 
 ```
+
 244
+
 ```
 
 This Clause provides Chief Judicial Magistrate shall be subordinate to the Sessions
@@ -23777,6 +22941,7 @@ This Clause provides that in every district, the State Government may appoint as
 many persons as it thinks fit to be Executive Magistrates.
 
 ```
+
 Clause 15 of the Bill relates to Special Executive Magistrates.
 This Clause provides the State Government may appoint, for such term as it may think
 fit, Executive Magistrates or any police officer not below the rank of Superintendent of Police
@@ -23817,26 +22982,34 @@ rupees, or of both.
 Clause 24 of the Bill relates to sentence of imprisonment in default of fine.
 This Clause provides the Court of a Judicial Magistrate may award such term of
 imprisonment in default of payment of fine as is authorised by law subject to certain conditions.
+
 ```
 
 ```
+
 Clause 25 of the Bill relates to Sentence in cases of conviction of several offences at
 one trial.
+
 ```
 
 ```
+
 This Clause provides the court shall, considering the gravity of offences, order such
 punishments to run concurrently or consecutively.
 Clause 26 of the Bill relates to Mode of conferring powers.
+
 ```
 
 ```
+
 This Clause provides the High Court or the State Government, as the case may be,
 may, by order, empower persons specially by name or in virtue of their offices or classes of
 officials generally be their official titles.
+
 ```
 
 ```
+
 Clause 27 of the Bill relates to Powers of officers appointed.
 Clause 28 of the Bill relates to Withdrawal of powers.
 This Clause provides the High Court or the State Government, as the case may be, may
@@ -23844,34 +23017,43 @@ withdraw all or any of the powers conferred on any person or by any officer subo
 it.
 Clause 29 of the Bill relates to Powers of Judges and Magistrates exercisable by their
 successors-in-office.
+
 ```
 
 ```
+
 This Clause provides the powers and duties of a Judge or Magistrate may be exercised
 or performed by his successor-in-office.
 Clause 30 of the Bill relates to Powers of superior officers of police.
+
 ```
 
 ```
+
 This Clause provides the Police officers superior in rank to an officer in charge of a
 police station may exercise the same powers, throughout the local area to which they are
 appointed, as may be exercised by such officer within the limits of his station.
 Clause 31 of the Bill relates to Public when to assist Magistrates and police.
+
 ```
 
 ```
+
 This Clause provides every person be bound to assist a Magistrate or police officer
 reasonably demanding his aid for arrest, prevent breach of peace or to prevent damages to
 public property.
+
 ```
 
 ```
+
 Clause 32 of the Bill relates to Aid to person, other than police officer, executing
 warrant.
 This Clause provides a warrant be directed to a person other than a police officer, any
 other person may aid in the execution of such warrant, if the person to whom the warrant is
 directed were near at hand and acting in the execution of the warrant.
 Clause 33 of the Bill relates to Public to give information of certain offences.
+
 ```
 
 _Clause_ 34 of the Bill relates to Duty of officers employed in connection with the affairs
@@ -23882,16 +23064,20 @@ or to the officer in charge of the nearest police station with regards to commis
 certain offences.
 
 ```
+
 Clause 35 of the Bill relates to circumstances leads to arrest without warrant by the
 police.
 This Clause provide any police officer may without an order from a Magistrate and
 without a warrant, arrest any person commits a cognizable offence and other certain
 circumstances.
+
 ```
 
 ```
+
 Clause 36 of the Bill relates to Procedure of arrest and duties of officer making arrest.
 Clause 37 of the Bill relates to Designated Police Officer.
+
 ```
 
 This Clause provides the State shall establish a Police control room in every district
@@ -23930,6 +23116,7 @@ This Clause provides police officer may, for the purpose of arresting without wa
 any person whom he is authorised to arrest, pursue such person into any place in India.
 
 ```
+
 Clause 46 of the Bill relates to unnecessary restraint against arrested person.
 This Clause provides person arrested shall not be subjected to more restraint than is
 necessary to prevent his escape.
@@ -23941,23 +23128,29 @@ arrested or other grounds for such arrest.
 Clause 48 of the Bill relates to Obligation of person making arrest to inform about the
 arrest, etc., to relative or friend.
 This Clause provides every police officer or other person making any arrest under this
+
 ```
 
 ```
+
 Sanhita shall forthwith give the information regarding such arrest and place where the arrested
 person is being held to any of his relatives, friends or such other persons as may be disclosed
 or mentioned by the arrested person for the purpose of giving such information and also to
 the designated police officer in the district.
+
 ```
 
 ```
+
 Clause 49 of the Bill relates to search of arrested person.
 This Clause provides the police officer to whom he makes over the person arrested,
 may search such person, and place in safe custody all articles, other than necessary wearing
 and with a direction female shall be searched by female.
+
 ```
 
 ```
+
 Clause 50 of the Bill relates to power to seize offensive weapons.
 Clause 51 of the Bill relates to Examination of accused by medical practitioner at
 the request of police officer.
@@ -23968,16 +23161,20 @@ person making the arrest is required by this Sanhita to produce the person arres
 Clause 52 of the Bill relates to Examination of person accused of rape by medical
 practitioner.
 Clause 53 of the Bill relates to Examination of arrested person by medical officer.
+
 ```
 
 ```
+
 This Clause provides any person is arrested, he shall be examined by a medical officer
 in the service of the Central Government or a State Government, and in case the medical
 officer is not available, by a registered medical practitioner soon after the arrest is made and
 subject to certain exceptions.
+
 ```
 
 ```
+
 Clause 54 of the Bill relates to Identification of person arrested.
 This Clause provides a person arrested on a charge of committing an offence and his
 identification by any other person or persons is considered necessary for the purpose of
@@ -23988,32 +23185,41 @@ certain exceptions.
 Clause 55 of the Bill relates to Procedure when police officer deputes subordinate to
 arrest without warrant.
 Clause 56 of the Bill relates to health and safety of arrested person.
+
 ```
 
 ```
+
 This Clause provides the duty of the person having the custody of an accused to take
 reasonable care of the health and safety of the accused.
+
 ```
 
 ```
+
 Clause 57 of the Bill relates to Person arrested to be taken before Magistrate or officer
 in charge of police station.
+
 ```
 
 ```
+
 This Clause provides police officer making an arrest without warrant shall, without
 unnecessary delay and subject to the provisions herein contained as to bail, take or send the
 person arrested before a Judicial Magistrate having jurisdiction in the case, or before the
 officer in charge of a police station.
+
 ```
 
 _Clause_ 58 of the Bill relates to Person arrested not to be detained more than twenty-
 four hours.
 
 ```
+
 This Clause clarifies no police officer shall detain in custody a person arrested without
 warrant for a longer period than under all the circumstances of the case is reasonable, and
 such period shall not, in the absence of a special order of a Magistrate, exceed twenty-four
+
 ```
 
 hours exclusive of the time necessary for the journey from the place of arrest to the Magistrate's
@@ -24036,6 +23242,7 @@ This Clause provides that no arrest shall be made except in accordance with the
 provisions of this Sanhita or any other law for the time being in force providing for arrest.
 
 ```
+
 Clause 63 of the Bill relates to Form of summons.
 This Clause provides every summons issued by a Court shall be in writing, in
 duplicate, signed by the presiding officer of such Court or by such other officer as the High
@@ -24065,6 +23272,7 @@ in which such person is employed; and such head shall thereupon cause the summon
 served in the manner provided by section 64, and shall return it to the Court under his
 signature with the endorsement required by that section.
 Clause 69 of the Bill relates to Service of summons outside local limits.
+
 ```
 
 This Clause provides when a Court desires that a summons issued shall be served at
@@ -24102,6 +23310,7 @@ any other police officer whose name is endorsed upon the warrant by the officer 
 is directed or endorsed.
 
 ```
+
 Clause 77 of the Bill relates to Notification of substance of warrant.
 This Clause provides the police officer or other person executing a warrant of arrest
 shall notify the substance thereof to the person to be arrested, and, if so required, shall show
@@ -24116,6 +23325,7 @@ This Clause provides a warrant of arrest may be executed at any place in India.
 Clause 80 of the Bill relates to Warrant forwarded for execution outside jurisdiction.
 Clause 81 of the Bill relates to Warrant directed to police officer for execution outside
 jurisdiction.
+
 ```
 
 This Clause provides that a warrant directed to a police officer is to be executed
@@ -24191,6 +23401,7 @@ _Clause_ 99 of the Bill relates to Application to High Court to set aside declar
 forfeiture.
 
 ```
+
 Clause 100 of the Bill relates to Search for persons wrongfully confined.
 This Clause provides any District Magistrate, Sub-divisional Magistrate or Magistrate
 of the first class has reason to believe that any person is confined under such circumstances
@@ -24216,6 +23427,7 @@ possession of any property, article or thing, including preparation of the list 
 seized in the course of such search and seizure and signing of such list by witnesses, shall
 be recorded through any audio-video electronic means preferably cell phone and the police
 officer shall without delay forward such recording to the concern authority.
+
 ```
 
 _Clause_ 106 of the Bill relates to Power of police officer to seize certain property.
@@ -24261,6 +23473,7 @@ Central Government may, by notification, specify in this behalf and that Court, 
 Magistrate, as the case may be, shall cause the same to be executed.
 
 ```
+
 Clause 115 of the Bill relates to Assistance in relation to orders of attachment or
 forfeiture of property.
 This Clause seeks to provide, the Court in India has reasonable grounds to believe
@@ -24270,6 +23483,7 @@ forfeiture of such property.
 Clause 116 of the Bill relates to Identifying unlawfully acquired property.
 This Clause seeks to provide that the Court shall, on receipt of a letter of request,
 direct any police officer not below the rank of Sub-Inspector of Police to take all steps
+
 ```
 
 necessary for tracing and identifying such property include any inquiry, investigation or
@@ -24372,7 +23586,9 @@ warrant issued under _Clause_ 132 and the officer serving shall deliver such cop
 such summons or warrant to the person served with, or arrested under, the same.
 
 ```
+
 Clause 134 of the Bill relates to Power to dispense with personal attendance.
+
 ```
 
 This Clause seeks to provide the Magistrate may, if he sees sufficient cause, dispense
@@ -24473,6 +23689,7 @@ _Clause_ 150 of the Bill relates to Power of certain armed force officers to dis
 assembly.
 
 ```
+
 This Clause seeks to provide thatthe public security is manifestly endangered by any
 such assembly and no Executive Magistrate can be communicated with, any commissioned
 or Gazetted Officer of the armed forces may disperse such assembly with the help of the
@@ -24481,6 +23698,7 @@ in order to disperse such assembly or that they may be punished according to law
 while he is acting under this section, it becomes practicable for him to communicate with an
 Executive Magistrate, he shall do so, and shall thenceforward obey the instructions of the
 Magistrate, as to whether he shall or shall not continue such action.
+
 ```
 
 _Clause_ 151 of the Bill relates to Protection against prosecution for acts done under
@@ -24507,6 +23725,7 @@ _Clause_ 159 of the Bill relates to Power of Magistrate to furnish written instr
 etc.
 
 ```
+
 Clause 160 of the Bill relates to Procedure on order being made absolute and
 consequences of disobedience.
 Clause 161 of the Bill relates to Injunction to prevent imminent danger or injury
@@ -24532,6 +23751,7 @@ police.
 Clause173 of the Bill relates to Information in cognizable cases.
 Clause 174 of the Bill relates to Information as to non-cognizable cases and
 investigation of such cases.
+
 ```
 
 _Clause_ 175 of the Bill relates to power of police officer to investigate cognizable case.
@@ -24579,7 +23799,9 @@ an offence, the first-mentioned offence may be inquired into or tried by a Court
 local jurisdiction either act was done.
 
 ```
+
 Clause 201 of the Bill relates to Place of trial in case of certain offences.
+
 ```
 
 _Clause_ 202 of the Bill relates to Offences committed by means of electronic
@@ -24617,6 +23839,7 @@ This Clause provides that witness or any other person may file a complaint in re
 to an offence under section 230 of the Bhartiya Nyaya Sanhita, 2023.
 
 ```
+
 Clause 217 of the Bill relates to Prosecution for offences against the State and for
 criminal conspiracy to commit such offence.
 Clause 218 of the Bill relates to Prosecution of Judges and public servants.
@@ -24628,14 +23851,17 @@ This Clause provides that No Court shall take cognizance of an offence punishabl
 under section 67 of the Bhartiya Nyaya Sanhita, 2023 where the persons are in a marital
 relationship, except upon prima facie satisfaction of the facts which constitute the offence
 upon a complaint having been filed or made by the wife against the husband.
+
 ```
 
 ```
+
 Clause 222 of the Bill relates to Prosecution for defamation.
 This Clause provides that no Court shall take cognizance of an offence punishable
 under Chapter XIX of the Bhartiya Nyaya Sanhita, 2023 except upon a complaint made by
 some person aggrieved by the offence, subject to certain exceptions.
 Clause 223 of the Bill relates to Examination of complainant.
+
 ```
 
 This Clause provides that a Magistrate having jurisdiction while taking cognizance of
@@ -24651,6 +23877,7 @@ to take cognizance of the offence, he shall, return it for presentation to the p
 an endorsement to that effect and direct the complainant to the proper Court.
 
 ```
+
 Clause 225 of the Bill relates to Postponement of issue of process.
 Clause 226 of the Bill relates to Dismissal of complaint.
 This Clause provides that the Magistrate is of opinion that there is no sufficient
@@ -24664,9 +23891,11 @@ he thinks fit, a summons, for causing the accused to be brought or to appear at 
 before such Magistrate or some other Magistrate having jurisdiction.
 Clause 228 of the Bill relates to Magistrate may dispense with personal attendance of
 accused.
+
 ```
 
 ```
+
 This Clause provides that the Magistrate issues a summons, dispense with the
 personal attendance of the accused and permit him to appear by his pleader and further at
 any stage of the proceedings, direct the personal attendance of the accused, and, if necessary,
@@ -24685,6 +23914,7 @@ other documents.
 This Clause provides that the proceeding has been instituted on a police report, the
 Magistrate shall without delay, and in no case beyond fourteen days from the date of
 production or appearance of the accused, furnish to the accused and the victim, free of cost.
+
 ```
 
 _Clause_ 231 of the Bill relates to supply of copies of statements and documents to
@@ -24707,6 +23937,7 @@ _Clause_ 233 of the Bill relates to Procedure to be followed when there is a com
 case and police investigation in respect of the same offence.
 
 ```
+
 Clause 234 of the Bill relates to Contents of charge.
 Clause 235 of the Bill relates to Particulars as to time, place and person.
 Clause 236 of the Bill relates to When manner of committing offence must be stated.
@@ -24739,6 +23970,7 @@ shall be a separate charge, and every such charge shall be tried separately, sub
 conditions.
 Clause 242 of the Bill relates to Offences of same kind within year may be charged
 together.
+
 ```
 
 This Clause provides that a person is accused of more offences than one of the same
@@ -24749,29 +23981,38 @@ punishable with the same amount of punishment under the same section of the Bhar
 Nyaya Sanhita, 2023 or of any special or local law, subject to certain conditions.
 
 ```
+
 Clause 243 of the Bill relates to Trial for more than one offence.
+
 ```
 
 ```
+
 Clause 244 of the Bill relates to Where it is doubtful what offence has been committed.
 This Clause deals with a single act or series of acts is of such a nature that it is
 doubtful which of several offences the facts which can be proved will constitute, the accused
 may be charged with having committed all or any of such offences, and any number of such
 charges may be tried at once; or he may be charged in the alternative with having committed
 some one of the said offences.
+
 ```
 
 ```
+
 Clause 245 of the Bill relates to When offence proved included in offence charged.
 Clause 246 of the Bill relates to What persons may be charged jointly.
+
 ```
 
 ```
+
 Clause 247 of the Bill relates to Withdrawal of remaining charges on conviction on
 one of several charges.
+
 ```
 
 ```
+
 This Clause provides that a charge containing more heads than one is framed against
 the same person, and when a conviction has been had on one or more of them, the complainant,
 or the officer conducting the prosecution, may, with the consent of the Court, withdraw the
@@ -24780,13 +24021,16 @@ of, such charge or charges and such withdrawal shall have the effect of an acqui
 charge or charges, unless the conviction be set aside, in which case the said Court (subject
 to the order of the Court setting aside the conviction) may proceed with the inquiry into, or
 trial of, the charge or charges so withdrawn.
+
 ```
 
 ```
+
 Clause 248 of the Bill relates toT rial to be conducted by Public Prosecutor.
 This Clause provides that every trial before a Court of Session, the prosecution shall
 be conducted by a Public Prosecutor.
 Clause 249 of the Bill relates to Opening case for prosecution.
+
 ```
 
 This Clause provides that the accused appears or is brought before the Court, in
@@ -24803,7 +24047,9 @@ there is not sufficient ground for proceeding against the accused, he shall disc
 accused and record his reasons for so doing.
 
 ```
+
 Clause 251 of the Bill relates to Framing of charge.
+
 ```
 
 _Clause_ 252 of the Bill relates to Conviction on plea of guilty.
@@ -24811,7 +24057,9 @@ This Clause provides that the accused pleads guilty, the Judge shall record the 
 and may, in his discretion, convict him thereon.
 
 ```
+
 Clause 253 of the Bill relates to Date for prosecution evidence.
+
 ```
 
 This Clause provides that the accused refuses to plead, or does not plead, or claims to
@@ -24826,6 +24074,7 @@ there is no evidence that the accused committed the offence, the Judge shall rec
 of acquittal.
 
 ```
+
 Clause 256 of the Bill relates to Entering upon defence.
 Clause 257 of the Bill relates to Arguments.
 This Clause provides that the examination of the witnesses (if any) for the defence is
@@ -24860,6 +24109,7 @@ Clause 270 of the Bill relates to Evidence for defence.
 This Clause provides that accused shall then be called upon to enter upon his defence
 and produce his evidence; and the provisions of section 266 shall apply to the case.
 Clause 271 of the Bill relates to Acquittal or conviction.
+
 ```
 
 _Clause_ 272 of the Bill relates to Absence of complainant.
@@ -24877,6 +24127,7 @@ him, and he shall be asked whether he pleads guilty or has any defence to make, 
 not be necessary to frame a formal charge, subject to certain condition.
 
 ```
+
 Clause 275 of the Bill relates to Conviction on plea of guilty.
 This Clause provides that the accused pleads guilty, the Magistrate shall record the
 plea as nearly as possible in the words used by the accused and may, in his discretion,
@@ -24912,6 +24163,7 @@ Clause 283 of the Bill relates toPower to try summarily.
 Clause 284 of the Bill relates to Summary trial by Magistrate of the second class.
 This Clause provides that the High Court may confer on any Magistrate invested with
 the powers of a Magistrate of the second class power to try summarily any offence which is
+
 ```
 
 punishable only with fine or with imprisonment for a term not exceeding six months with or
@@ -24957,6 +24209,7 @@ _Clause_ 297 of the Bill relates to Period of detention undergone by the accused
 set off against the sentence of imprisonment.
 
 ```
+
 This Clause provides that the provisions of section 469 shall apply, for setting off
 the period of detention undergone by the accused against the sentence of imprisonment
 imposed under this Chapter, in the same manner as they apply in respect of the imprisonment
@@ -24966,6 +24219,7 @@ This Clause provides that the provisions of Chapter XXIV shall have effect
 notwithstanding anything inconsistent therewith contained in any other provisions of this
 Sanhita and nothing in such other provisions shall be construed to constrain the meaning
 of any provision of this Chapter.
+
 ```
 
 _Clause_ 299 of the Bill relates to Statements of accused not to be used.
@@ -25016,13 +24270,17 @@ make a memorandum of the substance of the evidence in the language of the Court,
 to certain condition.
 
 ```
+
 Clause 310 of the Bill relates to Record in warrant-cases.
 Clause 311 of the Bill relates to Record in trial before Court of Session.
+
 ```
 
 ```
+
 Clause 312 of the Bill relates to language of record of evidence.
 Clause 313 of the Bill relates to procedure in regard to such evidence when completed.
+
 ```
 
 _Clause_ 314 of the Bill relates to interpretation of evidence to accused or his pleader.
@@ -25032,11 +24290,13 @@ of a witness, he shall also record such remarks (if any) as he thinks material r
 demeanour of such witness whilst under examination.
 
 ```
+
 Clause 316 of the Bill relates to record of examination of accused.
 Clause 317 of the Bill relates to interpreter to be bound to interpret truthfully.
 This Clause provides for the services of an interpreter are required by any Criminal
 Court for the interpretation of any evidence or statement, he shall be bound to state the
 true interpretation of such evidence or statement.
+
 ```
 
 _Clause_ 318 of the Bill relates to record in High Court.
@@ -25056,8 +24316,10 @@ same manner, and may for this purpose exercise the same powers, as in trials or 
 cases under this Sanhita.
 
 ```
+
 Clause 322 of the Bill relates to parties may examine witnesses.
 Clause 323 of the Bill relates to return of commission.
+
 ```
 
 _Clause_ 324 of the Bill relates to adjournment of proceeding.
@@ -25066,11 +24328,13 @@ This Clause provides that every case in which a commission is issued under secti
 sufficient for the execution and return of the commission.
 
 ```
+
 Clause 325 of the Bill relates to execution of foreign commissions.
 Clause 326 of the Bill relates to deposition of medical witness.
 Clause 327 of the Bill relates to identification report of Magistrate.
 Clause 328 of the Bill relates to evidence of officers of the Mint.
 Clause 329 of the Bill relates to reports of certain Government scientific experts.
+
 ```
 
 _Clause_ 330 of the Bill relates to no formal proof of certain documents.
@@ -25176,6 +24440,7 @@ the provisions hereinbefore contained and thereupon the provisions of Chapter XX
 apply to the commitment so made.
 
 ```
+
 Clause 363 of the Bill relates to trial of persons previously convicted of offences
 against coinage, stamp-law or property.
 Clause 364 of the Bill relates to procedure when Magistrate cannot pass sentence
@@ -25185,6 +24450,7 @@ by one Magistrate and partly by another.
 Clause 366 of the Bill relates to court to be open.
 Clause 367 of the Bill relates to procedure in case of accused being person with mental
 illness.
+
 ```
 
 _Clause_ 368 of the Bill relates to procedure in case of person with mental illness tried
@@ -25291,8 +24557,10 @@ _Clause_ 414 of the Bill relates to appeal from orders requiring security or ref
 accept or rejecting surety for keeping peace or good behaviour.
 
 ```
+
 Clause 415 of the Bill relates to appeals from convictions.
 Clause 416 of the Bill relates to no appeal in certain cases when accused pleads guilty.
+
 ```
 
 _Clause_ 417 of the Bill relates to no appeal in petty cases.
@@ -25302,7 +24570,9 @@ _Clause_ 420 of the Bill relates to appeal against conviction by High Court in c
 cases.
 
 ```
+
 Clause 421 of the Bill relates to special right of appeal in certain cases.
+
 ```
 
 _Clause_ 422 of the Bill relates to appeal to Court of Session how heard.
@@ -25353,7 +24623,9 @@ _Clause_ 452 of the Bill relates to making over or withdrawal of cases by Execut
 Magistrates.
 
 ```
+
 Clause 453 of the Bill relates to reasons to be recorded.
+
 ```
 
 _Clause_ 454 of the Bill relates to execution of order passed under section 410.
@@ -25396,9 +24668,11 @@ _Clause_ 481 of the Bill relates to maximum period for which an undertrial priso
 detained.
 
 ```
+
 Clause 482 of the Bill relates to when bail may be taken in case of non-bailable offence.
 Clause 483 of the Bill relates to bail to require accused to appear before next appellate
 Court.
+
 ```
 
 _Clause_ 484 of the Bill relates to direction for grant of bail to person apprehending
@@ -25456,6 +24730,7 @@ This Clause provides that the case of a continuing offence, a fresh period of li
 shall begin to run at every moment of the time during which the offence continues.
 
 ```
+
 Clause 521 of the Bill relates to extension of period of limitation in certain cases.
 This Clause provides that notwithstanding anything contained in the foregoing
 provisions of this Chapter, any Court may take cognizance of an offence after the expiry of
@@ -25490,6 +24765,7 @@ with the sale of any property under this Sanhita shall not purchase or bid for t
 Clause 530 of the Bill relates to saving of inherent powers of High Court.
 This Clause provides that nothing in this Sanhita shall be deemed to limit or affect
 the inherent powers of the High Court to make such orders as may be necessary to give
+
 ```
 
 effect to any order under this Sanhita, or to prevent abuse of the process of any Court or
@@ -25502,12 +24778,14 @@ the Courts of Sessions and Courts of Judicial Magistrates subordinate to it as t
 there is an expeditious and proper disposal of cases by the Judges and Magistrates.
 
 ```
+
 Clause 532 of the Bill relates to trial and proceedings to be held in electronic
 mode.
 This Clause provides that trials and proceedings under this Code, may be held in
 electronic mode, by use of electronic communication or use of audio-video electronic means.
 Clause 533 of the Bill relates to repeal and savings.
 This Clause provides that the Code of Criminal Procedure, 1973 is repealed.
+
 ```
 
 ##### FINANCIAL MEMORANDUM
@@ -25551,6 +24829,7 @@ rules to carry out provisions of clause 394 relating to notification of residenc
 thereof of released convicts.
 
 ```
+
 Sub-clause ( 2 ) of clause 462 of the Bill empowers the State Government to make
 rules inter alia to provide for the manner of execution of search warrant.
 Sub-clause ( 5 ) of clause 474 empowers the appropriate Government to make rules
@@ -25564,6 +24843,7 @@ Clause 525 of the Bill empowers the High Court to make rules for other matters.
 The matters in respect of which such rules may be made are matters of procedures and
 administrative details and it is not practicable to provide for them in the Bill itself. The
 delegation of legislative power is, therefore, of a normal character.
+
 ```
 
 ##### 279
@@ -25573,18 +24853,30 @@ delegation of legislative power is, therefore, of a normal character.
 ##### ————
 
 ```
+
 A
 BILL
+
 ```
 
 ```
+
 to consolidate and amend the law relating to Criminal Procedure.
+
 ```
 
 ##### ————
 
 ```
+
 ( Shri Amit Shah, Minister of Home Affairs and Cooperation )
+
 ```
 
 MGIPMRND—277LS(S3)—10-08-2023.
+
+```
+
+```
+
+```
