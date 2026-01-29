@@ -115,7 +115,7 @@ class HierarchicalRetriever:
             if result.general_crime_type and result.general_crime_type != "general":
                 crime_type_filter = [result.general_crime_type]
             
-            result.general_sop_blocks = self.store.search_general_sop_blocks(
+            results = self.store.search_general_sop_blocks(
                 query_embedding,
                 enhanced_query,
                 k=self.config.top_k_general_sop_blocks,
@@ -124,6 +124,8 @@ class HierarchicalRetriever:
                 stakeholder_filter=None,
                 use_hybrid=self.config.use_hybrid_search
             )
+            # Filter by score threshold
+            result.general_sop_blocks = [r for r in results if r.score >= self.config.min_general_sop_score]
         
         # TIER-2: Search evidence blocks if relevant
         if result.needs_evidence and self.store.has_evidence_data():

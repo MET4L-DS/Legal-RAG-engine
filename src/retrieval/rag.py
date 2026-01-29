@@ -249,7 +249,8 @@ OUTPUT FORMAT:
                 for sc in retrieval_result.structured_citations
             ],  # New structured citations
             "answer": None,
-            "answer_units": None  # NEW: Span-based answer units
+            "answer_units": None,
+            "min_citation_score": self.retriever.config.min_citation_score
         }
         
         # Generate answer if LLM client is available

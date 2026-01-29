@@ -120,14 +120,25 @@ def parse_citation_key(key: str) -> tuple[str, str]:
     return (parts[0], parts[1])
 
 
-def get_available_citations(structured_citations: list[dict]) -> list[str]:
-    """Get list of available citation keys from structured citations."""
+def get_available_citations(structured_citations: list[dict], min_score: float = 0.0) -> list[str]:
+    """
+    Get list of available citation keys from structured citations.
+    
+    Args:
+        structured_citations: List of citation dicts
+        min_score: Minimum relevance score to include citation
+    """
     keys = []
     for cit in structured_citations:
         source_type = cit.get("source_type", "")
         source_id = cit.get("source_id", "")
-        if source_type and source_id:
+        score = cit.get("relevance_score", 1.0)  # Default to 1.0 if score missing
+        
+        if source_type and source_id and score >= min_score:
             keys.append(build_citation_key(source_type, source_id))
+        elif source_type and source_id:
+            logger.debug(f"[SENTENCE] Skipping low-score citation for attribution: {source_type}:{source_id} (score: {score:.3f} < {min_score})")
+            
     return keys
 
 
@@ -175,6 +186,7 @@ def compute_sentence_attribution(
     answer: str,
     structured_citations: list[dict],
     llm_client=None,
+    min_citation_score: float = 0.6,
 ) -> Optional[dict]:
     """
     Compute sentence-level citation attribution.
@@ -196,8 +208,8 @@ def compute_sentence_attribution(
         logger.warning("[SENTENCE] No sentences extracted from answer")
         return None
     
-    # Get available citation keys
-    available_citations = get_available_citations(structured_citations)
+    # Get available citation keys (filtering out low-score ones)
+    available_citations = get_available_citations(structured_citations, min_score=min_citation_score)
     if not available_citations:
         logger.warning("[SENTENCE] No citations available for mapping")
         return {

@@ -63,6 +63,10 @@ class RetrievalConfig:
     
     # Tier-3 settings (General SOP for all crimes)
     top_k_general_sop_blocks: int = 5  # Number of General SOP blocks to retrieve
+    min_general_sop_score: float = 0.5  # Stricter threshold for citizen procedures
+
+    # Citation Display Settings
+    min_citation_score: float = 0.6  # Only show citations above this relevance score
 
 
 @dataclass

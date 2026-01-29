@@ -978,1265 +978,300 @@ Following the formatting standards you established—specifically the use of pla
 
 177.    1. ( _1_ ) Every report sent to a Magistrate under section 176 shall, if the State Government so directs, be submitted through such superior officer of police as the State Government, by general or special order, appoints in that behalf.
         2. ( _2_ ) Such superior officer may give such instructions to the officer in charge of the police station as he thinks fit, and shall, after recording such instructions on such report, transmit the same without delay to the Magistrate.
-           The Magistrate, on receiving report under section 176, may direct an investigation, or, if he thinks fit, at once proceed, or depute any Magistrate subordinate to him to proceed, to hold a preliminary inquiry into, or otherwise to dispose of, the case in the manner provided in this Sanhita.
+178.    The Magistrate, on receiving report under section 176, may direct an investigation, or, if he thinks fit, at once proceed, or depute any Magistrate subordinate to him to proceed, to hold a preliminary inquiry into, or otherwise to dispose of, the case in the manner provided in this Sanhita.
 
-178.    1. ( _1_ ) Any police officer making an investigation under this Chapter may, by order in writing, require the attendance before himself of any person being within the limits of his own or any adjoining station who, from the information given or otherwise, appears to be acquainted with the facts and circumstances of the case; and such person shall attend as so required:
+179.    1. ( _1_ ) Any police officer making an investigation under this Chapter may, by order in writing, require the attendance before himself of any person being within the limits of his own or any adjoining station who, from the information given or otherwise, appears to be acquainted with the facts and circumstances of the case; and such person shall attend as so required:
            _Provided_ that no male person under the age of fifteen years or above the age of sixty years or a woman or a mentally or physically disabled person or a person with acute illness shall be required to attend at any place other than the place in which such person resides:
            _Provided_ further that if such person is willing to attend the police station or at any other place within the limits of such police station, such person may be permitted so to do.
         2. ( _2_ ) The State Government may, by rules made in this behalf, provide for the payment by the police officer of the reasonable expenses of every person, attending under sub-section ( _1_ ) at any place other than his residence.
 
-179.    1. ( _1_ ) Any police officer making an investigation under this Chapter, or any police officer not below such rank as the State Government may, by general or special order, prescribe in this behalf, acting on the requisition of such officer, may examine orally any person supposed to be acquainted with the facts and circumstances of the case.
+180.    1. ( _1_ ) Any police officer making an investigation under this Chapter, or any police officer not below such rank as the State Government may, by general or special order, prescribe in this behalf, acting on the requisition of such officer, may examine orally any person supposed to be acquainted with the facts and circumstances of the case.
         2. ( _2_ ) Such person shall be bound to answer truly all questions relating to such case put to him by such officer, other than questions the answers to which would have a tendency to expose him to a criminal charge or to a penalty or forfeiture.
         3. ( _3_ ) The police officer may reduce into writing any statement made to him in the course of an examination under this section; and if he does so, he shall make a separate and true record of the statement of each such person whose statement he records:
            _Provided_ that statement made under this sub-section may also be recorded by audio-video electronic means:
            _Provided_ further that the statement of a woman against whom an offence under section 64, section 66, section 67, section 68, section 70, section 71, section 73, section 74, section 75, section 76, section 77 or section 78 of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed or attempted, shall be recorded, by a woman police officer or any woman officer.
 
-        181. 
-
-180.    ( _1_ ) No statement made by any person to a police officer in the course of an investigation under this Chapter, shall, if reduced to writing, be signed by the person making it; nor shall any such statement or any record thereof, whether in a police diary or otherwise, or any part of such statement or record, be used for any purpose, save as hereinafter provided, at any inquiry or trial in respect of any offence under investigation at the time when such statement was made:
-        _Provided_ that when any witness is called for the prosecution in such inquiry or trial whose statement has been reduced into writing as aforesaid, any part of his statement, if duly proved, may be used by the accused, and with the permission of the Court, by the prosecution, to contradict such witness in the manner provided by section 148 of the Bhartiya Sakshya Adhiniyam, 2023; and when any part of such statement is so used, any part thereof may also be used in the re-examination of such witness, but for the purpose only of explaining any matter referred to in his cross-examination.
-181.    ( _2_ ) Nothing in this section shall be deemed to apply to any statement falling within the provisions of clause ( _1_ ) of section 26 of the Bharatiya Sakshya Adhiniyam, 2023; or to affect the provisions of section 23 of that Adhiniyam.
-        _Explanation_ — An omission to state a fact or circumstance in the statement referred to in sub-section ( _1_ ) may amount to contradiction if the same appears to be significant and otherwise relevant having regard to the context in which such omission occurs and whether any omission amounts to a contradiction in the particular context shall be a question of fact.
-
-        182. 
-
-182.    ( _1_ ) No police officer or other person in authority shall offer or make, or cause to be offered or made, any such inducement, threat or promise as is mentioned in section 22 of the Bharatiya Sakshya Adhiniyam, 2023.
-183.    ( _2_ ) But no police officer or other person shall prevent, by any caution or otherwise, any person from making in the course of any investigation under this Chapter any statement which he may be disposed to make of his own free will:
-        _Provided_ that nothing in this sub-section shall affect the provisions of sub-section ( _4_ ) of section 184.
-
-        183. 
-
-184.    ( _1_ ) Any Judicial Magistrate of the District in which the information about commission of any offence has been registered, may, whether or not he has jurisdiction in the case, record any confession or statement made to him in the course of an investigation under this Chapter or under any other law for the time being in force, or at any time afterwards but before the commencement of the inquiry or trial:
-        _Provided_ that any confession or statement made under this sub-section may also be recorded in the presence of the advocate of the person accused of an offence:
-        _Provided_ further that no confession shall be recorded by a police officer on whom any power of a Magistrate has been conferred under any law for the time being in force.
-185.    ( _2_ ) The Magistrate shall, before recording any such confession, explain to the person making it that he is not bound to make a confession and that, if he does so, it may be used as evidence against him; and the Magistrate shall not record any such confession unless, upon questioning the person making it, he has reason to believe that it is being made voluntarily.
-186.    ( _3_ ) If at any time before the confession is recorded, the person appearing before the Magistrate states that he is not willing to make the confession, the Magistrate shall not authorise the detention of such person in police custody.
-187.    ( _4_ ) Any such confession shall be recorded in the manner provided in section 316 for recording the examination of an accused person and shall be signed by the person making the confession; and the Magistrate shall make a memorandum at the foot of such record to the following effect:—
-        "I have explained to (name) that he is not bound to make a confession and that, if he does so, any confession he may make may be used as evidence against him and I believe that this confession was voluntarily made. It was taken in my presence and hearing, and was read over to the person making it and admitted by him to be correct, and it contains a full and true account of the statement made by him.
-        (Signed) A. B.
-        Magistrate."
-188.    ( _5_ ) Any statement (other than a confession) made under sub-section ( _1_ ) shall be recorded in such manner hereinafter provided for the recording of evidence as is, in the opinion of the Judicial Magistrate, best fitted to the circumstances of the case; and the Judicial Magistrate shall have power to administer oath to the person whose statement is so recorded.
-189.    ( _6_ ) ( _a_ ) In cases punishable under section 66, section 67, section 68, section 70, section 71, section 73, section 74, section 75, section 76, section 77, sub-section ( _1_ ) or sub-section ( _2_ ) of section 74, or section 78 of the Bhartiya Nyaya Sanhita, 2023, the Judicial Magistrate shall record the statement of the person against whom such offence has been committed in the manner specified in sub-section ( _5_ ), as soon as the commission of the offence is brought to the notice of the police:
-        _Provided_ that such statement shall, as far as practicable, be recorded by a woman Judicial Magistrate and in her absence by a male Judicial Magistrate in the presence of a woman:
-        _Provided_ further that in cases relating to the offences punishable with imprisonment for ten years or more or imprisonment for life or with death, the Judicial Magistrate shall record the statement of the witness brought before him by the police officer:
-        _Provided_ also that if the person making the statement is temporarily or permanently mentally or physically disabled, the Magistrate shall take the assistance of an interpreter or a special educator in recording the statement:
-        _Provided_ also that if the person making the statement is temporarily or permanently mentally or physically disabled, the statement made by the person, with the assistance of an interpreter or a special educator, shall be recorded through audio-video electronic means preferably cell phone.
-190.    ( _b_ ) A statement recorded under clause ( _a_ ) of a person, who is temporarily or permanently mentally or physically disabled, shall be considered a statement in lieu of examination-in-chief, as specified in section 142 of the Bhartiya Sakshya Adhiniyam, 2023 such that the maker of the statement can be cross-examined on such statement, without the need for recording the same at the time of trial.
-191.    ( _7_ ) The Magistrate recording a confession or statement under this section shall forward it to the Magistrate by whom the case is to be inquired into or tried.
-
-        184. 
-
-192.    ( _1_ ) Where, during the stage when an offence of committing rape or attempt to commit rape is under investigation, it is proposed to get the person of the woman with whom rape is alleged or attempted to have been committed or attempted, examined by a medical expert, such examination shall be conducted by a registered medical practitioner employed in a hospital run by the Government or a local authority and in the absence of such a practitioner, by any other registered medical practitioner, with the consent of such woman or of a person competent to give such consent on her behalf and such woman shall be sent to such registered medical practitioner within twenty-four hours from the time of receiving the information relating to the commission of such offence.
-193.    ( _2_ ) The registered medical practitioner, to whom such woman is sent, shall, without delay, examine her person and prepare a report of his examination giving the following particulars, namely:—
-
-- ( _i_ ) the name and address of the woman and of the person by whom she was brought;
-- ( _ii_ ) the age of the woman;
-- ( _iii_ ) the description of material taken from the person of the woman for DNA profiling;
-- ( _iv_ ) marks of injury, if any, on the person of the woman;
-- ( _v_ ) general mental condition of the woman; and
-- ( _vi_ ) other material particulars in reasonable detail.
-
-3. ( _3_ ) The report shall state precisely the reasons for each conclusion arrived at.
-4. ( _4_ ) The report shall specifically record that the consent of the woman or of the person competent to give such consent on her behalf to such examination had been obtained.
-5. ( _5_ ) The exact time of commencement and completion of the examination shall also be noted in the report.
-6. ( _6_ ) The registered medical practitioner shall, within a period of seven days forward the report to the investigating officer who shall forward it to the Magistrate referred to in section 193 as part of the documents referred to in clause ( _a_ ) of sub-section ( _6_ ) of that section.
-7. ( _7_ ) Nothing in this section shall be construed as rendering lawful any examination without the consent of the woman or of any person competent to give such consent on her behalf.
-   _Explanation_ — For the purposes of this section, "examination" and "registered medical practitioner" shall have the same meanings as respectively assigned to them in section 51.
-
-    185. 
-
-8. ( _1_ ) Whenever an officer in charge of a police station or a police officer making an investigation has reasonable grounds for believing that anything necessary for the purposes of an investigation into any offence which he is authorised to investigate may be found in any place within the limits of the police station of which he is in charge, or to which he is attached, and that such thing cannot in his opinion be otherwise obtained without undue delay, such officer may, after recording in writing the grounds of his belief in the case-diary and specifying in such writing, so far as possible, the thing for which search is to be made, search, or cause search to be made, for such thing in any place within the limits of such station.
-9. ( _2_ ) A police officer proceeding under sub-section ( _1_ ), shall, if practicable, conduct the search in person:
-   _Provided_ that the search conducted under this section shall be recorded through audio-video electronic means preferably by mobile phone.
-10. ( _3_ ) If he is unable to conduct the search in person, and there is no other person competent to make the search present at the time, he may, after recording in writing his reasons for so doing, require any officer subordinate to him to make the search, and he shall deliver to such subordinate officer an order in writing, specifying the place to be searched, and so far as possible, the thing for which search is to be made; and such subordinate officer may thereupon search for such thing in such place.
-11. ( _4_ ) The provisions of this Sanhita as to search-warrants and the general provisions as to searches contained in section 103 shall, so far as may be, apply to a search made under this section.
-12. ( _5_ ) Copies of any record made under sub-section ( _1_ ) or sub-section ( _3_ ) shall forthwith, but not later than forty-eight hours, be sent to the nearest Magistrate empowered to take cognizance of the offence, and the owner or occupier of the place searched shall, on application, be furnished, free of cost, with a copy of the same by the Magistrate.
-
-    186. 
-
-13. ( _1_ ) An officer in charge of a police station or a police officer not being below the rank of sub-inspector making an investigation may require an officer in charge of another police station, whether in the same or a different district, to cause a search to be made in any place, in any case in which the former officer might cause such search to be made, within the limits of his own station.
-14. ( _2_ ) Such officer, on being so required, shall proceed according to the provisions of section 185, and shall forward the thing found, if any, to the officer at whose request the search was made.
-15. ( _3_ ) Whenever there is reason to believe that the delay occasioned by requiring an officer in charge of another police station to cause a search to be made under sub-section ( _1_ ) might result in evidence of the commission of an offence being concealed or destroyed, it shall be lawful for an officer in charge of a police station or a police officer making any investigation under this Chapter to search, or cause to be searched, any place in the limits of another police station in accordance with the provisions of section 185, as if such place were within the limits of his own police station.
-16. ( _4_ ) Any officer conducting a search under sub-section ( _3_ ) shall forthwith send notice of the search to the officer in charge of the police station within the limits of which such place is situate, and shall also send with such notice a copy of the list (if any) prepared under section 103, and shall also send to the nearest Magistrate empowered to take cognizance of the offence, copies of the records referred to in sub-sections ( _1_ ) and ( _3_ ) of section 185.
-17. ( _5_ ) The owner or occupier of the place searched shall, on application, be furnished free of cost with a copy of any record sent to the Magistrate under sub-section ( _4_ ).
-
-    187. 
-
-18. ( _1_ ) Whenever any person is arrested and detained in custody, and it appears that the investigation cannot be completed within the period of twenty-four hours fixed by section 58, and there are grounds for believing that the accusation or information is well-founded, the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of sub-inspector, shall forthwith transmit to the nearest Judicial Magistrate a copy of the entries in the diary hereinafter specified relating to the case, and shall at the same time forward the accused to such Magistrate.
-19. ( _2_ ) The Judicial Magistrate to whom an accused person is forwarded under this section may, irrespective of whether he has or has no jurisdiction to try the case, after taking into consideration the status of the accused person as to whether he is not released on bail or his bail has not been cancelled, authorise, from time to time, the detention of the accused in such custody as such Magistrate thinks fit, for a term not exceeding fifteen days in the whole, or in parts, at any time during the initial forty days or sixty days out of detention period of sixty days or ninety days, as the case may be, as provided in sub-section ( _3_ ), and if he has no jurisdiction to try the case or commit it for trial, and considers further detention unnecessary, he may order the accused to be forwarded to a Judicial Magistrate having such jurisdiction.
-20. ( _3_ ) The Magistrate may authorise the detention of the accused person, beyond the period of fifteen days, if he is satisfied that adequate grounds exist for doing so, but no Magistrate shall authorise the detention of the accused person in custody under this sub-section for a total period exceeding—
-
-- ( _i_ ) ninety days, where the investigation relates to an offence punishable with death, imprisonment for life or imprisonment for a term of not less than ten years;
-- ( _ii_ ) sixty days, where the investigation relates to any other offence,
-  and, on the expiry of the said period of ninety days, or sixty days, as the case may be, the accused person shall be released on bail if he is prepared to and does furnish bail, and every person released on bail under this sub-section shall be deemed to be so released under the provisions of Chapter XXXIV for the purposes of that Chapter.
-
-4. ( _4_ ) No Magistrate shall authorise detention of the accused in custody of the police under this section unless the accused is produced before him in person for the first time and subsequently every time till the accused remains in the custody of the police, but the Magistrate may extend further detention in judicial custody on production of the accused either in person or through the medium of electronic video linkage.
-5. ( _5_ ) No Magistrate of the second class, not specially empowered in this behalf by the High Court, shall authorise detention in the custody of the police.
-   _Explanation_ I — For the avoidance of doubts, it is hereby declared that, notwithstanding the expiry of the period specified in sub-section ( _3_ ), the accused shall be detained in custody so long as he does not furnish bail.
-   _Explanation_ II — If any question arises whether an accused person was produced before the Magistrate as required under sub-section ( _4_ ), the production of the accused person may be proved by his signature on the order authorising detention or by the order certified by the Magistrate as to production of the accused person through the medium of electronic video linkage, as the case may be:
-   _Provided_ that in case of a woman under eighteen years of age, the detention shall be authorised to be in the custody of a remand home or recognised social institution:
-   _Provided_ further that no person shall be detained otherwise than in police station under policy custody or in prison under Judicial custody or place declared as prison by the Central Government or the State Government.
-6. ( _6_ ) Notwithstanding anything contained in sub-section ( _1_ ) to sub-section ( _5_ ), the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of a sub-inspector, may, where a Judicial Magistrate is not available, transmit to the nearest Executive Magistrate, on whom the powers of a Judicial Magistrate have been conferred, a copy of the entry in the diary hereinafter specified relating to the case, and shall, at the same time, forward the accused to such Executive Magistrate, and thereupon such Executive Magistrate, may, for reasons to be recorded in writing, authorise the detention of the accused person in such custody as he may think fit for a term not exceeding seven days in the aggregate; and, on the expiry of the period of detention so authorised, the accused person shall be released on bail except where an order for further detention of the accused person has been made by a Magistrate competent to make such order; and, where an order for such further detention is made, the period during which the accused person was detained in custody under the orders made by an Executive Magistrate under this sub-section, shall be taken into account in computing the period specified in sub-section ( _3_ ):
-   _Provided_ that before the expiry of the period aforesaid, the Executive Magistrate shall transmit to the nearest Judicial Magistrate the records of the case together with a copy of the entries in the diary relating to the case which was transmitted to him by the officer in charge of the police station or the police officer making the investigation, as the case may be.
-7. ( _7_ ) A Magistrate authorising under this section detention in the custody of the police shall record his reasons for so doing.
-8. ( _8_ ) Any Magistrate other than the Chief Judicial Magistrate making such order shall forward a copy of his order, with his reasons for making it, to the Chief Judicial Magistrate.
-9. ( _9_ ) If in any case triable by a Magistrate as a summons-case, the investigation is not concluded within a period of six months from the date on which the accused was arrested, the Magistrate shall make an order stopping further investigation into the offence unless the officer making the investigation satisfies the Magistrate that for special reasons and in the interests of justice the continuation of the investigation beyond the period of six months is necessary.
-10. ( _10_ ) Where any order stopping further investigation into an offence has been made under sub-section ( _9_ ), the Sessions Judge may, if he is satisfied, on an application made to him or otherwise, that further investigation into the offence ought to be made, vacate the order made under sub-section ( _9_ ) and direct further investigation to be made into the offence subject to such directions with regard to bail and other matters as he may specify.
-
-11. When any subordinate police officer has made any investigation under this Chapter, he shall report the result of such investigation to the officer in charge of the police station.
-12. If, upon an investigation under this Chapter, it appears to the officer in charge of the police station that there is not sufficient evidence or reasonable ground of suspicion to justify the forwarding of the accused to a Magistrate, such officer shall, if such person is in custody, release him on his executing a bond, with or without sureties, as such officer may direct, to appear, if and when so required, before a Magistrate empowered to take cognizance of the offence on a police report, and to try the accused or commit him for trial.
-
-    190. 
-
-13. ( _1_ ) If, upon an investigation under this Chapter, it appears to the officer in charge of the police station that there is sufficient evidence or reasonable ground as aforesaid, such officer shall forward the accused under custody to a Judicial Magistrate empowered to take cognizance of the offence upon a police report to try the accused or commit him for trial, or, if the offence is bailable and the accused is able to give security, shall take security from him for his appearance before such Magistrate on a day fixed and for his attendance from day to day before such Magistrate until otherwise directed:
-    _Provided_ that if the accused is not in custody, the police officer shall take security from such person for his appearance before the Judicial Magistrate and the Judicial Magistrate to whom such report is forwarded shall not refuse to accept the same on the ground that the accused is not taken in custody.
-14. ( _2_ ) When the officer in charge of a police station forwards an accused person to a Judicial Magistrate or takes security for his appearance before such Magistrate under this section, he shall send to such Magistrate any weapon or other article which it may be necessary to produce before him, and shall require the complainant (if any) and so many of the persons who appear to such officer to be acquainted with the facts and circumstances of the case as he may think necessary, to execute a bond to appear before the Judicial Magistrate as thereby directed and prosecute or give evidence (as the case may be) in the matter of the charge against the accused.
-15. ( _3_ ) If the Court of the Chief Judicial Magistrate is mentioned in the bond, such Court shall be held to include any Court to which such Magistrate may refer the case for inquiry or trial, provided reasonable notice of such reference is given to such complainant or persons.
-16. ( _4_ ) The officer in whose presence the bond is executed shall deliver a copy thereof to one of the persons who executed it, and shall then send to the Magistrate the original with his report.
-
-17. No complainant or witness on his way to any Court shall be required to accompany a police officer, or shall be subjected to unnecessary restraint or inconvenience, or required to give any security for his appearance other than his own bond:
-    _Provided_ that if any complainant or witness refuses to attend or to execute a bond as directed in section 190, the officer in charge of the police station may forward him in custody to the Magistrate, who may detain him in custody until he executes such bond, or until the hearing of the case is completed.
-
-    192. 
-
-18. ( _1_ ) Every police officer making an investigation under this Chapter shall day by day enter his proceedings in the investigation in a diary, setting forth the time at which the information reached him, the time at which he began and closed his investigation, the place or places visited by him, and a statement of the circumstances ascertained through his investigation.
-19. ( _2_ ) The statements of witnesses recorded during the course of investigation under section 180 shall be inserted in the case diary.
-20. ( _3_ ) The diary referred to in sub-section ( _1_ ) shall be a volume and duly paginated.
-21. ( _4_ ) Any Criminal Court may send for the police diaries of a case under inquiry or trial in such Court, and may use such diaries, not as evidence in the case, but to aid it in such inquiry or trial.
-22. ( _5_ ) Neither the accused nor his agents shall be entitled to call for such diaries, nor shall he or they be entitled to see them merely because they are referred to by the Court; but, if they are used by the police officer who made them to refresh his memory, or if the Court uses them for the purpose of contradicting such police officer, the provisions of section 148 or section 164, as the case may be, of the Bharatiya Sakshya Adhiniyam, 2023, shall apply.
-
-23. 1. ( _1_ ) Every investigation under this Chapter shall be completed without unnecessary delay.
-    2. ( _2_ ) The investigation in relation to an offence under sections 64, 66, 67, 68, 70, 71 of the Bharatiya Nyaya Sanhita, 2023 or under sections 4, 6, 8 or section 10 of the Protection of Children from Sexual Offences Act, 2012 shall be completed within two months from the date on which the information was recorded by the officer in charge of the police station.
-    3. ( _3_ )
-        1. ( _i_ ) As soon as the investigation is completed, the officer in charge of the police station shall forward to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form as the State Government may, by rules provide, stating—
-        - ( _a_ ) the names of the parties;
-        - ( _b_ ) the nature of the information;
-        - ( _c_ ) the names of the persons who appear to be acquainted with the circumstances of the case;
-        - ( _d_ ) whether any offence appears to have been committed and, if so, by whom;
-        - ( _e_ ) whether the accused has been arrested;
-        - ( _f_ ) whether the accused has been released on his bond and, if so, whether with or without sureties;
-        - ( _g_ ) whether the accused has been forwarded in custody under section 190;
-        - ( _h_ ) whether the report of medical examination of the woman has been attached where investigation relates to an offence under sections 64, 66, 67, 68 or section 70 of the Bharatiya Nyaya Sanhita, 2023.
-        2. ( _ii_ ) The police officer shall, within a period of ninety days, inform the progress of the investigation by any means including electronic communication to the informant or the victim.
-        3. ( _iii_ ) The officer shall also communicate, in such manner as the State Government may, by rules, provide, the action taken by him, to the person, if any, by whom the information relating to the commission of the offence was first given.
-    4. ( _4_ ) Where a superior officer of police has been appointed under section 177, the report shall, in any case in which the State Government by general or special order so directs, be submitted through that officer, and he may, pending the orders of the Magistrate, direct the officer in charge of the police station to make further investigation.
-    5. ( _5_ ) Whenever it appears from a report forwarded under this section that the accused has been released on his bond, the Magistrate shall make such order for the discharge of such bond or otherwise as he thinks fit.
-    6. ( _6_ ) When such report is in respect of a case to which section 190 applies, the police officer shall forward to the Magistrate along with the report—
-        - ( _a_ ) all documents or relevant extracts thereof on which the prosecution proposes to rely other than those already sent to the Magistrate during investigation;
-        - ( _b_ ) the statements recorded under section 180 of all the persons whom the prosecution proposes to examine as its witnesses.
-    7. ( _7_ ) If the police officer is of opinion that any part of any such statement is not relevant to the subject-matter of the proceedings or that its disclosure to the accused is not essential in the interests of justice and is inexpedient in the public interest, he shall indicate that part of the statement and append a note requesting the Magistrate to exclude that part from the copies to be granted to the accused and stating his reasons for making such request.
-    8. ( _8_ ) Subject to the provisions contained in sub-section ( _7_ ), the police officer investigating the case shall also submit such number of copies of the police report along with other documents duly indexed to the Judicial Magistrate for supply to the accused as required under section 230:
-       _Provided_ that supply of report and other documents by electronic communication shall be considered as duly served.
-    9. ( _9_ ) Nothing in this section shall be deemed to preclude further investigation in respect of an offence after a report under sub-section ( _3_ ) has been forwarded to the Magistrate and, where upon such investigation, the officer in charge of the police station obtains further evidence, oral or documentary, he shall forward to the Magistrate a further report or reports regarding such evidence in the form as the State Government may, by rules, provide; and the provisions of sub-sections ( _3_ ) to ( _7_ ) shall, as far as may be, apply in relation to such report or reports as they apply in relation to a report forwarded under sub-section ( _3_ ):
-       _Provided_ that further investigation during the trial may be permitted with the permission of the Court trying the case and the same shall be completed within a period of ninety days which may extend with the permission of the Court.
-
-24. 1. ( _1_ ) When the officer in charge of a police station or some other police officer specially empowered by the State Government in that behalf receives information that a person has committed suicide, or has been killed by another or by an animal or by machinery or by an accident, or has died under circumstances raising a reasonable suspicion that some other person has committed an offence, he shall immediately give intimation thereof to the nearest Executive Magistrate empowered to hold inquests, and, unless otherwise directed by any rule made by the State Government, or by any general or special order of the District or Sub-divisional Magistrate, shall proceed to the place where the body of such deceased person is, and there, in the presence of two or more respectable inhabitants of the neighbourhood, shall make an investigation, and draw up a report of the apparent cause of death, describing such wounds, fractures, bruises, and other marks of injury as may be found on the body, and stating in what manner, or by what weapon or instrument (if any); such marks appear to have been inflicted.
-    2. ( _2_ ) The report shall be signed by such police officer and other persons, or by so many of them as concur therein, and shall be forwarded to the District Magistrate or the Sub-divisional Magistrate within twenty-four hours.
-    3. ( _3_ ) When—
-        - ( _i_ ) the case involves suicide by a woman within seven years of her marriage; or
-        - ( _ii_ ) the case relates to the death of a woman within seven years of her marriage in any circumstances raising a reasonable suspicion that some other person committed an offence in relation to such woman; or
-        - ( _iii_ ) the case relates to the death of a woman within seven years of her marriage and any relative of the woman has made a request in this behalf; or
-        - ( _iv_ ) there is any doubt regarding the cause of death; or
-        - ( _v_ ) the police officer for any other reason considers it expedient so to do,
-          he shall, subject to such rules as the State Government may prescribe in this behalf, forward the body, with a view to its being examined, to the nearest Civil Surgeon, or other qualified medical person appointed in this behalf by the State Government, if the state of the weather and the distance admit of its being so forwarded without risk of such putrefaction on the road as would render such examination useless.
-    4. ( _4_ ) The following Magistrates are empowered to hold inquests, namely, any District Magistrate or Sub-divisional Magistrate and any other Executive Magistrate specially empowered in this behalf by the State Government or the District Magistrate.
-
-25. 1. ( _1_ ) A police officer proceeding under section 194 may, by order in writing, summon two or more persons as aforesaid for the purpose of the said investigation, and any other person who appears to be acquainted with the facts of the case and every person so summoned shall be bound to attend and to answer truly all questions other than questions the answers to which would have a tendency to expose him to a criminal charge or to a penalty or forfeiture:
-       _Provided_ that no male person under the age of fifteen years or above the age of sixty years or a woman or a mentally or physically disabled person or a person with acute illness shall be required to attend at any place other than the place where such person resides, unless such person is willing to attend and answer at the police station or at any other place within the limits of such police station.
-    2. ( _2_ ) If the facts do not disclose a cognizable offence to which section 190 applies, such persons shall not be required by the police officer to attend a Magistrate's Court.
-
-26. 1. ( _1_ ) When the case is of the nature referred to in clause ( _i_ ) or clause ( _ii_ ) of sub-section ( _3_ ) of section 194, the nearest Judicial Magistrate empowered to hold inquests shall, and in any other case mentioned in sub-section ( _1_ ) of section 194, any Magistrate so empowered may hold an inquiry into the cause of death either instead of, or in addition to, the investigation held by the police officer; and if he does so, he shall have all the powers in conducting it which he would have in holding an inquiry into an offence.
-    2. ( _2_ ) Where,—
-        - ( _a_ ) any person dies or disappears, or
-        - ( _b_ ) rape is alleged to have been committed on any woman,
-          while such person or woman is in the custody of the police or in any other custody authorised by the Magistrate or the Court, under this Sanhita in addition to the inquiry or investigation held by the police, an inquiry shall be held by the Judicial Magistrate within whose local jurisdiction the offence has been committed.
-    3. ( _3_ ) The Magistrate holding such an inquiry shall record the evidence taken by him in connection therewith in any manner hereinafter specified according to the circumstances of the case.
-    4. ( _4_ ) Whenever such Magistrate considers it expedient to make an examination of the dead body of any person who has been already interred, in order to discover the cause of his death, the Magistrate may cause the body to be disinterred and examined.
-    5. ( _5_ ) Where an inquiry is to be held under this section, the Magistrate shall, wherever practicable, inform the relatives of the deceased whose names and addresses are known, and shall allow them to remain present at the inquiry.
-    6. ( _6_ ) The Judicial Magistrate or the Executive Magistrate or the police officer holding an inquiry or investigation under sub-section ( _2_ ) shall, within twenty-four hours of the death of a person, forward the body with a view to its being examined to the nearest Civil Surgeon or other qualified medical person appointed in this behalf by the State Government, unless it is not possible to do so for reasons to be recorded in writing.
-       _Explanation_ — In this section, the expression "relative" means parents, children, brothers, sisters and spouse.
-
-```
-
-**197.** Every offence shall ordinarily be inquired into and tried by a Court within whose
-local jurisdiction it was committed.
-**198.** ( _a_ ) When it is uncertain in which of several local areas an offence was
-committed; or
-( _b_ ) where an offence is committed partly in one local area and partly in another; or
-( _c_ ) where an offence is a continuing one, and continues to be committed in more local
-areas than one; or
-( _d_ ) where it consists of several acts done in different local areas,
-it may be inquired into or tried by a Court having jurisdiction over any of such local areas.
-**199.** When an act is an offence by reason of anything which has been done and of a
-consequence which has ensued, the offence may be inquired into or tried by a Court within
-whose local jurisdiction such thing has been done or such consequence has ensued.
-**200.** When an act is an offence by reason of its relation to any other act which is also
-an offence or which would be an offence if the doer were capable of committing an offence,
-the first-mentioned offence may be inquired into or tried by a Court within whose local
-jurisdiction either act was done.
-**201.** ( _1_ ) Any offence of dacoity, or of dacoity with murder, of belonging to a gang of
-dacoits, or of escaping from custody, may be inquired into or tried by a Court within whose
-local jurisdiction the offence was committed or the accused person is found.
-( _2_ ) Any offence of kidnapping or abduction of a person may be inquired into or tried
-by a Court within whose local jurisdiction the person was kidnapped or abducted or was
-conveyed or concealed or detained.
-( _3_ ) Any offence of theft, extortion or robbery may be inquired into or tried by a Court
-within whose local jurisdiction the offence was committed or the stolen property which is
-
-```
-
-Ordinary place
-of inquiry and
-trial.
-Place of
-inquiry or
-trial.
-
-```
-
-```
-
-Offence
-triable where
-act is done or
-consequence
-ensues.
-Place of trial
-where act is an
-offence by
-reason of
-relation to
-other offence.
-Place of trial
-in case of
-certain
-offences.
-
-```
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-20
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-40
-
-45
-
-```
-
-the subject of the offence was possessed by any person committing it or by any person
-who received or retained such property knowing or having reason to believe it to be stolen
-property.
-( 4 ) Any offence of criminal misappropriation or of criminal breach of trust may be
-inquired into or tried by a Court within whose local jurisdiction the offence was committed
-or any part of the property which is the subject of the offence was received or retained, or
-was required to be returned or accounted for, by the accused person.
-( 5 ) Any offence which includes the possession of stolen property may be inquired
-into or tried by a Court within whose local jurisdiction the offence was committed or the
-stolen property was possessed by any person who received or retained it knowing or
-having reason to believe it to be stolen property.
-
-```
-
-**202.** ( _1_ ) Any offence which includes cheating may, if the deception is practised by
-means of electronic communications or letters or telecommunication messages, be inquired
-into or tried by any Court within whose local jurisdiction such electronic communications
-or letters or messages were sent or were received; and any offence of cheating and
-dishonestly inducing delivery of property may be inquired into or tried by a Court within
-whose local jurisdiction the property was delivered by the person deceived or was received
-by the accused person.
-( _2_ ) Any offence punishable under section 81 of the Bhartiya Nyaya Sanhita, 2023 may
-be inquired into or tried by a Court within whose local jurisdiction the offence was committed
-or the offender last resided with his or her spouse by the first marriage, or the wife by the
-first marriage has taken up permanent residence after the commission of the offence.
-**203.** When an offence is committed whilst the person by or against whom, or the
-thing in respect of which, the offence is committed is in the course of performing a journey
-or voyage, the offence may be inquired into or tried by a Court through or into whose local
-jurisdiction that person or thing passed in the course of that journey or voyage.
-**204.** Where—
-( _a_ ) the offences committed by any person are such that he may be charged
-with, and tried at one trial for, each such offence by virtue of the provisions of
-section 242, section 243 or section 244, or
-( _b_ ) the offence or offences committed by several persons are such that they
-may be charged with and tried together by virtue of the provisions of section 246,
-the offences may be inquired into or tried by any Court competent to inquire into or try any
-of the offences.
-**205.** Notwithstanding anything contained in the preceding provisions of this Chapter,
-the State Government may direct that any cases or class of cases committed for trial in any
-district may be tried in any sessions division:
-Provided that such direction is not repugnant to any direction previously issued by
-the High Court or the Supreme Court under the Constitution, or under this Sanhita or any
-other law for the time being in force.
-**206.** Where two or more Courts have taken cognizance of the same offence and a
-question arises as to which of them ought to inquire into or try that offence, the question
-shall be decided—
-( _a_ ) if the Courts are subordinate to the same High Court, by that High Court;
-( _b_ ) if the Courts are not subordinate to the same High Court, by the High Court
-within the local limits of whose appellate criminal jurisdiction the proceedings were
-first commenced,
-and thereupon all other proceedings in respect of that offence shall be discontinued.
-
-Offences
-committed by
-means of
-electronic
-communications,
-letters, etc.
-
-Offence
-committed on
-journey or
-voyage.
-
-Place of trial
-for offences
-triable
-together.
-
-Power to
-order cases to
-be tried in
-different
-sessions
-divisions.
-
-High Court to
-decide, in case
-of doubt,
-district where
-inquiry or trial
-shall take
-place.
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-```
-
-20
-
-```
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-```
-
-40
-
-```
-
-```
-
-45
-
-```
-
-**207.** ( _1_ ) When a Magistrate of the first class sees reason to believe that any person
-within his local jurisdiction has committed outside such jurisdiction (whether within or
-outside India) an offence which cannot, under the provisions of sections 197 to 205 (both
-inclusive), or any other law for the time being in force, be inquired into or tried within such
-jurisdiction but is under some law for the time being in force triable in India, such Magistrate
-may inquire into the offence as if it had been committed within such local jurisdiction and
-compel such person in the manner hereinbefore provided to appear before him, and send
-such person to the Magistrate having jurisdiction to inquire into or try such offence, or, if
-such offence is not punishable with death or imprisonment for life and such person is ready
-and willing to give bail to the satisfaction of the Magistrate acting under this section, take
-a bond with or without sureties for his appearance before the Magistrate having such
-jurisdiction.
-( _2_ ) When there are more Magistrates than one having such jurisdiction and the
-Magistrate acting under this section cannot satisfy himself as to the Magistrate to or before
-whom such person should be sent or bound to appear, the case shall be reported for the
-orders of the High Court.
-**208.** When an offence is committed outside India—
-( _a_ ) by a citizen of India, whether on the high seas or elsewhere; or
-( _b_ ) by a person, not being such citizen, on any ship or aircraft registered in
-India,
-he may be dealt with in respect of such offence as if it had been committed at any place
-within India at which he may be found or where the offence is registered in India:
-Provided that notwithstanding anything in any of the preceding sections of this
-Chapter, no such offence shall be inquired into or tried in India except with the previous
-sanction of the Central Government.
-**209.** When any offence alleged to have been committed in a territory outside India is
-being inquired into or tried under the provisions of section 208, the Central Government
-may, if it thinks fit, direct that copies of depositions made or exhibits produced, either in
-physical form or in electronic form, before a Judicial officer, in or for that territory or before
-a diplomatic or consular representative of India in or for that territory shall be received as
-evidence by the Court holding such inquiry or trial in any case in which such Court might
-issue a commission for taking evidence as to the matters to which such depositions or
-exhibits relate.
-CHAPTER XV
-
-```
-
-CONDITIONS REQUISITE FOR INITIATION OF PROCEEDINGS
-
-```
-
-**210.** ( _1_ ) Subject to the provisions of this Chapter, any Magistrate of the first class,
-and any Judicial Magistrate of the second class specially empowered in this behalf under
-sub-section ( _2_ ), may take cognizance of any offence—
-
-```
-
-( a ) upon receiving a complaint of facts, including any complaint filed by a
-person authorised under any special law, which constitutes such offence;
-( b ) upon a police report (recorded in any mode including digital mode) of such
-facts;
-( c ) upon information received from any person other than a police officer, or
-upon his own knowledge, that such offence has been committed.
-
-```
-
-```
-
-( 2 ) The Chief Judicial Magistrate may empower any Magistrate of the second class to
-take cognizance under sub-section ( 1 ) of such offences as are within his competence to
-inquire into or try.
-
-```
-
-```
-
-Power to issue
-summons or
-warrant for
-offence
-committed
-beyond local
-jurisdiction.
-
-```
-
-```
-
-Offence
-committed
-outside India.
-
-```
-
-```
-
-Receipt of
-evidence
-relating to
-offences
-committed
-outside India.
-
-```
-
-```
-
-Cognizance of
-offences by
-Magistrates.
-
-```
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-20
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-40
-
-45
-
-```
-
-( 3 ) Any Magistrate empowered under this section, shall upon receiving a complaint
-against a public servant arising in course of the discharge of his official duties, take
-cognizance, subject to—
-( a ) receiving a report containing facts and circumstances of the incident from
-the officer superior to such public servant; and
-( b ) after consideration of the assertions made by the public servant as to the
-situation that led to the incident so alleged.
-
-```
-
-**211.** When a Magistrate takes cognizance of an offence under clause ( _c_ ) of
-sub-section ( _1_ ) of section 210, the accused shall, before any evidence is taken, be informed
-that he is entitled to have the case inquired into or tried by another Magistrate, and if the
-accused or any of the accused, if there be more than one, objects to further proceedings
-before the Magistrate taking cognizance, the case shall be transferred to such other Magistrate
-as may be specified by the Chief Judicial Magistrate in this behalf.
-**212.** ( _1_ ) Any Chief Judicial Magistrate may, after taking cognizance of an offence,
-make over the case for inquiry or trial to any competent Magistrate subordinate to him.
-( _2_ ) Any Judicial Magistrate of the first class empowered in this behalf by the Chief
-Judicial Magistrate may, after taking cognizance of an offence, make over the case for
-inquiry or trial to such other competent Judicial Magistrate as the Chief Judicial Magistrate
-may, by general or special order, specify, and thereupon such Magistrate may hold the
-inquiry or trial.
-**213.** Except as otherwise expressly provided by this Sanhita or by any other law for
-the time being in force, no Court of Session shall take cognizance of any offence as a Court
-of original jurisdiction unless the case has been committed to it by a Magistrate under this
-Sanhita.
-**214.** An Additional Sessions Judge shall try such cases as the Sessions Judge of the
-division may, by general or special order, make over to him for trial or as the High Court may,
-by special order, direct him to try.
-**215.** ( _1_ ) No Court shall take cognizance—
-( _a_ ) ( _i_ ) of any offence punishable under sections 204 to 224 (both inclusive but
-excluding section 207) of the Bhartiya Nyaya Sanhita, 2023, or
-( _ii_ ) of any abetment of, or attempt to commit, such offence, or
-( _iii_ ) of any criminal conspiracy to commit such offence,
-except on the complaint in writing of the public servant concerned or of some other public
-servant to whom he is administratively subordinate or of some other public servant who is
-authorised by the concerned public servant so to do;
-( _b_ ) ( _i_ ) of any offence punishable under any of the following sections of the
-Bhartiya Nyaya Sanhita, 2023, namely, sections 227 to 231 (both inclusive), 234, 235,
-240 to 246 (both inclusive) and 265, when such offence is alleged to have been
-committed in, or in relation to, any proceeding in any Court; or
-( _ii_ ) of any offence described in section 334, or punishable under section 337,
-section 340 or section 341 of the said Sanhita, when such offence is alleged to have
-been committed in respect of a document produced or given in evidence in a proceeding
-in any Court; or
-( _iii_ ) of any criminal conspiracy to commit, or attempt to commit, or the abetment
-of, any offence specified in sub-clause ( _i_ ) or sub-clause ( _ii_ ),
-except on the complaint in writing of that Court or by such officer of the Court as that Court
-may authorise in writing in this behalf, or of some other Court to which that Court is
-subordinate.
-
-Transfer on
-application of
-accused.
-
-Making over
-of cases to
-Magistrates.
-
-Cognizance of
-offences by
-Courts of
-Session.
-
-Additional
-Sessions Judges
-to try cases
-made over to
-them.
-Prosecution
-for contempt
-of lawful
-authority of
-public
-servants, for
-offences
-against public
-justice and for
-offences
-relating to
-documents
-given in
-evidence.
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-```
-
-20
-
-```
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-```
-
-40
-
-```
-
-```
-
-45
-
-```
-
-```
-
-( 2 ) Where a complaint has been made by a public servant or by some other public
-servant who has been authorised to do so by him under clause ( a ) of sub-section ( 1 ), any
-authority to which he is administratively subordinate or who has authorised such public
-servant may order the withdrawal of the complaint and send a copy of such order to the
-Court; and upon its receipt by the Court, no further proceedings shall be taken on the
-complaint:
-Provided that no such withdrawal shall be ordered if the trial in the Court of first
-instance has been concluded.
-( 3 ) In clause ( b ) of sub-section ( 1 ), the term "Court" means a Civil, Revenue or
-Criminal Court, and includes a tribunal constituted by or under a Central, Provincial or State
-Act if declared by that Act to be a Court for the purposes of this section.
-( 4 ) For the purposes of clause ( b ) of sub-section ( 1 ), a Court shall be deemed to be
-subordinate to the Court to which appeals ordinarily lie from the appealable decrees or
-sentences of such former Court, or in the case of a Civil Court from whose decrees no appeal
-ordinarily lies, to the Principal Court having ordinary original civil jurisdiction within whose
-local jurisdiction such Civil Court is situate:
-Provided that—
-( a ) where appeals lie to more than one Court, the Appellate Court of inferior
-jurisdiction shall be the Court to which such Court shall be deemed to be subordinate;
-( b ) where appeals lie to a Civil and also to a Revenue Court, such Court shall be
-deemed to be subordinate to the Civil or Revenue Court according to the nature of the
-case or proceeding in connection with which the offence is alleged to have been
-committed.
-
-```
-
-**216.** A witness or any other person may file a complaint in relation to an offence
-under section 230 of the Bharatiya Nyaya Sanhita, 2023.
-**217.** ( _1_ ) No Court shall take cognizance of—
-
-```
-
-( a ) any offence punishable under Chapter VI or under section 194, section 297
-or sub-section ( 1 ) of section 351 of the Bharatiya Nyaya Sanhita, 2023; or
-
-```
-
-```
-
-( b ) a criminal conspiracy to commit such offence; or
-
-```
-
-```
-
-( c ) any such abetment, as is described in section 47 of the Bharatiya Nyaya
-Sanhita, 2023,
-
-```
-
-```
-
-except with the previous sanction of the Central Government or of the State Government.
-
-```
-
-```
-
-( 2 ) No Court shall take cognizance of—
-
-```
-
-```
-
-( a ) any offence punishable under section 195 or sub-section ( 2 ) or
-sub-section ( 3 ) of section 351 of the Bharatiya Nyaya Sanhita, 2023; or
-
-```
-
-```
-
-( b ) a criminal conspiracy to commit such offence,
-
-```
-
-```
-
-except with the previous sanction of the Central Government or of the State
-Government or of the District Magistrate.
-
-```
-
-```
-
-( 3 ) No Court shall take cognizance of the offence of any criminal conspiracy punishable
-under section 61 of the Bharatiya Nyaya Sanhita, 2023, other than a criminal conspiracy to
-commit an offence punishable with death, imprisonment for life or rigorous imprisonment
-for a term of two years or upwards, unless the State Government or the District Magistrate
-has consented in writing to the initiation of the proceedings:
-
-```
-
-```
-
-Procedure for
-witnesses in
-case of
-threatening,
-etc.
-Prosecution
-for offences
-against the
-State and for
-criminal
-conspiracy to
-commit such
-offence.
-
-```
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-20
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-40
-
-```
-
-Provided that where the criminal conspiracy is one to which the provisions of
-section 215 apply, no such consent shall be necessary.
-( 4 ) The Central Government or the State Government may, before according sanction
-under sub-section ( 1 ) or sub-section ( 2 ) and the District Magistrate may, before according
-sanction under sub-section ( 2 ) and the State Government or the District Magistrate may,
-before giving consent under sub-section ( 3 ), order a preliminary investigation by a police
-officer not being below the rank of Inspector, in which case such police officer shall have
-the powers referred to in sub-section ( 3 ) of section 174.
-
-```
-
-**218.** ( _1_ ) When any person who is or was a Judge or Magistrate or a public servant not
-removable from his office save by or with the sanction of the Government is accused of any
-offence alleged to have been committed by him while acting or purporting to act in the
-discharge of his official duty, no Court shall take cognizance of such offence except with the
-previous sanction save as otherwise provided in the Lokpal and Lokayuktas Act, 2013—
-( _a_ ) in the case of a person who is employed or, as the case may be, was at the
-time of commission of the alleged offence employed, in connection with the affairs of
-the Union, of the Central Government;
-( _b_ ) in the case of a person who is employed or, as the case may be, was at the
-time of commission of the alleged offence employed, in connection with the affairs of
-a State, of the State Government:
-Provided that where the alleged offence was committed by a person referred to in
-clause ( _b_ ) during the period while a Proclamation issued under clause ( _1_ ) of article 356 of the
-Constitution was in force in a State, clause ( _b_ ) will apply as if for the expression "State
-Government" occurring therein, the expression "Central Government" were substituted:
-Provided further that such Government shall take a decision within a period of one
-hundred and twenty days from the date of the receipt of the request for sanction and in case
-it fails to do so, the sanction shall be deemed to have been accorded by such Government:
-Provided also no sanction shall be required in case of a public servant accused of any
-offence alleged to have been committed under section 197, section 198, section 63,
-section 66, section 68, section 70, section 73, section 74, section 75, section 76, section 77,
-section 141, or section 351 of the Bharatiya Nyaya Sanhita, 2023.
-( _2_ ) No Court shall take cognizance of any offence alleged to have been committed by
-any member of the Armed Forces of the Union while acting or purporting to act in the
-discharge of his official duty, except with the previous sanction of the Central Government.
-( _3_ ) The State Government may, by notification, direct that the provisions of
-sub-section ( _2_ ) shall apply to such class or category of the members of the Forces charged
-with the maintenance of public order as may be specified therein, wherever they may be
-serving, and thereupon the provisions of that sub-section will apply as if for the expression
-"Central Government" occurring therein, the expression "State Government" were
-substituted.
-( _4_ ) Notwithstanding anything contained in sub-section ( _3_ ), no Court shall take
-cognizance of any offence, alleged to have been committed by any member of the Forces
-charged with the maintenance of public order in a State while acting or purporting to act in
-the discharge of his official duty during the period while a Proclamation issued under
-clause ( _1_ ) of article 356 of the Constitution was in force therein, except with the previous
-sanction of the Central Government.
-( _5_ ) The Central Government or the State Government, may determine the person by
-whom, the manner in which, and the offence or offences for which, the prosecution of such
-Judge, Magistrate or public servant is to be conducted, and may specify the Court before
-which the trial is to be held.
-
-Prosecution of
-Judges and
-public
-servants.
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-```
-
-20
-
-```
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-```
-
-40
-
-```
-
-```
-
-45
-
-```
-
-```
-
-1 of 2014.
-
-```
-
-**219.** ( _1_ ) No Court shall take cognizance of an offence punishable under Chapter V of
-the Bharatiya Nyaya Sanhita, 2023 except upon a complaint made by some person aggrieved
-by the offence:
-
-```
-
-Provided that—
-( a ) where such person is under the age of eighteen years, or is having intellectual
-disability requiring higher support needs or a person with mental illness, or is from
-sickness or infirmity unable to make a complaint, or is a woman who, according to the
-local customs and manners, ought not to be compelled to appear in public, some other
-person may, with the leave of the Court, make a complaint on his or her behalf;
-( b ) where such person is the husband and he is serving in any of the Armed
-Forces of the Union under conditions which are certified by his Commanding Officer
-as precluding him from obtaining leave of absence to enable him to make a complaint
-in person, some other person authorised by the husband in accordance with the
-provisions of sub-section ( 4 ) may make a complaint on his behalf;
-( c ) where the person aggrieved by an offence punishable under section 81 of
-the Bharatiya Nyaya Sanhita, 2023 is the wife, complaint may be made on her behalf
-by her father, mother, brother, sister, son or daughter or by her father's or mother's
-brother or sister, or, with the leave of the Court, by any other person related to her by
-blood, marriage or adoption.
-( 2 ) For the purposes of sub-section ( 1 ), no person other than the husband of the
-woman shall be deemed to be aggrieved by any offence punishable under section 83 of the
-Bharatiya Nyaya Sanhita, 2023:
-
-```
-
-```
-
-Provided that in the absence of the husband, some person who had care of the
-woman on his behalf at the time when such offence was committed may, with the leave of
-the Court, make a complaint on his behalf.
-
-```
-
-```
-
-( 3 ) When in any case falling under clause ( a ) of the proviso to sub-section ( 1 ), the
-complaint is sought to be made on behalf of a person under the age of eighteen years or of
-a person with mental illness by a person who has not been appointed or declared by a
-competent authority to be the guardian of the person of the minor or a person with mental
-illness, and the Court is satisfied that there is a guardian so appointed or declared, the Court
-shall, before granting the application for leave, cause notice to be given to such guardian
-and give him a reasonable opportunity of being heard.
-
-```
-
-```
-
-( 4 ) The authorisation referred to in clause ( b ) of the proviso to sub-section ( 1 ), shall
-be in writing, shall be signed or otherwise attested by the husband, shall contain a statement
-to the effect that he has been informed of the allegations upon which the complaint is to be
-founded, shall be countersigned by his Commanding Officer, and shall be accompanied by
-a certificate signed by that Officer to the effect that leave of absence for the purpose of
-making a complaint in person cannot for the time being be granted to the husband.
-( 5 ) Any document purporting to be such an authorisation and complying with the
-provisions of sub-section ( 4 ), and any document purporting to be a certificate required by
-that sub-section shall, unless the contrary is proved, be presumed to be genuine and shall
-be received in evidence.
-
-```
-
-```
-
-( 6 ) No Court shall take cognizance of an offence under section 64 of the Bharatiya
-Nyaya Sanhita, 2023, where such offence consists of sexual intercourse by a man with his
-own wife, the wife being under eighteen years of age, if more than one year has elapsed from
-the date of the commission of the offence.
-
-```
-
-```
-
-Prosecution
-for offences
-against
-marriage.
-
-```
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-20
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-40
-
-45
-
-```
-
-( 7 ) The provisions of this section apply to the abetment of, or attempt to commit, an
-offence as they apply to the offence.
-
-```
-
-**220.** No Court shall take cognizance of an offence punishable under section 84 of the
-Bharatiya Nyaya Sanhita, 2023 except upon a police report of facts which constitute such
-offence or upon a complaint made by the person aggrieved by the offence or by her father,
-mother, brother, sister or by her father's or mother's brother or sister or, with the leave of the
-Court, by any other person related to her by blood, marriage or adoption.
-**221.** No Court shall take cognizance of an offence punishable under section 67 of the
-Bharatiya Nyaya Sanhita, 2023 where the persons are in a marital relationship, except upon
-_prima facie_ satisfaction of the facts which constitute the offence upon a complaint having
-been filed or made by the wife against the husband.
-**222.** ( _1_ ) No Court shall take cognizance of an offence punishable under Chapter XIX
-of the Bharatiya Nyaya Sanhita, 2023 except upon a complaint made by some person
-aggrieved by the offence:
-Provided that where such person is under the age of eighteen years, or is having
-intellectual disability requiring higher support needs or a person with mental illness, or is
-from sickness or infirmity unable to make a complaint, or is a woman who, according to the
-local customs and manners, ought not to be compelled to appear in public, some other
-person may, with the leave of the Court, make a complaint on his or her behalf.
-
-```
-
-( 2 ) Notwithstanding anything contained in this Sanhita, when any offence falling
-under Chapter XIX of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed
-against a person who, at the time of such commission, is the President of India, the
-Vice-President of India, the Governor of a State, the Administrator of a Union territory or a
-Minister of the Union or of a State or of a Union territory, or any other public servant
-employed in connection with the affairs of the Union or of a State in respect of his conduct
-in the discharge of his public functions, a Court of Session may take cognizance of such
-offence, without the case being committed to it, upon a complaint in writing made by the
-Public Prosecutor.
-
-```
-
-```
-
-( 3 ) Every complaint referred to in sub-section ( 2 ) shall set forth the facts which
-constitute the offence alleged, the nature of such offence and such other particulars as are
-reasonably sufficient to give notice to the accused of the offence alleged to have been
-committed by him.
-
-```
-
-```
-
-( 4 ) No complaint under sub-section ( 2 ) shall be made by the Public Prosecutor except
-with the previous sanction—
-
-```
-
-```
-
-( a ) of the State Government,—
-
-```
-
-```
-
-( i ) in the case of a person who is or has been the Governor of that State or
-a Minister of that Government;
-( ii ) in the case of any other public servant employed in connection with
-the affairs of the State;
-
-```
-
-```
-
-( b ) of the Central Government, in any other case.
-( 5 ) No Court of Session shall take cognizance of an offence under sub-section ( 2 )
-unless the complaint is made within six months from the date on which the offence is alleged
-to have been committed.
-
-```
-
-```
-
-( 6 ) Nothing in this section shall affect the right of the person against whom the
-offence is alleged to have been committed, to make a complaint in respect of that offence
-
-```
-
-Prosecution of
-offences under
-section 84 of
-Bharatiya
-Nyaya
-Sanhita, 2023.
-
-Cognizance of
-offence.
-
-Prosecution
-for
-defamation.
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-```
-
-20
-
-```
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-```
-
-40
-
-```
-
-```
-
-45
-
-```
-
-```
-
-before a Magistrate having jurisdiction or the power of such Magistrate to take cognizance
-of the offence upon such complaint.
-CHAPTER XVI
-COMPLAINTS TO MAGISTRATES
+181.    1. ( _1_ ) No statement made by any person to a police officer in the course of an investigation under this Chapter, shall, if reduced to writing, be signed by the person making it; nor shall any such statement or any record thereof, whether in a police diary or otherwise, or any part of such statement or record, be used for any purpose, save as hereinafter provided, at any inquiry or trial in respect of any offence under investigation at the time when such statement was made:
+           _Provided_ that when any witness is called for the prosecution in such inquiry or trial whose statement has been reduced into writing as aforesaid, any part of his statement, if duly proved, may be used by the accused, and with the permission of the Court, by the prosecution, to contradict such witness in the manner provided by section 148 of the Bhartiya Sakshya Adhiniyam, 2023; and when any part of such statement is so used, any part thereof may also be used in the re-examination of such witness, but for the purpose only of explaining any matter referred to in his cross-examination.
+        2. ( _2_ ) Nothing in this section shall be deemed to apply to any statement falling within the provisions of clause ( _1_ ) of section 26 of the Bharatiya Sakshya Adhiniyam, 2023; or to affect the provisions of section 23 of that Adhiniyam.
+           _Explanation_ — An omission to state a fact or circumstance in the statement referred to in sub-section ( _1_ ) may amount to contradiction if the same appears to be significant and otherwise relevant having regard to the context in which such omission occurs and whether any omission amounts to a contradiction in the particular context shall be a question of fact.
+
+182.    1. ( _1_ ) No police officer or other person in authority shall offer or make, or cause to be offered or made, any such inducement, threat or promise as is mentioned in section 22 of the Bharatiya Sakshya Adhiniyam, 2023.
+        2. ( _2_ ) But no police officer or other person shall prevent, by any caution or otherwise, any person from making in the course of any investigation under this Chapter any statement which he may be disposed to make of his own free will:
+           _Provided_ that nothing in this sub-section shall affect the provisions of sub-section ( _4_ ) of section 184.
+
+183.    1. ( _1_ ) Any Judicial Magistrate of the District in which the information about commission of any offence has been registered, may, whether or not he has jurisdiction in the case, record any confession or statement made to him in the course of an investigation under this Chapter or under any other law for the time being in force, or at any time afterwards but before the commencement of the inquiry or trial:
+           _Provided_ that any confession or statement made under this sub-section may also be recorded in the presence of the advocate of the person accused of an offence:
+           _Provided_ further that no confession shall be recorded by a police officer on whom any power of a Magistrate has been conferred under any law for the time being in force.
+        2. ( _2_ ) The Magistrate shall, before recording any such confession, explain to the person making it that he is not bound to make a confession and that, if he does so, it may be used as evidence against him; and the Magistrate shall not record any such confession unless, upon questioning the person making it, he has reason to believe that it is being made voluntarily.
+        3. ( _3_ ) If at any time before the confession is recorded, the person appearing before the Magistrate states that he is not willing to make the confession, the Magistrate shall not authorise the detention of such person in police custody.
+        4. ( _4_ ) Any such confession shall be recorded in the manner provided in section 316 for recording the examination of an accused person and shall be signed by the person making the confession; and the Magistrate shall make a memorandum at the foot of such record to the following effect:—
+           "I have explained to (name) that he is not bound to make a confession and that, if he does so, any confession he may make may be used as evidence against him and I believe that this confession was voluntarily made. It was taken in my presence and hearing, and was read over to the person making it and admitted by him to be correct, and it contains a full and true account of the statement made by him.
+           (Signed) A. B.
+           Magistrate."
+        5. ( _5_ ) Any statement (other than a confession) made under sub-section ( _1_ ) shall be recorded in such manner hereinafter provided for the recording of evidence as is, in the opinion of the Judicial Magistrate, best fitted to the circumstances of the case; and the Judicial Magistrate shall have power to administer oath to the person whose statement is so recorded.
+        6. ( _6_ )
+        - ( _a_ ) In cases punishable under section 66, section 67, section 68, section 70, section 71, section 73, section 74, section 75, section 76, section 77, sub-section ( _1_ ) or sub-section ( _2_ ) of section 74, or section 78 of the Bhartiya Nyaya Sanhita, 2023, the Judicial Magistrate shall record the statement of the person against whom such offence has been committed in the manner specified in sub-section ( _5_ ), as soon as the commission of the offence is brought to the notice of the police:
+          _Provided_ that such statement shall, as far as practicable, be recorded by a woman Judicial Magistrate and in her absence by a male Judicial Magistrate in the presence of a woman:
+          _Provided_ further that in cases relating to the offences punishable with imprisonment for ten years or more or imprisonment for life or with death, the Judicial Magistrate shall record the statement of the witness brought before him by the police officer:
+          _Provided_ also that if the person making the statement is temporarily or permanently mentally or physically disabled, the Magistrate shall take the assistance of an interpreter or a special educator in recording the statement:
+          _Provided_ also that if the person making the statement is temporarily or permanently mentally or physically disabled, the statement made by the person, with the assistance of an interpreter or a special educator, shall be recorded through audio-video electronic means preferably cell phone.
+        - ( _b_ ) A statement recorded under clause ( _a_ ) of a person, who is temporarily or permanently mentally or physically disabled, shall be considered a statement in lieu of examination-in-chief, as specified in section 142 of the Bhartiya Sakshya Adhiniyam, 2023 such that the maker of the statement can be cross-examined on such statement, without the need for recording the same at the time of trial.
+        7. ( _7_ ) The Magistrate recording a confession or statement under this section shall forward it to the Magistrate by whom the case is to be inquired into or tried.
+
+184.    1. ( _1_ ) Where, during the stage when an offence of committing rape or attempt to commit rape is under investigation, it is proposed to get the person of the woman with whom rape is alleged or attempted to have been committed or attempted, examined by a medical expert, such examination shall be conducted by a registered medical practitioner employed in a hospital run by the Government or a local authority and in the absence of such a practitioner, by any other registered medical practitioner, with the consent of such woman or of a person competent to give such consent on her behalf and such woman shall be sent to such registered medical practitioner within twenty-four hours from the time of receiving the information relating to the commission of such offence.
+        2. ( _2_ ) The registered medical practitioner, to whom such woman is sent, shall, without delay, examine her person and prepare a report of his examination giving the following particulars, namely:—
+            - ( _i_ ) the name and address of the woman and of the person by whom she was brought;
+            - ( _ii_ ) the age of the woman;
+            - ( _iii_ ) the description of material taken from the person of the woman for DNA profiling;
+            - ( _iv_ ) marks of injury, if any, on the person of the woman;
+            - ( _v_ ) general mental condition of the woman; and
+            - ( _vi_ ) other material particulars in reasonable detail.
+
+        3. ( _3_ ) The report shall state precisely the reasons for each conclusion arrived at.
+        4. ( _4_ ) The report shall specifically record that the consent of the woman or of the person competent to give such consent on her behalf to such examination had been obtained.
+        5. ( _5_ ) The exact time of commencement and completion of the examination shall also be noted in the report.
+        6. ( _6_ ) The registered medical practitioner shall, within a period of seven days forward the report to the investigating officer who shall forward it to the Magistrate referred to in section 193 as part of the documents referred to in clause ( _a_ ) of sub-section ( _6_ ) of that section.
+        7. ( _7_ ) Nothing in this section shall be construed as rendering lawful any examination without the consent of the woman or of any person competent to give such consent on her behalf.
+           _Explanation_ — For the purposes of this section, "examination" and "registered medical practitioner" shall have the same meanings as respectively assigned to them in section 51.
+
+185.    1. ( _1_ ) Whenever an officer in charge of a police station or a police officer making an investigation has reasonable grounds for believing that anything necessary for the purposes of an investigation into any offence which he is authorised to investigate may be found in any place within the limits of the police station of which he is in charge, or to which he is attached, and that such thing cannot in his opinion be otherwise obtained without undue delay, such officer may, after recording in writing the grounds of his belief in the case-diary and specifying in such writing, so far as possible, the thing for which search is to be made, search, or cause search to be made, for such thing in any place within the limits of such station.
+        2. ( _2_ ) A police officer proceeding under sub-section ( _1_ ), shall, if practicable, conduct the search in person:
+           _Provided_ that the search conducted under this section shall be recorded through audio-video electronic means preferably by mobile phone.
+        3. ( _3_ ) If he is unable to conduct the search in person, and there is no other person competent to make the search present at the time, he may, after recording in writing his reasons for so doing, require any officer subordinate to him to make the search, and he shall deliver to such subordinate officer an order in writing, specifying the place to be searched, and so far as possible, the thing for which search is to be made; and such subordinate officer may thereupon search for such thing in such place.
+        4. ( _4_ ) The provisions of this Sanhita as to search-warrants and the general provisions as to searches contained in section 103 shall, so far as may be, apply to a search made under this section.
+        5. ( _5_ ) Copies of any record made under sub-section ( _1_ ) or sub-section ( _3_ ) shall forthwith, but not later than forty-eight hours, be sent to the nearest Magistrate empowered to take cognizance of the offence, and the owner or occupier of the place searched shall, on application, be furnished, free of cost, with a copy of the same by the Magistrate.
+
+186.    1. ( _1_ ) An officer in charge of a police station or a police officer not being below the rank of sub-inspector making an investigation may require an officer in charge of another police station, whether in the same or a different district, to cause a search to be made in any place, in any case in which the former officer might cause such search to be made, within the limits of his own station.
+        2. ( _2_ ) Such officer, on being so required, shall proceed according to the provisions of section 185, and shall forward the thing found, if any, to the officer at whose request the search was made.
+        3. ( _3_ ) Whenever there is reason to believe that the delay occasioned by requiring an officer in charge of another police station to cause a search to be made under sub-section ( _1_ ) might result in evidence of the commission of an offence being concealed or destroyed, it shall be lawful for an officer in charge of a police station or a police officer making any investigation under this Chapter to search, or cause to be searched, any place in the limits of another police station in accordance with the provisions of section 185, as if such place were within the limits of his own police station.
+        4. ( _4_ ) Any officer conducting a search under sub-section ( _3_ ) shall forthwith send notice of the search to the officer in charge of the police station within the limits of which such place is situate, and shall also send with such notice a copy of the list (if any) prepared under section 103, and shall also send to the nearest Magistrate empowered to take cognizance of the offence, copies of the records referred to in sub-sections ( _1_ ) and ( _3_ ) of section 185.
+        5. ( _5_ ) The owner or occupier of the place searched shall, on application, be furnished free of cost with a copy of any record sent to the Magistrate under sub-section ( _4_ ).
+
+187.    1. ( _1_ ) Whenever any person is arrested and detained in custody, and it appears that the investigation cannot be completed within the period of twenty-four hours fixed by section 58, and there are grounds for believing that the accusation or information is well-founded, the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of sub-inspector, shall forthwith transmit to the nearest Judicial Magistrate a copy of the entries in the diary hereinafter specified relating to the case, and shall at the same time forward the accused to such Magistrate.
+        2. ( _2_ ) The Judicial Magistrate to whom an accused person is forwarded under this section may, irrespective of whether he has or has no jurisdiction to try the case, after taking into consideration the status of the accused person as to whether he is not released on bail or his bail has not been cancelled, authorise, from time to time, the detention of the accused in such custody as such Magistrate thinks fit, for a term not exceeding fifteen days in the whole, or in parts, at any time during the initial forty days or sixty days out of detention period of sixty days or ninety days, as the case may be, as provided in sub-section ( _3_ ), and if he has no jurisdiction to try the case or commit it for trial, and considers further detention unnecessary, he may order the accused to be forwarded to a Judicial Magistrate having such jurisdiction.
+        3. ( _3_ ) The Magistrate may authorise the detention of the accused person, beyond the period of fifteen days, if he is satisfied that adequate grounds exist for doing so, but no Magistrate shall authorise the detention of the accused person in custody under this sub-section for a total period exceeding—
+            - ( _i_ ) ninety days, where the investigation relates to an offence punishable with death, imprisonment for life or imprisonment for a term of not less than ten years;
+            - ( _ii_ ) sixty days, where the investigation relates to any other offence, and, on the expiry of the said period of ninety days, or sixty days, as the case may be, the accused person shall be released on bail if he is prepared to and does furnish bail, and every person released on bail under this sub-section shall be deemed to be so released under the provisions of Chapter XXXIV for the purposes of that Chapter.
+
+        4. ( _4_ ) No Magistrate shall authorise detention of the accused in custody of the police under this section unless the accused is produced before him in person for the first time and subsequently every time till the accused remains in the custody of the police, but the Magistrate may extend further detention in judicial custody on production of the accused either in person or through the medium of electronic video linkage.
+        5. ( _5_ ) No Magistrate of the second class, not specially empowered in this behalf by the High Court, shall authorise detention in the custody of the police.
+           _Explanation_ I — For the avoidance of doubts, it is hereby declared that, notwithstanding the expiry of the period specified in sub-section ( _3_ ), the accused shall be detained in custody so long as he does not furnish bail.
+           _Explanation_ II — If any question arises whether an accused person was produced before the Magistrate as required under sub-section ( _4_ ), the production of the accused person may be proved by his signature on the order authorising detention or by the order certified by the Magistrate as to production of the accused person through the medium of electronic video linkage, as the case may be:
+           _Provided_ that in case of a woman under eighteen years of age, the detention shall be authorised to be in the custody of a remand home or recognised social institution:
+           _Provided_ further that no person shall be detained otherwise than in police station under policy custody or in prison under Judicial custody or place declared as prison by the Central Government or the State Government.
+        6. ( _6_ ) Notwithstanding anything contained in sub-section ( _1_ ) to sub-section ( _5_ ), the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of a sub-inspector, may, where a Judicial Magistrate is not available, transmit to the nearest Executive Magistrate, on whom the powers of a Judicial Magistrate have been conferred, a copy of the entry in the diary hereinafter specified relating to the case, and shall, at the same time, forward the accused to such Executive Magistrate, and thereupon such Executive Magistrate, may, for reasons to be recorded in writing, authorise the detention of the accused person in such custody as he may think fit for a term not exceeding seven days in the aggregate; and, on the expiry of the period of detention so authorised, the accused person shall be released on bail except where an order for further detention of the accused person has been made by a Magistrate competent to make such order; and, where an order for such further detention is made, the period during which the accused person was detained in custody under the orders made by an Executive Magistrate under this sub-section, shall be taken into account in computing the period specified in sub-section ( _3_ ):
+           _Provided_ that before the expiry of the period aforesaid, the Executive Magistrate shall transmit to the nearest Judicial Magistrate the records of the case together with a copy of the entries in the diary relating to the case which was transmitted to him by the officer in charge of the police station or the police officer making the investigation, as the case may be.
+        7. ( _7_ ) A Magistrate authorising under this section detention in the custody of the police shall record his reasons for so doing.
+        8. ( _8_ ) Any Magistrate other than the Chief Judicial Magistrate making such order shall forward a copy of his order, with his reasons for making it, to the Chief Judicial Magistrate.
+        9. ( _9_ ) If in any case triable by a Magistrate as a summons-case, the investigation is not concluded within a period of six months from the date on which the accused was arrested, the Magistrate shall make an order stopping further investigation into the offence unless the officer making the investigation satisfies the Magistrate that for special reasons and in the interests of justice the continuation of the investigation beyond the period of six months is necessary.
+        10. ( _10_ ) Where any order stopping further investigation into an offence has been made under sub-section ( _9_ ), the Sessions Judge may, if he is satisfied, on an application made to him or otherwise, that further investigation into the offence ought to be made, vacate the order made under sub-section ( _9_ ) and direct further investigation to be made into the offence subject to such directions with regard to bail and other matters as he may specify.
+
+188.    When any subordinate police officer has made any investigation under this Chapter, he shall report the result of such investigation to the officer in charge of the police station.
+189.    If, upon an investigation under this Chapter, it appears to the officer in charge of the police station that there is not sufficient evidence or reasonable ground of suspicion to justify the forwarding of the accused to a Magistrate, such officer shall, if such person is in custody, release him on his executing a bond, with or without sureties, as such officer may direct, to appear, if and when so required, before a Magistrate empowered to take cognizance of the offence on a police report, and to try the accused or commit him for trial.
+
+190.    1. ( _1_ ) If, upon an investigation under this Chapter, it appears to the officer in charge of the police station that there is sufficient evidence or reasonable ground as aforesaid, such officer shall forward the accused under custody to a Judicial Magistrate empowered to take cognizance of the offence upon a police report to try the accused or commit him for trial, or, if the offence is bailable and the accused is able to give security, shall take security from him for his appearance before such Magistrate on a day fixed and for his attendance from day to day before such Magistrate until otherwise directed:
+           _Provided_ that if the accused is not in custody, the police officer shall take security from such person for his appearance before the Judicial Magistrate and the Judicial Magistrate to whom such report is forwarded shall not refuse to accept the same on the ground that the accused is not taken in custody.
+        2. ( _2_ ) When the officer in charge of a police station forwards an accused person to a Judicial Magistrate or takes security for his appearance before such Magistrate under this section, he shall send to such Magistrate any weapon or other article which it may be necessary to produce before him, and shall require the complainant (if any) and so many of the persons who appear to such officer to be acquainted with the facts and circumstances of the case as he may think necessary, to execute a bond to appear before the Judicial Magistrate as thereby directed and prosecute or give evidence (as the case may be) in the matter of the charge against the accused.
+        3. ( _3_ ) If the Court of the Chief Judicial Magistrate is mentioned in the bond, such Court shall be held to include any Court to which such Magistrate may refer the case for inquiry or trial, provided reasonable notice of such reference is given to such complainant or persons.
+        4. ( _4_ ) The officer in whose presence the bond is executed shall deliver a copy thereof to one of the persons who executed it, and shall then send to the Magistrate the original with his report.
+
+191.    No complainant or witness on his way to any Court shall be required to accompany a police officer, or shall be subjected to unnecessary restraint or inconvenience, or required to give any security for his appearance other than his own bond:
+        _Provided_ that if any complainant or witness refuses to attend or to execute a bond as directed in section 190, the officer in charge of the police station may forward him in custody to the Magistrate, who may detain him in custody until he executes such bond, or until the hearing of the case is completed.
+
+192.    1.  ( _1_ ) Every police officer making an investigation under this Chapter shall day by day enter his proceedings in the investigation in a diary, setting forth the time at which the information reached him, the time at which he began and closed his investigation, the place or places visited by him, and a statement of the circumstances ascertained through his investigation.
+        2.  ( _2_ ) The statements of witnesses recorded during the course of investigation under section 180 shall be inserted in the case diary.
+        3.  ( _3_ ) The diary referred to in sub-section ( _1_ ) shall be a volume and duly paginated.
+        4.  ( _4_ ) Any Criminal Court may send for the police diaries of a case under inquiry or trial in such Court, and may use such diaries, not as evidence in the case, but to aid it in such inquiry or trial.
+        5.  ( _5_ ) Neither the accused nor his agents shall be entitled to call for such diaries, nor shall he or they be entitled to see them merely because they are referred to by the Court; but, if they are used by the police officer who made them to refresh his memory, or if the Court uses them for the purpose of contradicting such police officer, the provisions of section 148 or section 164, as the case may be, of the Bharatiya Sakshya Adhiniyam, 2023, shall apply.
+
+193.    1. ( _1_ ) Every investigation under this Chapter shall be completed without unnecessary delay.
+        2. ( _2_ ) The investigation in relation to an offence under sections 64, 66, 67, 68, 70, 71 of the Bharatiya Nyaya Sanhita, 2023 or under sections 4, 6, 8 or section 10 of the Protection of Children from Sexual Offences Act, 2012 shall be completed within two months from the date on which the information was recorded by the officer in charge of the police station.
+        3. ( _3_ )
+            1. ( _i_ ) As soon as the investigation is completed, the officer in charge of the police station shall forward to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form as the State Government may, by rules provide, stating—
+            - ( _a_ ) the names of the parties;
+            - ( _b_ ) the nature of the information;
+            - ( _c_ ) the names of the persons who appear to be acquainted with the circumstances of the case;
+            - ( _d_ ) whether any offence appears to have been committed and, if so, by whom;
+            - ( _e_ ) whether the accused has been arrested;
+            - ( _f_ ) whether the accused has been released on his bond and, if so, whether with or without sureties;
+            - ( _g_ ) whether the accused has been forwarded in custody under section 190;
+            - ( _h_ ) whether the report of medical examination of the woman has been attached where investigation relates to an offence under sections 64, 66, 67, 68 or section 70 of the Bharatiya Nyaya Sanhita, 2023.
+            2. ( _ii_ ) The police officer shall, within a period of ninety days, inform the progress of the investigation by any means including electronic communication to the informant or the victim.
+            3. ( _iii_ ) The officer shall also communicate, in such manner as the State Government may, by rules, provide, the action taken by him, to the person, if any, by whom the information relating to the commission of the offence was first given.
+        4. ( _4_ ) Where a superior officer of police has been appointed under section 177, the report shall, in any case in which the State Government by general or special order so directs, be submitted through that officer, and he may, pending the orders of the Magistrate, direct the officer in charge of the police station to make further investigation.
+        5. ( _5_ ) Whenever it appears from a report forwarded under this section that the accused has been released on his bond, the Magistrate shall make such order for the discharge of such bond or otherwise as he thinks fit.
+        6. ( _6_ ) When such report is in respect of a case to which section 190 applies, the police officer shall forward to the Magistrate along with the report—
+            - ( _a_ ) all documents or relevant extracts thereof on which the prosecution proposes to rely other than those already sent to the Magistrate during investigation;
+            - ( _b_ ) the statements recorded under section 180 of all the persons whom the prosecution proposes to examine as its witnesses.
+        7. ( _7_ ) If the police officer is of opinion that any part of any such statement is not relevant to the subject-matter of the proceedings or that its disclosure to the accused is not essential in the interests of justice and is inexpedient in the public interest, he shall indicate that part of the statement and append a note requesting the Magistrate to exclude that part from the copies to be granted to the accused and stating his reasons for making such request.
+        8. ( _8_ ) Subject to the provisions contained in sub-section ( _7_ ), the police officer investigating the case shall also submit such number of copies of the police report along with other documents duly indexed to the Judicial Magistrate for supply to the accused as required under section 230:
+           _Provided_ that supply of report and other documents by electronic communication shall be considered as duly served.
+        9. ( _9_ ) Nothing in this section shall be deemed to preclude further investigation in respect of an offence after a report under sub-section ( _3_ ) has been forwarded to the Magistrate and, where upon such investigation, the officer in charge of the police station obtains further evidence, oral or documentary, he shall forward to the Magistrate a further report or reports regarding such evidence in the form as the State Government may, by rules, provide; and the provisions of sub-sections ( _3_ ) to ( _7_ ) shall, as far as may be, apply in relation to such report or reports as they apply in relation to a report forwarded under sub-section ( _3_ ):
+           _Provided_ that further investigation during the trial may be permitted with the permission of the Court trying the case and the same shall be completed within a period of ninety days which may extend with the permission of the Court.
+
+194.    1. ( _1_ ) When the officer in charge of a police station or some other police officer specially empowered by the State Government in that behalf receives information that a person has committed suicide, or has been killed by another or by an animal or by machinery or by an accident, or has died under circumstances raising a reasonable suspicion that some other person has committed an offence, he shall immediately give intimation thereof to the nearest Executive Magistrate empowered to hold inquests, and, unless otherwise directed by any rule made by the State Government, or by any general or special order of the District or Sub-divisional Magistrate, shall proceed to the place where the body of such deceased person is, and there, in the presence of two or more respectable inhabitants of the neighbourhood, shall make an investigation, and draw up a report of the apparent cause of death, describing such wounds, fractures, bruises, and other marks of injury as may be found on the body, and stating in what manner, or by what weapon or instrument (if any); such marks appear to have been inflicted.
+        2. ( _2_ ) The report shall be signed by such police officer and other persons, or by so many of them as concur therein, and shall be forwarded to the District Magistrate or the Sub-divisional Magistrate within twenty-four hours.
+        3. ( _3_ ) When—
+            - ( _i_ ) the case involves suicide by a woman within seven years of her marriage; or
+            - ( _ii_ ) the case relates to the death of a woman within seven years of her marriage in any circumstances raising a reasonable suspicion that some other person committed an offence in relation to such woman; or
+            - ( _iii_ ) the case relates to the death of a woman within seven years of her marriage and any relative of the woman has made a request in this behalf; or
+            - ( _iv_ ) there is any doubt regarding the cause of death; or
+            - ( _v_ ) the police officer for any other reason considers it expedient so to do,
+              he shall, subject to such rules as the State Government may prescribe in this behalf, forward the body, with a view to its being examined, to the nearest Civil Surgeon, or other qualified medical person appointed in this behalf by the State Government, if the state of the weather and the distance admit of its being so forwarded without risk of such putrefaction on the road as would render such examination useless.
+        4. ( _4_ ) The following Magistrates are empowered to hold inquests, namely, any District Magistrate or Sub-divisional Magistrate and any other Executive Magistrate specially empowered in this behalf by the State Government or the District Magistrate.
+
+195.    1. ( _1_ ) A police officer proceeding under section 194 may, by order in writing, summon two or more persons as aforesaid for the purpose of the said investigation, and any other person who appears to be acquainted with the facts of the case and every person so summoned shall be bound to attend and to answer truly all questions other than questions the answers to which would have a tendency to expose him to a criminal charge or to a penalty or forfeiture:
+           _Provided_ that no male person under the age of fifteen years or above the age of sixty years or a woman or a mentally or physically disabled person or a person with acute illness shall be required to attend at any place other than the place where such person resides, unless such person is willing to attend and answer at the police station or at any other place within the limits of such police station.
+        2. ( _2_ ) If the facts do not disclose a cognizable offence to which section 190 applies, such persons shall not be required by the police officer to attend a Magistrate's Court.
+
+196.    1. ( _1_ ) When the case is of the nature referred to in clause ( _i_ ) or clause ( _ii_ ) of sub-section ( _3_ ) of section 194, the nearest Judicial Magistrate empowered to hold inquests shall, and in any other case mentioned in sub-section ( _1_ ) of section 194, any Magistrate so empowered may hold an inquiry into the cause of death either instead of, or in addition to, the investigation held by the police officer; and if he does so, he shall have all the powers in conducting it which he would have in holding an inquiry into an offence.
+        2. ( _2_ ) Where,—
+            - ( _a_ ) any person dies or disappears, or
+            - ( _b_ ) rape is alleged to have been committed on any woman,
+              while such person or woman is in the custody of the police or in any other custody authorised by the Magistrate or the Court, under this Sanhita in addition to the inquiry or investigation held by the police, an inquiry shall be held by the Judicial Magistrate within whose local jurisdiction the offence has been committed.
+        3. ( _3_ ) The Magistrate holding such an inquiry shall record the evidence taken by him in connection therewith in any manner hereinafter specified according to the circumstances of the case.
+        4. ( _4_ ) Whenever such Magistrate considers it expedient to make an examination of the dead body of any person who has been already interred, in order to discover the cause of his death, the Magistrate may cause the body to be disinterred and examined.
+        5. ( _5_ ) Where an inquiry is to be held under this section, the Magistrate shall, wherever practicable, inform the relatives of the deceased whose names and addresses are known, and shall allow them to remain present at the inquiry.
+        6. ( _6_ ) The Judicial Magistrate or the Executive Magistrate or the police officer holding an inquiry or investigation under sub-section ( _2_ ) shall, within twenty-four hours of the death of a person, forward the body with a view to its being examined to the nearest Civil Surgeon or other qualified medical person appointed in this behalf by the State Government, unless it is not possible to do so for reasons to be recorded in writing.
+           _Explanation_ — In this section, the expression "relative" means parents, children, brothers, sisters and spouse.
+
+# CHAPTER XIV - JURISDICTION OF THE CRIMINAL COURTS IN INQUIRIES AND TRIALS
+
+197. Every offence shall ordinarily be inquired into and tried by a Court within whose local jurisdiction it was committed.
+
+198. - ( _a_ ) When it is uncertain in which of several local areas an offence was committed; or
+     - ( _b_ ) where an offence is committed partly in one local area and partly in another; or
+     - ( _c_ ) where an offence is a continuing one, and continues to be committed in more local areas than one; or
+     - ( _d_ ) where it consists of several acts done in different local areas, it may be inquired into or tried by a Court having jurisdiction over any of such local areas.
+
+199. When an act is an offence by reason of anything which has been done and of a consequence which has ensued, the offence may be inquired into or tried by a Court within whose local jurisdiction such thing has been done or such consequence has ensued.
+
+200. When an act is an offence by reason of its relation to any other act which is also an offence or which would be an offence if the doer were capable of committing an offence, the first-mentioned offence may be inquired into or tried by a Court within whose local jurisdiction either act was done.
+
+201. 1. ( _1_ ) Any offence of dacoity, or of dacoity with murder, of belonging to a gang of dacoits, or of escaping from custody, may be inquired into or tried by a Court within whose local jurisdiction the offence was committed or the accused person is found.
+     2. ( _2_ ) Any offence of kidnapping or abduction of a person may be inquired into or tried by a Court within whose local jurisdiction the person was kidnapped or abducted or was conveyed or concealed or detained.
+     3. ( _3_ ) Any offence of theft, extortion or robbery may be inquired into or tried by a Court within whose local jurisdiction the offence was committed or the stolen property which is the subject of the offence was possessed by any person committing it or by any person who received or retained such property knowing or having reason to believe it to be stolen property.
+     4. ( _4_ ) Any offence of criminal misappropriation or of criminal breach of trust may be inquired into or tried by a Court within whose local jurisdiction the offence was committed or any part of the property which is the subject of the offence was received or retained, or was required to be returned or accounted for, by the accused person.
+     5. ( _5_ ) Any offence which includes the possession of stolen property may be inquired into or tried by a Court within whose local jurisdiction the offence was committed or the stolen property was possessed by any person who received or retained it knowing or having reason to believe it to be stolen property.
+
+202. 1. ( _1_ ) Any offence which includes cheating may, if the deception is practised by means of electronic communications or letters or telecommunication messages, be inquired into or tried by any Court within whose local jurisdiction such electronic communications or letters or messages were sent or were received; and any offence of cheating and dishonestly inducing delivery of property may be inquired into or tried by a Court within whose local jurisdiction the property was delivered by the person deceived or was received by the accused person.
+     2. ( _2_ ) Any offence punishable under section 81 of the Bhartiya Nyaya Sanhita, 2023 may be inquired into or tried by a Court within whose local jurisdiction the offence was committed or the offender last resided with his or her spouse by the first marriage, or the wife by the first marriage has taken up permanent residence after the commission of the offence.
+
+203. When an offence is committed whilst the person by or against whom, or the thing in respect of which, the offence is committed is in the course of performing a journey or voyage, the offence may be inquired into or tried by a Court through or into whose local jurisdiction that person or thing passed in the course of that journey or voyage.
+
+204. Where—
+
+- ( _a_ ) the offences committed by any person are such that he may be charged with, and tried at one trial for, each such offence by virtue of the provisions of section 242, section 243 or section 244, or
+- ( _b_ ) the offence or offences committed by several persons are such that they may be charged with and tried together by virtue of the provisions of section 246, the offences may be inquired into or tried by any Court competent to inquire into or try any of the offences.
+
+205. Notwithstanding anything contained in the preceding provisions of this Chapter, the State Government may direct that any cases or class of cases committed for trial in any district may be tried in any sessions division:
+     Provided that such direction is not repugnant to any direction previously issued by the High Court or the Supreme Court under the Constitution, or under this Sanhita or any other law for the time being in force.
+
+206. Where two or more Courts have taken cognizance of the same offence and a question arises as to which of them ought to inquire into or try that offence, the question shall be decided—
+     - ( _a_ ) if the Courts are subordinate to the same High Court, by that High Court;
+     - ( _b_ ) if the Courts are not subordinate to the same High Court, by the High Court within the local limits of whose appellate criminal jurisdiction the proceedings were first commenced, and thereupon all other proceedings in respect of that offence shall be discontinued.
+
+207. 1. ( _1_ ) When a Magistrate of the first class sees reason to believe that any person within his local jurisdiction has committed outside such jurisdiction (whether within or outside India) an offence which cannot, under the provisions of sections 197 to 205 (both inclusive), or any other law for the time being in force, be inquired into or tried within such jurisdiction but is under some law for the time being in force triable in India, such Magistrate may inquire into the offence as if it had been committed within such local jurisdiction and compel such person in the manner hereinbefore provided to appear before him, and send such person to the Magistrate having jurisdiction to inquire into or try such offence, or, if such offence is not punishable with death or imprisonment for life and such person is ready and willing to give bail to the satisfaction of the Magistrate acting under this section, take a bond with or without sureties for his appearance before the Magistrate having such jurisdiction.
+     2. ( _2_ ) When there are more Magistrates than one having such jurisdiction and the Magistrate acting under this section cannot satisfy himself as to the Magistrate to or before whom such person should be sent or bound to appear, the case shall be reported for the orders of the High Court.
+
+208. When an offence is committed outside India—
+
+- ( _a_ ) by a citizen of India, whether on the high seas or elsewhere; or
+- ( _b_ ) by a person, not being such citizen, on any ship or aircraft registered in India, he may be dealt with in respect of such offence as if it had been committed at any place within India at which he may be found or where the offence is registered in India:
+  Provided that notwithstanding anything in any of the preceding sections of this Chapter, no such offence shall be inquired into or tried in India except with the previous sanction of the Central Government.
+
+209. When any offence alleged to have been committed in a territory outside India is being inquired into or tried under the provisions of section 208, the Central Government may, if it thinks fit, direct that copies of depositions made or exhibits produced, either in physical form or in electronic form, before a Judicial officer, in or for that territory or before a diplomatic or consular representative of India in or for that territory shall be received as evidence by the Court holding such inquiry or trial in any case in which such Court might issue a commission for taking evidence as to the matters to which such depositions or exhibits relate.
+
+# CHAPTER XV CONDITIONS REQUISITE FOR INITIATION OF PROCEEDINGS
+
+210.    1. ( _1_ ) Subject to the provisions of this Chapter, any Magistrate of the first class, and any Judicial Magistrate of the second class specially empowered in this behalf under sub-section ( _2_ ), may take cognizance of any offence—
+        - ( _a_ ) upon receiving a complaint of facts, including any complaint filed by a person authorised under any special law, which constitutes such offence;
+        - ( _b_ ) upon a police report (recorded in any mode including digital mode) of such facts;
+        - ( _c_ ) upon information received from any person other than a police officer, or upon his own knowledge, that such offence has been committed.
+        2. ( _2_ ) The Chief Judicial Magistrate may empower any Magistrate of the second class to take cognizance under sub-section ( _1_ ) of such offences as are within his competence to inquire into or try.
+
+        3. ( _3_ ) Any Magistrate empowered under this section, shall upon receiving a complaint against a public servant arising in course of the discharge of his official duties, take cognizance, subject to—
+        - ( _a_ ) receiving a report containing facts and circumstances of the incident from the officer superior to such public servant; and
+        - ( _b_ ) after consideration of the assertions made by the public servant as to the situation that led to the incident so alleged.
+
+211.    When a Magistrate takes cognizance of an offence under clause ( _c_ ) of sub-section ( _1_ ) of section 210, the accused shall, before any evidence is taken, be informed that he is entitled to have the case inquired into or tried by another Magistrate, and if the accused or any of the accused, if there be more than one, objects to further proceedings before the Magistrate taking cognizance, the case shall be transferred to such other Magistrate as may be specified by the Chief Judicial Magistrate in this behalf.
+212.    ( _1_ ) Any Chief Judicial Magistrate may, after taking cognizance of an offence, make over the case for inquiry or trial to any competent Magistrate subordinate to him.
+213.    ( _2_ ) Any Judicial Magistrate of the first class empowered in this behalf by the Chief Judicial Magistrate may, after taking cognizance of an offence, make over the case for inquiry or trial to such other competent Judicial Magistrate as the Chief Judicial Magistrate may, by general or special order, specify, and thereupon such Magistrate may hold the inquiry or trial.
+
+214.    Except as otherwise expressly provided by this Sanhita or by any other law for the time being in force, no Court of Session shall take cognizance of any offence as a Court of original jurisdiction unless the case has been committed to it by a Magistrate under this Sanhita.
+
+215.    An Additional Sessions Judge shall try such cases as the Sessions Judge of the division may, by general or special order, make over to him for trial or as the High Court may, by special order, direct him to try.
+216.    1. ( _1_ ) No Court shall take cognizance—
+        - ( _a_ )
+            1. ( _i_ ) of any offence punishable under sections 204 to 224 (both inclusive but excluding section 207) of the Bhartiya Nyaya Sanhita, 2023, or
+            2. ( _ii_ ) of any abetment of, or attempt to commit, such offence, or
+            3. ( _iii_ ) of any criminal conspiracy to commit such offence,
+               except on the complaint in writing of the public servant concerned or of some other public servant to whom he is administratively subordinate or of some other public servant who is authorised by the concerned public servant so to do;
+        - ( _b_ )
+            1. ( _i_ ) of any offence punishable under any of the following sections of the Bhartiya Nyaya Sanhita, 2023, namely, sections 227 to 231 (both inclusive), 234, 235, 240 to 246 (both inclusive) and 265, when such offence is alleged to have been committed in, or in relation to, any proceeding in any Court; or
+            2. ( _ii_ ) of any offence described in section 334, or punishable under section 337, section 340 or section 341 of the said Sanhita, when such offence is alleged to have been committed in respect of a document produced or given in evidence in a proceeding in any Court; or
+            3. ( _iii_ ) of any criminal conspiracy to commit, or attempt to commit, or the abetment of, any offence specified in sub-clause ( _i_ ) or sub-clause ( _ii_ ),
+               except on the complaint in writing of that Court or by such officer of the Court as that Court may authorise in writing in this behalf, or of some other Court to which that Court is subordinate.
+        2. ( _2_ ) Where a complaint has been made by a public servant or by some other public servant who has been authorised to do so by him under clause ( _a_ ) of sub-section ( _1_ ), any authority to which he is administratively subordinate or who has authorised such public servant may order the withdrawal of the complaint and send a copy of such order to the Court; and upon its receipt by the Court, no further proceedings shall be taken on the complaint:
+           Provided that no such withdrawal shall be ordered if the trial in the Court of first instance has been concluded.
+        3. ( _3_ ) In clause ( _b_ ) of sub-section ( _1_ ), the term "Court" means a Civil, Revenue or Criminal Court, and includes a tribunal constituted by or under a Central, Provincial or State Act if declared by that Act to be a Court for the purposes of this section.
+        4. ( _4_ ) For the purposes of clause ( _b_ ) of sub-section ( _1_ ), a Court shall be deemed to be subordinate to the Court to which appeals ordinarily lie from the appealable decrees or sentences of such former Court, or in the case of a Civil Court from whose decrees no appeal ordinarily lies, to the Principal Court having ordinary original civil jurisdiction within whose local jurisdiction such Civil Court is situate:
+           Provided that—
+        - ( _a_ ) where appeals lie to more than one Court, the Appellate Court of inferior jurisdiction shall be the Court to which such Court shall be deemed to be subordinate;
+        - ( _b_ ) where appeals lie to a Civil and also to a Revenue Court, such Court shall be deemed to be subordinate to the Civil or Revenue Court according to the nature of the case or proceeding in connection with which the offence is alleged to have been committed.
+
+217.    A witness or any other person may file a complaint in relation to an offence
+        under section 230 of the Bharatiya Nyaya Sanhita, 2023.
+218.    1. ( _1_ ) No Court shall take cognizance of—
+            - ( _a_ ) any offence punishable under Chapter VI or under section 194, section 297 or sub-section ( _1_ ) of section 351 of the Bharatiya Nyaya Sanhita, 2023; or
+            - ( _b_ ) a criminal conspiracy to commit such offence; or
+            - ( _c_ ) any such abetment, as is described in section 47 of the Bharatiya Nyaya Sanhita, 2023, except with the previous sanction of the Central Government or of the State Government.
+219.    ( _2_ ) No Court shall take cognizance of— - ( _a_ ) any offence punishable under section 195 or sub-section ( _2_ ) or sub-section ( _3_ ) of section 351 of the Bharatiya Nyaya Sanhita, 2023; or - ( _b_ ) a criminal conspiracy to commit such offence, except with the previous sanction of the Central Government or of the State Government or of the District Magistrate.
+220.    ( _3_ ) No Court shall take cognizance of the offence of any criminal conspiracy punishable under section 61 of the Bharatiya Nyaya Sanhita, 2023, other than a criminal conspiracy to commit an offence punishable with death, imprisonment for life or rigorous imprisonment for a term of two years or upwards, unless the State Government or the District Magistrate has consented in writing to the initiation of the proceedings:
+        Provided that where the criminal conspiracy is one to which the provisions of section 215 apply, no such consent shall be necessary.
+221.    ( _4_ ) The Central Government or the State Government may, before according sanction under sub-section ( _1_ ) or sub-section ( _2_ ) and the District Magistrate may, before according sanction under sub-section ( _2_ ) and the State Government or the District Magistrate may, before giving consent under sub-section ( _3_ ), order a preliminary investigation by a police officer not being below the rank of Inspector, in which case such police officer shall have the powers referred to in sub-section ( _3_ ) of section 174.
+
+222.    1. ( _1_ ) When any person who is or was a Judge or Magistrate or a public servant not removable from his office save by or with the sanction of the Government is accused of any offence alleged to have been committed by him while acting or purporting to act in the discharge of his official duty, no Court shall take cognizance of such offence except with the previous sanction save as otherwise provided in the Lokpal and Lokayuktas Act, 2013—
+            - ( _a_ ) in the case of a person who is employed or, as the case may be, was at the time of commission of the alleged offence employed, in connection with the affairs of the Union, of the Central Government;
+            - ( _b_ ) in the case of a person who is employed or, as the case may be, was at the time of commission of the alleged offence employed, in connection with the affairs of a State, of the State Government:
+              Provided that where the alleged offence was committed by a person referred to in clause ( _b_ ) during the period while a Proclamation issued under clause ( _1_ ) of article 356 of the Constitution was in force in a State, clause ( _b_ ) will apply as if for the expression "State Government" occurring therein, the expression "Central Government" were substituted:
+              Provided further that such Government shall take a decision within a period of one hundred and twenty days from the date of the receipt of the request for sanction and in case it fails to do so, the sanction shall be deemed to have been accorded by such Government:
+              Provided also no sanction shall be required in case of a public servant accused of any offence alleged to have been committed under section 197, section 198, section 63, section 66, section 68, section 70, section 73, section 74, section 75, section 76, section 77, section 141, or section 351 of the Bharatiya Nyaya Sanhita, 2023.
+223.    ( _2_ ) No Court shall take cognizance of any offence alleged to have been committed by any member of the Armed Forces of the Union while acting or purporting to act in the discharge of his official duty, except with the previous sanction of the Central Government.
+224.    ( _3_ ) The State Government may, by notification, direct that the provisions of sub-section ( _2_ ) shall apply to such class or category of the members of the Forces charged with the maintenance of public order as may be specified therein, wherever they may be serving, and thereupon the provisions of that sub-section will apply as if for the expression "Central Government" occurring therein, the expression "State Government" were substituted.
+225.    ( _4_ ) Notwithstanding anything contained in sub-section ( _3_ ), no Court shall take cognizance of any offence, alleged to have been committed by any member of the Forces charged with the maintenance of public order in a State while acting or purporting to act in the discharge of his official duty during the period while a Proclamation issued under clause ( _1_ ) of article 356 of the Constitution was in force therein, except with the previous sanction of the Central Government.
+226.    ( _5_ ) The Central Government or the State Government, may determine the person by whom, the manner in which, and the offence or offences for which, the prosecution of such Judge, Magistrate or public servant is to be conducted, and may specify the Court before which the trial is to be held.
+
+227.    1. ( _1_ ) No Court shall take cognizance of an offence punishable under Chapter V of the Bharatiya Nyaya Sanhita, 2023 except upon a complaint made by some person aggrieved by the offence:
+           Provided that—
+        - ( _a_ ) where such person is under the age of eighteen years, or is having intellectual disability requiring higher support needs or a person with mental illness, or is from sickness or infirmity unable to make a complaint, or is a woman who, according to the local customs and manners, ought not to be compelled to appear in public, some other person may, with the leave of the Court, make a complaint on his or her behalf;
+        - ( _b_ ) where such person is the husband and he is serving in any of the Armed Forces of the Union under conditions which are certified by his Commanding Officer as precluding him from obtaining leave of absence to enable him to make a complaint in person, some other person authorised by the husband in accordance with the provisions of sub-section ( 4 ) may make a complaint on his behalf;
+        - ( _c_ ) where the person aggrieved by an offence punishable under section 81 of the Bharatiya Nyaya Sanhita, 2023 is the wife, complaint may be made on her behalf by her father, mother, brother, sister, son or daughter or by her father's or mother's brother or sister, or, with the leave of the Court, by any other person related to her by blood, marriage or adoption.
+228.    ( _2_ ) For the purposes of sub-section ( 1 ), no person other than the husband of the woman shall be deemed to be aggrieved by any offence punishable under section 83 of the Bharatiya Nyaya Sanhita, 2023:
+        Provided that in the absence of the husband, some person who had care of the woman on his behalf at the time when such offence was committed may, with the leave of the Court, make a complaint on his behalf.
+229.    ( _3_ ) When in any case falling under clause ( a ) of the proviso to sub-section ( 1 ), the complaint is sought to be made on behalf of a person under the age of eighteen years or of a person with mental illness by a person who has not been appointed or declared by a competent authority to be the guardian of the person of the minor or a person with mental illness, and the Court is satisfied that there is a guardian so appointed or declared, the Court shall, before granting the application for leave, cause notice to be given to such guardian and give him a reasonable opportunity of being heard.
+230.    ( _4_ ) The authorisation referred to in clause ( b ) of the proviso to sub-section ( 1 ), shall be in writing, shall be signed or otherwise attested by the husband, shall contain a statement to the effect that he has been informed of the allegations upon which the complaint is to be founded, shall be countersigned by his Commanding Officer, and shall be accompanied by a certificate signed by that Officer to the effect that leave of absence for the purpose of making a complaint in person cannot for the time being be granted to the husband.
+231.    ( _5_ ) Any document purporting to be such an authorisation and complying with the provisions of sub-section ( 4 ), and any document purporting to be a certificate required by that sub-section shall, unless the contrary is proved, be presumed to be genuine and shall be received in evidence.
+232.    ( _6_ ) No Court shall take cognizance of an offence under section 64 of the Bharatiya Nyaya Sanhita, 2023, where such offence consists of sexual intercourse by a man with his own wife, the wife being under eighteen years of age, if more than one year has elapsed from the date of the commission of the offence.
+233.    ( _7_ ) The provisions of this section apply to the abetment of, or attempt to commit, an offence as they apply to the offence.
+
+234.    No Court shall take cognizance of an offence punishable under section 84 of the Bharatiya Nyaya Sanhita, 2023 except upon a police report of facts which constitute such offence or upon a complaint made by the person aggrieved by the offence or by her father, mother, brother, sister or by her father's or mother's brother or sister or, with the leave of the Court, by any other person related to her by blood, marriage or adoption.
+235.    No Court shall take cognizance of an offence punishable under section 67 of the Bharatiya Nyaya Sanhita, 2023 where the persons are in a marital relationship, except upon _prima facie_ satisfaction of the facts which constitute the offence upon a complaint having been filed or made by the wife against the husband.
+
+236.    1. ( _1_ ) No Court shall take cognizance of an offence punishable under Chapter XIX of the Bharatiya Nyaya Sanhita, 2023 except upon a complaint made by some person aggrieved by the offence:
+           Provided that where such person is under the age of eighteen years, or is having intellectual disability requiring higher support needs or a person with mental illness, or is from sickness or infirmity unable to make a complaint, or is a woman who, according to the local customs and manners, ought not to be compelled to appear in public, some other person may, with the leave of the Court, make a complaint on his or her behalf.
+        2. ( _2_ ) Notwithstanding anything contained in this Sanhita, when any offence falling under Chapter XIX of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed against a person who, at the time of such commission, is the President of India, the Vice-President of India, the Governor of a State, the Administrator of a Union territory or a Minister of the Union or of a State or of a Union territory, or any other public servant employed in connection with the affairs of the Union or of a State in respect of his conduct in the discharge of his public functions, a Court of Session may take cognizance of such offence, without the case being committed to it, upon a complaint in writing made by the Public Prosecutor.
+        3. ( _3_ ) Every complaint referred to in sub-section ( _2_ ) shall set forth the facts which constitute the offence alleged, the nature of such offence and such other particulars as are reasonably sufficient to give notice to the accused of the offence alleged to have been committed by him.
+        4. ( _4_ ) No complaint under sub-section ( _2_ ) shall be made by the Public Prosecutor except with the previous sanction—
+            - ( _a_ ) of the State Government,—
+                1. ( _i_ ) in the case of a person who is or has been the Governor of that State or a Minister of that Government;
+                2. ( _ii_ ) in the case of any other public servant employed in connection with the affairs of the State;
+            - ( _b_ ) of the Central Government, in any other case.
+        5. ( _5_ ) No Court of Session shall take cognizance of an offence under sub-section ( 2 ) unless the complaint is made within six months from the date on which the offence is alleged to have been committed.
+        6. ( _6_ ) Nothing in this section shall affect the right of the person against whom the offence is alleged to have been committed, to make a complaint in respect of that offence before a Magistrate having jurisdiction or the power of such Magistrate to take cognizance of the offence upon such complaint.
+
+# CHAPTER XVI COMPLAINTS TO MAGISTRATES
 
 ```
 
@@ -24874,6 +23909,10 @@ to consolidate and amend the law relating to Criminal Procedure.
 ```
 
 MGIPMRND—277LS(S3)—10-08-2023.
+
+```
+
+```
 
 ```
 

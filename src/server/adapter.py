@@ -700,7 +700,10 @@ def adapt_response(
     raw_answer_units = rag_result.get("answer_units")
     
     if raw_answer_units and not clarification:
-        answer_units_response = _process_answer_units(raw_answer_units, rag_result)
+        # Get threshold from results if present, otherwise default to 0.6
+        min_cit_score = rag_result.get("min_citation_score", 0.6)
+        
+        answer_units_response = _process_answer_units(raw_answer_units, rag_result, min_citation_score=min_cit_score)
         if answer_units_response:
             logger.info(
                 f"[UNITS] Processed {len(answer_units_response.units)} answer units "
@@ -722,10 +725,14 @@ def adapt_response(
             for cit in structured_citations
         ]
         
+        # Get threshold from results if present, otherwise default to 0.6
+        min_cit_score = rag_result.get("min_citation_score", 0.6)
+        
         attribution_result = compute_sentence_attribution(
             answer=answer,
             structured_citations=cit_dicts,
             llm_client=llm_client,
+            min_citation_score=min_cit_score,
         )
         
         if attribution_result:
@@ -756,7 +763,8 @@ def adapt_response(
 
 def _process_answer_units(
     raw_units: list[dict],
-    rag_result: dict
+    rag_result: dict,
+    min_citation_score: float = 0.6
 ) -> Optional[AnswerUnitsResponse]:
     """
     Process raw answer units from RAG: resolve spans and convert to schema.
@@ -782,8 +790,8 @@ def _process_answer_units(
             )
             units.append(unit)
         
-        # Convert retrieval results to chunks for span resolution
-        chunks = chunks_from_retrieval_result(rag_result)
+        # Convert retrieval results to chunks for span resolution (filtering by score)
+        chunks = chunks_from_retrieval_result(rag_result, min_score=min_citation_score)
         
         # Resolve spans for verbatim units
         if chunks:

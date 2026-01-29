@@ -601,14 +601,13 @@ def parse_answer_units_response(response_text: str) -> list[AnswerUnit]:
 # CONVERT CHUNKS FROM RETRIEVAL RESULT
 # ============================================================================
 
-def chunks_from_retrieval_result(retrieval_result: dict) -> list[ChunkWithOffsets]:
+def chunks_from_retrieval_result(retrieval_result: dict, min_score: float = 0.0) -> list[ChunkWithOffsets]:
     """
     Convert retrieval results to ChunkWithOffsets for span resolution.
     
-    Note: This is a best-effort conversion. Ideally, the retrieval layer
-    should be updated to track character offsets during indexing.
-    
-    For now, we use the chunk text and estimate offsets.
+    Args:
+        retrieval_result: The raw RAG result dictionary
+        min_score: Minimum relevance score to include a chunk for span resolution
     """
     chunks = []
     
@@ -639,7 +638,8 @@ def chunks_from_retrieval_result(retrieval_result: dict) -> list[ChunkWithOffset
                 "compensation_blocks", "sections", "subsections"]:
         results = retrieval_result.get("retrieval", {}).get(key, [])
         for r in results:
-            add_chunk(r, key.replace("_blocks", "").upper())
+            if r.get("score", 0.0) >= min_score:
+                add_chunk(r, key.replace("_blocks", "").upper())
     
     logger.debug(f"[CHUNK] Converted {len(chunks)} chunks from retrieval result")
     return chunks
