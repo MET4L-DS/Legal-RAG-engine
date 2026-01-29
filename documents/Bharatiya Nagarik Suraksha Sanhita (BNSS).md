@@ -1195,14 +1195,12 @@ Following the formatting standards you established—specifically the use of pla
         - ( _a_ ) receiving a report containing facts and circumstances of the incident from the officer superior to such public servant; and
         - ( _b_ ) after consideration of the assertions made by the public servant as to the situation that led to the incident so alleged.
 
-211.    When a Magistrate takes cognizance of an offence under clause ( _c_ ) of sub-section ( _1_ ) of section 210, the accused shall, before any evidence is taken, be informed that he is entitled to have the case inquired into or tried by another Magistrate, and if the accused or any of the accused, if there be more than one, objects to further proceedings before the Magistrate taking cognizance, the case shall be transferred to such other Magistrate as may be specified by the Chief Judicial Magistrate in this behalf.
-212.    ( _1_ ) Any Chief Judicial Magistrate may, after taking cognizance of an offence, make over the case for inquiry or trial to any competent Magistrate subordinate to him.
-213.    ( _2_ ) Any Judicial Magistrate of the first class empowered in this behalf by the Chief Judicial Magistrate may, after taking cognizance of an offence, make over the case for inquiry or trial to such other competent Judicial Magistrate as the Chief Judicial Magistrate may, by general or special order, specify, and thereupon such Magistrate may hold the inquiry or trial.
+211.    When a Magistrate takes cognizance of an offence under clause ( _c_ ) of sub-section ( _1_ ) of section 210, the accused shall, before any evidence is taken, be informed that he is entitled to have the case inquired into or tried by another Magistrate, and if the accused or any of the accused, if there be more than one, objects to further proceedings before the Magistrate taking cognizance, the case shall be transferred to such other Magistrate as may be specified by the Chief Judicial Magistrate in this behalf. 212. ( _1_ ) Any Chief Judicial Magistrate may, after taking cognizance of an offence, make over the case for inquiry or trial to any competent Magistrate subordinate to him. 213. ( _2_ ) Any Judicial Magistrate of the first class empowered in this behalf by the Chief Judicial Magistrate may, after taking cognizance of an offence, make over the case for inquiry or trial to such other competent Judicial Magistrate as the Chief Judicial Magistrate may, by general or special order, specify, and thereupon such Magistrate may hold the inquiry or trial.
 
-214.    Except as otherwise expressly provided by this Sanhita or by any other law for the time being in force, no Court of Session shall take cognizance of any offence as a Court of original jurisdiction unless the case has been committed to it by a Magistrate under this Sanhita.
+212.    Except as otherwise expressly provided by this Sanhita or by any other law for the time being in force, no Court of Session shall take cognizance of any offence as a Court of original jurisdiction unless the case has been committed to it by a Magistrate under this Sanhita.
 
-215.    An Additional Sessions Judge shall try such cases as the Sessions Judge of the division may, by general or special order, make over to him for trial or as the High Court may, by special order, direct him to try.
-216.    1. ( _1_ ) No Court shall take cognizance—
+213.    An Additional Sessions Judge shall try such cases as the Sessions Judge of the division may, by general or special order, make over to him for trial or as the High Court may, by special order, direct him to try.
+214.    1. ( _1_ ) No Court shall take cognizance—
         - ( _a_ )
             1. ( _i_ ) of any offence punishable under sections 204 to 224 (both inclusive but excluding section 207) of the Bhartiya Nyaya Sanhita, 2023, or
             2. ( _ii_ ) of any abetment of, or attempt to commit, such offence, or
@@ -1221,45 +1219,45 @@ Following the formatting standards you established—specifically the use of pla
         - ( _a_ ) where appeals lie to more than one Court, the Appellate Court of inferior jurisdiction shall be the Court to which such Court shall be deemed to be subordinate;
         - ( _b_ ) where appeals lie to a Civil and also to a Revenue Court, such Court shall be deemed to be subordinate to the Civil or Revenue Court according to the nature of the case or proceeding in connection with which the offence is alleged to have been committed.
 
-217.    A witness or any other person may file a complaint in relation to an offence
+215.    A witness or any other person may file a complaint in relation to an offence
         under section 230 of the Bharatiya Nyaya Sanhita, 2023.
-218.    1. ( _1_ ) No Court shall take cognizance of—
+216.    1. ( _1_ ) No Court shall take cognizance of—
             - ( _a_ ) any offence punishable under Chapter VI or under section 194, section 297 or sub-section ( _1_ ) of section 351 of the Bharatiya Nyaya Sanhita, 2023; or
             - ( _b_ ) a criminal conspiracy to commit such offence; or
             - ( _c_ ) any such abetment, as is described in section 47 of the Bharatiya Nyaya Sanhita, 2023, except with the previous sanction of the Central Government or of the State Government.
-219.    ( _2_ ) No Court shall take cognizance of— - ( _a_ ) any offence punishable under section 195 or sub-section ( _2_ ) or sub-section ( _3_ ) of section 351 of the Bharatiya Nyaya Sanhita, 2023; or - ( _b_ ) a criminal conspiracy to commit such offence, except with the previous sanction of the Central Government or of the State Government or of the District Magistrate.
-220.    ( _3_ ) No Court shall take cognizance of the offence of any criminal conspiracy punishable under section 61 of the Bharatiya Nyaya Sanhita, 2023, other than a criminal conspiracy to commit an offence punishable with death, imprisonment for life or rigorous imprisonment for a term of two years or upwards, unless the State Government or the District Magistrate has consented in writing to the initiation of the proceedings:
-        Provided that where the criminal conspiracy is one to which the provisions of section 215 apply, no such consent shall be necessary.
-221.    ( _4_ ) The Central Government or the State Government may, before according sanction under sub-section ( _1_ ) or sub-section ( _2_ ) and the District Magistrate may, before according sanction under sub-section ( _2_ ) and the State Government or the District Magistrate may, before giving consent under sub-section ( _3_ ), order a preliminary investigation by a police officer not being below the rank of Inspector, in which case such police officer shall have the powers referred to in sub-section ( _3_ ) of section 174.
+        2. ( _2_ ) No Court shall take cognizance of— - ( _a_ ) any offence punishable under section 195 or sub-section ( _2_ ) or sub-section ( _3_ ) of section 351 of the Bharatiya Nyaya Sanhita, 2023; or - ( _b_ ) a criminal conspiracy to commit such offence, except with the previous sanction of the Central Government or of the State Government or of the District Magistrate.
+        3. ( _3_ ) No Court shall take cognizance of the offence of any criminal conspiracy punishable under section 61 of the Bharatiya Nyaya Sanhita, 2023, other than a criminal conspiracy to commit an offence punishable with death, imprisonment for life or rigorous imprisonment for a term of two years or upwards, unless the State Government or the District Magistrate has consented in writing to the initiation of the proceedings:
+           Provided that where the criminal conspiracy is one to which the provisions of section 215 apply, no such consent shall be necessary.
+        4. ( _4_ ) The Central Government or the State Government may, before according sanction under sub-section ( _1_ ) or sub-section ( _2_ ) and the District Magistrate may, before according sanction under sub-section ( _2_ ) and the State Government or the District Magistrate may, before giving consent under sub-section ( _3_ ), order a preliminary investigation by a police officer not being below the rank of Inspector, in which case such police officer shall have the powers referred to in sub-section ( _3_ ) of section 174.
 
-222.    1. ( _1_ ) When any person who is or was a Judge or Magistrate or a public servant not removable from his office save by or with the sanction of the Government is accused of any offence alleged to have been committed by him while acting or purporting to act in the discharge of his official duty, no Court shall take cognizance of such offence except with the previous sanction save as otherwise provided in the Lokpal and Lokayuktas Act, 2013—
+217.    1. ( _1_ ) When any person who is or was a Judge or Magistrate or a public servant not removable from his office save by or with the sanction of the Government is accused of any offence alleged to have been committed by him while acting or purporting to act in the discharge of his official duty, no Court shall take cognizance of such offence except with the previous sanction save as otherwise provided in the Lokpal and Lokayuktas Act, 2013—
             - ( _a_ ) in the case of a person who is employed or, as the case may be, was at the time of commission of the alleged offence employed, in connection with the affairs of the Union, of the Central Government;
             - ( _b_ ) in the case of a person who is employed or, as the case may be, was at the time of commission of the alleged offence employed, in connection with the affairs of a State, of the State Government:
               Provided that where the alleged offence was committed by a person referred to in clause ( _b_ ) during the period while a Proclamation issued under clause ( _1_ ) of article 356 of the Constitution was in force in a State, clause ( _b_ ) will apply as if for the expression "State Government" occurring therein, the expression "Central Government" were substituted:
               Provided further that such Government shall take a decision within a period of one hundred and twenty days from the date of the receipt of the request for sanction and in case it fails to do so, the sanction shall be deemed to have been accorded by such Government:
               Provided also no sanction shall be required in case of a public servant accused of any offence alleged to have been committed under section 197, section 198, section 63, section 66, section 68, section 70, section 73, section 74, section 75, section 76, section 77, section 141, or section 351 of the Bharatiya Nyaya Sanhita, 2023.
-223.    ( _2_ ) No Court shall take cognizance of any offence alleged to have been committed by any member of the Armed Forces of the Union while acting or purporting to act in the discharge of his official duty, except with the previous sanction of the Central Government.
-224.    ( _3_ ) The State Government may, by notification, direct that the provisions of sub-section ( _2_ ) shall apply to such class or category of the members of the Forces charged with the maintenance of public order as may be specified therein, wherever they may be serving, and thereupon the provisions of that sub-section will apply as if for the expression "Central Government" occurring therein, the expression "State Government" were substituted.
-225.    ( _4_ ) Notwithstanding anything contained in sub-section ( _3_ ), no Court shall take cognizance of any offence, alleged to have been committed by any member of the Forces charged with the maintenance of public order in a State while acting or purporting to act in the discharge of his official duty during the period while a Proclamation issued under clause ( _1_ ) of article 356 of the Constitution was in force therein, except with the previous sanction of the Central Government.
-226.    ( _5_ ) The Central Government or the State Government, may determine the person by whom, the manner in which, and the offence or offences for which, the prosecution of such Judge, Magistrate or public servant is to be conducted, and may specify the Court before which the trial is to be held.
+        2. ( _2_ ) No Court shall take cognizance of any offence alleged to have been committed by any member of the Armed Forces of the Union while acting or purporting to act in the discharge of his official duty, except with the previous sanction of the Central Government.
+        3. ( _3_ ) The State Government may, by notification, direct that the provisions of sub-section ( _2_ ) shall apply to such class or category of the members of the Forces charged with the maintenance of public order as may be specified therein, wherever they may be serving, and thereupon the provisions of that sub-section will apply as if for the expression "Central Government" occurring therein, the expression "State Government" were substituted.
+        4. ( _4_ ) Notwithstanding anything contained in sub-section ( _3_ ), no Court shall take cognizance of any offence, alleged to have been committed by any member of the Forces charged with the maintenance of public order in a State while acting or purporting to act in the discharge of his official duty during the period while a Proclamation issued under clause ( _1_ ) of article 356 of the Constitution was in force therein, except with the previous sanction of the Central Government.
+        5. ( _5_ ) The Central Government or the State Government, may determine the person by whom, the manner in which, and the offence or offences for which, the prosecution of such Judge, Magistrate or public servant is to be conducted, and may specify the Court before which the trial is to be held.
 
-227.    1. ( _1_ ) No Court shall take cognizance of an offence punishable under Chapter V of the Bharatiya Nyaya Sanhita, 2023 except upon a complaint made by some person aggrieved by the offence:
+218.    1. ( _1_ ) No Court shall take cognizance of an offence punishable under Chapter V of the Bharatiya Nyaya Sanhita, 2023 except upon a complaint made by some person aggrieved by the offence:
            Provided that—
         - ( _a_ ) where such person is under the age of eighteen years, or is having intellectual disability requiring higher support needs or a person with mental illness, or is from sickness or infirmity unable to make a complaint, or is a woman who, according to the local customs and manners, ought not to be compelled to appear in public, some other person may, with the leave of the Court, make a complaint on his or her behalf;
         - ( _b_ ) where such person is the husband and he is serving in any of the Armed Forces of the Union under conditions which are certified by his Commanding Officer as precluding him from obtaining leave of absence to enable him to make a complaint in person, some other person authorised by the husband in accordance with the provisions of sub-section ( 4 ) may make a complaint on his behalf;
         - ( _c_ ) where the person aggrieved by an offence punishable under section 81 of the Bharatiya Nyaya Sanhita, 2023 is the wife, complaint may be made on her behalf by her father, mother, brother, sister, son or daughter or by her father's or mother's brother or sister, or, with the leave of the Court, by any other person related to her by blood, marriage or adoption.
-228.    ( _2_ ) For the purposes of sub-section ( 1 ), no person other than the husband of the woman shall be deemed to be aggrieved by any offence punishable under section 83 of the Bharatiya Nyaya Sanhita, 2023:
-        Provided that in the absence of the husband, some person who had care of the woman on his behalf at the time when such offence was committed may, with the leave of the Court, make a complaint on his behalf.
-229.    ( _3_ ) When in any case falling under clause ( a ) of the proviso to sub-section ( 1 ), the complaint is sought to be made on behalf of a person under the age of eighteen years or of a person with mental illness by a person who has not been appointed or declared by a competent authority to be the guardian of the person of the minor or a person with mental illness, and the Court is satisfied that there is a guardian so appointed or declared, the Court shall, before granting the application for leave, cause notice to be given to such guardian and give him a reasonable opportunity of being heard.
-230.    ( _4_ ) The authorisation referred to in clause ( b ) of the proviso to sub-section ( 1 ), shall be in writing, shall be signed or otherwise attested by the husband, shall contain a statement to the effect that he has been informed of the allegations upon which the complaint is to be founded, shall be countersigned by his Commanding Officer, and shall be accompanied by a certificate signed by that Officer to the effect that leave of absence for the purpose of making a complaint in person cannot for the time being be granted to the husband.
-231.    ( _5_ ) Any document purporting to be such an authorisation and complying with the provisions of sub-section ( 4 ), and any document purporting to be a certificate required by that sub-section shall, unless the contrary is proved, be presumed to be genuine and shall be received in evidence.
-232.    ( _6_ ) No Court shall take cognizance of an offence under section 64 of the Bharatiya Nyaya Sanhita, 2023, where such offence consists of sexual intercourse by a man with his own wife, the wife being under eighteen years of age, if more than one year has elapsed from the date of the commission of the offence.
-233.    ( _7_ ) The provisions of this section apply to the abetment of, or attempt to commit, an offence as they apply to the offence.
+        2.  ( _2_ ) For the purposes of sub-section ( 1 ), no person other than the husband of the woman shall be deemed to be aggrieved by any offence punishable under section 83 of the Bharatiya Nyaya Sanhita, 2023:
+            Provided that in the absence of the husband, some person who had care of the woman on his behalf at the time when such offence was committed may, with the leave of the Court, make a complaint on his behalf.
+        3.  ( _3_ ) When in any case falling under clause ( a ) of the proviso to sub-section ( 1 ), the complaint is sought to be made on behalf of a person under the age of eighteen years or of a person with mental illness by a person who has not been appointed or declared by a competent authority to be the guardian of the person of the minor or a person with mental illness, and the Court is satisfied that there is a guardian so appointed or declared, the Court shall, before granting the application for leave, cause notice to be given to such guardian and give him a reasonable opportunity of being heard.
+        4.  ( _4_ ) The authorisation referred to in clause ( b ) of the proviso to sub-section ( 1 ), shall be in writing, shall be signed or otherwise attested by the husband, shall contain a statement to the effect that he has been informed of the allegations upon which the complaint is to be founded, shall be countersigned by his Commanding Officer, and shall be accompanied by a certificate signed by that Officer to the effect that leave of absence for the purpose of making a complaint in person cannot for the time being be granted to the husband.
+        5.  ( _5_ ) Any document purporting to be such an authorisation and complying with the provisions of sub-section ( 4 ), and any document purporting to be a certificate required by that sub-section shall, unless the contrary is proved, be presumed to be genuine and shall be received in evidence.
+        6.  ( _6_ ) No Court shall take cognizance of an offence under section 64 of the Bharatiya Nyaya Sanhita, 2023, where such offence consists of sexual intercourse by a man with his own wife, the wife being under eighteen years of age, if more than one year has elapsed from the date of the commission of the offence.
+        7.  ( _7_ ) The provisions of this section apply to the abetment of, or attempt to commit, an offence as they apply to the offence.
 
-234.    No Court shall take cognizance of an offence punishable under section 84 of the Bharatiya Nyaya Sanhita, 2023 except upon a police report of facts which constitute such offence or upon a complaint made by the person aggrieved by the offence or by her father, mother, brother, sister or by her father's or mother's brother or sister or, with the leave of the Court, by any other person related to her by blood, marriage or adoption.
-235.    No Court shall take cognizance of an offence punishable under section 67 of the Bharatiya Nyaya Sanhita, 2023 where the persons are in a marital relationship, except upon _prima facie_ satisfaction of the facts which constitute the offence upon a complaint having been filed or made by the wife against the husband.
+219.    No Court shall take cognizance of an offence punishable under section 84 of the Bharatiya Nyaya Sanhita, 2023 except upon a police report of facts which constitute such offence or upon a complaint made by the person aggrieved by the offence or by her father, mother, brother, sister or by her father's or mother's brother or sister or, with the leave of the Court, by any other person related to her by blood, marriage or adoption.
+220.    No Court shall take cognizance of an offence punishable under section 67 of the Bharatiya Nyaya Sanhita, 2023 where the persons are in a marital relationship, except upon _prima facie_ satisfaction of the facts which constitute the offence upon a complaint having been filed or made by the wife against the husband.
 
-236.    1. ( _1_ ) No Court shall take cognizance of an offence punishable under Chapter XIX of the Bharatiya Nyaya Sanhita, 2023 except upon a complaint made by some person aggrieved by the offence:
+221.    1. ( _1_ ) No Court shall take cognizance of an offence punishable under Chapter XIX of the Bharatiya Nyaya Sanhita, 2023 except upon a complaint made by some person aggrieved by the offence:
            Provided that where such person is under the age of eighteen years, or is having intellectual disability requiring higher support needs or a person with mental illness, or is from sickness or infirmity unable to make a complaint, or is a woman who, according to the local customs and manners, ought not to be compelled to appear in public, some other person may, with the leave of the Court, make a complaint on his or her behalf.
         2. ( _2_ ) Notwithstanding anything contained in this Sanhita, when any offence falling under Chapter XIX of the Bharatiya Nyaya Sanhita, 2023 is alleged to have been committed against a person who, at the time of such commission, is the President of India, the Vice-President of India, the Governor of a State, the Administrator of a Union territory or a Minister of the Union or of a State or of a Union territory, or any other public servant employed in connection with the affairs of the Union or of a State in respect of his conduct in the discharge of his public functions, a Court of Session may take cognizance of such offence, without the case being committed to it, upon a complaint in writing made by the Public Prosecutor.
         3. ( _3_ ) Every complaint referred to in sub-section ( _2_ ) shall set forth the facts which constitute the offence alleged, the nature of such offence and such other particulars as are reasonably sufficient to give notice to the accused of the offence alleged to have been committed by him.
@@ -1273,1917 +1271,332 @@ Following the formatting standards you established—specifically the use of pla
 
 # CHAPTER XVI COMPLAINTS TO MAGISTRATES
 
-```
+223.    A Magistrate having jurisdiction while taking cognizance of an offence on complaint shall examine upon oath the complainant and the witnesses present, if any, and the substance of such examination shall be reduced to writing and shall be signed by the complainant and the witnesses, and also by the Magistrate:
+        _Provided_ that no cognizance of an offence under this section shall be taken by the Magistrate without giving the accused an opportunity of being heard:
+        _Provided_ further that, when the complaint is made in writing, the Magistrate need not examine the complainant and the witnesses—
+        - ( _a_ ) if a public servant acting or purporting to act in the discharge of his official duties or a Court has made the complaint; or
+        - ( _b_ ) if the Magistrate makes over the case for inquiry or trial to another Magistrate under section 212:
+          _Provided_ further that if the Magistrate makes over the case to another Magistrate under section 212 after examining the complainant and the witnesses, the latter Magistrate need not re-examine them:
+          _Provided_ further that in case of a complaint against a public servant, the Magistrate shall comply with the procedure provided in section 217.
+
+224.    If the complaint is made to a Magistrate who is not competent to take cognizance of the offence, he shall,—
+        - ( _a_ ) if the complaint is in writing, return it for presentation to the proper Court with an endorsement to that effect;
+        - ( _b_ ) if the complaint is not in writing, direct the complainant to the proper Court.
+
+225.    1. ( _1_ ) Any Magistrate, on receipt of a complaint of an offence of which he is authorised to take cognizance or which has been made over to him under section 212, may, if he thinks fit, and shall, in a case where the accused is residing at a place beyond the area in which he exercises his jurisdiction, postpone the issue of process against the accused, and either inquire into the case himself or direct an investigation to be made by a police officer or by such other person as he thinks fit, for the purpose of deciding whether or not there is sufficient ground for proceeding:
+           _Provided_ that no such direction for investigation shall be made,—
+            - ( _a_ ) where it appears to the Magistrate that the offence complained of is triable exclusively by the Court of Session; or
+            - ( _b_ ) where the complaint has not been made by a Court, unless the complainant and the witnesses present (if any) have been examined on oath under section 223.
+        2. ( _2_ ) In an inquiry under sub-section ( _1_ ), the Magistrate may, if he thinks fit, take evidence of witnesses on oath:
+           _Provided_ that if it appears to the Magistrate that the offence complained of is triable exclusively by the Court of Session, he shall call upon the complainant to produce all his witnesses and examine them on oath.
+        3. ( _3_ ) If an investigation under sub-section ( _1_ ) is made by a person not being a police officer, he shall have for that investigation all the powers conferred by this Sanhita on an officer in-charge of a police station except the power to arrest without warrant.
+
+226.    If, after considering the statements on oath (if any) of the complainant and of the witnesses and the result of the inquiry or investigation (if any) under section 225, the Magistrate is of opinion that there is no sufficient ground for proceeding, he shall dismiss the complaint, and in every such case he shall briefly record his reasons for so doing.
+
+# CHAPTER XVII COMMENCEMENT OF PROCEEDINGS BEFORE MAGISTRATES
+
+227.    1. ( _1_ ) If in the opinion of a Magistrate taking cognizance of an offence there is sufficient ground for proceeding, and the case appears to be—
+            - ( _a_ ) a summons-case, he shall issue summons to the accused for his attendance; or
+            - ( _b_ ) a warrant-case, he may issue a warrant, or, if he thinks fit, a summons, for causing the accused to be brought or to appear at a certain time before such Magistrate or (if he has no jurisdiction himself) some other Magistrate having jurisdiction.
+        2. ( _2_ ) No summons or warrant shall be issued against the accused under sub-section ( _1_ ) until a list of the prosecution witnesses has been filed.
+        3. ( _3_ ) In a proceeding instituted upon a complaint made in writing, every summons or warrant issued under sub-section ( _1_ ) shall be accompanied by a copy of such complaint:
+           _Provided_ that summons or warrants may also be issued through electronic means.
+        4. ( _4_ ) When by any law for the time being in force any process-fees or other fees are payable, no process shall be issued until the fees are paid and, if such fees are not paid within a reasonable time, the Magistrate may dismiss the complaint.
+        5. ( _5_ ) Nothing in this section shall be deemed to affect the provisions of section 90.
+
+228.    1. ( _1_ ) Whenever a Magistrate issues a summons, he may, if he sees reason so to do, dispense with the personal attendance of the accused and permit him to appear by his pleader.
+        2. ( _2_ ) But the Magistrate inquiring into or trying the case may, in his discretion, at any stage of the proceedings, direct the personal attendance of the accused, and, if necessary, enforce such attendance in the manner hereinbefore provided.
+
+229.    1. ( _1_ ) If, in the opinion of a Magistrate taking cognizance of a petty offence, the case may be summarily disposed of under sections 283, 284 or section 285, the Magistrate shall, except where he is, for reasons to be recorded in writing of a contrary opinion, issue summons to the accused requiring him either to appear in person or by pleader before the Magistrate on a specified date, or if he desires to plead guilty to the charge without appearing before the Magistrate, to transmit before the specified date, by post or by messenger to the Magistrate, the said plea in writing and the amount of fine specified in the summons or if he desires to appear by pleader and to plead guilty to the charge through such pleader, to authorise, in writing, the pleader to plead guilty to the charge on his behalf and to pay the fine through such pleader:
+           _Provided_ that the amount of the fine specified in such summons shall not exceed five thousand rupees.
+        2. ( _2_ ) For the purposes of this section, "petty offence" means any offence punishable only with fine not exceeding five thousand rupees, but does not include any offence so punishable under the Motor Vehicles Act, 1988, or under any other law which provides for convicting the accused person in his absence on a plea of guilty.
+        3. ( _3_ ) The State Government may, by notification, specially empower any Magistrate to exercise the powers conferred by sub-section ( _1_ ) in relation to any offence which is compoundable under section 359 or any offence punishable with imprisonment for a term not exceeding three months, or with fine, or with both where the Magistrate is of opinion that, having regard to the facts and circumstances of the case, the imposition of fine only would meet the ends of justice.
+
+230.    In any case where the proceeding has been instituted on a police report, the Magistrate shall without delay, and in no case beyond fourteen days from the date of production or appearance of the accused, furnish to the accused and the victim (if represented by an advocate) free of cost, a copy of each of the following:—
+        - ( _i_ ) the police report;
+        - ( _ii_ ) the first information report recorded under section 193;
+        - ( _iii_ ) the statements recorded under sub-section ( _3_ ) of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section ( _6_ ) of section 193;
+        - ( _iv_ ) the confessions and statements, if any, recorded under section 183;
+        - ( _v_ ) any other document or relevant extract thereof forwarded to the Magistrate with the police report under sub-section ( _5_ ) of section 193:
+          _Provided_ that the Magistrate may, after perusing any such part of a statement as is referred to in clause ( _iii_ ) and considering the reasons given by the police officer for the request, direct that a copy of that part of the statement or of such portion thereof as the Magistrate thinks proper, shall be furnished to the accused:
+          _Provided_ further that if the Magistrate is satisfied that any such document is voluminous, he shall, instead of furnishing the accused and the victim (if represented by an advocate) with a copy thereof, may furnish the copies through electronic means or direct that he will only be allowed to inspect it either personally or through advocate in Court:
+          _Provided_ also that supply of documents in electronic form shall be considered as duly furnished.
+
+231.    Where, in a case instituted otherwise than on a police report, it appears to the Magistrate issuing process under section 227 that the offence is triable exclusively by the Court of Session, the Magistrate shall forthwith furnish to the accused, free of cost, a copy of each of the following:—
+        - ( _i_ ) the statements recorded under section 223 or section 225, of all persons examined by the Magistrate;
+        - ( _ii_ ) the statements and confessions, if any, recorded under section 180 or section 183;
+        - ( _iii_ ) any documents produced before the Magistrate on which the prosecution proposes to rely:
+          _Provided_ that if the Magistrate is satisfied that any such document is voluminous, he shall, instead of furnishing the accused with a copy thereof, direct that he will only be allowed to inspect it either personally or through pleader in Court:
+          _Provided_ further that supply of documents in electronic form shall be considered as duly furnished.
+
+232.    When in a case instituted on a police report or otherwise, the accused appears or is brought before the Magistrate and it appears to the Magistrate that the offence is triable exclusively by the Court of Session, he shall—
+        - ( _a_ ) commit, after complying with the provisions of section 230 or section 231 the case to the Court of Session, and subject to the provisions of this Sanhita relating to bail, remand the accused to custody until such commitment has been made;
+        - ( _b_ ) subject to the provisions of this Sanhita relating to bail, remand the accused to custody during, and until the conclusion of, the trial;
+        - ( _c_ ) send to that Court the record of the case and the documents and articles, if any, which are to be produced in evidence;
+        - ( _d_ ) notify the Public Prosecutor of the commitment of the case to the Court of Session:
+          _Provided_ that the proceedings under this section shall be completed within a period of ninety days from the date of taking cognizance, and such period may be extended by the Magistrate for a period not exceeding one hundred and eighty days for the reasons to be recorded in writing:
+          _Provided_ further that any application filed before the Magistrate by the accused or the victim or any person authorised by such person in a case triable by Court of Session, shall be forwarded to the Court of Session with the committal of the case.
+
+233.    1. ( _1_ ) When in a case instituted otherwise than on a police report (hereinafter referred to as a complaint case), it is made to appear to the Magistrate, during the course of the inquiry or trial held by him, that an investigation by the police is in progress in relation to the offence which is the subject-matter of the inquiry or trial held by him, the Magistrate shall stay the proceedings of such inquiry or trial and call for a report on the matter from the police officer conducting the investigation.
+        2. ( _2_ ) If a report is made by the investigating police officer under section 193 and on such report cognizance of any offence is taken by the Magistrate against any person who is an accused in the complaint case, the Magistrate shall inquire into or try together the complaint case and the case arising out of the police report as if both the cases were instituted on a police report.
+        3. ( _3_ ) If the police report does not relate to any accused in the complaint case or if the Magistrate does not take cognizance of any offence on the police report, he shall proceed with the inquiry or trial, which was stayed by him, in accordance with the provisions of this Sanhita.
+
+# CHAPTER XVIII THE CHARGE
 
-**223.** A Magistrate having jurisdiction while taking cognizance of an offence on
-complaint shall examine upon oath the complainant and the witnesses present, if any, and
-the substance of such examination shall be reduced to writing and shall be signed by the
-complainant and the witnesses, and also by the Magistrate:
-Provided that no cognizance of an offence under this section shall be taken by the
-Magistrate without giving the accused an opportunity of being heard:
-Provided further that, when the complaint is made in writing, the Magistrate need not
-examine the complainant and the witnesses—
-( _a_ ) if a public servant acting or purporting to act in the discharge of his official
-duties or a Court has made the complaint; or
-( _b_ ) if the Magistrate makes over the case for inquiry or trial to another Magistrate
-under section 212:
-Provided further that if the Magistrate makes over the case to another Magistrate
-under section 212 after examining the complainant and the witnesses, the latter Magistrate
-need not re-examine them:
-Provided further that in case of a complaint against a public servant, the Magistrate
-shall comply with the procedure provided in section 217.
-**224.** If the complaint is made to a Magistrate who is not competent to take cognizance
-of the offence, he shall,—
-( _a_ ) if the complaint is in writing, return it for presentation to the proper Court
-with an endorsement to that effect;
-( _b_ ) if the complaint is not in writing, direct the complainant to the proper Court.
-**225.** ( _1_ ) Any Magistrate, on receipt of a complaint of an offence of which he is
-authorised to take cognizance or which has been made over to him under section 212, may,
-if he thinks fit, and shall, in a case where the accused is residing at a place beyond the area
-in which he exercises his jurisdiction, postpone the issue of process against the accused,
-and either inquire into the case himself or direct an investigation to be made by a police
-officer or by such other person as he thinks fit, for the purpose of deciding whether or not
-there is sufficient ground for proceeding:
-Provided that no such direction for investigation shall be made,—
-( _a_ ) where it appears to the Magistrate that the offence complained of is triable
-exclusively by the Court of Session; or
-( _b_ ) where the complaint has not been made by a Court, unless the complainant
-and the witnesses present (if any) have been examined on oath under section 223.
-( _2_ ) In an inquiry under sub-section ( _1_ ), the Magistrate may, if he thinks fit, take
-evidence of witnesses on oath:
-Provided that if it appears to the Magistrate that the offence complained of is triable
-exclusively by the Court of Session, he shall call upon the complainant to produce all his
-witnesses and examine them on oath.
-( _3_ ) If an investigation under sub-section ( _1_ ) is made by a person not being a police
-officer, he shall have for that investigation all the powers conferred by this Sanhita on an
-officer in-charge of a police station except the power to arrest without warrant.
-
-```
-
-Examination
-of complainant.
-
-```
-
-```
-
-Procedure by
-Magistrate not
-competent to
-take
-cognizance of
-case.
-
-```
-
-```
-
-Postponement
-of issue of
-process.
-
-```
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-20
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-40
-
-45
-
-**226.** If, after considering the statements on oath (if any) of the complainant and of the
-witnesses and the result of the inquiry or investigation (if any) under section 225, the
-Magistrate is of opinion that there is no sufficient ground for proceeding, he shall dismiss
-the complaint, and in every such case he shall briefly record his reasons for so doing.
-CHAPTER XVIII
-COMMENCEMENT OF PROCEEDINGS BEFORE MAGISTRATES
-**227.** ( _1_ ) If in the opinion of a Magistrate taking cognizance of an offence there is
-sufficient ground for proceeding, and the case appears to be—
-( _a_ ) a summons-case, he shall issue summons to the accused for his attendance;
-or
-( _b_ ) a warrant-case, he may issue a warrant, or, if he thinks fit, a summons, for
-causing the accused to be brought or to appear at a certain time before such Magistrate
-or (if he has no jurisdiction himself) some other Magistrate having jurisdiction.
-( _2_ ) No summons or warrant shall be issued against the accused under sub-section ( _1_ )
-until a list of the prosecution witnesses has been filed.
-( _3_ ) In a proceeding instituted upon a complaint made in writing, every summons or
-warrant issued under sub-section ( _1_ ) shall be accompanied by a copy of such complaint:
-Provided that summons or warrants may also be issued through electronic means.
-( _4_ ) When by any law for the time being in force any process-fees or other fees are
-payable, no process shall be issued until the fees are paid and, if such fees are not paid
-within a reasonable time, the Magistrate may dismiss the complaint.
-( _5_ ) Nothing in this section shall be deemed to affect the provisions of section 90.
-**228.** ( _1_ ) Whenever a Magistrate issues a summons, he may, if he sees reason so to do,
-dispense with the personal attendance of the accused and permit him to appear by his
-pleader.
-( _2_ ) But the Magistrate inquiring into or trying the case may, in his discretion, at any
-stage of the proceedings, direct the personal attendance of the accused, and, if necessary,
-enforce such attendance in the manner hereinbefore provided.
-**229.** ( _1_ ) If, in the opinion of a Magistrate taking cognizance of a petty offence, the
-case may be summarily disposed of under sections 283, 284 or section 285, the Magistrate
-shall, except where he is, for reasons to be recorded in writing of a contrary opinion, issue
-summons to the accused requiring him either to appear in person or by pleader before the
-Magistrate on a specified date, or if he desires to plead guilty to the charge without appearing
-before the Magistrate, to transmit before the specified date, by post or by messenger to the
-Magistrate, the said plea in writing and the amount of fine specified in the summons or if he
-desires to appear by pleader and to plead guilty to the charge through such pleader, to
-authorise, in writing, the pleader to plead guilty to the charge on his behalf and to pay the
-fine through such pleader:
-Provided that the amount of the fine specified in such summons shall not exceed five
-thousand rupees.
-( _2_ ) For the purposes of this section, "petty offence" means any offence punishable
-only with fine not exceeding five thousand rupees, but does not include any offence so
-punishable under the Motor Vehicles Act, 1988, or under any other law which provides for
-convicting the accused person in his absence on a plea of guilty.
-( _3_ ) The State Government may, by notification, specially empower any Magistrate to
-exercise the powers conferred by sub-section ( _1_ ) in relation to any offence which is
-compoundable under section 359 or any offence punishable with imprisonment for a term
-not exceeding three months, or with fine, or with both where the Magistrate is of opinion
-that, having regard to the facts and circumstances of the case, the imposition of fine only
-would meet the ends of justice.
-
-Dismissal of
-complaint.
-
-Issue of
-process.
-
-Magistrate
-may dispense
-with personal
-attendance of
-accused.
-
-Special
-summons in
-cases of petty
-offence.
-
-```
-
-59 of 1988.
-
-```
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-```
-
-20
-
-```
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-```
-
-40
-
-```
-
-```
-
-45
-
-```
-
-**230.** In any case where the proceeding has been instituted on a police report, the
-Magistrate shall without delay, and in no case beyond fourteen days from the date of
-production or appearance of the accused, furnish to the accused and the victim (if represented
-by an advocate) free of cost, a copy of each of the following:—
-( _i_ ) the police report;
-( _ii_ ) the first information report recorded under section 193;
-( _iii_ ) the statements recorded under sub-section ( _3_ ) of section 180 of all persons
-whom the prosecution proposes to examine as its witnesses, excluding therefrom any
-part in regard to which a request for such exclusion has been made by the police
-officer under sub-section ( _6_ ) of section 193;
-( _iv_ ) the confessions and statements, if any, recorded under section 183;
-( _v_ ) any other document or relevant extract thereof forwarded to the Magistrate
-with the police report under sub-section ( _5_ ) of section 193:
-Provided that the Magistrate may, after perusing any such part of a statement as is
-referred to in clause ( _iii_ ) and considering the reasons given by the police officer for the
-request, direct that a copy of that part of the statement or of such portion thereof as the
-Magistrate thinks proper, shall be furnished to the accused:
-Provided further that if the Magistrate is satisfied that any such document is
-voluminous, he shall, instead of furnishing the accused and the victim (if represented by an
-advocate) with a copy thereof, may furnish the copies through electronic means or direct
-that he will only be allowed to inspect it either personally or through advocate in Court:
-Provided also that supply of documents in electronic form shall be considered as duly
-furnished.
-**231.** Where, in a case instituted otherwise than on a police report, it appears to the
-Magistrate issuing process under section 227 that the offence is triable exclusively by the
-Court of Session, the Magistrate shall forthwith furnish to the accused, free of cost, a copy
-of each of the following:—
-( _i_ ) the statements recorded under section 223 or section 225, of all persons
-examined by the Magistrate;
-( _ii_ ) the statements and confessions, if any, recorded under section 180 or
-section 183;
-( _iii_ ) any documents produced before the Magistrate on which the prosecution
-proposes to rely:
-Provided that if the Magistrate is satisfied that any such document is voluminous, he
-shall, instead of furnishing the accused with a copy thereof, direct that he will only be
-allowed to inspect it either personally or through pleader in Court:
-Provided further that supply of documents in electronic form shall be considered as
-duly furnished.
-**232.** When in a case instituted on a police report or otherwise, the accused appears or
-is brought before the Magistrate and it appears to the Magistrate that the offence is triable
-exclusively by the Court of Session, he shall—
-( _a_ ) commit, after complying with the provisions of section 230 or section 231
-the case to the Court of Session, and subject to the provisions of this Sanhita relating
-to bail, remand the accused to custody until such commitment has been made;
-( _b_ ) subject to the provisions of this Sanhita relating to bail, remand the accused
-to custody during, and until the conclusion of, the trial;
-( _c_ ) send to that Court the record of the case and the documents and articles, if
-any, which are to be produced in evidence;
-
-```
-
-Supply to
-accused of
-copy of police
-report and
-other
-documents.
-
-```
-
-```
-
-Supply of
-copies of
-statements
-and documents
-to accused in
-other cases
-triable by
-Court of
-Session.
-
-```
-
-```
-
-Commitment
-of case to Court
-of Session when
-offence is
-triable
-exclusively by
-it.
-
-```
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-20
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-40
-
-45
-
-```
-
-( d ) notify the Public Prosecutor of the commitment of the case to the Court of
-Session:
-Provided that the proceedings under this section shall be completed within a period
-of ninety days from the date of taking cognizance, and such period may be extended by the
-Magistrate for a period not exceeding one hundred and eighty days for the reasons to be
-recorded in writing:
-Provided further that any application filed before the Magistrate by the accused or
-the victim or any person authorised by such person in a case triable by Court of Session,
-shall be forwarded to the Court of Session with the committal of the case.
-
-```
-
-**233.** ( _1_ ) When in a case instituted otherwise than on a police report (hereinafter
-referred to as a complaint case), it is made to appear to the Magistrate, during the course of
-the inquiry or trial held by him, that an investigation by the police is in progress in relation
-to the offence which is the subject-matter of the inquiry or trial held by him, the Magistrate
-shall stay the proceedings of such inquiry or trial and call for a report on the matter from the
-police officer conducting the investigation.
-( _2_ ) If a report is made by the investigating police officer under section 193 and on
-such report cognizance of any offence is taken by the Magistrate against any person who
-is an accused in the complaint case, the Magistrate shall inquire into or try together the
-complaint case and the case arising out of the police report as if both the cases were
-instituted on a police report.
-( _3_ ) If the police report does not relate to any accused in the complaint case or if the
-Magistrate does not take cognizance of any offence on the police report, he shall proceed
-with the inquiry or trial, which was stayed by him, in accordance with the provisions of this
-Sanhita.
-CHAPTER XIX
-THE CHARGE
 _A.—Form of charges_
-**234.** ( _1_ ) Every charge under this Sanhita shall state the offence with which the accused
-is charged.
-( _2_ ) If the law which creates the offence gives it any specific name, the offence may be
-described in the charge by that name only.
-( _3_ ) If the law which creates the offence does not give it any specific name, so much of
-the definition of the offence must be stated as to give the accused notice of the matter with
-which he is charged.
-( _4_ ) The law and section of the law against which the offence is said to have been
-committed shall be mentioned in the charge.
-( _5_ ) The fact that the charge is made is equivalent to a statement that every legal
-condition required by law to constitute the offence charged was fulfilled in the particular
-case.
-( _6_ ) The charge shall be written in the language of the Court.
-( _7_ ) If the accused, having been previously convicted of any offence, is liable, by
-reason of such previous conviction, to enhanced punishment, or to punishment of a different
-kind, for a subsequent offence, and it is intended to prove such previous conviction for the
-purpose of affecting the punishment which the Court may think fit, to award for the
-subsequent offence, the fact, date and place of the previous conviction shall be stated in
-the charge; and if such statement has been omitted, the Court may add it at any time before
-sentence is passed.
+
+234.    1. ( _1_ ) Every charge under this Sanhita shall state the offence with which the accused is charged.
+        2. ( _2_ ) If the law which creates the offence gives it any specific name, the offence may be described in the charge by that name only.
+        3. ( _3_ ) If the law which creates the offence does not give it any specific name, so much of the definition of the offence must be stated as to give the accused notice of the matter with which he is charged.
+        4. ( _4_ ) The law and section of the law against which the offence is said to have been committed shall be mentioned in the charge.
+        5. ( _5_ ) The fact that the charge is made is equivalent to a statement that every legal condition required by law to constitute the offence charged was fulfilled in the particular case.
+        6. ( _6_ ) The charge shall be written in the language of the Court.
+        7. ( _7_ ) If the accused, having been previously convicted of any offence, is liable, by reason of such previous conviction, to enhanced punishment, or to punishment of a different kind, for a subsequent offence, and it is intended to prove such previous conviction for the purpose of affecting the punishment which the Court may think fit, to award for the subsequent offence, the fact, date and place of the previous conviction shall be stated in the charge; and if such statement has been omitted, the Court may add it at any time before sentence is passed.
+           _Illustrations._
+        - ( _a_ ) A is charged with the murder of B. This is equivalent to a statement that A's act fell within the definition of murder given in sections 98 and 99 of the Bharatiya Nyaya Sanhita, 2023; that it did not fall within any of the general exceptions of the said Sanhita; and that it did not fall within any of the five exceptions to section 99, or that, if it did fall within Exception 1, one or other of the three provisos to that exception applied to it.
+        - ( _b_ ) A is charged under section 116 of the Bharatiya Nyaya Sanhita, 2023, with voluntarily causing grievous hurt to B by means of an instrument for shooting. This is equivalent to a statement that the case was not provided for by section 120 of the said Sanhita, and that the general exceptions did not apply to it.
+        - ( _c_ ) A is accused of murder, cheating, theft, extortion, adultery or criminal intimidation, or using a false property-mark. The charge may state that A committed murder, or cheating, or theft, or extortion, or adultery, or criminal intimidation, or that he used a false property-mark, without reference to the definitions, of those crimes contained in the Bharatiya Nyaya Sanhita, 2023; but the sections under which the offence is punishable must, in each instance be referred to in the charge.
+        - ( _d_ ) A is charged under section 220 of the Bharatiya Nyaya Sanhita, 2023, with intentionally obstructing a sale of property offered for sale by the lawful authority of a public servant. The charge should be in those words.
+
+235.    1. ( _1_ ) The charge shall contain such particulars as to the time and place of the alleged offence, and the person (if any) against whom, or the thing (if any) in respect of which, it was committed, as are reasonably sufficient to give the accused notice of the matter with which he is charged.
+        2. ( _2_ ) When the accused is charged with criminal breach of trust or dishonest misappropriation of money or other movable property, it shall be sufficient to specify the gross sum or, as the case may be, describe the movable property in respect of which the offence is alleged to have been committed, and the dates between which the offence is alleged to have been committed, without specifying particular items or exact dates, and the charge so framed shall be deemed to be a charge of one offence within the meaning of section 242:
+           _Provided_ that the time included between the first and last of such dates shall not exceed one year.
+
+236.    When the nature of the case is such that the particulars mentioned in sections 234 and 235 do not give the accused sufficient notice of the matter with which he is charged, the charge shall also contain such particulars of the manner in which the alleged offence was committed as will be sufficient for that purpose.
+
 _Illustrations._
-( _a_ ) A is charged with the murder of B. This is equivalent to a statement that A's act fell
-within the definition of murder given in sections 98 and 99 of the Bharatiya Nyaya Sanhita,
 
-Procedure to
-be followed
-when there is
-a complaint
-case and
-police
-investigation
-in respect of
-same offence.
+- ( _a_ ) A is accused of the theft of a certain article at a certain time and place. The charge need not set out the manner in which the theft was effected.
+- ( _b_ ) A is accused of cheating B at a given time and place. The charge must set out the manner in which A cheated B.
+- ( _c_ ) A is accused of giving false evidence at a given time and place. The charge must set out that portion of the evidence given by A which is alleged to be false.
+- ( _d_ ) A is accused of obstructing B, a public servant, in the discharge of his public functions at a given time and place. The charge must set out the manner in which A obstructed B in the discharge of his functions.
+- ( _e_ ) A is accused of the murder of B at a given time and place. The charge need not state the manner in which A murdered B.
+- ( _f_ ) A is accused of disobeying a direction of the law with intent to save B from punishment. The charge must set out the disobedience charged and the law infringed.
 
-Contents of
-charge.
+237.    In every charge words used in describing an offence shall be deemed to have been used in the sense attached to them respectively by the law under which such offence is punishable.
 
-```
+238.    No error in stating either the offence or the particulars required to be stated in the charge, and no omission to state the offence or those particulars, shall be regarded at any stage of the case as material, unless the accused was in fact misled by such error or omission, and it has occasioned a failure of justice.
 
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-```
-
-20
-
-```
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-```
-
-40
-
-```
-
-```
-
-45
-
-```
-
-```
-
-2023; that it did not fall within any of the general exceptions of the said Sanhita; and that it
-did not fall within any of the five exceptions to section 99, or that, if it did fall within
-Exception 1, one or other of the three provisos to that exception applied to it.
-( b ) A is charged under section 116 of the Bharatiya Nyaya Sanhita, 2023, with
-voluntarily causing grievous hurt to B by means of an instrument for shooting. This is
-equivalent to a statement that the case was not provided for by section 120 of the said
-Sanhita, and that the general exceptions did not apply to it.
-( c ) A is accused of murder, cheating, theft, extortion, adultery or criminal intimidation,
-or using a false property-mark. The charge may state that A committed murder, or
-cheating, or theft, or extortion, or adultery, or criminal intimidation, or that he used a false
-property-mark, without reference to the definitions, of those crimes contained in the Bharatiya
-Nyaya Sanhita, 2023; but the sections under which the offence is punishable must, in each
-instance be referred to in the charge.
-( d ) A is charged under section 220 of the Bharatiya Nyaya Sanhita, 2023, with
-intentionally obstructing a sale of property offered for sale by the lawful authority of a
-public servant. The charge should be in those words.
-
-```
-
-**235.** ( _1_ ) The charge shall contain such particulars as to the time and place of the
-alleged offence, and the person (if any) against whom, or the thing (if any) in respect of
-which, it was committed, as are reasonably sufficient to give the accused notice of the
-matter with which he is charged.
-( _2_ ) When the accused is charged with criminal breach of trust or dishonest
-misappropriation of money or other movable property, it shall be sufficient to specify the
-gross sum or, as the case may be, describe the movable property in respect of which the
-offence is alleged to have been committed, and the dates between which the offence is
-alleged to have been committed, without specifying particular items or exact dates, and the
-charge so framed shall be deemed to be a charge of one offence within the meaning of
-section 242:
-Provided that the time included between the first and last of such dates shall not
-exceed one year.
-**236.** When the nature of the case is such that the particulars mentioned in
-sections 234 and 235 do not give the accused sufficient notice of the matter with which he
-is charged, the charge shall also contain such particulars of the manner in which the alleged
-offence was committed as will be sufficient for that purpose.
 _Illustrations._
-( _a_ ) A is accused of the theft of a certain article at a certain time and place. The charge
-need not set out the manner in which the theft was effected.
-( _b_ ) A is accused of cheating B at a given time and place. The charge must set out the
-manner in which A cheated B.
-( _c_ ) A is accused of giving false evidence at a given time and place. The charge must
-set out that portion of the evidence given by A which is alleged to be false.
-( _d_ ) A is accused of obstructing B, a public servant, in the discharge of his public
-functions at a given time and place. The charge must set out the manner in which A obstructed
-B in the discharge of his functions.
-( _e_ ) A is accused of the murder of B at a given time and place. The charge need not
-state the manner in which A murdered B.
-( _f_ ) A is accused of disobeying a direction of the law with intent to save B from
-punishment. The charge must set out the disobedience charged and the law infringed.
-**237.** In every charge words used in describing an offence shall be deemed to have
-been used in the sense attached to them respectively by the law under which such offence
-is punishable.
 
-```
+- ( _a_ ) A is charged under section 178 of the Bharatiya Nyaya Sanhita, 2023, with "having been in possession of counterfeit coin, having known at the time when he became possessed thereof that such coin was counterfeit," the word "fraudulently" being omitted in the charge. Unless it appears that A was in fact misled by this omission, the error shall not be regarded as material.
+- ( _b_ ) A is charged with cheating B, and the manner in which he cheated B is not set out in the charge or is set out incorrectly. A defends himself, calls witnesses and gives his own account of the transaction. The Court may infer from this that the omission to set out the manner of the cheating is not material.
+- ( _c_ ) A is charged with cheating B, and the manner in which he cheated B is not set out in the charge. There were many transactions between A and B, and A had no means of knowing to which of them the charge referred, and offered no defence. The Court may infer from such facts that the omission to set out the manner of the cheating was, in the case, a material error.
+- ( _d_ ) A is charged with the murder of Khoda Baksh on the 21st January, 2023. In fact, the murdered person's name was Haidar Baksh, and the date of the murder was the 20th January, 2023. A was never charged with any murder but one, and had heard the inquiry before the Magistrate, which referred exclusively to the case of Haidar Baksh. The Court may infer from these facts that A was not misled, and that the error in the charge was immaterial.
+- ( _e_ ) A was charged with murdering Haidar Baksh on the 20th January, 2023, and Khoda Baksh (who tried to arrest him for that murder) on the 21st January, 2023. When charged for the murder of Haidar Baksh, he was tried for the murder of Khoda Baksh. The witnesses present in his defence were witnesses in the case of Haidar Baksh. The Court may infer from this that A was misled, and that the error was material.
 
-Particulars as
-to time, place
-and person.
+239.    1. ( _1_ ) Any Court may alter or add to any charge at any time before judgment is pronounced.
+        2. ( _2_ ) Every such alteration or addition shall be read and explained to the accused.
+        3. ( _3_ ) If the alteration or addition to a charge is such that proceeding immediately with the trial is not likely, in the opinion of the Court, to prejudice the accused in his defence or the prosecutor in the conduct of the case, the Court may, in its discretion, after such alteration or addition has been made, proceed with the trial as if the altered or added charge had been the original charge.
+        4. ( _4_ ) If the alteration or addition is such that proceeding immediately with the trial is likely, in the opinion of the Court, to prejudice the accused or the prosecutor as aforesaid, the Court may either direct a new trial or adjourn the trial for such period as may be necessary.
+        5. ( _5_ ) If the offence stated in the altered or added charge is one for the prosecution of which previous sanction is necessary, the case shall not be proceeded with until such sanction is obtained, unless sanction has been already obtained for a prosecution on the same facts as those on which the altered or added charge is founded.
 
-```
+240.    Whenever a charge is altered or added to by the Court after the commencement of the trial, the prosecutor and the accused shall be allowed—
+        - ( _a_ ) to recall or re-summon, and examine with reference to such alteration or addition, any witness who may have been examined, unless the Court, for reasons to be recorded in writing, considers that the prosecutor or the accused, as the case may be, desires to recall or re-examine such witness for the purpose of vexation or delay or for defeating the ends of justice;
+        - ( _b_ ) also to call any further witness whom the Court may think to be material.
 
-```
+_B.—Joinder of charges_
 
-When manner
-of committing
-offence must
-be stated.
+241.    1. ( _1_ ) For every distinct offence of which any person is accused there shall be a separate charge, and every such charge shall be tried separately:
+           _Provided_ that where the accused person, by an application in writing, so desires and the Magistrate is of opinion that such person is not likely to be prejudiced thereby, the Magistrate may try together all or any number of the charges framed against such person.
+        2. ( _2_ ) Nothing in sub-section ( _1_ ) shall affect the operation of the provisions of sections 242, 243, 244 and 246.
 
-```
-
-```
-
-Words in charge
-taken in sense of
-law under which
-offence is
-punishable.
-
-```
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-20
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-40
-
-45
-
-50
-
-**238.** No error in stating either the offence or the particulars required to be stated in
-the charge, and no omission to state the offence or those particulars, shall be regarded at
-any stage of the case as material, unless the accused was in fact misled by such error or
-omission, and it has occasioned a failure of justice.
-_Illustrations._
-( _a_ ) A is charged under section 178 of the Bharatiya Nyaya Sanhita, 2023, with "having
-been in possession of counterfeit coin, having known at the time when he became possessed
-thereof that such coin was counterfeit," the word "fraudulently" being omitted in the charge.
-Unless it appears that A was in fact misled by this omission, the error shall not be regarded
-as material.
-( _b_ ) A is charged with cheating B, and the manner in which he cheated B is not set out
-in the charge or is set out incorrectly. A defends himself, calls witnesses and gives his own
-account of the transaction. The Court may infer from this that the omission to set out the
-manner of the cheating is not material.
-( _c_ ) A is charged with cheating B, and the manner in which he cheated B is not set out
-in the charge. There were many transactions between A and B, and A had no means of
-knowing to which of them the charge referred, and offered no defence. The Court may infer
-from such facts that the omission to set out the manner of the cheating was, in the case, a
-material error.
-( _d_ ) A is charged with the murder of Khoda Baksh on the 21st January, 2023. In fact, the
-murdered person's name was Haidar Baksh, and the date of the murder was the 20th January, 2023. A was never charged with any murder but one, and had heard the inquiry before the
-Magistrate, which referred exclusively to the case of Haidar Baksh. The Court may infer
-from these facts that A was not misled, and that the error in the charge was immaterial.
-( _e_ ) A was charged with murdering Haidar Baksh on the 20th January, 2023, and Khoda
-Baksh (who tried to arrest him for that murder) on the 21st January, 2023. When charged for
-the murder of Haidar Baksh, he was tried for the murder of Khoda Baksh. The witnesses
-present in his defence were witnesses in the case of Haidar Baksh. The Court may infer from
-this that A was misled, and that the error was material.
-**239.** ( _1_ ) Any Court may alter or add to any charge at any time before judgment is
-pronounced.
-( _2_ ) Every such alteration or addition shall be read and explained to the accused.
-( _3_ ) If the alteration or addition to a charge is such that proceeding immediately with
-the trial is not likely, in the opinion of the Court, to prejudice the accused in his defence or
-the prosecutor in the conduct of the case, the Court may, in its discretion, after such
-alteration or addition has been made, proceed with the trial as if the altered or added charge
-had been the original charge.
-( _4_ ) If the alteration or addition is such that proceeding immediately with the trial is
-likely, in the opinion of the Court, to prejudice the accused or the prosecutor as aforesaid,
-the Court may either direct a new trial or adjourn the trial for such period as may be necessary.
-( _5_ ) If the offence stated in the altered or added charge is one for the prosecution of
-which previous sanction is necessary, the case shall not be proceeded with until such
-sanction is obtained, unless sanction has been already obtained for a prosecution on the
-same facts as those on which the altered or added charge is founded.
-**240.** Whenever a charge is altered or added to by the Court after the commencement
-of the trial, the prosecutor and the accused shall be allowed—
-( _a_ ) to recall or re-summon, and examine with reference to such alteration or
-addition, any witness who may have been examined, unless the Court, for reasons to
-be recorded in writing, considers that the prosecutor or the accused, as the case may
-be, desires to recall or re-examine such witness for the purpose of vexation or delay or
-for defeating the ends of justice;
-
-Effect of
-errors.
-
-Court may
-alter charge.
-
-Recall of
-witnesses
-when charge
-altered.
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-```
-
-20
-
-```
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-```
-
-40
-
-```
-
-```
-
-45
-
-```
-
-```
-
-50
-
-```
-
-```
-
-( b ) also to call any further witness whom the Court may think to be material.
-
-```
-
-**241.** ( _1_ ) For every distinct offence of which any person is accused there shall be a
-separate charge, and every such charge shall be tried separately:
-Provided that where the accused person, by an application in writing, so desires and
-the Magistrate is of opinion that such person is not likely to be prejudiced thereby, the
-Magistrate may try together all or any number of the charges framed against such person.
-( _2_ ) Nothing in sub-section ( _1_ ) shall affect the operation of the provisions of sections
-242, 243, 244 and 246.
 _Illustration._
-A is accused of a theft on one occasion, and of causing grievous hurt on another
-occasion. A must be separately charged and separately tried for the theft and causing
-grievous hurt.
-**242.** ( _1_ ) When a person is accused of more offences than one of the same kind
-committed within the space of twelve months from the first to the last of such offences,
-whether in respect of the same person or not, he may be charged with, and tried at one trial
-for, any number of them not exceeding five.
-( _2_ ) Offences are of the same kind when they are punishable with the same amount of
-punishment under the same section of the Bharatiya Nyaya Sanhita, 2023 or of any special
-or local law:
-Provided that, for the purposes of this section, an offence punishable under
-section 301 of the Bharatiya Nyaya Sanhita, 2023 shall be deemed to be an offence of the
-same kind as an offence punishable under section 303 of the said Sanhita, and that an
-offence punishable under any section of the said Sanhita, or of any special or local law, shall
-be deemed to be an offence of the same kind as an attempt to commit such offence, when
-such an attempt is an offence.
-**243.** ( _1_ ) If, in one series of acts so connected together as to form the same transaction,
-more offences than one are committed by the same person, he may be charged with, and
-tried at one trial for, every such offence.
-( _2_ ) When a person charged with one or more offences of criminal breach of trust or
-dishonest misappropriation of property as provided in sub-section ( _2_ ) of section 235 or in
-sub-section ( _1_ ) of section 242, is accused of committing, for the purpose of facilitating or
-concealing the commission of that offence or those offences, one or more offences of
-falsification of accounts, he may be charged with, and tried at one trial for, every such
-offence.
-( _3_ ) If the acts alleged constitute an offence falling within two or more separate definitions
-of any law in force for the time being by which offences are defined or punished, the person
-accused of them may be charged with, and tried at one trial for, each of such offences.
-( _4_ ) If several acts, of which one or more than one would by itself or themselves
-constitute an offence, constitute when combined a different offence, the person accused of
-them may be charged with, and tried at one trial for the offence constituted by such acts
-when combined, and for any offence constituted by any one, or more, of such acts.
-( _5_ ) Nothing contained in this section shall affect section 12 of the Bharatiya Nyaya
-Sanhita, 2023.
+A is accused of a theft on one occasion, and of causing grievous hurt on another occasion. A must be separately charged and separately tried for the theft and causing grievous hurt.
+
+242.    1. ( _1_ ) When a person is accused of more offences than one of the same kind committed within the space of twelve months from the first to the last of such offences, whether in respect of the same person or not, he may be charged with, and tried at one trial for, any number of them not exceeding five.
+        2. ( _2_ ) Offences are of the same kind when they are punishable with the same amount of punishment under the same section of the Bharatiya Nyaya Sanhita, 2023 or of any special or local law:
+           _Provided_ that, for the purposes of this section, an offence punishable under section 301 of the Bharatiya Nyaya Sanhita, 2023 shall be deemed to be an offence of the same kind as an offence punishable under section 303 of the said Sanhita, and that an offence punishable under any section of the said Sanhita, or of any special or local law, shall be deemed to be an offence of the same kind as an attempt to commit such offence, when such an attempt is an offence.
+
+243.    1. ( _1_ ) If, in one series of acts so connected together as to form the same transaction, more offences than one are committed by the same person, he may be charged with, and tried at one trial for, every such offence.
+        2. ( _2_ ) When a person charged with one or more offences of criminal breach of trust or dishonest misappropriation of property as provided in sub-section ( _2_ ) of section 235 or in sub-section ( _1_ ) of section 242, is accused of committing, for the purpose of facilitating or concealing the commission of that offence or those offences, one or more offences of falsification of accounts, he may be charged with, and tried at one trial for, every such offence.
+        3. ( _3_ ) If the acts alleged constitute an offence falling within two or more separate definitions of any law in force for the time being by which offences are defined or punished, the person accused of them may be charged with, and tried at one trial for, each of such offences.
+        4. ( _4_ ) If several acts, of which one or more than one would by itself or themselves constitute an offence, constitute when combined a different offence, the person accused of them may be charged with, and tried at one trial for the offence constituted by such acts when combined, and for any offence constituted by any one, or more, of such acts.
+        5. ( _5_ ) Nothing contained in this section shall affect section 12 of the Bharatiya Nyaya Sanhita, 2023.
+
 _Illustrations to sub-section_ ( _1_ )
-( _a_ ) A rescues B, a person in lawful custody, and in so doing causes grievous hurt to
-C, a constable in whose custody B was. A may be charged with, and convicted of, offences
-under sections 261 and 119 of the Bharatiya Nyaya Sanhita, 2023.
-( _b_ ) A commits house-breaking by day with intent to commit adultery, and commits, in
-the house so entered, adultery with B's wife. A may be separately charged with, and convicted
-of, offences under section 330 of the Bharatiya Nyaya Sanhita, 2023.
 
-```
+- ( _a_ ) A rescues B, a person in lawful custody, and in so doing causes grievous hurt to C, a constable in whose custody B was. A may be charged with, and convicted of, offences under sections 261 and 119 of the Bharatiya Nyaya Sanhita, 2023.
+- ( _b_ ) A commits house-breaking by day with intent to commit adultery, and commits, in the house so entered, adultery with B's wife. A may be separately charged with, and convicted of, offences under section 330 of the Bharatiya Nyaya Sanhita, 2023.
+- ( _c_ ) A entices B, the wife of C, away from C, with intent to commit adultery with B, and then commits adultery with her. A may be separately charged with, and convicted of, offences under section 83 of the Bharatiya Nyaya Sanhita, 2023.
+- ( _d_ ) A has in his possession several seals, knowing them to be counterfeit and intending to use them for the purpose of committing several forgeries punishable under section 335 of the Bharatiya Nyaya Sanhita, 2023. A may be separately charged with, and convicted of, the possession of each seal under section 339 of the Bharatiya Nyaya Sanhita.
+- ( _e_ ) With intent to cause injury to B, A institutes a criminal proceeding against him, knowing that there is no just or lawful ground for such proceeding, and also falsely accuses B of having committed an offence, knowing that there is no just or lawful ground for such charge. A may be separately charged with, and convicted of, two offences under section 246 of the Bharatiya Nyaya Sanhita, 2023.
+- ( _f_ ) A, with intent to cause injury to B, falsely accuses him of having committed an offence, knowing that there is no just or lawful ground for such charge. On the trial, A gives false evidence against B, intending thereby to cause B to be convicted of a capital offence. A may be separately charged with, and convicted of, offences under sections 246 and 228 of the Bharatiya Nyaya Sanhita, 2023.
+- ( _g_ ) A, with six others, commits the offences of rioting, grievous hurt and assaulting a public servant endeavouring in the discharge of his duty as such to suppress the riot. A may be separately charged with, and convicted of, offences under sections 189, 115 and 193 of the Bharatiya Nyaya Sanhita, 2023.
+- ( _h_ ) A threatens B, C and D at the same time with injury to their persons with intent to cause alarm to them. A may be separately charged with, and convicted of, each of the three offences under section 309 of the Bharatiya Nyaya Sanhita, 2023.
 
-Separate
-charges for
-distinct
-offences.
+The separate charges referred to in illustrations ( _a_ ) to ( _h_ ), respectively, may be tried at the same time.
 
-```
+_Illustrations to sub-section_ ( _3_ )
 
-```
+- ( _i_ ) A wrongfully strikes B with a cane. A may be separately charged with, and convicted of, offences under sections 129 and 113 of the Bharatiya Nyaya Sanhita, 2023.
+- ( _j_ ) Several stolen sacks of corn are made over to A and B, who knew they are stolen property, for the purpose of concealing them. A and B thereupon voluntarily assist each other to conceal the sacks at the bottom of a grain-pit. A and B may be separately charged with, and convicted of, offences under section 315 of the Bharatiya Nyaya Sanhita, 2023.
+- ( _k_ ) A exposes her child with the knowledge that she is thereby likely to cause its death. The child dies in consequence of such exposure. A may be separately charged with, and convicted of, offences under sections 91 and 103 of the Bharatiya Nyaya Sanhita, 2023.
+- ( _l_ ) A dishonestly uses a forged document as genuine evidence, in order to convict B, a public servant, of an offence under section 199 of the Bharatiya Nyaya Sanhita, 2023. A may be separately charged with, and convicted of, offences under sections 338 (read with section 466) and 196 of that Sanhita.
 
-Offences of
-same kind
-within year
-may be
-charged
-together.
+_Illustration to sub-section_ ( _4_ )
 
-```
+- ( _m_ ) A commits robbery on B, and in doing so voluntarily causes hurt to him. A may be separately charged with, and convicted of, offences under sections 323, 392 and 394 of the Bharatiya Nyaya Sanhita, 2023.
 
-```
+244.    1. ( _1_ ) If a single act or series of acts is of such a nature that it is doubtful which of several offences the facts which can be proved will constitute, the accused may be charged with having committed all or any of such offences, and any number of such charges may be tried at once; or he may be charged in the alternative with having committed some one of the said offences.
+        2. ( _2_ ) If in such a case the accused is charged with one offence, and it appears in evidence that he committed a different offence for which he might have been charged under the provisions of sub-section ( 1 ), he may be convicted of the offence which he is shown to have committed, although he was not charged with it.
 
-Trial for more
-than one
-offence.
-
-```
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-20
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-40
-
-45
-
-50
-
-```
-
-( c ) A entices B, the wife of C, away from C, with intent to commit adultery with B, and
-then commits adultery with her. A may be separately charged with, and convicted of, offences
-under section 83 of the Bharatiya Nyaya Sanhita, 2023.
-( d ) A has in his possession several seals, knowing them to be counterfeit and intending
-to use them for the purpose of committing several forgeries punishable under section 335 of
-the Bharatiya Nyaya Sanhita, 2023. A may be separately charged with, and convicted of, the
-possession of each seal under section 339 of the Bharatiya Nyaya Sanhita.
-( e ) With intent to cause injury to B, A institutes a criminal proceeding against him,
-knowing that there is no just or lawful ground for such proceeding, and also falsely accuses
-B of having committed an offence, knowing that there is no just or lawful ground for such
-charge. A may be separately charged with, and convicted of, two offences under section
-246 of the Bharatiya Nyaya Sanhita, 2023.
-( f ) A, with intent to cause injury to B, falsely accuses him of having committed an
-offence, knowing that there is no just or lawful ground for such charge. On the trial, A gives
-false evidence against B, intending thereby to cause B to be convicted of a capital offence.
-A may be separately charged with, and convicted of, offences under sections 246 and 228
-of the Bharatiya Nyaya Sanhita, 2023.
-( g ) A, with six others, commits the offences of rioting, grievous hurt and assaulting a
-public servant endeavouring in the discharge of his duty as such to suppress the riot. A
-may be separately charged with, and convicted of, offences under sections 189, 115 and 193
-of the Bharatiya Nyaya Sanhita, 2023.
-( h ) A threatens B, C and D at the same time with injury to their persons with intent to
-cause alarm to them. A may be separately charged with, and convicted of, each of the three
-offences under section 309 of the Bharatiya Nyaya Sanhita, 2023.
-The separate charges referred to in illustrations ( a ) to ( h ), respectively, may be tried
-at the same time.
-Illustrations to sub-section ( 3 )
-( i ) A wrongfully strikes B with a cane. A may be separately charged with, and convicted
-of, offences under sections 129 and 113 of the Bharatiya Nyaya Sanhita, 2023.
-( j ) Several stolen sacks of corn are made over to A and B, who knew they are stolen
-property, for the purpose of concealing them. A and B thereupon voluntarily assist each
-other to conceal the sacks at the bottom of a grain-pit. A and B may be separately charged
-with, and convicted of, offences under section 315 of the Bharatiya Nyaya Sanhita, 2023.
-( k ) A exposes her child with the knowledge that she is thereby likely to cause its
-death. The child dies in consequence of such exposure. A may be separately charged with,
-and convicted of, offences under sections 91 and 103 of the Bharatiya Nyaya Sanhita, 2023.
-( l ) A dishonestly uses a forged document as genuine evidence, in order to convict B,
-a public servant, of an offence under section 199 of the Bharatiya Nyaya Sanhita, 2023. A
-may be separately charged with, and convicted of, offences under sections 338 (read with
-section 466) and 196 of that Sanhita.
-Illustration to sub-section ( 4 )
-( m ) A commits robbery on B, and in doing so voluntarily causes hurt to him. A may be
-separately charged with, and convicted of, offences under sections 323, 392 and 394 of the
-Bharatiya Nyaya Sanhita, 2023.
-
-```
-
-**244.** ( _1_ ) If a single act or series of acts is of such a nature that it is doubtful which of
-several offences the facts which can be proved will constitute, the accused may be charged
-with having committed all or any of such offences, and any number of such charges may be
-tried at once; or he may be charged in the alternative with having committed some one of the
-said offences.
-
-Where it is
-doubtful what
-offence has
-been
-committed.
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-```
-
-20
-
-```
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-```
-
-40
-
-```
-
-```
-
-45
-
-```
-
-```
-
-( 2 ) If in such a case the accused is charged with one offence, and it appears in
-evidence that he committed a different offence for which he might have been charged under
-the provisions of sub-section ( 1 ), he may be convicted of the offence which he is shown to
-have committed, although he was not charged with it.
-Illustrations.
-( a ) A is accused of an act which may amount to theft, or receiving stolen property, or
-criminal breach of trust or cheating. He may be charged with theft, receiving stolen property,
-criminal breach of trust and cheating, or he may be charged with having committed theft, or
-receiving stolen property, or criminal breach of trust or cheating.
-( b ) In the case mentioned, A is only charged with theft. It appears that he committed
-the offence of criminal breach of trust, or that of receiving stolen goods. He may be convicted
-of criminal breach of trust or of receiving stolen goods (as the case may be), though he was
-not charged with such offence.
-( c ) A states on oath before the Magistrate that he saw B hit C with a club. Before the
-Sessions Court A states on oath that B never hit C. A may be charged in the alternative and
-convicted of intentionally giving false evidence, although it cannot be proved which of
-these contradictory statements was false.
-
-```
-
-**245.** ( _1_ ) When a person is charged with an offence consisting of several particulars,
-a combination of some only of which constitutes a complete minor offence, and such
-combination is proved, but the remaining particulars are not proved, he may be convicted of
-the minor offence, though he was not charged with it.
-( _2_ ) When a person is charged with an offence and facts are proved which reduce it
-to a minor offence, he may be convicted of the minor offence, although he is not charged
-with it.
-( _3_ ) When a person is charged with an offence, he may be convicted of an attempt to
-commit such offence although the attempt is not separately charged.
-( _4_ ) Nothing in this section shall be deemed to authorise a conviction of any minor
-offence where the conditions requisite for the initiation of proceedings in respect of that
-minor offence have not been satisfied.
 _Illustrations._
-( _a_ ) A is charged, under section 314 of the Bharatiya Nyaya Sanhita, 2023, with criminal
-breach of trust in respect of property entrusted to him as a carrier. It appears, that he did
-commit criminal breach of trust under section 314 of that Sanhita in respect of the property,
-but that it was not entrusted to him as a carrier. He may be convicted of criminal breach of
-trust under the said section 314.
-( _b_ ) A is charged, under section 115 of the Bharatiya Nyaya Sanhita, 2023, with causing
-grievous hurt. He proves that he acted on grave and sudden provocation. He may be
-convicted under section 120 of that Sanhita.
-**246.** The following persons may be charged and tried together, namely:—
-( _a_ ) persons accused of the same offence committed in the course of the same
-transaction;
-( _b_ ) persons accused of an offence and persons accused of abetment of, or
-attempt to commit, such offence;
-( _c_ ) persons accused of more than one offence of the same kind, within the
-meaning of section 242 committed by them jointly within the period of twelve months;
-( _d_ ) persons accused of different offences committed in the course of the same
-transaction;
-( _e_ ) persons accused of an offence which includes theft, extortion, cheating, or
-criminal misappropriation, and persons accused of receiving or retaining, or assisting
-in the disposal or concealment of, property possession of which is alleged to have
 
-```
+- ( _a_ ) A is accused of an act which may amount to theft, or receiving stolen property, or criminal breach of trust or cheating. He may be charged with theft, receiving stolen property, criminal breach of trust and cheating, or he may be charged with having committed theft, or receiving stolen property, or criminal breach of trust or cheating.
+- ( _b_ ) In the case mentioned, A is only charged with theft. It appears that he committed the offence of criminal breach of trust, or that of receiving stolen goods. He may be convicted of criminal breach of trust or of receiving stolen goods (as the case may be), though he was not charged with such offence.
+- ( _c_ ) A states on oath before the Magistrate that he saw B hit C with a club. Before the Sessions Court A states on oath that B never hit C. A may be charged in the alternative and convicted of intentionally giving false evidence, although it cannot be proved which of these contradictory statements was false.
 
-When offence
-proved
-included in
-offence
-charged.
+245.    1. ( _1_ ) When a person is charged with an offence consisting of several particulars, a combination of some only of which constitutes a complete minor offence, and such combination is proved, but the remaining particulars are not proved, he may be convicted of the minor offence, though he was not charged with it.
+        2. ( _2_ ) When a person is charged with an offence and facts are proved which reduce it to a minor offence, he may be convicted of the minor offence, although he is not charged with it.
+        3. ( _3_ ) When a person is charged with an offence, he may be convicted of an attempt to commit such offence although the attempt is not separately charged.
+        4. ( _4_ ) Nothing in this section shall be deemed to authorise a conviction of any minor offence where the conditions requisite for the initiation of proceedings in respect of that minor offence have not been satisfied.
 
-```
+_Illustrations._
 
-```
+- ( _a_ ) A is charged, under section 314 of the Bharatiya Nyaya Sanhita, 2023, with criminal breach of trust in respect of property entrusted to him as a carrier. It appears, that he did commit criminal breach of trust under section 314 of that Sanhita in respect of the property, but that it was not entrusted to him as a carrier. He may be convicted of criminal breach of trust under the said section 314.
+- ( _b_ ) A is charged, under section 115 of the Bharatiya Nyaya Sanhita, 2023, with causing grievous hurt. He proves that he acted on grave and sudden provocation. He may be convicted under section 120 of that Sanhita.
 
-What persons
-may be
-charged
-jointly.
+246.    The following persons may be charged and tried together, namely:—
+        - ( _a_ ) persons accused of the same offence committed in the course of the same transaction;
+        - ( _b_ ) persons accused of an offence and persons accused of abetment of, or attempt to commit, such offence;
+        - ( _c_ ) persons accused of more than one offence of the same kind, within the meaning of section 242 committed by them jointly within the period of twelve months;
+        - ( _d_ ) persons accused of different offences committed in the course of the same transaction;
+        - ( _e_ ) persons accused of an offence which includes theft, extortion, cheating, or criminal misappropriation, and persons accused of receiving or retaining, or assisting in the disposal or concealment of, property possession of which is alleged to have been transferred by any such offence committed by the first-named persons, or of abetment of or attempting to commit any such last-named offence;
+        - ( _f_ ) persons accused of offences under section 315 of the Bharatiya Nyaya Sanhita, 2023 or either of those sections in respect of stolen property the possession of which has been transferred by one offence;
+        - ( _g_ ) persons accused of any offence under Chapter XII of the Bharatiya Nyaya Sanhita, 2023 relating to counterfeit coin and persons accused of any other offence under the said Chapter relating to the same coin, or of abetment of or attempting to commit any such offence; and the provisions contained in the former part of this Chapter shall, so far as may be, apply to all such charges:
+          _Provided_ that where a number of persons are charged with separate offences and such persons do not fall within any of the categories specified in this section, the Magistrate or Court of Session may, if such persons by an application in writing, so desire, and if he or it is satisfied that such persons would not be prejudicially affected thereby, and it is expedient so to do, try all such persons together.
 
-```
+247.    When a charge containing more heads than one is framed against the same person, and when a conviction has been had on one or more of them, the complainant, or the officer conducting the prosecution, may, with the consent of the Court, withdraw the remaining charge or charges, or the Court of its own accord may stay the inquiry into, or trial of, such charge or charges and such withdrawal shall have the effect of an acquittal on such charge or charges, unless the conviction be set aside, in which case the said Court (subject to the order of the Court setting aside the conviction) may proceed with the inquiry into, or trial of, the charge or charges so withdrawn.
 
-```
+# CHAPTER XIX TRIAL BEFORE A COURT OF SESSION
 
-5
+248. In every trial before a Court of Session, the prosecution shall be conducted by a Public Prosecutor.
 
-```
+249. When the accused appears or is brought before the Court, in pursuance of a commitment of the case under section 232, or under any other law for the time being in force, the prosecutor shall open his case by describing the charge brought against the accused and stating by what evidence he proposes to prove the guilt of the accused.
 
-```
+250. 1. ( _1_ ) The accused may prefer an application for discharge within a period of sixty days from the date of committal under section 232.
+     2. ( _2_ ) If, upon consideration of the record of the case and the documents submitted therewith, and after hearing the submissions of the accused and the prosecution in this behalf, the Judge considers that there is not sufficient ground for proceeding against the accused, he shall discharge the accused and record his reasons for so doing.
 
-10
+251. 1. ( _1_ ) If, after such consideration and hearing as aforesaid, the Judge is of opinion that there is ground for presuming that the accused has committed an offence which—
+         - ( _a_ ) is not exclusively triable by the Court of Session, he may, frame a charge against the accused and, by order, transfer the case for trial to the Chief Judicial Magistrate, or any other Judicial Magistrate of the first class and direct the accused to appear before the Chief Judicial Magistrate, or the Judicial Magistrate of the first class, on such date as he deems fit, and thereupon such Magistrate shall try the offence in accordance with the procedure for the trial of warrant-cases instituted on a police report;
+         - ( _b_ ) is exclusively triable by the Court, he shall frame in writing a charge against the accused within a period of sixty days from the date of first hearing on charge.
+     2. ( _2_ ) Where the Judge frames any charge under clause ( _b_ ) of sub-section ( _1_ ), the charge shall be read and explained to the accused present either physically or through electronic means and the accused shall be asked whether he pleads guilty of the offence charged or claims to be tried.
 
-```
+252. If the accused pleads guilty, the Judge shall record the plea and may, in his discretion, convict him thereon.
 
-```
+253. If the accused refuses to plead, or does not plead, or claims to be tried or is not convicted under section 252, the Judge shall fix a date for the examination of witnesses, and may, on the application of the prosecution, issue any process for compelling the attendance of any witness or the production of any document or other thing.
 
-15
+254. 1. ( _1_ ) On the date so fixed, the Judge shall proceed to take all such evidence as may be produced in support of the prosecution:
+        _Provided_ that evidence of a witness under this sub-section may be recorded by audio-video electronic means.
+     2. ( _2_ ) The deposition of evidence of any police officer or public servant may be taken through audio-video electronic means.
+     3. ( _3_ ) The Judge may, in his discretion, permit the cross-examination of any witness to be deferred until any other witness or witnesses have been examined or recall any witness for further cross-examination.
 
-```
+255. If, after taking the evidence for the prosecution, examining the accused and hearing the prosecution and the defence on the point, the Judge considers that there is no evidence that the accused committed the offence, the Judge shall record an order of acquittal.
 
-20
+256. 1. ( _1_ ) Where the accused is not acquitted under section 255, he shall be called upon to enter on his defence and adduce any evidence he may have in support thereof.
+     2. ( _2_ ) If the accused puts in any written statement, the Judge shall file it with the record.
+     3. ( _3_ ) If the accused applies for the issue of any process for compelling the attendance of any witness or the production of any document or thing, the Judge shall issue such process unless he considers, for reasons to be recorded, that such application should be refused on the ground that it is made for the purpose of vexation or delay or for defeating the ends of justice.
 
-```
+257. When the examination of the witnesses (if any) for the defence is complete, the prosecutor shall sum up his case and the accused or his pleader shall be entitled to reply:
+     _Provided_ that where any point of law is raised by the accused or his pleader, the prosecution may, with the permission of the Judge, make his submissions with regard to such point of law.
 
-25
+258. 1. ( _1_ ) After hearing arguments and points of law (if any), the Judge shall give a judgment in the case, as soon as possible, within a period of thirty days from the date of completion of arguments, which may for specific reasons extend to a period of sixty days.
+     2. ( _2_ ) If the accused is convicted, the Judge shall, unless he proceeds in accordance with the provisions of section 401, hear the accused on the questions of sentence, and then pass sentence on him according to law.
 
-```
+259. In a case where a previous conviction is charged under the provisions of sub-section ( _7_ ) of section 234, and the accused does not admit that he has been previously convicted as alleged in the charge, the Judge may, after he has convicted the said accused under section 252 or section 258, take evidence in respect of the alleged previous conviction, and shall record a finding thereon:
+     _Provided_ that no such charge shall be read out by the Judge nor shall the accused be asked to plead thereto nor shall the previous conviction be referred to by the prosecution or in any evidence adduced by it, unless and until the accused has been convicted under section 252 or section 258.
 
-```
+260. 1. ( _1_ ) A Court of Session taking cognizance of an offence under sub-section ( _1_ ) of section 222 shall try the case in accordance with the procedure for the trial of warrant-cases instituted otherwise than on a police report before a Court of Magistrate:
+        _Provided_ that the person against whom the offence is alleged to have been committed shall, unless the Court of Session, for reasons to be recorded, otherwise directs, be examined as a witness for the prosecution.
+     2. ( _2_ ) Every trial under this section shall be held _in camera_ if either party thereto so desires or if the Court thinks fit so to do.
+     3. ( _3_ ) If, in any such case, the Court discharges or acquits all or any of the accused and is of opinion that there was no reasonable cause for making the accusation against them or any of them, it may, by its order of discharge or acquittal, direct the person against whom the offence was alleged to have been committed (other than the President, Vice-President or the Governor of a State or the Administrator of a Union territory) to show cause why he should not pay compensation to such accused or to each or any of such accused, when there are more than one.
+     4. ( _4_ ) The Court shall record and consider any cause which may be shown by the person so directed, and if it is satisfied that there was no reasonable cause for making the accusation, it may, for reasons to be recorded, make an order that compensation to such amount not exceeding five thousand rupees, as it may determine, be paid by such person to the accused or to each or any of them.
+     5. ( _5_ ) Compensation awarded under sub-section ( _4_ ) shall be recovered as if it were a fine imposed by a Magistrate.
+     6. ( _6_ ) No person who has been directed to pay compensation under sub-section ( _4_ ) shall, by reason of such order, be exempted from any civil or criminal liability in respect of the complaint made under this section:
+        _Provided_ that any amount paid to an accused person under this section shall be taken into account in awarding compensation to such person in any subsequent civil suit relating to the same matter.
+     7. ( _7_ ) The person who has been ordered under sub-section ( _4_ ) to pay compensation may appeal from the order, in so far as it relates to the payment of compensation, to the High Court.
+     8. ( _8_ ) When an order for payment of compensation to an accused person is made, the compensation shall not be paid to him before the period allowed for the presentation of the appeal has elapsed, or, if an appeal is presented, before the appeal has been decided.
 
-30
+# CHAPTER XX TRIAL OF WARRANT - CASES BY MAGISTRATES
 
-```
+A.— _Cases instituted on a police report_ 261. When, in any warrant-case instituted on a police report, the accused appears or is brought before a Judicial Magistrate at the commencement of the trial, the Judicial Magistrate shall satisfy himself that he has complied with the provisions of section 230.
 
-```
+261.    1. ( _1_ ) The accused may prefer an application for discharge within a period of sixty days from the date of framing of charges.
+        2. ( _2_ ) If, upon considering the police report and the documents sent with it under section 293 and making such examination, if any, of the accused as the Magistrate thinks necessary and after giving the prosecution and the accused an opportunity of being heard, the Magistrate considers the charge against the accused to be groundless, he shall discharge the accused, and record his reasons for so doing.
 
-35
+262.    1. ( _1_ ) If, upon such consideration, examination, if any, and hearing, the Magistrate is of opinion that there is ground for presuming that the accused has committed an offence triable under this Chapter, which such Magistrate is competent to try and which, in his opinion, could be adequately punished by him, he shall frame in writing a charge against the accused within a period of sixty days from the date of first hearing on charge.
+        2. ( _2_ ) The charge shall then be read and explained to the accused, and he shall be asked whether he pleads guilty of the offence charged or claims to be tried.
 
-```
+263.    If the accused pleads guilty, the Magistrate shall record the plea and may, in his discretion, convict him thereon.
 
-40
+264.    1. ( _1_ ) If the accused refuses to plead or does not plead, or claims to be tried or the Magistrate does not convict the accused under section 264, the Magistrate shall fix a date for the examination of witnesses:
+           _Provided_ that the Magistrate shall supply in advance to the accused, the statement of witnesses recorded during investigation by the police.
+        2. ( _2_ ) The Magistrate may, on the application of the prosecution, issue a summons to any of its witnesses directing him to attend or to produce any document or other thing.
+        3. ( _3_ ) On the date so fixed, the Magistrate shall proceed to take all such evidence as may be produced in support of the prosecution:
+           _Provided_ that the Magistrate may permit the cross-examination of any witness to be deferred until any other witness or witnesses have been examined or recall any witness for further cross-examination:
+           _Provided further_ that evidence of a witness under this sub-section may be recorded by audio-video electronic means.
 
-45
+265.    1. ( _1_ ) The accused shall then be called upon to enter upon his defence and produce his evidence; and if the accused puts in any written statement, the Magistrate shall file it with the record.
+        2. ( _2_ ) If the accused, after he has entered upon his defence, applies to the Magistrate to issue any process for compelling the attendance of any witness for the purpose of examination or cross-examination, or the production of any document or other thing, the Magistrate shall issue such process unless he considers that such application should be refused on the ground that it is made for the purpose of vexation or delay or for defeating the ends of justice and such ground shall be recorded by him in writing:
+           _Provided_ that when the accused has cross-examined or had the opportunity of cross-examining any witness before entering on his defence, the attendance of such witness shall not be compelled under this section, unless the Magistrate is satisfied that it is necessary for the ends of justice.
+        3. ( _3_ ) The Magistrate may, before summoning any witness on an application under sub-section ( _2_ ), require that the reasonable expenses incurred by the witness in attending for the purposes of the trial be deposited in Court.
 
-50
-
-```
-
-been transferred by any such offence committed by the first-named persons, or of
-abetment of or attempting to commit any such last-named offence;
-( f ) persons accused of offences under section 315 of the Bharatiya Nyaya
-Sanhita, 2023 or either of those sections in respect of stolen property the possession
-of which has been transferred by one offence;
-( g ) persons accused of any offence under Chapter XII of the Bharatiya Nyaya
-Sanhita, 2023 relating to counterfeit coin and persons accused of any other offence
-under the said Chapter relating to the same coin, or of abetment of or attempting to
-commit any such offence; and the provisions contained in the former part of this
-Chapter shall, so far as may be, apply to all such charges:
-Provided that where a number of persons are charged with separate offences and
-such persons do not fall within any of the categories specified in this section, the Magistrate
-or Court of Session may, if such persons by an application in writing, so desire, and if he or
-it is satisfied that such persons would not be prejudicially affected thereby, and it is expedient
-so to do, try all such persons together.
-
-```
-
-**247.** When a charge containing more heads than one is framed against the same
-person, and when a conviction has been had on one or more of them, the complainant, or
-the officer conducting the prosecution, may, with the consent of the Court, withdraw the
-remaining charge or charges, or the Court of its own accord may stay the inquiry into, or trial
-of, such charge or charges and such withdrawal shall have the effect of an acquittal on such
-charge or charges, unless the conviction be set aside, in which case the said Court (subject
-to the order of the Court setting aside the conviction) may proceed with the inquiry into, or
-trial of, the charge or charges so withdrawn.
-CHAPTER XX
-TRIAL BEFORE A COURT OF SESSION
-**248.** In every trial before a Court of Session, the prosecution shall be conducted by a
-Public Prosecutor.
-**249.** When the accused appears or is brought before the Court, in pursuance of a
-commitment of the case under section 232, or under any other law for the time being in force,
-the prosecutor shall open his case by describing the charge brought against the accused
-and stating by what evidence he proposes to prove the guilt of the accused.
-**250.** ( _1_ ) The accused may prefer an application for discharge within a period of
-sixty days from the date of committal under section 232.
-( _2_ ) If, upon consideration of the record of the case and the documents submitted
-therewith, and after hearing the submissions of the accused and the prosecution in this
-behalf, the Judge considers that there is not sufficient ground for proceeding against the
-accused, he shall discharge the accused and record his reasons for so doing.
-**251.** ( _1_ ) If, after such consideration and hearing as aforesaid, the Judge is of opinion
-that there is ground for presuming that the accused has committed an offence which—
-( _a_ ) is not exclusively triable by the Court of Session, he may, frame a charge
-against the accused and, by order, transfer the case for trial to the Chief Judicial
-Magistrate, or any other Judicial Magistrate of the first class and direct the accused
-to appear before the Chief Judicial Magistrate, or the Judicial Magistrate of the first
-class, on such date as he deems fit, and thereupon such Magistrate shall try the
-offence in accordance with the procedure for the trial of warrant-cases instituted on a
-police report;
-( _b_ ) is exclusively triable by the Court, he shall frame in writing a charge against
-the accused within a period of sixty days from the date of first hearing on charge.
-
-Withdrawal of
-remaining
-charges on
-conviction on
-one of several
-charges.
-
-Trial to be
-conducted by
-Public
-Prosecutor.
-Opening case
-for
-prosecution.
-
-Discharge.
-
-Framing of
-charge.
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-```
-
-20
-
-```
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-```
-
-40
-
-```
-
-```
-
-45
-
-```
-
-```
-
-( 2 ) Where the Judge frames any charge under clause ( b ) of sub-section ( 1 ), the
-charge shall be read and explained to the accused present either physically or through
-electronic means and the accused shall be asked whether he pleads guilty of the offence
-charged or claims to be tried.
-
-```
-
-**252.** If the accused pleads guilty, the Judge shall record the plea and may, in his
-discretion, convict him thereon.
-**253.** If the accused refuses to plead, or does not plead, or claims to be tried or is not
-convicted under section 252, the Judge shall fix a date for the examination of witnesses, and
-may, on the application of the prosecution, issue any process for compelling the attendance
-of any witness or the production of any document or other thing.
-**254.** ( _1_ ) On the date so fixed, the Judge shall proceed to take all such evidence as may
-be produced in support of the prosecution:
-
-```
-
-Provided that evidence of a witness under this sub-section may be recorded by
-audio-video electronic means.
-
-```
-
-```
-
-( 2 ) The deposition of evidence of any police officer or public servant may be taken
-through audio-video electronic means.
-
-```
-
-```
-
-( 3 ) The Judge may, in his discretion, permit the cross-examination of any witness to
-be deferred until any other witness or witnesses have been examined or recall any witness
-for further cross-examination.
-
-```
-
-**255.** If, after taking the evidence for the prosecution, examining the accused and
-hearing the prosecution and the defence on the point, the Judge considers that there is no
-evidence that the accused committed the offence, the Judge shall record an order of acquittal.
-**256.** ( _1_ ) Where the accused is not acquitted under section 255, he shall be called
-upon to enter on his defence and adduce any evidence he may have in support thereof.
-
-```
-
-( 2 ) If the accused puts in any written statement, the Judge shall file it with the record.
-
-```
-
-```
-
-( 3 ) If the accused applies for the issue of any process for compelling the attendance
-of any witness or the production of any document or thing, the Judge shall issue such
-process unless he considers, for reasons to be recorded, that such application should be
-refused on the ground that it is made for the purpose of vexation or delay or for defeating
-the ends of justice.
-
-```
-
-**257.** When the examination of the witnesses (if any) for the defence is complete, the
-prosecutor shall sum up his case and the accused or his pleader shall be entitled to reply:
-
-```
-
-Provided that where any point of law is raised by the accused or his pleader, the
-prosecution may, with the permission of the Judge, make his submissions with regard to
-such point of law.
-
-```
-
-**258.** ( _1_ ) After hearing arguments and points of law (if any), the Judge shall give a
-judgment in the case, as soon as possible, within a period of thirty days from the date of
-completion of arguments, which may for specific reasons extend to a period of sixty days.
-
-```
-
-( 2 ) If the accused is convicted, the Judge shall, unless he proceeds in accordance
-with the provisions of section 401, hear the accused on the questions of sentence, and then
-pass sentence on him according to law.
-
-```
-
-**259.** In a case where a previous conviction is charged under the provisions of
-sub-section ( _7_ ) of section 234, and the accused does not admit that he has been previously
-convicted as alleged in the charge, the Judge may, after he has convicted the said accused
-under section 252 or section 258, take evidence in respect of the alleged previous conviction,
-and shall record a finding thereon:
-
-```
-
-Conviction on
-plea of guilty.
-
-```
-
-```
-
-Date for
-prosecution
-evidence.
-
-```
-
-```
-
-Evidence for
-prosecution.
-
-```
-
-```
-
-Acquittal.
-
-```
-
-```
-
-Entering upon
-defence.
-
-```
-
-```
-
-Arguments.
-
-```
-
-```
-
-Judgment of
-acquittal or
-conviction.
-
-```
-
-```
-
-Previous
-conviction.
-
-```
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-20
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-40
-
-45
-
-```
-
-Provided that no such charge shall be read out by the Judge nor shall the accused be
-asked to plead thereto nor shall the previous conviction be referred to by the prosecution
-or in any evidence adduced by it, unless and until the accused has been convicted under
-section 252 or section 258.
-
-```
-
-**260.** ( _1_ ) A Court of Session taking cognizance of an offence under sub-section ( _1_ ) of
-section 222 shall try the case in accordance with the procedure for the trial of warrant-cases
-instituted otherwise than on a police report before a Court of Magistrate:
-Provided that the person against whom the offence is alleged to have been committed
-shall, unless the Court of Session, for reasons to be recorded, otherwise directs, be examined
-as a witness for the prosecution.
-( _2_ ) Every trial under this section shall be held _in camera_ if either party thereto so
-desires or if the Court thinks fit so to do.
-( _3_ ) If, in any such case, the Court discharges or acquits all or any of the accused and
-is of opinion that there was no reasonable cause for making the accusation against them or
-any of them, it may, by its order of discharge or acquittal, direct the person against whom
-the offence was alleged to have been committed (other than the President, Vice-President or
-the Governor of a State or the Administrator of a Union territory) to show cause why he
-should not pay compensation to such accused or to each or any of such accused, when
-there are more than one.
-( _4_ ) The Court shall record and consider any cause which may be shown by the person
-so directed, and if it is satisfied that there was no reasonable cause for making the accusation,
-it may, for reasons to be recorded, make an order that compensation to such amount not
-exceeding five thousand rupees, as it may determine, be paid by such person to the accused
-or to each or any of them.
-( _5_ ) Compensation awarded under sub-section ( _4_ ) shall be recovered as if it were a fine
-imposed by a Magistrate.
-( _6_ ) No person who has been directed to pay compensation under sub-section ( _4_ )
-shall, by reason of such order, be exempted from any civil or criminal liability in respect of
-the complaint made under this section:
-Provided that any amount paid to an accused person under this section shall be taken
-into account in awarding compensation to such person in any subsequent civil suit relating
-to the same matter.
-( _7_ ) The person who has been ordered under sub-section ( _4_ ) to pay compensation
-may appeal from the order, in so far as it relates to the payment of compensation, to the High
-Court.
-( _8_ ) When an order for payment of compensation to an accused person is made, the
-compensation shall not be paid to him before the period allowed for the presentation of the
-appeal has elapsed, or, if an appeal is presented, before the appeal has been decided.
-CHAPTER XXI
-TRIAL OF WARRANT-CASES BY MAGISTRATES
-A.— _Cases instituted on a police report_
-**261.** When, in any warrant-case instituted on a police report, the accused appears or
-is brought before a Judicial Magistrate at the commencement of the trial, the Judicial
-Magistrate shall satisfy himself that he has complied with the provisions of section 230.
-**262.** ( _1_ ) The accused may prefer an application for discharge within a period of sixty
-days from the date of framing of charges.
-( _2_ ) If, upon considering the police report and the documents sent with it under
-section 293 and making such examination, if any, of the accused as the Magistrate thinks
-
-Compliance
-with section 231.
-
-When accused
-shall be
-discharged.
-
-```
-
-5
-
-```
-
-```
-
-10
-
-```
-
-```
-
-15
-
-```
-
-```
-
-20
-
-```
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-```
-
-40
-
-```
-
-```
-
-45
-
-```
-
-Procedure in
-cases
-instituted
-under sub-
-section ( _1_ ) of
-Section 223.
-
-```
-
-necessary and after giving the prosecution and the accused an opportunity of being heard,
-the Magistrate considers the charge against the accused to be groundless, he shall discharge
-the accused, and record his reasons for so doing.
-
-```
-
-**263.** ( _1_ ) If, upon such consideration, examination, if any, and hearing, the Magistrate
-is of opinion that there is ground for presuming that the accused has committed an offence
-triable under this Chapter, which such Magistrate is competent to try and which, in his
-opinion, could be adequately punished by him, he shall frame in writing a charge against the
-accused within a period of sixty days from the date of first hearing on charge.
-( _2_ ) The charge shall then be read and explained to the accused, and he shall be asked
-whether he pleads guilty of the offence charged or claims to be tried.
-**264.** If the accused pleads guilty, the Magistrate shall record the plea and may, in his
-discretion, convict him thereon.
-**265.** ( _1_ ) If the accused refuses to plead or does not plead, or claims to be tried or the
-Magistrate does not convict the accused under section 264, the Magistrate shall fix a date
-for the examination of witnesses:
-Provided that the Magistrate shall supply in advance to the accused, the statement of
-witnesses recorded during investigation by the police.
-( _2_ ) The Magistrate may, on the application of the prosecution, issue a summons to
-any of its witnesses directing him to attend or to produce any document or other thing.
-( _3_ ) On the date so fixed, the Magistrate shall proceed to take all such evidence as may
-be produced in support of the prosecution:
-Provided that the Magistrate may permit the cross-examination of any witness to be
-deferred until any other witness or witnesses have been examined or recall any witness for
-further cross-examination:
-Provided further that evidence of a witness under this sub-section may be recorded
-by audio-video electronic means.
-**266.** ( _1_ ) The accused shall then be called upon to enter upon his defence and produce
-his evidence; and if the accused puts in any written statement, the Magistrate shall file it
-with the record.
-( _2_ ) If the accused, after he has entered upon his defence, applies to the Magistrate to
-issue any process for compelling the attendance of any witness for the purpose of examination
-or cross-examination, or the production of any document or other thing, the Magistrate
-shall issue such process unless he considers that such application should be refused on
-the ground that it is made for the purpose of vexation or delay or for defeating the ends of
-justice and such ground shall be recorded by him in writing:
-Provided that when the accused has cross-examined or had the opportunity of
-cross-examining any witness before entering on his defence, the attendance of such witness
-shall not be compelled under this section, unless the Magistrate is satisfied that it is
-necessary for the ends of justice.
-( _3_ ) The Magistrate may, before summoning any witness on an application under
-sub-section ( _2_ ), require that the reasonable expenses incurred by the witness in attending
-for the purposes of the trial be deposited in Court.
 B.— _Cases instituted otherwise than on police report_
-**267.** ( _1_ ) When, in any warrant-case instituted otherwise than on a police report, the
-accused appears or is brought before a Magistrate, the Magistrate shall proceed to hear the
-prosecution and take all such evidence as may be produced in support of the prosecution.
-( _2_ ) The Magistrate may, on the application of the prosecution, issue a summons to
-any of its witnesses directing him to attend or to produce any document or other thing.
 
-```
+267.    1. ( _1_ ) When, in any warrant-case instituted otherwise than on a police report, the accused appears or is brought before a Magistrate, the Magistrate shall proceed to hear the prosecution and take all such evidence as may be produced in support of the prosecution.
+        2. ( _2_ ) The Magistrate may, on the application of the prosecution, issue a summons to any of its witnesses directing him to attend or to produce any document or other thing.
 
-Framing of
-charge.
+268.    1. ( _1_ ) If, upon taking all the evidence referred to in section 267, the Magistrate considers, for reasons to be recorded, that no case against the accused has been made out which, if unrebutted, would warrant his conviction, the Magistrate shall discharge him.
+        2. ( _2_ ) Nothing in this section shall be deemed to prevent a Magistrate from discharging the accused at any previous stage of the case if, for reasons to be recorded by such Magistrate, he considers the charge to be groundless.
 
-```
+269.    1. ( _1_ ) If, when such evidence has been taken, or at any previous stage of the case, the Magistrate is of opinion that there is ground for presuming that the accused has committed an offence triable under this Chapter, which such Magistrate is competent to try and which, in his opinion, could be adequately punished by him, he shall frame in writing a charge against the accused.
+        2. ( _2_ ) The charge shall then be read and explained to the accused, and he shall be asked whether he pleads guilty or has any defence to make.
+        3. ( _3_ ) If the accused pleads guilty, the Magistrate shall record the plea, and may, in his discretion, convict him thereon.
+        4. ( _4_ ) If the accused refuses to plead, or does not plead or claims to be tried or if the accused is not convicted under sub-section ( _3_ ), he shall be required to state, at the commencement of the next hearing of the case, or, if the Magistrate for reasons to be recorded in writing so thinks fit, forthwith, whether he wishes to cross-examine any, and, if so, which, of the witnesses for the prosecution whose evidence has been taken.
+        5. ( _5_ ) If he says he does so wish, the witnesses named by him shall be recalled and, after cross-examination and re-examination (if any), they shall be discharged.
+        6. ( _6_ ) The evidence of any remaining witnesses for the prosecution shall next be taken, and after cross-examination and re-examination (if any), they shall also be discharged.
+        7. ( _7_ ) Where, despite giving opportunity to the prosecution and after taking all reasonable measures under this Sanhita, if the attendance of the prosecution witnesses under sub-sections ( _5_ ) and ( _6_ ) cannot be secured for cross examination, it shall be deemed that such witness has not been examined for not being available, and the Magistrate may close the prosecution evidence for reasons to be recorded in writing and proceed with the case on the basis of the materials on record.
 
-```
+270.    The accused shall then be called upon to enter upon his defence and produce his evidence; and the provisions of section 266 shall apply to the case.
 
-Conviction on
-plea of guilty.
-
-```
-
-```
-
-Evidence for
-prosecution.
-
-```
-
-```
-
-Evidence for
-defence.
-
-```
-
-```
-
-Evidence for
-prosecution.
-
-```
-
-```
-
-5
-
-```
-
-10
-
-15
-
-20
-
-25
-
-30
-
-35
-
-40
-
-45
-
-**268.** ( _1_ ) If, upon taking all the evidence referred to in section 267, the Magistrate
-considers, for reasons to be recorded, that no case against the accused has been made out
-which, if unrebutted, would warrant his conviction, the Magistrate shall discharge him.
-( _2_ ) Nothing in this section shall be deemed to prevent a Magistrate from discharging
-the accused at any previous stage of the case if, for reasons to be recorded by such
-Magistrate, he considers the charge to be groundless.
-**269.** ( _1_ ) If, when such evidence has been taken, or at any previous stage of the case,
-the Magistrate is of opinion that there is ground for presuming that the accused has
-committed an offence triable under this Chapter, which such Magistrate is competent to try
-and which, in his opinion, could be adequately punished by him, he shall frame in writing a
-charge against the accused.
-( _2_ ) The charge shall then be read and explained to the accused, and he shall be asked
-whether he pleads guilty or has any defence to make.
-( _3_ ) If the accused pleads guilty, the Magistrate shall record the plea, and may, in his
-discretion, convict him thereon.
-( _4_ ) If the accused refuses to plead, or does not plead or claims to be tried or if the
-accused is not convicted under sub-section ( _3_ ), he shall be required to state, at the
-commencement of the next hearing of the case, or, if the Magistrate for reasons to be
-recorded in writing so thinks fit, forthwith, whether he wishes to cross-examine any, and, if
-so, which, of the witnesses for the prosecution whose evidence has been taken.
-( _5_ ) If he says he does so wish, the witnesses named by him shall be recalled and, after
-cross-examination and re-examination (if any), they shall be discharged.
-( _6_ ) The evidence of any remaining witnesses for the prosecution shall next be taken,
-and after cross-examination and re-examination (if any), they shall also be discharged.
-( _7_ ) Where, despite giving opportunity to the prosecution and after taking all reasonable
-measures under this Sanhita, if the attendance of the prosecution witnesses under
-sub-sections ( _5_ ) and ( _6_ ) cannot be secured for cross examination, it shall be deemed that
-such witness has not been examined for not being available, and the Magistrate may close
-the prosecution evidence for reasons to be recorded in writing and proceed with the case
-on the basis of the materials on record.
-**270.** The accused shall then be called upon to enter upon his defence and produce
-his evidence; and the provisions of section 266 shall apply to the case.
 C.— _Conclusion of trial_
-**271.** ( _1_ ) If, in any case under this Chapter in which a charge has been framed, the
-Magistrate finds the accused not guilty, he shall record an order of acquittal.
-( _2_ ) Where, in any case under this Chapter, the Magistrate finds the accused guilty,
-but does not proceed in accordance with the provisions of section 364 or section 401, he
-shall, after hearing the accused on the question of sentence, pass sentence upon him
-according to law.
-( _3_ ) Where, in any case under this Chapter, a previous conviction is charged under the
-provisions of sub-section ( _7_ ) of section 234 and the accused does not admit that he has
-been previously convicted as alleged in the charge, the Magistrate may, after he has convicted
-the said accused, take evidence in respect of the alleged previous conviction, and shall
-record a finding thereon:
-Provided that no such charge shall be read out by the Magistrate nor shall the
-accused be asked to plead thereto nor shall the previous conviction be referred to by the
-prosecution or in any evidence adduced by it, unless and until the accused has been
-convicted under sub-section ( _2_ ).
 
-When accused
-shall be
-discharged.
+271.    1. ( _1_ ) If, in any case under this Chapter in which a charge has been framed, the Magistrate finds the accused not guilty, he shall record an order of acquittal.
+        2. ( _2_ ) Where, in any case under this Chapter, the Magistrate finds the accused guilty, but does not proceed in accordance with the provisions of section 364 or section 401, he shall, after hearing the accused on the question of sentence, pass sentence upon him according to law.
+        3. ( _3_ ) Where, in any case under this Chapter, a previous conviction is charged under the provisions of sub-section ( _7_ ) of section 234 and the accused does not admit that he has been previously convicted as alleged in the charge, the Magistrate may, after he has convicted the said accused, take evidence in respect of the alleged previous conviction, and shall record a finding thereon:
+           _Provided_ that no such charge shall be read out by the Magistrate nor shall the accused be asked to plead thereto nor shall the previous conviction be referred to by the prosecution or in any evidence adduced by it, unless and until the accused has been convicted under sub-section ( _2_ ).
 
-Procedure
-where accused
-is not
-discharged.
+272.    When the proceedings have been instituted upon complaint, and on any day fixed for the hearing of the case, the complainant is absent, and the offence may be lawfully compounded or is not a cognizable offence, the Magistrate may after giving thirty days' time to the complainant to be present, in his discretion, notwithstanding anything hereinbefore contained, at any time before the charge has been framed, discharge the accused.
 
-Evidence for
-defence.
+273.    1. ( _1_ ) If, in any case instituted upon complaint or upon information given to a police officer or to a Magistrate, one or more persons is or are accused before a Magistrate of any offence triable by a Magistrate, and the Magistrate by whom the case is heard discharges or acquits all or any of the accused, and is of opinion that there was no reasonable ground for making the accusation against them or any of them, the Magistrate may, by his order of discharge or acquittal, if the person upon whose complaint or information the accusation was made is present, call upon him forthwith to show cause why he should not pay compensation to such accused or to each or any of such accused when there are more than one; or, if such person is not present, direct the issue of a summons to him to appear and show cause as aforesaid.
+        2. ( _2_ ) The Magistrate shall record and consider any cause which such complainant or informant may show, and if he is satisfied that there was no reasonable ground for making the accusation, may, for reasons to be recorded, make an order that compensation to such amount, not exceeding the amount of fine he is empowered to impose, as he may determine, be paid by such complainant or informant to the accused or to each or any of them.
+        3. ( _3_ ) The Magistrate may, by the order directing payment of the compensation under sub-section ( _2_ ), further order that, in default of payment, the person ordered to pay such compensation shall undergo simple imprisonment for a period not exceeding thirty days.
+        4. ( _4_ ) When any person is imprisoned under sub-section ( _3_ ), the provisions of sections 68 and 69 of the Bharatiya Nyaya Sanhita, 2023 shall, so far as may be, apply.
+        5. ( _5_ ) No person who has been directed to pay compensation under this section shall, by reason of such order, be exempted from any civil or criminal liability in respect of the complaint made or information given by him:
+           _Provided_ that any amount paid to an accused person under this section shall be taken into account in awarding compensation to such person in any subsequent civil suit relating to the same matter.
+        6. ( _6_ ) A complainant or informant who has been ordered under sub-section ( _2_ ) by a Magistrate of the second class to pay compensation exceeding one thousand rupees, may appeal from the order, as if such complainant or informant had been convicted on a trial held by such Magistrate.
+        7. ( _7_ ) When an order for payment of compensation to an accused person is made in a case which is subject to appeal under sub-section ( _6_ ), the compensation shall not be paid to him before the period allowed for the presentation of the appeal has elapsed, or, if an appeal is presented, before the appeal has been decided; and where such order is made in a case which is not so subject to appeal the compensation shall not be paid before the expiration of one month from the date of the order.
+        8. ( _8_ ) The provisions of this section apply to summons-cases as well as to warrant-cases.
 
-Acquittal or
-conviction.
+# CHAPTER XXI TRIAL OF SUMMONS-CASES BY MAGISTRATES
 
-```
+274.    When in a summons-case the accused appears or is brought before the Magistrate, the particulars of the offence of which he is accused shall be stated to him, and he shall be asked whether he pleads guilty or has any defence to make, but it shall not be necessary to frame a formal charge:
+        _Provided_ that if the Magistrate considers the accusation as groundless, he shall, after recording reasons in writing, release the accused and such release shall have the effect of discharge.
 
-5
+275.    If the accused pleads guilty, the Magistrate shall record the plea as nearly as possible in the words used by the accused and may, in his discretion, convict him thereon.
 
-```
+276.    1. ( _1_ ) Where a summons has been issued under section 229 and the accused desires to plead guilty to the charge without appearing before the Magistrate, he shall transmit to the Magistrate, by post or by messenger, a letter containing his plea and also the amount of fine specified in the summons.
+        2. ( _2_ ) The Magistrate may, in his discretion, convict the accused in his absence, on his plea of guilty and sentence him to pay the fine specified in the summons, and the amount transmitted by the accused shall be adjusted towards that fine, or where a pleader authorised by the accused in this behalf pleads guilty on behalf of the accused, the Magistrate shall record the plea as nearly as possible in the words used by the pleader and may, in his discretion, convict the accused on such plea and sentence him as aforesaid.
 
-```
+277.    1. ( _1_ ) If the Magistrate does not convict the accused under section 275 or section 276, the Magistrate shall proceed to hear the prosecution and take all such evidence as may be produced in support of the prosecution, and also to hear the accused and take all such evidence as he produces in his defence.
+        2. ( _2_ ) The Magistrate may, if he thinks fit, on the application of the prosecution or the accused, issue a summons to any witness directing him to attend or to produce any document or other thing.
+        3. ( _3_ ) The Magistrate may, before summoning any witness on such application, require that the reasonable expenses of the witness incurred in attending for the purposes of the trial be deposited in Court.
 
-10
+278.    1. ( _1_ ) If the Magistrate, upon taking the evidence referred to in section 277 and such further evidence, if any, as he may, of his own motion, cause to be produced, finds the accused not guilty, he shall record an order of acquittal.
+        2. ( _2_ ) Where the Magistrate does not proceed in accordance with the provisions of section 364 or section 401, he shall, if he finds the accused guilty, pass sentence upon him according to law.
+        3. ( _3_ ) A Magistrate may, under section 275 or section 278, convict the accused of any offence triable under this Chapter, which from the facts admitted or proved he appears to have committed, whatever may be the nature of the complaint or summons, if the Magistrate is satisfied that the accused would not be prejudiced thereby.
 
-```
-
-```
-
-15
-
-```
-
-```
-
-20
-
-```
-
-```
-
-25
-
-```
-
-```
-
-30
-
-```
-
-```
-
-35
-
-```
-
-```
-
-40
-
-```
-
-```
-
-45
-
-```
-
-**272.** When the proceedings have been instituted upon complaint, and on any day
-fixed for the hearing of the case, the complainant is absent, and the offence may be lawfully
-compounded or is not a cognizable offence, the Magistrate may after giving thirty days'
-time to the complainant to be present, in his discretion, notwithstanding anything
-hereinbefore contained, at any time before the charge has been framed, discharge the
-accused.
-**273.** ( _1_ ) If, in any case instituted upon complaint or upon information given to a
-police officer or to a Magistrate, one or more persons is or are accused before a Magistrate
-of any offence triable by a Magistrate, and the Magistrate by whom the case is heard
-discharges or acquits all or any of the accused, and is of opinion that there was no reasonable
-ground for making the accusation against them or any of them, the Magistrate may, by his
-order of discharge or acquittal, if the person upon whose complaint or information the
-accusation was made is present, call upon him forthwith to show cause why he should not
-pay compensation to such accused or to each or any of such accused when there are more
-than one; or, if such person is not present, direct the issue of a summons to him to appear
-and show cause as aforesaid.
-( _2_ ) The Magistrate shall record and consider any cause which such complainant or
-informant may show, and if he is satisfied that there was no reasonable ground for making
-the accusation, may, for reasons to be recorded, make an order that compensation to such
-amount, not exceeding the amount of fine he is empowered to impose, as he may determine,
-be paid by such complainant or informant to the accused or to each or any of them.
-( _3_ ) The Magistrate may, by the order directing payment of the compensation under
-sub-section ( _2_ ), further order that, in default of payment, the person ordered to pay such
-compensation shall undergo simple imprisonment for a period not exceeding thirty days.
-( _4_ ) When any person is imprisoned under sub-section ( _3_ ), the provisions of
-sections 68 and 69 of the Bharatiya Nyaya Sanhita, 2023 shall, so far as may be, apply.
-( _5_ ) No person who has been directed to pay compensation under this section shall,
-by reason of such order, be exempted from any civil or criminal liability in respect of the
-complaint made or information given by him:
-Provided that any amount paid to an accused person under this section shall be taken
-into account in awarding compensation to such person in any subsequent civil suit relating
-to the same matter.
-( _6_ ) A complainant or informant who has been ordered under sub-section ( _2_ ) by a
-Magistrate of the second class to pay compensation exceeding one thousand rupees, may
-appeal from the order, as if such complainant or informant had been convicted on a trial held
-by such Magistrate.
-( _7_ ) When an order for payment of compensation to an accused person is made in a
-case which is subject to appeal under sub-section ( _6_ ), the compensation shall not be paid to
-him before the period allowed for the presentation of the appeal has elapsed, or, if an appeal
-is presented, before the appeal has been decided; and where such order is made in a case
-which is not so subject to appeal the compensation shall not be paid before the expiration
-of one month from the date of the order.
-( _8_ ) The provisions of this section apply to summons-cases as well as to
-warrant-cases.
-CHAPTER XXII
-TRIAL OF SUMMONS-CASES BY MAGISTRATES
-**274.** When in a summons-case the accused appears or is brought before the
-Magistrate, the particulars of the offence of which he is accused shall be stated to him, and
-he shall be asked whether he pleads guilty or has any defence to make, but it shall not be
-necessary to frame a formal charge:
-
-```
-
-Absence of
-complainant.
-
-```
-
-```
-
-Compensation
-for accusation
-without
-reasonable
-cause.
-
-```
-
-```
-
-Substance of
-accusation to
-be stated.
-
-```
-
-```
-
-5
-
-```
-
-10
-
-15
-
-20
-
-25
-
-30
-
-35
-
-40
-
-45
-
-50
-
-```
-
-Provided that if the Magistrate considers the accusation as groundless, he shall, after
-recording reasons in writing, release the accused and such release shall have the effect of
-discharge.
-
-```
-
-**275.** If the accused pleads guilty, the Magistrate shall record the plea as nearly as
-possible in the words used by the accused and may, in his discretion, convict him thereon.
-**276.** ( _1_ ) Where a summons has been issued under section 229 and the accused
-desires to plead guilty to the charge without appearing before the Magistrate, he shall
-transmit to the Magistrate, by post or by messenger, a letter containing his plea and also the
-amount of fine specified in the summons.
-( _2_ ) The Magistrate may, in his discretion, convict the accused in his absence, on his
-plea of guilty and sentence him to pay the fine specified in the summons, and the amount
-transmitted by the accused shall be adjusted towards that fine, or where a pleader authorised
-by the accused in this behalf pleads guilty on behalf of the accused, the Magistrate shall
-record the plea as nearly as possible in the words used by the pleader and may, in his
-discretion, convict the accused on such plea and sentence him as aforesaid.
-**277.** ( _1_ ) If the Magistrate does not convict the accused under section 275 or
-section 276, the Magistrate shall proceed to hear the prosecution and take all such evidence
-as may be produced in support of the prosecution, and also to hear the accused and take all
-such evidence as he produces in his defence.
-( _2_ ) The Magistrate may, if he thinks fit, on the application of the prosecution or the
-accused, issue a summons to any witness directing him to attend or to produce any document
-or other thing.
-( _3_ ) The Magistrate may, before summoning any witness on such application, require
-that the reasonable expenses of the witness incurred in attending for the purposes of the
-trial be deposited in Court.
-**278.** ( _1_ ) If the Magistrate, upon taking the evidence referred to in section 277 and
-such further evidence, if any, as he may, of his own motion, cause to be produced, finds the
-accused not guilty, he shall record an order of acquittal.
-( _2_ ) Where the Magistrate does not proceed in accordance with the provisions of
-section 364 or section 401, he shall, if he finds the accused guilty, pass sentence upon him
-according to law.
-( _3_ ) A Magistrate may, under section 275 or section 278, convict the accused of any
-offence triable under this Chapter, which from the facts admitted or proved he appears to
-have committed, whatever may be the nature of the complaint or summons, if the Magistrate
-is satisfied that the accused would not be prejudiced thereby.
 **279.** ( _1_ ) If the summons has been issued on complaint, and on the day appointed for
 the appearance of the accused, or any day subsequent thereto to which the hearing may be
 adjourned, the complainant does not appear, the Magistrate shall, notwithstanding anything
@@ -23909,6 +22322,16 @@ to consolidate and amend the law relating to Criminal Procedure.
 ```
 
 MGIPMRND—277LS(S3)—10-08-2023.
+
+```
+
+```
+
+```
+
+```
+
+```
 
 ```
 
