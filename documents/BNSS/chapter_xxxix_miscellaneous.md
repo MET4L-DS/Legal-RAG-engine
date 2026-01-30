@@ -92,13 +92,13 @@ Every High Court shall so exercise its superintendence over the Courts of Sessio
 
 All trials, inquires and proceedings under this Sanhita, including—
 
-- **(i)** issuance, service and execution of summons and warrant;
+    - **(I)** issuance, service and execution of summons and warrant;
 
-    - **(ii)** examination of complainant and witnesses;
+    - **(II)** examination of complainant and witnesses;
 
-    - **(iii)** recording of evidence in inquiries and trials; and
+    - **(III)** recording of evidence in inquiries and trials; and
 
-    - **(iv)** all appellate proceedings or any other proceeding,
+    - **(IV)** all appellate proceedings or any other proceeding,
 
 may be held in electronic mode, by use of electronic communication or use of audio-video electronic means.
 

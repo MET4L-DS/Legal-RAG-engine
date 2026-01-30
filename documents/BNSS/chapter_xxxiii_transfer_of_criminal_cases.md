@@ -26,13 +26,13 @@
 
 it may order—
 
-- **(i)** that any offence be inquired into or tried by any Court not qualified under sections 197 to 205 (both inclusive), but in other respects competent to inquire into or try such offence;
+    - **(I)** that any offence be inquired into or tried by any Court not qualified under sections 197 to 205 (both inclusive), but in other respects competent to inquire into or try such offence;
 
-    - **(ii)** that any particular case or appeal, or class of cases or appeals, be transferred from a Criminal Court subordinate to its authority to any other such Criminal Court of equal or superior jurisdiction;
+    - **(II)** that any particular case or appeal, or class of cases or appeals, be transferred from a Criminal Court subordinate to its authority to any other such Criminal Court of equal or superior jurisdiction;
 
-    - **(iii)** that any particular case be committed for trial to a Court of Session; or
+    - **(III)** that any particular case be committed for trial to a Court of Session; or
 
-    - **(iv)** that any particular case or appeal be transferred to and tried before itself.
+    - **(IV)** that any particular case or appeal be transferred to and tried before itself.
 
 **(2)** The High Court may act either on the report of the lower Court, or on the application of a party interested, or on its own initiative:
 

@@ -78,9 +78,9 @@ Provided that if the Magistrate is satisfied that the person against whom an ord
 
 - **(b)** the woman has been divorced by her husband and that she has received, whether before or after the date of the said order, the whole of the sum which, under any customary or personal law applicable to the parties, was payable on such divorce, cancel such order,—
 
-- **(i)** in the case where such sum was paid before such order, from the date on which such order was made;
+    - **(I)** in the case where such sum was paid before such order, from the date on which such order was made;
 
-    - **(ii)** in any other case, from the date of expiry of the period, if any, for which maintenance has been actually paid by the husband to the woman;
+    - **(II)** in any other case, from the date of expiry of the period, if any, for which maintenance has been actually paid by the husband to the woman;
 
 - **(c)** the woman has obtained a divorce from her husband and that she had voluntarily surrendered her rights to maintenance or interim maintenance, as the case may be, after her divorce, cancel the order from the date thereof.
 

@@ -6,7 +6,7 @@
 
 ## Section 497 — Order for custody and disposal of property pending trial in certain cases
 
-(I) When any property is produced before any Criminal Court or the Magistrate empowered to take cognizance or commit the case for trial during any investigation, inquiry or trial, the Court or the Magistrate may make such order as it thinks fit for the proper custody of such property pending the conclusion of the investigation, inquiry
+    - **(I)** When any property is produced before any Criminal Court or the Magistrate empowered to take cognizance or commit the case for trial during any investigation, inquiry or trial, the Court or the Magistrate may make such order as it thinks fit for the proper custody of such property pending the conclusion of the investigation, inquiry
 
 or trial, and, if the property is subject to speedy and natural decay, or if it is otherwise expedient so to do, the Court or the Magistrate may, after recording such evidence as it thinks necessary, order it to be sold or otherwise disposed of.
 

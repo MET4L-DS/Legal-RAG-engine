@@ -12,9 +12,9 @@
 
 - **(b)** against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists that he has committed a cognizable offence punishable with imprisonment for a term which may be less than seven years or which may extend to seven years whether with or without fine, if the following conditions are satisfied, namely:—
 
-- **(i)** the police officer has reason to believe on the basis of such complaint, information, or suspicion that such person has committed the said offence;
+    - **(I)** the police officer has reason to believe on the basis of such complaint, information, or suspicion that such person has committed the said offence;
 
-    - **(ii)** the police officer is satisfied that such arrest is necessary— (a) to prevent such person from committing any further offence; or (b) for proper investigation of the offence; or (c) to prevent such person from causing the evidence of the offence to disappear or tampering with such evidence in any manner; or (d) to prevent such person from making any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade him from disclosing such facts to the Court or to the police officer; or (e) as unless such person is arrested, his presence in the Court whenever required cannot be ensured, and the police officer shall record while making such arrest, his reasons in writing:
+    - **(II)** the police officer is satisfied that such arrest is necessary— (a) to prevent such person from committing any further offence; or (b) for proper investigation of the offence; or (c) to prevent such person from causing the evidence of the offence to disappear or tampering with such evidence in any manner; or (d) to prevent such person from making any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade him from disclosing such facts to the Court or to the police officer; or (e) as unless such person is arrested, his presence in the Court whenever required cannot be ensured, and the police officer shall record while making such arrest, his reasons in writing:
 
 Provided that a police officer shall, in all cases where the arrest of a person is not required under the provisions of this sub-section, record the reasons in writing for not making the arrest; or
 
@@ -42,9 +42,9 @@ Every police officer while making an arrest shall—
 
 - **(b)** prepare a memorandum of arrest which shall be—
 
-- **(i)** attested by at least one witness, who is a member of the family of the person arrested or a respectable member of the locality where the arrest is made;
+    - **(I)** attested by at least one witness, who is a member of the family of the person arrested or a respectable member of the locality where the arrest is made;
 
-    - **(ii)** countersigned by the person arrested; and
+    - **(II)** countersigned by the person arrested; and
 
 - **(c)** inform the person arrested, unless the memorandum is attested by a member of his family, that he has a right to have a relative or a friend or any other person named by him to be informed of his arrest.
 
@@ -168,9 +168,9 @@ The person arrested shall not be subjected to more restraint than is necessary t
 
 **(1)** Whenever,—
 
-- **(i)** a person is arrested by a police officer under a warrant which does not provide for the taking of bail, or under a warrant which provides for the taking of bail but the person arrested cannot furnish bail; and
+    - **(I)** a person is arrested by a police officer under a warrant which does not provide for the taking of bail, or under a warrant which provides for the taking of bail but the person arrested cannot furnish bail; and
 
-    - **(ii)** a person is arrested without warrant, or by a private person under a warrant, and cannot legally be admitted to bail, or is unable to furnish bail, the officer making the arrest or, when the arrest is made by a private person, the police officer to whom he makes over the person arrested, may search such person, and place in safe custody all articles, other than necessary wearing-apparel, found upon him and where any article is seized from the arrested person, a receipt showing the articles taken in possession by the police officer shall be given to such person.
+    - **(II)** a person is arrested without warrant, or by a private person under a warrant, and cannot legally be admitted to bail, or is unable to furnish bail, the officer making the arrest or, when the arrest is made by a private person, the police officer to whom he makes over the person arrested, may search such person, and place in safe custody all articles, other than necessary wearing-apparel, found upon him and where any article is seized from the arrested person, a receipt showing the articles taken in possession by the police officer shall be given to such person.
 
 **(2)** Whenever it is necessary to cause a female to be searched, the search shall be made by another female with strict regard to decency.
 
@@ -207,15 +207,15 @@ request of any police officer, and for any person acting in good faith in his ai
 
 **(2)** The registered medical practitioner conducting such examination shall, without any delay, examine such person and prepare a report of his examination giving the following particulars, namely:—
 
-- **(i)** the name and address of the accused and of the person by whom he was brought;
+    - **(I)** the name and address of the accused and of the person by whom he was brought;
 
-    - **(ii)** the age of the accused;
+    - **(II)** the age of the accused;
 
-    - **(iii)** marks of injury, if any, on the person of the accused;
+    - **(III)** marks of injury, if any, on the person of the accused;
 
-    - **(iv)** the description of material taken from the person of the accused for DNA profiling; and
+    - **(IV)** the description of material taken from the person of the accused for DNA profiling; and
 
-- **(v)** other material particulars in reasonable detail.
+    - **(V)** other material particulars in reasonable detail.
 
 **(3)** The report shall state precisely the reasons for each conclusion arrived at.
 

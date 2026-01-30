@@ -16,9 +16,9 @@ Provided that the victim shall have a right to prefer an appeal against any orde
 
 Any person, —
 
-- **(i)** who has been ordered under section 136 to give security for keeping the peace or for good behaviour; or
+    - **(I)** who has been ordered under section 136 to give security for keeping the peace or for good behaviour; or
 
-    - **(ii)** who is aggrieved by any order refusing to accept or rejecting a surety under section 140,
+    - **(II)** who is aggrieved by any order refusing to accept or rejecting a surety under section 140,
 
 may appeal against such order to the Court of Session:
 
@@ -50,9 +50,9 @@ may appeal to the Court of Session.
 
 Notwithstanding anything in section 415, where an accused person has pleaded guilty and has been convicted on such plea, there shall be no appeal,—
 
-- **(i)** if the conviction is by a High Court; or
+    - **(I)** if the conviction is by a High Court; or
 
-    - **(ii)** if the conviction is by a Court of Session or Magistrate of the first or second class, except as to the extent or legality of the sentence.
+    - **(II)** if the conviction is by a Court of Session or Magistrate of the first or second class, except as to the extent or legality of the sentence.
 
 ---
 
@@ -70,11 +70,11 @@ Notwithstanding anything in section 415, there shall be no appeal by a convicted
 
 Provided that an appeal may be brought against any such sentence if any other punishment is combined with it, but such sentence shall not be appealable merely on the ground—
 
-- **(i)** that the person convicted is ordered to furnish security to keep the peace; or
+    - **(I)** that the person convicted is ordered to furnish security to keep the peace; or
 
-    - **(ii)** that a direction for imprisonment in default of payment of fine is included in the sentence; or
+    - **(II)** that a direction for imprisonment in default of payment of fine is included in the sentence; or
 
-    - **(iii)** that more than one sentence of fine is passed in the case, if the total amount of fine imposed does not exceed the amount hereinbefore specified in respect of the case.
+    - **(III)** that more than one sentence of fine is passed in the case, if the total amount of fine imposed does not exceed the amount hereinbefore specified in respect of the case.
 
 ---
 
@@ -182,13 +182,13 @@ Provided that—
 
 **(1)** If the Appellate Court does not dismiss the appeal summarily, it shall cause notice of the time and place at which such appeal will be heard to be given—
 
-- **(i)** to the appellant or his advocate;
+    - **(I)** to the appellant or his advocate;
 
-    - **(ii)** to such officer as the State Government may appoint in this behalf;
+    - **(II)** to such officer as the State Government may appoint in this behalf;
 
-    - **(iii)** if the appeal is from a judgment of conviction in a case instituted upon complaint, to the complainant;
+    - **(III)** if the appeal is from a judgment of conviction in a case instituted upon complaint, to the complainant;
 
-    - **(iv)** if the appeal is under section 418 or section 419, to the accused, and shall also furnish such officer, complainant and accused with a copy of the grounds of appeal.
+    - **(IV)** if the appeal is under section 418 or section 419, to the accused, and shall also furnish such officer, complainant and accused with a copy of the grounds of appeal.
 
 **(2)** The Appellate Court shall then send for the record of the case, if such record is not already available in that Court, and hear the parties:
 
@@ -206,19 +206,19 @@ After perusing such record and hearing the appellant or his advocate, if he appe
 
 - **(b)** in an appeal from a conviction—
 
-- **(i)** reverse the finding and sentence and acquit or discharge the accused, or order him to be re-tried by a Court of competent jurisdiction subordinate to such Appellate Court or committed for trial; or
+    - **(I)** reverse the finding and sentence and acquit or discharge the accused, or order him to be re-tried by a Court of competent jurisdiction subordinate to such Appellate Court or committed for trial; or
 
-    - **(ii)** alter the finding, maintaining the sentence; or
+    - **(II)** alter the finding, maintaining the sentence; or
 
-    - **(iii)** with or without altering the finding, alter the nature or the extent, or the nature and extent, of the sentence, but not so as to enhance the same;
+    - **(III)** with or without altering the finding, alter the nature or the extent, or the nature and extent, of the sentence, but not so as to enhance the same;
 
 - **(c)** in an appeal for enhancement of sentence—
 
-- **(i)** reverse the finding and sentence and acquit or discharge the accused or order him to be re-tried by a Court competent to try the offence; or
+    - **(I)** reverse the finding and sentence and acquit or discharge the accused or order him to be re-tried by a Court competent to try the offence; or
 
-    - **(ii)** alter the finding maintaining the sentence; or
+    - **(II)** alter the finding maintaining the sentence; or
 
-    - **(iii)** with or without altering the finding, alter the nature or the extent, or, the nature and extent, of the sentence, so as to enhance or reduce the same;
+    - **(III)** with or without altering the finding, alter the nature or the extent, or, the nature and extent, of the sentence, so as to enhance or reduce the same;
 
 - **(d)** in an appeal from any other order, alter or reverse such order;
 
@@ -254,9 +254,9 @@ Provided that the Appellate Court shall, before releasing on his own bond or bai
 
 **(3)** Where the convicted person satisfies the Court by which he is convicted that he intends to present an appeal, the Court shall,—
 
-- **(i)** where such person, being on bail, is sentenced to imprisonment for a term not exceeding three years; or
+    - **(I)** where such person, being on bail, is sentenced to imprisonment for a term not exceeding three years; or
 
-    - **(ii)** where the offence of which such person has been convicted is a bailable one, and he is on bail, order that the convicted person be released on bail, unless there are special reasons for refusing bail, for such period as will afford sufficient time to present the appeal and obtain the orders of the Appellate Court
+    - **(II)** where the offence of which such person has been convicted is a bailable one, and he is on bail, order that the convicted person be released on bail, unless there are special reasons for refusing bail, for such period as will afford sufficient time to present the appeal and obtain the orders of the Appellate Court
 
 under sub-section (I); and the sentence of imprisonment shall, so long as he is so released on bail, be deemed to be suspended.
 

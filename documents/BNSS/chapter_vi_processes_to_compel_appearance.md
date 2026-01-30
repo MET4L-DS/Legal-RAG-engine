@@ -10,9 +10,9 @@
 
 Every summons issued by a Court under this Sanhita shall be,—
 
-- **(i)** in writing, in duplicate, signed by the presiding officer of such Court or by such other officer as the High Court may, from time to time, by rule direct, and shall bear the seal of the Court; or
+    - **(I)** in writing, in duplicate, signed by the presiding officer of such Court or by such other officer as the High Court may, from time to time, by rule direct, and shall bear the seal of the Court; or
 
-    - **(ii)** in an encrypted or any other form of electronic communication and shall bear the image of the seal of the Court or digital signature.
+    - **(II)** in an encrypted or any other form of electronic communication and shall bear the image of the seal of the Court or digital signature.
 
 ---
 
@@ -206,13 +206,13 @@ Provided further that if the offence is a non-bailable one, it shall be lawful f
 
 **(2)** The proclamation shall be published as follows:—
 
-- **(i)** (a) it shall be publicly read in some conspicuous place of the town or village in which such person ordinarily resides;
+    - **(I)** (a) it shall be publicly read in some conspicuous place of the town or village in which such person ordinarily resides;
 
 - **(b)** it shall be affixed to some conspicuous part of the house or homestead in which such person ordinarily resides or to some conspicuous place of such town or village;
 
 - **(c)** a copy thereof shall be affixed to some conspicuous part of the Court-house;
 
-    - **(ii)** the Court may also, if it thinks fit, direct a copy of the proclamation to be published in a daily newspaper circulating in the place in which such person ordinarily resides.
+    - **(II)** the Court may also, if it thinks fit, direct a copy of the proclamation to be published in a daily newspaper circulating in the place in which such person ordinarily resides.
 
 **(3)** A statement in writing by the Court issuing the proclamation to the effect that the proclamation was duly published on a specified day, in the manner specified in clause (i) of sub-section (2), shall be conclusive evidence that the requirements of this section have been complied with, and that the proclamation was published on such day.
 

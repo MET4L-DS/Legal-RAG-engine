@@ -324,11 +324,11 @@ In any inquiry, trial or other proceeding under this Sanhita, a previous convict
 
 Where any document or report prepared by a public servant, scientific expert or medical officer is purported to be used as evidence in any inquiry, trial or other proceeding under this Sanhita, and—
 
-- **(i)** such public servant, expert or officer is either transferred, retired, or died; or
+    - **(I)** such public servant, expert or officer is either transferred, retired, or died; or
 
-    - **(ii)** such public servant, expert or officer cannot be found or is incapable of giving deposition; or
+    - **(II)** such public servant, expert or officer cannot be found or is incapable of giving deposition; or
 
-    - **(iii)** securing presence of such public servant, expert or officer is likely to cause delay in holding the inquiry, trial or other proceeding, the Court shall secure presence of successor officer of such public servant, expert, or officer who is holding that post at the time of such deposition to give deposition on such document or report:
+    - **(III)** securing presence of such public servant, expert or officer is likely to cause delay in holding the inquiry, trial or other proceeding, the Court shall secure presence of successor officer of such public servant, expert, or officer who is holding that post at the time of such deposition to give deposition on such document or report:
 
 Provided that no public servant, scientific expert or medical officer shall be called to appear before the Court unless the report of such public servant, scientific expert or medical officer is disputed by any of the parties of the trial or other proceedings:
 

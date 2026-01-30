@@ -78,17 +78,17 @@ shall be deemed to have thereby committed an offence.
 
 such Magistrate may make a conditional order requiring the person causing such obstruction or nuisance, or carrying on such trade or occupation, or keeping any such goods or merchandise, or owning, possessing or controlling such building, tent, structure, substance, tank, well or excavation, or owning or possessing such animal or tree, within a time to be fixed in the order—
 
-- **(i)** to remove such obstruction or nuisance; or
+    - **(I)** to remove such obstruction or nuisance; or
 
-    - **(ii)** to desist from carrying on, or to remove or regulate in such manner as may be directed, such trade or occupation, or to remove such goods or merchandise, or to regulate the keeping thereof in such manner as may be directed; or
+    - **(II)** to desist from carrying on, or to remove or regulate in such manner as may be directed, such trade or occupation, or to remove such goods or merchandise, or to regulate the keeping thereof in such manner as may be directed; or
 
-    - **(iii)** to prevent or stop the construction of such building, or to alter the disposal of such substance; or
+    - **(III)** to prevent or stop the construction of such building, or to alter the disposal of such substance; or
 
-    - **(iv)** to remove, repair or support such building, tent or structure, or to remove or support such trees; or
+    - **(IV)** to remove, repair or support such building, tent or structure, or to remove or support such trees; or
 
-- **(v)** to fence such tank, well or excavation; or
+    - **(V)** to fence such tank, well or excavation; or
 
-    - **(vi)** to destroy, confine or dispose of such dangerous animal in the manner provided in the said order, or, if he objects so to do, to appear before himself or some other Executive Magistrate subordinate to him at a time and place to be fixed by the order, and show cause, in the manner hereinafter provided, why the order should not be made absolute.
+    - **(VI)** to destroy, confine or dispose of such dangerous animal in the manner provided in the said order, or, if he objects so to do, to appear before himself or some other Executive Magistrate subordinate to him at a time and place to be fixed by the order, and show cause, in the manner hereinafter provided, why the order should not be made absolute.
 
 **(2)** No order duly made by a Magistrate under this section shall be called in question in any Civil Court.
 

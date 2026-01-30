@@ -91,12 +91,11 @@ def format_section_blocks(content, expected_next_num):
         # Helper to safely insert newline
         def safe_split(text, pattern):
             # Split if preceded by: start of string, newline, dot, semicolon, or colon
-            # \s* matches the whitespace that we will effectively replace/prepend with \n
             return re.sub(r'(?:^|(?<=[\.\;\:\n]))\s*(' + pattern + r')', r'\n\1', text)
 
         sec_content = safe_split(sec_content, r'\(\d+\)')
         sec_content = safe_split(sec_content, r'\([a-z]\)')
-        sec_content = safe_split(sec_content, r'\([ivx]+\)')
+        sec_content = safe_split(sec_content, r'\([IVXLCDM]+\)')
         
         # Also handle "Provided that" and "Explanation" newlines - these usually start distinct blocks
         sec_content = re.sub(r'(Provided\s+that)', r'\n\n\1', sec_content)
@@ -126,9 +125,10 @@ def format_section_blocks(content, expected_next_num):
                 formatted_lines.append(f"- **{c_id}** {c_text}\n")
                 continue
                 
-            # Sub-clauses (i), (ii)
-            sc_m = re.match(r'^(\([ivx]+\))(.*)', line)
+            # Sub-clauses (I), (II) - Uppercase Roman
+            sc_m = re.match(r'^(\([IVXLCDM]+\))(.*)', line)
             if sc_m:
+                # Nested and indented as before
                 formatted_lines.append(f"    - **{sc_m.group(1)}** {sc_m.group(2).strip()}\n")
                 continue
                 
@@ -192,6 +192,6 @@ def process_bnss(input_path, output_dir):
         print(f"Generated: {filename} (Sections up to {global_sec_num - 1})")
 
 if __name__ == "__main__":
-    input_file = r'c:\Met4l.DSCode\Python\Embedding-Test-Py\documents\BNSS\bnss.md'
-    output_folder = r'c:\Met4l.DSCode\Python\Embedding-Test-Py\documents\BNSS\output'
+    input_file = r'c:\Met4l.DSCode\Python\Embedding-Test-Py\documents\bnss.md'
+    output_folder = r'c:\Met4l.DSCode\Python\Embedding-Test-Py\documents\BNSS'
     process_bnss(input_file, output_folder)

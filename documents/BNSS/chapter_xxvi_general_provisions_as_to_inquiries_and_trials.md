@@ -119,9 +119,9 @@ Any person accused of an offence before a Criminal Court, or against whom procee
 
 - **(a)** commit it for trial—
 
-- **(i)** to the Court of Session if the offence is triable exclusively by that Court or if the Magistrate taking cognizance is the Chief Judicial Magistrate;
+    - **(I)** to the Court of Session if the offence is triable exclusively by that Court or if the Magistrate taking cognizance is the Chief Judicial Magistrate;
 
-    - **(ii)** to a Court of Special Judge appointed under any other law for the time being in force, if the offence is triable exclusively by that Court;
+    - **(II)** to a Court of Special Judge appointed under any other law for the time being in force, if the offence is triable exclusively by that Court;
 
 - **(b)** in any other case, make over the case to the Chief Judicial Magistrate who shall try the case himself.
 
@@ -294,13 +294,13 @@ Provided that the Court shall not commence the trial unless a period of ninety d
 
 **(2)** The Court shall ensure that the following procedure has been complied with before proceeding under sub-section (1), namely:—
 
-- **(i)** issuance of two consecutive warrants of arrest within the interval of at least thirty days;
+    - **(I)** issuance of two consecutive warrants of arrest within the interval of at least thirty days;
 
-    - **(ii)** publish in a national or local daily newspaper circulating in the place of his last known address of residence, requiring the proclaimed offender to appear before the Court for trial and informing him that in case he fails to appear within thirty days from the date of such publication, the trial shall commence in his absence;
+    - **(II)** publish in a national or local daily newspaper circulating in the place of his last known address of residence, requiring the proclaimed offender to appear before the Court for trial and informing him that in case he fails to appear within thirty days from the date of such publication, the trial shall commence in his absence;
 
-    - **(iii)** inform his relative or friend, if any, about the commencement of the trial; and
+    - **(III)** inform his relative or friend, if any, about the commencement of the trial; and
 
-    - **(iv)** affix information about the commencement of the trial on some conspicuous part of the house or homestead in which such person ordinarily resides and display in the police station of the district of his last known address of residence.
+    - **(IV)** affix information about the commencement of the trial on some conspicuous part of the house or homestead in which such person ordinarily resides and display in the police station of the district of his last known address of residence.
 
 **(3)** Where the proclaimed offender is not represented by any advocate, he shall be provided with an advocate for his defence at the expense of the State.
 
@@ -376,13 +376,13 @@ The Public Prosecutor or Assistant Public Prosecutor in charge of a case may, wi
 
 Provided that where such offence—
 
-- **(i)** was against any law relating to a matter to which the executive power of the Union extends; or
+    - **(I)** was against any law relating to a matter to which the executive power of the Union extends; or
 
-    - **(ii)** was investigated under any Central Act; or
+    - **(II)** was investigated under any Central Act; or
 
-    - **(iii)** involved the misappropriation or destruction of, or damage to, any property belonging to the Central Government; or
+    - **(III)** involved the misappropriation or destruction of, or damage to, any property belonging to the Central Government; or
 
-    - **(iv)** was committed by a person in the service of the Central Government while acting or purporting to act in the discharge of his official duty,
+    - **(IV)** was committed by a person in the service of the Central Government while acting or purporting to act in the discharge of his official duty,
 
 and the Prosecutor in charge of the case has not been appointed by the Central Government, he shall not, unless he has been permitted by the Central Government to do so, move the Court for its consent to withdraw from the prosecution and the Court shall, before according consent, direct the Prosecutor to produce before it the permission granted by the Central Government to withdraw from the prosecution:
 
@@ -392,7 +392,7 @@ Provided further that no Court shall allow such withdrawal without giving an opp
 
 ## Section 361 — Procedure in cases which Magistrate cannot dispose of
 
-(I) If, in the course of any inquiry into an offence or a trial before a Magistrate in any district, the evidence appears to him to warrant a presumption--
+    - **(I)** If, in the course of any inquiry into an offence or a trial before a Magistrate in any district, the evidence appears to him to warrant a presumption--
 
 - **(a)** that he has no jurisdiction to try the case or commit it for trial; or
 

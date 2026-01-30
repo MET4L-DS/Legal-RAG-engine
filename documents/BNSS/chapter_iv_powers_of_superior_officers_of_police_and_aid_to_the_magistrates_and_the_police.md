@@ -32,29 +32,29 @@ When a warrant is directed to a person other than a police officer, any other pe
 
 **(1)** Every person, aware of the commission of, or of the intention of any other person to commit, any offence punishable under any of the following sections of the Bharatiya Nyaya Sanhita, 2023, namely:—
 
-- **(i)** sections 103 to 105 (both inclusive);
+    - **(I)** sections 103 to 105 (both inclusive);
 
-    - **(ii)** sections 111 to 113 (both inclusive);
+    - **(II)** sections 111 to 113 (both inclusive);
 
-    - **(iii)** sections 140 to 144 (both inclusive);
+    - **(III)** sections 140 to 144 (both inclusive);
 
-    - **(iv)** sections 147 to 154 (both inclusive) and section 158;
+    - **(IV)** sections 147 to 154 (both inclusive) and section 158;
 
-- **(v)** sections 178 to 182 (both inclusive);
+    - **(V)** sections 178 to 182 (both inclusive);
 
-    - **(vi)** sections 189 and 191;
+    - **(VI)** sections 189 and 191;
 
-    - **(vii)** sections 274 to 280 (both inclusive);
+    - **(VII)** sections 274 to 280 (both inclusive);
 
-    - **(viii)** section 307;
+    - **(VIII)** section 307;
 
-    - **(ix)** sections 309 to 312 (both inclusive);
+    - **(IX)** sections 309 to 312 (both inclusive);
 
-- **(x)** sub-section (5) of section 316;
+    - **(X)** sub-section (5) of section 316;
 
-    - **(xi)** sections 326 to 328 (both inclusive); and
+    - **(XI)** sections 326 to 328 (both inclusive); and
 
-    - **(xii)** sections 331 and 332, upon the person so aware, forthwith give information to the nearest Magistrate or police officer of such commission or intention.
+    - **(XII)** sections 331 and 332, upon the person so aware, forthwith give information to the nearest Magistrate or police officer of such commission or intention.
 
 **(2)** For the purposes of this section, the term “offence” includes any act committed at any place out of India which would constitute an offence if committed in India.
 
@@ -78,10 +78,10 @@ When a warrant is directed to a person other than a police officer, any other pe
 
 **(2)** In this section,—
 
-- **(i)** “village” includes village lands;
+    - **(I)** “village” includes village lands;
 
-    - **(ii)** the expression “proclaimed offender” includes any person proclaimed as an offender by any Court or authority in any territory in India to which this Sanhita does not extend, in respect of any act which if committed in the territories to which this Sanhita extends, would be an offence punishable under any of the offence punishable with imprisonment for ten years or more or with imprisonment for life or with death under the Bharatiya Nyaya Sanhita, 2023;
+    - **(II)** the expression “proclaimed offender” includes any person proclaimed as an offender by any Court or authority in any territory in India to which this Sanhita does not extend, in respect of any act which if committed in the territories to which this Sanhita extends, would be an offence punishable under any of the offence punishable with imprisonment for ten years or more or with imprisonment for life or with death under the Bharatiya Nyaya Sanhita, 2023;
 
-    - **(iii)** the words “officer employed in connection with the affairs of the village” means a member of the panchayat of the village and includes the headman and every officer or other person appointed to perform any function connected with the administration of the village.
+    - **(III)** the words “officer employed in connection with the affairs of the village” means a member of the panchayat of the village and includes the headman and every officer or other person appointed to perform any function connected with the administration of the village.
 
 ---

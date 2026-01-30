@@ -12,9 +12,9 @@ In this Chapter,—
 
 - **(b)** _“prison”_ includes,—
 
-- **(i)** any place which has been declared by the State Government, by general or special order, to be a subsidiary jail;
+    - **(I)** any place which has been declared by the State Government, by general or special order, to be a subsidiary jail;
 
-    - **(ii)** any reformatory, Borstal institution or other institution of a like nature.
+    - **(II)** any reformatory, Borstal institution or other institution of a like nature.
 
 ---
 

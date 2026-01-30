@@ -36,13 +36,13 @@
 
 **(1)** When an Executive Magistrate receives information that there is within his local jurisdiction any person who, within or without such jurisdiction,—
 
-- **(i)** either orally or in writing or in any other manner, intentionally disseminates or attempts to disseminate or abets the dissemination of,—
+    - **(I)** either orally or in writing or in any other manner, intentionally disseminates or attempts to disseminate or abets the dissemination of,—
 
 - **(a)** any matter the publication of which is punishable under section 152 or section 196 or section 197 or section 299 of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023); or
 
 - **(b)** any matter concerning a Judge acting or purporting to act in the discharge of his official duties which amounts to criminal intimidation or defamation under the Bharatiya Nyaya Sanhita, 2023;
 
-    - **(ii)** makes, produces, publishes or keeps for sale, imports, exports, conveys, sells, lets to hire, distributes, publicly exhibits or in any other manner puts into circulation any obscene matter such as is referred to in section 294 of the Bharatiya Nyaya Sanhita, 2023,
+    - **(II)** makes, produces, publishes or keeps for sale, imports, exports, conveys, sells, lets to hire, distributes, publicly exhibits or in any other manner puts into circulation any obscene matter such as is referred to in section 294 of the Bharatiya Nyaya Sanhita, 2023,
 
 and the Magistrate is of opinion that there is sufficient ground for proceeding, the Magistrate may, in the manner hereinafter provided, require such person to show cause why he should not be ordered to execute a bond or bail bond, for his good behaviour for such period, not exceeding one year, as the Magistrate thinks fit.
 
@@ -72,7 +72,7 @@ When an Executive Magistrate receives information that there is within his local
 
 - **(f)** habitually commits, or attempts to commit, or abets the commission of—
 
-- **(i)** any offence under one or more of the following Acts, namely:—
+    - **(I)** any offence under one or more of the following Acts, namely:—
 
 - **(a)** the Drugs and Cosmetics Act, 1940 (23 of 1940.);
 
@@ -88,7 +88,7 @@ When an Executive Magistrate receives information that there is within his local
 
 - **(g)** the Food Safety and Standards Act, 2006 (34 of 2006); or
 
-    - **(ii)** any offence punishable under any other law providing for the prevention of hoarding or profiteering or of adulteration of food or drugs or of corruption; or
+    - **(II)** any offence punishable under any other law providing for the prevention of hoarding or profiteering or of adulteration of food or drugs or of corruption; or
 
 - **(g)** is so desperate and dangerous as to render his being at large without security hazardous to the community,
 

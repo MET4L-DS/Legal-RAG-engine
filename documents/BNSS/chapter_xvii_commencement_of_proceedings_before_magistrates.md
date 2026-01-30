@@ -50,15 +50,15 @@ Provided that the amount of the fine specified in such summons shall not exceed 
 
 In any case where the proceeding has been instituted on a police report, the Magistrate shall without delay, and in no case beyond fourteen days from the date of production or appearance of the accused, furnish to the accused and the victim (if represented by an advocate) free of cost, a copy of each of the following:—
 
-- **(i)** the police report;
+    - **(I)** the police report;
 
-    - **(ii)** the first information report recorded under section 173;
+    - **(II)** the first information report recorded under section 173;
 
-    - **(iii)** the statements recorded under sub-section (3) of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section (7) of section 193;
+    - **(III)** the statements recorded under sub-section (3) of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section (7) of section 193;
 
-    - **(iv)** the confessions and statements, if any, recorded under section 183;
+    - **(IV)** the confessions and statements, if any, recorded under section 183;
 
-- **(v)** any other document or relevant extract thereof forwarded to the Magistrate with the police report under sub-section (6) of section 193:
+    - **(V)** any other document or relevant extract thereof forwarded to the Magistrate with the police report under sub-section (6) of section 193:
 
 Provided that the Magistrate may, after perusing any such part of a statement as is referred to in clause (iii) and considering the reasons given by the police officer for the request, direct that a copy of that part of the statement or of such portion thereof as the Magistrate thinks proper, shall be furnished to the accused:
 
@@ -72,11 +72,11 @@ Provided also that supply of documents in electronic form shall be considered as
 
 Where, in a case instituted otherwise than on a police report, it appears to the Magistrate issuing process under section 227 that the offence is triable exclusively by the Court of Session, the Magistrate shall forthwith furnish to the accused, free of cost, a copy of each of the following:—
 
-- **(i)** the statements recorded under section 223 or section 225, of all persons examined by the Magistrate;
+    - **(I)** the statements recorded under section 223 or section 225, of all persons examined by the Magistrate;
 
-    - **(ii)** the statements and confessions, if any, recorded under section 180 or section 183;
+    - **(II)** the statements and confessions, if any, recorded under section 180 or section 183;
 
-    - **(iii)** any documents produced before the Magistrate on which the prosecution proposes to rely:
+    - **(III)** any documents produced before the Magistrate on which the prosecution proposes to rely:
 
 Provided that if the Magistrate is satisfied that any such document is voluminous, he shall, instead of furnishing the accused with a copy thereof, direct that he will only be allowed to inspect it either personally or through an advocate in Court:
 

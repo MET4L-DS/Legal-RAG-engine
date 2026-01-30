@@ -22,7 +22,7 @@ In this Chapter, unless the context otherwise requires,—
 
 ## Section 112 — Letter of request to competent authority for investigation in a country or place outside India
 
-(I) If, in the course of an investigation into an offence, an application is made by the investigating officer or any officer superior in rank to the investigating officer that evidence may be available in a country or place outside India, any Criminal Court may issue a letter of request to a Court or an authority in that country or place competent to deal with such request to examine orally any person supposed to be acquainted with the facts and circumstances of the case and to record his statement made in the course of such examination and also to require such person or any other person to produce any document or thing which may be in his possession pertaining to the case and to forward all the evidence so taken or collected or the authenticated copies thereof or the thing so collected to the Court issuing such letter.
+    - **(I)** If, in the course of an investigation into an offence, an application is made by the investigating officer or any officer superior in rank to the investigating officer that evidence may be available in a country or place outside India, any Criminal Court may issue a letter of request to a Court or an authority in that country or place competent to deal with such request to examine orally any person supposed to be acquainted with the facts and circumstances of the case and to record his statement made in the course of such examination and also to require such person or any other person to produce any document or thing which may be in his possession pertaining to the case and to forward all the evidence so taken or collected or the authenticated copies thereof or the thing so collected to the Court issuing such letter.
 
 **(2)** The letter of request shall be transmitted in such manner as the Central Government may specify in this behalf.
 
@@ -34,9 +34,9 @@ In this Chapter, unless the context otherwise requires,—
 
 **(1)** Upon receipt of a letter of request from a Court or an authority in a country or place outside India competent to issue such letter in that country or place for the examination of any person or production of any document or thing in relation to an offence under investigation in that country or place, the Central Government may, if it thinks fit—
 
-- **(i)** forward the same to the Chief Judicial Magistrate or Judicial Magistrate as he may appoint in this behalf, who shall thereupon summon the person before him and record his statement or cause the document or thing to be produced; or
+    - **(I)** forward the same to the Chief Judicial Magistrate or Judicial Magistrate as he may appoint in this behalf, who shall thereupon summon the person before him and record his statement or cause the document or thing to be produced; or
 
-    - **(ii)** send the letter to any police officer for investigation, who shall thereupon investigate into the offence in the same manner,
+    - **(II)** send the letter to any police officer for investigation, who shall thereupon investigate into the offence in the same manner,
 
 as if the offence had been committed within India.
 
@@ -70,7 +70,7 @@ as if the offence had been committed within India.
 
 ## Section 116 — Identifying unlawfully acquired property
 
-(I) The Court shall, under sub-section (I), or on receipt of a letter of request under sub-section (3) of section 115, direct any police officer not below the rank of Sub-Inspector of Police to take all steps necessary for tracing and identifying such property.
+    - **(I)** The Court shall, under sub-section (I), or on receipt of a letter of request under sub-section (3) of section 115, direct any police officer not below the rank of Sub-Inspector of Police to take all steps necessary for tracing and identifying such property.
 
 **(2)** The steps referred to in sub-section (I) may include any inquiry, investigation or survey in respect of any person, place, property, assets, documents, books of account in any bank or public financial institutions or any other relevant matters.
 
@@ -80,7 +80,7 @@ as if the offence had been committed within India.
 
 ## Section 117 — Seizure or attachment of property
 
-(I) Where any officer conducting an inquiry or investigation under section 116 has a reason to believe that any property in relation to which such inquiry or investigation is being conducted is likely to be concealed, transferred or dealt with in any manner which will result in disposal of such property, he may make an order for seizing such property and where it is not practicable to seize such property, he may make an order of attachment directing that such property shall not be transferred or otherwise dealt with, except with the prior permission of the officer making such order, and a copy of such order shall be served on the person concerned.
+    - **(I)** Where any officer conducting an inquiry or investigation under section 116 has a reason to believe that any property in relation to which such inquiry or investigation is being conducted is likely to be concealed, transferred or dealt with in any manner which will result in disposal of such property, he may make an order for seizing such property and where it is not practicable to seize such property, he may make an order of attachment directing that such property shall not be transferred or otherwise dealt with, except with the prior permission of the officer making such order, and a copy of such order shall be served on the person concerned.
 
 **(2)** Any order made under sub-section (I) shall have no effect unless the said order is confirmed by an order of the said Court, within a period of thirty days of its being made.
 
@@ -88,7 +88,7 @@ as if the offence had been committed within India.
 
 ## Section 118 — Management of properties seized or forfeited under this Chapter
 
-(I) The Court may appoint the District Magistrate of the area where the property is situated, or any other officer that may be nominated by the District Magistrate, to perform the functions of an Administrator of such property.
+    - **(I)** The Court may appoint the District Magistrate of the area where the property is situated, or any other officer that may be nominated by the District Magistrate, to perform the functions of an Administrator of such property.
 
 **(2)** The Administrator appointed under sub-section (I) shall receive and manage the property in relation to which the order has been made under sub-section (I) of section 117 or under section 120 in such manner and subject to such conditions as may be specified by the Central Government.
 
@@ -98,7 +98,7 @@ as if the offence had been committed within India.
 
 ## Section 119 — Notice of forfeiture of property
 
-(I) If as a result of the inquiry, investigation or survey under section 116, the Court has reason to believe that all or any of such properties are proceeds of crime, it may serve a notice upon such person (hereinafter referred to as the person affected) calling upon him within a period of thirty days specified in the notice to indicate the source of income, earnings or assets, out of which or by means of which he has acquired such property, the evidence on which he relies and other relevant information and particulars, and to show cause why all or any of such properties, as the case may be, should not be declared to be proceeds of crime and forfeited to the Central Government.
+    - **(I)** If as a result of the inquiry, investigation or survey under section 116, the Court has reason to believe that all or any of such properties are proceeds of crime, it may serve a notice upon such person (hereinafter referred to as the person affected) calling upon him within a period of thirty days specified in the notice to indicate the source of income, earnings or assets, out of which or by means of which he has acquired such property, the evidence on which he relies and other relevant information and particulars, and to show cause why all or any of such properties, as the case may be, should not be declared to be proceeds of crime and forfeited to the Central Government.
 
 **(2)** Where a notice under sub-section (I) to any person specifies any property as being held on behalf of such person by any other person, a copy of the notice shall also be served upon such other person.
 

@@ -106,7 +106,7 @@ Notwithstanding anything in this Sanhita or in any other law for the time being 
 
 ## Section 464 — Suspension of execution of sentence of imprisonment
 
-(I) When an offender has been sentenced to fine only and to imprisonment in default of payment of the fine, and the fine is not paid forthwith, the Court may—
+    - **(I)** When an offender has been sentenced to fine only and to imprisonment in default of payment of the fine, and the fine is not paid forthwith, the Court may—
 
 - **(a)** order that the fine shall be payable either in full on or before a date not more than thirty days from the date of the order, or in two or three installments, of which the first shall be payable on or before a date not more than thirty days from the date of the order and the other or others at an interval or at intervals, as the case may be, of not more than thirty days;
 
@@ -126,7 +126,7 @@ Every warrant for the execution of a sentence may be issued either by the Judge 
 
 ## Section 466 — Sentence on escaped convict when to take effect
 
-(I) When a sentence of death, imprisonment for life or fine is passed under this Sanhita on an escaped convict, such sentence shall, subject to the provisions hereinbefore contained, take effect immediately.
+    - **(I)** When a sentence of death, imprisonment for life or fine is passed under this Sanhita on an escaped convict, such sentence shall, subject to the provisions hereinbefore contained, take effect immediately.
 
 **(2)** When a sentence of imprisonment for a term is passed under this Sanhita on an escaped convict, —
 
@@ -184,9 +184,9 @@ Provided that section 461 shall, in its application to an order under section 40
 
 **(1)** A convict under the sentence of death or his legal heir or any other relative may, if he has not already submitted a petition for mercy, file a mercy petition before the President of India under article 72 or the Governor of the State under article 161 of the Constitution within a period of thirty days from the date on which the Superintendent of the jail,—
 
-- **(i)** informs him about the dismissal of the appeal, review or special leave to appeal by the Supreme Court; or
+    - **(I)** informs him about the dismissal of the appeal, review or special leave to appeal by the Supreme Court; or
 
-    - **(ii)** informs him about the date of confirmation of the sentence of death by the High Court and the time allowed to file an appeal or special leave in the Supreme Court has expired.
+    - **(II)** informs him about the date of confirmation of the sentence of death by the High Court and the time allowed to file an appeal or special leave in the Supreme Court has expired.
 
 **(2)** The petition under sub-section (1) may, initially be made to the Governor and on its rejection or disposal by the Governor, the petition shall be made to the President within a period of sixty days from the date of rejection or disposal of such petition.
 

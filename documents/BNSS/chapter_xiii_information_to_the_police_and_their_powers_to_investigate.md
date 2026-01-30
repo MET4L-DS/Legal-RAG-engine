@@ -8,9 +8,9 @@
 
 **(1)** Every information relating to the commission of a cognizable offence, irrespective of the area where the offence is committed, may be given orally or by electronic communication to an officer in charge of a police station, and if given—
 
-- **(i)** orally, it shall be reduced to writing by him or under his direction, and be read over to the informant; and every such information, whether given in writing or reduced to writing as aforesaid, shall be signed by the person giving it;
+    - **(I)** orally, it shall be reduced to writing by him or under his direction, and be read over to the informant; and every such information, whether given in writing or reduced to writing as aforesaid, shall be signed by the person giving it;
 
-    - **(ii)** by electronic communication, it shall be taken on record by him on being signed within three days by the person giving it,
+    - **(II)** by electronic communication, it shall be taken on record by him on being signed within three days by the person giving it,
 
 and the substance thereof shall be entered in a book to be kept by such officer in such form as the State Government may by rules prescribe in this behalf:
 
@@ -38,9 +38,9 @@ commission of a cognizable offence, shall either investigate the case himself or
 
 cognizable cases and investigation of such cases.**—(1) When information is given to an officer in charge of a police station of the commission within the limits of such station of a non-cognizable offence, he shall enter or cause to be entered the substance of the information in a book to be kept by such officer in such form as the State Government may by rules prescribe in this behalf, and,—
 
-- **(i)** refer the informant to the Magistrate;
+    - **(I)** refer the informant to the Magistrate;
 
-    - **(ii)** forward the daily diary report of all such cases fortnightly to the Magistrate.
+    - **(II)** forward the daily diary report of all such cases fortnightly to the Magistrate.
 
 **(2)** No police officer shall investigate a non-cognizable case without the order of a Magistrate having power to try such case or commit the case for trial.
 
@@ -193,17 +193,17 @@ Provided also that if the person making the statement is temporarily or permanen
 
 **(2)** The registered medical practitioner, to whom such woman is sent, shall, without delay, examine her person and prepare a report of his examination giving the following particulars, namely:—
 
-- **(i)** the name and address of the woman and of the person by whom she was brought;
+    - **(I)** the name and address of the woman and of the person by whom she was brought;
 
-    - **(ii)** the age of the woman;
+    - **(II)** the age of the woman;
 
-    - **(iii)** the description of material taken from the person of the woman for DNA profiling;
+    - **(III)** the description of material taken from the person of the woman for DNA profiling;
 
-    - **(iv)** marks of injury, if any, on the person of the woman;
+    - **(IV)** marks of injury, if any, on the person of the woman;
 
-- **(v)** general mental condition of the woman; and
+    - **(V)** general mental condition of the woman; and
 
-    - **(vi)** other material particulars in reasonable detail.
+    - **(VI)** other material particulars in reasonable detail.
 
 **(3)** The report shall state precisely the reasons for each conclusion arrived at.
 
@@ -262,9 +262,9 @@ has not been released on bail or his bail has been cancelled, authorise, from ti
 
 **(3)** The Magistrate may authorise the detention of the accused person, beyond the period of fifteen days, if he is satisfied that adequate grounds exist for doing so, but no Magistrate shall authorise the detention of the accused person in custody under this sub-section for a total period exceeding—
 
-- **(i)** ninety days, where the investigation relates to an offence punishable with death, imprisonment for life or imprisonment for a term of ten years or more;
+    - **(I)** ninety days, where the investigation relates to an offence punishable with death, imprisonment for life or imprisonment for a term of ten years or more;
 
-    - **(ii)** sixty days, where the investigation relates to any other offence, and, on the expiry of the said period of ninety days, or sixty days, as the case may be, the accused person shall be released on bail if he is prepared to and does furnish bail, and every person released on bail under this sub-section shall be deemed to be so released under the provisions of Chapter XXXV for the purposes of that Chapter.
+    - **(II)** sixty days, where the investigation relates to any other offence, and, on the expiry of the said period of ninety days, or sixty days, as the case may be, the accused person shall be released on bail if he is prepared to and does furnish bail, and every person released on bail under this sub-section shall be deemed to be so released under the provisions of Chapter XXXV for the purposes of that Chapter.
 
 **(4)** No Magistrate shall authorise detention of the accused in custody of the police under this section unless the accused is produced before him in person for the first time and subsequently every time till the accused remains in the custody of the police, but the Magistrate may extend further detention in judicial custody on production of the accused either in person or through the audio-video electronic means.
 
@@ -366,9 +366,9 @@ Provided that if any complainant or witness refuses to attend or to execute a bo
 
 - **(i)** the sequence of custody in case of electronic device;
 
-    - **(ii)** the police officer shall, within a period of ninety days, inform the progress of the investigation by any means including through electronic communication to the informant or the victim;
+    - **(II)** the police officer shall, within a period of ninety days, inform the progress of the investigation by any means including through electronic communication to the informant or the victim;
 
-    - **(iii)** the officer shall also communicate, in such manner as the State Government may, by rules, provide, the action taken by him, to the person, if any, by whom the information relating to the commission of the offence was first given.
+    - **(III)** the officer shall also communicate, in such manner as the State Government may, by rules, provide, the action taken by him, to the person, if any, by whom the information relating to the commission of the offence was first given.
 
 **(4)** Where a superior officer of police has been appointed under section 177, the report shall, in any case in which the State Government by general or special order so directs, be submitted through that officer, and he may, pending the orders of the Magistrate, direct the officer in charge of the police station to make further investigation.
 
@@ -400,15 +400,15 @@ Provided that further investigation during the trial may be conducted with the p
 
 **(3)** When—
 
-- **(i)** the case involves suicide by a woman within seven years of her marriage; or
+    - **(I)** the case involves suicide by a woman within seven years of her marriage; or
 
-    - **(ii)** the case relates to the death of a woman within seven years of her marriage in any circumstances raising a reasonable suspicion that some other person committed an offence in relation to such woman; or
+    - **(II)** the case relates to the death of a woman within seven years of her marriage in any circumstances raising a reasonable suspicion that some other person committed an offence in relation to such woman; or
 
-    - **(iii)** the case relates to the death of a woman within seven years of her marriage and any relative of the woman has made a request in this behalf; or
+    - **(III)** the case relates to the death of a woman within seven years of her marriage and any relative of the woman has made a request in this behalf; or
 
-    - **(iv)** there is any doubt regarding the cause of death; or
+    - **(IV)** there is any doubt regarding the cause of death; or
 
-- **(v)** the police officer for any other reason considers it expedient so to do,
+    - **(V)** the police officer for any other reason considers it expedient so to do,
 
 he shall, subject to such rules as the State Government may prescribe in this behalf, forward the body, with a view to its being examined, to the nearest Civil Surgeon, or other qualified medical person appointed in this behalf by the State Government, if the state of the weather and the distance admit of its being so forwarded without risk of such putrefaction on the road as would render such examination useless.
 

@@ -42,9 +42,9 @@ In computing the period of detention under this section for granting bail, the p
 
 bailable offence.**—(1) When any person accused of, or suspected of, the commission of any non-bailable offence is arrested or detained without warrant by an officer in charge of a police station or appears or is brought before a Court other than the High Court or Court of Session, he may be released on bail, but—
 
-- **(i)** such person shall not be so released if there appear reasonable grounds for believing that he has been guilty of an offence punishable with death or imprisonment for life;
+    - **(I)** such person shall not be so released if there appear reasonable grounds for believing that he has been guilty of an offence punishable with death or imprisonment for life;
 
-    - **(ii)** such person shall not be so released if such offence is a cognizable offence and he had been previously convicted of an offence punishable with death, imprisonment for life or imprisonment for seven years or more, or he had been previously convicted on two or more occasions of a cognizable offence punishable with imprisonment for three years or more but less than seven years:
+    - **(II)** such person shall not be so released if such offence is a cognizable offence and he had been previously convicted of an offence punishable with death, imprisonment for life or imprisonment for seven years or more, or he had been previously convicted on two or more occasions of a cognizable offence punishable with imprisonment for three years or more but less than seven years:
 
 Provided that the Court may direct that a person referred to in clause (i) or clause (ii) be released on bail if such person is a child or is a woman or is sick or infirm:
 
@@ -90,13 +90,13 @@ and may also impose, in the interests of justice, such other conditions as it co
 
 **(2)** When the High Court or the Court of Session makes a direction under sub-section (1), it may include such conditions in such directions in the light of the facts of the particular case, as it may think fit, including—
 
-- **(i)** a condition that the person shall make himself available for interrogation by a police officer as and when required;
+    - **(I)** a condition that the person shall make himself available for interrogation by a police officer as and when required;
 
-    - **(ii)** a condition that the person shall not, directly or indirectly, make any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade him from disclosing such facts to the Court or to any police officer;
+    - **(II)** a condition that the person shall not, directly or indirectly, make any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade him from disclosing such facts to the Court or to any police officer;
 
-    - **(iii)** a condition that the person shall not leave India without the previous permission of the Court;
+    - **(III)** a condition that the person shall not leave India without the previous permission of the Court;
 
-    - **(iv)** such other condition as may be imposed under sub-section (3) of section 480, as if the bail were granted under that section.
+    - **(IV)** such other condition as may be imposed under sub-section (3) of section 480, as if the bail were granted under that section.
 
 **(3)** If such person is thereafter arrested without warrant by an officer in charge of a police station on such accusation, and is prepared either at the time of arrest or at any time while in the custody of such officer to give bail, he shall be released on bail; and if a Magistrate taking cognizance of such offence
 
@@ -233,9 +233,9 @@ When the person required by any Court, or officer to execute a bond is a child, 
 
 All orders passed under section 491 shall be appealable,—
 
-- **(i)** in the case of an order made by a Magistrate, to the Sessions Judge;
+    - **(I)** in the case of an order made by a Magistrate, to the Sessions Judge;
 
-    - **(ii)** in the case of an order made by a Court of Session, to the Court to which an appeal lies from an order made by such Court.
+    - **(II)** in the case of an order made by a Court of Session, to the Court to which an appeal lies from an order made by such Court.
 
 ---
 
