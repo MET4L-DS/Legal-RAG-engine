@@ -1,14 +1,14 @@
 # CHAPTER I PRELIMINARY
 
-1.  1.  This Act may be called the Bharatiya Nagarik Suraksha Sanhita, 2023.
-    2.  The provisions of this Sanhita, other than those relating to Chapters IX, XI and XII thereof, shall not apply—
-        1. ( _a_ ) to the State of Nagaland;
-        2. ( _b_ ) to the tribal areas,
-           but the concerned State Government may, by notification, apply such provisions or any of them to the whole or part of the State of Nagaland or such tribal areas, as the case may be, with such supplemental, incidental or consequential modifications, as may be specified in the notification.
-           _Explanation_ — In this section, "tribal areas" means the territories which immediately before the 21st day of January, 1972, were included in the tribal areas of Assam, as referred to in paragraph 20 of the Sixth Schedule to the Constitution, other than those within the local limits of the municipality of Shillong.
-    3.  It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint.
+1.  1.  ( _1_ ) This Act may be called the Bharatiya Nagarik Suraksha Sanhita, 2023.
+    2.  ( _2_ ) The provisions of this Sanhita, other than those relating to Chapters IX, XI and XII thereof, shall not apply—
+        - ( _a_ ) to the State of Nagaland;
+        - ( _b_ ) to the tribal areas,
+          but the concerned State Government may, by notification, apply such provisions or any of them to the whole or part of the State of Nagaland or such tribal areas, as the case may be, with such supplemental, incidental or consequential modifications, as may be specified in the notification.
+          _Explanation_ — In this section, "tribal areas" means the territories which immediately before the 21st day of January, 1972, were included in the tribal areas of Assam, as referred to in paragraph 20 of the Sixth Schedule to the Constitution, other than those within the local limits of the municipality of Shillong.
+    3.  ( _3_ ) It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint.
 
-2.  1.  In this Sanhita, unless the context otherwise requires —
+2.  1.  ( _1_ ) In this Sanhita, unless the context otherwise requires —
         - ( _a_ ) "audio-video electronic" means shall include use of any communication device for the purposes of video conferencing, recording of processes of identification, search and seizure or evidence, transmission of electronic communication and for such other purposes and by such other means as the State Government may, by rules provide;";
         - ( _b_ ) "bailable offence" means an offence which is shown as bailable in the First Schedule, or which is made bailable by any other law for the time being in force; and "non-bailable offence" means any other offence;
         - ( _c_ ) "charge" includes any head of charge when the charge contains more heads than one;
@@ -20,33 +20,33 @@
             1. ( _i_ ) in relation to any State, the High Court for that State;
             2. ( _ii_ ) in relation to a Union territory to which the jurisdiction of the High Court for a State has been extended by law, that High Court;
             3. ( _iii_ ) in relation to any other Union territory, the highest Court of criminal appeal for that territory other than the Supreme Court of India;
-            4. ( _h_ ) "India" means the territories to which this Sanhita extends;
-            5. ( _i_ ) "inquiry" means every inquiry, other than a trial, conducted under this Sanhita by a Magistrate or Court;
-            6. ( _j_ ) "investigation" includes all the proceedings under this Sanhita for the collection of evidence conducted by a police officer or by any person (other than a Magistrate) who is authorised by a Magistrate in this behalf.
-               _Explanation_ — Where any of the provisions of a special Act are inconsistent with the provisions of this Sanhita, the provisions of the special Act shall prevail.
-        - ( k ) "judicial proceeding" includes any proceeding in the course of which evidence is or may be legally taken on oath
-        - ( l ) "local jurisdiction", in relation to a Court or Magistrate, means the local area within which the Court or Magistrate may exercise all or any of its or his powers under this Sanhita and such local area may comprise the whole of the State, or any part of the State, as the State Government may, by notification, specify;
-        - ( m ) "non-cognizable offence" means an offence for which, and "non-cognizable case" means a case in which, a police officer has no authority to arrest without warrant
-        - ( n ) "notification" means a notification published in the Official Gazette
-        - ( o ) "offence" means any act or omission made punishable by any law for the time being in force and includes any act in respect of which a complaint may be made under section 20 of the Cattle Trespass Act, 1871
-        - ( p ) "officer in charge of a police station" includes, when the officer in charge of the police station is absent from the station-house or unable from illness or other cause to perform his duties, the police officer present at the station-house who is next in rank to such officer and is above the rank of constable or, when the State Government so directs, any other police officer so present
-        - ( q ) "place" includes a house, building, tent, vehicle and vessel
-        - ( r ) "pleader", when used with reference to any proceeding in any Court, means an advocate or a person authorised by or under any law for the time being in force, to practise in such Court, and includes any other person appointed with the permission of the Court to act in such proceeding
-        - ( s ) "police report" means a report forwarded by a police officer to a Magistrate under sub-section ( 1 ) of section 176
-        - ( t ) "police station" means any post or place declared generally or specially by the State Government, to be a police station, and includes any local area specified by the State Government in this behalf
-        - ( u ) "Public Prosecutor" means any person appointed under section 18, and includes any person acting under the directions of a Public Prosecutor
-        - ( v ) "sub-division" means a sub-division of a district
-        - ( w ) "summons-case" means a case relating to an offence, and not being a warrant-case
-        - ( x ) "victim" means a person who has suffered any loss or injury caused by reason of the act or omission for which the accused person has been charged and includes the guardian or legal heir of such victim
-        - ( y ) "warrant-case" means a case relating to an offence punishable with death, imprisonment for life or imprisonment for a term exceeding two years
-    2.  Words and expressions used herein and not defined but defined in the Bharatiya Nyaya Sanhita, 2023 and Information Technology Act, 2000 have the meanings respectively assigned to them in that Act and Sanhita;
-3.  1.  Unless the context otherwise requires, any reference in any existing law, to a Magistrate, Magistrate of the first class or a Magistrate of the second class shall, in relation to any area, be construed as a reference to a Judicial Magistrate of the first class or Judicial Magistrate of the second class, as the case may be, exercising jurisdiction in such area.
-    2.  Where, under any law, other than this Sanhita, the functions exercisable by a Magistrate relate to matters—
-        - ( a ) which involve the appreciation or shifting of evidence or the formulation of any decision which exposes any person to any punishment or penalty or detention in custody pending investigation, inquiry or trial or would have the effect of sending him for trial before any Court, they shall, subject to the provisions of this Sanhita, be exercisable by a Judicial Magistrate; or
-        - ( b ) which are administrative or executive in nature, such as, the granting of a licence, the suspension or cancellation of a licence, sanctioning a prosecution or withdrawing from a prosecution, they shall, subject to the provisions of clause ( a ) be exercisable by an Executive Magistrate.
+        - ( _h_ ) "India" means the territories to which this Sanhita extends;
+        - ( _i_ ) "inquiry" means every inquiry, other than a trial, conducted under this Sanhita by a Magistrate or Court;
+        - ( _j_ ) "investigation" includes all the proceedings under this Sanhita for the collection of evidence conducted by a police officer or by any person (other than a Magistrate) who is authorised by a Magistrate in this behalf.
+          _Explanation_ — Where any of the provisions of a special Act are inconsistent with the provisions of this Sanhita, the provisions of the special Act shall prevail.
+        - ( _k_ ) "judicial proceeding" includes any proceeding in the course of which evidence is or may be legally taken on oath
+        - ( _l_ ) "local jurisdiction", in relation to a Court or Magistrate, means the local area within which the Court or Magistrate may exercise all or any of its or his powers under this Sanhita and such local area may comprise the whole of the State, or any part of the State, as the State Government may, by notification, specify;
+        - ( _m_ ) "non-cognizable offence" means an offence for which, and "non-cognizable case" means a case in which, a police officer has no authority to arrest without warrant
+        - ( _n_ ) "notification" means a notification published in the Official Gazette
+        - ( _o_ ) "offence" means any act or omission made punishable by any law for the time being in force and includes any act in respect of which a complaint may be made under section 20 of the Cattle Trespass Act, 1871
+        - ( _p_ ) "officer in charge of a police station" includes, when the officer in charge of the police station is absent from the station-house or unable from illness or other cause to perform his duties, the police officer present at the station-house who is next in rank to such officer and is above the rank of constable or, when the State Government so directs, any other police officer so present
+        - ( _q_ ) "place" includes a house, building, tent, vehicle and vessel
+        - ( _r_ ) "pleader", when used with reference to any proceeding in any Court, means an advocate or a person authorised by or under any law for the time being in force, to practise in such Court, and includes any other person appointed with the permission of the Court to act in such proceeding
+        - ( _s_ ) "police report" means a report forwarded by a police officer to a Magistrate under sub-section ( 1 ) of section 176
+        - ( _t_ ) "police station" means any post or place declared generally or specially by the State Government, to be a police station, and includes any local area specified by the State Government in this behalf
+        - ( _u_ ) "Public Prosecutor" means any person appointed under section 18, and includes any person acting under the directions of a Public Prosecutor
+        - ( _v_ ) "sub-division" means a sub-division of a district
+        - ( _w_ ) "summons-case" means a case relating to an offence, and not being a warrant-case
+        - ( _x_ ) "victim" means a person who has suffered any loss or injury caused by reason of the act or omission for which the accused person has been charged and includes the guardian or legal heir of such victim
+        - ( _y_ ) "warrant-case" means a case relating to an offence punishable with death, imprisonment for life or imprisonment for a term exceeding two years
+    2.  ( _2_ ) Words and expressions used herein and not defined but defined in the Bharatiya Nyaya Sanhita, 2023 and Information Technology Act, 2000 have the meanings respectively assigned to them in that Act and Sanhita;
+3.  1.  ( _1_ ) Unless the context otherwise requires, any reference in any existing law, to a Magistrate, Magistrate of the first class or a Magistrate of the second class shall, in relation to any area, be construed as a reference to a Judicial Magistrate of the first class or Judicial Magistrate of the second class, as the case may be, exercising jurisdiction in such area.
+    2.  ( _2_ ) Where, under any law, other than this Sanhita, the functions exercisable by a Magistrate relate to matters—
+        - ( _a_ ) which involve the appreciation or shifting of evidence or the formulation of any decision which exposes any person to any punishment or penalty or detention in custody pending investigation, inquiry or trial or would have the effect of sending him for trial before any Court, they shall, subject to the provisions of this Sanhita, be exercisable by a Judicial Magistrate; or
+        - ( _b_ ) which are administrative or executive in nature, such as, the granting of a licence, the suspension or cancellation of a licence, sanctioning a prosecution or withdrawing from a prosecution, they shall, subject to the provisions of clause ( a ) be exercisable by an Executive Magistrate.
 
-4.  1.  All offences under the Bharatiya Nyaya Sanhita, 2023 shall be investigated, inquired into, tried, and otherwise dealt with according to the provisions hereinafter contained.
-    2.  All offences under any other law shall be investigated, inquired into, tried, and otherwise dealt with according to the same provisions, but subject to any enactment for the time being in force regulating the manner or place of investigating, inquiring into, trying or otherwise dealing with such offences.
+4.  1.  ( _1_ ) All offences under the Bharatiya Nyaya Sanhita, 2023 shall be investigated, inquired into, tried, and otherwise dealt with according to the provisions hereinafter contained.
+    2.  ( _2_ ) All offences under any other law shall be investigated, inquired into, tried, and otherwise dealt with according to the same provisions, but subject to any enactment for the time being in force regulating the manner or place of investigating, inquiring into, trying or otherwise dealing with such offences.
 5.  Nothing contained in this Sanhita shall, in the absence of a specific provision to the contrary, affect any special or local law for the time being in force, or any special jurisdiction or power conferred, or any special form of procedure prescribed, by any other law for the time being in force.
 
 # CHAPTER II CONSTITUTION OF CRIMINAL COURTS AND OFFICES
