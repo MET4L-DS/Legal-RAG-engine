@@ -84,9 +84,7 @@ When a Court desires that a summons issued by it shall be served at any place ou
 
 **(1)** Notwithstanding anything contained in the preceding sections of this Chapter, a Court issuing a summons to a witness may, in addition to and simultaneously with the issue of such summons, direct a copy of the summons to be served by electronic communication or by registered post addressed to the witness at the place where he ordinarily resides or carries on business or personally works for gain.
 
-**(2)** When an acknowledgement purporting to be signed by the witness or an endorsement purporting to be made by a postal employee that the witness refused to take delivery of the summons has been received or on the proof of delivery of summons under sub-section
-
-**(3)** of section 70 by electronic communication to the satisfaction of the Court, the Court issuing summons may deem that the summons has been duly served.
+**(2)** When an acknowledgement purporting to be signed by the witness or an endorsement purporting to be made by a postal employee that the witness refused to take delivery of the summons has been received or on the proof of delivery of summons under sub-section (3) of section 70 by electronic communication to the satisfaction of the Court, the Court issuing summons may deem that the summons has been duly served.
 
 B.—Warrant of arrest
 
@@ -164,9 +162,7 @@ A warrant of arrest may be executed at any place in India.
 
 **(1)** When a warrant is to be executed outside the local jurisdiction of the Court issuing it, such Court may, instead of directing the warrant to a police officer within its jurisdiction, forward it by post or otherwise to any Executive Magistrate or District Superintendent of Police or Commissioner of Police within the local limits of whose jurisdiction it is to be executed; and the Executive Magistrate or District Superintendent or Commissioner shall endorse his name thereon, and if practicable, cause it to be executed in the manner hereinbefore provided.
 
-**(2)** The Court issuing a warrant under sub-section
-
-**(1)** shall forward, along with the warrant, the substance of the information against the person to be arrested together with such documents, if any, as may be sufficient to enable the Court acting under section 83 to decide whether bail should or should not be granted to the person.
+**(2)** The Court issuing a warrant under sub-section (1) shall forward, along with the warrant, the substance of the information against the person to be arrested together with such documents, if any, as may be sufficient to enable the Court acting under section 83 to decide whether bail should or should not be granted to the person.
 
 ---
 
@@ -186,9 +182,7 @@ A warrant of arrest may be executed at any place in India.
 
 the arrest was made, or unless security is taken under section 73, be taken before such Magistrate or District Superintendent or Commissioner.
 
-**(2)** On the arrest of any person referred to in sub-section
-
-**(1)** , the police officer shall forthwith give the information regarding such arrest and the place where the arrested person is being held to the designated police officer in the district and to such officer of another district where the arrested person normally resides.
+**(2)** On the arrest of any person referred to in sub-section (1), the police officer shall forthwith give the information regarding such arrest and the place where the arrested person is being held to the designated police officer in the district and to such officer of another district where the arrested person normally resides.
 
 ---
 
@@ -198,9 +192,7 @@ the arrest was made, or unless security is taken under section 73, be taken befo
 
 Provided that, if the offence is bailable, and such person is ready and willing to give bail bond to the satisfaction of such Magistrate, District Superintendent or Commissioner, or a direction has been endorsed under section 73 on the warrant and such person is ready and willing to give the security required by such direction, the Magistrate, District Superintendent or Commissioner shall take such bail bond or security, as the case may be, and forward the bond, to the Court which issued the warrant:
 
-Provided further that if the offence is a non-bailable one, it shall be lawful for the Chief Judicial Magistrate (subject to the provisions of section 480), or the Sessions Judge, of the district in which the arrest is made on consideration of the information and the documents referred to in sub-section
-
-**(2)** of section 80, to release such person on bail.
+Provided further that if the offence is a non-bailable one, it shall be lawful for the Chief Judicial Magistrate (subject to the provisions of section 480), or the Sessions Judge, of the district in which the arrest is made on consideration of the information and the documents referred to in sub-section (2) of section 80, to release such person on bail.
 
 **(2)** Nothing in this section shall be deemed to prevent a police officer from taking security under section 73.
 
@@ -214,9 +206,7 @@ Provided further that if the offence is a non-bailable one, it shall be lawful f
 
 **(2)** The proclamation shall be published as follows:—
 
-- **(i)** 
-
-- **(a)** it shall be publicly read in some conspicuous place of the town or village in which such person ordinarily resides;
+- **(i)** (a) it shall be publicly read in some conspicuous place of the town or village in which such person ordinarily resides;
 
 - **(b)** it shall be affixed to some conspicuous part of the house or homestead in which such person ordinarily resides or to some conspicuous place of such town or village;
 
@@ -224,25 +214,11 @@ Provided further that if the offence is a non-bailable one, it shall be lawful f
 
     - **(ii)** the Court may also, if it thinks fit, direct a copy of the proclamation to be published in a daily newspaper circulating in the place in which such person ordinarily resides.
 
-**(3)** A statement in writing by the Court issuing the proclamation to the effect that the proclamation was duly published on a specified day, in the manner specified in clause
+**(3)** A statement in writing by the Court issuing the proclamation to the effect that the proclamation was duly published on a specified day, in the manner specified in clause (i) of sub-section (2), shall be conclusive evidence that the requirements of this section have been complied with, and that the proclamation was published on such day.
 
-- **(i)** of sub-section
+**(4)** Where a proclamation published under sub-section (1) is in respect of a person accused of an offence which is made punishable with imprisonment of ten years or more, or imprisonment for life or with death under the Bharatiya Nyaya Sanhita, 2023 or under any other law for the time being in force, and such person fails to appear at the specified place and time required by the proclamation, the Court may, after making such inquiry as it thinks fit, pronounce him a proclaimed offender and make a declaration to that effect.
 
-**(2)** , shall be conclusive evidence that the requirements of this section have been complied with, and that the proclamation was published on such day.
-
-**(4)** Where a proclamation published under sub-section
-
-**(1)** is in respect of a person accused of an offence which is made punishable with imprisonment of ten years or more, or imprisonment for life or with death under the Bharatiya Nyaya Sanhita, 2023 or under any other law for the time being in force, and such person fails to appear at the specified place and time required by the proclamation, the Court may, after making such inquiry as it thinks fit, pronounce him a proclaimed offender and make a declaration to that effect.
-
-**(5)** The provisions of sub-sections
-
-**(2)** and
-
-**(3)** shall apply to a declaration made by the Court under sub-section
-
-**(4)** as they apply to the proclamation published under sub-section
-
-**(1)** .
+**(5)** The provisions of sub-sections (2) and (3) shall apply to a declaration made by the Court under sub-section (4) as they apply to the proclamation published under sub-section (1).
 
 ---
 
@@ -298,19 +274,13 @@ in such property, and that such interest is not liable to attachment under secti
 
 Provided that any claim preferred or objection made within the period allowed by this sub-section may, in the event of the death of the claimant or objector, be continued by his legal representative.
 
-**(2)** Claims or objections under sub-section
-
-**(1)** may be preferred or made in the Court by which the order of attachment is issued, or, if the claim or objection is in respect of property attached under an order endorsed under sub-section
-
-**(2)** of section 85, in the Court of the Chief Judicial Magistrate of the district in which the attachment is made.
+**(2)** Claims or objections under sub-section (1) may be preferred or made in the Court by which the order of attachment is issued, or, if the claim or objection is in respect of property attached under an order endorsed under sub-section (2) of section 85, in the Court of the Chief Judicial Magistrate of the district in which the attachment is made.
 
 **(3)** Every such claim or objection shall be inquired into by the Court in which it is preferred or made:
 
 Provided that, if it is preferred or made in the Court of a Chief Judicial Magistrate, he may make it over for disposal to any Magistrate subordinate to him.
 
-**(4)** Any person whose claim or objection has been disallowed in whole or in part by an order under sub-section
-
-**(1)** may, within a period of one year from the date of such order, institute a suit to establish the right which he claims in respect of the property in dispute; but subject to the result of such suit, if any, the order shall be conclusive.
+**(4)** Any person whose claim or objection has been disallowed in whole or in part by an order under sub-section (1) may, within a period of one year from the date of such order, institute a suit to establish the right which he claims in respect of the property in dispute; but subject to the result of such suit, if any, the order shall be conclusive.
 
 ---
 
@@ -320,17 +290,13 @@ Provided that, if it is preferred or made in the Court of a Chief Judicial Magis
 
 **(2)** If the proclaimed person does not appear within the time specified in the proclamation, the property under the attachment shall be at the disposal of the State Government; but it shall not be sold until the expiration of six months from the date of the attachment and until any claim preferred or objection made under section 87 has been disposed of under that section, unless it is subject to speedy and natural decay, or the Court considers that the sale would be for the benefit of the owner; in either of which cases the Court may cause it to be sold whenever it thinks fit.
 
-**(3)** If, within two years from the date of the attachment, any person whose property is or has been at the disposal of the State Government under sub-section
-
-**(2)** , appears voluntarily or is apprehended and brought before the Court by whose order the property was attached, or the Court to which such Court is subordinate, and proves to the satisfaction of such Court that he did not abscond or conceal himself for the purpose of avoiding execution of the warrant, and that he had not such notice of the proclamation as to enable him to attend within the time specified therein, such property, or, if the same has been sold, the net proceeds of the sale, or, if part only thereof has been sold, the net proceeds of the sale and the residue of the property, shall, after satisfying therefrom all costs incurred in consequence of the attachment, be delivered to him.
+**(3)** If, within two years from the date of the attachment, any person whose property is or has been at the disposal of the State Government under sub-section (2), appears voluntarily or is apprehended and brought before the Court by whose order the property was attached, or the Court to which such Court is subordinate, and proves to the satisfaction of such Court that he did not abscond or conceal himself for the purpose of avoiding execution of the warrant, and that he had not such notice of the proclamation as to enable him to attend within the time specified therein, such property, or, if the same has been sold, the net proceeds of the sale, or, if part only thereof has been sold, the net proceeds of the sale and the residue of the property, shall, after satisfying therefrom all costs incurred in consequence of the attachment, be delivered to him.
 
 ---
 
 ## Section 89 — Appeal from order rejecting application for restoration of attached property
 
-Any person referred to in sub-section
-
-**(3)** of section 88, who is aggrieved by any refusal to deliver property or the proceeds of the sale thereof may appeal to the Court to which appeals ordinarily lie from the sentences of the first-mentioned Court.
+Any person referred to in sub-section (3) of section 88, who is aggrieved by any refusal to deliver property or the proceeds of the sale thereof may appeal to the Court to which appeals ordinarily lie from the sentences of the first-mentioned Court.
 
 D.—Other rules regarding processes
 

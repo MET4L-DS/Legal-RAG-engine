@@ -50,9 +50,7 @@ When a warrant is directed to a person other than a police officer, any other pe
 
     - **(ix)** sections 309 to 312 (both inclusive);
 
-- **(x)** sub-section
-
-**(5)** of section 316;
+- **(x)** sub-section (5) of section 316;
 
     - **(xi)** sections 326 to 328 (both inclusive); and
 
@@ -74,11 +72,7 @@ When a warrant is directed to a person other than a police officer, any other pe
 
 - **(d)** the occurrence in or near such village of any sudden or unnatural death or of any death under suspicious circumstances or the discovery in or near such village of any corpse or part of a corpse, in circumstances which lead to a reasonable suspicion that such a death has occurred or the disappearance from such village of any person in circumstances which lead to a reasonable suspicion that a non-bailable offence has been committed in respect of such person;
 
-- **(e)** the commission of, or intention to commit, at any place out of India nearsuch village any act which, if committed in India, would be an offence punishable under any of the following sections of the Bharatiya Nyaya Sanhita, 2023, namely, 103, 105, 111, 112, 113, 178 to 181 (both inclusive), 305, 307, 309 to 312 (both inclusive), clauses
-
-- **(f)** and
-
-- **(g)** of section 326, 331or 332;
+- **(e)** the commission of, or intention to commit, at any place out of India nearsuch village any act which, if committed in India, would be an offence punishable under any of the following sections of the Bharatiya Nyaya Sanhita, 2023, namely, 103, 105, 111, 112, 113, 178 to 181 (both inclusive), 305, 307, 309 to 312 (both inclusive), clauses (f) and (g) of section 326, 331or 332;
 
 - **(f)** any matter likely to affect the maintenance of order or the prevention of crime or the safety of person or property respecting which the District Magistrate, by general or special order made with the previous sanction of the State Government, has directed him to communicate information.
 

@@ -46,7 +46,7 @@ A report made by a police officer in a case which discloses, after investigation
 
 - **(i)** _“electronic communication”_ means the communication of any written, verbal, pictorial information or video content transmitted or transferred (whether from one person to another or from one device to another or from a person to a device or from a device to a person) by means of an electronic device including a telephone, mobile phone, or other wireless telecommunication device, or a computer, or audio-video player or camera or any other electronic device or electronic form as may be specified by notification, by the Central Government;
 
-- **(j)** _“High Court”_ means,—
+- **(j)** _“High Court”_ means—
 
 - **(i)** in relation to any State, the High Court for that State;
 
@@ -77,9 +77,7 @@ officer present at the station-house who is next in rank to such officer and is 
 
 - **(s)** _“place”_ includes a house, building, tent, vehicle and vessel;
 
-- **(t)** _“police report”_ means a report forwarded by a police officer to a Magistrate under sub-section
-
-**(3)** of section 193;
+- **(t)** _“police report”_ means a report forwarded by a police officer to a Magistrate under sub-section (3) of section 193;
 
 - **(u)** _“police station”_ means any post or place declared generally or specially by the State Government, to be a police station, and includes any local area specified by the State Government in this behalf;
 
@@ -103,13 +101,9 @@ officer present at the station-house who is next in rank to such officer and is 
 
 **(2)** Where, under any law, other than this Sanhita, the functions exercisable by a Magistrate relate to matters,—
 
-- **(a)** which involve the appreciation or shifting of evidence or the formulation of any decision which exposes any person to any punishment or penalty or detention in custody pending investigation, inquiry or trial or would have the effect of sending him for trial before any Court, they shall, subject to the provisions of this Sanhita, be exercisable by a Judicial Magistrate;
+- **(a)** which involve the appreciation or shifting of evidence or the formulation of any decision which exposes any person to any punishment or penalty or detention in custody pending investigation, inquiry or trial or would have the effect of sending him for trial before any Court, they shall, subject to the provisions of this Sanhita, be exercisable by a Judicial Magistrate; or
 
-or
-
-- **(b)** which are administrative or executive in nature, such as, the granting of a licence, the suspension or cancellation of a licence, sanctioning a prosecution or withdrawing from a prosecution, they shall, subject to the provisions of clause
-
-- **(a)** be exercisable by an Executive Magistrate.
+- **(b)** which are administrative or executive in nature, such as, the granting of a licence, the suspension or cancellation of a licence, sanctioning a prosecution or withdrawing from a prosecution, they shall, subject to the provisions of clause (a) be exercisable by an Executive Magistrate.
 
 ---
 

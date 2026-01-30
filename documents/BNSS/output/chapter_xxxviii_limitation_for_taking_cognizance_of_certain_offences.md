@@ -12,9 +12,7 @@ For the purposes of this Chapter, unless the context otherwise requires, “peri
 
 ## Section 514 — Bar to taking cognizance after lapse of period of limitation
 
-**(1)** Except as otherwise provided in this Sanhita, no Court shall take cognizance of an offence of the category specified in sub-section
-
-**(2)** , after the expiry of the period of limitation.
+**(1)** Except as otherwise provided in this Sanhita, no Court shall take cognizance of an offence of the category specified in sub-section (2), after the expiry of the period of limitation.
 
 **(2)** The period of limitation shall be—
 

@@ -22,11 +22,7 @@ Any person, —
 
 may appeal against such order to the Court of Session:
 
-Provided that nothing in this section shall apply to persons the proceedings against whom are laid before a Sessions Judge in accordance with the provisions of sub-section
-
-**(2)** or sub-section
-
-**(4)** of section 141.
+Provided that nothing in this section shall apply to persons the proceedings against whom are laid before a Sessions Judge in accordance with the provisions of sub-section (2) or sub-section (4) of section 141.
 
 ---
 
@@ -36,9 +32,7 @@ Provided that nothing in this section shall apply to persons the proceedings aga
 
 **(2)** Any person convicted on a trial held by a Sessions Judge or an Additional Sessions Judge or on a trial held by any other Court in which a sentence of imprisonment for more than seven years has been passed against him or against any other person convicted at the same trial, may appeal to the High Court.
 
-**(3)** Save as otherwise provided in sub-section
-
-**(2)** , any person,—
+**(3)** Save as otherwise provided in sub-section (2), any person,—
 
 - **(a)** convicted on a trial held by Magistrate of the first class, or of the second class; or
 
@@ -86,9 +80,7 @@ Provided that an appeal may be brought against any such sentence if any other pu
 
 ## Section 418 — Appeal by State Government against sentence
 
-**(1)** Save as otherwise provided in sub-section
-
-**(2)** , the State Government may, in any case of conviction on a trial held by any Court other than a High Court, direct the Public Prosecutor to present an appeal against the sentence on the ground of its inadequacy—
+**(1)** Save as otherwise provided in sub-section (2), the State Government may, in any case of conviction on a trial held by any Court other than a High Court, direct the Public Prosecutor to present an appeal against the sentence on the ground of its inadequacy—
 
 - **(a)** to the Court of Session, if the sentence is passed by the Magistrate; and
 
@@ -108,49 +100,25 @@ Provided that an appeal may be brought against any such sentence if any other pu
 
 ## Section 419 — Appeal in case of acquittal
 
-**(1)** Save as otherwise provided in sub-section
-
-**(2)** , and subject to the provisions of sub-sections
-
-**(3)** and
-
-**(5)** ,—
+**(1)** Save as otherwise provided in sub-section (2), and subject to the provisions of sub-sections (3) and (5),—
 
 - **(a)** the District Magistrate may, in any case, direct the Public Prosecutor to present an appeal to the Court of Session from an order of acquittal passed by a Magistrate in respect of a cognizable and non-bailable offence;
 
-- **(b)** the State Government may, in any case, direct the Public Prosecutor to present an appeal to the High Court from an original or appellate order of acquittal passed by any Court other than a High Court not being an order under clause
+- **(b)** the State Government may, in any case, direct the Public Prosecutor to present an appeal to the High Court from an original or appellate order of acquittal passed by any Court other than a High Court not being an order under clause (a) or an order of acquittal passed by the Court of Session in revision.
 
-- **(a)** or an order of acquittal passed by the Court of Session in revision.
-
-**(2)** If such an order of acquittal is passed in a case in which the offence has been investigated by any agency empowered to make investigation into an offence under any Central Act other than this Sanhita, the Central Government may, subject to the provisions of sub-section
-
-**(3)** , also direct the Public Prosecutor to present an appeal—
+**(2)** If such an order of acquittal is passed in a case in which the offence has been investigated by any agency empowered to make investigation into an offence under any Central Act other than this Sanhita, the Central Government may, subject to the provisions of sub-section (3), also direct the Public Prosecutor to present an appeal—
 
 - **(a)** to the Court of Session, from an order of acquittal passed by a Magistrate in respect of a cognizable and non-bailable offence;
 
-- **(b)** to the High Court from an original or appellate order of an acquittal passed by any Court other than a High Court not being an order under clause
+- **(b)** to the High Court from an original or appellate order of an acquittal passed by any Court other than a High Court not being an order under clause (a) or an order of acquittal passed by the Court of Session in revision.
 
-- **(a)** or an order of acquittal passed by the Court of Session in revision.
-
-**(3)** No appeal to the High Court under sub-section
-
-**(1)** or sub-section
-
-**(2)** shall be entertained except with the leave of the High Court.
+**(3)** No appeal to the High Court under sub-section (1) or sub-section (2) shall be entertained except with the leave of the High Court.
 
 **(4)** If such an order of acquittal is passed in any case instituted upon complaint and the High Court, on an application made to it by the complainant in this behalf, grants special leave to appeal from the order of acquittal, the complainant may present such an appeal to the High Court.
 
-**(5)** No application under sub-section
+**(5)** No application under sub-section (4) for the grant of special leave to appeal from an order of acquittal shall be entertained by the High Court after the expiry of six months, where the complainant is a public servant, and sixty days in every other case, computed from the date of that order of acquittal.
 
-**(4)** for the grant of special leave to appeal from an order of acquittal shall be entertained by the High Court after the expiry of six months, where the complainant is a public servant, and sixty days in every other case, computed from the date of that order of acquittal.
-
-**(6)** If, in any case, the application under sub-section
-
-**(4)** for the grant of special leave to appeal from an order of acquittal is refused, no appeal from that order of acquittal shall lie under sub-section
-
-**(1)** or under sub-section
-
-**(2)** .
+**(6)** If, in any case, the application under sub-section (4) for the grant of special leave to appeal from an order of acquittal is refused, no appeal from that order of acquittal shall lie under sub-section (1) or under sub-section (2).
 
 ---
 
@@ -168,9 +136,7 @@ Notwithstanding anything in this Chapter, when more persons than one are convict
 
 ## Section 422 — Appeal to Court of Session how heard
 
-**(1)** Subject to the provisions of sub-section
-
-**(2)** , an appeal to the Court of Session or Sessions Judge shall be heard by the Sessions Judge or by an Additional Sessions Judge:
+**(1)** Subject to the provisions of sub-section (2), an appeal to the Court of Session or Sessions Judge shall be heard by the Sessions Judge or by an Additional Sessions Judge:
 
 Provided that an appeal against a conviction on a trial held by a Magistrate of the second class may be heard and disposed of by the Chief Judicial Magistrate.
 
@@ -326,9 +292,7 @@ Provided that if one of the Judges constituting the Bench, or, where the appeal 
 
 ## Section 434 — Finality of judgments and orders on appeal
 
-Judgments and orders passed by an Appellate Court upon an appeal shall be final, except in the cases provided for in section 418, section 419, sub-section
-
-**(4)** of section 425 or Chapter XXXII:
+Judgments and orders passed by an Appellate Court upon an appeal shall be final, except in the cases provided for in section 418, section 419, sub-section (4) of section 425 or Chapter XXXII:
 
 Provided that notwithstanding the final disposal of an appeal against conviction in any case, the Appellate Court may hear and dispose of, on the merits,—
 

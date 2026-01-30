@@ -17,25 +17,13 @@ For the purposes of this section, "property" includes—
 
 - **(b)** any property regarding which an offence appears to have been committed or which appears to have been used for the commission of any offence.
 
-**(2)** The Court or the Magistrate shall, within a period of fourteen days from the production of the property referred to in sub-section
+**(2)** The Court or the Magistrate shall, within a period of fourteen days from the production of the property referred to in sub-section (1) before it, prepare a statement of such property containing its description in such form and manner as the State Government may, by rules, provide.
 
-**(1)** before it, prepare a statement of such property containing its description in such form and manner as the State Government may, by rules, provide.
+**(3)** The Court or the Magistrate shall cause to be taken the photograph and if necessary, videograph on mobile phone or any electronic media, of the property referred to in sub-section (1).
 
-**(3)** The Court or the Magistrate shall cause to be taken the photograph and if necessary, videograph on mobile phone or any electronic media, of the property referred to in sub-section
+**(4)** The statement prepared under sub-section (2) and the photograph or the videography taken under sub-section (3) shall be used as evidence in any inquiry, trial or other proceeding under the Sanhita.
 
-**(1)** .
-
-**(4)** The statement prepared under sub-section
-
-**(2)** and the photograph or the videography taken under sub-section
-
-**(3)** shall be used as evidence in any inquiry, trial or other proceeding under the Sanhita.
-
-**(5)** The Court or the Magistrate shall, within a period of thirty days after the statement has been prepared under sub-section
-
-**(2)** and the photograph or the videography has been taken under sub-section
-
-**(3)** , order the disposal, destruction, confiscation or delivery of the property in the manner specified hereinafter.
+**(5)** The Court or the Magistrate shall, within a period of thirty days after the statement has been prepared under sub-section (2) and the photograph or the videography has been taken under sub-section (3), order the disposal, destruction, confiscation or delivery of the property in the manner specified hereinafter.
 
 ---
 
@@ -43,21 +31,11 @@ For the purposes of this section, "property" includes—
 
 **(1)** When an investigation, inquiry or trial in any criminal case is concluded, the Court or the Magistrate may make such order as it thinks fit for the disposal, by destruction, confiscation or delivery to any person claiming to be entitled to possession thereof or otherwise, of any property or document produced before it or in its custody, or regarding which any offence appears to have been committed, or which has been used for the commission of any offence.
 
-**(2)** An order may be made under sub-section
+**(2)** An order may be made under sub-section (1) for the delivery of any property to any person claiming to be entitled to the possession thereof, without any condition or on condition that he executes a bond, with or without securities, to the satisfaction of the Court or the Magistrate, engaging to restore such property to the Court if the order made under sub-section (1) is modified or set aside on appeal or revision.
 
-**(1)** for the delivery of any property to any person claiming to be entitled to the possession thereof, without any condition or on condition that he executes a bond, with or without securities, to the satisfaction of the Court or the Magistrate, engaging to restore such property to the Court if the order made under sub-section
+**(3)** A Court of Session may, instead of itself making an order under sub-section (1), direct the property to be delivered to the Chief Judicial Magistrate, who shall thereupon deal with it in the manner provided in sections 503, 504 and 505.
 
-**(1)** is modified or set aside on appeal or revision.
-
-**(3)** A Court of Session may, instead of itself making an order under sub-section
-
-**(1)** , direct the property to be delivered to the Chief Judicial Magistrate, who shall thereupon deal with it in the manner provided in sections 503, 504 and 505.
-
-**(4)** Except where the property is livestock or is subject to speedy and natural decay, or where a bond has been executed in pursuance of sub-section
-
-**(2)** , an order made under sub-section
-
-**(1)** shall not be carried out for two months, or when an appeal is presented, until such appeal has been disposed of.
+**(4)** Except where the property is livestock or is subject to speedy and natural decay, or where a bond has been executed in pursuance of sub-section (2), an order made under sub-section (1) shall not be carried out for two months, or when an appeal is presented, until such appeal has been disposed of.
 
 **(5)** In this section, the term "property" includes, in the case of property regarding which an offence appears to have been committed, not only such property as has been originally in the possession or under the control of any party, but also any property into or for which the same may have been converted or exchanged, and anything acquired by such conversion or exchange, whether immediately or otherwise.
 
@@ -75,21 +53,13 @@ When any person is convicted of any offence which includes, or amounts to, theft
 
 **(2)** On such appeal, the Appellate Court may direct the order to be stayed pending disposal of the appeal, or may modify, alter or annul the order and make any further orders that may be just.
 
-**(3)** The powers referred to in sub-section
-
-**(2)** may also be exercised by a Court of appeal, confirmation or revision while dealing with the case in which the order referred to in sub-section
-
-**(1)** was made.
+**(3)** The powers referred to in sub-section (2) may also be exercised by a Court of appeal, confirmation or revision while dealing with the case in which the order referred to in sub-section (1) was made.
 
 ---
 
 ## Section 501 — Destruction of libellous and other matter
 
-**(1)** On a conviction under section 294, section 295, or sub-sections
-
-**(3)** and
-
-**(4)** of section 356 of the Bharatiya Nyaya Sanhita, 2023, the Court may order the destruction of all the copies of the thing in respect of which the conviction was had, and which are in the custody of the Court or remain in the possession or power of the person convicted.
+**(1)** On a conviction under section 294, section 295, or sub-sections (3) and (4) of section 356 of the Bharatiya Nyaya Sanhita, 2023, the Court may order the destruction of all the copies of the thing in respect of which the conviction was had, and which are in the custody of the Court or remain in the possession or power of the person convicted.
 
 **(2)** The Court may, in like manner, on a conviction under section 274, section 275, section 276 or section 277 of the Bharatiya Nyaya Sanhita, 2023, order the food, drink, drug or medical preparation in respect of which the conviction was had, to be destroyed.
 
@@ -101,13 +71,9 @@ When any person is convicted of any offence which includes, or amounts to, theft
 
 Provided that no such order shall be made by the Court more than one month after the date of the conviction.
 
-**(2)** Where the Court trying the offence has not made an order under sub-section
+**(2)** Where the Court trying the offence has not made an order under sub-section (1), the Court of appeal, confirmation or revision may, if it thinks fit, make such order while disposing of the appeal, reference or revision, as the case may be.
 
-**(1)** , the Court of appeal, confirmation or revision may, if it thinks fit, make such order while disposing of the appeal, reference or revision, as the case may be.
-
-**(3)** Where an order has been made under sub-section
-
-**(1)** , the provisions of section 500 shall apply in relation thereto as they apply in relation to an order under section 499.
+**(3)** Where an order has been made under sub-section (1), the provisions of section 500 shall apply in relation thereto as they apply in relation to an order under section 499.
 
 **(4)** No order made under this section shall prejudice any right or interest to or in such immovable property which any person may be able to establish in a civil suit.
 

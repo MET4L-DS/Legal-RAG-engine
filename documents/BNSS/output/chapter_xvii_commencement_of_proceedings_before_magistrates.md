@@ -14,13 +14,9 @@
 
 Provided that summons or warrants may also be issued through electronic means.
 
-**(2)** No summons or warrant shall be issued against the accused under sub-section
+**(2)** No summons or warrant shall be issued against the accused under sub-section (1) until a list of the prosecution witnesses has been filed.
 
-**(1)** until a list of the prosecution witnesses has been filed.
-
-**(3)** In a proceeding instituted upon a complaint made in writing, every summons or warrant issued under sub-section
-
-**(1)** shall be accompanied by a copy of such complaint.
+**(3)** In a proceeding instituted upon a complaint made in writing, every summons or warrant issued under sub-section (1) shall be accompanied by a copy of such complaint.
 
 **(4)** When by any law for the time being in force any process-fees or other fees are payable, no process shall be issued until the fees are paid and, if such fees are not paid within a reasonable time, the Magistrate may dismiss the complaint.
 
@@ -46,9 +42,7 @@ Provided that the amount of the fine specified in such summons shall not exceed 
 
 **(2)** For the purposes of this section, “petty offence” means any offence punishable only with fine not exceeding five thousand rupees, but does not include any offence so punishable under the Motor Vehicles Act, 1988 (59 of 1988), or under any other law which provides for convicting the accused person in his absence on a plea of guilty.
 
-**(3)** The State Government may, by notification, specially empower any Magistrate to exercise the powers conferred by sub-section
-
-**(1)** in relation to any offence which is compoundable under section 359 or any offence punishable with imprisonment for a term not exceeding three months, or with fine, or with both where the Magistrate is of opinion that, having regard to the facts and circumstances of the case, the imposition of fine only would meet the ends of justice.
+**(3)** The State Government may, by notification, specially empower any Magistrate to exercise the powers conferred by sub-section (1) in relation to any offence which is compoundable under section 359 or any offence punishable with imprisonment for a term not exceeding three months, or with fine, or with both where the Magistrate is of opinion that, having regard to the facts and circumstances of the case, the imposition of fine only would meet the ends of justice.
 
 ---
 
@@ -60,21 +54,13 @@ In any case where the proceeding has been instituted on a police report, the Mag
 
     - **(ii)** the first information report recorded under section 173;
 
-    - **(iii)** the statements recorded under sub-section
-
-**(3)** of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section
-
-**(7)** of section 193;
+    - **(iii)** the statements recorded under sub-section (3) of section 180 of all persons whom the prosecution proposes to examine as its witnesses, excluding therefrom any part in regard to which a request for such exclusion has been made by the police officer under sub-section (7) of section 193;
 
     - **(iv)** the confessions and statements, if any, recorded under section 183;
 
-- **(v)** any other document or relevant extract thereof forwarded to the Magistrate with the police report under sub-section
+- **(v)** any other document or relevant extract thereof forwarded to the Magistrate with the police report under sub-section (6) of section 193:
 
-**(6)** of section 193:
-
-Provided that the Magistrate may, after perusing any such part of a statement as is referred to in clause
-
-    - **(iii)** and considering the reasons given by the police officer for the request, direct that a copy of that part of the statement or of such portion thereof as the Magistrate thinks proper, shall be furnished to the accused:
+Provided that the Magistrate may, after perusing any such part of a statement as is referred to in clause (iii) and considering the reasons given by the police officer for the request, direct that a copy of that part of the statement or of such portion thereof as the Magistrate thinks proper, shall be furnished to the accused:
 
 Provided further that if the Magistrate is satisfied that any such document is voluminous, he shall, instead of furnishing the accused and the victim (if represented by an advocate) with a copy thereof, may furnish the copies through electronic means or direct that he will only be allowed to inspect it either personally or through an advocate in Court:
 

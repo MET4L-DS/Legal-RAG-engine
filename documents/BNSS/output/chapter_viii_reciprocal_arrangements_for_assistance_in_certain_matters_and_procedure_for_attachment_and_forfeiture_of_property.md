@@ -40,9 +40,7 @@ In this Chapter, unless the context otherwise requires,—
 
 as if the offence had been committed within India.
 
-**(2)** All the evidence taken or collected under sub-section
-
-**(1)** , or authenticated copies thereof or the thing so collected, shall be forwarded by the Magistrate or police officer, as the case may be, to the Central Government for transmission to the Court or the authority issuing the letter of request, in such manner as the Central Government may deem fit.
+**(2)** All the evidence taken or collected under sub-section (1), or authenticated copies thereof or the thing so collected, shall be forwarded by the Magistrate or police officer, as the case may be, to the Central Government for transmission to the Court or the authority issuing the letter of request, in such manner as the Central Government may deem fit.
 
 ---
 
@@ -54,15 +52,9 @@ as if the offence had been committed within India.
 
 **(3)** Where a Court in India, in relation to a criminal matter, has received a warrant for arrest of any person requiring him to attend or attend and produce a document or other thing in that Court or before any other investigating agency, issued by a Court, Judge or Magistrate in a contracting State, the same shall be executed as if it is the warrant received by it from another Court in India for execution within its local limits.
 
-**(4)** Where a person transferred to a contracting State pursuant to sub-section
+**(4)** Where a person transferred to a contracting State pursuant to sub-section (3) is a prisoner in India, the Court in India or the Central Government may impose such conditions as that Court or Government deems fit.
 
-**(3)** is a prisoner in India, the Court in India or the Central Government may impose such conditions as that Court or Government deems fit.
-
-**(5)** Where the person transferred to India pursuant to sub-section
-
-**(1)** or sub-section
-
-**(2)** is a prisoner in a contracting State, the Court in India shall ensure that the conditions subject to which the prisoner is transferred to India are complied with and such prisoner shall be kept in such custody subject to such conditions as the Central Government may direct in writing.
+**(5)** Where the person transferred to India pursuant to sub-section (1) or sub-section (2) is a prisoner in a contracting State, the Court in India shall ensure that the conditions subject to which the prisoner is transferred to India are complied with and such prisoner shall be kept in such custody subject to such conditions as the Central Government may direct in writing.
 
 ---
 
@@ -78,15 +70,11 @@ as if the offence had been committed within India.
 
 ## Section 116 — Identifying unlawfully acquired property
 
-(I) The Court shall, under sub-section (I), or on receipt of a letter of request under sub-section
-
-**(3)** of section 115, direct any police officer not below the rank of Sub-Inspector of Police to take all steps necessary for tracing and identifying such property.
+(I) The Court shall, under sub-section (I), or on receipt of a letter of request under sub-section (3) of section 115, direct any police officer not below the rank of Sub-Inspector of Police to take all steps necessary for tracing and identifying such property.
 
 **(2)** The steps referred to in sub-section (I) may include any inquiry, investigation or survey in respect of any person, place, property, assets, documents, books of account in any bank or public financial institutions or any other relevant matters.
 
-**(3)** Any inquiry, investigation or survey referred to in sub-section
-
-**(2)** shall be carried out by an officer mentioned in sub-section (I) in accordance with such directions issued by the said Court in this behalf.
+**(3)** Any inquiry, investigation or survey referred to in sub-section (2) shall be carried out by an officer mentioned in sub-section (I) in accordance with such directions issued by the said Court in this behalf.
 
 ---
 
@@ -122,9 +110,7 @@ as if the offence had been committed within India.
 
 Provided that if the person affected (and in a case where the person affected holds any property specified in the notice through any other person such other person also) does not appear before the Court or represent his case before it within a period of thirty days specified in the show-cause notice, the Court may proceed to record a finding under this sub-section *ex parte* on the basis of evidence available before it.
 
-**(2)** Where the Court is satisfied that some of the properties referred to in the show-cause notice are proceeds of crime but it is not possible to identify specifically such properties, then, it shall be lawful for the Court to specify the properties which, to the best of its judgment, are proceeds of crime and record a finding accordingly under sub-section
-
-**(1)** .
+**(2)** Where the Court is satisfied that some of the properties referred to in the show-cause notice are proceeds of crime but it is not possible to identify specifically such properties, then, it shall be lawful for the Court to specify the properties which, to the best of its judgment, are proceeds of crime and record a finding accordingly under sub-section (1).
 
 **(3)** Where the Court records a finding under this section to the effect that any property is proceeds of crime, such property shall stand forfeited to the Central Government free from all encumbrances.
 
@@ -136,21 +122,15 @@ Provided that if the person affected (and in a case where the person affected ho
 
 **(1)** Where the Court makes a declaration that any property stands forfeited to the Central Government under section 120 and it is a case where the source of only a part of such property has not been proved to the satisfaction of the Court, it shall make an order giving an option to the person affected to pay, *in lieu* of forfeiture, a fine equal to the market value of such part.
 
-**(2)** Before making an order imposing a fine under sub-section
+**(2)** Before making an order imposing a fine under sub-section (1), the person affected shall be given a reasonable opportunity of being heard.
 
-**(1)** , the person affected shall be given a reasonable opportunity of being heard.
-
-**(3)** Where the person affected pays the fine due under sub-section
-
-**(1)** , within such time as may be allowed in that behalf, the Court may, by order, revoke the declaration of forfeiture under section 120 and thereupon such property shall stand released.
+**(3)** Where the person affected pays the fine due under sub-section (1), within such time as may be allowed in that behalf, the Court may, by order, revoke the declaration of forfeiture under section 120 and thereupon such property shall stand released.
 
 ---
 
 ## Section 122 — Certain transfers to be null and void
 
-Where after the making of an order under sub-section
-
-**(1)** of section 117 or the issue of a notice under section 119, any property referred to in the said order or notice is transferred by any mode whatsoever such transfers shall, for the purposes of the proceedings under this Chapter, be ignored and if such property is subsequently forfeited to the Central Government under section 120, then, the transfer of such property shall be deemed to be *null and void*.
+Where after the making of an order under sub-section (1) of section 117 or the issue of a notice under section 119, any property referred to in the said order or notice is transferred by any mode whatsoever such transfers shall, for the purposes of the proceedings under this Chapter, be ignored and if such property is subsequently forfeited to the Central Government under section 120, then, the transfer of such property shall be deemed to be *null and void*.
 
 ---
 

@@ -14,25 +14,11 @@
 
 - **(c)** by reading out the operative part of the judgment and explaining the substance of the judgment in a language which is understood by the accused or his advocate.
 
-**(2)** Where the judgment is delivered under clause
+**(2)** Where the judgment is delivered under clause (a) of sub-section (1), the presiding officer shall cause it to be taken down in short-hand, sign the transcript and every page thereof as soon as it is made ready, and write on it the date of the delivery of the judgment in open Court.
 
-- **(a)** of sub-section
+**(3)** Where the judgment or the operative part thereof is read out under clause (b) or clause (c) of sub-section (1), as the case may be, it shall be dated and signed by the presiding officer in open Court, and if it is not written with his own hand, every page of the judgment shall be signed by him.
 
-**(1)** , the presiding officer shall cause it to be taken down in short-hand, sign the transcript and every page thereof as soon as it is made ready, and write on it the date of the delivery of the judgment in open Court.
-
-**(3)** Where the judgment or the operative part thereof is read out under clause
-
-- **(b)** or clause
-
-- **(c)** of sub-section
-
-**(1)** , as the case may be, it shall be dated and signed by the presiding officer in open Court, and if it is not written with his own hand, every page of the judgment shall be signed by him.
-
-**(4)** Where the judgment is pronounced in the manner specified in clause
-
-- **(c)** of sub-section
-
-**(1)** , the whole judgment or a copy thereof shall be immediately made available for the perusal of the parties or their advocates free of cost:
+**(4)** Where the judgment is pronounced in the manner specified in clause (c) of sub-section (1), the whole judgment or a copy thereof shall be immediately made available for the perusal of the parties or their advocates free of cost:
 
 Provided that the Court shall, as far as practicable, upload the copy of the judgment on its portal within a period of seven days from the date of judgment.
 
@@ -68,9 +54,7 @@ Provided that where there are more accused persons than one, and one or more of 
 
 **(5)** When any person is sentenced to death, the sentence shall direct that he be hanged by the neck till he is dead.
 
-**(6)** Every order under section 136 or sub-section
-
-**(2)** of section 157 and every final order made under section 144, section 164 or section 166 shall contain the point or points for determination, the decision thereon and the reasons for the decision.
+**(6)** Every order under section 136 or sub-section (2) of section 157 and every final order made under section 144, section 164 or section 166 shall contain the point or points for determination, the decision thereon and the reasons for the decision.
 
 ---
 
@@ -78,9 +62,7 @@ Provided that where there are more accused persons than one, and one or more of 
 
 **(1)** When any person, having been convicted by a Court in India of an offence punishable with imprisonment for a term of three years, or upwards, is again convicted of any offence punishable with imprisonment for a term of three years or upwards by any Court other than that of a Magistrate of the second class, such Court may, if it thinks fit, at the time of passing a sentence of imprisonment on such person, also order that his residence and any change of, or absence from, such residence after release be notified as hereinafter provided for a term not exceeding five years from the date of the expiration of such sentence.
 
-**(2)** The provisions of sub-section
-
-**(1)** shall also apply to criminal conspiracies to commit such offences and to the abetment of such offences and attempts to commit them.
+**(2)** The provisions of sub-section (1) shall also apply to criminal conspiracies to commit such offences and to the abetment of such offences and attempts to commit them.
 
 **(3)** If such conviction is set aside on appeal or otherwise, such order shall become void.
 
@@ -118,31 +100,23 @@ Provided that where there are more accused persons than one, and one or more of 
 
 **(1)** Every State Government in co-ordination with the Central Government shall prepare a scheme for providing funds for the purpose of compensation to the victim or his dependents who have suffered loss or injury as a result of the crime and who require rehabilitation.
 
-**(2)** Whenever a recommendation is made by the Court for compensation, the District Legal Service Authority or the State Legal Service Authority, as the case may be, shall decide the quantum of compensation to be awarded under the scheme referred to in sub-section
-
-**(1)** .
+**(2)** Whenever a recommendation is made by the Court for compensation, the District Legal Service Authority or the State Legal Service Authority, as the case may be, shall decide the quantum of compensation to be awarded under the scheme referred to in sub-section (1).
 
 **(3)** If the trial Court, at the conclusion of the trial, is satisfied, that the compensation awarded under section 395 is not adequate for such rehabilitation, or where the cases end in acquittal or discharge and the victim has to be rehabilitated, it may make recommendation for compensation.
 
 **(4)** Where the offender is not traced or identified, but the victim is identified, and where no trial takes place, the victim or his dependents may make an application to the State or the District Legal Services Authority for award of compensation.
 
-**(5)** On receipt of such recommendations or on the application under sub-section
-
-**(4)** , the State or the District Legal Services Authority shall, after due enquiry award adequate compensation by completing the enquiry within two months.
+**(5)** On receipt of such recommendations or on the application under sub-section (4), the State or the District Legal Services Authority shall, after due enquiry award adequate compensation by completing the enquiry within two months.
 
 **(6)** The State or the District Legal Services Authority, as the case may be, to alleviate the suffering of the victim, may order for immediate first-aid facility or medical benefits to be made available free of cost on the certificate of the police officer not below the rank of the officer in charge of the police station or a Magistrate of the area concerned, or any other interim relief as the appropriate authority deems fit.
 
-**(7)** The compensation payable by the State Government under this section shall be in addition to the payment of fine to the victim under section 65, section 70 and sub-section
-
-**(1)** of section 124 of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023).
+**(7)** The compensation payable by the State Government under this section shall be in addition to the payment of fine to the victim under section 65, section 70 and sub-section (1) of section 124 of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023).
 
 ---
 
 ## Section 397 — Treatment of victims
 
-All hospitals, public or private, whether run by the Central Government, the State Government, local bodies or any other person, shall immediately, provide the first-aid or medical treatment, free of cost, to the victims of any offence covered under section 64, section 65, section 66, section 67, section 68, section 70, section 71 or sub-section
-
-**(1)** of section 124 of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023) or under sections 4, 6, 8 or section 10 of the Protection of Children from Sexual Offences Act, 2012 (32 of 2012), and shall immediately inform the police of such incident.
+All hospitals, public or private, whether run by the Central Government, the State Government, local bodies or any other person, shall immediately, provide the first-aid or medical treatment, free of cost, to the victims of any offence covered under section 64, section 65, section 66, section 67, section 68, section 70, section 71 or sub-section (1) of section 124 of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023) or under sections 4, 6, 8 or section 10 of the Protection of Children from Sexual Offences Act, 2012 (32 of 2012), and shall immediately inform the police of such incident.
 
 ---
 
@@ -164,9 +138,7 @@ Every State Government shall prepare and notify a Witness Protection Scheme for 
 
 ## Section 400 — Order to pay costs in non
 
-cognizable cases.**—
-
-**(1)** Whenever any complaint of a non-cognizable offence is made to a Court, the Court, if it convicts the accused, may, in addition to the penalty imposed upon him, order him to pay to the complainant, in whole or in part, the cost incurred by him in the prosecution, and may further order that in default of payment, the accused shall suffer simple imprisonment for a period not exceeding thirty days and such costs may include any expenses incurred in respect of process-fees, witnesses and advocate's fees which the Court may consider reasonable.
+cognizable cases.**—(1) Whenever any complaint of a non-cognizable offence is made to a Court, the Court, if it convicts the accused, may, in addition to the penalty imposed upon him, order him to pay to the complainant, in whole or in part, the cost incurred by him in the prosecution, and may further order that in default of payment, the accused shall suffer simple imprisonment for a period not exceeding thirty days and such costs may include any expenses incurred in respect of process-fees, witnesses and advocate's fees which the Court may consider reasonable.
 
 **(2)** An order under this section may also be made by an Appellate Court or by the High Court or Court of Session when exercising its powers of revision.
 
@@ -178,13 +150,9 @@ cognizable cases.**—
 
 convicted of an offence not punishable with death or imprisonment for life, and no previous conviction is proved against the offender, if it appears to the Court before which he is convicted, regard being had to the age, character or antecedents of the offender, and to the circumstances in which the offence was committed, that it is expedient that the offender should be released on probation of good conduct, the Court may, instead of sentencing him at once to any punishment, direct that he be released on his entering into a bond or bail bond to appear and receive sentence when called upon during such period (not exceeding three years) as the Court may direct, and in the meantime to keep the peace and be of good behavior:
 
-Provided that where any first offender is convicted by a Magistrate of the second class not specially empowered by the High Court, and the Magistrate is of opinion that the powers conferred by this section should be exercised, he shall record his opinion to that effect, and submit the proceedings to a Magistrate of the first class, forwarding the accused to, or taking bail for his appearance before, such Magistrate, who shall dispose of the case in the manner provided by sub-section
+Provided that where any first offender is convicted by a Magistrate of the second class not specially empowered by the High Court, and the Magistrate is of opinion that the powers conferred by this section should be exercised, he shall record his opinion to that effect, and submit the proceedings to a Magistrate of the first class, forwarding the accused to, or taking bail for his appearance before, such Magistrate, who shall dispose of the case in the manner provided by sub-section (2).
 
-**(2)** .
-
-**(2)** Where proceedings are submitted to a Magistrate of the first class as provided by sub-section
-
-**(1)** , such Magistrate may thereupon pass such sentence or make such order as he might have passed or made if the case had originally been heard by him, and, if he thinks further inquiry or additional evidence on any point to be necessary, he may make such inquiry or take such evidence himself or direct such inquiry or evidence to be made or taken.
+**(2)** Where proceedings are submitted to a Magistrate of the first class as provided by sub-section (1), such Magistrate may thereupon pass such sentence or make such order as he might have passed or made if the case had originally been heard by him, and, if he thinks further inquiry or additional evidence on any point to be necessary, he may make such inquiry or take such evidence himself or direct such inquiry or evidence to be made or taken.
 
 **(3)** In any case in which a person is convicted of theft, theft in a building, dishonest misappropriation, cheating or any offence under the Bharatiya Nyaya Sanhita, 2023, punishable with not more than two years' imprisonment or any offence punishable with fine only and no previous conviction is proved against him, the Court before which he is so convicted may, if it thinks fit, having regard to the age, character, antecedents or physical or mental condition of the offender and to the trivial nature of the offence or any extenuating circumstances under which the offence was committed, instead of sentencing him to any punishment, release him after due admonition.
 
@@ -196,9 +164,7 @@ Provided that the High Court or Court of Session shall not under this sub-sectio
 
 **(6)** The provisions of sections 140, 143 and 414 shall, so far as may be, apply in the case of securities offered in pursuance of the provisions of this section.
 
-**(7)** The Court, before directing the release of an offender under sub-section
-
-**(1)** , shall be satisfied that an offender or his surety (if any) has a fixed place of abode or regular occupation in the place for which the Court acts or in which the offender is likely to live during the period named for the observance of the conditions.
+**(7)** The Court, before directing the release of an offender under sub-section (1), shall be satisfied that an offender or his surety (if any) has a fixed place of abode or regular occupation in the place for which the Court acts or in which the offender is likely to live during the period named for the observance of the conditions.
 
 **(8)** If the Court which convicted the offender, or a Court which could have dealt with the offender in respect of his original offence, is satisfied that the offender has failed to observe any of the conditions of his recognizance, it may issue a warrant for his apprehension.
 
@@ -234,15 +200,11 @@ Save as otherwise provided by this Sanhita or by any other law for the time bein
 
 Provided that where a sentence of death is passed or confirmed by the High Court, a certified copy of the judgment shall be immediately given to the accused free of cost whether or not he applies for the same.
 
-**(3)** The provisions of sub-section
-
-**(2)** shall apply in relation to an order under section 136 as they apply in relation to a judgment which is appealable by the accused.
+**(3)** The provisions of sub-section (2) shall apply in relation to an order under section 136 as they apply in relation to a judgment which is appealable by the accused.
 
 **(4)** When the accused is sentenced to death by any Court and an appeal lies from such judgment as of right, the Court shall inform him of the period within which, if he wishes to appeal, his appeal should be preferred.
 
-**(5)** Save as otherwise provided in sub-section
-
-**(2)** , any person affected by a judgment or order passed by a Criminal Court shall, on an application made in this behalf and on payment of the prescribed charges, be given a copy of such judgment or order or of any deposition or other part of the record:
+**(5)** Save as otherwise provided in sub-section (2), any person affected by a judgment or order passed by a Criminal Court shall, on an application made in this behalf and on payment of the prescribed charges, be given a copy of such judgment or order or of any deposition or other part of the record:
 
 Provided that the Court may, if it thinks fit for some special reason, give it to him free of cost:
 

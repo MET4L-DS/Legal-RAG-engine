@@ -18,9 +18,7 @@
 
 a Magistrate of the first class may, upon proof of such neglect or refusal, order such person to make a monthly allowance for the maintenance of his wife or such child, father or mother, at such monthly rate as such Magistrate thinks fit and to pay the same to such person as the Magistrate may from time to time direct:
 
-Provided that the Magistrate may order the father of a female child referred to in clause
-
-- **(b)** to make such allowance, until she attains her majority, if the Magistrate is satisfied that the husband of such female child, if married, is not possessed of sufficient means:
+Provided that the Magistrate may order the father of a female child referred to in clause (b) to make such allowance, until she attains her majority, if the Magistrate is satisfied that the husband of such female child, if married, is not possessed of sufficient means:
 
 Provided further that the Magistrate may, during the pendency of the proceeding regarding monthly allowance for the maintenance under this sub-section, order such person to make a monthly allowance for the interim maintenance of his wife or such child, father or mother, and the expenses of such proceeding which the Magistrate considers reasonable, and to pay the same to such person as the Magistrate may from time to time direct:
 

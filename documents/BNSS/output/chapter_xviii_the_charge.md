@@ -27,11 +27,7 @@ Illustrations.
 
 - **(a)** A is charged with the murder of B. This is equivalent to a statement that A's act fell within the definition of murder given in sections 100 and 101 of the Bharatiya Nyaya Sanhita, 2023; that it did not fall within any of the general exceptions of the said Sanhita; and that it did not fall within any of the five exceptions to section 101 thereof, or that, if it did fall within Exception 1, one or other of the three provisos to that exception applied to it.
 
-- **(b)** A is charged under sub-section
-
-**(2)** of section 118 of the Bharatiya Nyaya Sanhita, 2023, with voluntarily causing grievous hurt to B by means of an instrument for shooting. This is equivalent to a statement that the case was not provided for by sub-section
-
-**(2)** of section 122 of the said Sanhita, and that the general exceptions did not apply to it.
+- **(b)** A is charged under sub-section (2) of section 118 of the Bharatiya Nyaya Sanhita, 2023, with voluntarily causing grievous hurt to B by means of an instrument for shooting. This is equivalent to a statement that the case was not provided for by sub-section (2) of section 122 of the said Sanhita, and that the general exceptions did not apply to it.
 
 - **(c)** A is accused of murder, cheating, theft, extortion, or criminal intimidation, or using a false property-mark. The charge may state that A committed murder, or cheating, or theft, or extortion, or criminal intimidation, or that he used a false property mark, without reference to the definitions, of those crimes contained in the Bharatiya Nyaya Sanhita, 2023; but the sections under which the offence is punishable must, in each instance be referred to in the charge.
 
@@ -127,9 +123,7 @@ Whenever a charge is altered or added to by the Court after the commencement of 
 
 Provided that where the accused person, by an application in writing, so desires and the Magistrate is of opinion that such person is not likely to be prejudiced thereby, the Magistrate may try together all or any number of the charges framed against such person.
 
-**(2)** Nothing in sub-section
-
-**(1)** shall affect the operation of the provisions of sections 242, 243, 244 and 246.
+**(2)** Nothing in sub-section (1) shall affect the operation of the provisions of sections 242, 243, 244 and 246.
 
 Illustration.
 
@@ -143,9 +137,7 @@ A is accused of a theft on one occasion, and of causing grievous hurt on another
 
 **(2)** Offences are of the same kind when they are punishable with the same amount of punishment under the same section of the Bharatiya Nyaya Sanhita, 2023 or of any special or local law:
 
-Provided that for the purposes of this section, an offence punishable under sub-section
-
-**(2)** of section 303 of the Bharatiya Nyaya Sanhita, 2023 shall be deemed to be an offence of the same kind as an offence punishable under section 305 of the said Sanhita, and that an offence punishable under any section of the said Sanhita, or of any special or local law, shall be deemed to be an offence of the same kind as an attempt to commit such offence, when such an attempt is an offence.
+Provided that for the purposes of this section, an offence punishable under sub-section (2) of section 303 of the Bharatiya Nyaya Sanhita, 2023 shall be deemed to be an offence of the same kind as an offence punishable under section 305 of the said Sanhita, and that an offence punishable under any section of the said Sanhita, or of any special or local law, shall be deemed to be an offence of the same kind as an attempt to commit such offence, when such an attempt is an offence.
 
 ---
 
@@ -153,11 +145,7 @@ Provided that for the purposes of this section, an offence punishable under sub-
 
 **(1)** If, in one series of acts so connected together as to form the same transaction, more offences than one are committed by the same person, he may be charged with, and tried at one trial for, every such offence.
 
-**(2)** When a person charged with one or more offences of criminal breach of trust or dishonest misappropriation of property as provided in sub-section
-
-**(2)** of section 235 or in sub-section
-
-**(1)** of section 242, is accused of committing, for the purpose of facilitating or concealing the commission of that offence or those offences, one or more offences of falsification of accounts, he may be charged with, and tried at one trial for, every such offence.
+**(2)** When a person charged with one or more offences of criminal breach of trust or dishonest misappropriation of property as provided in sub-section (2) of section 235 or in sub-section (1) of section 242, is accused of committing, for the purpose of facilitating or concealing the commission of that offence or those offences, one or more offences of falsification of accounts, he may be charged with, and tried at one trial for, every such offence.
 
 **(3)** If the acts alleged constitute an offence falling within two or more separate definitions of any law in force for the time being by which offences are defined or punished, the person accused of them may be charged with, and tried at one trial for, each of such offences.
 
@@ -165,21 +153,13 @@ Provided that for the purposes of this section, an offence punishable under sub-
 
 **(5)** Nothing contained in this section shall affect section 9 of the Bharatiya Nyaya Sanhita, 2023.
 
-Illustrations to sub-section
+Illustrations to sub-section (1)
 
-**(1)** 
+- **(a)** A rescues B, a person in lawful custody, and in so doing causes grievous hurt to C, a constable in whose custody B was. A may be charged with, and convicted of, offences under sub-section (2) of section 121 and section 263 of the Bharatiya Nyaya Sanhita, 2023.
 
-- **(a)** A rescues B, a person in lawful custody, and in so doing causes grievous hurt to C, a constable in whose custody B was. A may be charged with, and convicted of, offences under sub-section
+- **(b)** A commits house-breaking by day with intent to commit rape, and commits, in the house so entered, rape with B's wife. A may be separately charged with, and convicted of, offences under section 64 and sub-section (3) of section 331 of the Bharatiya Nyaya Sanhita, 2023.
 
-**(2)** of section 121 and section 263 of the Bharatiya Nyaya Sanhita, 2023.
-
-- **(b)** A commits house-breaking by day with intent to commit rape, and commits, in the house so entered, rape with B's wife. A may be separately charged with, and convicted of, offences under section 64 and sub-section
-
-**(3)** of section 331 of the Bharatiya Nyaya Sanhita, 2023.
-
-- **(c)** A has in his possession several seals, knowing them to be counterfeit and intending to use them for the purpose of committing several forgeries punishable under section 337 of the Bharatiya Nyaya Sanhita, 2023. A may be separately charged with, and convicted of, the possession of each seal under sub-section
-
-**(2)** of section 341 of the Bharatiya Nyaya Sanhita, 2023.
+- **(c)** A has in his possession several seals, knowing them to be counterfeit and intending to use them for the purpose of committing several forgeries punishable under section 337 of the Bharatiya Nyaya Sanhita, 2023. A may be separately charged with, and convicted of, the possession of each seal under sub-section (2) of section 341 of the Bharatiya Nyaya Sanhita, 2023.
 
 - **(d)** With intent to cause injury to B, A institutes a criminal proceeding against him, knowing that there is no just or lawful ground for such proceeding, and also falsely accuses B of having committed an offence, knowing that there is no just or lawful ground for such charge. A may be separately charged with, and convicted of, two offences under section 248 of the Bharatiya Nyaya Sanhita, 2023.
 
@@ -187,55 +167,25 @@ Illustrations to sub-section
 
 intending thereby to cause B to be convicted of a capital offence. A may be separately charged with, and convicted of, offences under sections 230 and 248 of the Bharatiya Nyaya Sanhita, 2023.
 
-- **(f)** A, with six others, commits the offences of rioting, grievous hurt and assaulting a public servant endeavouring in the discharge of his duty as such to suppress the riot. A may be separately charged with, and convicted of, offences under sub-section
+- **(f)** A, with six others, commits the offences of rioting, grievous hurt and assaulting a public servant endeavouring in the discharge of his duty as such to suppress the riot. A may be separately charged with, and convicted of, offences under sub-section (2) of section 117, sub-section (2) of section 191 and section 195 of the Bharatiya Nyaya Sanhita, 2023.
 
-**(2)** of section 117, sub-section
+- **(g)** A threatens B, C and D at the same time with injury to their persons with intent to cause alarm to them. A may be separately charged with, and convicted of, each of the three offences under sub-sections (2) and (3) of section 351 of the Bharatiya Nyaya Sanhita, 2023.
 
-**(2)** of section 191 and section 195 of the Bharatiya Nyaya Sanhita, 2023.
+The separate charges referred to in *illustrations* (a) to (g), respectively, may be tried at the same time.
 
-- **(g)** A threatens B, C and D at the same time with injury to their persons with intent to cause alarm to them. A may be separately charged with, and convicted of, each of the three offences under sub-sections
+*Illustrations* to sub-section (3)
 
-**(2)** and
+- **(h)** A wrongfully strikes B with a cane. A may be separately charged with, and convicted of, offences under sub-section (2) of section 115 and section 131 of the Bharatiya Nyaya Sanhita, 2023.
 
-**(3)** of section 351 of the Bharatiya Nyaya Sanhita, 2023.
-
-The separate charges referred to in *illustrations*
-
-- **(a)** to
-
-- **(g)** , respectively, may be tried at the same time.
-
-*Illustrations* to sub-section
-
-**(3)** 
-
-- **(h)** A wrongfully strikes B with a cane. A may be separately charged with, and convicted of, offences under sub-section
-
-**(2)** of section 115 and section 131 of the Bharatiya Nyaya Sanhita, 2023.
-
-- **(i)** Several stolen sacks of corn are made over to A and B, who knew they are stolen property, for the purpose of concealing them. A and B thereupon voluntarily assist each other to conceal the sacks at the bottom of a grain-pit. A and B may be separately charged with, and convicted of, offences under sub-sections
-
-**(2)** and
-
-**(5)** of section 317 of the Bharatiya Nyaya Sanhita, 2023.
+- **(i)** Several stolen sacks of corn are made over to A and B, who knew they are stolen property, for the purpose of concealing them. A and B thereupon voluntarily assist each other to conceal the sacks at the bottom of a grain-pit. A and B may be separately charged with, and convicted of, offences under sub-sections (2) and (5) of section 317 of the Bharatiya Nyaya Sanhita, 2023.
 
 - **(j)** A exposes her child with the knowledge that she is thereby likely to cause its death. The child dies in consequence of such exposure. A may be separately charged with, and convicted of, offences under sections 93 and 105 of the Bharatiya Nyaya Sanhita, 2023.
 
-- **(k)** A dishonestly uses a forged document as genuine evidence, in order to convict B, a public servant, of an offence under section 201 of the Bharatiya Nyaya Sanhita, 2023. A may be separately charged with, and convicted of, offences under section 233 and sub-section
+- **(k)** A dishonestly uses a forged document as genuine evidence, in order to convict B, a public servant, of an offence under section 201 of the Bharatiya Nyaya Sanhita, 2023. A may be separately charged with, and convicted of, offences under section 233 and sub-section (2) of section 340 (read with section 337) of that Sanhita.
 
-**(2)** of section 340 (read with section 337) of that Sanhita.
+*Illustration* to sub-section (4)
 
-*Illustration* to sub-section
-
-**(4)** 
-
-- **(l)** A commits robbery on B, and in doing so voluntarily causes hurt to him. A may be separately charged with, and convicted of, offences under sub-section
-
-**(2)** of section 115 and sub-sections
-
-**(2)** and
-
-**(4)** of section 309 of the Bharatiya Nyaya Sanhita, 2023.
+- **(l)** A commits robbery on B, and in doing so voluntarily causes hurt to him. A may be separately charged with, and convicted of, offences under sub-section (2) of section 115 and sub-sections (2) and (4) of section 309 of the Bharatiya Nyaya Sanhita, 2023.
 
 ---
 
@@ -243,9 +193,7 @@ The separate charges referred to in *illustrations*
 
 **(1)** If a single act or series of acts is of such a nature that it is doubtful which of several offences the facts which can be proved will constitute, the accused may be charged with having committed all or any of such offences, and any number of such charges may be tried at once; or he may be charged in the alternative with having committed someone of the said offences.
 
-**(2)** If in such a case the accused is charged with one offence, and it appears in evidence that he committed a different offence for which he might have been charged under the provisions of sub-section
-
-**(1)** , he may be convicted of the offence which he is shown to have committed, although he was not charged with it.
+**(2)** If in such a case the accused is charged with one offence, and it appears in evidence that he committed a different offence for which he might have been charged under the provisions of sub-section (1), he may be convicted of the offence which he is shown to have committed, although he was not charged with it.
 
 Illustrations.
 
@@ -269,19 +217,9 @@ Illustrations.
 
 Illustrations.
 
-- **(a)** A is charged, under sub-section
+- **(a)** A is charged, under sub-section (3) of section 316 of the Bharatiya Nyaya Sanhita, 2023, with criminal breach of trust in respect of property entrusted to him as a carrier. It appears, that he did commit criminal breach of trust under sub-section (2) of section 316 of that Sanhita in respect of the property, but that it was not entrusted to him as a carrier. He may be convicted of criminal breach of trust under the said sub-section (2) of section 316.
 
-**(3)** of section 316 of the Bharatiya Nyaya Sanhita, 2023, with criminal breach of trust in respect of property entrusted to him as a carrier. It appears, that he did commit criminal breach of trust under sub-section
-
-**(2)** of section 316 of that Sanhita in respect of the property, but that it was not entrusted to him as a carrier. He may be convicted of criminal breach of trust under the said sub-section
-
-**(2)** of section 316.
-
-- **(b)** A is charged, under sub-section
-
-**(2)** of section 117 of the Bharatiya Nyaya Sanhita, 2023, with causing grievous hurt. He proves that he acted on grave and sudden provocation. He may be convicted under sub-section
-
-**(2)** of section 122 of that Sanhita.
+- **(b)** A is charged, under sub-section (2) of section 117 of the Bharatiya Nyaya Sanhita, 2023, with causing grievous hurt. He proves that he acted on grave and sudden provocation. He may be convicted under sub-section (2) of section 122 of that Sanhita.
 
 ---
 
@@ -299,11 +237,7 @@ The following persons may be charged and tried together, namely:—
 
 - **(e)** persons accused of an offence which includes theft, extortion, cheating, or criminal misappropriation, and persons accused of receiving or retaining, or assisting in the disposal or concealment of, property possession of which is alleged to have been transferred by any such offence committed by the first-named persons, or of abetment of or attempting to commit any such last-named offence;
 
-- **(f)** persons accused of offences under sub-sections
-
-**(2)** and
-
-**(5)** of section 317 of the Bharatiya Nyaya Sanhita, 2023 or either of those sections in respect of stolen property the possession of which has been transferred by one offence;
+- **(f)** persons accused of offences under sub-sections (2) and (5) of section 317 of the Bharatiya Nyaya Sanhita, 2023 or either of those sections in respect of stolen property the possession of which has been transferred by one offence;
 
 - **(g)** persons accused of any offence under Chapter X of the Bharatiya Nyaya Sanhita, 2023 relating to counterfeit coin and persons accused of any other offence under the said Chapter relating to the same coin, or of abetment of or attempting to commit any such offence; and the provisions contained in the former part of this Chapter shall, so far as may be, apply to all such charges:
 

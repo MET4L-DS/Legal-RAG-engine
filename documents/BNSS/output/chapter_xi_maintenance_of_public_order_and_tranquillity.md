@@ -10,17 +10,13 @@
 
 **(1)** Any Executive Magistrate or officer in charge of a police station or, in the absence of such officer in charge, any police officer, not below the rank of a sub-inspector, may command any unlawful assembly, or any assembly of five or more persons likely to cause a disturbance of the public peace, to disperse; and it shall thereupon be the duty of the members of such assembly to disperse accordingly.
 
-**(2)** If, upon being so commanded, any such assembly does not disperse, or if, without being so commanded, it conducts itself in such a manner as to show a determination not to disperse, any Executive Magistrate or police officer referred to in sub-section
-
-**(1)** , may proceed to disperse such assembly by force, and may require the assistance of any person, not being an officer or member of the armed forces and acting as such, for the purpose of dispersing such assembly, and, if necessary, arresting and confining the persons who form part of it, in order to disperse such assembly or that they may be punished according to law.
+**(2)** If, upon being so commanded, any such assembly does not disperse, or if, without being so commanded, it conducts itself in such a manner as to show a determination not to disperse, any Executive Magistrate or police officer referred to in sub-section (1), may proceed to disperse such assembly by force, and may require the assistance of any person, not being an officer or member of the armed forces and acting as such, for the purpose of dispersing such assembly, and, if necessary, arresting and confining the persons who form part of it, in order to disperse such assembly or that they may be punished according to law.
 
 ---
 
 ## Section 149 — Use of armed forces to disperse assembly
 
-**(1)** If any assembly referred to in sub-section
-
-**(1)** of section 148 cannot otherwise be dispersed, and it is necessary for the public security that it should be dispersed, the District Magistrate or any other Executive Magistrate authorised by him, who is present, may cause it to be dispersed by the armed forces.
+**(1)** If any assembly referred to in sub-section (1) of section 148 cannot otherwise be dispersed, and it is necessary for the public security that it should be dispersed, the District Magistrate or any other Executive Magistrate authorised by him, who is present, may cause it to be dispersed by the armed forces.
 
 **(2)** Such Magistrate may require any officer in command of any group of persons belonging to the armed forces to disperse the assembly with the help of the armed forces under his command, and to arrest and confine such persons forming part of it as the Executive Magistrate may direct, or as it may be necessary to arrest and confine in order to disperse the assembly or to have them punished according to law.
 
@@ -42,9 +38,7 @@ When the public security is manifestly endangered by any such assembly and no Ex
 
 - **(b)** with the sanction of the State Government in any other case.
 
-**(2)** 
-
-- **(a)** No Executive Magistrate or police officer acting under any of the said sections in good faith;
+**(2)** (a) No Executive Magistrate or police officer acting under any of the said sections in good faith;
 
 - **(b)** no person doing any act in good faith in compliance with a requisition under section 148 or section 149;
 
@@ -215,15 +209,9 @@ Provided that if the State Government considers it necessary so to do for preven
 
 **(5)** Any Magistrate may, either on his own motion or on the application of any person aggrieved, rescind or alter any order made under this section by himself or any Magistrate subordinate to him or by his predecessor-in-office.
 
-**(6)** The State Government may, either on its own motion or on the application of any person aggrieved, rescind or alter any order made by it under the proviso to sub-section
+**(6)** The State Government may, either on its own motion or on the application of any person aggrieved, rescind or alter any order made by it under the proviso to sub-section (4).
 
-**(4)** .
-
-**(7)** Where an application under sub-section
-
-**(5)** or sub-section
-
-**(6)** is received, the Magistrate, or the State Government, as the case may be, shall afford to the applicant an early opportunity of appearing before him or it, either in person or by an advocate and showing cause against the order; and if the Magistrate or the State Government, as the case may be, rejects the application wholly or in part, he or it shall record in writing the reasons for so doing.
+**(7)** Where an application under sub-section (5) or sub-section (6) is received, the Magistrate, or the State Government, as the case may be, shall afford to the applicant an early opportunity of appearing before him or it, either in person or by an advocate and showing cause against the order; and if the Magistrate or the State Government, as the case may be, rejects the application wholly or in part, he or it shall record in writing the reasons for so doing.
 
 ---
 
@@ -243,17 +231,9 @@ Provided that if it appears to the Magistrate that any party has been forcibly a
 
 **(5)** Nothing in this section shall preclude any party so required to attend, or any other person interested, from showing that no such dispute as aforesaid exists or has existed; and in such case the Magistrate shall cancel his said order, and all further proceedings thereon shall be stayed, but, subject to such cancellation, the order of the Magistrate under sub-section (I) shall be final.
 
-**(6)** 
+**(6)** (a) If the Magistrate decides that one of the parties was, or should under the proviso to sub-section (4) be treated as being, in such possession of the said subject of dispute, he shall issue an order declaring such party to be entitled to possession thereof until evicted therefrom in due course of law, and forbidding all disturbance of such possession until such eviction; and when he proceeds under the proviso to sub-section (4), may restore to possession the party forcibly and wrongfully dispossessed;
 
-- **(a)** If the Magistrate decides that one of the parties was, or should under the proviso to sub-section
-
-**(4)** be treated as being, in such possession of the said subject of dispute, he shall issue an order declaring such party to be entitled to possession thereof until evicted therefrom in due course of law, and forbidding all disturbance of such possession until such eviction; and when he proceeds under the proviso to sub-section
-
-**(4)** , may restore to possession the party forcibly and wrongfully dispossessed;
-
-- **(b)** the order made under this sub-section shall be served and published in the manner laid down in sub-section
-
-**(3)** .
+- **(b)** the order made under this sub-section shall be served and published in the manner laid down in sub-section (3).
 
 **(7)** When any party to any such proceeding dies, the Magistrate may cause the legal representative of the deceased party to be made a party to the proceeding and shall thereupon continue the inquiry, and if any question arises as to who the legal representative of a deceased party for the purposes of such proceeding is, all persons claiming to be representatives of the deceased party shall be made parties thereto.
 
@@ -267,9 +247,7 @@ Provided that if it appears to the Magistrate that any party has been forcibly a
 
 ## Section 165 — Power to attach subject of dispute and to appoint receiver
 
-**(1)** If the Magistrate at any time after making the order under sub-section
-
-**(1)** of section 164 considers the case to be one of emergency, or if he decides that none of the parties was then in such possession as is referred to in section 164, or if he is unable to satisfy himself as to which of them was then in such possession of the subject of dispute, he may attach the subject of dispute until a competent Court has determined the rights of the parties thereto with regard to the person entitled to the possession thereof:
+**(1)** If the Magistrate at any time after making the order under sub-section (1) of section 164 considers the case to be one of emergency, or if he decides that none of the parties was then in such possession as is referred to in section 164, or if he is unable to satisfy himself as to which of them was then in such possession of the subject of dispute, he may attach the subject of dispute until a competent Court has determined the rights of the parties thereto with regard to the person entitled to the possession thereof:
 
 Provided that such Magistrate may withdraw the attachment at any time if he is satisfied that there is no longer any likelihood of breach of the peace with regard to the subject of dispute.
 
@@ -288,27 +266,15 @@ Provided that in the event of a receiver being subsequently appointed in relatio
 **(1)** Whenever an Executive Magistrate is satisfied from the report of a police officer or upon other information, that a dispute likely to cause a breach of the peace exists regarding any alleged right of user of any land or water within his local jurisdiction, whether such right be claimed as an easement or otherwise, he shall make an order in writing, stating the grounds of his being so satisfied and requiring the parties concerned in such dispute to attend his Court in person or by an advocate on a specified date and time and to put in written statements of their respective claims.
 
 **Explanation.—**
-For the purposes of this sub-section, the expression "land or water" has the meaning given to it in sub-section
-
-**(2)** of section 164.
+For the purposes of this sub-section, the expression "land or water" has the meaning given to it in sub-section (2) of section 164.
 
 **(2)** The Magistrate shall peruse the statements so put in, hear the parties, receive all such evidence as may be produced by them respectively, consider the effect of such evidence, take such further evidence, if any, as he thinks necessary and, if possible, decide whether such right exists; and the provisions of section 164 shall, so far as may be, apply in the case of such inquiry.
 
 **(3)** If it appears to such Magistrate that such rights exist, he may make an order prohibiting any interference with the exercise of such right, including, in a proper case, an order for the removal of any obstruction in the exercise of any such right:
 
-Provided that no such order shall be made where the right is exercisable at all times of the year, unless such right has been exercised within three months next before the receipt under sub-section
+Provided that no such order shall be made where the right is exercisable at all times of the year, unless such right has been exercised within three months next before the receipt under sub-section (1) of the report of a police officer or other information leading to the institution of the inquiry, or where the right is exercisable only at particular seasons or on particular occasions, unless the right has been exercised during the last of such seasons or on the last of such occasions before such receipt.
 
-**(1)** of the report of a police officer or other information leading to the institution of the inquiry, or where the right is exercisable only at particular seasons or on particular occasions, unless the right has been exercised during the last of such seasons or on the last of such occasions before such receipt.
-
-**(4)** When in any proceedings commenced under sub-section
-
-**(1)** of section 164 the Magistrate finds that the dispute is as regards an alleged right of user of land or water, he may, after recording his reasons, continue with the proceedings as if they had been commenced under sub-section
-
-**(1)** , and when in any proceedings commenced under sub-section
-
-**(1)** the Magistrate finds that the dispute should be dealt with under section 164, he may, after recording his reasons, continue with the proceedings as if they had been commenced under sub-section
-
-**(1)** of section 164.
+**(4)** When in any proceedings commenced under sub-section (1) of section 164 the Magistrate finds that the dispute is as regards an alleged right of user of land or water, he may, after recording his reasons, continue with the proceedings as if they had been commenced under sub-section (1), and when in any proceedings commenced under sub-section (1) the Magistrate finds that the dispute should be dealt with under section 164, he may, after recording his reasons, continue with the proceedings as if they had been commenced under sub-section (1) of section 164.
 
 ---
 

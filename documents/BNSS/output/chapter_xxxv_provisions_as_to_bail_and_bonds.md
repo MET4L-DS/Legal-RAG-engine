@@ -13,13 +13,9 @@ Provided that such officer or Court, if he or it thinks fit, may, and shall, if 
 **Explanation.—**
 Where a person is unable to give bail bond within a week of the date of his arrest, it shall be a sufficient ground for the officer or the Court to presume that he is an indigent person for the purposes of this proviso:
 
-Provided further that nothing in this section shall be deemed to affect the provisions of sub-section
+Provided further that nothing in this section shall be deemed to affect the provisions of sub-section (3) of section 135 or section 492.
 
-**(3)** of section 135 or section 492.
-
-**(2)** Notwithstanding anything in sub-section
-
-**(1)** , where a person has failed to comply with the conditions of the bond or bail bond as regards the time and place of attendance, the Court may refuse to release him on bail, when on a subsequent occasion in the same case he appears before the Court or is brought in custody and any such refusal shall be without prejudice to the powers of the Court to call upon any person bound by such bond or bail bond to pay the penalty thereof under section 491.
+**(2)** Notwithstanding anything in sub-section (1), where a person has failed to comply with the conditions of the bond or bail bond as regards the time and place of attendance, the Court may refuse to release him on bail, when on a subsequent occasion in the same case he appears before the Court or is brought in custody and any such refusal shall be without prejudice to the powers of the Court to call upon any person bound by such bond or bail bond to pay the penalty thereof under section 491.
 
 ---
 
@@ -44,23 +40,15 @@ In computing the period of detention under this section for granting bail, the p
 
 ## Section 480 — When bail may be taken in case of non
 
-bailable offence.**—
-
-**(1)** When any person accused of, or suspected of, the commission of any non-bailable offence is arrested or detained without warrant by an officer in charge of a police station or appears or is brought before a Court other than the High Court or Court of Session, he may be released on bail, but—
+bailable offence.**—(1) When any person accused of, or suspected of, the commission of any non-bailable offence is arrested or detained without warrant by an officer in charge of a police station or appears or is brought before a Court other than the High Court or Court of Session, he may be released on bail, but—
 
 - **(i)** such person shall not be so released if there appear reasonable grounds for believing that he has been guilty of an offence punishable with death or imprisonment for life;
 
     - **(ii)** such person shall not be so released if such offence is a cognizable offence and he had been previously convicted of an offence punishable with death, imprisonment for life or imprisonment for seven years or more, or he had been previously convicted on two or more occasions of a cognizable offence punishable with imprisonment for three years or more but less than seven years:
 
-Provided that the Court may direct that a person referred to in clause
+Provided that the Court may direct that a person referred to in clause (i) or clause (ii) be released on bail if such person is a child or is a woman or is sick or infirm:
 
-- **(i)** or clause
-
-    - **(ii)** be released on bail if such person is a child or is a woman or is sick or infirm:
-
-Provided further that the Court may also direct that a person referred to in clause
-
-    - **(ii)** be released on bail if it is satisfied that it is just and proper so to do for any other special reason:
+Provided further that the Court may also direct that a person referred to in clause (ii) be released on bail if it is satisfied that it is just and proper so to do for any other special reason:
 
 Provided also that the mere fact that an accused person may be required for being identified by witnesses during investigation or for police custody beyond the first fifteen days shall not be sufficient ground for refusing to grant bail if he is otherwise entitled to be released on bail and gives an undertaking that he shall comply with such directions as may be given by the Court:
 
@@ -78,17 +66,9 @@ Provided also that no person shall, if the offence alleged to have been committe
 
 and may also impose, in the interests of justice, such other conditions as it considers necessary.
 
-**(4)** An officer or a Court releasing any person on bail under sub-section
+**(4)** An officer or a Court releasing any person on bail under sub-section (1) or sub-section (2), shall record in writing his or its reasons or special reasons for so doing.
 
-**(1)** or sub-section
-
-**(2)** , shall record in writing his or its reasons or special reasons for so doing.
-
-**(5)** Any Court which has released a person on bail under sub-section
-
-**(1)** or sub-section
-
-**(2)** , may, if it considers it necessary so to do, direct that such person be arrested and commit him to custody.
+**(5)** Any Court which has released a person on bail under sub-section (1) or sub-section (2), may, if it considers it necessary so to do, direct that such person be arrested and commit him to custody.
 
 **(6)** If, in any case triable by a Magistrate, the trial of a person accused of any non-bailable offence is not concluded within a period of sixty days from the first date fixed for taking evidence in the case, such person shall, if he is in custody during the whole of the said period, be released on bail to the satisfaction of the Magistrate, unless for reasons to be recorded in writing, the Magistrate otherwise directs.
 
@@ -108,9 +88,7 @@ and may also impose, in the interests of justice, such other conditions as it co
 
 **(1)** When any person has reason to believe that he may be arrested on an accusation of having committed a non-bailable offence, he may apply to the High Court or the Court of Session for a direction under this section; and that Court may, if it thinks fit, direct that in the event of such arrest, he shall be released on bail.
 
-**(2)** When the High Court or the Court of Session makes a direction under sub-section
-
-**(1)** , it may include such conditions in such directions in the light of the facts of the particular case, as it may think fit, including—
+**(2)** When the High Court or the Court of Session makes a direction under sub-section (1), it may include such conditions in such directions in the light of the facts of the particular case, as it may think fit, including—
 
 - **(i)** a condition that the person shall make himself available for interrogation by a police officer as and when required;
 
@@ -118,19 +96,13 @@ and may also impose, in the interests of justice, such other conditions as it co
 
     - **(iii)** a condition that the person shall not leave India without the previous permission of the Court;
 
-    - **(iv)** such other condition as may be imposed under sub-section
-
-**(3)** of section 480, as if the bail were granted under that section.
+    - **(iv)** such other condition as may be imposed under sub-section (3) of section 480, as if the bail were granted under that section.
 
 **(3)** If such person is thereafter arrested without warrant by an officer in charge of a police station on such accusation, and is prepared either at the time of arrest or at any time while in the custody of such officer to give bail, he shall be released on bail; and if a Magistrate taking cognizance of such offence
 
-decides that a warrant should be issued in the first instance against that person, he shall issue a bailable warrant in conformity with the direction of the Court under sub-section
+decides that a warrant should be issued in the first instance against that person, he shall issue a bailable warrant in conformity with the direction of the Court under sub-section (1).
 
-**(1)** .
-
-**(4)** Nothing in this section shall apply to any case involving the arrest of any person on accusation of having committed an offence under section 65 and sub-section
-
-**(2)** of section 70 of the Bharatiya Nyaya Sanhita, 2023.
+**(4)** Nothing in this section shall apply to any case involving the arrest of any person on accusation of having committed an offence under section 65 and sub-section (2) of section 70 of the Bharatiya Nyaya Sanhita, 2023.
 
 ---
 
@@ -138,21 +110,15 @@ decides that a warrant should be issued in the first instance against that perso
 
 **(1)** A High Court or Court of Session may direct,—
 
-- **(a)** that any person accused of an offence and in custody be released on bail, and if the offence is of the nature specified in sub-section
-
-**(3)** of section 480, may impose any condition which it considers necessary for the purposes mentioned in that sub-section;
+- **(a)** that any person accused of an offence and in custody be released on bail, and if the offence is of the nature specified in sub-section (3) of section 480, may impose any condition which it considers necessary for the purposes mentioned in that sub-section;
 
 - **(b)** that any condition imposed by a Magistrate when releasing any person on bail be set aside or modified:
 
 Provided that the High Court or the Court of Session shall, before granting bail to a person who is accused of an offence which is triable exclusively by the Court of Session or which, though not so triable, is punishable with imprisonment for life, give notice of the application for bail to the Public Prosecutor unless it is, for reasons to be recorded in writing, of opinion that it is not practicable to give such notice:
 
-Provided further that the High Court or the Court of Session shall, before granting bail to a person who is accused of an offence triable under section 65 or sub-section
+Provided further that the High Court or the Court of Session shall, before granting bail to a person who is accused of an offence triable under section 65 or sub-section (2) of section 70 of the Bharatiya Nyaya Sanhita, 2023, give notice of the application for bail to the Public Prosecutor within a period of fifteen days from the date of receipt of the notice of such application.
 
-**(2)** of section 70 of the Bharatiya Nyaya Sanhita, 2023, give notice of the application for bail to the Public Prosecutor within a period of fifteen days from the date of receipt of the notice of such application.
-
-**(2)** The presence of the informant or any person authorised by him shall be obligatory at the time of hearing of the application for bail to the person under section 65 or sub-section
-
-**(2)** of section 70 of the Bharatiya Nyaya Sanhita, 2023.
+**(2)** The presence of the informant or any person authorised by him shall be obligatory at the time of hearing of the application for bail to the person under section 65 or sub-section (2) of section 70 of the Bharatiya Nyaya Sanhita, 2023.
 
 **(3)** A High Court or Court of Session may direct that any person who has been released on bail under this Chapter be arrested and commit him to custody.
 

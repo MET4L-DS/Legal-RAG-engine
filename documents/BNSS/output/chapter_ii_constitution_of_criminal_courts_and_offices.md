@@ -117,9 +117,7 @@ Provided that the Court of Special Judicial Magistrate may hold its sitting at a
 
 **(4)** The State Government may place an Executive Magistrate in charge of a sub-division and may relieve him of the charge as occasion requires; and the Magistrate so placed in charge of a sub-division shall be called the Sub-divisional Magistrate.
 
-**(5)** The State Government may, by general or special order and subject to such control and directions as it may deem fit to impose, delegate its powers under sub-section
-
-**(4)** to the District Magistrate.
+**(5)** The State Government may, by general or special order and subject to such control and directions as it may deem fit to impose, delegate its powers under sub-section (4) to the District Magistrate.
 
 **(6)** Nothing in this section shall preclude the State Government from conferring, under any law for the time being in force, on a Commissioner of Police all or any of the powers of an Executive Magistrate.
 
@@ -161,17 +159,11 @@ Provided that the Public Prosecutor or Additional Public Prosecutor appointed fo
 
 **(4)** The District Magistrate shall, in consultation with the Sessions Judge, prepare a panel of names of persons, who are, in his opinion fit to be appointed as Public Prosecutors or Additional Public Prosecutors for the district.
 
-**(5)** No person shall be appointed by the State Government as the Public Prosecutor or Additional Public Prosecutor for the district unless his name appears in the panel of names prepared by the District Magistrate under sub-section
+**(5)** No person shall be appointed by the State Government as the Public Prosecutor or Additional Public Prosecutor for the district unless his name appears in the panel of names prepared by the District Magistrate under sub-section (4).
 
-**(4)** .
+**(6)** Notwithstanding anything in sub-section (5), where in a State there exists a regular Cadre of Prosecuting Officers, the State Government shall appoint a Public Prosecutor or an Additional Public Prosecutor only from among the persons constituting such Cadre:
 
-**(6)** Notwithstanding anything in sub-section
-
-**(5)** , where in a State there exists a regular Cadre of Prosecuting Officers, the State Government shall appoint a Public Prosecutor or an Additional Public Prosecutor only from among the persons constituting such Cadre:
-
-Provided that where, in the opinion of the State Government, no suitable person is available in such Cadre for such appointment, that Government may appoint a person as Public Prosecutor or Additional Public Prosecutor, as the case may be, from the panel of names prepared by the District Magistrate under sub-section
-
-**(4)** .
+Provided that where, in the opinion of the State Government, no suitable person is available in such Cadre for such appointment, that Government may appoint a person as Public Prosecutor or Additional Public Prosecutor, as the case may be, from the panel of names prepared by the District Magistrate under sub-section (4).
 
 **Explanation.—**
 For the purposes of this sub-section,—
@@ -180,25 +172,13 @@ For the purposes of this sub-section,—
 
 - **(b)** “Prosecuting Officer” means a person, by whatever name called, appointed to perform the functions of a Public Prosecutor, Special Public Prosecutor, Additional Public Prosecutor or Assistant Public Prosecutor under this Sanhita.
 
-**(7)** A person shall be eligible to be appointed as a Public Prosecutor or an Additional Public Prosecutor under sub-section
-
-**(1)** or sub-section
-
-**(2)** or sub-section
-
-**(3)** or sub-section
-
-**(6)** , only if he has been in practice as an advocate for not less than seven years.
+**(7)** A person shall be eligible to be appointed as a Public Prosecutor or an Additional Public Prosecutor under sub-section (1) or sub-section (2) or sub-section (3) or sub-section (6), only if he has been in practice as an advocate for not less than seven years.
 
 **(8)** The Central Government or the State Government may appoint, for the purposes of any case or class of cases, a person who has been in practice as an advocate for not less than ten years as a Special Public Prosecutor:
 
 Provided that the Court may permit the victim to engage an advocate of his choice to assist the prosecution under this sub-section.
 
-**(9)** For the purposes of sub-section
-
-**(7)** and sub-section
-
-**(8)** , the period during which a person has been in practice as an advocate, or has rendered (whether before or after the commencement of this Sanhita) service as a Public Prosecutor or as an Additional Public Prosecutor or Assistant Public Prosecutor or other Prosecuting Officer, by whatever name called, shall be deemed to be the period during which such person has been in practice as an advocate.
+**(9)** For the purposes of sub-section (7) and sub-section (8), the period during which a person has been in practice as an advocate, or has rendered (whether before or after the commencement of this Sanhita) service as a Public Prosecutor or as an Additional Public Prosecutor or Assistant Public Prosecutor or other Prosecuting Officer, by whatever name called, shall be deemed to be the period during which such person has been in practice as an advocate.
 
 ---
 
@@ -208,11 +188,7 @@ Provided that the Court may permit the victim to engage an advocate of his choic
 
 **(2)** The Central Government may appoint one or more Assistant Public Prosecutors for the purpose of conducting any case or class of cases in the Courts of Magistrates.
 
-**(3)** Without prejudice to provisions contained in sub-sections
-
-**(1)** and
-
-**(2)** , where no Assistant Public Prosecutor is available for the purposes of any particular case, the District Magistrate may appoint any other person to be the Assistant Public Prosecutor in charge of that case after giving notice of fourteen days to the State Government:
+**(3)** Without prejudice to provisions contained in sub-sections (1) and (2), where no Assistant Public Prosecutor is available for the purposes of any particular case, the District Magistrate may appoint any other person to be the Assistant Public Prosecutor in charge of that case after giving notice of fourteen days to the State Government:
 
 Provided that no police officer shall be eligible to be appointed as an Assistant Public Prosecutor, if he—
 
@@ -240,19 +216,9 @@ Provided that no police officer shall be eligible to be appointed as an Assistan
 
 **(4)** Every Deputy Director of Prosecution or Assistant Director of Prosecution shall be subordinate to the Director of Prosecution; and every Assistant Director of Prosecution shall be subordinate to the Deputy Director of Prosecution.
 
-**(5)** Every Public Prosecutor, Additional Public Prosecutor and Special Public Prosecutor appointed by the State Government under sub-section
+**(5)** Every Public Prosecutor, Additional Public Prosecutor and Special Public Prosecutor appointed by the State Government under sub-section (1) or sub-section (8) of section 18 to conduct cases in the High Court shall be subordinate to the Director of Prosecution.
 
-**(1)** or sub-section
-
-**(8)** of section 18 to conduct cases in the High Court shall be subordinate to the Director of Prosecution.
-
-**(6)** Every Public Prosecutor, Additional Public Prosecutor and Special Public Prosecutor appointed by the State Government under sub-section
-
-**(3)** or sub-section
-
-**(8)** of section 18 to conduct cases in District Courts and every Assistant Public Prosecutor appointed under sub-section
-
-**(1)** of section 19 shall be subordinate to the Deputy Director of Prosecution or the Assistant Director of Prosecution.
+**(6)** Every Public Prosecutor, Additional Public Prosecutor and Special Public Prosecutor appointed by the State Government under sub-section (3) or sub-section (8) of section 18 to conduct cases in District Courts and every Assistant Public Prosecutor appointed under sub-section (1) of section 19 shall be subordinate to the Deputy Director of Prosecution or the Assistant Director of Prosecution.
 
 **(7)** The powers and functions of the Director of Prosecution shall be to monitor cases in which offences are punishable for ten years or more, or with life imprisonment, or with death; to expedite the proceedings and to give opinion on filing of appeals.
 
@@ -260,13 +226,7 @@ Provided that no police officer shall be eligible to be appointed as an Assistan
 
 **(9)** The functions of the Assistant Director of Prosecution shall be to monitor cases in which offences are punishable for less than seven years.
 
-**(10)** Notwithstanding anything contained in sub-sections
-
-**(7)** ,
-
-**(8)** and
-
-**(9)** , the Director, Deputy Director or Assistant Director of Prosecution shall have the power to deal with and be responsible for all proceedings under this Sanhita.
+**(10)** Notwithstanding anything contained in sub-sections (7), (8) and (9), the Director, Deputy Director or Assistant Director of Prosecution shall have the power to deal with and be responsible for all proceedings under this Sanhita.
 
 **(11)** The other powers and functions of the Director of Prosecution, Deputy Directors of Prosecution and Assistant Directors of Prosecution and the areas for which each of the Deputy Directors of Prosecution or Assistant Directors of Prosecution have been appointed shall be such as the State Government may, by notification, specify.
 

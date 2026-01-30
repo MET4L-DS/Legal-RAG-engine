@@ -20,9 +20,7 @@ Every police officer receiving information of a design to commit any cognizable 
 
 **(1)** A police officer knowing of a design to commit any cognizable offence may arrest, without orders from a Magistrate and without a warrant, the person so designing, if it appears to such officer that the commission of the offence cannot be otherwise prevented.
 
-**(2)** No person arrested under sub-section
-
-**(1)** shall be detained in custody for a period exceeding twenty-four hours from the time of his arrest unless his further detention is required or authorised under any other provisions of this Sanhita or of any other law for the time being in force.
+**(2)** No person arrested under sub-section (1) shall be detained in custody for a period exceeding twenty-four hours from the time of his arrest unless his further detention is required or authorised under any other provisions of this Sanhita or of any other law for the time being in force.
 
 ---
 

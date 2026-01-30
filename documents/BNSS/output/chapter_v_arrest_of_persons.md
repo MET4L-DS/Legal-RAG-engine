@@ -14,43 +14,15 @@
 
 - **(i)** the police officer has reason to believe on the basis of such complaint, information, or suspicion that such person has committed the said offence;
 
-    - **(ii)** the police officer is satisfied that such arrest is necessary—
-
-- **(a)** to prevent such person from committing any further offence; or
-
-- **(b)** for proper investigation of the offence; or
-
-- **(c)** to prevent such person from causing the evidence of the offence to disappear or tampering with such evidence in any manner; or
-
-- **(d)** to prevent such person from making any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade him from disclosing such facts to the Court or to the police officer; or
-
-- **(e)** as unless such person is arrested, his presence in the Court whenever required cannot be ensured, and the police officer shall record while making such arrest, his reasons in writing:
+    - **(ii)** the police officer is satisfied that such arrest is necessary— (a) to prevent such person from committing any further offence; or (b) for proper investigation of the offence; or (c) to prevent such person from causing the evidence of the offence to disappear or tampering with such evidence in any manner; or (d) to prevent such person from making any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade him from disclosing such facts to the Court or to the police officer; or (e) as unless such person is arrested, his presence in the Court whenever required cannot be ensured, and the police officer shall record while making such arrest, his reasons in writing:
 
 Provided that a police officer shall, in all cases where the arrest of a person is not required under the provisions of this sub-section, record the reasons in writing for not making the arrest; or
 
-- **(c)** against whom credible information has been received that he has committed a cognizable offence punishable with imprisonment for a term which may extend to more than seven years whether with or without fine or with death sentence and the police officer has reason to believe on the basis of that information that such person has committed the said offence; or
-
-- **(d)** who has been proclaimed as an offender either under this Sanhita or by order of the State Government; or
-
-- **(e)** in whose possession anything is found which may reasonably be suspected to be stolen property and who may reasonably be suspected of having committed an offence with reference to such thing; or
-
-- **(f)** who obstructs a police officer while in the execution of his duty, or who has escaped, or attempts to escape, from lawful custody; or
-
-- **(g)** who is reasonably suspected of being a deserter from any of the Armed Forces of the Union; or
-
-- **(h)** who has been concerned in, or against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists, of his having been concerned in, any act committed at any place out of India which, if committed in India, would have been punishable as an offence, and for which he is, under any law relating to extradition, or otherwise, liable to be apprehended or detained in custody in India; or
-
-- **(i)** who, being a released convict, commits a breach of any rule made under sub-section
-
-**(5)** of section 394; or
-
-- **(j)** for whose arrest any requisition, whether written or oral, has been received from another police officer, provided that the requisition specifies the person to be arrested and the offence or other cause for which the arrest is to be made and it appears therefrom that the person might lawfully be arrested without a warrant by the officer who issued the requisition.
+- **(c)** against whom credible information has been received that he has committed a cognizable offence punishable with imprisonment for a term which may extend to more than seven years whether with or without fine or with death sentence and the police officer has reason to believe on the basis of that information that such person has committed the said offence; or (d) who has been proclaimed as an offender either under this Sanhita or by order of the State Government; or (e) in whose possession anything is found which may reasonably be suspected to be stolen property and who may reasonably be suspected of having committed an offence with reference to such thing; or (f) who obstructs a police officer while in the execution of his duty, or who has escaped, or attempts to escape, from lawful custody; or (g) who is reasonably suspected of being a deserter from any of the Armed Forces of the Union; or (h) who has been concerned in, or against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists, of his having been concerned in, any act committed at any place out of India which, if committed in India, would have been punishable as an offence, and for which he is, under any law relating to extradition, or otherwise, liable to be apprehended or detained in custody in India; or (i) who, being a released convict, commits a breach of any rule made under sub-section (5) of section 394; or (j) for whose arrest any requisition, whether written or oral, has been received from another police officer, provided that the requisition specifies the person to be arrested and the offence or other cause for which the arrest is to be made and it appears therefrom that the person might lawfully be arrested without a warrant by the officer who issued the requisition.
 
 **(2)** Subject to the provisions of section 39, no person concerned in a non-cognizable offence or against whom a complaint has been made or credible information has been received or reasonable suspicion exists of his having so concerned, shall be arrested except under a warrant or order of a Magistrate.
 
-**(3)** The police officer shall, in all cases where the arrest of a person is not required under sub-section
-
-**(1)** issue a notice directing the person against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists that he has committed a cognizable offence, to appear before him or at such other place as may be specified in the notice.
+**(3)** The police officer shall, in all cases where the arrest of a person is not required under sub-section (1) issue a notice directing the person against whom a reasonable complaint has been made, or credible information has been received, or a reasonable suspicion exists that he has committed a cognizable offence, to appear before him or at such other place as may be specified in the notice.
 
 **(4)** Where such a notice is issued to any person, it shall be the duty of that person to comply with the terms of the notice.
 
@@ -110,9 +82,7 @@ Provided that if such person is not resident in India, the bail bond shall be se
 
 **(1)** Any private person may arrest or cause to be arrested any person who in his presence commits a non-bailable and cognizable offence, or any proclaimed offender, and, without unnecessary delay, but within six hours from such arrest, shall make over or cause to be made over any person so arrested to a police officer, or, in the absence of a police officer, take such person or cause him to be taken in custody to the nearest police station.
 
-**(2)** If there is reason to believe that such person comes under the provisions of sub-section
-
-**(1)** of section 35, a police officer shall take him in custody.
+**(2)** If there is reason to believe that such person comes under the provisions of sub-section (1) of section 35, a police officer shall take him in custody.
 
 **(3)** If there is reason to believe that he has committed a non-cognizable offence, and he refuses on the demand of a police officer to give his name and residence, or gives a name or residence which such officer has reason to believe to be false, he shall be dealt with under the provisions of section 39; but if there is no sufficient reason to believe that he has committed any offence, he shall be at once released.
 
@@ -130,9 +100,7 @@ Provided that if such person is not resident in India, the bail bond shall be se
 
 **(1)** Notwithstanding anything contained in section 35 and sections 39 to 41 (both inclusive), no member of the Armed Forces of the Union shall be arrested for anything done or purported to be done by him in the discharge of his official duties except after obtaining the consent of the Central Government.
 
-**(2)** The State Government may, by notification, direct that the provisions of sub-section
-
-**(1)** shall apply to such class or category of the members of the Force charged with the maintenance of public order as may be specified therein, wherever they may be serving, and thereupon the provisions of that sub-section shall apply as if for the expression “Central Government” occurring therein, the expression “State Government” were substituted.
+**(2)** The State Government may, by notification, direct that the provisions of sub-section (1) shall apply to such class or category of the members of the Force charged with the maintenance of public order as may be specified therein, wherever they may be serving, and thereupon the provisions of that sub-section shall apply as if for the expression “Central Government” occurring therein, the expression “State Government” were substituted.
 
 ---
 
@@ -156,9 +124,7 @@ Provided that where a woman is to be arrested, unless the circumstances indicate
 
 **(1)** If any person acting under a warrant of arrest, or any police officer having authority to arrest, has reason to believe that the person to be arrested has entered into, or is within, any place, any person residing in, or being in charge of, such place shall, on demand of such person acting as aforesaid or such police officer, allow him free ingress thereto, and afford all reasonable facilities for a search therein.
 
-**(2)** If ingress to such place cannot be obtained under sub-section
-
-**(1)** , it shall be lawful in any case for a person acting under a warrant and in any case in which a warrant may issue, but cannot be obtained without affording the person to be arrested an opportunity of escape, for a police officer to enter such place and search therein, and in order to effect an entrance into such place, to break open any outer or inner door or window of any house or place, whether that of the person to be arrested or of any other person, if after notification of his authority and purpose, and demand of admittance duly made, he cannot otherwise obtain admittance:
+**(2)** If ingress to such place cannot be obtained under sub-section (1), it shall be lawful in any case for a person acting under a warrant and in any case in which a warrant may issue, but cannot be obtained without affording the person to be arrested an opportunity of escape, for a police officer to enter such place and search therein, and in order to effect an entrance into such place, to break open any outer or inner door or window of any house or place, whether that of the person to be arrested or of any other person, if after notification of his authority and purpose, and demand of admittance duly made, he cannot otherwise obtain admittance:
 
 Provided that if any such place is an apartment in the actual occupancy of a female (not being the person to be arrested) who, according to custom, does not appear in public, such person or police officer shall, before entering such apartment, give notice to such female that she is at liberty to withdraw and shall afford her every reasonable facility for withdrawing, and may then break open the apartment and enter it.
 
@@ -190,17 +156,11 @@ The person arrested shall not be subjected to more restraint than is necessary t
 
 **(1)** Every police officer or other person making any arrest under this Sanhita shall forthwith give the information regarding such arrest and place where the arrested person is being held to any of his relatives, friends or such other persons as may be disclosed or nominated by the arrested person for the purpose of giving such information and also to the designated police officer in the district.
 
-**(2)** The police officer shall inform the arrested person of his rights under sub-section
-
-**(1)** as soon as he is brought to the police station.
+**(2)** The police officer shall inform the arrested person of his rights under sub-section (1) as soon as he is brought to the police station.
 
 **(3)** An entry of the fact as to who has been informed of the arrest of such person shall be made in a book to be kept in the police station in such form as the State Government may, by rules, provide.
 
-**(4)** It shall be the duty of the Magistrate before whom such arrested person is produced, to satisfy himself that the requirements of sub-section
-
-**(2)** and sub-section
-
-**(3)** have been complied with in respect of such arrested person.
+**(4)** It shall be the duty of the Magistrate before whom such arrested person is produced, to satisfy himself that the requirements of sub-section (2) and sub-section (3) have been complied with in respect of such arrested person.
 
 ---
 
@@ -261,11 +221,7 @@ request of any police officer, and for any person acting in good faith in his ai
 
 **(4)** The exact time of commencement and completion of the examination shall also be noted in the report.
 
-**(5)** The registered medical practitioner shall, without any delay, forward the report to the investigating officer, who shall forward it to the Magistrate referred to in section 193 as part of the documents referred to in clause
-
-- **(a)** of sub-section
-
-**(6)** of that section.
+**(5)** The registered medical practitioner shall, without any delay, forward the report to the investigating officer, who shall forward it to the Magistrate referred to in section 193 as part of the documents referred to in clause (a) of sub-section (6) of that section.
 
 ---
 
@@ -297,9 +253,7 @@ Provided that if the person identifying the person arrested is mentally or physi
 
 person who may lawfully be arrested without a warrant, he shall deliver to the officer required to make the arrest an order in writing, specifying the person to be arrested and the offence or other cause for which the arrest is to be made and the officer so required shall, before making the arrest, notify to the person to be arrested the substance of the order and, if so required by such person, shall show him the order.
 
-**(2)** Nothing in sub-section
-
-**(1)** shall affect the power of a police officer to arrest a person under section 35.
+**(2)** Nothing in sub-section (1) shall affect the power of a police officer to arrest a person under section 35.
 
 ---
 
@@ -337,9 +291,7 @@ No person who has been arrested by a police officer shall be discharged except o
 
 **(1)** If a person in lawful custody escapes or is rescued, the person from whose custody he escaped or was rescued may immediately pursue and arrest him in any place in India.
 
-**(2)** The provisions of section 44 shall apply to arrests under sub-section
-
-**(1)** although the person making any such arrest is not acting under a warrant and is not a police officer having authority to arrest.
+**(2)** The provisions of section 44 shall apply to arrests under sub-section (1) although the person making any such arrest is not acting under a warrant and is not a police officer having authority to arrest.
 
 ---
 

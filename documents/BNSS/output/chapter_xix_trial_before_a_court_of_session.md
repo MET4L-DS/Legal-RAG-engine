@@ -32,11 +32,7 @@ When the accused appears or is brought before the Court, in pursuance of a commi
 
 - **(b)** is exclusively triable by the Court, he shall frame in writing a charge against the accused within a period of sixty days from the date of first hearing on charge.
 
-**(2)** Where the Judge frames any charge under clause
-
-- **(b)** of sub-section
-
-**(1)** , the charge shall be read and explained to the accused present either physically or through audio-video electronic means and the accused shall be asked whether he pleads guilty of the offence charged or claims to be tried.
+**(2)** Where the Judge frames any charge under clause (b) of sub-section (1), the charge shall be read and explained to the accused present either physically or through audio-video electronic means and the accused shall be asked whether he pleads guilty of the offence charged or claims to be tried.
 
 ---
 
@@ -98,9 +94,7 @@ Provided that where any point of law is raised by the accused or his advocate, t
 
 ## Section 259 — Previous conviction
 
-In a case where a previous conviction is charged under the provisions of sub-section
-
-**(7)** of section 234, and the accused does not admit that he has been previously convicted as alleged in the charge, the Judge may, after he has convicted the said accused under section 252 or section 258, take evidence in respect of the alleged previous conviction, and shall record a finding thereon:
+In a case where a previous conviction is charged under the provisions of sub-section (7) of section 234, and the accused does not admit that he has been previously convicted as alleged in the charge, the Judge may, after he has convicted the said accused under section 252 or section 258, take evidence in respect of the alleged previous conviction, and shall record a finding thereon:
 
 Provided that no such charge shall be read out by the Judge nor shall the accused be asked to plead thereto nor shall the previous conviction be referred to by the prosecution or in any evidence added by it, unless and until the accused has been convicted under section 252 or section 258.
 
@@ -108,13 +102,7 @@ Provided that no such charge shall be read out by the Judge nor shall the accuse
 
 ## Section 260 — Procedure in cases instituted under sub
 
-section
-
-**(2)** of section 222.**—
-
-**(1)** A Court of Session taking cognizance of an offence under sub-section
-
-**(2)** of section 222 shall try the case in accordance with the procedure for the trial of warrant-cases instituted otherwise than on a police report before a Court of Magistrate:
+section (2) of section 222.**—(1) A Court of Session taking cognizance of an offence under sub-section (2) of section 222 shall try the case in accordance with the procedure for the trial of warrant-cases instituted otherwise than on a police report before a Court of Magistrate:
 
 Provided that the person against whom the offence is alleged to have been committed shall, unless the Court of Session, for reasons to be recorded, otherwise directs, be examined as a witness for the prosecution.
 
@@ -124,19 +112,13 @@ Provided that the person against whom the offence is alleged to have been commit
 
 **(4)** The Court shall record and consider any cause which may be shown by the person so directed, and if it is satisfied that there was no reasonable cause for making the accusation, it may, for reasons to be recorded, make an order that compensation to such amount not exceeding five thousand rupees, as it may determine, be paid by such person to the accused or to each or any of them.
 
-**(5)** Compensation awarded under sub-section
+**(5)** Compensation awarded under sub-section (4) shall be recovered as if it were a fine imposed by a Magistrate.
 
-**(4)** shall be recovered as if it were a fine imposed by a Magistrate.
-
-**(6)** No person who has been directed to pay compensation under sub-section
-
-**(4)** shall, by reason of such order, be exempted from any civil or criminal liability in respect of the complaint made under this section:
+**(6)** No person who has been directed to pay compensation under sub-section (4) shall, by reason of such order, be exempted from any civil or criminal liability in respect of the complaint made under this section:
 
 Provided that any amount paid to an accused person under this section shall be taken into account in awarding compensation to such person in any subsequent civil suit relating to the same matter.
 
-**(7)** The person who has been ordered under sub-section
-
-**(4)** to pay compensation may appeal from the order, in so far as it relates to the payment of compensation, to the High Court.
+**(7)** The person who has been ordered under sub-section (4) to pay compensation may appeal from the order, in so far as it relates to the payment of compensation, to the High Court.
 
 **(8)** When an order for payment of compensation to an accused person is made, the compensation shall not be paid to him before the period allowed for the presentation of the appeal has elapsed, or, if an appeal is presented, before the appeal has been decided.
 

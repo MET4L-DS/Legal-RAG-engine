@@ -14,29 +14,15 @@
 
 shall try in a summary way all or any of the following offences:—
 
-- **(i)** theft, under sub-section
+- **(i)** theft, under sub-section (2) of section 303, section 305 or section 306 of the Bharatiya Nyaya Sanhita, 2023 where the value of the property stolen does not exceed twenty thousand rupees;
 
-**(2)** of section 303, section 305 or section 306 of the Bharatiya Nyaya Sanhita, 2023 where the value of the property stolen does not exceed twenty thousand rupees;
+    - **(ii)** receiving or retaining stolen property, under sub-section (2) of section 317 of the Bharatiya Nyaya Sanhita, 2023, where the value of the property does not exceed twenty thousand rupees;
 
-    - **(ii)** receiving or retaining stolen property, under sub-section
+    - **(iii)** assisting in the concealment or disposal of stolen property under sub-section (5) of section 317 of the Bharatiya Nyaya Sanhita, 2023, where the value of such property does not exceed twenty thousand rupees;
 
-**(2)** of section 317 of the Bharatiya Nyaya Sanhita, 2023, where the value of the property does not exceed twenty thousand rupees;
+    - **(iv)** offences under sub-sections (2) and (3) of section 331 of the Bharatiya Nyaya Sanhita, 2023;
 
-    - **(iii)** assisting in the concealment or disposal of stolen property under sub-section
-
-**(5)** of section 317 of the Bharatiya Nyaya Sanhita, 2023, where the value of such property does not exceed twenty thousand rupees;
-
-    - **(iv)** offences under sub-sections
-
-**(2)** and
-
-**(3)** of section 331 of the Bharatiya Nyaya Sanhita, 2023;
-
-- **(v)** insult with intent to provoke a breach of the peace, under section 352, and criminal intimidation, under sub-sections
-
-**(2)** and
-
-**(3)** of section 351 of the Bharatiya Nyaya Sanhita, 2023;
+- **(v)** insult with intent to provoke a breach of the peace, under section 352, and criminal intimidation, under sub-sections (2) and (3) of section 351 of the Bharatiya Nyaya Sanhita, 2023;
 
     - **(vi)** abetment of any of the foregoing offences;
 
@@ -80,15 +66,7 @@ In every case tried summarily, the Magistrate shall enter, in such form as the S
 
 - **(e)** the name, parentage and residence of the accused;
 
-- **(f)** the offence complained of and the offence (if any) proved, and in cases coming under clause
-
-- **(i)** , clause
-
-    - **(ii)** or clause
-
-    - **(iii)** of sub-section
-
-**(1)** of section 283, the value of the property in respect of which the offence has been committed;
+- **(f)** the offence complained of and the offence (if any) proved, and in cases coming under clause (i), clause (ii) or clause (iii) of sub-section (1) of section 283, the value of the property in respect of which the offence has been committed;
 
 - **(g)** the plea of the accused and his examination (if any);
 

@@ -13,15 +13,9 @@
 **Explanation.—**
 *In this section, “Regulation” means any Regulation as defined in the General Clauses Act, 1897 (10 of 1897), or in the General Clauses Act of a State.
 
-**(2)** A Court of Session may, if it thinks fit in any case pending before it to which the provisions of sub-section
+**(2)** A Court of Session may, if it thinks fit in any case pending before it to which the provisions of sub-section (1) do not apply, refer for the decision of the High Court any question of law arising in the hearing of such case.
 
-**(1)** do not apply, refer for the decision of the High Court any question of law arising in the hearing of such case.
-
-**(3)** Any Court making a reference to the High Court under sub-section
-
-**(1)** or sub-section
-
-**(2)** may, pending the decision of the High Court thereon, either commit the accused to jail or release him on bail to appear when called upon.
+**(3)** Any Court making a reference to the High Court under sub-section (1) or sub-section (2) may, pending the decision of the High Court thereon, either commit the accused to jail or release him on bail to appear when called upon.
 
 ---
 
@@ -42,9 +36,7 @@
 **Explanation.—**
 *All Magistrates, whether Executive or Judicial, and whether exercising original or appellate jurisdiction, shall be deemed to be inferior to the Sessions Judge for the purposes of this sub-section and of section 439.
 
-**(2)** The powers of revision conferred by sub-section
-
-**(1)** shall not be exercised in relation to any interlocutory order passed in any appeal, inquiry, trial or other proceeding.
+**(2)** The powers of revision conferred by sub-section (1) shall not be exercised in relation to any interlocutory order passed in any appeal, inquiry, trial or other proceeding.
 
 **(3)** If an application under this section has been made by any person either to the High Court or to the Sessions Judge, no further application by the same person shall be entertained by the other of them.
 
@@ -60,21 +52,9 @@ Provided that no Court shall make any direction under this section for inquiry i
 
 ## Section 440 — Sessions Judge's powers of revision
 
-**(1)** In the case of any proceeding the record of which has been called for by himself, the Sessions Judge may exercise all or any of the powers which may be exercised by the High Court under sub-section
+**(1)** In the case of any proceeding the record of which has been called for by himself, the Sessions Judge may exercise all or any of the powers which may be exercised by the High Court under sub-section (1) of section 442.
 
-**(1)** of section 442.
-
-**(2)** Where any proceeding by way of revision is commenced before a Sessions Judge under sub-section
-
-**(1)** , the provisions of sub-sections
-
-**(2)** ,
-
-**(3)** ,
-
-**(4)** and
-
-**(5)** of section 442 shall, so far as may be, apply to such proceeding and references in the said sub-sections to the High Court shall be construed as references to the Sessions Judge.
+**(2)** Where any proceeding by way of revision is commenced before a Sessions Judge under sub-section (1), the provisions of sub-sections (2), (3), (4) and (5) of section 442 shall, so far as may be, apply to such proceeding and references in the said sub-sections to the High Court shall be construed as references to the Sessions Judge.
 
 **(3)** Where any application for revision is made by or on behalf of any person before the Sessions Judge, the decision of the Sessions Judge thereon in relation to such person shall be final and no further proceeding by way of revision at the instance of such person shall be entertained by the High Court or any other Court.
 

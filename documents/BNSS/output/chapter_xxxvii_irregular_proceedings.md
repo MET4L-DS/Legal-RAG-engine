@@ -16,15 +16,9 @@ If any Magistrate not empowered by law to do any of the following things, namely
 
 - **(d)** to issue process under section 207, for the apprehension of a person within his local jurisdiction who has committed an offence outside the limits of such jurisdiction;
 
-- **(e)** to take cognizance of an offence under clause
+- **(e)** to take cognizance of an offence under clause (a) or clause (b) of sub-section (I) of section 210;
 
-- **(a)** or clause
-
-- **(b)** of sub-section (I) of section 210;
-
-- **(f)** to make over a case under sub-section
-
-**(2)** of section 212;
+- **(f)** to make over a case under sub-section (2) of section 212;
 
 - **(g)** to tender a pardon under section 343;
 
@@ -58,9 +52,7 @@ If any Magistrate, not being empowered by law in this behalf, does any of the fo
 
 - **(j)** makes an order under Part C or Part D of Chapter XI;
 
-- **(k)** takes cognizance of an offence under clause
-
-- **(c)** of sub-section (I) of section 210;
+- **(k)** takes cognizance of an offence under clause (c) of sub-section (I) of section 210;
 
 - **(l)** tries an offender;
 
@@ -70,9 +62,7 @@ If any Magistrate, not being empowered by law in this behalf, does any of the fo
 
 - **(o)** decides an appeal;
 
-- **(p)** calls, under section 438, for proceedings; or
-
-- **(q)** revises an order passed under section 491, his proceedings shall be void.
+- **(p)** calls, under section 438, for proceedings; or (q) revises an order passed under section 491, his proceedings shall be void.
 
 ---
 
@@ -84,9 +74,7 @@ No finding, sentence or order of any Criminal Court shall be set aside merely on
 
 ## Section 509 — Non
 
-compliance with provisions of section 183 or section 316.**—
-
-**(1)** If any Court before which a confession or other statement of an accused person recorded, or purporting to be recorded under section 183 or section 316, is tendered, or has been received, in evidence finds that any of the provisions of either of such sections have not been complied with by the Magistrate recording the statement, it may, notwithstanding anything contained in section 94 of the Bharatiya Sakshya Adhiniyam, 2023, take evidence in regard to such non-compliance, and may, if satisfied that such non-compliance has not injured the accused in his defence on the merits and that he duly made the statement recorded, admit such statement.
+compliance with provisions of section 183 or section 316.**—(1) If any Court before which a confession or other statement of an accused person recorded, or purporting to be recorded under section 183 or section 316, is tendered, or has been received, in evidence finds that any of the provisions of either of such sections have not been complied with by the Magistrate recording the statement, it may, notwithstanding anything contained in section 94 of the Bharatiya Sakshya Adhiniyam, 2023, take evidence in regard to such non-compliance, and may, if satisfied that such non-compliance has not injured the accused in his defence on the merits and that he duly made the statement recorded, admit such statement.
 
 **(2)** The provisions of this section apply to Courts of appeal, reference and revision.
 

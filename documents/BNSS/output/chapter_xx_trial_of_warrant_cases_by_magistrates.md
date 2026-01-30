@@ -61,9 +61,7 @@ Provided that when the accused has cross-examined or had the opportunity of cros
 
 Provided further that the examination of a witness under this sub-section may be done by audio-video electronic means at the designated place to be notified by the State Government.
 
-**(3)** The Magistrate may, before summoning any witness on an application under sub-section
-
-**(2)** , require that the reasonable expenses incurred by the witness in attending for the purposes of the trial be deposited in Court.
+**(3)** The Magistrate may, before summoning any witness on an application under sub-section (2), require that the reasonable expenses incurred by the witness in attending for the purposes of the trial be deposited in Court.
 
 B.—Cases instituted otherwise than on police report
 
@@ -93,19 +91,13 @@ B.—Cases instituted otherwise than on police report
 
 **(3)** If the accused pleads guilty, the Magistrate shall record the plea, and may, in his discretion, convict him thereon.
 
-**(4)** If the accused refuses to plead, or does not plead or claims to be tried or if the accused is not convicted under sub-section
-
-**(3)** , he shall be required to state, at the commencement of the next hearing of the case, or, if the Magistrate for reasons to be recorded in writing so thinks fit, forthwith, whether he wishes to cross-examine any, and, if so, which, of the witnesses for the prosecution whose evidence has been taken.
+**(4)** If the accused refuses to plead, or does not plead or claims to be tried or if the accused is not convicted under sub-section (3), he shall be required to state, at the commencement of the next hearing of the case, or, if the Magistrate for reasons to be recorded in writing so thinks fit, forthwith, whether he wishes to cross-examine any, and, if so, which, of the witnesses for the prosecution whose evidence has been taken.
 
 **(5)** If he says he does so wish, the witnesses named by him shall be recalled and, after cross-examination and re-examination (if any), they shall be discharged.
 
 **(6)** The evidence of any remaining witnesses for the prosecution shall next be taken, and after cross-examination and re-examination (if any), they shall also be discharged.
 
-**(7)** Where, despite giving opportunity to the prosecution and after taking all reasonable measures under this Sanhita, if the attendance of the prosecution witnesses under sub-sections
-
-**(5)** and
-
-**(6)** cannot be secured for cross-examination, it shall be deemed that such witness has not been examined for not being available, and the Magistrate may close the prosecution evidence for reasons to be recorded in writing and proceed with the case on the basis of the materials on record.
+**(7)** Where, despite giving opportunity to the prosecution and after taking all reasonable measures under this Sanhita, if the attendance of the prosecution witnesses under sub-sections (5) and (6) cannot be secured for cross-examination, it shall be deemed that such witness has not been examined for not being available, and the Magistrate may close the prosecution evidence for reasons to be recorded in writing and proceed with the case on the basis of the materials on record.
 
 ---
 
@@ -123,13 +115,9 @@ The accused shall then be called upon to enter upon his defence and produce his 
 
 **(2)** Where, in any case under this Chapter, the Magistrate finds the accused guilty, but does not proceed in accordance with the provisions of section 364 or section 401, he shall, after hearing the accused on the question of sentence, pass sentence upon him according to law.
 
-**(3)** Where, in any case under this Chapter, a previous conviction is charged under the provisions of sub-section
+**(3)** Where, in any case under this Chapter, a previous conviction is charged under the provisions of sub-section (7) of section 234 and the accused does not admit that he has been previously convicted as alleged in the charge, the Magistrate may, after he has convicted the said accused, take evidence in respect of the alleged previous conviction, and shall record a finding thereon:
 
-**(7)** of section 234 and the accused does not admit that he has been previously convicted as alleged in the charge, the Magistrate may, after he has convicted the said accused, take evidence in respect of the alleged previous conviction, and shall record a finding thereon:
-
-Provided that no such charge shall be read out by the Magistrate nor shall the accused be asked to plead thereto nor shall the previous conviction be referred to by the prosecution or in any evidence added by it, unless and until the accused has been convicted under sub-section
-
-**(2)** .
+Provided that no such charge shall be read out by the Magistrate nor shall the accused be asked to plead thereto nor shall the previous conviction be referred to by the prosecution or in any evidence added by it, unless and until the accused has been convicted under sub-section (2).
 
 ---
 
@@ -147,27 +135,17 @@ complainant to be present, in his discretion, notwithstanding anything hereinbef
 
 **(2)** The Magistrate shall record and consider any cause which such complainant or informant may show, and if he is satisfied that there was no reasonable ground for making the accusation, may, for reasons to be recorded, make an order that compensation to such amount, not exceeding the amount of fine he is empowered to impose, as he may determine, be paid by such complainant or informant to the accused or to each or any of them.
 
-**(3)** The Magistrate may, by the order directing payment of the compensation under sub-section
+**(3)** The Magistrate may, by the order directing payment of the compensation under sub-section (2), further order that, in default of payment, the person ordered to pay such compensation shall undergo simple imprisonment for a period not exceeding thirty days.
 
-**(2)** , further order that, in default of payment, the person ordered to pay such compensation shall undergo simple imprisonment for a period not exceeding thirty days.
-
-**(4)** When any person is imprisoned under sub-section
-
-**(3)** , the provisions of sub-section
-
-**(6)** of section 8 of the Bharatiya Nyaya Sanhita, 2023 shall, so far as may be, apply.
+**(4)** When any person is imprisoned under sub-section (3), the provisions of sub-section (6) of section 8 of the Bharatiya Nyaya Sanhita, 2023 shall, so far as may be, apply.
 
 **(5)** No person who has been directed to pay compensation under this section shall, by reason of such order, be exempted from any civil or criminal liability in respect of the complaint made or information given by him:
 
 Provided that any amount paid to an accused person under this section shall be taken into account in awarding compensation to such person in any subsequent civil suit relating to the same matter.
 
-**(6)** A complainant or informant who has been ordered under sub-section
+**(6)** A complainant or informant who has been ordered under sub-section (2) by a Magistrate of the second class to pay compensation exceeding two thousand rupees, may appeal from the order, as if such complainant or informant had been convicted on a trial held by such Magistrate.
 
-**(2)** by a Magistrate of the second class to pay compensation exceeding two thousand rupees, may appeal from the order, as if such complainant or informant had been convicted on a trial held by such Magistrate.
-
-**(7)** When an order for payment of compensation to an accused person is made in a case which is subject to appeal under sub-section
-
-**(6)** , the compensation shall not be paid to him before the period allowed for the presentation of the appeal has elapsed, or, if an appeal is presented, before the appeal has been decided; and where such order is made in a case which is not so subject to appeal the compensation shall not be paid before the expiration of one month from the date of the order.
+**(7)** When an order for payment of compensation to an accused person is made in a case which is subject to appeal under sub-section (6), the compensation shall not be paid to him before the period allowed for the presentation of the appeal has elapsed, or, if an appeal is presented, before the appeal has been decided; and where such order is made in a case which is not so subject to appeal the compensation shall not be paid before the expiration of one month from the date of the order.
 
 **(8)** The provisions of this section apply to summons-cases as well as to warrant-cases.
 

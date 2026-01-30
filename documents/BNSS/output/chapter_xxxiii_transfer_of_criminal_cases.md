@@ -40,9 +40,7 @@ Provided that no application shall lie to the High Court for transferring a case
 
 **(3)** Every application for an order under sub-section (I) shall be made by motion, which shall, except when the applicant is the Advocate-General of the State, be supported by affidavit or affirmation.
 
-**(4)** When such application is made by an accused person, the High Court may direct him to execute a bond or bail bond for the payment of any compensation which the High Court may award under sub-section
-
-**(7)** .
+**(4)** When such application is made by an accused person, the High Court may direct him to execute a bond or bail bond for the payment of any compensation which the High Court may award under sub-section (7).
 
 **(5)** Every accused person making such application shall give to the Public Prosecutor notice in writing of the application, together with a copy of the grounds on which it is made; and no order shall be made on the merits of the application unless at least twenty-four hours have elapsed between the giving of such notice and the hearing of the application.
 
@@ -64,25 +62,7 @@ Provided that such stay shall not affect the subordinate Court's power of remand
 
 **(2)** The Sessions Judge may act either on the report of the lower Court, or on the application of a party interested, or on his own initiative.
 
-**(3)** The provisions of sub-sections
-
-**(3)** ,
-
-**(4)** ,
-
-**(5)** ,
-
-**(6)** ,
-
-**(7)** and
-
-**(9)** of section 447 shall apply in relation to an application to the Sessions Judge for an order under sub-section
-
-**(1)** as they apply in relation to an application to the High Court for an order under sub-section
-
-**(1)** of section 447, except that sub-section
-
-**(7)** of that section shall so apply as if for the word "sum" occurring therein, the words "sum not exceeding ten thousand rupees" were substituted.
+**(3)** The provisions of sub-sections (3), (4), (5), (6), (7) and (9) of section 447 shall apply in relation to an application to the Sessions Judge for an order under sub-section (1) as they apply in relation to an application to the High Court for an order under sub-section (1) of section 447, except that sub-section (7) of that section shall so apply as if for the word "sum" occurring therein, the words "sum not exceeding ten thousand rupees" were substituted.
 
 ---
 
@@ -92,11 +72,7 @@ Provided that such stay shall not affect the subordinate Court's power of remand
 
 **(2)** At any time before the trial of the case or the hearing of the appeal has commenced before the Additional Sessions Judge, a Sessions Judge may recall any case or appeal which he has made over to any Additional Sessions Judge.
 
-**(3)** Where a Sessions Judge withdraws or recalls case or appeal under sub-section
-
-**(1)** or sub-section
-
-**(2)** , he may either try the case in his own Court or hear the appeal himself, or make it over in accordance with the provisions of this Sanhita to another Court for trial or hearing, as the case may be.
+**(3)** Where a Sessions Judge withdraws or recalls case or appeal under sub-section (1) or sub-section (2), he may either try the case in his own Court or hear the appeal himself, or make it over in accordance with the provisions of this Sanhita to another Court for trial or hearing, as the case may be.
 
 ---
 
@@ -104,9 +80,7 @@ Provided that such stay shall not affect the subordinate Court's power of remand
 
 **(1)** Any Chief Judicial Magistrate may withdraw any case from, or recall any case which he has made over to, any Magistrate subordinate to him, and may inquire into or try such case himself, or refer it for inquiry or trial to any other such Magistrate competent to inquire into or try the same.
 
-**(2)** Any Judicial Magistrate may recall any case made over by him under sub-section
-
-**(2)** of section 212 to any other Magistrate and may inquire into or try such cases himself.
+**(2)** Any Judicial Magistrate may recall any case made over by him under sub-section (2) of section 212 to any other Magistrate and may inquire into or try such cases himself.
 
 ---
 

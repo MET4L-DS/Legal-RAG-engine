@@ -22,19 +22,11 @@ Provided further that—
 
 - **(b)** the recording of such information shall be videographed;
 
-- **(c)** the police officer shall get the statement of the person recorded by a Magistrate under clause
-
-- **(a)** of sub-section
-
-**(6)** of section 183 as soon as possible.
+- **(c)** the police officer shall get the statement of the person recorded by a Magistrate under clause (a) of sub-section (6) of section 183 as soon as possible.
 
 **(2)** A copy of the information as recorded under sub-section (I) shall be given forthwith, free of cost, to the informant or the victim.
 
-**(3)** Without prejudice to the provisions contained in section 175, on receipt of information relating to the commission of any cognizable offence, which is made punishable for three years or more but less than seven years, the officer in charge of the police station may with the prior permission from an officer not below the rank of Deputy Superintendent of Police, considering the nature and gravity of the offence,—
-
-- **(i)** proceed to conduct preliminary enquiry to ascertain whether there exists a *prima facie* case for proceeding in the matter within a period of fourteen days; or
-
-    - **(ii)** proceed with investigation when there exists a *prima facie* case.
+**(3)** Without prejudice to the provisions contained in section 175, on receipt of information relating to the commission of any cognizable offence, which is made punishable for three years or more but less than seven years, the officer in charge of the police station may with the prior permission from an officer not below the rank of Deputy Superintendent of Police, considering the nature and gravity of the offence,— (i) proceed to conduct preliminary enquiry to ascertain whether there exists a *prima facie* case for proceeding in the matter within a period of fourteen days; or (ii) proceed with investigation when there exists a *prima facie* case.
 
 **(4)** Any person aggrieved by a refusal on the part of an officer in charge of a police station to record the information referred to in sub-section (I), may send the substance of such information, in writing and by post, to the Superintendent of Police concerned who, if satisfied that such information discloses the
 
@@ -44,9 +36,7 @@ commission of a cognizable offence, shall either investigate the case himself or
 
 ## Section 174 — Information as to non
 
-cognizable cases and investigation of such cases.**—
-
-**(1)** When information is given to an officer in charge of a police station of the commission within the limits of such station of a non-cognizable offence, he shall enter or cause to be entered the substance of the information in a book to be kept by such officer in such form as the State Government may by rules prescribe in this behalf, and,—
+cognizable cases and investigation of such cases.**—(1) When information is given to an officer in charge of a police station of the commission within the limits of such station of a non-cognizable offence, he shall enter or cause to be entered the substance of the information in a book to be kept by such officer in such form as the State Government may by rules prescribe in this behalf, and,—
 
 - **(i)** refer the informant to the Magistrate;
 
@@ -68,9 +58,7 @@ Provided that considering the nature and gravity of the offence, the Superintend
 
 **(2)** No proceeding of a police officer in any such case shall at any stage be called in question on the ground that the case was one which such officer was not empowered under this section to investigate.
 
-**(3)** Any Magistrate empowered under section 210 may, after considering the application supported by an affidavit made under sub-section
-
-**(4)** of section 173, and after making such inquiry as he thinks necessary and submission made in this regard by the police officer, order such an investigation as above-mentioned.
+**(3)** Any Magistrate empowered under section 210 may, after considering the application supported by an affidavit made under sub-section (4) of section 173, and after making such inquiry as he thinks necessary and submission made in this regard by the police officer, order such an investigation as above-mentioned.
 
 **(4)** Any Magistrate empowered under section 210, may, upon receiving a complaint against a public servant arising in course of the discharge of his official duties, order investigation, subject to—
 
@@ -92,13 +80,7 @@ Provided that—
 
 Provided further that in relation to an offence of rape, the recording of statement of the victim shall be conducted at the residence of the victim or in the place of her choice and as far as practicable by a woman police officer in the presence of her parents or guardian or near relatives or social worker of the locality and such statement may also be recorded through any audio-video electronic means including mobile phone.
 
-**(2)** In each of the cases mentioned in clauses
-
-- **(a)** and
-
-- **(b)** of the first proviso to sub-section (I), the officer in charge of the police station shall state in his report the reasons for not fully complying with the requirements of that sub-section by him, and, forward the daily diary report fortnightly to the Magistrate and in the case mentioned in clause
-
-- **(b)** of the said proviso, the officer shall also forthwith notify to the informant, if any, in such manner as may be prescribed by rules made by the State Government.
+**(2)** In each of the cases mentioned in clauses (a) and (b) of the first proviso to sub-section (I), the officer in charge of the police station shall state in his report the reasons for not fully complying with the requirements of that sub-section by him, and, forward the daily diary report fortnightly to the Magistrate and in the case mentioned in clause (b) of the said proviso, the officer shall also forthwith notify to the informant, if any, in such manner as may be prescribed by rules made by the State Government.
 
 **(3)** On receipt of every information relating to the commission of an offence which is made punishable for seven years or more, the officer in charge of a police station shall, from such date, as may be notified within a period of five years by the State Government in this regard, cause the forensic expert to visit the crime scene to collect forensic evidence in the offence and also cause videography of the process on mobile phone or any other electronic device:
 
@@ -152,11 +134,7 @@ Provided further that the statement of a woman against whom an offence under sec
 
 Provided that when any witness is called for the prosecution in such inquiry or trial whose statement has been reduced into writing as aforesaid, any part of his statement, if duly proved, may be used by the accused, and with the permission of the Court, by the prosecution, to contradict such witness in the manner provided by section 148 of the Bharatiya Sakshya Adhiniyam, 2023; and when any part of such statement is so used, any part thereof may also be used in the re-examination of such witness, but for the purpose only of explaining any matter referred to in his cross-examination.
 
-**(2)** Nothing in this section shall be deemed to apply to any statement falling within the provisions of clause
-
-- **(a)** of section 26 of the Bharatiya Sakshya Adhiniyam, 2023; or to affect the provisions of the proviso to sub-section
-
-**(2)** of section 23 of that Adhiniyam.
+**(2)** Nothing in this section shall be deemed to apply to any statement falling within the provisions of clause (a) of section 26 of the Bharatiya Sakshya Adhiniyam, 2023; or to affect the provisions of the proviso to sub-section (2) of section 23 of that Adhiniyam.
 
 **Explanation.—**
 _—An omission to state a fact or circumstance in the statement referred to in sub-section (I) may amount to contradiction if the same appears to be significant and otherwise relevant having regard to the context in which such omission occurs and whether any omission amounts to a contradiction in the particular context shall be a question of fact.
@@ -169,9 +147,7 @@ _—An omission to state a fact or circumstance in the statement referred to in 
 
 **(2)** But no police officer or other person shall prevent, by any caution or otherwise, any person from making in the course of any investigation under this Chapter any statement which he may be disposed to make of his own free will:
 
-Provided that nothing in this sub-section shall affect the provisions of sub-section
-
-**(4)** of section 183.
+Provided that nothing in this sub-section shall affect the provisions of sub-section (4) of section 183.
 
 ---
 
@@ -193,15 +169,9 @@ Provided further that no confession shall be recorded by a police officer on who
 
 (Signed) A. B. Magistrate.”.
 
-**(5)** Any statement (other than a confession) made under sub-section
+**(5)** Any statement (other than a confession) made under sub-section (1) shall be recorded in such manner hereinafter provided for the recording of evidence as is, in the opinion of the Magistrate, best fitted to the circumstances of the case; and the Magistrate shall have power to administer oath to the person whose statement is so recorded.
 
-**(1)** shall be recorded in such manner hereinafter provided for the recording of evidence as is, in the opinion of the Magistrate, best fitted to the circumstances of the case; and the Magistrate shall have power to administer oath to the person whose statement is so recorded.
-
-**(6)** 
-
-- **(a)** In cases punishable under section 64, section 65, section 66, section 67, section 68, section 69, section 70, section 71, section 74, section 75, section 76, section 77, section 78, section 79 or section 124 of the Bharatiya Nyaya Sanhita, 2023, the Magistrate shall record the statement of the person against whom such offence has been committed in the manner specified in sub-section
-
-**(5)** , as soon as the commission of the offence is brought to the notice of the police:
+**(6)** (a) In cases punishable under section 64, section 65, section 66, section 67, section 68, section 69, section 70, section 71, section 74, section 75, section 76, section 77, section 78, section 79 or section 124 of the Bharatiya Nyaya Sanhita, 2023, the Magistrate shall record the statement of the person against whom such offence has been committed in the manner specified in sub-section (5), as soon as the commission of the offence is brought to the notice of the police:
 
 Provided that such statement shall, as far as practicable, be recorded by a woman Magistrate and in her absence by a male Magistrate in the presence of a woman:
 
@@ -211,9 +181,7 @@ Provided also that if the person making the statement is temporarily or permanen
 
 Provided also that if the person making the statement is temporarily or permanently, mentally or physically disabled, the statement made by the person, with the assistance of an interpreter or a special educator, shall be recorded through audio-video electronic means preferably by mobile phone;
 
-- **(b)** a statement recorded under clause
-
-- **(a)** of a person, who is temporarily or permanently, mentally or physically disabled, shall be considered a statement *in lieu* of examination-in-chief, as specified in section 142 of the Bharatiya Sakshya Adhiniyam, 2023 such that the maker of the statement can be cross-examined on such statement, without the need for recording the same at the time of trial.
+- **(b)** a statement recorded under clause (a) of a person, who is temporarily or permanently, mentally or physically disabled, shall be considered a statement *in lieu* of examination-in-chief, as specified in section 142 of the Bharatiya Sakshya Adhiniyam, 2023 such that the maker of the statement can be cross-examined on such statement, without the need for recording the same at the time of trial.
 
 **(7)** The Magistrate recording a confession or statement under this section shall forward it to the Magistrate by whom the case is to be inquired into or tried.
 
@@ -243,11 +211,7 @@ Provided also that if the person making the statement is temporarily or permanen
 
 **(5)** The exact time of commencement and completion of the examination shall also be noted in the report.
 
-**(6)** The registered medical practitioner shall, within a period of seven days forward the report to the investigating officer who shall forward it to the Magistrate referred to in section 193 as part of the documents referred to in clause
-
-- **(a)** of sub-section
-
-**(6)** of that section.
+**(6)** The registered medical practitioner shall, within a period of seven days forward the report to the investigating officer who shall forward it to the Magistrate referred to in section 193 as part of the documents referred to in clause (a) of sub-section (6) of that section.
 
 **(7)** Nothing in this section shall be construed as rendering lawful any examination without the consent of the woman or of any person competent to give such consent on her behalf.
 
@@ -262,9 +226,7 @@ For the purposes of this section, “examination” and “registered medical pr
 
 search is to be made, search, or cause search to be made, for such thing in any place within the limits of such station.
 
-**(2)** A police officer proceeding under sub-section
-
-**(1)** , shall, if practicable, conduct the search in person:
+**(2)** A police officer proceeding under sub-section (1), shall, if practicable, conduct the search in person:
 
 Provided that the search conducted under this section shall be recorded through audio-video electronic means preferably by mobile phone.
 
@@ -272,51 +234,31 @@ Provided that the search conducted under this section shall be recorded through 
 
 **(4)** The provisions of this Sanhita as to search-warrants and the general provisions as to searches contained in section 103 shall, so far as may be, apply to a search made under this section.
 
-**(5)** Copies of any record made under sub-section
-
-**(1)** or sub-section
-
-**(3)** shall forthwith, but not later than forty-eight hours, be sent to the nearest Magistrate empowered to take cognizance of the offence, and the owner or occupier of the place searched shall, on application, be furnished, free of cost, with a copy of the same by the Magistrate.
+**(5)** Copies of any record made under sub-section (1) or sub-section (3) shall forthwith, but not later than forty-eight hours, be sent to the nearest Magistrate empowered to take cognizance of the offence, and the owner or occupier of the place searched shall, on application, be furnished, free of cost, with a copy of the same by the Magistrate.
 
 ---
 
 ## Section 186 — When officer in charge of police station may require another to issue search
 
-warrant.**—
-
-**(1)** An officer in charge of a police station or a police officer not being below the rank of sub-inspector making an investigation may require an officer in charge of another police station, whether in the same or a different district, to cause a search to be made in any place, in any case in which the former officer might cause such search to be made, within the limits of his own station.
+warrant.**—(1) An officer in charge of a police station or a police officer not being below the rank of sub-inspector making an investigation may require an officer in charge of another police station, whether in the same or a different district, to cause a search to be made in any place, in any case in which the former officer might cause such search to be made, within the limits of his own station.
 
 **(2)** Such officer, on being so required, shall proceed according to the provisions of section 185, and shall forward the thing found, if any, to the officer at whose request the search was made.
 
-**(3)** Whenever there is reason to believe that the delay occasioned by requiring an officer in charge of another police station to cause a search to be made under sub-section
+**(3)** Whenever there is reason to believe that the delay occasioned by requiring an officer in charge of another police station to cause a search to be made under sub-section (1) might result in evidence of the commission of an offence being concealed or destroyed, it shall be lawful for an officer in charge of a police station or a police officer making any investigation under this Chapter to search, or cause to be searched, any place in the limits of another police station in accordance with the provisions of section 185, as if such place were within the limits of his own police station.
 
-**(1)** might result in evidence of the commission of an offence being concealed or destroyed, it shall be lawful for an officer in charge of a police station or a police officer making any investigation under this Chapter to search, or cause to be searched, any place in the limits of another police station in accordance with the provisions of section 185, as if such place were within the limits of his own police station.
+(4 ) Any officer conducting a search under sub-section (3) shall forthwith send notice of the search to the officer in charge of the police station within the limits of which such place is situate, and shall also send with such notice a copy of the list (if any) prepared under section 103, and shall also send to the nearest Magistrate empowered to take cognizance of the offence, copies of the records referred to in sub-sections (1) and (3) of section 185.
 
-(4 ) Any officer conducting a search under sub-section
-
-**(3)** shall forthwith send notice of the search to the officer in charge of the police station within the limits of which such place is situate, and shall also send with such notice a copy of the list (if any) prepared under section 103, and shall also send to the nearest Magistrate empowered to take cognizance of the offence, copies of the records referred to in sub-sections
-
-**(1)** and
-
-**(3)** of section 185.
-
-**(5)** The owner or occupier of the place searched shall, on application, be furnished free of cost with a copy of any record sent to the Magistrate under sub-section
-
-**(4)** .
+**(5)** The owner or occupier of the place searched shall, on application, be furnished free of cost with a copy of any record sent to the Magistrate under sub-section (4).
 
 ---
 
 ## Section 187 — Procedure when investigation cannot be completed in twenty
 
-four hours.**—
-
-**(1)** Whenever any person is arrested and detained in custody, and it appears that the investigation cannot be completed within the period of twenty-four hours fixed by section 58, and there are grounds for believing that the accusation or information is well-founded, the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of sub-inspector, shall forthwith transmit to the nearest Magistrate a copy of the entries in the diary hereinafter specified relating to the case, and shall at the same time forward the accused to such Magistrate.
+four hours.**—(1) Whenever any person is arrested and detained in custody, and it appears that the investigation cannot be completed within the period of twenty-four hours fixed by section 58, and there are grounds for believing that the accusation or information is well-founded, the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of sub-inspector, shall forthwith transmit to the nearest Magistrate a copy of the entries in the diary hereinafter specified relating to the case, and shall at the same time forward the accused to such Magistrate.
 
 **(2)** The Magistrate to whom an accused person is forwarded under this section may, irrespective of whether he has or has no jurisdiction to try the case, after taking into consideration whether such person
 
-has not been released on bail or his bail has been cancelled, authorise, from time to time, the detention of the accused in such custody as such Magistrate thinks fit, for a term not exceeding fifteen days in the whole, or in parts, at any time during the initial forty days or sixty days out of detention period of sixty days or ninety days, as the case may be, as provided in sub-section
-
-**(3)** , and if he has no jurisdiction to try the case or commit it for trial, and considers further detention unnecessary, he may order the accused to be forwarded to a Magistrate having such jurisdiction.
+has not been released on bail or his bail has been cancelled, authorise, from time to time, the detention of the accused in such custody as such Magistrate thinks fit, for a term not exceeding fifteen days in the whole, or in parts, at any time during the initial forty days or sixty days out of detention period of sixty days or ninety days, as the case may be, as provided in sub-section (3), and if he has no jurisdiction to try the case or commit it for trial, and considers further detention unnecessary, he may order the accused to be forwarded to a Magistrate having such jurisdiction.
 
 **(3)** The Magistrate may authorise the detention of the accused person, beyond the period of fifteen days, if he is satisfied that adequate grounds exist for doing so, but no Magistrate shall authorise the detention of the accused person in custody under this sub-section for a total period exceeding—
 
@@ -329,26 +271,16 @@ has not been released on bail or his bail has been cancelled, authorise, from ti
 **(5)** No Magistrate of the second class, not specially empowered in this behalf by the High Court, shall authorise detention in the custody of the police.
 
 **Explanation.—**
-Explanation I.—For the avoidance of doubts, it is hereby declared that, notwithstanding the expiry of the period specified in sub-section
-
-**(3)** , the accused shall be detained in custody so long as he does not furnish bail.
+Explanation I.—For the avoidance of doubts, it is hereby declared that, notwithstanding the expiry of the period specified in sub-section (3), the accused shall be detained in custody so long as he does not furnish bail.
 
 **Explanation.—**
-Explanation II.—If any question arises whether an accused person was produced before the Magistrate as required under sub-section
-
-**(4)** , the production of the accused person may be proved by his signature on the order authorising detention or by the order certified by the Magistrate as to production of the accused person through the audio-video electronic means, as the case may be:
+Explanation II.—If any question arises whether an accused person was produced before the Magistrate as required under sub-section (4), the production of the accused person may be proved by his signature on the order authorising detention or by the order certified by the Magistrate as to production of the accused person through the audio-video electronic means, as the case may be:
 
 Provided that in case of a woman under eighteen years of age, the detention shall be authorised to be in the custody of a remand home or recognised social institution:
 
 Provided further that no person shall be detained otherwise than in police station under police custody or in prison under judicial custody or a place declared as prison by the Central Government or the State Government.
 
-**(6)** Notwithstanding anything contained in sub-section
-
-**(1)** to sub-section
-
-**(5)** , the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of a sub-inspector, may, where a Magistrate is not available, transmit to the nearest Executive Magistrate, on whom the powers of a Magistrate have been conferred, a copy of the entry in the diary hereinafter specified relating to the case, and shall, at the same time, forward the accused to such Executive Magistrate, and thereupon such Executive Magistrate, may, for reasons to be recorded in writing, authorise the detention of the accused person in such custody as he may think fit for a term not exceeding seven days in the aggregate; and, on the expiry of the period of detention so authorised, the accused person shall be released on bail except where an order for further detention of the accused person has been made by a Magistrate competent to make such order; and, where an order for such further detention is made, the period during which the accused person was detained in custody under the orders made by an Executive Magistrate under this sub-section, shall be taken into account in computing the period specified in sub-section
-
-**(3)** :
+**(6)** Notwithstanding anything contained in sub-section (1) to sub-section (5), the officer in charge of the police station or the police officer making the investigation, if he is not below the rank of a sub-inspector, may, where a Magistrate is not available, transmit to the nearest Executive Magistrate, on whom the powers of a Magistrate have been conferred, a copy of the entry in the diary hereinafter specified relating to the case, and shall, at the same time, forward the accused to such Executive Magistrate, and thereupon such Executive Magistrate, may, for reasons to be recorded in writing, authorise the detention of the accused person in such custody as he may think fit for a term not exceeding seven days in the aggregate; and, on the expiry of the period of detention so authorised, the accused person shall be released on bail except where an order for further detention of the accused person has been made by a Magistrate competent to make such order; and, where an order for such further detention is made, the period during which the accused person was detained in custody under the orders made by an Executive Magistrate under this sub-section, shall be taken into account in computing the period specified in sub-section (3):
 
 Provided that before the expiry of the period aforesaid, the Executive Magistrate shall transmit to the nearest Judicial Magistrate the records of the case together with a copy of the entries in the diary relating to the case which was transmitted to him by the officer in charge of the police station or the police officer making the investigation, as the case may be.
 
@@ -358,11 +290,7 @@ Provided that before the expiry of the period aforesaid, the Executive Magistrat
 
 **(9)** If in any case triable by a Magistrate as a summons-case, the investigation is not concluded within a period of six months from the date on which the accused was arrested, the Magistrate shall make an order stopping further investigation into the offence unless the officer making the investigation satisfies the Magistrate that for special reasons and in the interests of justice the continuation of the investigation beyond the period of six months is necessary.
 
-**(10)** Where any order stopping further investigation into an offence has been made under sub-section
-
-**(9)** , the Sessions Judge may, if he is satisfied, on an application made to him or otherwise, that further investigation into the offence ought to be made, vacate the order made under sub-section
-
-**(9)** and direct further investigation to be made into the offence subject to such directions with regard to bail and other matters as he may specify.
+**(10)** Where any order stopping further investigation into an offence has been made under sub-section (9), the Sessions Judge may, if he is satisfied, on an application made to him or otherwise, that further investigation into the offence ought to be made, vacate the order made under sub-section (9) and direct further investigation to be made into the offence subject to such directions with regard to bail and other matters as he may specify.
 
 ---
 
@@ -406,9 +334,7 @@ Provided that if any complainant or witness refuses to attend or to execute a bo
 
 **(2)** The statements of witnesses recorded during the course of investigation under section 180 shall be inserted in the case diary.
 
-**(3)** The diary referred to in sub-section
-
-**(1)** shall be a volume and duly paginated.
+**(3)** The diary referred to in sub-section (1) shall be a volume and duly paginated.
 
 **(4)** Any Criminal Court may send for the police diaries of a case under inquiry or trial in such Court, and may use such diaries, not as evidence in the case, but to aid it in such inquiry or trial.
 
@@ -422,11 +348,7 @@ Provided that if any complainant or witness refuses to attend or to execute a bo
 
 **(2)** The investigation in relation to an offence under sections 64, 65, 66, 67, 68, 70, 71 of the Bharatiya Nyaya Sanhita, 2023 or under sections 4, 6, 8 or section 10 of the Protection of Children from Sexual Offences Act, 2012 shall be completed within two months from the date on which the information was recorded by the officer in charge of the police station.
 
-**(3)** 
-
-- **(i)** As soon as the investigation is completed, the officer in charge of the police station shall forward, including through electronic communication to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form as the State Government may, by rules provide, stating—
-
-- **(a)** the names of the parties;
+**(3)** (i) As soon as the investigation is completed, the officer in charge of the police station shall forward, including through electronic communication to a Magistrate empowered to take cognizance of the offence on a police report, a report in the form as the State Government may, by rules provide, stating— (a) the names of the parties;
 
 - **(b)** the nature of the information;
 
@@ -460,21 +382,11 @@ Provided that if any complainant or witness refuses to attend or to execute a bo
 
 **(7)** If the police officer is of opinion that any part of any such statement is not relevant to the subject matter of the proceedings or that its disclosure to the accused is not essential in the interests of justice and is inexpedient in the public interest, he shall indicate that part of the statement and append a note requesting the Magistrate to exclude that part from the copies to be granted to the accused and stating his reasons for making such request.
 
-**(8)** Subject to the provisions contained in sub-section
-
-**(7)** , the police officer investigating the case shall also submit such number of copies of the police report along with other documents duly indexed to the Magistrate for supply to the accused as required under section 230:
+**(8)** Subject to the provisions contained in sub-section (7), the police officer investigating the case shall also submit such number of copies of the police report along with other documents duly indexed to the Magistrate for supply to the accused as required under section 230:
 
 Provided that supply of report and other documents by electronic communication shall be considered as duly served.
 
-**(9)** Nothing in this section shall be deemed to preclude further investigation in respect of an offence after a report under sub-section
-
-**(3)** has been forwarded to the Magistrate and, where upon such investigation, the officer in charge of the police station obtains further evidence, oral or documentary, he shall forward to the Magistrate a further report or reports regarding such evidence in the form as the State Government may, by rules, provide; and the provisions of sub-sections
-
-**(3)** to
-
-**(8)** shall, as far as may be, apply in relation to such report or reports as they apply in relation to a report forwarded under sub-section
-
-**(3)** :
+**(9)** Nothing in this section shall be deemed to preclude further investigation in respect of an offence after a report under sub-section (3) has been forwarded to the Magistrate and, where upon such investigation, the officer in charge of the police station obtains further evidence, oral or documentary, he shall forward to the Magistrate a further report or reports regarding such evidence in the form as the State Government may, by rules, provide; and the provisions of sub-sections (3) to (8) shall, as far as may be, apply in relation to such report or reports as they apply in relation to a report forwarded under sub-section (3):
 
 Provided that further investigation during the trial may be conducted with the permission of the Court trying the case and the same shall be completed within a period of ninety days which may be extended with the permission of the Court.
 
@@ -518,15 +430,7 @@ Provided further that if such person is willing to attend and answer at the poli
 
 ## Section 196 — Inquiry by Magistrate into cause of death
 
-**(1)** When the case is of the nature referred to in clause
-
-- **(i)** or clause
-
-    - **(ii)** of sub-section
-
-**(3)** of section 194, the nearest Magistrate empowered to hold inquests shall, and in any other case mentioned in sub-section
-
-**(1)** of section 194, any Magistrate so empowered may hold an inquiry into the cause of death either instead of, or in addition to, the investigation held by the police officer; and if he does so, he shall have all the powers in conducting it which he would have in holding an inquiry into an offence.
+**(1)** When the case is of the nature referred to in clause (i) or clause (ii) of sub-section (3) of section 194, the nearest Magistrate empowered to hold inquests shall, and in any other case mentioned in sub-section (1) of section 194, any Magistrate so empowered may hold an inquiry into the cause of death either instead of, or in addition to, the investigation held by the police officer; and if he does so, he shall have all the powers in conducting it which he would have in holding an inquiry into an offence.
 
 **(2)** Where,—
 
@@ -540,9 +444,7 @@ Provided further that if such person is willing to attend and answer at the poli
 
 **(5)** Where an inquiry is to be held under this section, the Magistrate shall, wherever practicable, inform the relatives of the deceased whose names and addresses are known, and shall allow them to remain present at the inquiry.
 
-**(6)** The Magistrate or the Executive Magistrate or the police officer holding an inquiry or investigation under sub-section
-
-**(2)** shall, within twenty-four hours of the death of a person, forward the body with a view to its being examined to the nearest Civil Surgeon or other qualified medical person appointed in this behalf by the State Government, unless it is not possible to do so for reasons to be recorded in writing.
+**(6)** The Magistrate or the Executive Magistrate or the police officer holding an inquiry or investigation under sub-section (2) shall, within twenty-four hours of the death of a person, forward the body with a view to its being examined to the nearest Civil Surgeon or other qualified medical person appointed in this behalf by the State Government, unless it is not possible to do so for reasons to be recorded in writing.
 
 **Explanation.—**
 In this section, the expression "relative" means parents, children, brothers, sisters and spouse.

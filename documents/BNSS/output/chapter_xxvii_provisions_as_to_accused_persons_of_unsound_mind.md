@@ -18,15 +18,11 @@ Provided that if the accused is aggrieved by the information given by the psychi
 
 **(3)** Pending such examination and inquiry, the Magistrate may deal with such person in accordance with the provisions of section 369.
 
-**(4)** If the Magistrate is informed that the person referred to in sub-section
-
-**(2)** is a person of unsound mind, the Magistrate shall further determine whether the unsoundness of mind renders the accused incapable of entering defence and if the accused is found so incapable, the Magistrate shall record a finding to that effect, and shall examine the record of evidence produced by the prosecution and after hearing the advocate of the accused but without questioning the accused, if he finds that no *prima facie* case is made out against the accused, he shall, instead of postponing the enquiry, discharge the accused and deal with him in the manner provided under section 369:
+**(4)** If the Magistrate is informed that the person referred to in sub-section (2) is a person of unsound mind, the Magistrate shall further determine whether the unsoundness of mind renders the accused incapable of entering defence and if the accused is found so incapable, the Magistrate shall record a finding to that effect, and shall examine the record of evidence produced by the prosecution and after hearing the advocate of the accused but without questioning the accused, if he finds that no *prima facie* case is made out against the accused, he shall, instead of postponing the enquiry, discharge the accused and deal with him in the manner provided under section 369:
 
 Provided that if the Magistrate finds that a *prima facie* case is made out against the accused in respect of whom a finding of unsoundness of mind is arrived at, he shall postpone the proceeding for such period, as in the opinion of the psychiatrist or clinical psychologist, is required for the treatment of the accused, and order the accused to be dealt with as provided under section 369.
 
-**(5)** If the Magistrate is informed that the person referred to in sub-section
-
-**(2)** is a person with intellectual disability, the Magistrate shall further determine whether the intellectual disability renders the accused incapable of entering defence, and if the accused is found so incapable, the Magistrate shall order closure of the inquiry and deal with the accused in the manner provided under section 369.
+**(5)** If the Magistrate is informed that the person referred to in sub-section (2) is a person with intellectual disability, the Magistrate shall further determine whether the intellectual disability renders the accused incapable of entering defence, and if the accused is found so incapable, the Magistrate shall order closure of the inquiry and deal with the accused in the manner provided under section 369.
 
 ---
 
@@ -42,9 +38,7 @@ Provided that if the accused is aggrieved by the information given by the psychi
 
 - **(b)** a faculty member in psychiatry in the nearest Government medical college.
 
-**(3)** If the Magistrate or Court is informed that the person referred to in sub-section
-
-**(2)** is a person of unsound mind, the Magistrate or Court shall further determine whether the unsoundness of mind renders the accused incapable of entering defence and if the accused is found so incapable, the Magistrate or Court shall record a finding to that effect and shall examine the record of evidence produced by the prosecution and after hearing the advocate of the accused but without questioning the accused, if the Magistrate or Court finds that no *prima facie* case is made out against the accused, he or it shall, instead of postponing the trial, discharge the accused and deal with him in the manner provided under section 369:
+**(3)** If the Magistrate or Court is informed that the person referred to in sub-section (2) is a person of unsound mind, the Magistrate or Court shall further determine whether the unsoundness of mind renders the accused incapable of entering defence and if the accused is found so incapable, the Magistrate or Court shall record a finding to that effect and shall examine the record of evidence produced by the prosecution and after hearing the advocate of the accused but without questioning the accused, if the Magistrate or Court finds that no *prima facie* case is made out against the accused, he or it shall, instead of postponing the trial, discharge the accused and deal with him in the manner provided under section 369:
 
 Provided that if the Magistrate or Court finds that a *prima facie* case is made out against the accused in respect of whom a finding of unsoundness of mind is arrived at, he shall postpone the trial for such period, as in the opinion of the psychiatrist or clinical psychologist, is required for the treatment of the accused.
 
@@ -110,25 +104,15 @@ Whenever any person is acquitted upon the ground that, at the time at which he i
 
 - **(b)** order such person to be delivered to any relative or friend of such person.
 
-**(2)** No order for the detention of the accused in a public mental health establishment shall be made under clause
+**(2)** No order for the detention of the accused in a public mental health establishment shall be made under clause (a) of sub-section (1) otherwise than in accordance with such rules as the State Government may have made under the Mental Healthcare Act, 2017 (10 of 2017).
 
-- **(a)** of sub-section
-
-**(1)** otherwise than in accordance with such rules as the State Government may have made under the Mental Healthcare Act, 2017 (10 of 2017).
-
-**(3)** No order for the delivery of the accused to a relative or friend shall be made under clause
-
-- **(b)** of sub-section
-
-**(1)** except upon the application of such relative or friend and on his giving security to the satisfaction of the Magistrate or Court that the person delivered shall—
+**(3)** No order for the delivery of the accused to a relative or friend shall be made under clause (b) of sub-section (1) except upon the application of such relative or friend and on his giving security to the satisfaction of the Magistrate or Court that the person delivered shall—
 
 - **(a)** be properly taken care of and prevented from doing injury to himself or to any other person;
 
 - **(b)** be produced for the inspection of such officer, and at such times and places, as the State Government may direct.
 
-**(4)** The Magistrate or Court shall report to the State Government the action taken under sub-section
-
-**(1)** .
+**(4)** The Magistrate or Court shall report to the State Government the action taken under sub-section (1).
 
 ---
 
@@ -140,17 +124,13 @@ The State Government may empower the officer in charge of the jail in which a pe
 
 ## Section 376 — Procedure where prisoner of unsound mind is reported capable of making his defence
 
-If a person is detained under the provisions of sub-section
-
-**(2)** of section 369, and in the case of a person detained in a jail, the Inspector-General of Prisons, or, in the case of a person detained in a public mental health establishment, the Mental Health Review Board constituted under the Mental Healthcare Act, 2017 (10 of 2017), shall certify that, in his or their opinion, such person is capable of making his defence, he shall be taken before the Magistrate or Court, as the case may be, at such time as the Magistrate or Court appoints, and the Magistrate or Court shall deal with such person under the provisions of section 371; and the certificate of such Inspector-General or visitors as aforesaid shall be receivable as evidence.
+If a person is detained under the provisions of sub-section (2) of section 369, and in the case of a person detained in a jail, the Inspector-General of Prisons, or, in the case of a person detained in a public mental health establishment, the Mental Health Review Board constituted under the Mental Healthcare Act, 2017 (10 of 2017), shall certify that, in his or their opinion, such person is capable of making his defence, he shall be taken before the Magistrate or Court, as the case may be, at such time as the Magistrate or Court appoints, and the Magistrate or Court shall deal with such person under the provisions of section 371; and the certificate of such Inspector-General or visitors as aforesaid shall be receivable as evidence.
 
 ---
 
 ## Section 377 — Procedure where person of unsound mind detained is declared fit to be released
 
-**(1)** If a person is detained under the provisions of sub-section
-
-**(2)** of section 369, or section 374, and such Inspector-General or visitors shall certify that, in his or their judgment, he may be released without danger of his doing injury to himself or to any other person, the State Government may thereupon order him to be released, or to be detained in custody, or to be transferred to a public mental health establishment if he has not been already sent to such establishment; and, in case it orders him to be transferred to a public mental health establishment, may appoint a Commission, consisting of a Judicial and two medical officers.
+**(1)** If a person is detained under the provisions of sub-section (2) of section 369, or section 374, and such Inspector-General or visitors shall certify that, in his or their judgment, he may be released without danger of his doing injury to himself or to any other person, the State Government may thereupon order him to be released, or to be detained in custody, or to be transferred to a public mental health establishment if he has not been already sent to such establishment; and, in case it orders him to be transferred to a public mental health establishment, may appoint a Commission, consisting of a Judicial and two medical officers.
 
 **(2)** Such Commission shall make a formal inquiry into the state of mind of such person, take such evidence as is necessary, and shall report to the State Government, which may order his release or detention as it thinks fit.
 
@@ -164,16 +144,10 @@ If a person is detained under the provisions of sub-section
 
 - **(b)** be produced for the inspection of such officer, and at such times and places, as the State Government may direct;
 
-- **(c)** in the case of a person detained under sub-section
-
-**(2)** of section 369, be produced when required before such Magistrate or Court,
+- **(c)** in the case of a person detained under sub-section (2) of section 369, be produced when required before such Magistrate or Court,
 
 order such person to be delivered to such relative or friend.
 
-**(2)** If the person so delivered is accused of any offence, the trial of which has been postponed by reason of his being of unsound mind and incapable of making his defence, and the inspecting officer referred to in clause
-
-- **(b)** of sub-section
-
-**(1)** , certifies at any time to the Magistrate or Court that such person is capable of making his defence, such Magistrate or Court shall call upon the relative or friend to whom such accused was delivered to produce him before the Magistrate or Court; and, upon such production the Magistrate or Court shall proceed in accordance with the provisions of section 371, and the certificate of the inspecting officer shall be receivable as evidence.
+**(2)** If the person so delivered is accused of any offence, the trial of which has been postponed by reason of his being of unsound mind and incapable of making his defence, and the inspecting officer referred to in clause (b) of sub-section (1), certifies at any time to the Magistrate or Court that such person is capable of making his defence, such Magistrate or Court shall call upon the relative or friend to whom such accused was delivered to produce him before the Magistrate or Court; and, upon such production the Magistrate or Court shall proceed in accordance with the provisions of section 371, and the certificate of the inspecting officer shall be receivable as evidence.
 
 ---

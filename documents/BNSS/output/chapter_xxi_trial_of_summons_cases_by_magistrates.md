@@ -48,15 +48,11 @@ If the accused pleads guilty, the Magistrate shall record the plea as nearly as 
 
 ## Section 279 — Non
 
-appearance or death of complainant.**—
-
-**(1)** If the summons has been issued on complaint, and on the day appointed for the appearance of the accused, or any day subsequent thereto to which the hearing may be adjourned, the complainant does not appear, the Magistrate shall, after giving thirty days' time to the complainant to be present, notwithstanding anything hereinbefore contained, acquit the accused, unless for some reason he thinks it proper to adjourn the hearing of the case to some other day:
+appearance or death of complainant.**—(1) If the summons has been issued on complaint, and on the day appointed for the appearance of the accused, or any day subsequent thereto to which the hearing may be adjourned, the complainant does not appear, the Magistrate shall, after giving thirty days' time to the complainant to be present, notwithstanding anything hereinbefore contained, acquit the accused, unless for some reason he thinks it proper to adjourn the hearing of the case to some other day:
 
 Provided that where the complainant is represented by an advocate or by the officer conducting the prosecution or where the Magistrate is of opinion that the personal attendance of the complainant is not necessary, the Magistrate may, dispense with his attendance and proceed with the case.
 
-**(2)** The provisions of sub-section
-
-**(1)** shall, so far as may be, apply also to cases where the non-appearance of the complainant is due to his death.
+**(2)** The provisions of sub-section (1) shall, so far as may be, apply also to cases where the non-appearance of the complainant is due to his death.
 
 ---
 

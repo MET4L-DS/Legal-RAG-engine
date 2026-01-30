@@ -6,9 +6,7 @@
 
 ## Section 337 — Person once convicted or acquitted not to be tried for same offence
 
-**(1)** A person who has once been tried by a Court of competent jurisdiction for an offence and convicted or acquitted of such offence shall, while such conviction or acquittal remains in force, not be liable to be tried again for the same offence, nor on the same facts for any other offence for which a different charge from the one made against him might have been made under sub-section (I) of section 244, or for which he might have been convicted under sub-section
-
-**(2)** thereof.
+**(1)** A person who has once been tried by a Court of competent jurisdiction for an offence and convicted or acquitted of such offence shall, while such conviction or acquittal remains in force, not be liable to be tried again for the same offence, nor on the same facts for any other offence for which a different charge from the one made against him might have been made under sub-section (I) of section 244, or for which he might have been convicted under sub-section (2) thereof.
 
 **(2)** A person acquitted or convicted of any offence may be afterwards tried, with the consent of the State Government, for any distinct offence for which a separate charge might have been made against him at the former trial under sub-section (I) of section 243.
 
@@ -31,9 +29,7 @@ Illustrations.
 
 - **(c)** A is charged before the Court of Session and convicted of the culpable homicide of B. A may not afterwards be tried on the same facts for the murder of B.
 
-- **(d)** A is charged by a Magistrate of the first class with, and convicted by him of, voluntarily causing hurt to B. A may not afterwards be tried for voluntarily causing grievous hurt to B on the same facts, unless the case comes within sub-section
-
-**(3)** of this section.
+- **(d)** A is charged by a Magistrate of the first class with, and convicted by him of, voluntarily causing hurt to B. A may not afterwards be tried for voluntarily causing grievous hurt to B on the same facts, unless the case comes within sub-section (3) of this section.
 
 - **(e)** A is charged by a Magistrate of the second class with, and convicted by him of, theft of property from the person of B. A may subsequently be charged with, and tried for, robbery on the same facts.
 
@@ -71,21 +67,13 @@ Any person accused of an offence before a Criminal Court, or against whom procee
 
 **(2)** The High Court may, with the previous approval of the State Government, make rules providing for—
 
-- **(a)** the mode of selecting advocates for defence under sub-section
-
-**(1)** ;
+- **(a)** the mode of selecting advocates for defence under sub-section (1);
 
 - **(b)** the facilities to be allowed to such advocates by the Courts;
 
-- **(c)** the fees payable to such advocates by the Government, and generally, for carrying out the purposes of sub-section
+- **(c)** the fees payable to such advocates by the Government, and generally, for carrying out the purposes of sub-section (1).
 
-**(1)** .
-
-**(3)** The State Government may, by notification, direct that, as from such date as may be specified in the notification, the provisions of sub-sections
-
-**(1)** and
-
-**(2)** shall apply in relation to any class of trials before other Courts in the State as they apply in relation to trials before Courts of Session.
+**(3)** The State Government may, by notification, direct that, as from such date as may be specified in the notification, the provisions of sub-sections (1) and (2) shall apply in relation to any class of trials before other Courts in the State as they apply in relation to trials before Courts of Session.
 
 ---
 
@@ -97,9 +85,7 @@ Any person accused of an offence before a Criminal Court, or against whom procee
 
 **(3)** Where a representative of a corporation appears, any requirement of this Sanhita that anything shall be done in the presence of the accused or shall be read or stated or explained to the accused, shall be construed as a requirement that that thing shall be done in the presence of the representative or read or stated or explained to the representative, and any requirement that the accused shall be examined shall be construed as a requirement that the representative shall be examined.
 
-**(4)** Where a representative of a corporation does not appear, any such requirement as is referred to in sub-section
-
-**(3)** shall not apply.
+**(4)** Where a representative of a corporation does not appear, any such requirement as is referred to in sub-section (3) shall not apply.
 
 **(5)** Where a statement in writing purporting to be signed by the managing director of the corporation or by any person duly authorised by him (by whatever name called) having, or being one of the persons having the management of the affairs of the corporation to the effect that the person named in the statement has been appointed as the representative of the corporation for the purposes of this section, is filed, the Court shall, unless the contrary is proved, presume that such person has been so appointed.
 
@@ -117,27 +103,19 @@ Any person accused of an offence before a Criminal Court, or against whom procee
 
 - **(b)** any offence punishable with imprisonment which may extend to seven years or with a more severe sentence.
 
-**(3)** Every Magistrate who tenders a pardon under sub-section
-
-**(1)** shall record—
+**(3)** Every Magistrate who tenders a pardon under sub-section (1) shall record—
 
 - **(a)** his reasons for so doing;
 
 - **(b)** whether the tender was or was not accepted by the person to whom it was made, and shall, on application made by the accused, furnish him with a copy of such record free of cost.
 
-**(4)** Every person accepting a tender of pardon made under sub-section
-
-**(1)** —
+**(4)** Every person accepting a tender of pardon made under sub-section (1)—
 
 - **(a)** shall be examined as a witness in the Court of the Magistrate taking cognizance of the offence and in the subsequent trial, if any;
 
 - **(b)** shall, unless he is already on bail, be detained in custody until the termination of the trial.
 
-**(5)** Where a person has accepted a tender of pardon made under sub-section
-
-**(1)** and has been examined under sub-section
-
-**(4)** , the Magistrate taking cognizance of the offence shall, without making any further inquiry in the case—
+**(5)** Where a person has accepted a tender of pardon made under sub-section (1) and has been examined under sub-section (4), the Magistrate taking cognizance of the offence shall, without making any further inquiry in the case—
 
 - **(a)** commit it for trial—
 
@@ -163,9 +141,7 @@ Provided that such person shall not be tried jointly with any of the other accus
 
 Provided further that such person shall not be tried for the offence of giving false evidence except with the sanction of the High Court, and nothing contained in section 215 or section 379 shall apply to that offence.
 
-**(2)** Any statement made by such person accepting the tender of pardon and recorded by a Magistrate under section 183 or by a Court under sub-section
-
-**(4)** of section 343 may be given in evidence against him at such trial.
+**(2)** Any statement made by such person accepting the tender of pardon and recorded by a Magistrate under section 183 or by a Court under sub-section (4) of section 343 may be given in evidence against him at such trial.
 
 **(3)** At such trial, the accused shall be entitled to plead that he has complied with the condition upon which such tender was made; in which case it shall be for the prosecution to prove that the condition has not been complied with.
 
@@ -253,13 +229,9 @@ Subject to any rules made by the State Government, any Criminal Court may, if it
 
 - **(b)** shall, after the witnesses for the prosecution have been examined and before he is called on for his defence, question him generally on the case:
 
-Provided that in a summons case, where the Court has dispensed with the personal attendance of the accused, it may also dispense with his examination under clause
+Provided that in a summons case, where the Court has dispensed with the personal attendance of the accused, it may also dispense with his examination under clause (b).
 
-- **(b)** .
-
-**(2)** No oath shall be administered to the accused when he is examined under sub-section
-
-**(1)** .
+**(2)** No oath shall be administered to the accused when he is examined under sub-section (1).
 
 **(3)** The accused shall not render himself liable to punishment by refusing to answer such questions, or by giving false answers to them.
 
@@ -320,9 +292,7 @@ _—For the purpose of this section, personal attendance of the accused includes
 
 Provided that the Court shall not commence the trial unless a period of ninety days has lapsed from the date of framing of the charge.
 
-**(2)** The Court shall ensure that the following procedure has been complied with before proceeding under sub-section
-
-**(1)** , namely:—
+**(2)** The Court shall ensure that the following procedure has been complied with before proceeding under sub-section (1), namely:—
 
 - **(i)** issuance of two consecutive warrants of arrest within the interval of at least thirty days;
 
@@ -340,17 +310,13 @@ Provided that if the proclaimed offender is arrested and produced or appears bef
 
 **(5)** Where a trial is related to a person under this section, the deposition and examination of the witness, may, as far as practicable, be recorded by audio-video electronic means preferably mobile phone and such recording shall be kept in such manner as the Court may direct.
 
-**(6)** In prosecution for offences under this Sanhita, voluntary absence of accused after the trial has commenced under sub-section
-
-**(1)** shall not prevent continuing the trial including the pronouncement of the judgment even if he is arrested and produced or appears at the conclusion of such trial.
+**(6)** In prosecution for offences under this Sanhita, voluntary absence of accused after the trial has commenced under sub-section (1) shall not prevent continuing the trial including the pronouncement of the judgment even if he is arrested and produced or appears at the conclusion of such trial.
 
 **(7)** No appeal shall lie against the judgment under this section unless the proclaimed offender presents himself before the Court of appeal:
 
 Provided that no appeal against conviction shall lie after the expiry of three years from the date of the judgment.
 
-**(8)** The State may, by notification, extend the provisions of this section to any absconder mentioned in sub-section
-
-**(1)** of section 84.
+**(8)** The State may, by notification, extend the provisions of this section to any absconder mentioned in sub-section (1) of section 84.
 
 ---
 
@@ -368,15 +334,11 @@ If the accused, though not a person of unsound mind, cannot be made to understan
 
 **(3)** Any person attending the Court, although not under arrest or upon a summons, may be detained by such Court for the purpose of the inquiry into, or trial of, the offence which he appears to have committed.
 
-**(4)** Where the Court proceeds against any person under sub-section
-
-**(1)** , then—
+**(4)** Where the Court proceeds against any person under sub-section (1), then—
 
 - **(a)** the proceedings in respect of such person shall be commenced afresh, and the witnesses re-heard;
 
-- **(b)** subject to the provisions of clause
-
-- **(a)** , the case may proceed as if such person had been an accused person when the Court took cognizance of the offence upon which the inquiry or trial was commenced.
+- **(b)** subject to the provisions of clause (a), the case may proceed as if such person had been an accused person when the Court took cognizance of the offence upon which the inquiry or trial was commenced.
 
 ---
 
@@ -386,13 +348,9 @@ If the accused, though not a person of unsound mind, cannot be made to understan
 
 **(2)** The offences punishable under the sections of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023) specified in the first two columns of the Table next following may, with the permission of the Court before which any prosecution for such offence is pending, be compounded by the persons mentioned in the third column of that Table:—
 
-**(3)** When an offence is compoundable under this section, the abetment of such offence or an attempt to commit such offence (when such attempt is itself an offence) or where the accused is liable under sub-section
+**(3)** When an offence is compoundable under this section, the abetment of such offence or an attempt to commit such offence (when such attempt is itself an offence) or where the accused is liable under sub-section (5) of section 3 or section 190 of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023), may be compounded in like manner.
 
-**(5)** of section 3 or section 190 of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023), may be compounded in like manner.
-
-**(4)** 
-
-- **(a)** When the person who would otherwise be competent to compound an offence under this section is a child or of unsound mind, any person competent to contract on his behalf may, with the permission of the Court, compound such offence;
+**(4)** (a) When the person who would otherwise be competent to compound an offence under this section is a child or of unsound mind, any person competent to contract on his behalf may, with the permission of the Court, compound such offence;
 
 - **(b)** When the person who would otherwise be competent to compound an offence under this section is dead, the legal representative, as defined in the Code of Civil Procedure, 1908 (5 of 1908) of such person may, with the consent of the Court, compound such offence.
 
@@ -456,13 +414,9 @@ If, in any inquiry into an offence or a trial before a Magistrate, it appears to
 
 ## Section 363 — Trial of persons previously convicted of offences against coinage, stamp
 
-law or property.**—
+law or property.**—(1) Where a person, having been convicted of an offence punishable under Chapter X or Chapter XVII of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023), with imprisonment for a term of three years or upwards, is again accused of any offence punishable under either of those Chapters with imprisonment for a term of three years or upwards, and the Magistrate before whom the case is pending is satisfied that there is ground for presuming that such person has committed the offence, he shall be sent for trial to the Chief Judicial Magistrate or committed to the Court of Session, unless the Magistrate is competent to try the case and is of opinion that he can himself pass an adequate sentence if the accused is convicted.
 
-**(1)** Where a person, having been convicted of an offence punishable under Chapter X or Chapter XVII of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023), with imprisonment for a term of three years or upwards, is again accused of any offence punishable under either of those Chapters with imprisonment for a term of three years or upwards, and the Magistrate before whom the case is pending is satisfied that there is ground for presuming that such person has committed the offence, he shall be sent for trial to the Chief Judicial Magistrate or committed to the Court of Session, unless the Magistrate is competent to try the case and is of opinion that he can himself pass an adequate sentence if the accused is convicted.
-
-**(2)** When any person is sent for trial to the Chief Judicial Magistrate or committed to the Court of Session under sub-section
-
-**(1)** , any other person accused jointly with him in the same inquiry or trial shall be similarly sent or committed, unless the Magistrate discharges such other person under section 262 or section 268, as the case may be.
+**(2)** When any person is sent for trial to the Chief Judicial Magistrate or committed to the Court of Session under sub-section (1), any other person accused jointly with him in the same inquiry or trial shall be similarly sent or committed, unless the Magistrate discharges such other person under section 262 or section 268, as the case may be.
 
 ---
 
@@ -470,9 +424,7 @@ law or property.**—
 
 **(1)** Whenever a Magistrate is of opinion, after hearing the evidence for the prosecution and the accused, that the accused is guilty, and that he ought to receive a punishment different in kind from, or more severe than, that which such Magistrate is empowered to inflict, or, being a Magistrate of the second class, is of opinion that the accused ought to be required to execute a bond or bail bond under section 125, he may record the opinion and submit his proceedings, and forward the accused, to the Chief Judicial Magistrate to whom he is subordinate.
 
-**(2)** When more accused persons than one are being tried together, and the Magistrate considers it necessary to proceed under sub-section
-
-**(1)** , in regard to any of such accused, he shall forward all the accused, who are in his opinion guilty, to the Chief Judicial Magistrate.
+**(2)** When more accused persons than one are being tried together, and the Magistrate considers it necessary to proceed under sub-section (1), in regard to any of such accused, he shall forward all the accused, who are in his opinion guilty, to the Chief Judicial Magistrate.
 
 **(3)** The Chief Judicial Magistrate to whom the proceedings are submitted may, if he thinks fit, examine the parties and recall and examine any witness who has already given evidence in the case and may call for and take any further evidence and shall pass such judgment, sentence or order in the case as he thinks fit, and is according to law.
 
@@ -484,9 +436,7 @@ law or property.**—
 
 Provided that if the succeeding Judge or Magistrate is of the opinion that further examination of any of the witnesses whose evidence has already been recorded is necessary in the interests of justice, he may re-summon any such witness, and after such further examination, cross-examination and re-examination, if any, as he may permit, the witness shall be discharged.
 
-**(2)** When a case is transferred under the provisions of this Sanhita from one Judge to another Judge or from one Magistrate to another Magistrate, the former shall be deemed to cease to exercise jurisdiction therein, and to be succeeded by the latter, within the meaning of sub-section
-
-**(1)** .
+**(2)** When a case is transferred under the provisions of this Sanhita from one Judge to another Judge or from one Magistrate to another Magistrate, the former shall be deemed to cease to exercise jurisdiction therein, and to be succeeded by the latter, within the meaning of sub-section (1).
 
 **(3)** Nothing in this section applies to summary trials or to cases in which proceedings have been stayed under section 361 or in which proceedings have been submitted to a superior Magistrate under section 364.
 
@@ -498,17 +448,13 @@ Provided that if the succeeding Judge or Magistrate is of the opinion that furth
 
 Provided that the presiding Judge or Magistrate may, if he thinks fit, order at any stage of any inquiry into, or trial of, any particular case, that the public generally, or any particular person, shall not have access to, or be or remain in, the room or building used by the Court.
 
-**(2)** Notwithstanding anything contained in sub-section
-
-**(1)** , the inquiry into and trial of rape or an offence under section 64, section 65, section 66, section 67, section 68, section 70 or section 71 of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023) or under sections 4, 6, 8 or section 10 of the Protection of Children from Sexual Offences Act, 2012 (32 of 2012) shall be conducted *in camera*:
+**(2)** Notwithstanding anything contained in sub-section (1), the inquiry into and trial of rape or an offence under section 64, section 65, section 66, section 67, section 68, section 70 or section 71 of the Bharatiya Nyaya Sanhita, 2023 (45 of 2023) or under sections 4, 6, 8 or section 10 of the Protection of Children from Sexual Offences Act, 2012 (32 of 2012) shall be conducted *in camera*:
 
 Provided that the presiding Judge may, if he thinks fit, or on an application made by either of the parties, allow any particular person to have access to, or be or remain in, the room or building used by the Court:
 
 Provided further that *in camera* trial shall be conducted as far as practicable by a woman Judge or Magistrate.
 
-**(3)** Where any proceedings are held under sub-section
-
-**(2)** , it shall not be lawful for any person to print or publish any matter in relation to any such proceedings except with the previous permission of the Court:
+**(3)** Where any proceedings are held under sub-section (2), it shall not be lawful for any person to print or publish any matter in relation to any such proceedings except with the previous permission of the Court:
 
 Provided that the ban on printing or publication of trial proceedings in relation to an offence of rape may be lifted, subject to maintaining confidentiality of name and address of the parties.
 

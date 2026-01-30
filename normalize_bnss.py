@@ -85,12 +85,20 @@ def format_section_blocks(content, expected_next_num):
         formatted.append(f"## Section {sec_num} — {title}\n\n")
         
         # PRE-PROCESS CONTENT: Split concatenated (1)(2) or (a)(b) or (1)(a) onto new lines
-        # Ensure they start on new lines
-        sec_content = re.sub(r'(\(\d+\))', r'\n\1', sec_content)
-        sec_content = re.sub(r'(\([a-z]\))', r'\n\1', sec_content)
-        sec_content = re.sub(r'(\([ivx]+\))', r'\n\1', sec_content)
+        # ONLY split if preceded by newline, start of string, or sentence-ending punctuation/semicolons.
+        # This prevents splitting "sub-sections (7), (8) and (9)"
         
-        # Also handle "Provided that" and "Explanation" newlines
+        # Helper to safely insert newline
+        def safe_split(text, pattern):
+            # Split if preceded by: start of string, newline, dot, semicolon, or colon
+            # \s* matches the whitespace that we will effectively replace/prepend with \n
+            return re.sub(r'(?:^|(?<=[\.\;\:\n]))\s*(' + pattern + r')', r'\n\1', text)
+
+        sec_content = safe_split(sec_content, r'\(\d+\)')
+        sec_content = safe_split(sec_content, r'\([a-z]\)')
+        sec_content = safe_split(sec_content, r'\([ivx]+\)')
+        
+        # Also handle "Provided that" and "Explanation" newlines - these usually start distinct blocks
         sec_content = re.sub(r'(Provided\s+that)', r'\n\n\1', sec_content)
         sec_content = re.sub(r'(Explanation\s*[\.—])', r'\n\n\1', sec_content)
         

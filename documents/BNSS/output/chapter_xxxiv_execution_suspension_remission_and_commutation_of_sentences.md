@@ -20,15 +20,9 @@ When a sentence of death is passed by the High Court in appeal or in revision, t
 
 ## Section 455 — Postponement of execution of sentence of death in case of appeal to Supreme Court
 
-**(1)** Where a person is sentenced to death by the High Court and an appeal from its judgment lies to the Supreme Court under sub-clause
+**(1)** Where a person is sentenced to death by the High Court and an appeal from its judgment lies to the Supreme Court under sub-clause (a) or sub-clause (b) of clause (I) of article 134 of the Constitution, the High Court shall order the execution of the sentence to be postponed until the period allowed for preferring such appeal has expired, or if, an appeal is preferred within that period, until such appeal is disposed of.
 
-- **(a)** or sub-clause
-
-- **(b)** of clause (I) of article 134 of the Constitution, the High Court shall order the execution of the sentence to be postponed until the period allowed for preferring such appeal has expired, or if, an appeal is preferred within that period, until such appeal is disposed of.
-
-**(2)** Where a sentence of death is passed or confirmed by the High Court, and the person sentenced makes an application to the High Court for the grant of a certificate under article 132 or under sub-clause
-
-- **(c)** of clause (I) of article 134 of the Constitution, the High Court shall order the execution of the sentence to be postponed until such application is disposed of by the High Court, or if a certificate is granted on such application, until the period allowed for preferring an appeal to the Supreme Court on such certificate has expired.
+**(2)** Where a sentence of death is passed or confirmed by the High Court, and the person sentenced makes an application to the High Court for the grant of a certificate under article 132 or under sub-clause (c) of clause (I) of article 134 of the Constitution, the High Court shall order the execution of the sentence to be postponed until such application is disposed of by the High Court, or if a certificate is granted on such application, until the period allowed for preferring an appeal to the Supreme Court on such certificate has expired.
 
 **(3)** Where a sentence of death is passed or confirmed by the High Court, and the High Court is satisfied that the person sentenced intends to present a petition to the Supreme Court for the grant of special leave to appeal under article 136 of the Constitution, the High Court shall order the execution of the sentence to be postponed for such period as it considers sufficient to enable him to present such petition.
 
@@ -48,9 +42,7 @@ If a woman sentenced to death is found to be pregnant, the High Court shall comm
 
 **(2)** If any person liable to be imprisoned or committed to custody under this Sanhita is in confinement in a civil jail, the Court or Magistrate ordering the imprisonment or committal may direct that the person be removed to a criminal jail.
 
-**(3)** When a person is removed to a criminal jail under sub-section
-
-**(2)** , he shall, on being released therefrom, be sent back to the civil jail, unless either—
+**(3)** When a person is removed to a criminal jail under sub-section (2), he shall, on being released therefrom, be sent back to the civil jail, unless either—
 
 - **(a)** three years have elapsed since he was removed to the criminal jail, in which case he shall be deemed to have been released from the civil jail under section 58 of the Code of Civil Procedure, 1908 (5 of 1908); or
 
@@ -64,9 +56,7 @@ If a woman sentenced to death is found to be pregnant, the High Court shall comm
 
 Provided that where the accused is sentenced to imprisonment till the rising of the Court, it shall not be necessary to prepare or forward a warrant to a jail, and the accused may be confined in such place as the Court may direct.
 
-**(2)** Where the accused is not present in Court when he is sentenced to such imprisonment as is mentioned in sub-section
-
-**(1)** , the Court shall issue a warrant for his arrest for the purpose of forwarding him to the jail or other place in which he is to be confined; and in such case, the sentence shall commence on the date of his arrest.
+**(2)** Where the accused is not present in Court when he is sentenced to such imprisonment as is mentioned in sub-section (1), the Court shall issue a warrant for his arrest for the purpose of forwarding him to the jail or other place in which he is to be confined; and in such case, the sentence shall commence on the date of his arrest.
 
 ---
 
@@ -94,13 +84,9 @@ When the prisoner is to be confined in a jail, the warrant shall be lodged with 
 
 Provided that, if the sentence directs that in default of payment of the fine, the offender shall be imprisoned, and if such offender has undergone the whole of such imprisonment in default, no Court shall issue such warrant unless, for special reasons to be recorded in writing, it considers it necessary so to do, or unless it has made an order for the payment of expenses or compensation out of the fine under section 395.
 
-**(2)** The State Government may make rules regulating the manner in which warrants under clause
+**(2)** The State Government may make rules regulating the manner in which warrants under clause (a) of sub-section (I) are to be executed, and for the summary determination of any claims made by any person other than the offender in respect of any property attached in execution of such warrant.
 
-- **(a)** of sub-section (I) are to be executed, and for the summary determination of any claims made by any person other than the offender in respect of any property attached in execution of such warrant.
-
-**(3)** Where the Court issues a warrant to the Collector under clause
-
-- **(b)** of sub-section (I), the Collector shall realise the amount in accordance with the law relating to recovery of arrears of land revenue, as if such warrant were a certificate issued under such law:
+**(3)** Where the Court issues a warrant to the Collector under clause (b) of sub-section (I), the Collector shall realise the amount in accordance with the law relating to recovery of arrears of land revenue, as if such warrant were a certificate issued under such law:
 
 Provided that no such warrant shall be executed by the arrest or detention in prison of the offender.
 
@@ -108,19 +94,13 @@ Provided that no such warrant shall be executed by the arrest or detention in pr
 
 ## Section 462 — Effect of such warrant
 
-A warrant issued under clause
-
-- **(a)** of sub-section (I) of section 461 by any Court may be executed within the local jurisdiction of such Court, and it shall authorise the attachment and sale of any such property outside such jurisdiction, when it is endorsed by the District Magistrate within whose local jurisdiction such property is found.
+A warrant issued under clause (a) of sub-section (I) of section 461 by any Court may be executed within the local jurisdiction of such Court, and it shall authorise the attachment and sale of any such property outside such jurisdiction, when it is endorsed by the District Magistrate within whose local jurisdiction such property is found.
 
 ---
 
 ## Section 463 — Warrant for levy of fine issued by a Court in any territory to which this Sanhita does not extend
 
-Notwithstanding anything in this Sanhita or in any other law for the time being in force, when an offender has been sentenced to pay a fine by a Criminal Court in any territory to which this Sanhita does not extend and the Court passing the sentence issues a warrant to the Collector of a district in the territories to which this Sanhita extends, authorising him to realise the amount as if it were an arrear of land revenue, such warrant shall be deemed to be a warrant issued under clause
-
-- **(b)** of sub-section (I) of section 461 by a Court in the territories to which this Sanhita extends, and the provisions of sub-section
-
-**(3)** of the said section as to the execution of such warrant shall apply accordingly.
+Notwithstanding anything in this Sanhita or in any other law for the time being in force, when an offender has been sentenced to pay a fine by a Criminal Court in any territory to which this Sanhita does not extend and the Court passing the sentence issues a warrant to the Collector of a district in the territories to which this Sanhita extends, authorising him to realise the amount as if it were an arrear of land revenue, such warrant shall be deemed to be a warrant issued under clause (b) of sub-section (I) of section 461 by a Court in the territories to which this Sanhita extends, and the provisions of sub-section (3) of the said section as to the execution of such warrant shall apply accordingly.
 
 ---
 
@@ -154,9 +134,7 @@ Every warrant for the execution of a sentence may be issued either by the Judge 
 
 - **(b)** if such sentence is not severer in kind than the sentence which such convict was undergoing when he escaped, the new sentence shall take effect after he has suffered imprisonment for a further period equal to that which, at the time of his escape, remained unexpired of his former sentence.
 
-**(3)** For the purposes of sub-section
-
-**(2)** , a sentence of rigorous imprisonment shall be deemed to be severer in kind than a sentence of simple imprisonment.
+**(3)** For the purposes of sub-section (2), a sentence of rigorous imprisonment shall be deemed to be severer in kind than a sentence of simple imprisonment.
 
 ---
 
@@ -196,9 +174,7 @@ When a sentence has been fully executed, the officer executing it shall return t
 
 Any money (other than a fine) payable by virtue of any order made under this Sanhita, and the method of recovery of which is not otherwise expressly provided for, shall be recoverable as if it were a fine:
 
-Provided that section 461 shall, in its application to an order under section 400, by virtue of this section, be construed as if in the proviso to sub-section
-
-**(1)** of section 461, after the words and figures “under section 395”, the words and figures “or an order for payment of costs under section 400” had been inserted.
+Provided that section 461 shall, in its application to an order under section 400, by virtue of this section, be construed as if in the proviso to sub-section (1) of section 461, after the words and figures “under section 395”, the words and figures “or an order for payment of costs under section 400” had been inserted.
 
 ---
 
@@ -212,9 +188,7 @@ Provided that section 461 shall, in its application to an order under section 40
 
     - **(ii)** informs him about the date of confirmation of the sentence of death by the High Court and the time allowed to file an appeal or special leave in the Supreme Court has expired.
 
-**(2)** The petition under sub-section
-
-**(1)** may, initially be made to the Governor and on its rejection or disposal by the Governor, the petition shall be made to the President within a period of sixty days from the date of rejection or disposal of such petition.
+**(2)** The petition under sub-section (1) may, initially be made to the Governor and on its rejection or disposal by the Governor, the petition shall be made to the President within a period of sixty days from the date of rejection or disposal of such petition.
 
 **(3)** The Superintendent of the jail or officer in charge of the jail shall ensure, that every convict, in case there are more than one convict in a case, also files the mercy petition within a period of sixty days and on non-receipt of such petition from the other convicts, Superintendent of the jail shall send the names, addresses, copy of the record of the case and all other details of the case to the Central Government or the State Government for consideration along with the said mercy petition.
 
@@ -248,11 +222,7 @@ Provided that in the case of any sentence (other than a sentence of fine) passed
 
 **(6)** The provisions of the above sub-sections shall also apply to any order passed by a Criminal Court under any section of this Sanhita or of any other law, which restricts the liberty of any person or imposes any liability upon him or his property.
 
-**(7)** In this section and in section 474, the expression “appropriate Government” means,—
-
-- **(a)** in cases where the sentence is for an offence against, or the order referred to in sub-section
-
-**(6)** is passed under, any law relating to a matter to which the executive power of the Union extends, the Central Government;
+**(7)** In this section and in section 474, the expression “appropriate Government” means,— (a) in cases where the sentence is for an offence against, or the order referred to in sub-section (6) is passed under, any law relating to a matter to which the executive power of the Union extends, the Central Government;
 
 - **(b)** in other cases, the Government of the State within which the offender is sentenced or the said order is passed.
 

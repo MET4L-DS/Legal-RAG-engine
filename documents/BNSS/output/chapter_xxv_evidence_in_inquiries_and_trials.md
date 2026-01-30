@@ -38,15 +38,11 @@ Provided that if the Magistrate is unable to make such memorandum himself, he sh
 
 ## Section 310 — Record in warrant
 
-cases.**—
-
-**(1)** In all warrant-cases tried before a Magistrate, the evidence of each witness shall, as his examination proceeds, be taken down in writing either by the Magistrate himself or by his dictation in open Court or, where he is unable to do so owing to a physical or other incapacity, under his direction and superintendence, by an officer of the Court appointed by him in this behalf:
+cases.**— (1) In all warrant-cases tried before a Magistrate, the evidence of each witness shall, as his examination proceeds, be taken down in writing either by the Magistrate himself or by his dictation in open Court or, where he is unable to do so owing to a physical or other incapacity, under his direction and superintendence, by an officer of the Court appointed by him in this behalf:
 
 Provided that evidence of a witness under this sub-section may also be recorded by audio-video electronic means in the presence of the advocate of the person accused of the offence.
 
-**(2)** Where the Magistrate causes the evidence to be taken down, he shall record a certificate that the evidence could not be taken down by himself for the reasons referred to in sub-section
-
-**(1)** .
+**(2)** Where the Magistrate causes the evidence to be taken down, he shall record a certificate that the evidence could not be taken down by himself for the reasons referred to in sub-section (1).
 
 **(3)** Such evidence shall ordinarily be taken down in the form of a narrative; but the Magistrate may, in his discretion take down, or cause to be taken down, any part of such evidence in the form of question and answer.
 
@@ -72,13 +68,9 @@ In every case where evidence is taken down under section 310 or section 311,—
 
 - **(b)** if he gives evidence in any other language, it may, if practicable, be taken down in that language, and if it is not practicable to do so, a true translation of the evidence in the language of the Court shall be prepared as the examination of the witness proceeds, signed by the Magistrate or presiding Judge, and shall form part of the record;
 
-- **(c)** where under clause
+- **(c)** where under clause (b) evidence is taken down in a language other than the language of the Court, a true translation thereof in the language of the Court shall be prepared as soon as practicable, signed by the Magistrate or presiding Judge, and shall form part of the record:
 
-- **(b)** evidence is taken down in a language other than the language of the Court, a true translation thereof in the language of the Court shall be prepared as soon as practicable, signed by the Magistrate or presiding Judge, and shall form part of the record:
-
-Provided that when under clause
-
-- **(b)** evidence is taken down in English and a translation thereof in the language of the Court is not required by any of the parties, the Court may dispense with such translation.
+Provided that when under clause (b) evidence is taken down in English and a translation thereof in the language of the Court is not required by any of the parties, the Court may dispense with such translation.
 
 ---
 
@@ -190,9 +182,7 @@ In every case in which a commission is issued under section 319, the inquiry, tr
 
 **(1)** The provisions of section 321 and so much of section 322 and section 323 as relate to the execution of a commission and its return shall apply in respect of commissions issued by any of the Courts, Judges or Magistrates hereinafter mentioned as they apply to commissions issued under section 319.
 
-**(2)** The Courts, Judges and Magistrates referred to in sub-section
-
-**(1)** are—
+**(2)** The Courts, Judges and Magistrates referred to in sub-section (1) are—
 
 - **(a)** any such Court, Judge or Magistrate exercising jurisdiction within an area in India to which this Sanhita does not extend, as the Central Government may, by notification, specify in this behalf;
 

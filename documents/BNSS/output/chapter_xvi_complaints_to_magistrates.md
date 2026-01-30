@@ -46,15 +46,11 @@ Provided that no such direction for investigation shall be made,—
 
 - **(b)** where the complaint has not been made by a Court, unless the complainant and the witnesses present (if any) have been examined on oath under section 223.
 
-**(2)** In an inquiry under sub-section
-
-**(1)** , the Magistrate may, if he thinks fit, take evidence of witnesses on oath:
+**(2)** In an inquiry under sub-section (1), the Magistrate may, if he thinks fit, take evidence of witnesses on oath:
 
 Provided that if it appears to the Magistrate that the offence complained of is triable exclusively by the Court of Session, he shall call upon the complainant to produce all his witnesses and examine them on oath.
 
-**(3)** If an investigation under sub-section
-
-**(1)** is made by a person not being a police officer, he shall have for that investigation all the powers conferred by this Sanhita on an officer in charge of a police station except the power to arrest without warrant.
+**(3)** If an investigation under sub-section (1) is made by a person not being a police officer, he shall have for that investigation all the powers conferred by this Sanhita on an officer in charge of a police station except the power to arrest without warrant.
 
 ---
 

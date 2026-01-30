@@ -6,11 +6,7 @@
 
 ## Section 379 — Procedure in cases mentioned in section 215
 
-**(1)** When, upon an application made to it in this behalf or otherwise, any Court is of opinion that it is expedient in the interests of justice that an inquiry should be made into any offence referred to in clause
-
-- **(b)** of sub-section
-
-**(1)** of section 215, which appears to have been committed in or in relation to a proceeding in that Court or, as the case may be, in respect of a document produced or given in evidence in a proceeding in that Court, such Court may, after such preliminary inquiry, if any, as it thinks necessary,—
+**(1)** When, upon an application made to it in this behalf or otherwise, any Court is of opinion that it is expedient in the interests of justice that an inquiry should be made into any offence referred to in clause (b) of sub-section (1) of section 215, which appears to have been committed in or in relation to a proceeding in that Court or, as the case may be, in respect of a document produced or given in evidence in a proceeding in that Court, such Court may, after such preliminary inquiry, if any, as it thinks necessary,—
 
 - **(a)** record a finding to that effect;
 
@@ -22,13 +18,7 @@
 
 - **(e)** bind over any person to appear and give evidence before such Magistrate.
 
-**(2)** The power conferred on a Court by sub-section
-
-**(1)** in respect of an offence may, in any case where that Court has neither made a complaint under sub-section
-
-**(1)** in respect of that offence nor rejected an application for the making of such complaint, be exercised by the Court to which such former Court is subordinate within the meaning of sub-section
-
-**(4)** of section 215.
+**(2)** The power conferred on a Court by sub-section (1) in respect of an offence may, in any case where that Court has neither made a complaint under sub-section (1) in respect of that offence nor rejected an application for the making of such complaint, be exercised by the Court to which such former Court is subordinate within the meaning of sub-section (4) of section 215.
 
 **(3)** A complaint made under this section shall be signed,—
 
@@ -42,13 +32,7 @@
 
 ## Section 380 — Appeal
 
-**(1)** Any person on whose application any Court other than a High Court has refused to make a complaint under sub-section
-
-**(1)** or sub-section
-
-**(2)** of section 379, or against whom such a complaint has been made by such Court, may appeal to the Court to which such former Court is subordinate within the meaning of sub-section
-
-**(4)** of section 215, and the superior Court may thereupon, after notice to the parties concerned, direct the withdrawal of the complaint, or, as the case may be, making of the complaint which such former Court might have made under section 379, and, if it makes such complaint, the provisions of that section shall apply accordingly.
+**(1)** Any person on whose application any Court other than a High Court has refused to make a complaint under sub-section (1) or sub-section (2) of section 379, or against whom such a complaint has been made by such Court, may appeal to the Court to which such former Court is subordinate within the meaning of sub-section (4) of section 215, and the superior Court may thereupon, after notice to the parties concerned, direct the withdrawal of the complaint, or, as the case may be, making of the complaint which such former Court might have made under section 379, and, if it makes such complaint, the provisions of that section shall apply accordingly.
 
 **(2)** An order under this section, and subject to any such order, an order under section 379, shall be final, and shall not be subject to revision.
 
@@ -76,9 +60,7 @@ Any Court dealing with an application made to it for filing a complaint under se
 
 **(3)** Nothing in this section shall affect the power of the Court to make a complaint under section 379 for the offence, where it does not choose to proceed under this section.
 
-**(4)** Where, after any action is initiated under sub-section
-
-**(1)** , it is made to appear to the Court of Session or Magistrate of the first class that an appeal or an application for revision has been preferred or filed against the judgment or order in which the opinion referred to in that sub-section has been expressed, it or he shall stay further proceedings of the trial until the disposal of the appeal or the application for revision, as the case may be, and thereupon the further proceedings of the trial shall abide by the results of the appeal or application for revision.
+**(4)** Where, after any action is initiated under sub-section (1), it is made to appear to the Court of Session or Magistrate of the first class that an appeal or an application for revision has been preferred or filed against the judgment or order in which the opinion referred to in that sub-section has been expressed, it or he shall stay further proceedings of the trial until the disposal of the appeal or the application for revision, as the case may be, and thereupon the further proceedings of the trial shall abide by the results of the appeal or application for revision.
 
 ---
 
@@ -122,9 +104,7 @@ If any witness or person called to produce a document or thing before a Criminal
 
 ## Section 389 — Summary procedure for punishment for non
 
-attendance by a witness in obedience to summons.**—
-
-**(1)** If any witness being summoned to appear before a Criminal Court is legally bound to appear at a certain place and time in obedience to the summons and without just excuse neglects or refuses to attend at that place or time or departs from the place where he has to attend before the time at which it is lawful for him to depart, and the Court before which the witness is to appear is satisfied that it is expedient in the interests of justice that such a witness should be tried summarily, the Court may take cognizance of the offence and after giving the offender an opportunity of showing cause why he should not be punished under this section, sentence him to fine not exceeding five hundred rupees.
+attendance by a witness in obedience to summons.**—(1) If any witness being summoned to appear before a Criminal Court is legally bound to appear at a certain place and time in obedience to the summons and without just excuse neglects or refuses to attend at that place or time or departs from the place where he has to attend before the time at which it is lawful for him to depart, and the Court before which the witness is to appear is satisfied that it is expedient in the interests of justice that such a witness should be tried summarily, the Court may take cognizance of the offence and after giving the offender an opportunity of showing cause why he should not be punished under this section, sentence him to fine not exceeding five hundred rupees.
 
 **(2)** In every such case the Court shall follow, as nearly as may be practicable, the procedure prescribed for summary trials.
 
