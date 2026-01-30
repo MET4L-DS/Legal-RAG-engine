@@ -4,12 +4,15 @@
 
 ---
 
-## Section 30 — Powers of superior officers of police.**—Police officers superior in rank to an officer in charge of a police station may exercise the same powers, throughout the local area to which they are appointed, as may be exercised by such officer within the limits of his station.
+## Section 30 — Powers of superior officers of police
 
+Police officers superior in rank to an officer in charge of a police station may exercise the same powers, throughout the local area to which they are appointed, as may be exercised by such officer within the limits of his station.
 
 ---
 
-## Section 31 — Public when to assist Magistrates and police.**—Every person is bound to assist a Magistrate or police officer reasonably demanding his aid—
+## Section 31 — Public when to assist Magistrates and police
+
+Every person is bound to assist a Magistrate or police officer reasonably demanding his aid—
 
 - **(a)** in the taking or preventing the escape of any other person whom such Magistrate or police officer is authorised to arrest; or
 
@@ -19,12 +22,15 @@
 
 ---
 
-## Section 32 — Aid to person, other than police officer, executing warrant.**—When a warrant is directed to a person other than a police officer, any other person may aid in the execution of such warrant, if the person to whom the warrant is directed be near at hand and acting in the execution of the warrant.
+## Section 32 — Aid to person, other than police officer, executing warrant
 
+When a warrant is directed to a person other than a police officer, any other person may aid in the execution of such warrant, if the person to whom the warrant is directed be near at hand and acting in the execution of the warrant.
 
 ---
 
-## Section 33 — Public to give information of certain offences.**—(1) Every person, aware of the commission of, or of the intention of any other person to commit, any offence punishable under any of the following sections of the Bharatiya Nyaya Sanhita, 2023, namely:—
+## Section 33 — Public to give information of certain offences
+
+**(1)** Every person, aware of the commission of, or of the intention of any other person to commit, any offence punishable under any of the following sections of the Bharatiya Nyaya Sanhita, 2023, namely:—
 
 - **(i)** sections 103 to 105 (both inclusive);
 
@@ -44,7 +50,9 @@
 
     - **(ix)** sections 309 to 312 (both inclusive);
 
-- **(x)** sub-section (5) of section 316;
+- **(x)** sub-section
+
+**(5)** of section 316;
 
     - **(xi)** sections 326 to 328 (both inclusive); and
 
@@ -54,7 +62,9 @@
 
 ---
 
-## Section 34 — Duty of officers employed in connection with affairs of a village to make certain report.**—(1) Every officer employed in connection with the affairs of a village and every person residing in a village shall forthwith communicate to the nearest Magistrate or to the officer in charge of the nearest police station, whichever is nearer, any information which he may possess respecting—
+## Section 34 — Duty of officers employed in connection with affairs of a village to make certain report
+
+**(1)** Every officer employed in connection with the affairs of a village and every person residing in a village shall forthwith communicate to the nearest Magistrate or to the officer in charge of the nearest police station, whichever is nearer, any information which he may possess respecting—
 
 - **(a)** the permanent or temporary residence of any notorious receiver or vendor of stolen property in or near such village;
 
@@ -64,7 +74,11 @@
 
 - **(d)** the occurrence in or near such village of any sudden or unnatural death or of any death under suspicious circumstances or the discovery in or near such village of any corpse or part of a corpse, in circumstances which lead to a reasonable suspicion that such a death has occurred or the disappearance from such village of any person in circumstances which lead to a reasonable suspicion that a non-bailable offence has been committed in respect of such person;
 
-- **(e)** the commission of, or intention to commit, at any place out of India nearsuch village any act which, if committed in India, would be an offence punishable under any of the following sections of the Bharatiya Nyaya Sanhita, 2023, namely, 103, 105, 111, 112, 113, 178 to 181 (both inclusive), 305, 307, 309 to 312 (both inclusive), clauses (f) and (g) of section 326, 331or 332;
+- **(e)** the commission of, or intention to commit, at any place out of India nearsuch village any act which, if committed in India, would be an offence punishable under any of the following sections of the Bharatiya Nyaya Sanhita, 2023, namely, 103, 105, 111, 112, 113, 178 to 181 (both inclusive), 305, 307, 309 to 312 (both inclusive), clauses
+
+- **(f)** and
+
+- **(g)** of section 326, 331or 332;
 
 - **(f)** any matter likely to affect the maintenance of order or the prevention of crime or the safety of person or property respecting which the District Magistrate, by general or special order made with the previous sanction of the State Government, has directed him to communicate information.
 

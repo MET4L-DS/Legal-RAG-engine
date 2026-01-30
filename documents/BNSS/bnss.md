@@ -374,7 +374,7 @@ Provided that—
 
 ## Page 26
 
-**29. Powers of Judges and Magistrates exercisable by their successors-in office.**—(1) Subject to the other provisions of this Sanhita, the powers and duties of a Judge or Magistrate may be exercised or performed by his successor-in-office.
+**29. Powers of Judges and Magistrates exercisable by their successors in office.**—(1) Subject to the other provisions of this Sanhita, the powers and duties of a Judge or Magistrate may be exercised or performed by his successor-in-office.
 
 (2) When there is any doubt as to who is the successor-in-office, the Sessions Judge shall determine by order in writing the Judge who shall, for the purposes of this Sanhita or of any proceedings or order thereunder, be deemed to be the successor-in-office.
 

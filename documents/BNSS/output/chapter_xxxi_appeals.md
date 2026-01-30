@@ -4,13 +4,17 @@
 
 ---
 
-## Section 413 — No appeal to lie unless otherwise provided.**—No appeal shall lie from any judgment or order of a Criminal Court except as provided for by this Sanhita or by any other law for the time being in force:
+## Section 413 — No appeal to lie unless otherwise provided
+
+No appeal shall lie from any judgment or order of a Criminal Court except as provided for by this Sanhita or by any other law for the time being in force:
 
 Provided that the victim shall have a right to prefer an appeal against any order passed by the Court acquitting the accused or convicting for a lesser offence or imposing inadequate compensation, and such appeal shall lie to the Court to which an appeal ordinarily lies against the order of conviction of such Court.
 
 ---
 
-## Section 414 — Appeal from orders requiring security or refusal to accept or rejecting surety for keeping peace or good behavior.**—Any person, —
+## Section 414 — Appeal from orders requiring security or refusal to accept or rejecting surety for keeping peace or good behavior
+
+Any person, —
 
 - **(i)** who has been ordered under section 136 to give security for keeping the peace or for good behaviour; or
 
@@ -18,15 +22,23 @@ Provided that the victim shall have a right to prefer an appeal against any orde
 
 may appeal against such order to the Court of Session:
 
-Provided that nothing in this section shall apply to persons the proceedings against whom are laid before a Sessions Judge in accordance with the provisions of sub-section (2) or sub-section (4) of section 141.
+Provided that nothing in this section shall apply to persons the proceedings against whom are laid before a Sessions Judge in accordance with the provisions of sub-section
+
+**(2)** or sub-section
+
+**(4)** of section 141.
 
 ---
 
-## Section 415 — Appeals from convictions.**—(1) Any person convicted on a trial held by a High Court in its extraordinary original criminal jurisdiction may appeal to the Supreme Court.
+## Section 415 — Appeals from convictions
+
+**(1)** Any person convicted on a trial held by a High Court in its extraordinary original criminal jurisdiction may appeal to the Supreme Court.
 
 **(2)** Any person convicted on a trial held by a Sessions Judge or an Additional Sessions Judge or on a trial held by any other Court in which a sentence of imprisonment for more than seven years has been passed against him or against any other person convicted at the same trial, may appeal to the High Court.
 
-**(3)** Save as otherwise provided in sub-section (2), any person,—
+**(3)** Save as otherwise provided in sub-section
+
+**(2)** , any person,—
 
 - **(a)** convicted on a trial held by Magistrate of the first class, or of the second class; or
 
@@ -40,7 +52,9 @@ may appeal to the Court of Session.
 
 ---
 
-## Section 416 — No appeal in certain cases when accused pleads guilty.**—Notwithstanding anything in section 415, where an accused person has pleaded guilty and has been convicted on such plea, there shall be no appeal,—
+## Section 416 — No appeal in certain cases when accused pleads guilty
+
+Notwithstanding anything in section 415, where an accused person has pleaded guilty and has been convicted on such plea, there shall be no appeal,—
 
 - **(i)** if the conviction is by a High Court; or
 
@@ -48,7 +62,9 @@ may appeal to the Court of Session.
 
 ---
 
-## Section 417 — No appeal in petty cases.**—Notwithstanding anything in section 415, there shall be no appeal by a convicted person in any of the following cases, namely: —
+## Section 417 — No appeal in petty cases
+
+Notwithstanding anything in section 415, there shall be no appeal by a convicted person in any of the following cases, namely: —
 
 - **(a)** where a High Court passes only a sentence of imprisonment for a term not exceeding three months or of fine not exceeding one thousand rupees, or of both such imprisonment and fine;
 
@@ -68,7 +84,11 @@ Provided that an appeal may be brought against any such sentence if any other pu
 
 ---
 
-## Section 418 — Appeal by State Government against sentence.**—(1) Save as otherwise provided in sub-section (2), the State Government may, in any case of conviction on a trial held by any Court other than a High Court, direct the Public Prosecutor to present an appeal against the sentence on the ground of its inadequacy—
+## Section 418 — Appeal by State Government against sentence
+
+**(1)** Save as otherwise provided in sub-section
+
+**(2)** , the State Government may, in any case of conviction on a trial held by any Court other than a High Court, direct the Public Prosecutor to present an appeal against the sentence on the ground of its inadequacy—
 
 - **(a)** to the Court of Session, if the sentence is passed by the Magistrate; and
 
@@ -86,39 +106,71 @@ Provided that an appeal may be brought against any such sentence if any other pu
 
 ---
 
-## Section 419 — Appeal in case of acquittal.**—(1) Save as otherwise provided in sub-section (2), and subject to the provisions of sub-sections (3) and (5),—
+## Section 419 — Appeal in case of acquittal
+
+**(1)** Save as otherwise provided in sub-section
+
+**(2)** , and subject to the provisions of sub-sections
+
+**(3)** and
+
+**(5)** ,—
 
 - **(a)** the District Magistrate may, in any case, direct the Public Prosecutor to present an appeal to the Court of Session from an order of acquittal passed by a Magistrate in respect of a cognizable and non-bailable offence;
 
-- **(b)** the State Government may, in any case, direct the Public Prosecutor to present an appeal to the High Court from an original or appellate order of acquittal passed by any Court other than a High Court not being an order under clause (a) or an order of acquittal passed by the Court of Session in revision.
+- **(b)** the State Government may, in any case, direct the Public Prosecutor to present an appeal to the High Court from an original or appellate order of acquittal passed by any Court other than a High Court not being an order under clause
 
-**(2)** If such an order of acquittal is passed in a case in which the offence has been investigated by any agency empowered to make investigation into an offence under any Central Act other than this Sanhita, the Central Government may, subject to the provisions of sub-section (3), also direct the Public Prosecutor to present an appeal—
+- **(a)** or an order of acquittal passed by the Court of Session in revision.
+
+**(2)** If such an order of acquittal is passed in a case in which the offence has been investigated by any agency empowered to make investigation into an offence under any Central Act other than this Sanhita, the Central Government may, subject to the provisions of sub-section
+
+**(3)** , also direct the Public Prosecutor to present an appeal—
 
 - **(a)** to the Court of Session, from an order of acquittal passed by a Magistrate in respect of a cognizable and non-bailable offence;
 
-- **(b)** to the High Court from an original or appellate order of an acquittal passed by any Court other than a High Court not being an order under clause (a) or an order of acquittal passed by the Court of Session in revision.
+- **(b)** to the High Court from an original or appellate order of an acquittal passed by any Court other than a High Court not being an order under clause
 
-**(3)** No appeal to the High Court under sub-section (1) or sub-section (2) shall be entertained except with the leave of the High Court.
+- **(a)** or an order of acquittal passed by the Court of Session in revision.
+
+**(3)** No appeal to the High Court under sub-section
+
+**(1)** or sub-section
+
+**(2)** shall be entertained except with the leave of the High Court.
 
 **(4)** If such an order of acquittal is passed in any case instituted upon complaint and the High Court, on an application made to it by the complainant in this behalf, grants special leave to appeal from the order of acquittal, the complainant may present such an appeal to the High Court.
 
-**(5)** No application under sub-section (4) for the grant of special leave to appeal from an order of acquittal shall be entertained by the High Court after the expiry of six months, where the complainant is a public servant, and sixty days in every other case, computed from the date of that order of acquittal.
+**(5)** No application under sub-section
 
-**(6)** If, in any case, the application under sub-section (4) for the grant of special leave to appeal from an order of acquittal is refused, no appeal from that order of acquittal shall lie under sub-section (1) or under sub-section (2).
+**(4)** for the grant of special leave to appeal from an order of acquittal shall be entertained by the High Court after the expiry of six months, where the complainant is a public servant, and sixty days in every other case, computed from the date of that order of acquittal.
 
----
+**(6)** If, in any case, the application under sub-section
 
-## Section 420 — Appeal against conviction by High Court in certain cases.**—Where the High Court has, on appeal, reversed an order of acquittal of an accused person and convicted him and sentenced him to death or to imprisonment for life or to imprisonment for a term of ten years or more, he may appeal to the Supreme Court.
+**(4)** for the grant of special leave to appeal from an order of acquittal is refused, no appeal from that order of acquittal shall lie under sub-section
 
+**(1)** or under sub-section
 
----
-
-## Section 421 — Special right of appeal in certain cases.**—Notwithstanding anything in this Chapter, when more persons than one are convicted in one trial, and an appealable judgment or order has been passed in respect of any of such persons, all or any of the persons convicted at such trial shall have a right of appeal.
-
+**(2)** .
 
 ---
 
-## Section 422 — Appeal to Court of Session how heard.**—(1) Subject to the provisions of sub-section (2), an appeal to the Court of Session or Sessions Judge shall be heard by the Sessions Judge or by an Additional Sessions Judge:
+## Section 420 — Appeal against conviction by High Court in certain cases
+
+Where the High Court has, on appeal, reversed an order of acquittal of an accused person and convicted him and sentenced him to death or to imprisonment for life or to imprisonment for a term of ten years or more, he may appeal to the Supreme Court.
+
+---
+
+## Section 421 — Special right of appeal in certain cases
+
+Notwithstanding anything in this Chapter, when more persons than one are convicted in one trial, and an appealable judgment or order has been passed in respect of any of such persons, all or any of the persons convicted at such trial shall have a right of appeal.
+
+---
+
+## Section 422 — Appeal to Court of Session how heard
+
+**(1)** Subject to the provisions of sub-section
+
+**(2)** , an appeal to the Court of Session or Sessions Judge shall be heard by the Sessions Judge or by an Additional Sessions Judge:
 
 Provided that an appeal against a conviction on a trial held by a Magistrate of the second class may be heard and disposed of by the Chief Judicial Magistrate.
 
@@ -126,17 +178,21 @@ Provided that an appeal against a conviction on a trial held by a Magistrate of 
 
 ---
 
-## Section 423 — Petition of appeal.**—Every appeal shall be made in the form of a petition in writing presented by the appellant or his advocate, and every such petition shall (unless the Court to which it is presented otherwise directs) be accompanied by a copy of the judgment or order appealed against.
+## Section 423 — Petition of appeal
 
-
----
-
-## Section 424 — Procedure when appellant in jail.**—If the appellant is in jail, he may present his petition of appeal and the copies accompanying the same to the officer in charge of the jail, who shall thereupon forward such petition and copies to the proper Appellate Court.
-
+Every appeal shall be made in the form of a petition in writing presented by the appellant or his advocate, and every such petition shall (unless the Court to which it is presented otherwise directs) be accompanied by a copy of the judgment or order appealed against.
 
 ---
 
-## Section 425 — Summary dismissal of appeal.**—(1) If upon examining the petition of appeal and copy of the judgment received under section 423 or section 424, the Appellate Court considers that there is no sufficient ground for interfering, it may dismiss the appeal summarily:
+## Section 424 — Procedure when appellant in jail
+
+If the appellant is in jail, he may present his petition of appeal and the copies accompanying the same to the officer in charge of the jail, who shall thereupon forward such petition and copies to the proper Appellate Court.
+
+---
+
+## Section 425 — Summary dismissal of appeal
+
+**(1)** If upon examining the petition of appeal and copy of the judgment received under section 423 or section 424, the Appellate Court considers that there is no sufficient ground for interfering, it may dismiss the appeal summarily:
 
 Provided that—
 
@@ -156,7 +212,9 @@ Provided that—
 
 ---
 
-## Section 426 — Procedure for hearing appeals not dismissed summarily.**—(1) If the Appellate Court does not dismiss the appeal summarily, it shall cause notice of the time and place at which such appeal will be heard to be given—
+## Section 426 — Procedure for hearing appeals not dismissed summarily
+
+**(1)** If the Appellate Court does not dismiss the appeal summarily, it shall cause notice of the time and place at which such appeal will be heard to be given—
 
 - **(i)** to the appellant or his advocate;
 
@@ -174,7 +232,9 @@ Provided that if the appeal is only as to the extent or the legality of the sent
 
 ---
 
-## Section 427 — Powers of Appellate Court.**—After perusing such record and hearing the appellant or his advocate, if he appears, and the Public Prosecutor if he appears, and in case of an appeal under section 418 or section 419, the accused, if he appears, the Appellate Court may, if it considers that there is no sufficient ground for interfering, dismiss the appeal, or may—
+## Section 427 — Powers of Appellate Court
+
+After perusing such record and hearing the appellant or his advocate, if he appears, and the Public Prosecutor if he appears, and in case of an appeal under section 418 or section 419, the accused, if he appears, the Appellate Court may, if it considers that there is no sufficient ground for interfering, dismiss the appeal, or may—
 
 - **(a)** in an appeal from an order of acquittal, reverse such order and direct that further inquiry be made, or that the accused be re-tried or committed for trial, as the case may be, or find him guilty and pass sentence on him according to law;
 
@@ -192,22 +252,41 @@ Provided that if the appeal is only as to the extent or the legality of the sent
 
     - **(ii)** alter the finding maintaining the sentence; or
 
-    - **(iii)** with or without altering the finding, alter the nature or the extent, or, the nature and extent, of the sentence, so as to enhance or reduce the same; (d) in an appeal from any other order, alter or reverse such order; (e) make any amendment or any consequential or incidental order that may be just or proper: Provided that the sentence shall not be enhanced unless the accused has had an opportunity of showing cause against such enhancement: Provided further that the Appellate Court shall not inflict greater punishment for the offence which in its opinion the accused has committed, than might have been inflicted for that offence by the Court passing the order or sentence under appeal.
+    - **(iii)** with or without altering the finding, alter the nature or the extent, or, the nature and extent, of the sentence, so as to enhance or reduce the same;
+
+- **(d)** in an appeal from any other order, alter or reverse such order;
+
+- **(e)** make any amendment or any consequential or incidental order that may be just or proper:
+
+Provided that the sentence shall not be enhanced unless the accused has had an opportunity of showing cause against such enhancement: Provided further that the Appellate Court shall not inflict greater punishment for the offence which in its opinion the accused has committed, than might have been inflicted for that offence by the Court passing the order or sentence under appeal.
 
 ---
 
-## Section 428 — Judgments of subordinate Appellate Court.**—The rules contained in Chapter XXIX as to the judgment of a Criminal Court of original jurisdiction shall apply, so far as may be practicable, to the judgment in appeal of a Court of Session or Chief Judicial Magistrate:
+## Section 428 — Judgments of subordinate Appellate Court
+
+The rules contained in Chapter XXIX as to the judgment of a Criminal Court of original jurisdiction shall apply, so far as may be practicable, to the judgment in appeal of a Court of Session or Chief Judicial Magistrate:
 
 Provided that, unless the Appellate Court otherwise directs, the accused shall not be brought up, or required to attend, to hear judgment delivered.
 
 ---
 
-## Section 429 — Order of High Court on appeal to be certified to lower Court.**—(1) Whenever a case is decided on appeal by the High Court under this Chapter, it shall certify its judgment or order to the Court by which the finding, sentence or order appealed against was recorded or passed and if such Court is that of a Judicial Magistrate other than the Chief Judicial Magistrate, the High Court's judgment or order shall be sent through the Chief Judicial Magistrate, and if such Court is that of an Executive Magistrate, the High Court's judgment or order shall be sent through the District Magistrate. (2) The Court to which the High Court certifies its judgment or order shall thereupon make such orders as are conformable to the judgment or order of the High Court; and if necessary, the record shall be amended in accordance therewith.
+## Section 429 — Order of High Court on appeal to be certified to lower Court
 
+**(1)** Whenever a case is decided on appeal by the High Court under this Chapter, it shall certify its judgment or order to the Court by which the finding, sentence or order appealed against was recorded or passed and if such Court is that of a Judicial Magistrate other than the Chief Judicial Magistrate, the High Court's judgment or order shall be sent through the Chief Judicial Magistrate, and if such Court is that of an Executive Magistrate, the High Court's judgment or order shall be sent through the District Magistrate.
+
+**(2)** The Court to which the High Court certifies its judgment or order shall thereupon make such orders as are conformable to the judgment or order of the High Court; and if necessary, the record shall be amended in accordance therewith.
 
 ---
 
-## Section 430 — Suspension of sentence pending appeal; release of appellant on bail.**—(1) Pending any appeal by a convicted person, the Appellate Court may, for reasons to be recorded by it in writing, order that the execution of the sentence or order appealed against be suspended and, also, if he is in confinement, that he be released on bail, or on his own bond or bail bond: Provided that the Appellate Court shall, before releasing on his own bond or bail bond a convicted person who is convicted of an offence punishable with death or imprisonment for life or imprisonment for a term of not less than ten years, shall give opportunity to the Public Prosecutor for showing cause in writing against such release: Provided further that in cases where a convicted person is released on bail it shall be open to the Public Prosecutor to file an application for the cancellation of the bail. (2) The power conferred by this section on an Appellate Court may be exercised also by the High Court in the case of an appeal by a convicted person to a Court subordinate thereto. (3) Where the convicted person satisfies the Court by which he is convicted that he intends to present an appeal, the Court shall,—
+## Section 430 — Suspension of sentence pending appeal; release of appellant on bail
+
+**(1)** Pending any appeal by a convicted person, the Appellate Court may, for reasons to be recorded by it in writing, order that the execution of the sentence or order appealed against be suspended and, also, if he is in confinement, that he be released on bail, or on his own bond or bail bond:
+
+Provided that the Appellate Court shall, before releasing on his own bond or bail bond a convicted person who is convicted of an offence punishable with death or imprisonment for life or imprisonment for a term of not less than ten years, shall give opportunity to the Public Prosecutor for showing cause in writing against such release: Provided further that in cases where a convicted person is released on bail it shall be open to the Public Prosecutor to file an application for the cancellation of the bail.
+
+**(2)** The power conferred by this section on an Appellate Court may be exercised also by the High Court in the case of an appeal by a convicted person to a Court subordinate thereto.
+
+**(3)** Where the convicted person satisfies the Court by which he is convicted that he intends to present an appeal, the Court shall,—
 
 - **(i)** where such person, being on bail, is sentenced to imprisonment for a term not exceeding three years; or
 
@@ -219,12 +298,15 @@ under sub-section (I); and the sentence of imprisonment shall, so long as he is 
 
 ---
 
-## Section 431 — Arrest of accused in appeal from acquittal.**—When an appeal is presented under section 419, the High Court may issue a warrant directing that the accused be arrested and brought before it or any subordinate Court, and the Court before which he is brought may commit him to prison pending the disposal of the appeal or admit him to bail.
+## Section 431 — Arrest of accused in appeal from acquittal
 
+When an appeal is presented under section 419, the High Court may issue a warrant directing that the accused be arrested and brought before it or any subordinate Court, and the Court before which he is brought may commit him to prison pending the disposal of the appeal or admit him to bail.
 
 ---
 
-## Section 432 — Appellate Court may take further evidence or direct it to be taken.**—(1) In dealing with any appeal under this Chapter, the Appellate Court, if it thinks additional evidence to be necessary, shall record its reasons and may either take such evidence itself, or direct it to be taken by a Magistrate or, when the Appellate Court is a High Court, by a Court of Session or a Magistrate.
+## Section 432 — Appellate Court may take further evidence or direct it to be taken
+
+**(1)** In dealing with any appeal under this Chapter, the Appellate Court, if it thinks additional evidence to be necessary, shall record its reasons and may either take such evidence itself, or direct it to be taken by a Magistrate or, when the Appellate Court is a High Court, by a Court of Session or a Magistrate.
 
 **(2)** When the additional evidence is taken by the Court of Session or the Magistrate, it or he shall certify such evidence to the Appellate Court, and such Court shall thereupon proceed to dispose of the appeal.
 
@@ -234,13 +316,19 @@ under sub-section (I); and the sentence of imprisonment shall, so long as he is 
 
 ---
 
-## Section 433 — Procedure where Judges of Court of appeal are equally divided.**—When an appeal under this Chapter is heard by a High Court before a Bench of Judges and they are divided in opinion, the appeal, with their opinions, shall be laid before another Judge of that Court, and that Judge, after such hearing as he thinks fit, shall deliver his opinion, and the judgment or order shall follow that opinion:
+## Section 433 — Procedure where Judges of Court of appeal are equally divided
+
+When an appeal under this Chapter is heard by a High Court before a Bench of Judges and they are divided in opinion, the appeal, with their opinions, shall be laid before another Judge of that Court, and that Judge, after such hearing as he thinks fit, shall deliver his opinion, and the judgment or order shall follow that opinion:
 
 Provided that if one of the Judges constituting the Bench, or, where the appeal is laid before another Judge under this section, that Judge, so requires, the appeal shall be re-heard and decided by a larger Bench of Judges.
 
 ---
 
-## Section 434 — Finality of judgments and orders on appeal.**—Judgments and orders passed by an Appellate Court upon an appeal shall be final, except in the cases provided for in section 418, section 419, sub-section (4) of section 425 or Chapter XXXII:
+## Section 434 — Finality of judgments and orders on appeal
+
+Judgments and orders passed by an Appellate Court upon an appeal shall be final, except in the cases provided for in section 418, section 419, sub-section
+
+**(4)** of section 425 or Chapter XXXII:
 
 Provided that notwithstanding the final disposal of an appeal against conviction in any case, the Appellate Court may hear and dispose of, on the merits,—
 
@@ -250,7 +338,9 @@ Provided that notwithstanding the final disposal of an appeal against conviction
 
 ---
 
-## Section 435 — Abatement of appeals.**—(1) Every appeal under section 418 or section 419 shall finally abate on the death of the accused.
+## Section 435 — Abatement of appeals
+
+**(1)** Every appeal under section 418 or section 419 shall finally abate on the death of the accused.
 
 **(2)** Every other appeal under this Chapter (except an appeal from a sentence of fine) shall finally abate on the death of the appellant:
 

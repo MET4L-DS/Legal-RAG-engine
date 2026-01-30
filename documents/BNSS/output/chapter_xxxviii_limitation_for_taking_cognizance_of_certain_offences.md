@@ -4,12 +4,17 @@
 
 ---
 
-## Section 513 — Definitions.**—For the purposes of this Chapter, unless the context otherwise requires, “period of limitation” means the period specified in section 514 for taking cognizance of an offence.
+## Section 513 — Definitions
 
+For the purposes of this Chapter, unless the context otherwise requires, “period of limitation” means the period specified in section 514 for taking cognizance of an offence.
 
 ---
 
-## Section 514 — Bar to taking cognizance after lapse of period of limitation.**—(1) Except as otherwise provided in this Sanhita, no Court shall take cognizance of an offence of the category specified in sub-section (2), after the expiry of the period of limitation.
+## Section 514 — Bar to taking cognizance after lapse of period of limitation
+
+**(1)** Except as otherwise provided in this Sanhita, no Court shall take cognizance of an offence of the category specified in sub-section
+
+**(2)** , after the expiry of the period of limitation.
 
 **(2)** The period of limitation shall be—
 
@@ -26,7 +31,9 @@ For the purpose of computing the period of limitation, the relevant date shall b
 
 ---
 
-## Section 515 — Commencement of period of limitation.**—(1) The period of limitation, in relation to an offender, shall commence,—
+## Section 515 — Commencement of period of limitation
+
+**(1)** The period of limitation, in relation to an offender, shall commence,—
 
 - **(a)** on the date of the offence; or
 
@@ -38,7 +45,9 @@ For the purpose of computing the period of limitation, the relevant date shall b
 
 ---
 
-## Section 516 — Exclusion of time in certain cases.**—(1) In computing the period of limitation, the time during which any person has been prosecuting with due diligence another prosecution, whether in a Court of first instance or in a Court of appeal or revision, against the offender, shall be excluded:
+## Section 516 — Exclusion of time in certain cases
+
+**(1)** In computing the period of limitation, the time during which any person has been prosecuting with due diligence another prosecution, whether in a Court of first instance or in a Court of appeal or revision, against the offender, shall be excluded:
 
 Provided that no such exclusion shall be made unless the prosecution relates to the same facts and is prosecuted in good faith in a Court which from defect of jurisdiction or other cause of a like nature, is unable to entertain it.
 
@@ -61,19 +70,23 @@ shall be excluded.
 
 ---
 
-## Section 517 — Exclusion of date on which Court is closed.**—Where the period of limitation expires on a day when the Court is closed, the Court may take cognizance on the day on which the Court reopens.
+## Section 517 — Exclusion of date on which Court is closed
+
+Where the period of limitation expires on a day when the Court is closed, the Court may take cognizance on the day on which the Court reopens.
 
 **Explanation.—**
 A Court shall be deemed to be closed on any day within the meaning of this section, if, during its normal working hours, it remains closed on that day.
 
 ---
 
-## Section 518 — Continuing offence.**—In the case of a continuing offence, a fresh period of limitation shall begin to run at every moment of the time during which the offence continues.
+## Section 518 — Continuing offence
 
+In the case of a continuing offence, a fresh period of limitation shall begin to run at every moment of the time during which the offence continues.
 
 ---
 
-## Section 519 — Extension of period of limitation in certain cases.**—Notwithstanding anything contained in the foregoing provisions of this Chapter, any Court may take cognizance of an offence after the expiry of the period of limitation, if it is satisfied on the facts and in the circumstances of the case that the delay has been properly explained or that it is necessary so to do in the interests of justice.
+## Section 519 — Extension of period of limitation in certain cases
 
+Notwithstanding anything contained in the foregoing provisions of this Chapter, any Court may take cognizance of an offence after the expiry of the period of limitation, if it is satisfied on the facts and in the circumstances of the case that the delay has been properly explained or that it is necessary so to do in the interests of justice.
 
 ---

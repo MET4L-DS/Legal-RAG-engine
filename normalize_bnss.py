@@ -36,16 +36,14 @@ def parse_chapters(content):
     return chapters
 
 def format_section_blocks(content, expected_next_num):
-    # Normalize section headers to a predictable format: "\n[SEC] N. Title.—"
+    # Normalize section headers
     content = re.sub(r'(?:\n|^)\s*(?:\*\*)?(\d+)\.\s*(?:\*\*)?', r'\n[SEC] \1. ', content)
     
     parts = re.split(r'\n\[SEC\] (\d+)\.\s+', content)
     formatted = []
     
-    # Text before first section
     if parts[0].strip():
         pre_text = parts[0].strip()
-        # Bold sub-chapter headings like "A.—..."
         pre_text = re.sub(r'(^[A-Z]\.—[^\n]+)$', r'**\1**\n', pre_text, flags=re.MULTILINE)
         formatted.append(pre_text + "\n\n")
         
@@ -55,41 +53,53 @@ def format_section_blocks(content, expected_next_num):
         orig_num = int(parts[i])
         sec_content = parts[i+1].strip()
         
-        # Typos correction: e.g. 1. after 17 should be 18, 2. after 529 should be 530
         if orig_num < last_sec_num and orig_num <= 10:
             sec_num = last_sec_num + 1
         else:
             sec_num = orig_num
-            
         last_sec_num = sec_num
         
-        # Check for sub-chapter headings at the end of THIS content
+        # Check for sub-chapter headings
         next_extra = ""
         sub_ch_match = re.search(r'\n\s*(\*?\*?[A-Z]\.—[^\n]+\*?\*?)\s*$', sec_content)
         if sub_ch_match:
             next_extra = sub_ch_match.group(1).strip('* ')
             sec_content = sec_content[:sub_ch_match.start()].strip()
             
-        # Title extraction
+        # Improved Title extraction
         title = "Untitled"
-        title_match = re.search(r'^([^\n—\.]+)(?:—|\.(?:\s*\(|\s*\n|$))', sec_content)
+        # Match title: can include stars, up to a dash or dot-space/dot-paren
+        title_match = re.search(r'^([^\n—]+?)(?:\s*\.?\*?\*?\s*[—\-]+|\s*\.\s+\(|\s*\.\s*\n|\s*\.\s+|$)', sec_content)
         if title_match:
-            title = title_match.group(1).strip().strip('*')
+            title = title_match.group(1).strip().strip('* ')
             sec_content = sec_content[title_match.end():].strip()
+            if not sec_content.startswith('('):
+                # If we cut off the separator but it wasn't a paren, check if we need to put back the start of a paren
+                # Actually re-scan for first (n)
+                pass
         else:
             lines = sec_content.split('\n')
-            title = lines[0].strip().strip('*')
+            title = lines[0].strip().strip('* ')
             sec_content = "\n".join(lines[1:]).strip()
             
         formatted.append(f"## Section {sec_num} — {title}\n\n")
         
-        # Format the actual content lines
+        # PRE-PROCESS CONTENT: Split concatenated (1)(2) or (a)(b) or (1)(a) onto new lines
+        # Ensure they start on new lines
+        sec_content = re.sub(r'(\(\d+\))', r'\n\1', sec_content)
+        sec_content = re.sub(r'(\([a-z]\))', r'\n\1', sec_content)
+        sec_content = re.sub(r'(\([ivx]+\))', r'\n\1', sec_content)
+        
+        # Also handle "Provided that" and "Explanation" newlines
+        sec_content = re.sub(r'(Provided\s+that)', r'\n\n\1', sec_content)
+        sec_content = re.sub(r'(Explanation\s*[\.—])', r'\n\n\1', sec_content)
+        
         lines = sec_content.split('\n')
         formatted_lines = []
         is_definitions = "Definitions" in title
         
         for line in lines:
-            line = line.strip()
+            line = line.strip().strip('_')  # Remove orphaned underscores
             if not line: continue
             
             # Sub-sections (1), (2)
@@ -104,11 +114,7 @@ def format_section_blocks(content, expected_next_num):
                 c_id = cl_m.group(1)
                 c_text = cl_m.group(2).strip()
                 if is_definitions:
-                    # Italicize term in quotes
-                    term_m = re.search(r'([“”"].+?[“”"])', c_text)
-                    if term_m:
-                        term = term_m.group(1)
-                        c_text = c_text.replace(term, f"_{term}_", 1)
+                    c_text = re.sub(r'["“]([^"”]+)["”]', r'_“\1”_', c_text, count=1)
                 formatted_lines.append(f"- **{c_id}** {c_text}\n")
                 continue
                 
@@ -120,8 +126,11 @@ def format_section_blocks(content, expected_next_num):
                 
             # Special markers
             if line.startswith("Explanation"):
-                line = re.sub(r'^Explanation\.\s*[—-]?', r'**Explanation.—**\n', line)
-            
+                # Remove leading dash if present in the rest of the line
+                content_after = re.sub(r'^Explanation\s*[\.—]\s*[—\-]*\s*', '', line)
+                formatted_lines.append(f"**Explanation.—**\n{content_after}\n")
+                continue
+                
             formatted_lines.append(f"{line}\n")
             
         formatted.append("\n".join(formatted_lines))
@@ -130,7 +139,10 @@ def format_section_blocks(content, expected_next_num):
         if next_extra:
             formatted.append(f"**{next_extra}**\n\n")
             
-    return "".join(formatted), last_sec_num + 1
+    # Post-process to remove double dashes
+    res = "".join(formatted)
+    res = re.sub(r'\*\*Explanation.—\*\*\n[—\-]+\s*', r'**Explanation.—**\n', res)
+    return res, last_sec_num + 1
 
 def process_bnss(input_path, output_dir):
     if not os.path.exists(output_dir):

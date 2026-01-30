@@ -4,7 +4,9 @@
 
 ---
 
-## Section 144 — Order for maintenance of wives, children and parents.**—(1) If any person having sufficient means neglects or refuses to maintain—
+## Section 144 — Order for maintenance of wives, children and parents
+
+**(1)** If any person having sufficient means neglects or refuses to maintain—
 
 - **(a)** his wife, unable to maintain herself; or
 
@@ -16,7 +18,9 @@
 
 a Magistrate of the first class may, upon proof of such neglect or refusal, order such person to make a monthly allowance for the maintenance of his wife or such child, father or mother, at such monthly rate as such Magistrate thinks fit and to pay the same to such person as the Magistrate may from time to time direct:
 
-Provided that the Magistrate may order the father of a female child referred to in clause (b) to make such allowance, until she attains her majority, if the Magistrate is satisfied that the husband of such female child, if married, is not possessed of sufficient means:
+Provided that the Magistrate may order the father of a female child referred to in clause
+
+- **(b)** to make such allowance, until she attains her majority, if the Magistrate is satisfied that the husband of such female child, if married, is not possessed of sufficient means:
 
 Provided further that the Magistrate may, during the pendency of the proceeding regarding monthly allowance for the maintenance under this sub-section, order such person to make a monthly allowance for the interim maintenance of his wife or such child, father or mother, and the expenses of such proceeding which the Magistrate considers reasonable, and to pay the same to such person as the Magistrate may from time to time direct:
 
@@ -44,7 +48,9 @@ If a husband has contracted marriage with another woman or keeps a mistress, it 
 
 ---
 
-## Section 145 — Procedure.**— (1) Proceedings under section 144 may be taken against any person in any district—
+## Section 145 — Procedure
+
+**(1)** Proceedings under section 144 may be taken against any person in any district—
 
 - **(a)** where he is; or
 
@@ -62,7 +68,9 @@ Provided that if the Magistrate is satisfied that the person against whom an ord
 
 ---
 
-## Section 146 — Alteration in allowance.**— (1) On proof of a change in the circumstances of any person, receiving, under section 144 a monthly allowance for the maintenance or interim maintenance, or ordered under the same section to pay a monthly allowance for the maintenance, or interim maintenance, to his wife, child, father or mother, as the case may be, the Magistrate may make such alteration, as he thinks fit, in the allowance for the maintenance or the interim maintenance, as the case may be.
+## Section 146 — Alteration in allowance
+
+**(1)** On proof of a change in the circumstances of any person, receiving, under section 144 a monthly allowance for the maintenance or interim maintenance, or ordered under the same section to pay a monthly allowance for the maintenance, or interim maintenance, to his wife, child, father or mother, as the case may be, the Magistrate may make such alteration, as he thinks fit, in the allowance for the maintenance or the interim maintenance, as the case may be.
 
 **(2)** Where it appears to the Magistrate that in consequence of any decision of a competent Civil Court, any order made under section 144 should be cancelled or varied, he shall cancel the order or, as the case may be, vary the same accordingly.
 
@@ -82,7 +90,8 @@ Provided that if the Magistrate is satisfied that the person against whom an ord
 
 ---
 
-## Section 147 — Enforcement of order of maintenance.**—A copy of the order of maintenance or interim maintenance and expenses of proceedings, as the case may be, shall be given without payment to the person in whose favour it is made, or to his guardian, if any, or to the person to whom the allowance for the maintenance or the allowance for the interim maintenance and expenses of proceeding, as the case may be, is to be paid; and such order may be enforced by any Magistrate in any place where the person against whom it is made may be, on such Magistrate being satisfied as to the identity of the parties and the non-payment of the allowance, or as the case may be, expenses, due.
+## Section 147 — Enforcement of order of maintenance
 
+A copy of the order of maintenance or interim maintenance and expenses of proceedings, as the case may be, shall be given without payment to the person in whose favour it is made, or to his guardian, if any, or to the person to whom the allowance for the maintenance or the allowance for the interim maintenance and expenses of proceeding, as the case may be, is to be paid; and such order may be enforced by any Magistrate in any place where the person against whom it is made may be, on such Magistrate being satisfied as to the identity of the parties and the non-payment of the allowance, or as the case may be, expenses, due.
 
 ---

@@ -4,7 +4,9 @@
 
 ---
 
-## Section 223 — Examination of complainant.**—(1) A Magistrate having jurisdiction while taking cognizance of an offence on complaint shall examine upon oath the complainant and the witnesses present, if any, and the substance of such examination shall be reduced to writing and shall be signed by the complainant and the witnesses, and also by the Magistrate:
+## Section 223 — Examination of complainant
+
+**(1)** A Magistrate having jurisdiction while taking cognizance of an offence on complaint shall examine upon oath the complainant and the witnesses present, if any, and the substance of such examination shall be reduced to writing and shall be signed by the complainant and the witnesses, and also by the Magistrate:
 
 Provided that no cognizance of an offence shall be taken by the Magistrate without giving the accused an opportunity of being heard:
 
@@ -24,7 +26,9 @@ Provided also that if the Magistrate makes over the case to another Magistrate u
 
 ---
 
-## Section 224 — Procedure by Magistrate not competent to take cognizance of case.**—If the complaint is made to a Magistrate who is not competent to take cognizance of the offence, he shall,—
+## Section 224 — Procedure by Magistrate not competent to take cognizance of case
+
+If the complaint is made to a Magistrate who is not competent to take cognizance of the offence, he shall,—
 
 - **(a)** if the complaint is in writing, return it for presentation to the proper Court with an endorsement to that effect;
 
@@ -32,7 +36,9 @@ Provided also that if the Magistrate makes over the case to another Magistrate u
 
 ---
 
-## Section 225 — Postponement of issue of process.**—(1) Any Magistrate, on receipt of a complaint of an offence of which he is authorised to take cognizance or which has been made over to him under section 212, may, if he thinks fit, and shall, in a case where the accused is residing at a place beyond the area in which he exercises his jurisdiction, postpone the issue of process against the accused, and either inquire into the case himself or direct an investigation to be made by a police officer or by such other person as he thinks fit, for the purpose of deciding whether or not there is sufficient ground for proceeding:
+## Section 225 — Postponement of issue of process
+
+**(1)** Any Magistrate, on receipt of a complaint of an offence of which he is authorised to take cognizance or which has been made over to him under section 212, may, if he thinks fit, and shall, in a case where the accused is residing at a place beyond the area in which he exercises his jurisdiction, postpone the issue of process against the accused, and either inquire into the case himself or direct an investigation to be made by a police officer or by such other person as he thinks fit, for the purpose of deciding whether or not there is sufficient ground for proceeding:
 
 Provided that no such direction for investigation shall be made,—
 
@@ -40,15 +46,20 @@ Provided that no such direction for investigation shall be made,—
 
 - **(b)** where the complaint has not been made by a Court, unless the complainant and the witnesses present (if any) have been examined on oath under section 223.
 
-**(2)** In an inquiry under sub-section (1), the Magistrate may, if he thinks fit, take evidence of witnesses on oath:
+**(2)** In an inquiry under sub-section
+
+**(1)** , the Magistrate may, if he thinks fit, take evidence of witnesses on oath:
 
 Provided that if it appears to the Magistrate that the offence complained of is triable exclusively by the Court of Session, he shall call upon the complainant to produce all his witnesses and examine them on oath.
 
-**(3)** If an investigation under sub-section (1) is made by a person not being a police officer, he shall have for that investigation all the powers conferred by this Sanhita on an officer in charge of a police station except the power to arrest without warrant.
+**(3)** If an investigation under sub-section
+
+**(1)** is made by a person not being a police officer, he shall have for that investigation all the powers conferred by this Sanhita on an officer in charge of a police station except the power to arrest without warrant.
 
 ---
 
-## Section 226 — Dismissal of complaint.**—If, after considering the statements on oath (if any) of the complainant and of the witnesses and the result of the inquiry or investigation (if any) under section 225, the Magistrate is of opinion that there is no sufficient ground for proceeding, he shall dismiss the complaint, and in every such case he shall briefly record his reasons for so doing.
+## Section 226 — Dismissal of complaint
 
+If, after considering the statements on oath (if any) of the complainant and of the witnesses and the result of the inquiry or investigation (if any) under section 225, the Magistrate is of opinion that there is no sufficient ground for proceeding, he shall dismiss the complaint, and in every such case he shall briefly record his reasons for so doing.
 
 ---
