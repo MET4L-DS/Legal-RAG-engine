@@ -272,12 +272,18 @@ def main():
             if f.endswith(".md"):
                 parser.parse_file(os.path.join(bsa_dir, f), {"law": "BSA", "law_name": "Bharatiya Sakshya Adhiniyam", "year": 2023, "doc_type": "primary_legislation"})
 
-    # Process NALSA (Complete)
-    nalsa_file = os.path.join(docs_dir, "NALSA_Compensation_Scheme_2018.md")
+    # Process NALSA
+    nalsa_file = os.path.join(docs_dir, "nalsa.md")
     if os.path.exists(nalsa_file):
-        parser.parse_file(nalsa_file, {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme"})
+        print(f"Processing: {nalsa_file}")
+        parser.parse_file(nalsa_file, {
+            "law": "NALSA",
+            "law_name": "NALSA Compensation Scheme",
+            "year": 2018,
+            "doc_type": "compensation_scheme"
+        })
     
-    # Process NALSA Tables (Special)
+    # Process NALSA Table
     nalsa_table = os.path.join(docs_dir, "nalsa_table.md")
     if os.path.exists(nalsa_table):
         parser.parse_file(nalsa_table, {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule – Women Victims of Crimes"})

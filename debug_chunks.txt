@@ -28428,730 +28428,384 @@ Sub-section (2)
 **(2)** Notwithstanding such repeal, if, immediately before the date on which this Adhiniyam comes into force, there is any application, trial, inquiry, investigation, proceeding or appeal pending, then, such application, trial, inquiry, investigation, proceeding or appeal shall be dealt with under the provisions of the Indian Evidence Act, 1872 (1 of 1872), as in force immediately before such commencement, as if this Adhiniyam had not come into force.
 
 --- CHUNK 2480 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "general"}
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "1", "clause_title": "SHORT TITLE AND COMMENCEMENT", "sub_section": "1", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-
-# NALSA's Compensation Scheme for Women Victims/Survivors of Sexual Assault/other Crimes - 2018
-
-## NALSA
-
-**National Legal Services Authority**  
-
-12/11, Jam Nagar House, Shahjahan Road, New Delhi  
-
-Website: www.nalsa.gov.in  
-
-e-mail: nalsa-dla@nic.in
-
---- CHUNK 2481 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "general"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-
-## Background
-
-Hon'ble Supreme Court of India in W.P. (C) No. 565/2012 titled Nipun Saxena Vs. Union of India opined that "it would be appropriate if NALSA sets up a Committee of about 4 or 5 persons who can prepare Model Rules for Victim Compensation for sexual offences and acid attacks taking into account the submissions made by the learned Amicus. The learned Amicus as well as the learned Solicitor General have offered to assist the Committee as and when required. The Chairperson or the nominee of the Chairperson of the National Commission for Women should be associated with the Committee."
-
-In view of the above, NALSA set up a committee consisting of the following members for preparation of Model Scheme:
-
-- Ms. Pinky Anand - Additional Solicitor General
-
-- Shri Rakesh Srivastava - Secretary, Ministry of Women and Child Development, Government of India
-
-- Shri T.V.S. N. Prasad - Additional Secretary, Ministry of Home Affairs, Government of India
-
-- Ms. Indira Jaising - Senior Advocate, Supreme Court of India
-
-- Shri Alok Agarwal - Member Secretary, NALSA
-
-- Shri Surinder S. Rathi - Director, NALSA
-
-- Ms. Anju Rathi Rana - Joint Secretary, Department of Legal Affairs, Ministry of Law and Justice, Govt. of India
-
-- Shri K.L. Sharma - Joint Secretary, National Commission for Women
-
-- Ms. Bharti Ali - Co-Director, HAQ: Centre for Child Rights
-
-The Committee held rounds of meetings and it was decided to prepare a separate "Chapter" or a "Sub-Scheme" within the existing Victim Compensation Scheme for victims of sexual assault.
-
-The Committee drafted Part – II of the Victims Compensation Scheme and invited suggestions/comments from various stakeholders on the draft. Taking into consideration the suggestions/comments, the Committee has finalized the Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes and submitted the same before the Hon'ble Supreme Court of India on 24.04.2018.
-
-Submissions were made before the Hon'ble Bench and other stakeholders were also heard on 10.05.2018. Additional suggestions received during the hearing were also incorporated and final Scheme was filed before the Hon'ble Supreme Court of India on 11.05.2018. On this day, after hearing NALSA and Ld. Amicus Curiae, Hon'ble Bench was pleased to accept this Scheme and directed all the State Governments/UT Administrations to implement the same in their respective States/UTs.
-
-Hon'ble Supreme Court of India further observed that while nothing should be taken away from this Scheme, but it does not preclude the State Governments/UT Administrations from adding to the Scheme.
-
-(Surinder S. Rathi)  
-
-Director, NALSA
-
---- CHUNK 2482 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "general"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
---- CHUNK 2483 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "general"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-The Chapter contained in this part shall be called "Compensation Scheme for Women Victims/Survivors of Sexual Assault/other Crimes"
-
-## INDEX
-
---- CHUNK 2484 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| S. No. | Contents | Page no(s) |
-
---- CHUNK 2485 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-|--------|----------|------------|
-
-| 1. | Short Title and Commencement | 2 |
-
---- CHUNK 2486 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 2. | Definitions | 2-3 |
-
---- CHUNK 2487 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 3. | Women Victims Compensation Fund | 3-4 |
-
---- CHUNK 2488 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 4. | Eligibility for compensation | 4 |
-
---- CHUNK 2489 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 5. | Procedure for making application before the SLSA or DLSA | 4 |
-
---- CHUNK 2490 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 6. | Place of filing of application | 4 |
-
---- CHUNK 2491 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 7. | Reliefs that may be awarded by the state or District Legal Services Authority | 4 |
-
---- CHUNK 2492 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 8. | Factors to be considered while awarding compensation | 5 |
-
---- CHUNK 2493 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 9. | Procedure for grant of compensation | 6-7 |
-
---- CHUNK 2494 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 10. | The order to be placed on record | 7 |
-
---- CHUNK 2495 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 11. | Method of disbursement of compensation | 7 |
-
---- CHUNK 2496 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 12. | Interim relief to the victim | 8 |
-
---- CHUNK 2497 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 13. | Recovery of compensation awarded to the victim or her dependent(s) | 8 |
-
---- CHUNK 2498 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 14. | Dependency certificate | 8 |
-
---- CHUNK 2499 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 15. | Minor victims | 9 |
-
---- CHUNK 2500 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 16. | Limitation | 9 |
-
---- CHUNK 2501 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 17. | Appeal | 9 |
-
---- CHUNK 2502 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 18. | Repeal & savings | 9 |
-
---- CHUNK 2503 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 19. | Schedule applicable to women victim of crimes | 10-11 |
-
---- CHUNK 2504 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-| 20. | Form-I | 12 |
-
---- CHUNK 2505 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
---- CHUNK 2506 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "1", "clause_title": "SHORT TITLE AND COMMENCEMENT", "sub_section": "1", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
 Clause 1 – SHORT TITLE AND COMMENCEMENT
 Sub-section (1)
 
-(1) This Chapter may be called the Compensation Scheme for Women Victims/Survivors of Sexual Assault/other Crimes, 2018.
+**(1)** This Chapter may be called the Compensation Scheme for Women Victims/Survivors of Sexual Assault/other Crimes, 2018.
 
---- CHUNK 2507 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "1", "clause_title": "SHORT TITLE AND COMMENCEMENT", "sub_section": "2", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2481 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "1", "clause_title": "SHORT TITLE AND COMMENCEMENT", "sub_section": "2", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 1 – SHORT TITLE AND COMMENCEMENT
 Sub-section (2)
 
-(2) It shall come into force on the date as and when ordered by Hon'ble Supreme Court of India.
+**(2)** It shall come into force on the date as and when ordered by Hon'ble Supreme Court of India.
 
---- CHUNK 2508 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "1", "clause_title": "SHORT TITLE AND COMMENCEMENT", "sub_section": "3", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2482 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "1", "clause_title": "SHORT TITLE AND COMMENCEMENT", "sub_section": "3", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 1 – SHORT TITLE AND COMMENCEMENT
 Sub-section (3)
 
-(3) It shall apply to the victims and their dependent(s) who have suffered loss, injury, as the case may be, as a result of the offence committed and who require rehabilitation.
+**(3)** It shall apply to the victims and their dependent(s) who have suffered loss, injury, as the case may be, as a result of the offence committed and who require rehabilitation.
 
---- CHUNK 2509 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "2", "clause_title": "DEFINITIONS", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2483 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "2", "clause_title": "DEFINITIONS", "sub_section": "1", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 2 – DEFINITIONS
+Sub-section (1)
 
-1) In this Chapter, unless the context otherwise requires: —
+**(1)** In this Chapter, unless the context otherwise requires: —
 
-(a) "Code" means the Code of Criminal Procedure, 1973 (2 of 1974); or "Sanhita" means The Bhartiya Nagarik Suraksha Sanhita, 2023.
+- **(a)** "Code" means the Code of Criminal Procedure, 1973 (2 of 1974); or "Sanhita" means The Bhartiya Nagarik Suraksha Sanhita, 2023.
 
-(b) 'Dependent' includes husband, father, mother, grandparents, unmarried daughter and minor children of the victim as determined by the State Legal Services Authority or District Legal Services Authority on the basis of the report of the Sub- Divisional Magistrate of the concerned area/Station House Officer/Investigating Officer or on the basis of material placed on record by the dependents by way of affidavit or on its own enquiry.
+- **(b)** 'Dependent' includes husband, father, mother, grandparents, unmarried daughter and minor children of the victim as determined by the State Legal Services Authority or District Legal Services Authority on the basis of the report of the Sub-Divisional Magistrate of the concerned area/Station House Officer/Investigating Officer or on the basis of material placed on record by the dependents by way of affidavit or on its own enquiry.
 
-(c) "District Legal Services Authority" means the District Legal Services Authority (DLSA)constituted under section 9 of the Legal Services Authorities Act, 1987(Act 39 of 1987) for a District of the National Capital Territory of Delhi;
+- **(c)** "District Legal Services Authority" means the District Legal Services Authority (DLSA)constituted under section 9 of the Legal Services Authorities Act, 1987(Act 39 of 1987) for a District of the National Capital Territory of Delhi;
 
-(d) 'Form' means form appended to the Scheme as applicable to this Chapter.
+- **(d)** 'Form' means form appended to the Scheme as applicable to this Chapter.
 
-(e) 'Fund' means State fund i.e. victim compensation fund constituted under the State Victim Compensation Scheme.
+- **(e)** 'Fund' means State fund i.e. victim compensation fund constituted under the State Victim Compensation Scheme.
 
-(f) 'Central Fund' means funds received from CVCF Scheme, 2015.
+- **(f)** 'Central Fund' means funds received from CVCF Scheme, 2015.
 
-(g) 'Women Victim Compensation Fund' – means a fund segregated for disbursement for women victim, out of State Victim Compensation Fund and Central Fund.
+- **(g)** 'Women Victim Compensation Fund' – means a fund segregated for disbursement for women victim, out of State Victim Compensation Fund and Central Fund.
 
 [Within the State Victim Compensation Fund, a separate Bank Account shall be maintained as a portion of that larger fund which shall contain the funds contributed under CVCF Scheme by MHA, GOI contributed from Nirbhaya Fund apart from funds received from the State Victim Compensation Fund which shall be utilised only for victims covered under this Chapter]
 
-(h) 'Government' means 'State Government' wherever the State Victim Compensation Scheme or the State Victim Compensation Fund isin context and 'Central Government' wherever Central Government Victim Compensation Fund Scheme is in context and includes UTs.
+- **(h)** 'Government' means 'State Government' wherever the State Victim Compensation Scheme or the State Victim Compensation Fund isin context and 'Central Government' wherever Central Government Victim Compensation Fund Scheme is in context and includes UTs.
 
---- CHUNK 2510 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "2", "clause_title": "DEFINITIONS", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+- **(i)** 'Injury' means any harm caused to body or mind of a female.
+
+- **(j)** 'Minor' means a girl child who has not completed the age of 18 years.
+
+- **(k)** 'Offence' means offence committed against women punishable under IPC or BNS or any other law.
+
+- **(l)** 'Penal Code' means Indian Penal Code, 1860 (45 of 1860); or Nyaya Sanhita means Bhartiya Nyaya Sanhita, 2023.
+
+- **(m)** 'Schedule' means schedule applicable to this Chapter/Part of the scheme.
+
+- **(n)** "State Legal Services Authority" means the State Legal Services Authority (SLSA), as defined in Section 6 of the Legal Services Authorities Act, 1987 (39 of 1987)
+
+- **(o)** 'Sexual Assault Victims" means female who has suffered mental or physical injury or both as a result of sexual offence including Sections 376 (A) to (E) or Section 64 (A to m) of the Bhartiya Nyaya Sanhita Section 354 (A) to (D), or Sections 65, 66, 67, 68, 69, 70, 71,72,74, 75, 76,77, 78 of the Bhartiya Nyaya Sanhita Section 509 IPC or Section 79 of the Bhartiya Nyaya Sanhita.
+
+- **(p)** 'Woman Victim/ survivor of other crime' means a woman who has suffered physical or mental injury as a result of any offence mentioned in the attached Schedule including Sections 304 B or Section 80 BNS Section 326A or Section 124 BNS Section 498A IPC or Section 85 BNS (in case of physical injury of the nature specified in the schedule) including the attempts and abetment.
+
+--- CHUNK 2484 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "2", "clause_title": "DEFINITIONS", "sub_section": "2", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
-Clause 2 – DEFINITIONS
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
-(i) 'Injury' means any harm caused to body or mind of a female.
-
-(j) 'Minor' means a girl child who has not completed the age of 18 years.
-
-(k) 'Offence' means offence committed against women punishable under IPC or BNS or any other law.
-
-(l) 'Penal Code' means Indian Penal Code, 1860 (45 of 1860); or Nyaya Sanhita means Bhartiya Nyaya Sanhita, 2023.
-
-(m) 'Schedule' means schedule applicable to this Chapter/Part of the scheme.
-
-(n) "State Legal Services Authority" means the State Legal Services Authority (SLSA), as defined in Section 6 of the Legal Services Authorities Act, 1987 (39 of 1987)
-
-(o) 'Sexual Assault Victims" means female who has suffered mental or physical injury or both as a result of sexual offence including Sections 376 (A) to (E) or Section 64 (A to m) of the Bhartiya Nyaya Sanhita Section 354 (A) to (D), or Sections 65, 66, 67, 68, 69, 70, 71,72,74, 75, 76,77, 78 of the B h a r t i y a Nyaya Sanhita Section 509 IPC or Section 79 of the Bhartiya Nyaya Sanhita.
-
-(p) 'Woman Victim/ survivor of other crime' means a woman who has suffered physical or mental injury as a result of any offence mentioned in the attached Schedule including Sections 304 B or Section 80 BNS Section 326A or Section 124 BNS Section 498A IPC or Section 85 BNS (in case of physical injury of the nature specified in the schedule) including the attempts and abetment.
-
---- CHUNK 2511 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "2", "clause_title": "DEFINITIONS", "sub_section": "2", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
 Clause 2 – DEFINITIONS
 Sub-section (2)
 
-(2) Words and expressions used in this Chapter and not defined here, shall have the same meaning as assigned to them in the Code of Criminal Procedure, 1973 or/and the Indian Penal Code, 1860 or Bhartiya Nagarik Suraksha Sanhita 2023 or/and the Bhartiya Nyaya Sanhita 2023
+**(2)** Words and expressions used in this Chapter and not defined here, shall have the same meaning as assigned to them in the Code of Criminal Procedure, 1973 or/and the Indian Penal Code, 1860 or Bhartiya Nagarik Suraksha Sanhita 2023 or/and the Bhartiya Nyaya Sanhita 2023
 
---- CHUNK 2512 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "3", "clause_title": "WOMEN VICTIMS COMPENSATION FUND\u2014", "sub_section": "1", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2485 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "3", "clause_title": "WOMEN VICTIMS COMPENSATION FUND\u2014", "sub_section": "1", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 3 – WOMEN VICTIMS COMPENSATION FUND—
 Sub-section (1)
 
-(1) There shall be a Fund, namely, the Women Victims Compensation Fund from which the amount of compensation, as decided by the State Legal Services Authority or District Legal Services Authority, shall be paid to the women victim or her dependent(s) who have suffered loss or injury as a result of an offence and who require rehabilitation.
+**(1)** There shall be a Fund, namely, the Women Victims Compensation Fund from which the amount of compensation, as decided by the State Legal Services Authority or District Legal Services Authority, shall be paid to the women victim or her dependent(s) who have suffered loss or injury as a result of an offence and who require rehabilitation.
 
---- CHUNK 2513 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "3", "clause_title": "WOMEN VICTIMS COMPENSATION FUND\u2014", "sub_section": "2", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2486 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "3", "clause_title": "WOMEN VICTIMS COMPENSATION FUND\u2014", "sub_section": "2", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 3 – WOMEN VICTIMS COMPENSATION FUND—
 Sub-section (2)
 
-(2) The 'Women Victims Compensation Fund' shall comprise the following: -
+**(2)** The 'Women Victims Compensation Fund' shall comprise the following: -
 
-(a) Contribution received from CVCF Scheme, 2015.
+**(a)** Contribution received from CVCF Scheme, 2015.
 
-(b) Budgetary allocation in the shape of Grants-in-aid to SLSA for which necessary provision shall be made in the Annual Budget by the Government;
+**(b)** Budgetary allocation in the shape of Grants-in-aid to SLSA for which necessary provision shall be made in the Annual Budget by the Government;
 
-(c) Any cost amount ordered by Civil/Criminal Tribunal to be deposited in this Fund.
+**(c)** Any cost amount ordered by Civil/Criminal Tribunal to be deposited in this Fund.
 
-(d) Amount of compensation recovered from the wrong doer/accused under clause 14 of the Scheme;
+**(d)** Amount of compensation recovered from the wrong doer/accused under clause 14 of the Scheme;
 
---- CHUNK 2514 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "3", "clause_title": "WOMEN VICTIMS COMPENSATION FUND\u2014", "sub_section": "2", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+**(e)** Donations/contributions from International/ National/ Philanthropist/ Charitable Institutions/ Organizations and individuals permitted by State or Central Government.
+
+**(f)** Contributions from companies under CSR (Corporate Social Responsibility)
+
+--- CHUNK 2487 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "3", "clause_title": "WOMEN VICTIMS COMPENSATION FUND\u2014", "sub_section": "3", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
-Clause 3 – WOMEN VICTIMS COMPENSATION FUND—
-Sub-section (2)
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
-(e) Donations/contributions from International/ National/ Philanthropist/ Charitable Institutions/ Organizations and individuals permitted by State or Central Government.
-
-(f) Contributions from companies under CSR (Corporate Social Responsibility)
-
---- CHUNK 2515 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "3", "clause_title": "WOMEN VICTIMS COMPENSATION FUND\u2014", "sub_section": "3", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
 Clause 3 – WOMEN VICTIMS COMPENSATION FUND—
 Sub-section (3)
 
-(3) The said Fund shall be operated by the State Legal Services Authority (SLSA).
+**(3)** The said Fund shall be operated by the State Legal Services Authority (SLSA).
 
---- CHUNK 2516 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "4", "clause_title": "ELIGIBILITY FOR COMPENSATION \u2013", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2488 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "4", "clause_title": "ELIGIBILITY FOR COMPENSATION \u2013", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 4 – ELIGIBILITY FOR COMPENSATION –
 
 A woman victim or her dependent (s) as the case may be, shall be eligible for grant of compensation from multiple schemes applicable to her. However, the compensation received by her in the other schemes with regard to Section 357-B Cr.P.C or 396 BNSS shall be taken into account while deciding the quantum in the such subsequent application
 
---- CHUNK 2517 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "5", "clause_title": "PROCEDURE FOR MAKING APPLICATION BEFORE THE SLSA OR DLSA\u2014", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2489 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "5", "clause_title": "PROCEDURE FOR MAKING APPLICATION BEFORE THE SLSA OR DLSA\u2014", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 5 – PROCEDURE FOR MAKING APPLICATION BEFORE THE SLSA OR DLSA—
 
 Mandatory Reporting of FIRs: - SHO/SP/DCP shall mandatorily share soft/hard copy of FIR immediately after its registration with State Legal Services Authority/District Legal Services Authority qua commission of offences covered in this Scheme which include Sections 326A, 354A to 354D, 376A to 376E, 304B, 498A or Sections 124, 74, 75, 76, 78, Sections 63 to Section 72, Section 80, 85 of the Bhartiya Nyaya Sanhita (in case of physical injury covered in this Schedule), so that the SLSA/DLSA can, in deserving cases, may suo-moto initiate preliminary verification of facts for the purpose of grant of interim compensation.
 
 An application for the award of interim/ final compensation can be filed by the Victim and/or her Dependents or the SHO of the area before concerned SLSA or DLSA. It shall be submitted in Form 'I' along with a copy of the First Information Report (FIR) or criminal complaint of which cognizance is taken by the Court and if available Medical Report, Death Certificate, wherever applicable, copy of judgment/ recommendation of court if the trial is over.
 
---- CHUNK 2518 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "6", "clause_title": "PLACE OF FILING OF APPLICATION\u2014", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2490 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "6", "clause_title": "PLACE OF FILING OF APPLICATION\u2014", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 6 – PLACE OF FILING OF APPLICATION—
 
 The application/recommendation for compensation can be moved either before the State Legal Services Authority or the concerned District Legal Services Authority or it can be filed online on a portal which shall be created by all State Legal Services Authorities. The Secretary of the respective DLSA shall decide the application/ recommendation moved before him/her as per the Scheme.
 
 Explanation: In case of acid attack victim the deciding authority shall be Criminal Injury Compensation Board as directed by Hon'ble Supreme Court in Laxmi vs. Union of India W.P.CRML 129/2006 order dated 10.04.2015 which includes Ld. District & Sessions Judge, DM, SP, Civil Surgeon/CMO of the district.
 
---- CHUNK 2519 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "7", "clause_title": "RELIEFS THAT MAY BE AWARDED BY THE STATE OR DISTRICT LEGAL SERVICES AUTHORITY. \u2013", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2491 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "7", "clause_title": "RELIEFS THAT MAY BE AWARDED BY THE STATE OR DISTRICT LEGAL SERVICES AUTHORITY. \u2013", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 7 – RELIEFS THAT MAY BE AWARDED BY THE STATE OR DISTRICT LEGAL SERVICES AUTHORITY. –
 
 The SLSA or DLSA may award compensation to the victim or her dependents to the extent as specified in the scheduled attached hereto.
 
---- CHUNK 2520 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "7", "clause_title": "RELIEFS THAT MAY BE AWARDED BY THE STATE OR DISTRICT LEGAL SERVICES AUTHORITY. \u2013", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2492 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
-Clause 7 – RELIEFS THAT MAY BE AWARDED BY THE STATE OR DISTRICT LEGAL SERVICES AUTHORITY. –
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
---- CHUNK 2521 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 
 While deciding a matter, the State Legal Services Authority/District Legal Services Authority may take into consideration the following factors relating to the loss or injury suffered by the victim:
 
---- CHUNK 2522 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "1", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2493 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "1", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (1)
 
-(1) Gravity of the offence and severity of mental or physical harm or injury suffered by the victim;
+**(1)** Gravity of the offence and severity of mental or physical harm or injury suffered by the victim;
 
---- CHUNK 2523 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "2", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2494 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "2", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (2)
 
-(2) Expenditure incurred or likely to be incurred on the medical treatment for physical and/or mental health including counselling of the victim, funeral, travelling during investigation/ inquiry/ trial (other than diet money);
+**(2)** Expenditure incurred or likely to be incurred on the medical treatment for physical and/or mental health including counselling of the victim, funeral, travelling during investigation/ inquiry/ trial (other than diet money);
 
---- CHUNK 2524 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "3", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2495 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "3", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (3)
 
-(3) Loss of educational opportunity as a consequence of the offence, including absence from school/college due to mental trauma, bodily injury, medical treatment, investigation and trial of the offence, or any other reason;
+**(3)** Loss of educational opportunity as a consequence of the offence, including absence from school/college due to mental trauma, bodily injury, medical treatment, investigation and trial of the offence, or any other reason;
 
---- CHUNK 2525 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "4", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2496 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "4", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (4)
 
-(4) Loss of employment as a result of the offence, including absence from place of employment due to mental trauma, bodily injury, medical treatment, investigation and trial of the offence, or any other reason;
+**(4)** Loss of employment as a result of the offence, including absence from place of employment due to mental trauma, bodily injury, medical treatment, investigation and trial of the offence, or any other reason;
 
---- CHUNK 2526 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "5", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2497 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "5", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (5)
 
-(5) The relationship of the victim to the offender, if any;
+**(5)** The relationship of the victim to the offender, if any;
 
---- CHUNK 2527 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "6", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2498 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "6", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (6)
 
-(6) Whether the abuse was a single isolated incidence or whether the abuse took place over a period of time;
+**(6)** Whether the abuse was a single isolated incidence or whether the abuse took place over a period of time;
 
---- CHUNK 2528 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "7", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2499 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "7", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (7)
 
-(7) Whether victim became pregnant as a result of the offence, whether she had to undergo Medical Termination of Pregnancy (MTP)/ give birth to a child, including rehabilitation needs of such child;
+**(7)** Whether victim became pregnant as a result of the offence, whether she had to undergo Medical Termination of Pregnancy (MTP)/ give birth to a child, including rehabilitation needs of such child;
 
---- CHUNK 2529 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "8", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2500 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "8", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (8)
 
-(8) Whether the victim contracted a sexually transmitted disease (STD) as a result of the offence;
+**(8)** Whether the victim contracted a sexually transmitted disease (STD) as a result of the offence;
 
---- CHUNK 2530 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "9", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2501 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "9", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (9)
 
-(9) Whether the victim contracted human immunodeficiency virus (HIV) as a result of the offence;
+**(9)** Whether the victim contracted human immunodeficiency virus (HIV) as a result of the offence;
 
---- CHUNK 2531 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "10", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2502 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "10", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (10)
 
-(10) Any disability suffered by the victim as a result of the offence;
+**(10)** Any disability suffered by the victim as a result of the offence;
 
---- CHUNK 2532 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "11", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2503 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "11", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (11)
 
-(11) Financial condition of the victim against whom the offence has been committed so as to determine her need for rehabilitation and re-integration needs of the victim.
+**(11)** Financial condition of the victim against whom the offence has been committed so as to determine her need for rehabilitation and re-integration needs of the victim.
 
---- CHUNK 2533 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "12", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2504 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "12", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (12)
 
-(12) In case of death, the age of deceased, her monthly income, number of dependents, life expectancy, future promotional/growth prospects etc.
+**(12)** In case of death, the age of deceased, her monthly income, number of dependents, life expectancy, future promotional/growth prospects etc.
 
---- CHUNK 2534 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "13", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2505 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "13", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
 Sub-section (13)
 
-(13) Or any other factor which the SLSA/DLSA may consider just and sufficient.
+**(13)** Or any other factor which the SLSA/DLSA may consider just and sufficient.
 
---- CHUNK 2535 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "8", "clause_title": "FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION \u2013", "sub_section": "13", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2506 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "9", "clause_title": "PROCEDURE FOR GRANT OF COMPENSATION\u2014", "sub_section": "1", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
-Clause 8 – FACTORS TO BE CONSIDERED WHILE AWARDING COMPENSATION –
-Sub-section (13)
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
---- CHUNK 2536 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "9", "clause_title": "PROCEDURE FOR GRANT OF COMPENSATION\u2014", "sub_section": "1", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
 Clause 9 – PROCEDURE FOR GRANT OF COMPENSATION—
 Sub-section (1)
 
-(1) Wherever, a recommendation is made by the court for compensation under sub-sections (2) and/or (3) of Section 357A of the Code, or (subsections (2) and/or (3) of Section 396 of the BNSS or an application is made by any victim or her dependent(s), under subsection (4) of Section 357A of the Code, or under subsection (4) of Section 396 of the Suraksha Sanhita to the State Legal Services Authority or District Legal Services Authority, for interim compensation it shall prima- facie satisfy itself qua compensation needs and identity of the victim. As regards the final compensation, it shall examine the case and verify the contents of the claim with respect to the loss/injury and rehabilitation needs as a result of the crime and may also call for any other relevant information necessary for deciding the claim.
+**(1)** Wherever, a recommendation is made by the court for compensation under sub-sections (2) and/or (3) of Section 357A of the Code, or (subsections (2) and/or (3) of Section 396 of the BNSS or an application is made by any victim or her dependent(s), under subsection (4) of Section 357A of the Code, or under subsection (4) of Section 396 of the Suraksha Sanhita to the State Legal Services Authority or District Legal Services Authority, for interim compensation it shall prima- facie satisfy itself qua compensation needs and identity of the victim. As regards the final compensation, it shall examine the case and verify the contents of the claim with respect to the loss/injury and rehabilitation needs as a result of the crime and may also call for any other relevant information necessary for deciding the claim.
 
 Provided that in deserving cases and in all acid attack cases, at any time after commission of the offence, Secretary, SLSA or Secretary, DLSA may suo moto or after preliminary verification of the facts proceed to grant interim relief as may be required in the circumstances of each case.
 
---- CHUNK 2537 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "9", "clause_title": "PROCEDURE FOR GRANT OF COMPENSATION\u2014", "sub_section": "2", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2507 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "9", "clause_title": "PROCEDURE FOR GRANT OF COMPENSATION\u2014", "sub_section": "2", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 9 – PROCEDURE FOR GRANT OF COMPENSATION—
 Sub-section (2)
 
-(2) The inquiry as contemplated under sub-section (5) of Section 357A of the Code, or Section 396 of the Suraksha Sanhita shall be completed expeditiously and the period in no case shall exceed beyond sixty days from the receipt of the claim/petition or recommendation:
+**(2)** The inquiry as contemplated under sub-section (5) of Section 357A of the Code, or Section 396 of the Suraksha Sanhita shall be completed expeditiously and the period in no case shall exceed beyond sixty days from the receipt of the claim/petition or recommendation:
 
-Provided that in cases of acid attack an amount of Rs. One lakh shall be paid to the victim within 15 days of the matter being brought to the notice of DLSA. The order granting interim compensation shall be passed by DLSA within 7 days of the matter being brought to its notice and the SLSA shall pay the compensation within 8 days of passing of the order. Thereafter, an amount of Rs. 2 lakhs shall be paid to the victim as expeditiously as possible and positively within two months of the first payment*
+Provided that in cases of acid attack an amount of Rs. One lakh shall be paid to the victim within 15 days of the matter being brought to the notice of DLSA. The order granting interim compensation shall be passed by DLSA within 7 days of the matter being brought to its notice and the SLSA shall pay the compensation within 8 days of passing of the order. Thereafter, an amount of Rs. 2 lakhs shall be paid to the victim as expeditiously as possible and positively within two months of the first payment\*
 
 Provided further that the victim may also be paid such further amount as is admissible under this Scheme.
 
---- CHUNK 2538 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "9", "clause_title": "PROCEDURE FOR GRANT OF COMPENSATION\u2014", "sub_section": "3", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2508 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "9", "clause_title": "PROCEDURE FOR GRANT OF COMPENSATION\u2014", "sub_section": "3", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 9 – PROCEDURE FOR GRANT OF COMPENSATION—
 Sub-section (3)
 
-(3) After consideration of the matter, the SLSA or DLSA, as the case may be, upon its satisfaction, shall decide the quantum of compensation to be awarded to the victim or her dependent(s) taking into account the factors enumerated in Clause 8 of the Scheme, as per schedule appended to this chapter. However, in deserving cases, for reasons to be recorded, the upper limit may be exceeded.
+**(3)** After consideration of the matter, the SLSA or DLSA, as the case may be, upon its satisfaction, shall decide the quantum of compensation to be awarded to the victim or her dependent(s) taking into account the factors enumerated in Clause 8 of the Scheme, as per schedule appended to this chapter. However, in deserving cases, for reasons to be recorded, the upper limit may be exceeded.
 
 Moreover, in case the victim is minor, the limit of compensation shall be deemed to be 50% higher than the amount mentioned in the Schedule appended to this chapter.
 
-*Victims of Acid attack are also entitled to additional compensation of Rs. 1 lac under Prime Minister's National Relief Fund vide memorandum no. 24013/94/Misc./2014-CSR-III/GoI/MHA dated 09.11.2016(copy attached)
+_Victims of Acid attack are also entitled to additional compensation of Rs. 1 lac under Prime Minister's National Relief Fund vide memorandum no. 24013/94/Misc./2014-CSR-III/GoI/MHA dated 09.11.2016(copy attached)_
 
-Victims of Acid Attack are also entitled to additional special financial assistance up to Rs. 5 lacs who need treatment expenses over and above the compensation paid by the respective State/UTs in terms of Central Victim Compensation Fund Guidelines-2016, no. 24013/94/Misc/2014-CSR.III, MHA/GoI
+_Victims of Acid Attack are also entitled to additional special financial assistance up to Rs. 5 lacs who need treatment expenses over and above the compensation paid by the respective State/UTs in terms of Central Victim Compensation Fund Guidelines-2016, no. 24013/94/Misc/2014-CSR.III, MHA/GoI_
 
---- CHUNK 2539 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "9", "clause_title": "PROCEDURE FOR GRANT OF COMPENSATION\u2014", "sub_section": "3", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2509 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "9", "clause_title": "PROCEDURE FOR GRANT OF COMPENSATION\u2014", "sub_section": "4", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
-Clause 9 – PROCEDURE FOR GRANT OF COMPENSATION—
-Sub-section (3)
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
---- CHUNK 2540 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "9", "clause_title": "PROCEDURE FOR GRANT OF COMPENSATION\u2014", "sub_section": "4", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
 Clause 9 – PROCEDURE FOR GRANT OF COMPENSATION—
 Sub-section (4)
 
-(4) The SLSA/DLSA may call for any record or take assistance from any Authority/Establishment/Individual/ Police/Court concerned or expert for smooth implementation of the Scheme.
+**(4)** The SLSA/DLSA may call for any record or take assistance from any Authority/Establishment/Individual/ Police/Court concerned or expert for smooth implementation of the Scheme.
 
---- CHUNK 2541 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "9", "clause_title": "PROCEDURE FOR GRANT OF COMPENSATION\u2014", "sub_section": "5", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2510 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "9", "clause_title": "PROCEDURE FOR GRANT OF COMPENSATION\u2014", "sub_section": "5", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 9 – PROCEDURE FOR GRANT OF COMPENSATION—
 Sub-section (5)
 
-(5) In case trial/appellate court gives findings that the criminal complaint and the allegation were false, then Legal Services Authority may initiate proceedings for recovery of compensation, if any, granted in part or full under this Scheme, before the Trial Court for its recovery as if it were a fine.
+**(5)** In case trial/appellate court gives findings that the criminal complaint and the allegation were false, then Legal Services Authority may initiate proceedings for recovery of compensation, if any, granted in part or full under this Scheme, before the Trial Court for its recovery as if it were a fine.
 
---- CHUNK 2542 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "10", "clause_title": "THE ORDER TO BE PLACED ON RECORD\u2014", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2511 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "10", "clause_title": "THE ORDER TO BE PLACED ON RECORD\u2014", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 10 – THE ORDER TO BE PLACED ON RECORD—
 
 Copy of the order of interim or final compensation passed under this Scheme shall be placed on record of the trial Court so as to enable the trial Court to pass an appropriate order of compensation under Section 357 of the Code or Section 396 of the Suraksha Sanhita. A true copy of the order shall be provided to the IO in case the matter is pending investigation and also to the victim/dependent as the case may be.
 
---- CHUNK 2543 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "11", "clause_title": "METHOD OF DISBURSEMENT OF COMPENSATION\u2014", "sub_section": "1", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2512 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "11", "clause_title": "METHOD OF DISBURSEMENT OF COMPENSATION\u2014", "sub_section": "1", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 11 – METHOD OF DISBURSEMENT OF COMPENSATION—
 Sub-section (1)
 
-(1) The amount of compensation so awarded shall be disbursed by the SLSA by depositing the same in a Bank in the joint or single name of the victim/dependent(s). In case the victim does not have any bank account, the DLSA concern would facilitate opening of a bank account in the name of the victim and in case the victim is a minor along with a guardian or in case, minor is in a child care institution, the bank account shall be opened with the Superintendent of the Institution as Guardian. However, in case the victim is a foreign national or a refugee, the compensation can be disbursed by way of cash cards.
+**(1)** The amount of compensation so awarded shall be disbursed by the SLSA by depositing the same in a Bank in the joint or single name of the victim/dependent(s). In case the victim does not have any bank account, the DLSA concern would facilitate opening of a bank account in the name of the victim and in case the victim is a minor along with a guardian or in case, minor is in a child care institution, the bank account shall be opened with the Superintendent of the Institution as Guardian. However, in case the victim is a foreign national or a refugee, the compensation can be disbursed by way of cash cards.
 
 Interim amount shall be disbursed in full. However, as far as the final compensation amount is concerned, 75% (seventy five percent) of the same shall be put in a fixed deposit for a minimum period of three years and the remaining 25% (twenty five percent) shall be available for utilization and initial expenses by the victim/dependent(s), as the case may be.
 
---- CHUNK 2544 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "11", "clause_title": "METHOD OF DISBURSEMENT OF COMPENSATION\u2014", "sub_section": "2", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2513 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "11", "clause_title": "METHOD OF DISBURSEMENT OF COMPENSATION\u2014", "sub_section": "2", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 11 – METHOD OF DISBURSEMENT OF COMPENSATION—
 Sub-section (2)
 
-(2) In the case of a minor, 80% of the amount of compensation so awarded, shall be deposited in the fixed deposit account and shall be drawn only on attainment of the age of majority, but not before three years of the deposit.
+**(2)** In the case of a minor, 80% of the amount of compensation so awarded, shall be deposited in the fixed deposit account and shall be drawn only on attainment of the age of majority, but not before three years of the deposit.
 
 Provided that in exceptional cases, amounts may be withdrawn for educational or medical or other pressing and urgent needs of the beneficiary at the discretion of the SLSA/ DLSA.
 
---- CHUNK 2545 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "11", "clause_title": "METHOD OF DISBURSEMENT OF COMPENSATION\u2014", "sub_section": "3", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2514 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "11", "clause_title": "METHOD OF DISBURSEMENT OF COMPENSATION\u2014", "sub_section": "3", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 11 – METHOD OF DISBURSEMENT OF COMPENSATION—
 Sub-section (3)
 
-(3) The interest on the sum, if lying in FDR form, shall be credited directly by the bank in the savings account of the victim/dependent(s), on monthly basis which can be withdrawn by the beneficiary
+**(3)** The interest on the sum, if lying in FDR form, shall be credited directly by the bank in the savings account of the victim/dependent(s), on monthly basis which can be withdrawn by the beneficiary
 
---- CHUNK 2546 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "11", "clause_title": "METHOD OF DISBURSEMENT OF COMPENSATION\u2014", "sub_section": "3", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2515 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "12", "clause_title": "INTERIM RELIEF TO THE VICTIM\u2014", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
-Clause 11 – METHOD OF DISBURSEMENT OF COMPENSATION—
-Sub-section (3)
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
---- CHUNK 2547 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "12", "clause_title": "INTERIM RELIEF TO THE VICTIM\u2014", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
 Clause 12 – INTERIM RELIEF TO THE VICTIM—
 
 The State Legal Services Authority or District Legal Services Authority, as the case may be, may order for immediate first-aid facility or medical benefits to be made available free of cost or any other interim relief (including interim monetary compensation) as deemed appropriate, to alleviate the suffering of the victim on the certificate of a police officer, not below the rank of the officer-in-charge of the police station, or a Magistrate of the area concerned or on the application of the victim/ dependents or suo moto.
@@ -29162,487 +28816,82 @@ Provided that the, interim relief so granted shall not be less than 25 per cent 
 
 Provided further that in cases of acid attack a sum of Rs. One lakh shall be paid to the victim within 15 days of the matter being brought to the notice of SLSA/DLSA. The order granting interim compensation shall be passed by the SLSA/DLSA within 7 days of the matter being brought to its notice and the SLSA shall pay the compensation within 8 days of passing of order. Thereafter an additional sum of Rs.2 lakhs shall be awarded and paid to the victim as expeditiously as possible and positively within two months.
 
---- CHUNK 2548 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "13", "clause_title": "RECOVERY OF COMPENSATION AWARDED TO THE VICTIM OR HER DEPENDENT(S)\u2014", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2516 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "13", "clause_title": "RECOVERY OF COMPENSATION AWARDED TO THE VICTIM OR HER DEPENDENT(S)\u2014", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 13 – RECOVERY OF COMPENSATION AWARDED TO THE VICTIM OR HER DEPENDENT(S)—
 
 Subject to the provisions of sub-section (3) of Section 357A of the Code, or sub-section (3) of Section 396 of the Suraksha Sanhita the State Legal Services Authority, in proper cases, may institute proceedings before the competent court of law for recovery of the compensation granted to the victim or her dependent(s) from person(s) responsible for causing loss or injury as a result of the crime committed by him/her.
 
 The amount, so recovered, shall be deposited in Woman Victim Compensation Fund.
 
---- CHUNK 2549 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "14", "clause_title": "DEPENDENCY CERTIFICATE\u2014", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2517 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "14", "clause_title": "DEPENDENCY CERTIFICATE\u2014", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 14 – DEPENDENCY CERTIFICATE—
 
 The authority empowered to issue the dependency certificate shall issue the same within a period of fifteen days and, in no case, this period shall be extended:
 
 Provided that the SLSA/DLSA, in case of non-issuance of Dependency Certificate, after expiry of 15 days, may proceed on the basis of an affidavit to be obtained from the claimant.
 
---- CHUNK 2550 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "14", "clause_title": "DEPENDENCY CERTIFICATE\u2014", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2518 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "15", "clause_title": "MINOR VICTIMS -", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
-Clause 14 – DEPENDENCY CERTIFICATE—
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
---- CHUNK 2551 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "15", "clause_title": "MINOR VICTIMS -", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
 Clause 15 – MINOR VICTIMS -
 
 That in case the victim is an orphaned minor without any parent or legal guardian the immediate relief or the interim compensation shall be disbursed to the Bank Account of the child, opened under the guardianship of the Superintendent, Child Care Institutions where the child is lodged or in absence thereof, DDO/SDM, as the case may be.
 
---- CHUNK 2552 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "16", "clause_title": "LIMITATION", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2519 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "16", "clause_title": "LIMITATION", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 16 – LIMITATION
 
 Under the Scheme, no claim made by the victim or her dependent(s), under sub-section (4) of Section 357A of the Code, or sub-section (4) of Section 396 of the Suraksha Sanhita, shall be entertained after a period of 3 years from the date of occurrence of the offence or conclusion of the trial.
 
 However, in deserving cases, on an application made in this regard, for reasons to be recorded, the delay beyond three years can be condoned by the SLSAs/DLSAs.
 
---- CHUNK 2553 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "17", "clause_title": "APPEAL:", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "clause"}
+--- CHUNK 2520 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "17", "clause_title": "APPEAL:", "mode": "normal", "source_file": "nalsa.md", "unit_type": "clause"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 17 – APPEAL:
 
 In case the victim or her dependents are not satisfied with the quantum of compensation awarded by the Secretary, DLSA, they can file appeal within 30 days from the date of receipt of order before the Chairperson, DLSA.
 
 Provided that, delay in filing appeal may be condoned by the Appellate Authority, for reasons to be recorded, in deserving cases, on an application made in this regard.
 
---- CHUNK 2554 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "1", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2521 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "1", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 18 – REPEAL & SAVINGS–
 Sub-section (1)
 
-(1) In case this Chapter is silent on any issue pertaining to Victim Compensation to Women, the provisions of Victim Compensation Scheme of the State would be applicable.
+**(1)** In case this Chapter is silent on any issue pertaining to Victim Compensation to Women, the provisions of Victim Compensation Scheme of the State would be applicable.
 
---- CHUNK 2555 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "normal", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "sub_section"}
+--- CHUNK 2522 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "normal", "source_file": "nalsa.md", "unit_type": "sub_section"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 18 – REPEAL & SAVINGS–
 Sub-section (2)
 
-(2) Nothing in this Scheme shall prevent Victims or their dependents from instituting any Civil Suit or Claim against the perpetrator of offence or any other person indirectly responsible for the same.
+**(2)** Nothing in this Scheme shall prevent Victims or their dependents from instituting any Civil Suit or Claim against the perpetrator of offence or any other person indirectly responsible for the same.
 
---- CHUNK 2556 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "explanation", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "explanation"}
+--- CHUNK 2523 ---
+METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "explanation", "source_file": "nalsa.md", "unit_type": "explanation"}
 CONTENT:
 NALSA Compensation Scheme, 2018
-PART-II
 Clause 18 – REPEAL & SAVINGS–
 Sub-section (2) / Explanation
 
 **Explanation:** It is clarified that this Chapter does not apply to minor victims under POCSO Act, 2012 in so far as their compensation issues are to be dealt with only by the Ld. Special Courts under Section 33 (8) of POCSO Act, 2012 and Rules (7) of the POCSO Rules, 2012.
 
---- CHUNK 2557 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "explanation", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "explanation"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2) / Explanation
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
-## SCHEDULE APPLICABLE TO WOMEN VICTIM OF CRIMES
-
-| S. No. | Particulars of loss or injury | Minimum Limit of Compensation | Upper Limit of compensation |
-
-|--------|-------------------------------|------------------------------|----------------------------|
-
---- CHUNK 2558 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 1 | Loss of Life | Rs. 5 Lakh | Rs. 10 Lakh |
-
---- CHUNK 2559 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 2 | Gang Rape | Rs. 5 Lakh | Rs. 10 Lakh |
-
---- CHUNK 2560 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 3 | Rape | Rs. 4 Lakh | Rs. 7 Lakh |
-
---- CHUNK 2561 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 4 | Unnatural Sexual Assault | Rs. 4 Lakh | Rs. 7 Lakh |
-
---- CHUNK 2562 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 5 | Loss of any Limb or part of body resulting in 80% permanent disability or above | Rs. 2 Lakh | Rs. 5 Lakh |
-
---- CHUNK 2563 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 6 | Loss of any Limb or part of body resulting in 40% and below 80% permanent disability | Rs. 2 Lakh | Rs. 4 Lakh |
-
---- CHUNK 2564 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 7 | Loss of any limb or part of body resulting in above 20% and below 40% permanent disability | Rs. 1 Lakh | Rs. 3 Lakh |
-
---- CHUNK 2565 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 8 | Loss of any limb or part of body resulting in below 20% permanent disability | Rs. 1 Lakh | Rs. 2 Lakh |
-
---- CHUNK 2566 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 9 | Grievous physical injury or any mental injury requiring rehabilitation | Rs. 1 Lakh | Rs. 2 Lakh |
-
---- CHUNK 2567 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 10 | Loss of Foetus i.e. Miscarriage as a result of Assault or loss of fertility. | Rs. 2 Lakh | Rs. 3 Lakh |
-
---- CHUNK 2568 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 11 | In case of pregnancy on account of rape. | Rs.3 Lakh | Rs.4 Lakh |
-
---- CHUNK 2569 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 12 | Victims of Burning: | | |
-
---- CHUNK 2570 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| | a. In case of disfigurement of case | Rs. 7 Lakh | Rs. 8 Lakh |
-
---- CHUNK 2571 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| | b. In case of more than 50% | Rs. 5 Lakh | Rs. 8 Lakh |
-
---- CHUNK 2572 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| | c. In case of injury less than 50% | Rs. 3 Lakh | Rs. 7 Lakh |
-
---- CHUNK 2573 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| | d. In case of less than 20% | Rs. 2 Lakh | Rs. 3 Lakh |
-
---- CHUNK 2574 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 13 | Victims of Acid Attack | | |
-
---- CHUNK 2575 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| | a. In case of disfigurement of face. | Rs. 7 Lakh | Rs. 8 Lakh |
-
---- CHUNK 2576 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
-| | b. In case of injury more than 50%. | Rs. 5 Lakh | Rs. 8 Lakh |
-
---- CHUNK 2577 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| | c. In case of injury less than 50%. | Rs. 3 Lakh | Rs. 5 Lakh |
-
---- CHUNK 2578 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| | d. In case of injury less than 20% | Rs. 3 Lakh | Rs. 4 Lakh |
-
---- CHUNK 2579 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-**Note:** If a woman victim of sexual assault/acid attack is covered under one or more category of the schedule, she shall be entitled to be considered for combined value of the compensation.
-
---- CHUNK 2580 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-# NALSA's "Compensation Scheme for women Victims/Survivors of Sexual Assault/other Crimes -2018"
-
-## FORM –I
-
-### APPLICATION FOR THE AWARD OF COMPENSATION UNDER COMPENSATION SCHEME FOR WOMEN VICTIMS/SURVIVORS OF SEXUAL ASSAULT/OTHER CRIMES, 2018 FOR INTERIM/FINAL RELIEF FOR WOMEN
-
-| | |
-
-|---|---|
-
-| 1. | Name of the Applicant Victim(s) or her Dependent(s) |
-
---- CHUNK 2581 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 2. | Age of the Victim(s) or her Dependent(s) |
-
---- CHUNK 2582 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 3. | (a) Father's Name |
-
---- CHUNK 2583 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| | (b) Mother's Name |
-
---- CHUNK 2584 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| | (c) Spouse's Name |
-
---- CHUNK 2585 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 4. | Address of the Victim(s) or her/their Dependent(s) |
-
---- CHUNK 2586 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 5. | Date and time of the Incident |
-
---- CHUNK 2587 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 6. | Whether FIR has been lodged? |
-
---- CHUNK 2588 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 7. | Whether medical examination has been done? If yes, enclose Medical Report/ Death Certificate /P.M. Report. |
-
---- CHUNK 2589 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 8. | Status of trial, if pending. If over, enclose copy of judgment and order on sentence. |
-
---- CHUNK 2590 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 9. | Has the applicant been awarded any compensation by the trial court or any other Govt. agency. If, yes give details. |
-
---- CHUNK 2591 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 10 | Give details of financial expenditure/ loss incurred |
-
---- CHUNK 2592 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-| 11. | Have you instituted any civil suit/ claim against the perpetrator of offence. If yes give details. |
-
---- CHUNK 2593 ---
-METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "part": "PART-II", "clause": "18", "clause_title": "REPEAL & SAVINGS\u2013", "sub_section": "2", "mode": "table", "source_file": "NALSA_Compensation_Scheme_2018.md", "unit_type": "table_row"}
-CONTENT:
-NALSA Compensation Scheme, 2018
-PART-II
-Clause 18 – REPEAL & SAVINGS–
-Sub-section (2)
-
-Signature of the Victim/Dependent.
-
---- CHUNK 2594 ---
+--- CHUNK 2524 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "normal", "source_file": "nalsa_table.md", "unit_type": "general"}
 CONTENT:
 NALSA Compensation Scheme, 2018
@@ -29653,161 +28902,161 @@ NALSA Compensation Scheme, 2018
 
 | ------ | ------------------------------------------------------------------------------------------ | ----------------------------- | --------------------------- |
 
---- CHUNK 2595 ---
+--- CHUNK 2525 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 1      | Loss of Life                                                                               | Rs. 5 Lakh                    | Rs. 10 Lakh                 |
 
---- CHUNK 2596 ---
+--- CHUNK 2526 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 2      | Gang Rape                                                                                  | Rs. 5 Lakh                    | Rs. 10 Lakh                 |
 
---- CHUNK 2597 ---
+--- CHUNK 2527 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 3      | Rape                                                                                       | Rs. 4 Lakh                    | Rs. 7 Lakh                  |
 
---- CHUNK 2598 ---
+--- CHUNK 2528 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 4      | Unnatural Sexual Assault                                                                   | Rs. 4 Lakh                    | Rs. 7 Lakh                  |
 
---- CHUNK 2599 ---
+--- CHUNK 2529 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 5      | Loss of any Limb or part of body resulting in 80% permanent disability or above            | Rs. 2 Lakh                    | Rs. 5 Lakh                  |
 
---- CHUNK 2600 ---
+--- CHUNK 2530 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 6      | Loss of any Limb or part of body resulting in 40% and below 80% permanent disability       | Rs. 2 Lakh                    | Rs. 4 Lakh                  |
 
---- CHUNK 2601 ---
+--- CHUNK 2531 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 7      | Loss of any limb or part of body resulting in above 20% and below 40% permanent disability | Rs. 1 Lakh                    | Rs. 3 Lakh                  |
 
---- CHUNK 2602 ---
+--- CHUNK 2532 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 8      | Loss of any limb or part of body resulting in below 20% permanent disability               | Rs. 1 Lakh                    | Rs. 2 Lakh                  |
 
---- CHUNK 2603 ---
+--- CHUNK 2533 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 9      | Grievous physical injury or any mental injury requiring rehabilitation                     | Rs. 1 Lakh                    | Rs. 2 Lakh                  |
 
---- CHUNK 2604 ---
+--- CHUNK 2534 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 10     | Loss of Foetus i.e. Miscarriage as a result of Assault or loss of fertility.               | Rs. 2 Lakh                    | Rs. 3 Lakh                  |
 
---- CHUNK 2605 ---
+--- CHUNK 2535 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 11     | In case of pregnancy on account of rape.                                                   | Rs.3 Lakh                     | Rs.4 Lakh                   |
 
---- CHUNK 2606 ---
+--- CHUNK 2536 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 12     | Victims of Burning:                                                                        |                               |                             |
 
---- CHUNK 2607 ---
+--- CHUNK 2537 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 |        | a. In case of disfigurement of case                                                        | Rs. 7 Lakh                    | Rs. 8 Lakh                  |
 
---- CHUNK 2608 ---
+--- CHUNK 2538 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 |        | b. In case of more than 50%                                                                | Rs. 5 Lakh                    | Rs. 8 Lakh                  |
 
---- CHUNK 2609 ---
+--- CHUNK 2539 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 |        | c. In case of injury less than 50%                                                         | Rs. 3 Lakh                    | Rs. 7 Lakh                  |
 
---- CHUNK 2610 ---
+--- CHUNK 2540 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 |        | d. In case of less than 20%                                                                | Rs. 2 Lakh                    | Rs. 3 Lakh                  |
 
---- CHUNK 2611 ---
+--- CHUNK 2541 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 | 13     | Victims of Acid Attack                                                                     |                               |                             |
 
---- CHUNK 2612 ---
+--- CHUNK 2542 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 |        | a. In case of disfigurement of face.                                                       | Rs. 7 Lakh                    | Rs. 8 Lakh                  |
 
---- CHUNK 2613 ---
+--- CHUNK 2543 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 |        | b. In case of injury more than 50%.                                                        | Rs. 5 Lakh                    | Rs. 8 Lakh                  |
 
---- CHUNK 2614 ---
+--- CHUNK 2544 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 |        | c. In case of injury less than 50%.                                                        | Rs. 3 Lakh                    | Rs. 5 Lakh                  |
 
---- CHUNK 2615 ---
+--- CHUNK 2545 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 |        | d. In case of injury less than 20%                                                         | Rs. 3 Lakh                    | Rs. 4 Lakh                  |
 
---- CHUNK 2616 ---
+--- CHUNK 2546 ---
 METADATA: {"law": "NALSA", "law_name": "NALSA Compensation Scheme", "year": 2018, "doc_type": "compensation_scheme", "chapter_title": "Schedule \u2013 Women Victims of Crimes", "mode": "table", "source_file": "nalsa_table.md", "unit_type": "table_row"}
 CONTENT:
 NALSA Compensation Scheme, 2018
 
 **Note:** If a woman victim of sexual assault/acid attack is covered under one or more category of the schedule, she shall be entitled to be considered for combined value of the compensation.
 
---- CHUNK 2617 ---
+--- CHUNK 2547 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON TYPES OF PETITION", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -29840,7 +29089,7 @@ Includes: SMS, WhatsApp, Email, Social Media Platforms, Website, etc.
 
     - **Do Not Issue FIR:** If the informant/complainant fails to attend/sign.
 
---- CHUNK 2618 ---
+--- CHUNK 2548 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON RECEIPT OF COMPLAINT", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -29913,7 +29162,7 @@ The procedure for issuing an FIR depends on where the offense occurred:
 
 - Give or send a copy of the FIR to the complainant or victim.
 
---- CHUNK 2619 ---
+--- CHUNK 2549 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 174 BNSS INFORMATION AS TO NON-COGNIZABLE CASES & FORWARDING FORTNIGHTLY REPORT TO THE MAGISTRATE", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -29934,7 +29183,7 @@ General SOP
 
 8. Where report relates to two or more offences of which at least one is cognizable, the case should be dealt as a cognizable case.
 
---- CHUNK 2620 ---
+--- CHUNK 2550 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 173: INFORMATION IN COGNIZABLE CASES BY ELECTRONIC COMMUNICATION", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -29951,7 +29200,7 @@ Section173(1)(ii) BNSS,(ii) by electronic communication, it shall be taken on re
 
 - The SHO even taking all the measures stated above, if the SHO is unable to get the signature of the complainant and if the complaint discloses a Cognizable offence, liberty is given to the SHO to take the alternative complaint from the relatives of the complainant or any other person known about the commission of the offence and commence the investigation since the offence committed not only against the complainant/ victim it is against the State.
 
---- CHUNK 2621 ---
+--- CHUNK 2551 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON REGISTRATION OF FIR", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -29968,7 +29217,7 @@ General SOP
 
 6. The recording of such information shall be videographed.
 
---- CHUNK 2622 ---
+--- CHUNK 2552 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON REGISTRATION OF ZERO FIR", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -30005,7 +29254,7 @@ Therefore, an FIR should be registered promptly after the commission of an
 
 offence to preserve facts and evidence.
 
---- CHUNK 2623 ---
+--- CHUNK 2553 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 173(4) \u2013 IF COMPLAINT NOT TAKEN AT PS AND SP OFFICE, CAN COMPLAIN TO MAGISTRATE", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -30026,7 +29275,7 @@ General SOP
 
 - After considering the submissions made by the Police Officer and his own inquiry into the matter, the Magistrate is at liberty to either order for investigation or not.
 
---- CHUNK 2624 ---
+--- CHUNK 2554 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON COMPLAINT AGAINST A PUBLIC SERVANT AND MAGISTRATE\u2019S POWER T O ORDER INVESTIGATION", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -30063,7 +29312,7 @@ This provision provides for the procedure for investigation, when a Magistrate r
 
 - In case, the Magistrate comes to the conclusion that above grounds mentioned are not fulfilled, he may not order for investigation.
 
---- CHUNK 2625 ---
+--- CHUNK 2555 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON EXAMINATION OF WITNESSES BY POLICE (180 BNSS) / 161 CrPC)", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -30084,7 +29333,7 @@ General SOP
 
 - Invariably, the Woman Police officer should record the statements of victim women in cases of offences U/Sec. 64 to 71, Sec. 74 to 79 of BNS Act
 
---- CHUNK 2626 ---
+--- CHUNK 2556 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 184 BNSS TIME BOUND MEDICAL EXAMINATION OF VICTIM OF RAPE", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -30309,7 +29558,7 @@ General SOP
 
     7.  Cyber Chef
 
---- CHUNK 2627 ---
+--- CHUNK 2557 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 184 BNSS TIME BOUND MEDICAL EXAMINATION OF VICTIM OF RAPE", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -30382,7 +29631,7 @@ Once an FIR is determined necessary, the action depends on the place of offence:
 
     - Give or send a copy of the FIR to the complainant or victim.
 
---- CHUNK 2628 ---
+--- CHUNK 2558 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 184 BNSS TIME BOUND MEDICAL EXAMINATION OF VICTIM OF RAPE", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -30401,14 +29650,14 @@ This section covers the procedure for recording the scene of a crime, search loc
 
 The procedure differs based on the hardware used:
 
---- CHUNK 2629 ---
+--- CHUNK 2559 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 184 BNSS TIME BOUND MEDICAL EXAMINATION OF VICTIM OF RAPE", "mode": "table", "source_file": "General SOP.md", "unit_type": "table_row"}
 CONTENT:
 General SOP
 
 | **Step**        | **Mobile Device Path**              | **Audio-Video Recorder Path**                                            |
 
---- CHUNK 2630 ---
+--- CHUNK 2560 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 184 BNSS TIME BOUND MEDICAL EXAMINATION OF VICTIM OF RAPE", "mode": "table", "source_file": "General SOP.md", "unit_type": "table_row"}
 CONTENT:
 General SOP
@@ -30417,28 +29666,28 @@ General SOP
 
 | **Preparation** | Activate App / Tool to record.      | Insert fresh read-only flash device and format.                          |
 
---- CHUNK 2631 ---
+--- CHUNK 2561 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 184 BNSS TIME BOUND MEDICAL EXAMINATION OF VICTIM OF RAPE", "mode": "table", "source_file": "General SOP.md", "unit_type": "table_row"}
 CONTENT:
 General SOP
 
 | **Capture**     | Perform photography or videography. | Perform photography or videography.                                      |
 
---- CHUNK 2632 ---
+--- CHUNK 2562 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 184 BNSS TIME BOUND MEDICAL EXAMINATION OF VICTIM OF RAPE", "mode": "table", "source_file": "General SOP.md", "unit_type": "table_row"}
 CONTENT:
 General SOP
 
 | **Transfer**    | Connect to computer or destination. | Remove flash drive and insert into computer/destination without opening. |
 
---- CHUNK 2633 ---
+--- CHUNK 2563 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 184 BNSS TIME BOUND MEDICAL EXAMINATION OF VICTIM OF RAPE", "mode": "table", "source_file": "General SOP.md", "unit_type": "table_row"}
 CONTENT:
 General SOP
 
 | **Storage**     | Record file is archived.            | Record file is archived.                                                 |
 
---- CHUNK 2634 ---
+--- CHUNK 2564 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 184 BNSS TIME BOUND MEDICAL EXAMINATION OF VICTIM OF RAPE", "mode": "table", "source_file": "General SOP.md", "unit_type": "table_row"}
 CONTENT:
 General SOP
@@ -30469,7 +29718,7 @@ Once the file is archived, forensic protocols must be followed:
 
 - **Final Filing**: The chain of custody is submitted with the chargesheet under **Section 193 BNSS**.
 
---- CHUNK 2635 ---
+--- CHUNK 2565 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SEARCH AND SEIZURE OF DIGITAL EVIDENCE", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -30826,7 +30075,7 @@ This procedure shall be followed when previewing and imaging computers and digit
 
 5. The quantity of data and the time to process digital media can be limiting factors.
 
---- CHUNK 2636 ---
+--- CHUNK 2566 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON ARREST", "mode": "sop", "source_file": "General SOP.md", "unit_type": "general"}
 CONTENT:
 General SOP
@@ -30973,7 +30222,7 @@ The Hon’ble Supreme Court, in D.K.Basu Vs State of West Bengal, has laid down 
 
 42.(1) Notwithstanding anything contained in section 35 and sections 39 to 41 (both inclusive), no member of the Armed Forces of the Union shall be arrested for anything done or purported to be done by him in the discharge of his official duties except after obtaining the consent of the Central Government.
 
---- CHUNK 2637 ---
+--- CHUNK 2567 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON ARREST", "sub_section": "2", "mode": "normal", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -31127,7 +30376,7 @@ A) Yes. With certain protocol.
 
 A) Yes. With certain protocol.
 
---- CHUNK 2638 ---
+--- CHUNK 2568 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON ARREST BY PRIVATE PERSON", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -31259,7 +30508,7 @@ Hence, statutory obligation under section 58 is only to the police officer as su
 
 ### PROFORMA OF INFORMATION OF ARRESTED PERSONS DISPLAYED BY DESIGNATED POLICE OFFICER
 
---- CHUNK 2639 ---
+--- CHUNK 2569 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON ARREST BY PRIVATE PERSON", "sub_section": "2", "mode": "table", "source_file": "General SOP.md", "unit_type": "table_row"}
 CONTENT:
 General SOP
@@ -31267,7 +30516,7 @@ Sub-section (2)
 
 | Sl No | Date of Arrest | Full name of the arrested Person | Father’s name | Age | Gender | Address | Cr. No & Sec of Law | Name of the PS | Name of the Unit / District |
 
---- CHUNK 2640 ---
+--- CHUNK 2570 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON ARREST BY PRIVATE PERSON", "sub_section": "2", "mode": "table", "source_file": "General SOP.md", "unit_type": "table_row"}
 CONTENT:
 General SOP
@@ -31277,7 +30526,7 @@ Sub-section (2)
 
 |       |                |                                  |               |     |        |         |                     |                |                             |
 
---- CHUNK 2641 ---
+--- CHUNK 2571 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON NO ARREST IN CERTAIN CASES MENTIONED IN S.35(7) OF BNSS", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -31293,7 +30542,7 @@ Sub-section (2)
 
 5. Only, on receipt of permission, IO can arrest, the accused mentioned above.
 
---- CHUNK 2642 ---
+--- CHUNK 2572 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON POLICE CUSTODY", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -31309,7 +30558,7 @@ As per the Old Code i.e. 167 (2) Cr.P.C. the investigating officer is entitled t
 
 As per section 187 of BNSS, if an accused is arrested and there is no time to produce before the concerned jurisdictional Magistrate within twenty-four hours, he shall be produced before the nearest Judicial Magistrate and the Magistrate shall accept the remand and if necessary, shall also give police custody not exceeding fifteen days in total as per procedure in Section187 of BNSS. But, in case of special Acts like POCSO and SC/ST (POA)Act, only the designated special courts have the power to give police custody on production of the accused and on filing of requisition by the Investigation officer.
 
---- CHUNK 2643 ---
+--- CHUNK 2573 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON USE OF HANDCUFF ON ARRESTED ACCUSED", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -31379,7 +30628,7 @@ In addition to this, various Supreme Court directives to be adhered to w.r.t.the
 
 6. The use of handcuffs should be avoided in non-violent offences, women and juveniles.
 
---- CHUNK 2644 ---
+--- CHUNK 2574 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SEARCH U/S 103 OF BNSS 2023 (Section 100 of CRPC Corresponding to Section 103 of BNSS)", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -31447,7 +30696,7 @@ When the officer conducting search shall prepare a record indicating reasonable 
 
 5. By adhering to these guidelines, officers can ensure compliance with the BNSS 2023 and maintain the integrity of their investigations.
 
---- CHUNK 2645 ---
+--- CHUNK 2575 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SEC 86 OF BNSS - IDENTIFICATION AND ATTACHMENT OF PROPERTY OF PROCLAIMED PERSON", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -31593,7 +30842,7 @@ The proclaimed offender is a person who is accused of an offence made punishable
 
 - In case the source of any part of the property is not being proved to the satisfaction of the court, it shall make an order giving an option to the person to pay fine in lieu of forfeiture.
 
---- CHUNK 2646 ---
+--- CHUNK 2576 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SEC 107 ATTACHMENT, FORFEITURE OR RESTORATION OF PROPERTY", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -31635,7 +30884,7 @@ Sub-section (2)
 
 - It is clear that the IO has to obtain permission of the Unit Officer i.e., Superintendent of Police or Commissioner of Police and not the concerned Principal Secretary.
 
---- CHUNK 2647 ---
+--- CHUNK 2577 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON FITNESS OF SURETIES", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -31873,7 +31122,7 @@ A) YES – There is no such bar under law for acting as surety.
 
 A) If he has any uncertainty regarding genuineness of Surety, Court/IO may order for verification by concerned authority.
 
---- CHUNK 2648 ---
+--- CHUNK 2578 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 34 OF BNSS- PROCLAIMED OFFENDER", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -31897,7 +31146,7 @@ Sub-section (2)
 
 - Any Officer employed in connection with affairs of the village, shall make a report regarding the information in relation to the proclaimed offender in all cases where, the proclaimed offender was residing in the village or passing through the village.
 
---- CHUNK 2649 ---
+--- CHUNK 2579 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON PRESUMPTIONS ON ELECTRONIC EVIDENCE (COLLECTION, ADMISSIBILITY, PROOF & PRESUMPTIONS CHAIN OF CUSTODY)", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32123,7 +31372,7 @@ Explain how the evidence meets the conditions for admissibility in court.
 
 This Standard Operating Procedure (SOP) outlines the steps and processes for the proper collection, preservation of electronic evidence under the Bharathiya Sakshya Adhinyam 2023 adherence to this SOP will help to ensure that electronic evidence is handled in a manner that maintains their integrity and meets legal standards for admissibility in court proceedings.
 
---- CHUNK 2650 ---
+--- CHUNK 2580 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SEC. 336 OF BNSS:- EVIDENCE OF PUBLIC SERVANTS, EXPERTS , POLICE OFFICERS IN CERTAIN CASES", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32147,7 +31396,7 @@ Sub-section (2)
 
 6. Provided further that the deposition of such successor Public Servant, Expert, or Officer may be allowed through audio-video electronic means, and their physical presence in the court of law may be dispensed with.
 
---- CHUNK 2651 ---
+--- CHUNK 2581 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON INFORMING THE PROGRESS OF INVESTIGATION TO INFORMANT/VICTIM U/S 193(3)(ii) OF BNSS THROUGH ELECTRONIC COMMUNICATION WITHIN 90 DAYS", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32181,7 +31430,7 @@ Sub-section (2)
 
 12. The Investigating officer shall ensure the copies are communicated to the victims or informants under due acknowledgment through electronic or any other means
 
---- CHUNK 2652 ---
+--- CHUNK 2582 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON ORDER FOR CUSTODY AND DISPOSAL OF PROPERTY PENDING TRIAL - SEC 497 BNSS", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32219,7 +31468,7 @@ Sub-section (2)
 
   Within a period of 30 days after statement has been prepared and photography or videography has been taken.
 
---- CHUNK 2653 ---
+--- CHUNK 2583 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON ORDER FOR CUSTODY AND DISPOSAL OF PROPERTY PENDING TRIAL - SEC 497 BNSS", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32263,7 +31512,7 @@ The Apex court in _Sunderbhai Ambalal Desai_ vs _State Of Gujarat_ while dealing
 
 > **Note:** Where police seize property during an investigation, they should report the same to a Magistrate. If the seized property is not produced before the Magistrate but is in the custody of that police officer, the Magistrate has to dispose of the property in terms of Section 503 of BNSS, 2023. However, this section does not provide for taking photographs or videographs as contemplated under Section 497, BNSS, 2023. Hence, to give evidentiary value to such seizure, it shall be mandated that the procedure mentioned under subsections (2) to (5) of Section 497 be followed. Therefore, the State Govt. may have to frame rules in this regard.
 
---- CHUNK 2654 ---
+--- CHUNK 2584 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON RECORDING OF CONFESSIONS AND STATEMENTS BY MAGISTRATE UNDER SECTION 183 BNSS, 2023", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32303,7 +31552,7 @@ Sub-section (2)
 
 - The Magistrate recording the confession or statement under this section shall forward it to the Magistrate by whom the case is to be inquired into or tried.
 
---- CHUNK 2655 ---
+--- CHUNK 2585 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION-218: 218(1)(B) PROSECUTION ORDERS DEEMED TO BE SANCTIONED AFTER 120 DAYS", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32325,7 +31574,7 @@ The following procedure is to be followed by the competent authority:
 
 7. An SOP may be issued to the competent authority that in sanction orders, there should be mentioning of the court name and case details in which the charge sheet is to be filed and the trial should be conducted against such Public servants or the accused.
 
---- CHUNK 2656 ---
+--- CHUNK 2586 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON FILING REPORT U/S 193(3)(i) OF BNSS THROUGH ELECTRONIC COMMUNICATION", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32369,7 +31618,7 @@ This means, that all the proceedings of case at whatever stage, it may be i.e. f
 
 Therefore, it is opined that if a case is investigated and final report is filed under Cr.P.C 1973, however later, Investigation Officer comes across new evidence or believes that further investigation is required. In such cases, it is opined that further investigation and filing Supplementary Chargesheet after competition of investigation shall be made as per the provisions of Cr.P.C. 1973, only as such the mandatory period of completing investigation within a period of 90 days which may be extended as per order of the court does not apply to the cases registered and pending on or before July 1st 2024.
 
---- CHUNK 2657 ---
+--- CHUNK 2587 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON S.193 - INVESTIGATION DURING TRIAL / FURTHER INVESTIGATION \u2013 90 DAYS TIMELINE", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32387,7 +31636,7 @@ Proviso to section sub-section (9) of section 193, BNSS, 2023 reads as follows:
 
 - After completion of further investigation, the investigation officer shall forward a report / supplementary charge-sheet to the court conducting trial. In such cases, the provisions of sub-section (3) to (8) shall as far as may be apply in relation to such report / charge-sheet.
 
---- CHUNK 2658 ---
+--- CHUNK 2588 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON PERSONS BOUND TO CONFORM TO LAWFUL DIRECTIONS OF POLICE (SEC. 172 BNSS & SEC. 223 BNS)", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32419,7 +31668,7 @@ Sub-section (2)
 
 - In case of breach of any order the Police officer after following the due procedure abovementioned (Sec.172 (2)) he shall take steps for initiating prosecution under Section 223 (a) of BNS 2023.
 
---- CHUNK 2659 ---
+--- CHUNK 2589 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON PERSONS BOUND TO CONFORM TO LAWFUL DIRECTIONS OF POLICE (SEC. 172 BNSS & SEC. 223 BNS)", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32451,7 +31700,7 @@ Sub-section (2)
 
 - All summons served through electronic communication either in encrypted (Ex: WhatsApp) in any other electronic mode i.e. E-mail, SMS, MMS etc, the acknowledgment of the same shall be considered as duly served and a copy of such summons to be attested and kept as a proof of service of summons.
 
---- CHUNK 2660 ---
+--- CHUNK 2590 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SEC. 63 OF BNSS:- FORM OF SUMMON PROCESS OF RECEIVING SUCH SUMMONS FROM COURT AND ITS REPOSITORY", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32473,7 +31722,7 @@ Sub-section (2)
 
 - The Police officer shall collect the acknowledgement of receiving of a summon which was sent by through electronic communication and shall collect the hard copy of the same and attested it in a proper manner with his designation and seal and file with a report in a court of law.
 
---- CHUNK 2661 ---
+--- CHUNK 2591 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 71 OF BNSS:- PROOF OF SERVING OF SUMMONS ON WITNESSES ON ALTERNATIVE MODE THROUGH ELECTRONIC COMMUNICATIONS ISSUED BY COURT", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32499,7 +31748,7 @@ Sub-section (2)
 
 - If the witness refused to take a summon issued by a court in an electronic communication, the court issued summons deems fit that the summons has been duly served for example if summons sent to the Head of the Office in which a person on whom a summons shall be served on him actively working or to the court out of his Jurisdiction and in turn the court deputed any Officer to serve the summon on a witness in its Jurisdiction but a witness refuses to take the summons, the same has to be reported by the Head of the Office or the Officer deputed by the court on that sent the report with regard to refusal of a witness to receive the summons to the official website or email address of the concerned court which issued the summons shall be deemed to be duly served by the Officer or by the court as the case may be.
 
---- CHUNK 2662 ---
+--- CHUNK 2592 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 152 \u2013 ORDERS WILL BE RECEIVED FROM DISTRICT MAGISTRATE OF SUB DIVISIONAL MAGISTRATE TO STOP CONSTRUCTION OF BUILDINGS", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32535,7 +31784,7 @@ Sub-section (2)
 
 - The stipulated period of 90 or 120 days, shall commence from the day the person appears before the Magistrate to show cause why the conditional order shall not be made absolute.
 
---- CHUNK 2663 ---
+--- CHUNK 2593 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 152 \u2013 ORDERS WILL BE RECEIVED FROM DISTRICT MAGISTRATE OF SUB DIVISIONAL MAGISTRATE TO STOP CONSTRUCTION OF BUILDINGS", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32577,7 +31826,7 @@ Sub-section (2)
 
 - The DCP may pass detailed orders, prohibiting the reputation or continuance of public nuisance.
 
---- CHUNK 2664 ---
+--- CHUNK 2594 ---
 METADATA: {"law": "SOP", "law_name": "General SOP", "doc_type": "sop", "chapter_title": "SOP ON SECTION 152 \u2013 ORDERS WILL BE RECEIVED FROM DISTRICT MAGISTRATE OF SUB DIVISIONAL MAGISTRATE TO STOP CONSTRUCTION OF BUILDINGS", "sub_section": "2", "mode": "sop", "source_file": "General SOP.md", "unit_type": "sub_section"}
 CONTENT:
 General SOP
@@ -32655,7 +31904,7 @@ This means that all the proceedings of case at whatever stage it may be i.e. fro
 
 Therefore, it is opined that if a case is registered under IPC, 1860, however the CC number is given after BNSS, 2023 comes into force (1st July 2024) the case shall be tried as per the provisions of Cr.P.C 1973.
 
---- CHUNK 2665 ---
+--- CHUNK 2595 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "FIR", "step": "Step 01", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32681,7 +31930,7 @@ Step 01
 
 - One copy of FIR should be sent to District Legal Services Authority as per direction in case of Khem Chand & Ors. Vs. State High Court of Delhi.
 
---- CHUNK 2666 ---
+--- CHUNK 2596 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Treatment of victim", "step": "Step 02", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32695,7 +31944,7 @@ Step 02
 
 - The identity of the victim should not be made public and due care should be taken not to reveal her identity in print and electronic media. Similar care has to be taken for juveniles and children in conflict with law. However, name and photo of such victim may be used in the case diary for the purpose of re-investigation.
 
---- CHUNK 2667 ---
+--- CHUNK 2597 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Where the victim is temporarily or permanently, mentally or physically disabled", "step": "Step 03", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32705,7 +31954,7 @@ Step 03
 
 - The recording of such information shall be videographed.
 
---- CHUNK 2668 ---
+--- CHUNK 2598 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "If victim is of different linguistic background", "step": "Step 04", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32713,7 +31962,7 @@ Step 04
 
 - In case, the victim is of a different linguistic background, statement/FIR must be recorded. An interpreter for the victim with different linguistic background may be provided, during investigation, for recording of statement/FIR.
 
---- CHUNK 2669 ---
+--- CHUNK 2599 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "If victim is a minor", "step": "Step 05", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32733,7 +31982,7 @@ Step 05
 
 - In case, the victim does not have a place of abode, she should be shifted to a shelter home.
 
---- CHUNK 2670 ---
+--- CHUNK 2600 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Compliance of Section 176, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 157, Code of Criminal Procedure, 1973 (CrPC))", "step": "Step 06", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32741,7 +31990,7 @@ Step 06
 
 - A copy of the FIR shall be sent immediately to the Magistrate under Section 176, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 157, Code of Criminal Procedure, 1973 (CrPC))
 
---- CHUNK 2671 ---
+--- CHUNK 2601 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Investigation", "step": "Step 07", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32753,7 +32002,7 @@ Investigating Officer
 
 - There should be, at least, one lady officer in the team. Rape case should usually be investigated by a senior and experienced police officer as far as possible, it being a grave offence.
 
---- CHUNK 2672 ---
+--- CHUNK 2602 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Recording of statement of victim under Section 180, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 161, Code of Criminal Procedure, 1973 (CrPC))", "step": "Step 08", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32775,7 +32024,7 @@ Videography of statement
 
 - If the person making the statement is temporarily or permanently, mentally or physically disabled, or the victim is of different linguistic background, the statement made by a person with the assistance of an interpreter or a special educator, may be videographed.
 
---- CHUNK 2673 ---
+--- CHUNK 2603 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Statement of victim under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 164, Code of Criminal Procedure, 1973 (CrPC))", "step": "Step 09", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32799,7 +32048,7 @@ Videography of statement
 
 - If the person making the statement is temporarily or permanently, mentally or physically disabled, or has a different linguistic background, the statement by the person with the assistance of an interpreter or a special educator, shall be videographed.
 
---- CHUNK 2674 ---
+--- CHUNK 2604 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Dying declaration", "step": "Step 10", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32807,7 +32056,7 @@ Step 10
 
 - Dying declaration may be recorded before a Magistrate or Doctor and, if not possible, it should be videographed under Section 180, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 161, Code of Criminal Procedure, 1973 (CrPC))
 
---- CHUNK 2675 ---
+--- CHUNK 2605 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Statement of relevant and material witness under Section 180, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) earlier 161, Cr.P.C", "step": "Step 11", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32827,7 +32076,7 @@ Videography of statement
 
 - If the person making the statement is temporarily or permanently, mentally or physically disabled, or is from a different linguistic background, the statement made by the person with the assistance of an interpreter or a special educator, shall be videographed.
 
---- CHUNK 2676 ---
+--- CHUNK 2606 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Bond for presence before the court and giving evidence", "step": "Step 12", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32835,7 +32084,7 @@ Step 12
 
 The I.O. shall require the complainant, if any, and so many of the persons who appear to such officer, to be acquainted with the facts and circumstances of the case, as he may think necessary to execute a bond to appear before the magistrate as thereby directed and prosecute or give evidence, as the case may be, in the matter of charge against the accused (as per the mandate vide Section 190, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 170, Code of Criminal Procedure, 1973 (CrPC))).
 
---- CHUNK 2677 ---
+--- CHUNK 2607 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Medical examination of victim", "step": "Step 13", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32851,7 +32100,7 @@ Step 13
 
 - A copy of the report of such examination shall be furnished by the medical officer, or registered medical practitioner, as the case may be, to the victim or her parents/guardian.
 
---- CHUNK 2678 ---
+--- CHUNK 2608 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Proof of age", "step": "Step 14", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32865,7 +32114,7 @@ In all cases under POCSO Act, where the age of the victim, and cases where the a
 
 - (iii) And only in the absence of (i) and (ii) above, age shall be determined by an ossification test or any other medically proven and improved age determination test.
 
---- CHUNK 2679 ---
+--- CHUNK 2609 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Collection of evidence", "step": "Step 15", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32887,7 +32136,7 @@ Scene of crime
 
 - If teeth and bite marks have been detected, then the accused should be taken to a dental expert for relevant examination.
 
---- CHUNK 2680 ---
+--- CHUNK 2610 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Electronic evidence", "step": "Step 16", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32901,7 +32150,7 @@ Proof of electronic evidence
 
 - Electronic evidence would need to be proven in the manner prescribed under Section 63, Bharatiya Sakshya Adhiniyam, 2023 (BSA) earlier 65-B of the Indian Evidence Act.
 
---- CHUNK 2681 ---
+--- CHUNK 2611 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Scientific and chemical examination of exhibits", "step": "Step 17", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32913,7 +32162,7 @@ Step 17
 
 - Chain of custody of exhibits should be kept safe and intact.
 
---- CHUNK 2682 ---
+--- CHUNK 2612 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Arrest of the suspect", "step": "Step 18", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32937,7 +32186,7 @@ When suspect is not known to the victim
 
 - Local secret/open enquiries should be conducted for the suspect.
 
---- CHUNK 2683 ---
+--- CHUNK 2613 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Procedure after arrest of suspect", "step": "Step 19", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32957,7 +32206,7 @@ Step 19
 
 - The accused should be medically examined to prove his physical capacity for committing the alleged crime.
 
---- CHUNK 2684 ---
+--- CHUNK 2614 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Test identification", "step": "Step 20", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32973,7 +32222,7 @@ Videography of Identification
 
 - Videography of identification process may be done. If, however, the person identifying the person arrested is mentally or physically disabled, the identification process shall be videographed.
 
---- CHUNK 2685 ---
+--- CHUNK 2615 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Bail application", "step": "Step 21", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32983,7 +32232,7 @@ Step 21
 
 - If any bail application has been presented by the accused, or on behalf of the accused, before the court, it shall be the duty of the concerned Prosecutor/Investigating officer to inform the victim about such application within appropriate time, in order to give her an opportunity to oppose such application, if she, so desires.
 
---- CHUNK 2686 ---
+--- CHUNK 2616 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Witness Protection", "step": "Step 22", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -32991,7 +32240,7 @@ Step 22
 
 In all cases, care shall be taken that the victim and her family or any person whom she is interested in, is not threatened or tempted in any manner by the accused or any other person.
 
---- CHUNK 2687 ---
+--- CHUNK 2617 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Submission of Charge sheet", "step": "Step 23", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -33011,7 +32260,7 @@ Step 23
 
 - E-Challan should be resorted to.
 
---- CHUNK 2688 ---
+--- CHUNK 2618 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Duty of IO/SHO during trial", "step": "Step 24", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -33023,7 +32272,7 @@ Step 24
 
 - Service of summons should be monitored to ensure presence of witnesses. Whenever possible, summons should also be issued in the e-format.
 
---- CHUNK 2689 ---
+--- CHUNK 2619 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Rehabilitation of the Victim", "step": "Step 25", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
@@ -33035,7 +32284,7 @@ Step 25
 
 - The victim is entitled to compensation under 'Victim compensation Schemes' run by the State Governments. The victim should be appraised of the provision of the relevant scheme for getting compensation.
 
---- CHUNK 2690 ---
+--- CHUNK 2620 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Handling of Media", "step": "Step 26", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
