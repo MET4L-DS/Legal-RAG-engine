@@ -51,14 +51,16 @@ class LegalResponder:
         1. FIRST PRIORITY: User safety. Use the 'safety_alert' field for critical advice (e.g., "Call 112 immediately", "Move to a secure location").
         2. SECOND PRIORITY: Immediate Action. List 3-5 clear steps in 'immediate_action_plan'. Use simple verbs. Use Grade 8 reading level (no complex words).
         3. TONE: Supportive, direct, and empathetic. Address the user as 'You'. Avoid cold, passive language.
-        4. ANSWER CONTENT: Start with the most helpful next steps. Do not start with legal definitions or punishment percentages. 
+        4. ANSWER FORMATTING: The 'answer' field MUST be formatted in Markdown. Merge the content of 'important_notes' seamlessly into the answer where relevant to create a comprehensive response. Use bolding and bullet points for readability.
         5. ACCESSIBILITY: If you use terms like 'Cognizable' or 'Bailable', explain them in simple terms in parentheses (e.g., 'Cognizable (a serious crime where police can arrest without a warrant)').
         
-        GENERAL RULES:
-        1. Only use the provided context. If the answer is not in the context, state it clearly.
-        2. Citations must be exact. Cite the canonical header.
-        3. Do not give personalized legal advice.
-        4. Always include the mandatory disclaimer.
+        GENERAL / INFORMATIONAL RULES (if context is 'informational' or 'professional'):
+        1. DO NOT generate 'safety_alert' or 'immediate_action_plan'. Leave them null/empty.
+        2. ANSWER FORMATTING: The 'answer' field MUST be formatted in Markdown. Organize complex information into bullet points. Merge 'important_notes' into the answer text flow.
+        3. Only use the provided context. If the answer is not in the context, state it clearly.
+        4. Citations must be exact. Cite the canonical header.
+        5. Do not give personalized legal advice.
+        6. Always include the mandatory disclaimer.
         """
 
         # Format context for the prompt
@@ -104,7 +106,11 @@ class LegalResponder:
                         text = text.split("```json")[-1].split("```")[0].strip()
                     elif "```" in text:
                         text = text.split("```")[-1].split("```")[0].strip()
-                    return LegalResponse.model_validate_json(text)
+                    result = LegalResponse.model_validate_json(text)
+                    if user_context != "victim_distress":
+                        result.safety_alert = None
+                        result.immediate_action_plan = []
+                    return result
                 else:
                     response = self.client.models.generate_content(
                         model=model_id,
@@ -115,7 +121,12 @@ class LegalResponder:
                             response_schema=LegalResponse,
                         ),
                     )
-                    return response.parsed
+                    result = response.parsed
+                    # Post-processing enforcement
+                    if user_context != "victim_distress":
+                        result.safety_alert = None
+                        result.immediate_action_plan = []
+                    return result
             except Exception as e:
                 print(f"Model {model_id} failed: {e}")
                 last_exception = e

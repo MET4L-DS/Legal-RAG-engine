@@ -1,6 +1,6 @@
 # Legal RAG Engine - API Documentation & Frontend Guide
 
-This document describes the API endpoints provided by the Legal RAG backend and provides **design guidelines** for the frontend to strictly implement the **Victim-Centric** interface.
+This document describes the API endpoints provided by the Legal RAG backend and provides **design guidelines** for the frontend, specifically for the **Victim-Centric** and **Markdown-enabled** interface.
 
 ## Base URL
 
@@ -19,7 +19,7 @@ This document describes the API endpoints provided by the Legal RAG backend and 
 
 ## 2. Legal Query (Chat)
 
-The primary endpoint. It automatically detects if the user is a `victim_distress`, `professional`, or `informational` user.
+The primary endpoint for all user queries.
 
 - **URL**: `/api/v1/query`
 - **Method**: `POST`
@@ -34,83 +34,60 @@ The primary endpoint. It automatically detects if the user is a `victim_distress
 }
 ```
 
-### Response (Victim-Centric Schema)
+### Response Schema
 
-The response structure is dynamic. Frontend **MUST** handle the `safety_alert` field with highest priority.
-
-```json
-{
-	"answer": "I understand you have been assaulted...",
-	"safety_alert": "Dial 112 immediately. Move to a secure location.",
-	"immediate_action_plan": [
-		"Go to the nearest police station.",
-		"File a Zero FIR.",
-		"Seek medical attention."
-	],
-	"legal_basis": "Based on General SOP and NALSA Scheme.",
-	"procedure_steps": ["detailed procedural step 1", "..."],
-	"important_notes": ["Note 1"],
-	"sources": [
-		{
-			"law": "General SOP",
-			"section": "Zero FIR",
-			"citation": "General SOP - Zero FIR",
-			"text": "..."
-		}
-	],
-	"metadata": {
-		"intent": "procedure",
-		"user_context": "victim_distress",
-		"confidence": 0.95
-	}
-}
-```
+| Field                   | Type             | Description                                                                                                                    |
+| :---------------------- | :--------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| `answer`                | `string`         | **Markdown Format.** The main natural language answer. Now merges "Important Notes" into the text flow for better readability. |
+| `safety_alert`          | `string \| null` | Immediate critical safety advice. **Only populated if `user_context` is `victim_distress`.**                                   |
+| `immediate_action_plan` | `array[string]`  | Top-priority chronological steps. **Only populated if `user_context` is `victim_distress`.**                                   |
+| `legal_basis`           | `string`         | Summary of the laws/sections used.                                                                                             |
+| `procedure_steps`       | `array[string]`  | Detailed chronological steps (if procedural).                                                                                  |
+| `important_notes`       | `array[string]`  | (Legacy/Optional) Significant caveats. _Note: Most are now merged into `answer`._                                              |
+| `sources`               | `array[object]`  | Exact source citations and snippets.                                                                                           |
+| `metadata`              | `object`         | Processing details (intent, context, confidence).                                                                              |
 
 ---
 
 ## 🎨 Frontend Design Guide (CRITICAL)
 
-The UI must adapt based on the `safety_alert` presence and `user_context`.
+The frontend MUST support Markdown rendering and handle conditional safety fields.
 
-### 1. The "Victim Mode" UI
+### 1. Markdown Rendering
 
-**Trigger**: When `safety_alert` is NOT null OR `metadata.user_context == "victim_distress"`.
+**Required**: The `answer` field contains Markdown (bolding, lists, etc.).
 
-- **🚨 Safety Banner (Top Priority)**
-    - **Component**: Full-width alert banner at the very top of the message bubble.
-    - **Color**: Red (`bg-red-50` text-red-900` border-red-200`).
-    - **Icon**: Warning Triangle / Siren.
-    - **Content**: Display the `safety_alert` string in bold.
+- **Library**: Use `react-markdown` or `markdown-it`.
+- **CSS**: Apply `prose` (Tailwind Typography) to the answer container.
 
-- **📋 Immediate Action Plan (Above the Fold)**
-    - **Component**: Checklist or Stepper.
-    - **Location**: Immediately below the Safety Banner, BEFORE the main text answer.
-    - **Style**: Simple, large text. Checkboxes that allow users to mentally "check off" steps.
-    - **Color**: Orange/Amber accent.
+### 2. Context-Aware Layouts
 
-- **💬 Main Answer**
-    - **Style**: Supportive, empathetic typography.
-    - **formatting**: Paragraphs with generous line height.
+#### A. Victim Distress Mode
 
-### 2. The "Professional/Informational" UI
+**Trigger**: `safety_alert != null` OR `metadata.user_context == "victim_distress"`.
 
-**Trigger**: When `user_context` is `professional` or `informational`.
+- **Display 🚨 Safety Alert**: Use a high-visibility Red/Amber banner at the top of the response.
+- **Display 📋 Immediate Action Plan**: Show as a checklist or stepper BEFORE the main `answer`.
+- **Formatting**: The `answer` should be empathetic and encouraging.
 
-- **Layout**: Standard Chat Interface.
-- **Answer**: Display `answer` first.
-- **Sources**: Show citations as clickable footnotes or a "Sources" accordion at the bottom.
-- **No Safety Banner**: Do not show empty alerts.
+#### B. Informational / Professional Mode
 
-### 3. Component Recommendations (ShadCN/Tailwind)
+**Trigger**: `metadata.user_context` is `informational` or `professional`.
 
-| Feature      | Recommended Component                                     |
-| :----------- | :-------------------------------------------------------- |
-| Safety Alert | `Alert` (Destructive variant with custom styling)         |
-| Action Plan  | `Card` with `Checkbox` list                               |
-| Citations    | `HoverCard` or `Accordion`                                |
-| Disclaimer   | Small muted text footer (`text-xs text-muted-foreground`) |
+- **Clean Layout**: Do not reserve space for safety alerts/action plans if they are null.
+- **Answer First**: Focus on the Markdown answer which now includes integrated legal notes.
+
+### 3. Component Recommendations (ShadCN)
+
+| Feature      | Component                | Notes                                               |
+| :----------- | :----------------------- | :-------------------------------------------------- |
+| Answer       | `Prose` / `Markdown`     | Enable support for lists and bolding.               |
+| Safety Alert | `Alert` (Destructive)    | Fixed to top of response bubble.                    |
+| Action Plan  | `Card` / `Checkbox` list | Interactive encourages user engagement.             |
+| Citations    | `Accordion`              | Keep clean by hiding full snippets until requested. |
 
 ### 4. Accessibility
 
-- **Typography**: Use `Inter` or `sans-serif`. Min font size `16px` for body text.
-- **Reading Level**: The backend targets Grade 8 English. Frontend should not complicate this with dense layouts.
+- **Font**: Use readable sans-serif (Inter/Geist).
+- **Contrast**: Ensure high contrast for safety alerts (WCAG AA).
+- **Structure**: Use proper heading hierarchy within the Markdown answer.
