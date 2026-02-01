@@ -36,6 +36,8 @@ class LegalSourceInfo(BaseModel):
 
 class LegalResponseModel(BaseModel):
     answer: str
+    safety_alert: Optional[str] = None
+    immediate_action_plan: List[str] = []
     legal_basis: str
     procedure_steps: List[str]
     important_notes: List[str]
@@ -113,6 +115,8 @@ async def process_query(request: QueryRequest):
             
         response = LegalResponseModel(
             answer=raw_response.get("answer", ""),
+            safety_alert=raw_response.get("safety_alert"),
+            immediate_action_plan=raw_response.get("immediate_action_plan", []),
             legal_basis=raw_response.get("legal_basis", ""),
             procedure_steps=raw_response.get("procedure_steps", []),
             important_notes=raw_response.get("important_notes", []),

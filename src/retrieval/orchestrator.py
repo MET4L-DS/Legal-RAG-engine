@@ -33,18 +33,36 @@ class LegalOrchestrator:
             intent = self.classifier.classify(query)
         except Exception as e:
             print(f"Classification failed: {e}. Falling back to general.")
-            intent = QueryIntent(category="general_explanation", confidence=0.5, key_entities=[])
+            intent = QueryIntent(category="general_explanation", confidence=0.5, key_entities=[], user_context="informational")
 
-        # 2. Retrieval with Priority Logic
-        # Adjust hybrid weight based on intent if needed
-        # (e.g., procedure might benefit more from keyword search)
-        hybrid_weight = 0.6 if intent.category == "procedure" else 0.5
+        # 2. Retrieval with Concept Expansion
+        search_queries = [query]
         
-        raw_results = self.engine.search(query, k=k*2, hybrid_weight=hybrid_weight)
+        # If victim in distress, force-inject procedural and compensation queries
+        if intent.user_context == "victim_distress":
+            print("Victim Distress detected: Expanding concept search...")
+            # Detect crime type from entities if possible
+            offence = next((e for e in intent.key_entities if e.lower() in ["robbery", "assault", "rape", "theft"]), "crime")
+            search_queries.append(f"How to file FIR for {offence} BNSS procedure")
+            search_queries.append(f"Victim compensation rights for {offence} NALSA scheme")
+            search_queries.append("Zero FIR registration procedure BNSS")
+
+        # Combine results from all queries
+        all_raw_results = []
+        seen_chunks = set()
         
+        for q in search_queries:
+            # Shift hybrid weight for procedural queries
+            q_weight = 0.6 if intent.category == "procedure" or "procedure" in q.lower() else 0.5
+            results = self.engine.search(q, k=k, hybrid_weight=q_weight)
+            for r in results:
+                chunk_id = r["chunk"].get("canonical_header")
+                if chunk_id and chunk_id not in seen_chunks:
+                    all_raw_results.append(r)
+                    seen_chunks.add(chunk_id)
+
         # 3. Apply Priority Rules (Statute > SOP)
-        # We also boost based on key entities (e.g., if query says "BNS")
-        prioritized = self.prioritize_results(raw_results, intent)
+        prioritized = self.prioritize_results(all_raw_results, intent)
         
         # 4. Parent Expansion
         expanded_results = self.expand_results(prioritized[:k])
@@ -57,16 +75,26 @@ class LegalOrchestrator:
     def prioritize_results(self, results: List[Dict], intent: QueryIntent) -> List[Dict]:
         for res in results:
             meta = res["chunk"].get("metadata", {})
-            law = meta.get("law", "").upper()
+            law = str(meta.get("law", "")).upper()
+            
+            boost = 1.0
+            
+            # Victim Mode Boosting
+            if intent.user_context == "victim_distress":
+                # Boost BNSS, SOP, and NALSA for victims
+                if any(x in law for x in ["BNSS", "SOP", "NALSA"]):
+                    boost += 0.4
+                # Penalize BNS (punishment) slightly so procedure ranks higher
+                if "BNS" in law and "BNSS" not in law:
+                    boost -= 0.2
             
             # Boost if law is mentioned in key entities
-            boost = 1.0
             for entity in intent.key_entities:
                 if entity.upper() in law:
                     boost += 0.2
             
             # Penalize SOP slightly if primary legislation is needed for definitions
-            if intent.category in ["definition", "punishment"] and law == "SOP":
+            if intent.category in ["definition", "punishment"] and "SOP" in law:
                 boost -= 0.3
             
             res["score"] *= boost
@@ -105,14 +133,19 @@ class LegalOrchestrator:
 
 if __name__ == "__main__":
     orchestrator = LegalOrchestrator()
-    sample_query = "What is the punishment for Section 302 of BNS?"
-    output = orchestrator.orchestrate(sample_query)
+    sample_queries = [
+        "What is Section 302 of BNS?", # informational
+        "I was just robbed at gunpoint, what do I do?" # victim_distress
+    ]
     
-    print("\nOrchestrated Results:")
-    print(f"Detected Intent: {output['intent']['category']} (Conf: {output['intent']['confidence']})")
-    for i, res in enumerate(output["results"]):
-        print(f"\n[{i+1}] {res['chunk']['canonical_header']}")
-        if "parent_context" in res:
-            print(f"   (Parent Context Included from {res['chunk']['metadata']['section']})")
-        content = res['chunk']['text'][:200].replace('\n', ' ')
-        print(f"   Content: {content}...")
+    for query in sample_queries:
+        print(f"\n{'='*50}\nTESTING: {query}")
+        output = orchestrator.orchestrate(query)
+        
+        print("\nOrchestrated Results:")
+        print(f"Detected Context: {output['intent']['user_context']}")
+        print(f"Detected Intent: {output['intent']['category']}")
+        for i, res in enumerate(output["results"]):
+            print(f"\n[{i+1}] {res['chunk']['canonical_header']} (Score: {res.get('score', 'N/A')})")
+            content = res['chunk']['text'][:150].replace('\n', ' ')
+            print(f"   Content: {content}...")

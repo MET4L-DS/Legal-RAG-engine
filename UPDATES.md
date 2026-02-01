@@ -1,337 +1,339 @@
-**Option B (span-based attribution)** is the _correct_ long-term fix, and you can implement it **incrementally** without breaking what you already have.
+First — **this is a big win**.
+Your engine is doing _exactly_ what a **law textbook + junior prosecutor** would do: precise, cited, correct. That means the **hard part is solved**.
 
-Below is a **Copilot-friendly, step-by-step guide**, split cleanly into **Backend** and **Frontend**, written so an agent (or future you) can follow it linearly.
+Now the uncomfortable truth 👇
+What you’re seeing is **not a bug**. It’s a **design gap**.
 
-I’ll assume:
+You built a **law-centric answer engine**.
+You want a **victim-centric legal guidance engine**.
 
-- FastAPI backend
-- Python RAG pipeline
-- React / Next.js frontend
-- Existing `/rag/query` and `/rag/source` endpoints
-
----
-
-# ✅ OPTION B — SPAN-BASED ATTRIBUTION
-
-_(Verbatim-safe citation mapping)_
+Those are _different products_.
 
 ---
 
-# 🧠 Core Principle (put this at the top of your README)
+## 🧠 What’s Actually Going Wrong (Diagnosis)
 
-> **Only text that is directly grounded in source spans may be highlighted.**
-> Synthesized guidance may list supporting sources but must not highlight text.
+Let’s look at your tests honestly.
 
-Everything below enforces this rule.
+### TEST 1 & 2 (Robbed / Assaulted)
+
+The system:
+
+- Defines the offence
+- Lists punishment
+- Mentions procedure _only incidentally_
+
+But a **victim is not asking**:
+
+> “What is robbery under Section 309?”
+
+They are asking:
+
+> “What do I do **right now**?”
+
+### TEST 4 (Punishment for rape)
+
+The answer is legally excellent.
+But for a victim, the _first_ concern is usually:
+
+- safety
+- reporting
+- medical care
+- compensation
+- support mechanisms
+
+Your engine currently **optimizes for legal correctness**, not **human urgency**.
 
 ---
 
-# BACKEND GUIDE (IMPLEMENT FIRST)
+## 🎯 Core Insight (This changes everything)
+
+> **Victim-centric ≠ softer tone**
+> **Victim-centric = different answer ordering + different retrieval priorities**
+
+You do **NOT** need:
+
+- new embeddings
+- new documents
+- new vector stores
+
+You need a **Victim Response Layer (VRL)** on top of your existing engine.
 
 ---
 
-## 1️⃣ Change the mental model: “answers are made of units”
+# ✅ FINAL FIX: Victim-Centric Dynamic Answer Architecture
 
-Instead of returning:
-
-```json
-"answer": "Preserve evidence. File FIR immediately."
-```
-
-You will return:
-
-```json
-"answer_units": [ ... ]
-```
-
-Each unit is **one sentence or bullet**.
+This is the **missing layer**.
 
 ---
 
-## 2️⃣ Define the Answer Unit schema (NEW)
+## 1️⃣ Add a “User Role Lens” (CRITICAL)
 
-Create a dedicated model.
+Before answering, classify **WHO is asking**.
+
+Add a new dimension:
 
 ```python
-# models/answer_unit.py
-
-class SourceSpan(BaseModel):
-    doc_id: str                 # e.g. GENERAL_SOP_BPRD
-    section_id: str             # e.g. GSOP_057
-    start_char: int             # absolute char offset
-    end_char: int               # absolute char offset
-    quote: str                  # exact text slice (for safety)
-
-class AnswerUnit(BaseModel):
-    id: str                     # e.g. "S1"
-    text: str                   # sentence text
-    kind: Literal["verbatim", "derived"]
-    source_spans: list[SourceSpan] = []
+USER_LENS = [
+  "victim",
+  "accused",
+  "law_student",
+  "police",
+  "general_public"
+]
 ```
+
+Your examples are clearly **victim**.
+
+This lens changes:
+
+- retrieval weighting
+- answer ordering
+- omission rules
 
 ---
 
-## 3️⃣ During retrieval: preserve absolute text offsets (CRITICAL)
+## 2️⃣ Change Answer PRIORITY ORDER (Not content)
 
-When chunking documents:
+### ❌ Current order (law-centric)
 
-```python
-chunk = {
-    "doc_id": "GENERAL_SOP_BPRD",
-    "section_id": "GSOP_057",
-    "text": section_text,
-    "start_char": absolute_start,
-    "end_char": absolute_end
-}
+1. Definition
+2. Punishment
+3. Procedure
+4. Notes
+
+### ✅ Victim-centric order (MANDATORY)
+
+```text
+1. Immediate actions (what to do now)
+2. Reporting & protection
+3. Legal rights of victim
+4. Compensation & support
+5. THEN offence definition (optional)
+6. Punishment (last)
 ```
 
-✅ These offsets **must refer to the full document**, not the chunk.
+Same data.
+Different choreography.
 
 ---
 
-## 4️⃣ During answer generation: force citation discipline
+## 3️⃣ Victim-First Retrieval Bias (Very Important)
 
-### Prompt rule (MANDATORY)
+When `user_lens == "victim"`:
 
-Add this to the system prompt:
+### Retrieval priority becomes:
 
-```
-RULES:
-- If a sentence is directly supported by a specific passage,
-  mark it as VERBATIM and quote the exact source text.
-- If a sentence is guidance, summary, or best-practice,
-  mark it as DERIVED and DO NOT quote any source.
-- Never invent quotations.
-```
+1. **BNSS (procedure)**
+2. **SOPs**
+3. **NALSA compensation**
+4. **BNS punishment sections**
+
+Right now you are doing the **exact opposite**.
+
+This alone will transform TEST 1 & 2.
 
 ---
 
-## 5️⃣ LLM output format (machine-readable)
+## 4️⃣ Introduce “Action Blocks” (This is the killer feature)
 
-Force JSON:
+Add **structured action blocks** before legal exposition.
+
+### Example: Robbery (Victim View)
 
 ```json
-{
-	"answer_units": [
-		{
-			"id": "S1",
-			"text": "Electronic communication should be sent to the SHO’s official email.",
-			"kind": "verbatim",
-			"quote": "Electronic communication should preferably be to official e-mail address or official mobile number of SHO..."
-		},
-		{
-			"id": "S2",
-			"text": "Preserve evidence if it is safe to do so.",
-			"kind": "derived"
-		}
-	]
-}
+"immediate_actions": [
+  "Ensure your safety and move to a secure location.",
+  "Call the police emergency number if the offender is nearby.",
+  "Visit the nearest police station to register an FIR or Zero FIR."
+]
 ```
 
-⚠️ **No source IDs yet** — just quotes.
+These are **assembled from SOP + BNSS**, not hallucinated.
 
 ---
 
-## 6️⃣ Span resolution step (deterministic, no LLM)
+## 5️⃣ Map Offence → Victim Workflow (One-time config)
 
-For each `verbatim` unit:
+Create a simple mapping table:
 
 ```python
-def resolve_span(quote, retrieved_chunks):
-    for chunk in retrieved_chunks:
-        idx = chunk.text.find(quote)
-        if idx != -1:
-            return SourceSpan(
-                doc_id=chunk.doc_id,
-                section_id=chunk.section_id,
-                start_char=chunk.start_char + idx,
-                end_char=chunk.start_char + idx + len(quote),
-                quote=quote
-            )
-    return None
-```
-
-If resolution fails:
-
-- Downgrade unit → `derived`
-- Log warning
-
----
-
-## 7️⃣ Final API response shape (IMPORTANT)
-
-```json
-{
-	"answer_units": [
-		{
-			"id": "S1",
-			"text": "...",
-			"kind": "verbatim",
-			"source_spans": [
-				{
-					"doc_id": "GENERAL_SOP_BPRD",
-					"section_id": "GSOP_007",
-					"start_char": 412,
-					"end_char": 615,
-					"quote": "Electronic communication should preferably..."
-				}
-			]
-		},
-		{
-			"id": "S2",
-			"text": "Preserve evidence if it is safe to do so.",
-			"kind": "derived",
-			"source_spans": []
-		}
-	]
+VICTIM_WORKFLOWS = {
+  "robbery": {
+    "primary_procedure": ["FIR", "Zero FIR"],
+    "rights": ["copy_of_FIR", "medical_aid_if_injured"],
+    "compensation": False
+  },
+  "assault": {
+    "primary_procedure": ["FIR", "medical_examination"],
+    "rights": ["medical_report", "witness_protection"],
+    "compensation": Conditional
+  },
+  "rape": {
+    "primary_procedure": ["Zero FIR", "medical_exam", "female_officer"],
+    "rights": ["privacy", "support_person", "no_accused_contact"],
+    "compensation": True
+  }
 }
 ```
 
----
-
-## 8️⃣ Update `/rag/source` endpoint (small change)
-
-Accept **explicit span requests**:
-
-```json
-{
-	"doc_id": "GENERAL_SOP_BPRD",
-	"section_id": "GSOP_007",
-	"start_char": 412,
-	"end_char": 615
-}
-```
-
-Backend:
-
-- Load full document
-- Slice `[start_char:end_char]`
-- Return exact text + surrounding context (±300 chars)
+This makes answers **dynamic**, not static.
 
 ---
 
-## 9️⃣ Add regression tests (DO NOT SKIP)
+## 6️⃣ Rewrite the Prompt Logic (Not the Data)
 
-```python
-def test_no_highlight_for_derived_units():
-    for unit in answer_units:
-        if unit.kind == "derived":
-            assert unit.source_spans == []
-```
+### Victim-mode system instruction (example)
 
-This prevents **fake citations forever**.
+> You are assisting a crime victim in India.
+> Your first responsibility is to explain **what the victim should do immediately**.
+> Cite the law only to support victim rights and procedures.
+> Do not start with definitions or punishments unless asked.
 
----
-
-# FRONTEND GUIDE
+This alone will flip your answer style.
 
 ---
 
-## 1️⃣ Render answer units, not raw text
+## 7️⃣ What Each Test Becomes (Before vs After)
 
-```tsx
-answer_units.map((unit) => <AnswerSentence key={unit.id} unit={unit} />);
-```
+### TEST 1 – Robbed
 
----
+**Before:**
+Definition + punishment
 
-## 2️⃣ Clickability rules (VERY IMPORTANT)
+**After:**
 
-| Unit kind | Clickable | Highlight |
-| --------- | --------- | --------- |
-| verbatim  | ✅ yes    | ✅ exact  |
-| derived   | ❌ no     | ❌ none   |
-
----
-
-## 3️⃣ Sentence component behavior
-
-```tsx
-if (unit.kind === "verbatim") {
-	renderClickableSentence(unit);
-} else {
-	renderPlainSentence(unit);
-}
-```
-
-Add subtle UI:
-
-- 🔗 icon for verbatim
-- ℹ️ “Derived guidance” tooltip for derived
+- Immediate steps
+- FIR / Zero FIR
+- Police duty
+- THEN what robbery legally means
 
 ---
 
-## 4️⃣ On click → fetch exact span
+### TEST 2 – Assault
 
-```ts
-POST / rag / source;
-{
-	(doc_id, section_id, start_char, end_char);
-}
-```
+**Before:**
+“Context does not provide procedure” ❌
 
----
+**After:**
 
-## 5️⃣ Source side panel behavior
+- FIR mandatory if cognizable
+- Medical examination if injured
+- Protection from intimidation
+- THEN legal definition
 
-- Accordion per document
-- Cache fetched spans in session state
-- Auto-scroll to `start_char`
-- Highlight ONLY `[start_char:end_char]`
-
-No fuzzy matching. No searching.
+(Your data already supports this — ordering killed it.)
 
 ---
 
-## 6️⃣ Highlight implementation (simple & correct)
+### TEST 4 – Rape
 
-```ts
-highlightRange(startChar, endChar);
-```
+**Before:**
+Punishment heavy
 
-Do **not** search by words.
-Use absolute offsets only.
+**After:**
 
----
-
-## 7️⃣ UX copy (important for trust)
-
-For derived sentences:
-
-> “This guidance is derived from verified SOPs but is not quoted verbatim.”
-
-This protects you legally and ethically.
+- Immediate safety & medical care
+- Zero FIR anywhere
+- Female officer requirement
+- NALSA compensation
+- THEN punishment
 
 ---
 
-# ❌ WHAT NOT TO DO (put this in README)
+## 8️⃣ Why This Is the RIGHT Fix
 
-- ❌ Do not highlight derived text
-- ❌ Do not search for keywords in source
-- ❌ Do not attach spans without exact quote match
-- ❌ Do not force every sentence to have a citation
+✔ No re-embedding
+✔ No data rewrite
+✔ No hallucination risk
+✔ Scales to other crimes
+✔ Matches real-world victim needs
 
----
-
-# 🧪 Acceptance Checklist
-
-Before shipping, confirm:
-
-- [ ] Clicking a sentence **always highlights correct text**
-- [ ] No highlight exists without a quote match
-- [ ] “Preserve evidence” does **not** highlight unrelated SOPs
-- [ ] Regression tests pass
-- [ ] Side panel never jumps to random locations
+You are **not weakening legal rigor** — you are **re-prioritizing it**.
 
 ---
 
-# 🏁 Final Note
+## 🔚 Final Verdict (Very Clear)
 
-This design:
+Your engine is **technically excellent**.
+It fails only because:
 
-- Matches **academic citation standards**
-- Matches **legal research tools**
-- Eliminates misleading UX
-- Makes your system _defensible_
+> **Law answers ≠ victim help**
 
-You are now building something that **law students, lawyers, and courts could actually trust**.
+Add:
+
+- User lens
+- Retrieval bias
+- Action blocks
+- Answer re-ordering
+
+And your system becomes **what you originally envisioned**.
+
+---
+
+### 🔜 Next best step (I strongly recommend this order):
+
+1️⃣ Implement **Victim Lens + Answer Reordering**
+2️⃣ Add **Immediate Action blocks**
+3️⃣ Tune retrieval priority (BNSS/SOP first)
+
+If you want, I can:
+
+- rewrite one of your test outputs in **final victim-centric form**
+- help you implement the **Victim Response Layer**
+- design the **exact prompt templates**
+
+Just tell me which one you want to build next.
+
+---
+
+# ➕ Refined Technical Implementation Plan (Added)
+
+Based on the analysis, here is the concrete execution plan to pivot to **Victim-Centric**:
+
+## 1. Dynamic User Context Classification
+
+Instead of a static list, we will upgrade `QueryClassifier` to determine the user's intent state.
+
+- **New Attribute**: `user_context` (Values: `victim_distress`, `informational`, `professional`)
+- **Logic**:
+    - `victim_distress`: High urgency, personal pronouns ("I", "my"), active crime verbs.
+    - `informational`: "What is...", "Define...", abstract queries.
+- **Effect**: Triggers the "Victim Mode" pipeline.
+
+## 2. Safety-First Response Schema
+
+We will modify the `LegalResponse` Pydantic model to separate safety from procedure.
+
+- **New Field**: `safety_alert` (Type: `str`, Description: "Immediate critical safety advice, e.g., 'Dial 112', 'Go to hospital'.")
+- **Refined Field**: `immediate_action_plan` (Type: `List[str]`, Description: "Chronological legal steps: FIR, Medical Exam, etc.")
+- **Ordering**: Punishment and Definitions move to the bottom.
+
+## 3. "Concept Expansion" for Retrieval
+
+To fix the "No procedure context found" error (Test 2), we will implement logical expansions in `orchestrator.py`:
+
+- **Problem**: Query "I was assaulted" matches Section 130 (Definition) but often misses Section 173 BNSS (FIR) if keywords don't overlap.
+- **Solution**:
+    - If `intent` is `criminal_offence` AND `user_context` is `victim`:
+    - **AUTOMATICALLY INJECT** hidden search queries: "Procedure for filing FIR BNSS", "Victim compensation NALSA".
+    - This ensures procedure is _always_ retrieved for crime queries, even if the user didn't ask for "procedure".
+
+## 4. Empathetic Prompt Engineering
+
+- **Instruction**: Update system prompt to: "Use active voice. Address the user as 'You'. Prioritize safety. Do not use complex legalese in the first paragraph. Explain 'Why' simple terms."
+
+## 5. Multilingual & Localization Strategy
+
+- **Missing Link**: Victims may not search in English.
+- **Action**:
+    - Enable **Query Translation Layer** (Input Hindi -> Search English -> Answer Hindi).
+    - Add **Jurisdiction Detection** (e.g., "Delhi" -> Highlights Delhi Legal Services Authority).
+
+## 6. Accessibility & Tone Standards
+
+- **Requirement**: "Layman Accessible" vs "Lawyer Grade".
+- **Action**:
+    - **Grade 8 Reading Level** for `safety_alert` and `immediate_action_plan`.
+    - **Strict Formatting**: Use Bullet points max 10 words long.
+    - **No "Legalese"**: Words like "Cognizable", "Compounding" must have (simple definitions) in parentheses.

@@ -1,0 +1,102 @@
+[
+  {
+    "query": "I have been robbed, what can I do?",
+    "expected_context": "victim_distress",
+    "detected_context": "victim_distress",
+    "status": "PASS",
+    "duration_seconds": 37.7,
+    "safety_alert": "If you are still in danger, or the robber is nearby, call 112 immediately.",
+    "action_plan_count": 4,
+    "full_answer": "I understand you've been robbed, and that's a very upsetting experience. Your safety is the most important thing. You need to report this to the police right away. You can file a 'Zero FIR' at any police station, even if it's not the one where the robbery happened. This will start the investigation quickly. The police will record your statement and give you a copy of the FIR.  You may also be eligible for compensation; we'll discuss that further below."
+  },
+  {
+    "query": "Someone assaulted my sister just now",
+    "expected_context": "victim_distress",
+    "detected_context": "victim_distress",
+    "status": "PASS",
+    "duration_seconds": 23.42,
+    "safety_alert": "Your sister's safety is the most important thing. If she is still in danger, call 112 immediately.",
+    "action_plan_count": 4,
+    "full_answer": "I understand this is a very difficult time. Your sister has the right to seek justice and receive compensation. Here's what you need to do right now. First, make sure she is safe. Then, report the assault to the police. You can file a Zero FIR at any police station, even if the assault didn't happen there. This will start the investigation quickly. The police are required to register the FIR if the offence is 'cognizable' (a serious crime where they can arrest someone without a warrant). After filing the FIR, explore options for compensation as outlined in the NALSA Compensation Scheme, 2018."
+  },
+  {
+    "query": "Steps for medical examination of rape victim",
+    "expected_context": "victim_distress",
+    "detected_context": "professional",
+    "status": "PASS",
+    "duration_seconds": 33.66,
+    "safety_alert": null,
+    "action_plan_count": 3,
+    "full_answer": "You have the right to a medical examination if you have been a victim of rape. The law says the police must arrange this within 24 hours of you reporting the incident. This exam is important for your health and to help with the investigation. Here's what you need to know and what steps will be taken."
+  },
+  {
+    "query": "What is the definition of a public servant under BNS?",
+    "expected_context": "informational",
+    "detected_context": "informational",
+    "status": "PASS",
+    "duration_seconds": 26.46,
+    "safety_alert": null,
+    "action_plan_count": 0,
+    "full_answer": "According to the Bharatiya Nyaya Sanhita (BNS), 2023, a 'public servant' includes people appointed by the government, and anyone acting in that role even if there's a problem with their appointment. It also includes people temporarily employed as clerks or servants. Essentially, anyone holding a position with public duties is considered a public servant under the BNS."
+  },
+  {
+    "query": "Define 'Document' under Bharatiya Sakshya Adhiniyam",
+    "expected_context": "informational",
+    "detected_context": "informational",
+    "status": "PASS",
+    "duration_seconds": 24.41,
+    "safety_alert": null,
+    "action_plan_count": 0,
+    "full_answer": "According to the Bharatiya Sakshya Adhiniyam, 2023, a 'document' isn't specifically defined with a single section. However, the law explains what kinds of things are considered documents. These include official records from government bodies, public officers, and even records kept by states or territories. If you are asked to provide a document in court, you must present it if you have it, even if there's a disagreement about whether it should be allowed as evidence. The court will decide if it can be used. The law also covers how documents are proven to be genuine, like official gazettes or newspapers."
+  },
+  {
+    "query": "Is electronic evidence admissible in court?",
+    "expected_context": "informational",
+    "detected_context": "informational",
+    "status": "PASS",
+    "duration_seconds": 31.68,
+    "safety_alert": null,
+    "action_plan_count": 3,
+    "full_answer": "Yes, electronic evidence is admissible in court in India. The Bharatiya Sakshya Adhiniyam, 2023 (BSA 2023) specifically addresses this. Electronic records have the same legal standing as physical documents, *provided* they meet certain requirements for authenticity and reliability. The court will consider if the electronic record was created and maintained in a trustworthy manner. A certificate from the person in charge of the computer system is often required to verify the evidence. The court may also presume the authenticity of electronic records under certain conditions, like those found in Sections 81, 85, 86, 87, 90, and 93 of the BSA 2023."
+  },
+  {
+    "query": "I am a lawyer looking for high court powers",
+    "expected_context": "professional",
+    "detected_context": "professional",
+    "status": "PASS",
+    "duration_seconds": 22.43,
+    "safety_alert": null,
+    "action_plan_count": 0,
+    "full_answer": "As a lawyer, you're asking about the powers of the High Court under the Bharatiya Nagarik Suraksha Sanhita, 2023. The High Court has the power to transfer criminal cases and appeals (Section 447). It can act on its own, based on a lower court's report, or if someone asks it to. It also has the power to give the powers of a Judicial Magistrate to people working in civil courts or government positions (Sections 9 and 11). The High Court can also stop a case in a lower court if it thinks a transfer is needed for fairness (Section 447(6)). Finally, the High Court or State Government can decide *how* to give these powers to people \u2013 by name, job title, or official position (Section 26)."
+  },
+  {
+    "query": "Minimum compensation for loss of life under NALSA",
+    "expected_context": "victim_distress",
+    "detected_context": "informational",
+    "status": "PASS",
+    "duration_seconds": 18.89,
+    "safety_alert": null,
+    "action_plan_count": 3,
+    "full_answer": "You can receive compensation for the loss of life under the NALSA Compensation Scheme, 2018. The minimum compensation amount is Rs. 5 Lakh. In some cases, it can be up to Rs. 10 Lakh."
+  },
+  {
+    "query": "What constitutes an unlawful assembly?",
+    "expected_context": "informational",
+    "detected_context": "informational",
+    "status": "PASS",
+    "duration_seconds": 24.49,
+    "safety_alert": null,
+    "action_plan_count": 3,
+    "full_answer": "According to the Bharatiya Nyaya Sanhita, 2023, an unlawful assembly is one that intends to disturb public peace. Even if a gathering starts legally, it can become unlawful if its purpose changes to cause a disturbance. If you knowingly join or stay with such an assembly, you could face imprisonment for up to six months or a fine, or both. If the assembly has been ordered to disperse by law enforcement and you remain, the punishment can be imprisonment for up to two years, a fine, or both. Additionally, anyone who hires or encourages others to join an unlawful assembly can be punished as if they were a member themselves."
+  },
+  {
+    "query": "Procedure for Zero FIR",
+    "expected_context": "victim_distress",
+    "detected_context": "informational",
+    "status": "PASS",
+    "duration_seconds": 27.27,
+    "safety_alert": null,
+    "action_plan_count": 3,
+    "full_answer": "You can file a Zero FIR at any police station, even if the crime didn't happen there. This helps start the investigation quickly. A Zero FIR is registered for serious crimes (cognizable offences). The police will then transfer the case to the correct police station. Here's how to proceed:"
+  }
+]

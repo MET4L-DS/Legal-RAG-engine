@@ -43,24 +43,29 @@ class LegalEngine:
 if __name__ == "__main__":
     # Full Loop Test
     engine = LegalEngine()
-    test_query = "What is the procedure for Zero FIR and who can file it?"
+    test_query = "I have been robbed just now, what should I do first?"
     
-    print(f"Running Full Engine Query: {test_query}")
+    print(f"Running Full Engine Query (Victim Distress): {test_query}")
     try:
         final_output = engine.query(test_query)
         print("\n" + "="*50)
-        print("FINAL LEGAL ANSWER")
+        print("VICTIM-CENTRIC LEGAL ANSWER")
         print("="*50)
-        print(f"\nIntent: {final_output['intent']['category']}")
-        print(f"\n{final_output['response']['answer']}")
         
-        print("\nLegal Basis:")
+        if final_output['response'].get('safety_alert'):
+            print(f"\n🚨 SAFETY ALERT: {final_output['response']['safety_alert']}")
+            
+        print("\n📋 IMMEDIATE ACTION PLAN:")
+        for step in final_output['response'].get('immediate_action_plan', []):
+            print(f"  - {step}")
+
+        print(f"\n💬 RESPONSE:\n{final_output['response']['answer']}")
+        
+        print("\n⚖️ LEGAL BASIS:")
         print(final_output['response']['legal_basis'])
         
-        print("\nSources:")
+        print("\n📚 SOURCES:")
         for s in final_output['response']['sources']:
             print(f"- {s['citation']}")
-            
-        print(f"\nDisclaimer: {final_output['response']['disclaimer']}")
     except Exception as e:
         print(f"Error during query: {e}")
