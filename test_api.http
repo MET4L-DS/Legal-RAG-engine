@@ -1,0 +1,20 @@
+### Health Check
+GET http://localhost:8000/health
+
+### Query: Zero FIR procedure
+POST http://localhost:8000/api/v1/query
+Content-Type: application/json
+
+{
+  "query": "What is the procedure for zero FIR?",
+  "stream": false
+}
+
+### Query: Definition of public servant
+POST http://localhost:8000/api/v1/query
+Content-Type: application/json
+
+{
+  "query": "Who is a public servant under the new BNS?",
+  "stream": false
+}

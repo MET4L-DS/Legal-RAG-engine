@@ -37,9 +37,12 @@ The Legal RAG Engine is now fully operational, from document ingestion to struct
 ## 📂 Final Project Structure
 
 - `src/retrieval/`: Core logic (classifier, orchestrator, responder, engine).
+- `src/server/`: FastAPI implementation (`app.py`).
+- `API_DOCS.md`: Detailed API documentation for frontend integration.
 - `data/vector_store/`: FAISS index, BM25, and metadata.
 - `documents/`: Legal source data.
-- `test_retrieval.py`: Basic search verification.
+- `test_api.py`: Endpoint verification script.
+- `server_debug.log`: Integrated debug logs.
 
 ---
 
