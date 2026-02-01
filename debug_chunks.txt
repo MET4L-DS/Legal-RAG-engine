@@ -31910,7 +31910,7 @@ CONTENT:
 SOP on Rape Against Women
 Step 01
 
-- FIR must be recorded in accordance with the provisions of Section 173, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 154, Code of Criminal Procedure, 1973 (CrPC))
+- FIR must be recorded in accordance with the provisions of Section 173, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)
 
 - FIR shall be recorded by a woman police officer or any woman officer.
 
@@ -31918,7 +31918,7 @@ Step 01
 
 - The victim can lodge the FIR in any police station in any State or District. Subsequently, it can be transferred to the concerned State or police station having jurisdiction for investigation. Audio-Visual and electronic means, including scanning, can be used to transmit the information at the earliest.
 
-- A copy of such Information as recorded under sub-section (1) of Section 173, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 154, Code of Criminal Procedure, 1973 (CrPC)) shall be given forthwith, free of cost, to the victim or informant.
+- A copy of such Information as recorded under sub-section (1) of Section 173, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) shall be given forthwith, free of cost, to the victim or informant.
 
 - If there is any delay in recording of such FIR, the reasons for such delay should be explained in the FIR.
 
@@ -31972,7 +31972,7 @@ Step 05
 
 - I.O. shall wear plain clothes during interview/investigation (as per Section 24(2), Protection of Children from Sexual Offences Act, 2012 (POCSO))
 
-- The Police Officer, while examining the child, shall ensure that at no point of time, the child comes in contact with the accused, in any manner, whatsoever (as per the mandate of Sections 24(3) and 36, Protection of Children from Sexual Offences Act, 2012 (POCSO) read with Section 308, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 273, Code of Criminal Procedure, 1973 (CrPC)))
+- The Police Officer, while examining the child, shall ensure that at no point of time, the child comes in contact with the accused, in any manner, whatsoever (as per the mandate of Sections 24(3) and 36, Protection of Children from Sexual Offences Act, 2012 (POCSO) read with Section 308, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS))
 
 - Where, the Special Juvenile Police Unit or the local police is notified and circumstances warrant, that the child against whom an offence has been committed, is in need of care and protection, it shall, after recording the reasons in writing, make immediate arrangement, to give him/her such care and protection, including admitting the child into a shelter home or to the nearest hospital, within twenty-four hours of the report, as may be prescribed, as well as carry on investigation to find the legal guardian of the victim, in appropriate cases, as per the facts of the case
 
@@ -31983,12 +31983,12 @@ Step 05
 - In case, the victim does not have a place of abode, she should be shifted to a shelter home.
 
 --- CHUNK 2600 ---
-METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Compliance of Section 176, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 157, Code of Criminal Procedure, 1973 (CrPC))", "step": "Step 06", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
+METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Compliance of Section 176, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)", "step": "Step 06", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
 Step 06
 
-- A copy of the FIR shall be sent immediately to the Magistrate under Section 176, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 157, Code of Criminal Procedure, 1973 (CrPC))
+- A copy of the FIR shall be sent immediately to the Magistrate under Section 176, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)
 
 --- CHUNK 2601 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Investigation", "step": "Step 07", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
@@ -32003,7 +32003,7 @@ Investigating Officer
 - There should be, at least, one lady officer in the team. Rape case should usually be investigated by a senior and experienced police officer as far as possible, it being a grave offence.
 
 --- CHUNK 2602 ---
-METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Recording of statement of victim under Section 180, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 161, Code of Criminal Procedure, 1973 (CrPC))", "step": "Step 08", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
+METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Recording of statement of victim under Section 180, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)", "step": "Step 08", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
 Step 08
@@ -32025,20 +32025,20 @@ Videography of statement
 - If the person making the statement is temporarily or permanently, mentally or physically disabled, or the victim is of different linguistic background, the statement made by a person with the assistance of an interpreter or a special educator, may be videographed.
 
 --- CHUNK 2603 ---
-METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Statement of victim under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 164, Code of Criminal Procedure, 1973 (CrPC))", "step": "Step 09", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
+METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Statement of victim under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)", "step": "Step 09", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
 CONTENT:
 SOP on Rape Against Women
 Step 09
 
-- It shall be the duty of investigating officer/SHO to inform the Judicial Magistrate for recording of statement of the person against whom such an offence has been committed, as soon as the commission of offence is brought to the notice of the police (as mandated under sub-section (5-A) of Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 164, Code of Criminal Procedure, 1973 (CrPC))
+- It shall be the duty of investigating officer/SHO to inform the Judicial Magistrate for recording of statement of the person against whom such an offence has been committed, as soon as the commission of offence is brought to the notice of the police (as mandated under sub-section (5-A) of Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS))
 
-- The investigating officer shall take immediate steps to take the victim to any metropolitan/preferably Judicial Magistrate for the purpose of recording her statement under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 164, Code of Criminal Procedure, 1973 (CrPC))
+- The investigating officer shall take immediate steps to take the victim to any metropolitan/preferably Judicial Magistrate for the purpose of recording her statement under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)
 
-- A copy of the statement under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 164, Code of Criminal Procedure, 1973 (CrPC)) should be handed over to the investigating officer immediately with specific direction that the content of such statement under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 164, Code of Criminal Procedure, 1973 (CrPC)) should not be disclosed to any person till the charge sheet/report under Section 193, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 173, Code of Criminal Procedure, 1973 (CrPC)) is filed.
+- A copy of the statement under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) should be handed over to the investigating officer immediately with specific direction that the content of such statement under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) should not be disclosed to any person till the charge sheet/report under Section 193, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) is filed.
 
 - The Investigating officer shall record specifically the date and the time at which he learned about the commission of the offence of rape and the date and time at which he took the victim to the Metropolitan/Judicial Magistrate, as aforesaid.
 
-- A copy of the report of medical examination of the victim, if any, should be immediately handed over to the Magistrate who records the statement of the victim under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 164, Code of Criminal Procedure, 1973 (CrPC))
+- A copy of the report of medical examination of the victim, if any, should be immediately handed over to the Magistrate who records the statement of the victim under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)
 
 - In cases of delay exceeding 24 hours in taking the victim to the Magistrate, the Investigating officer should record the reasons for the same in the case diary and hand over a copy of the same to the Magistrate.
 
@@ -32054,7 +32054,7 @@ CONTENT:
 SOP on Rape Against Women
 Step 10
 
-- Dying declaration may be recorded before a Magistrate or Doctor and, if not possible, it should be videographed under Section 180, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 161, Code of Criminal Procedure, 1973 (CrPC))
+- Dying declaration may be recorded before a Magistrate or Doctor and, if not possible, it should be videographed under Section 180, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)
 
 --- CHUNK 2605 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Statement of relevant and material witness under Section 180, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) earlier 161, Cr.P.C", "step": "Step 11", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
@@ -32068,9 +32068,9 @@ Step 11
 
 - Police must investigate the next of kin and suitably make them prosecution witnesses, if they have observed something of evidentiary value.
 
-Statement of witness under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 164, Code of Criminal Procedure, 1973 (CrPC))
+Statement of witness under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)
 
-- In appropriate cases, statements of material witnesses shall be recorded under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 164, Code of Criminal Procedure, 1973 (CrPC)) Especially in cases under the POCSO Act, statements of parents/guardians of victims and informant must be recorded.
+- In appropriate cases, statements of material witnesses shall be recorded under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) Especially in cases under the POCSO Act, statements of parents/guardians of victims and informant must be recorded.
 
 Videography of statement
 
@@ -32082,7 +32082,7 @@ CONTENT:
 SOP on Rape Against Women
 Step 12
 
-The I.O. shall require the complainant, if any, and so many of the persons who appear to such officer, to be acquainted with the facts and circumstances of the case, as he may think necessary to execute a bond to appear before the magistrate as thereby directed and prosecute or give evidence, as the case may be, in the matter of charge against the accused (as per the mandate vide Section 190, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 170, Code of Criminal Procedure, 1973 (CrPC))).
+The I.O. shall require the complainant, if any, and so many of the persons who appear to such officer, to be acquainted with the facts and circumstances of the case, as he may think necessary to execute a bond to appear before the magistrate as thereby directed and prosecute or give evidence, as the case may be, in the matter of charge against the accused (as per the mandate vide Section 190, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)).
 
 --- CHUNK 2607 ---
 METADATA: {"law": "SOP", "law_name": "SOP on Rape Against Women", "doc_type": "sop", "section_title": "Medical examination of victim", "step": "Step 13", "mode": "step", "source_file": "sop_rape_against_women.md", "unit_type": "step"}
@@ -32090,9 +32090,9 @@ CONTENT:
 SOP on Rape Against Women
 Step 13
 
-- Section 184, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 164(A), Code of Criminal Procedure, 1973 (CrPC)) imposes an obligation on the part of investigating officer to get the victim of rape medically examined within 24 hours from the time of receiving the information relating to the commission of such offence.
+- Section 184, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) imposes an obligation on the part of investigating officer to get the victim of rape medically examined within 24 hours from the time of receiving the information relating to the commission of such offence.
 
-- The report of such medical examination should be immediately forwarded to the Magistrate by the I.O., who records the statement of the victim under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 164, Code of Criminal Procedure, 1973 (CrPC))
+- The report of such medical examination should be immediately forwarded to the Magistrate by the I.O., who records the statement of the victim under Section 183, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)
 
 - The victim as well as the accused person should be sent for medical examination by the I.O. under properly filled in, medical examination sheet. The female victim shall be examined medically, only by a lady doctor or under her supervision.
 
@@ -32172,11 +32172,11 @@ Step 18
 
 - If the suspect has concealed himself or is absconding/evading arrest the I.O. shall make a request to the court for issue of a warrant of arrest of the suspect.
 
-- If the arrest warrant could not be executed because the person against whom the warrant has been issued has absconded, or is concealing himself, the I.O. shall apply to the relevant court to declare the person a proclaimed offender and move for the attachment of the property of such person, according to Sections 84 and 85, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Sections 82 and 83, Code of Criminal Procedure, 1973 (CrPC))
+- If the arrest warrant could not be executed because the person against whom the warrant has been issued has absconded, or is concealing himself, the I.O. shall apply to the relevant court to declare the person a proclaimed offender and move for the attachment of the property of such person, according to Sections 84 and 85, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)
 
-Complaint for offence under Section 209, Bharatiya Nyaya Sanhita, 2023 (BNS) (formerly Section 174(A), Indian Penal Code, 1860 (IPC)) against absconder
+Complaint for offence under Section 209, Bharatiya Nyaya Sanhita, 2023 (BNS) against absconder
 
-- If any person, against whom a proclamation under Section 84, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 82, Code of Criminal Procedure, 1973 (CrPC)) has been issued, fails to appear at the specified place and the specified time as required by such proclamation, the I.O. should move the concerned court, for offence under Section 209, Bharatiya Nyaya Sanhita, 2023 (BNS) (formerly Section 174(A), Indian Penal Code, 1860 (IPC)).
+- If any person, against whom a proclamation under Section 84, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) has been issued, fails to appear at the specified place and the specified time as required by such proclamation, the I.O. should move the concerned court, for offence under Section 209, Bharatiya Nyaya Sanhita, 2023 (BNS).
 
 When suspect is not known to the victim
 
@@ -32192,15 +32192,15 @@ CONTENT:
 SOP on Rape Against Women
 Step 19
 
-- After the suspect is arrested, procedures prescribed under Sections 35, 36, 38, 43, 46, 47 & 49, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Sections 41, 41-A, 41-B, 41-C, 41-D, 46, 49, 50 & 51, Code of Criminal Procedure, 1973 (CrPC)) should be followed.
+- After the suspect is arrested, procedures prescribed under Sections 35, 36, 38, 43, 46, 47 & 49, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) should be followed.
 
-- No police officer shall detain in-custody, a person arrested without warrant, for a period longer than the circumstances of the case warrant and, such period shall not, in the absence of a special order of a magistrate under Section 187, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 167, Code of Criminal Procedure, 1973 (CrPC)) exceed 24 hours.
+- No police officer shall detain in-custody, a person arrested without warrant, for a period longer than the circumstances of the case warrant and, such period shall not, in the absence of a special order of a magistrate under Section 187, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) exceed 24 hours.
 
 - Experienced police officers may be taken in the team while interrogating the suspect.
 
 - Rebuttal or corroboration of facts, as alleged by victims, is to be done after carefully examining the whole circumstances and by bearing in mind the possibility of the trauma suffered by the victim.
 
-- Suspect should be sent for medical examination along with injury sheet detailing injury, scratches, bruises or nail marks etc. found on his body, as per Section 52, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 53-A, Code of Criminal Procedure, 1973 (CrPC))
+- Suspect should be sent for medical examination along with injury sheet detailing injury, scratches, bruises or nail marks etc. found on his body, as per Section 52, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)
 
 - Personal clothes of the accused, worn at the time of the crime, should be seized and sent to FSL for examination.
 
@@ -32246,7 +32246,7 @@ CONTENT:
 SOP on Rape Against Women
 Step 23
 
-- All offences against women shall be promptly investigated and charge sheets should be filed in the court of law within sixty days as per Section 193, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) (formerly Section 173, Code of Criminal Procedure, 1973 (CrPC))
+- All offences against women shall be promptly investigated and charge sheets should be filed in the court of law within sixty days as per Section 193, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)
 
 - At no point of time, the quality of investigation should be compromised. All such cases, should be automatically supervised by an officer of the rank of Dy.SP, who should associate himself with day to day investigation, including, arrest of the accused. Orders for charge sheet should be issued after due scrutiny to ensure that the investigation and subsequent prosecution does not suffer from any lacuna or omission.
 

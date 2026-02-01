@@ -81,9 +81,16 @@ class LegalOrchestrator:
             
             # Victim Mode Boosting
             if intent.user_context == "victim_distress":
-                # Boost BNSS, SOP, and NALSA for victims
-                if any(x in law for x in ["BNSS", "SOP", "NALSA"]):
-                    boost += 0.4
+                # Boost BNSS and SOP significantly for Police/FIR related tasks
+                is_police_task = intent.category in ["police_duty", "procedure"] or any(w in intent.model_dump().get('sub_intent', '') or '' for w in ['FIR', 'report', 'police'])
+                
+                if "BNSS" in law or "SOP" in law:
+                    boost += 0.5 if is_police_task else 0.3
+                
+                # Boost NALSA (Compensation) moderately, but less than Procedure if it's a procedural query
+                if "NALSA" in law:
+                    boost += 0.2 if is_police_task else 0.4
+
                 # Penalize BNS (punishment) slightly so procedure ranks higher
                 if "BNS" in law and "BNSS" not in law:
                     boost -= 0.2

@@ -64,10 +64,19 @@ class LegalResponder:
         """
 
         # Format context for the prompt
-        context_str = "\n\n".join([
-            f"SOURCE: {c['chunk']['canonical_header']}\nCONTENT: {c['chunk']['text']}"
-            for c in context
-        ])
+        context_items = []
+        for c in context:
+            header = c['chunk']['canonical_header']
+            text = c['chunk']['text']
+            
+            # Check if parent context was expanded by Orchestrator
+            if c.get("parent_context"):
+                # Prepend parent context clearly
+                text = f"[PARENT CONTEXT]: {c['parent_context']}\n[SPECIFIC CLAUSE]: {text}"
+            
+            context_items.append(f"SOURCE: {header}\nCONTENT: {text}")
+
+        context_str = "\n\n".join(context_items)
 
         last_exception = None
         for model_id in self.model_ids:
@@ -107,10 +116,6 @@ class LegalResponder:
                     elif "```" in text:
                         text = text.split("```")[-1].split("```")[0].strip()
                     result = LegalResponse.model_validate_json(text)
-                    if user_context != "victim_distress":
-                        result.safety_alert = None
-                        result.immediate_action_plan = []
-                    return result
                 else:
                     response = self.client.models.generate_content(
                         model=model_id,
@@ -122,11 +127,38 @@ class LegalResponder:
                         ),
                     )
                     result = response.parsed
-                    # Post-processing enforcement
-                    if user_context != "victim_distress":
-                        result.safety_alert = None
-                        result.immediate_action_plan = []
-                    return result
+                
+                # Post-processing: Enforce Context-Aware Sources
+                # The LLM often summarizes sources. We replace them with the actual context used.
+                real_sources = []
+                limit = 4 # Max sources to show
+                
+                # Map context to source objects
+                if context:
+                    for i, ctx in enumerate(context[:limit]):
+                        chunk = ctx['chunk']
+                        meta = chunk.get('metadata', {})
+                        
+                        # Use parent context if available for fuller text
+                        text_content = chunk['text']
+                        if ctx.get('parent_context'):
+                            text_content = f"{ctx['parent_context']}\n\n[Clause]: {text_content}"
+                        
+                        real_sources.append(LegalSource(
+                            law=str(meta.get('law', 'Unknown')),
+                            section=str(meta.get('section', 'Unknown')),
+                            citation=str(chunk.get('canonical_header', 'Unknown')),
+                            content=text_content
+                        ))
+                    
+                    result.sources = real_sources
+
+                # Post-processing enforcement for Victim Context
+                if user_context != "victim_distress":
+                    result.safety_alert = None
+                    result.immediate_action_plan = []
+                
+                return result
             except Exception as e:
                 print(f"Model {model_id} failed: {e}")
                 last_exception = e
