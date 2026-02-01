@@ -75,18 +75,23 @@ currentContext = {
 
 ### Context is updated when parser sees:
 
-| Pattern          | Action                           |            |
-| ---------------- | -------------------------------- | ---------- |
-| `# PART`         | set `part`                       |            |
-| `# CHAPTER`      | set `chapter`                    |            |
-| `## <TITLE>`     | set chapter title                |            |
-| `## Section X —` | set section + reset sub-sections |            |
-| `**(1)**`        | set sub-section                  |            |
-| `Illustrations`  | switch to illustration mode      |            |
-| `Explanation.—`  | explanation mode                 |            |
-| `                | ` table row                      | table mode |
-| `**Step X:**`    | SOP step                         |            |
-| `---`            | flush current chunk              |            |
+| Pattern                     | Action                           | Document Type | Notes                            |
+| --------------------------- | -------------------------------- | ------------- | -------------------------------- |
+| `# PART`                    | set `part`                       | BNS/BNSS/BSA  |                                  |
+| `# CHAPTER`                 | set `chapter`                    | BNS/BNSS/BSA  |                                  |
+| `## <TITLE>`                | set chapter title                | BNS/BNSS/BSA  | Without section number           |
+| `## Section X —`            | set section + reset sub-sections | BNS/BNSS/BSA  |                                  |
+| `## X. <TITLE>`             | set clause number + title        | NALSA         | e.g., `## 2. DEFINITIONS`        |
+| `## **SOP ON ...**`         | set SOP topic/chapter            | SOP           | General SOP pattern              |
+| `**XX. <TITLE> - Suggested` | set SOP step with title          | SOP (Rape)    | e.g., `**01. FIR - Suggested...` |
+| `### X. <TITLE>`            | set sub-topic/category           | SOP           | e.g., `### 1. ORAL`              |
+| `**(1)**`, `**(2)**`        | set sub-section/sub-clause       | ALL           | Numbered sub-items               |
+| `- **(a)**`, `- **(b)**`    | set definition/list item         | NALSA         | Lettered items in definitions    |
+| `**Step X:**`               | set procedural step              | SOP (General) | e.g., `**Step 1:**`              |
+| `Illustrations`             | switch to illustration mode      | ALL           |                                  |
+| `Explanation.—`             | explanation mode                 | ALL           |                                  |
+| `\|` (pipe char in line)    | table row detected               | ALL           | Markdown table syntax            |
+| `---`                       | flush current chunk              | ALL           | Horizontal rule / separator      |
 
 ---
 
@@ -104,7 +109,7 @@ Sub-section (<Y>) / Illustration / Step (if applicable)
 <EXACT ORIGINAL TEXT>
 ```
 
-### Example (BNS Section 14):
+### Example 1 (BNS Section 14):
 
 ```txt
 Bharatiya Nyaya Sanhita, 2023
@@ -114,7 +119,37 @@ Section 14 – Act done by a person bound by law
 Nothing is an offence which is done by a person who is...
 ```
 
-⚠️ This header is **injected by code**, never written in markdown.
+### Example 2 (NALSA Clause 2, Definition (a)):
+
+```txt
+NALSA Compensation Scheme, 2018
+Clause 2 – Definitions
+Definition (a)
+
+"Code" means the Code of Criminal Procedure, 1973 (2 of 1974); or "Sanhita" means The Bhartiya Nagarik Suraksha Sanhita, 2023.
+```
+
+### Example 3 (SOP on Rape, Step 01):
+
+```txt
+Standard Operating Procedure on Rape Against Women
+Section 01 – FIR
+
+FIR must be recorded in accordance with the provisions of Section 173, Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)...
+```
+
+### Example 4 (NALSA Table Row - Rape Compensation):
+
+```txt
+NALSA Compensation Scheme, 2018
+Schedule – Women Victims of Crimes
+Row 3 – Rape
+
+Minimum Compensation: Rs. 4 Lakh
+Maximum Compensation: Rs. 7 Lakh
+```
+
+⚠️ These headers are **injected by code**, never written in markdown.
 
 ---
 
@@ -163,8 +198,9 @@ Maximum Compensation: Rs. 7 Lakh
 
 Chunks:
 
-- Each numbered scenario (`03.`, `04.`)
-- Bullets stay inside same chunk
+- Each numbered procedural step (e.g., `**01. FIR - Suggested time limit: Immediately**`)
+- Sub-bullets and explanatory text stay inside the same chunk
+- Each step is a complete procedure with its context
 
 ---
 
@@ -172,9 +208,12 @@ Chunks:
 
 Chunks:
 
-- Each **Step**
-- Each **Decision branch**
-- Each **Outcome**
+- Each **SOP Topic** (e.g., `## **SOP ON TYPES OF PETITION**`)
+- Each **Category/Sub-topic** (e.g., `### 1. ORAL`, `### 2. Written`)
+- Each **Step** (e.g., `**Step 1:**`, `**Step 2:**`)
+- Each **Decision branch** or **Outcome**
+
+**Chunking Strategy:** Group related steps under the same topic into one chunk when they form a coherent procedure. For complex SOPs with multiple independent procedures, create separate chunks per major section.
 
 ---
 
@@ -210,14 +249,28 @@ Tables add:
 
 ## 6️⃣ Embedding Strategy (FINAL)
 
-- **One embedding model**
+- **One embedding model** (Recommended: `text-embedding-3-large` or `cohere-embed-english-v3.0` for legal nuance)
 - Embed **ONLY canonical chunk text**
 - Metadata is stored, **not embedded**
 - Target size: **150–500 tokens**
 
 ---
 
-## 7️⃣ Vector Store Strategy (FINAL)
+## 7️⃣ Pre-Computation Validation (Dry Run)
+
+Before generating any embeddings, we MUST run a **Dry Run** script:
+
+1. **Parse all documents.**
+2. **Generate "Canonical Chunks"** into a pure text file (`debug_chunks.txt`).
+3. **Audit the definition boundaries:**
+    - Did we accidentally cut a sentence?
+    - Is the "SOP on Rape" step linked to the correct parent subject?
+    - Are tables correctly expanded (headers + values)?
+4. **Sign-off**: Only proceed to embedding once `debug_chunks.txt` looks perfect.
+
+---
+
+## 8️⃣ Vector Store Strategy (FINAL)
 
 ✅ **ONE vector store ONLY**
 
@@ -231,7 +284,7 @@ Filtering is done **at query time**, not storage time.
 
 ---
 
-## 8️⃣ Retrieval Logic (tree-like behavior WITHOUT tree embeddings)
+## 9️⃣ Retrieval Logic (tree-like behavior WITHOUT tree embeddings)
 
 1. Semantic search → top-K atomic chunks
 2. Metadata expansion:
@@ -248,7 +301,7 @@ This **simulates hierarchy** without embedding it.
 
 ---
 
-## 9️⃣ Re-ingestion & Updates
+## 🔟 Re-ingestion & Updates
 
 When law/SOP changes:
 
