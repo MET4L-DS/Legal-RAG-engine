@@ -1,47 +1,46 @@
 # Legal RAG Engine - Project Progress Report
 
-## 🏁 Summary of Accomplishments
+## 🏁 Summary of Accomplishments (Complete)
 
-The foundational parsing, embedding, and hybrid search indexing components for the Legal RAG Engine have been successfully implemented and verified.
+The Legal RAG Engine is now fully operational, from document ingestion to structured legal answer generation.
 
 ## 📈 Status Overview
 
-| Component              | Status      | Details                                                                                    |
-| :--------------------- | :---------- | :----------------------------------------------------------------------------------------- |
-| **Ingestion Engine**   | ✅ Complete | Stateful parser `ingest_legal_docs.py` handles BNS, BNSS, BSA, NALSA, and SOPs.            |
-| **Data Normalization** | ✅ Complete | Chunks (2,620 total) extracted with canonical hierarchical headers for perfect citations.  |
-| **Embedding Pipeline** | ✅ Complete | Batch processing with `all-MiniLM-L6-v2` local model for high-efficiency semantic vectors. |
-| **Vector Store**       | ✅ Complete | Hybrid indexing (FAISS for semantics + BM25 for keywords) saved in `data/vector_store/`.   |
-| **Verification**       | ✅ Verified | Retrieval tests (`test_retrieval.py`) confirm exact match and semantic relevance.          |
+| Component              | Status      | Details                                                        |
+| :--------------------- | :---------- | :------------------------------------------------------------- |
+| **Ingestion Engine**   | ✅ Complete | Stateful parser handles BNS, BNSS, BSA, NALSA, and SOPs.       |
+| **Data Normalization** | ✅ Complete | 2,620 chunks with canonical headers for precise citations.     |
+| **Embedding Pipeline** | ✅ Complete | Batch processed using `all-MiniLM-L6-v2`.                      |
+| **Vector Store**       | ✅ Complete | Hybrid FAISS + BM25 indexing in `data/vector_store/`.          |
+| **LLM Orchestration**  | ✅ Complete | Query classification, Priority Logic, and Parent Expansion.    |
+| **Answer Generation**  | ✅ Complete | Strict "Lawyer Persona" responses with structured JSON output. |
+| **Verification**       | ✅ Verified | Full-loop test successful with `gemini-2.5-flash-lite`.        |
 
-## 🛠️ Technical Implementation Details
+## 🛠️ Integrated Pipeline Components
 
-### 1. Stateful Parser (`ingest_legal_docs.py`)
+### 1. Intent Classifier (`src/retrieval/classifier.py`)
 
-- **Correction Made**: Source for NALSA documented fixed to `nalsa.md`.
-- Maintains context (Law -> Part -> Chapter -> Section) across file boundaries.
-- Injects canonical headers into every chunk to prevent LLM "hallucination" of source locations.
+- Detects intent: `procedure`, `definition`, `punishment`, etc.
+- Uses `gemini-2.5-flash-lite` for high-speed, quota-safe classification.
 
-### 2. Hybrid Vector Store (`create_vector_store.py`)
+### 2. Legal Orchestrator (`src/retrieval/orchestrator.py`)
 
-- Combines FAISS (Cosine Similarity) with BM25 (TF-IDF based) for a "best of both worlds" retrieval.
-- Saves indices to disk locally, avoiding expensive API calls for every search.
+- Multi-Stage Logic: `Query Understanding` -> `Hybrid Search` -> `Priority Filtering` -> `Parent Expansion`.
+- Ensures Statute (BNS/BNSS/BSA) priority over implementation guidance (SOPs).
+- **Parent Expansion**: Automatically includes section headings for sub-unit hits (illustrations, exceptions).
 
-### 3. Retrieval Test Suite (`test_retrieval.py`)
+### 3. Legal Responder (`src/retrieval/responder.py`)
 
-- **Verified Queries**:
-    - _Procedure for Zero FIR_: Top hit from General SOP (Score 0.94).
-    - _Definition of Public Servant_: Correct BNS Section 2 citation.
-    - _Arrest procedures_: Accurate BNSS Chapter V linkages.
+- Strict system instructions to prevent hallucinations.
+- Returns structured JSON with `Direct Answer`, `Legal Basis`, `Procedural Steps`, and `Citations`.
 
-## 📂 Project Structure
+## 📂 Final Project Structure
 
-- `documents/`: Markdown source documents.
-- `data/vector_store/`: Final FAISS index, BM25 dump, and chunk metadata.
-- `ingest_legal_docs.py`: Main parsing script.
-- `create_vector_store.py`: Indexing script.
-- `test_retrieval.py`: Search verification script.
+- `src/retrieval/`: Core logic (classifier, orchestrator, responder, engine).
+- `data/vector_store/`: FAISS index, BM25, and metadata.
+- `documents/`: Legal source data.
+- `test_retrieval.py`: Basic search verification.
 
 ---
 
-**Status**: Ready for LLM Logic Integration.
+**Project Status**: 100% Complete. Ready for Frontend Integration.
