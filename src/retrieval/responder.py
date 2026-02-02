@@ -32,7 +32,7 @@ class LegalResponder:
         self.client = genai.Client(api_key=api_key)
         
         # Default model list if not provided
-        default_models = ["gemini-2.5-flash-lite", "gemma-3-27b-it", "gemma-3-12b-it"]
+        default_models = ["gemma-3-27b-it", "gemini-2.5-flash-lite",  "gemma-3-12b-it"]
         env_models = os.getenv("LLM_MODELS")
         if env_models:
             self.model_ids = [m.strip() for m in env_models.split(",")]
