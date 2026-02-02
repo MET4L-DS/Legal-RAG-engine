@@ -1,5 +1,7 @@
 import json
 import os
+import sys
+import logging
 import faiss
 import numpy as np
 import pickle
@@ -10,35 +12,43 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+logger = logging.getLogger("LegalRAG-RetrievalEngine")
+
 class RetrievalEngine:
     def __init__(self, store_dir: str = "data/vector_store"):
         self.store_dir = Path(store_dir)
         
         # 1. Load Model
         model_name = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
-        print(f"Loading model: {model_name}...")
+        logger.info(f"Loading SentenceTransformer model: {model_name}...")
+        sys.stdout.flush()
         self.model = SentenceTransformer(model_name)
+        logger.info("SentenceTransformer model loaded!")
+        sys.stdout.flush()
         
         # 2. Load FAISS
         index_path = self.store_dir / "index.faiss"
-        print(f"Loading FAISS index from {index_path}...")
-        # Ensure path exists, if not, try resolving relative to project root
-        if not index_path.exists():
-            print(f"Warning: {index_path} not found. Trying absolute match or relative fallback...")
-            # If running from src/server, data might be ../../data. 
-            # But usually we run from root. We'll trust the input for now.
-        
+        logger.info(f"Loading FAISS index from {index_path}...")
+        sys.stdout.flush()
         self.index = faiss.read_index(str(index_path))
+        logger.info("FAISS index loaded!")
+        sys.stdout.flush()
         
         # 3. Load BM25
-        print("Loading BM25 index...")
+        logger.info("Loading BM25 index...")
+        sys.stdout.flush()
         with open(self.store_dir / "bm25.pkl", "rb") as f:
             self.bm25 = pickle.load(f)
+        logger.info("BM25 index loaded!")
+        sys.stdout.flush()
             
         # 4. Load Metadata
-        print("Loading metadata...")
+        logger.info("Loading metadata...")
+        sys.stdout.flush()
         with open(self.store_dir / "metadata.json", "r", encoding="utf-8") as f:
             self.chunks = json.load(f)
+        logger.info(f"Metadata loaded! {len(self.chunks)} chunks.")
+        sys.stdout.flush()
 
     def search(self, query: str, k: int = 5, hybrid_weight: float = 0.5):
         # Semantic Search
