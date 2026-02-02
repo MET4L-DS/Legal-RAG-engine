@@ -5,7 +5,10 @@ __pycache__/
 
 # Data and indices (large files)
 data/
-*.faiss
+!data/vector_store/
+!data/vector_store/*
+
+# *.faiss
 
 # Environment files
 .env

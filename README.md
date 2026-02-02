@@ -99,6 +99,28 @@ python test_retrieval.py
 
 ---
 
+## 🚀 Deployment (Render)
+
+This project is configured for easy deployment on [Render](https://render.com).
+
+1. **Push to GitHub**: Ensure the `data/vector_store` folder is included in your commit.
+    ```bash
+    git add .
+    git commit -m "Ready for deploy"
+    git push
+    ```
+2. **Create Web Service**:
+    - Connect your repo to Render.
+    - Select **Python 3** environment.
+    - **Build Command**: `pip install -r requirements.txt`
+    - **Start Command**: `uvicorn src.server.app:app --host 0.0.0.0 --port $PORT`
+3. **Environment Variables**:
+   Add these in the Render Dashboard:
+    - `GEMINI_API_KEY`: Your Google Cloud API Key.
+    - `LLM_MODELS`: `gemini-2.0-flash-lite,gemma-3-27b-it` (or your preferred models).
+
+---
+
 ## 📂 Project Structure
 
 - `src/retrieval/`: **Core Engine**
