@@ -10,6 +10,9 @@ data/
 
 # *.faiss
 
+# HuggingFace cache (allow .hf_cache to persist for deployment)
+# .hf_cache/
+
 # Environment files
 .env
 
