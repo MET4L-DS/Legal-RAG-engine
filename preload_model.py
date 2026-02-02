@@ -1,11 +1,10 @@
 # Pre-download the SentenceTransformer model during build
-# Cache to a directory that will persist in the deployed container
+# Cache to /app/.hf_cache which persists in the container
 import os
 
-# Set cache directory BEFORE importing transformers/sentence_transformers
-# This ensures the model is saved to a location that persists in the container
-os.environ["HF_HOME"] = os.path.join(os.getcwd(), ".hf_cache")
-os.environ["TRANSFORMERS_CACHE"] = os.path.join(os.getcwd(), ".hf_cache")
+# Set cache directory to absolute path (matches Dockerfile ENV)
+os.environ["HF_HOME"] = "/app/.hf_cache"
+os.environ["TRANSFORMERS_CACHE"] = "/app/.hf_cache"
 
 from sentence_transformers import SentenceTransformer
 

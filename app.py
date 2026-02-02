@@ -5,9 +5,10 @@ This file is required by HF Spaces to launch the FastAPI application.
 import os
 import sys
 
-# Set HuggingFace cache to local directory
-os.environ["HF_HOME"] = os.path.join(os.getcwd(), ".hf_cache")
-os.environ["TRANSFORMERS_CACHE"] = os.path.join(os.getcwd(), ".hf_cache")
+# Set HuggingFace cache to /app/.hf_cache to match Dockerfile build path
+hf_cache = os.environ.get("HF_HOME", "/app/.hf_cache")
+os.environ["HF_HOME"] = hf_cache
+os.environ["TRANSFORMERS_CACHE"] = hf_cache
 
 # HF Spaces uses port 7860 by default
 os.environ["PORT"] = "7860"

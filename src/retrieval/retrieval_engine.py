@@ -3,10 +3,11 @@ import os
 import sys
 import logging
 
-# Set HuggingFace cache to project directory BEFORE importing sentence_transformers
-# This ensures we use the model cached during build phase
-os.environ["HF_HOME"] = os.path.join(os.getcwd(), ".hf_cache")
-os.environ["TRANSFORMERS_CACHE"] = os.path.join(os.getcwd(), ".hf_cache")
+# Set HuggingFace cache to /app/.hf_cache to match Dockerfile build path
+# This ensures we use the model cached during Docker build phase
+hf_cache = os.environ.get("HF_HOME", "/app/.hf_cache")
+os.environ["HF_HOME"] = hf_cache
+os.environ["TRANSFORMERS_CACHE"] = hf_cache
 
 import faiss
 import numpy as np
