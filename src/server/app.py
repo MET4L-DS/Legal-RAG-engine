@@ -1,21 +1,20 @@
+import asyncio
 import logging
 import os
 import time
+from contextlib import asynccontextmanager
 from typing import List, Dict, Any, Optional
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
-from ..retrieval.engine import LegalEngine
-
-# 1. Setup Logging
+# 1. Setup Logging FIRST (do this before any other imports that might log)
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("server_debug.log"),
-        logging.StreamHandler()
+        logging.StreamHandler()  # Only stream to stdout for Render
     ]
 )
 logger = logging.getLogger("LegalRAG-Server")
@@ -44,67 +43,84 @@ class LegalResponseModel(BaseModel):
     sources: List[LegalSourceInfo]
     metadata: Dict[str, Any]
 
-# 4. Initialize FastAPI
+# 4. Global State
+engine = None
+engine_loading = False
+engine_error = None
+
+def load_engine_sync():
+    """Synchronously load the engine. Called from background task."""
+    global engine, engine_loading, engine_error
+    try:
+        logger.info("Background: Starting Legal Engine load...")
+        from ..retrieval.engine import LegalEngine
+        engine = LegalEngine()
+        logger.info("Background: Legal Engine loaded successfully!")
+    except Exception as e:
+        logger.error(f"Background: Failed to load engine: {e}", exc_info=True)
+        engine_error = str(e)
+    finally:
+        engine_loading = False
+
+async def load_engine_background():
+    """Run engine loading in a thread pool to not block the event loop."""
+    global engine_loading
+    engine_loading = True
+    loop = asyncio.get_event_loop()
+    await loop.run_in_executor(None, load_engine_sync)
+
+# 5. Lifespan Context Manager (Modern FastAPI approach)
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup: Schedule engine loading but don't await it
+    logger.info("Server starting up. Scheduling engine load in background...")
+    asyncio.create_task(load_engine_background())
+    yield
+    # Shutdown
+    logger.info("Server shutting down.")
+
+# 6. Initialize FastAPI with lifespan
 app = FastAPI(
     title="Legal RAG Engine API",
     description="Backend for high-precision Indian Legal Retrieval and Answer Generation",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan
 )
 
-# 5. Middleware
+# 7. Middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Adjust for production
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# 6. Global State (Legal Engine)
-engine: Optional[LegalEngine] = None
-
-@app.on_event("startup")
-async def startup_event():
-    global engine
-    logger.info("Starting up Legal RAG Engine...")
-    try:
-        engine = LegalEngine()
-        logger.info("Legal Engine initialized successfully.")
-    except Exception as e:
-        logger.error(f"Failed to initialize Legal Engine: {e}", exc_info=True)
-        raise e
-
-# 7. Endpoints
+# 8. Endpoints
 @app.get("/health")
 async def health_check():
+    status = "loading" if engine_loading else ("ready" if engine else "error")
     return {
-        "status": "ok",
-        "components": {
-            "vector_store": "ready" if engine else "not_ready",
-            "llm": "ready"
-        }
+        "status": "ok" if engine else "starting",
+        "engine_status": status,
+        "error": engine_error
     }
 
 @app.post("/api/v1/query", response_model=LegalResponseModel)
 async def process_query(request: QueryRequest):
+    if engine_loading:
+        raise HTTPException(status_code=503, detail="Legal Engine is still loading. Please wait.")
     if not engine:
-        logger.error("Query received but Engine is not initialized.")
-        raise HTTPException(status_code=503, detail="Legal Engine is not ready.")
+        raise HTTPException(status_code=503, detail=f"Legal Engine failed to load: {engine_error}")
     
     start_time = time.time()
-    logger.debug(f"Received query: {request.query}")
+    logger.info(f"Received query: {request.query}")
     
     try:
-        # Execute Full RAG cycle
         result = engine.query(request.query)
-        
-        # Prepare response
-        # Note: final_output mapped into LegalResponseModel
         raw_response = result["response"]
         
-        # Map sources
         sources = []
-        # Result context_used has citations, but we want full Source details from response sources
         for s in raw_response.get("sources", []):
             sources.append(LegalSourceInfo(
                 law=s.get("law", "Unknown"),
@@ -126,7 +142,6 @@ async def process_query(request: QueryRequest):
         
         elapsed_time = time.time() - start_time
         logger.info(f"Query processed in {elapsed_time:.2f}s")
-        logger.debug(f"Intent detected: {result['intent'].get('category')}")
         
         return response
 
@@ -136,6 +151,6 @@ async def process_query(request: QueryRequest):
 
 if __name__ == "__main__":
     import uvicorn
-    # Use environment port or default to 8000
     port = int(os.getenv("PORT", 8000))
+    logger.info(f"Starting server on port {port}...")
     uvicorn.run(app, host="0.0.0.0", port=port)
