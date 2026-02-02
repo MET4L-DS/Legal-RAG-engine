@@ -3,7 +3,7 @@ import os
 from typing import List, Dict, Any
 from pathlib import Path
 from .classifier import QueryClassifier, QueryIntent
-from test_retrieval import RetrievalEngine
+from .retrieval_engine import RetrievalEngine
 
 class LegalOrchestrator:
     def __init__(self, store_dir: str = "data/vector_store"):
