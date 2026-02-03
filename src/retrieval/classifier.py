@@ -37,8 +37,9 @@ class QueryClassifier:
         self.client = genai.Client(api_key=api_key)
         
         # Default model list if not provided
-        default_models = [ "gemma-3-27b-it", "gemini-2.5-flash-lite", "gemma-3-12b-it"]
-        env_models = os.getenv("LLM_MODELS")
+        default_models = [ "gemma-3-1b-it", "gemma-3-2b-it" , "gemma-3-4b-it" ]
+        # Prioritize CLASSIFIER_MODELS, then fallback to LLM_MODELS
+        env_models = os.getenv("CLASSIFIER_MODELS") or os.getenv("LLM_MODELS")
         if env_models:
             self.model_ids = [m.strip() for m in env_models.split(",")]
         else:

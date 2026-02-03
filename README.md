@@ -119,13 +119,17 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
-### 2. Environment Variables
+### 1. Environment Variables
 
-Create `.env`:
+Create a `.env` file in the root directory:
 
-```ini
-GEMINI_API_KEY=your_key_here
+```env
+GEMINI_API_KEY=your_google_api_key
 EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+
+# Highly recommended for performance:
+CLASSIFIER_MODELS=gemma-3-1b-it,gemma-3-2b-it,gemma-3-4b-it
+RESPONDER_MODELS=gemma-3-4b-it,gemini-2.5-flash-lite,gemma-3-12b-it
 ```
 
 ### 3. Ingest Data (First Run)
