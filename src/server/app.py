@@ -28,10 +28,12 @@ class QueryRequest(BaseModel):
     stream: bool = Field(default=False)
 
 class LegalSourceInfo(BaseModel):
+    uid: str
     law: str
     section: str
     citation: str
     text: str
+    chip_label: str
 
 class LegalResponseModel(BaseModel):
     answer: str
@@ -39,7 +41,6 @@ class LegalResponseModel(BaseModel):
     immediate_action_plan: List[str] = []
     legal_basis: str
     procedure_steps: List[str]
-    important_notes: List[str]
     sources: List[LegalSourceInfo]
     metadata: Dict[str, Any]
 
@@ -123,10 +124,12 @@ async def process_query(request: QueryRequest):
         sources = []
         for s in raw_response.get("sources", []):
             sources.append(LegalSourceInfo(
+                uid=s.get("uid", "UNKNOWN"),
                 law=s.get("law", "Unknown"),
                 section=s.get("section", "Unknown"),
                 citation=s.get("citation", "Unknown"),
-                text=s.get("content", "")
+                text=s.get("content", ""),
+                chip_label=s.get("chip_label", "[UNKNOWN]")
             ))
             
         response = LegalResponseModel(
@@ -135,7 +138,6 @@ async def process_query(request: QueryRequest):
             immediate_action_plan=raw_response.get("immediate_action_plan", []),
             legal_basis=raw_response.get("legal_basis", ""),
             procedure_steps=raw_response.get("procedure_steps", []),
-            important_notes=raw_response.get("important_notes", []),
             sources=sources,
             metadata=result.get("intent", {})
         )

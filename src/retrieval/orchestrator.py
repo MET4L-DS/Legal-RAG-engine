@@ -26,7 +26,7 @@ class LegalOrchestrator:
             if law and section and unit_type == "section":
                 self.section_lookup[(law, section)] = chunk
 
-    def orchestrate(self, query: str, k: int = 5) -> Dict[str, Any]:
+    def orchestrate(self, query: str, k: int = 8) -> Dict[str, Any]:
         # 1. Classify Intent
         print(f"Classifying query: {query}")
         try:
@@ -64,7 +64,7 @@ class LegalOrchestrator:
         # 3. Apply Priority Rules (Statute > SOP)
         prioritized = self.prioritize_results(all_raw_results, intent)
         
-        # 4. Parent Expansion
+        # 4. Parent Expansion - return all prioritized results up to k
         expanded_results = self.expand_results(prioritized[:k])
         
         return {
@@ -89,11 +89,17 @@ class LegalOrchestrator:
                 
                 # Boost NALSA (Compensation) moderately, but less than Procedure if it's a procedural query
                 if "NALSA" in law:
-                    boost += 0.2 if is_police_task else 0.4
+                    # Don't boost NALSA for punishment queries - it's not relevant
+                    if intent.category != "punishment":
+                        boost += 0.2 if is_police_task else 0.4
 
                 # Penalize BNS (punishment) slightly so procedure ranks higher
+                # BUT: NOT for punishment queries - BNS is exactly what we need!
                 if "BNS" in law and "BNSS" not in law:
-                    boost -= 0.2
+                    if intent.category == "punishment":
+                        boost += 0.5  # BOOST for punishment queries
+                    else:
+                        boost -= 0.2  # Penalize for procedural queries
             
             # Boost if law is mentioned in key entities
             for entity in intent.key_entities:
