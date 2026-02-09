@@ -25,23 +25,68 @@ class LegalResponse(BaseModel):
     sources: List[LegalSource] = Field(..., description="Exact sources used from the provided context.")
     disclaimer: str = Field(..., description="Mandatory non-advisory legal disclaimer.")
 
-def generate_source_uid(law: str, section: str) -> str:
-    """Generate unique deterministic ID for a source."""
+def generate_source_uid(law: str, section: str, citation: str = "") -> str:
+    """Generate unique deterministic ID for a source.
+    
+    For documents with sections (BNS, BNSS), use law_section format.
+    For documents without sections (SOP, NALSA), extract identifier from citation.
+    """
+    import re
     law_clean = law.upper().strip()
-    section_clean = section.strip() if section and section != "None" else "GENERAL"
-    uid = f"{law_clean}_{section_clean}"
+    
+    # If section exists and is not None, use it
+    if section and section.strip() and section.strip() != "None":
+        section_clean = section.strip()
+        uid = f"{law_clean}_{section_clean}"
+    else:
+        # Extract identifier from citation (Step 01, Clause 13, Sub-section, etc.)
+        identifier = "GENERAL"
+        if citation:
+            # Look for Step N, Clause N, Sub-section N patterns
+            step_match = re.search(r'Step\s*(\d+)', citation, re.IGNORECASE)
+            clause_match = re.search(r'Clause\s*(\d+)', citation, re.IGNORECASE)
+            subsection_match = re.search(r'Sub-section\s*\((\d+)\)', citation, re.IGNORECASE)
+            
+            if step_match:
+                identifier = f"STEP_{step_match.group(1)}"
+            elif clause_match:
+                identifier = f"CLAUSE_{clause_match.group(1)}"
+            elif subsection_match:
+                identifier = f"SUBSEC_{subsection_match.group(1)}"
+            else:
+                # Use first few words of citation as fallback
+                words = re.sub(r'[^\w\s]', '', citation).split()[:3]
+                if words:
+                    identifier = "_".join(words).upper()[:20]
+        
+        uid = f"{law_clean}_{identifier}"
+    
     # Clean up special characters
     uid = uid.replace(" ", "_").replace("-", "_").replace("(", "").replace(")", "").replace(".", "_")
     return uid
 
-def generate_chip_label(law: str, section: str) -> str:
+def generate_chip_label(law: str, section: str, citation: str = "") -> str:
     """Generate display label for citation chip."""
+    import re
     law_clean = law.upper().strip()
-    if section and section != "None":
+    
+    if section and section.strip() and section.strip() != "None":
         # Extract main section number (e.g., "48" from "48" or "48(2)")
         section_main = section.split("(")[0].strip()
         return f"[{law_clean}:{section_main}]"
+    else:
+        # For SOP/NALSA without sections, use Step/Clause from citation
+        if citation:
+            step_match = re.search(r'Step\s*(\d+)', citation, re.IGNORECASE)
+            clause_match = re.search(r'Clause\s*(\d+)', citation, re.IGNORECASE)
+            
+            if step_match:
+                return f"[{law_clean}:S{step_match.group(1)}]"  # [SOP:S01]
+            elif clause_match:
+                return f"[{law_clean}:C{clause_match.group(1)}]"  # [NALSA:C13]
+    
     return f"[{law_clean}]"
+
 
 class LegalResponder:
     def __init__(self, model_ids: Optional[List[str]] = None):
@@ -104,9 +149,10 @@ class LegalResponder:
             law = metadata.get('law', 'UNKNOWN')
             section = metadata.get('section', 'None')
             
-            # Generate unique ID and chip label
-            uid = generate_source_uid(law, section)
-            chip_label = generate_chip_label(law, section)
+            # Generate unique ID and chip label (pass header for SOP/NALSA disambiguation)
+            uid = generate_source_uid(law, section, header)
+            chip_label = generate_chip_label(law, section, header)
+
             
             # Store for later use in source generation
             c['uid'] = uid

@@ -62,7 +62,7 @@ class LegalOrchestrator:
                     seen_chunks.add(chunk_id)
 
         # 3. Apply Priority Rules (Statute > SOP)
-        prioritized = self.prioritize_results(all_raw_results, intent)
+        prioritized = self.prioritize_results(all_raw_results, intent, query)
         
         # 4. Parent Expansion - return all prioritized results up to k
         expanded_results = self.expand_results(prioritized[:k])
@@ -72,10 +72,31 @@ class LegalOrchestrator:
             "results": expanded_results
         }
 
-    def prioritize_results(self, results: List[Dict], intent: QueryIntent) -> List[Dict]:
+    def prioritize_results(self, results: List[Dict], intent: QueryIntent, query: str = "") -> List[Dict]:
+        # Extract crime/topic from query entities AND query text for title matching
+        query_topics = set(e.lower() for e in intent.key_entities)
+        query_lower = query.lower()
+        
+        # Define crime type categories for title relevance matching
+        crime_types = {
+            "rape": ["rape", "sexual assault", "sexual offence", "molest"],
+            "theft": ["theft", "stolen", "robbery", "burglary", "extortion", "phone stolen", "phone theft"],
+            "assault": ["assault", "hurt", "battery", "attack", "beaten", "hit me"],
+            "murder": ["murder", "homicide", "death", "killing", "killed"],
+            "fraud": ["fraud", "cheating", "forgery", "deception", "scam"],
+        }
+        
+        # Detect query's crime type from both entities AND query text
+        query_crime = None
+        for crime, keywords in crime_types.items():
+            if any(kw in " ".join(query_topics) or kw in query_lower or kw in intent.model_dump().get('sub_intent', '').lower() for kw in keywords):
+                query_crime = crime
+                break
+        
         for res in results:
             meta = res["chunk"].get("metadata", {})
             law = str(meta.get("law", "")).upper()
+            header = res["chunk"].get("canonical_header", "").lower()
             
             boost = 1.0
             
@@ -109,6 +130,16 @@ class LegalOrchestrator:
             # Penalize SOP slightly if primary legislation is needed for definitions
             if intent.category in ["definition", "punishment"] and "SOP" in law:
                 boost -= 0.3
+            
+            # TITLE RELEVANCE PENALTY: Demote sources with mismatched crime types
+            # If query is about theft but source is "SOP on Rape", heavily penalize
+            if query_crime:
+                for other_crime, keywords in crime_types.items():
+                    if other_crime != query_crime:
+                        # Check if header contains a different crime type
+                        if any(kw in header for kw in keywords):
+                            boost -= 0.6  # Heavy penalty for mismatched crime type
+                            break
             
             res["score"] *= boost
             
